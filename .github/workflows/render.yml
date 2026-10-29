@@ -1,0 +1,108 @@
+name: Render episode
+# Triggered by committing cities/<slug>/render.json (or by hand). Splits the video into parallel chunks
+# (up to 20 machines at once), joins them, adds music, and uploads the English version to YouTube as
+# private + scheduled for the next free slot in config/schedule.json. Both languages are kept as a
+# downloadable artifact for 30 days.
+on:
+  push:
+    branches: [main]
+    paths: ['cities/*/render.json']
+  workflow_dispatch:
+    inputs:
+      slug: {description: 'city slug', required: true}
+      upload: {description: 'upload to YouTube', type: boolean, default: true}
+concurrency:
+  group: render-${{ github.event.inputs.slug || github.sha }}
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      slug: ${{ steps.p.outputs.slug }}
+      matrix: ${{ steps.p.outputs.matrix }}
+      upload: ${{ steps.p.outputs.upload }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - id: p
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then S="${{ github.event.inputs.slug }}"; U="${{ github.event.inputs.upload }}"
+          else S=$(git diff --name-only HEAD~1 HEAD -- 'cities/*/render.json' | head -1 | cut -d/ -f2)
+               U=$(python3 -c "import json;print(str(json.load(open('cities/$S/render.json')).get('upload', True)).lower())"); fi
+          test -f "cities/$S/city.json" || { echo "no city $S"; exit 1; }
+          python3 tools/plan.py "$S" > plan.json; cat plan.json
+          echo "slug=$S" >> "$GITHUB_OUTPUT"; echo "upload=$U" >> "$GITHUB_OUTPUT"
+          echo "matrix=$(python3 -c 'import json;print(json.dumps(json.load(open("plan.json"))["chunks"]))')" >> "$GITHUB_OUTPUT"
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        chunk: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - name: Map
+        run: python3 tools/prepare_geo.py cities/${{ needs.plan.outputs.slug }} --if-needed
+      - name: Render frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }}
+        run: python3 engine/render.py chunk ${{ needs.plan.outputs.slug }} chunks --start ${{ matrix.chunk.start }} --end ${{ matrix.chunk.end }}
+      - name: Thumbnail
+        if: matrix.chunk.start == 0
+        run: python3 engine/render.py thumb ${{ needs.plan.outputs.slug }} chunks
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.chunk.start }}
+          path: chunks/*
+          retention-days: 2
+          compression-level: 0
+  assemble:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          pip install -q numpy scipy requests
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'chunk-*', path: chunks, merge-multiple: true}
+      - name: Assemble
+        run: python3 tools/assemble.py ${{ needs.plan.outputs.slug }} chunks out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: episode-${{ needs.plan.outputs.slug }}
+          path: out/
+          retention-days: 30
+          compression-level: 0
+      - name: Upload to YouTube (English)
+        if: needs.plan.outputs.upload == 'true'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python3 tools/yt_api.py upload out/en . | tee upload.log
+      - name: Record result
+        if: always()
+        run: |
+          S=${{ needs.plan.outputs.slug }}
+          python3 - <<EOF
+          import json, os, datetime
+          p = 'cities/$S/status.json'
+          st = json.load(open(p)) if os.path.exists(p) else {}
+          st['rendered'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+          st['run'] = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          st['upload_log'] = open('upload.log').read()[-1500:] if os.path.exists('upload.log') else None
+          json.dump(st, open(p, 'w'), indent=1)
+          EOF
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          git add uploads.json cities/$S/status.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "rendered: $S"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done

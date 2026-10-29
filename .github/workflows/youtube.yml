@@ -1,0 +1,36 @@
+name: YouTube actions
+# - "whoami": checks which channel the token belongs to (run once after setting the secrets)
+# - publish requests: committing requests/publish/<name>.json = {"video_ids": [...], "at": "<UTC ISO, optional>"}
+on:
+  push:
+    branches: [main]
+    paths: ['requests/publish/*.json']
+  workflow_dispatch:
+    inputs:
+      action: {description: 'whoami or publish', default: 'whoami'}
+concurrency:
+  group: youtube
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  yt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - name: Run
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.action }}" = "whoami" ]; then python3 tools/yt_api.py whoami | tee whoami.txt; else python3 tools/yt_api.py publish .; fi
+      - name: Commit
+        run: |
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          [ -f whoami.txt ] && cp whoami.txt config/whoami.txt
+          git add -A requests config/whoami.txt 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "youtube: ${{ github.event.inputs.action || 'publish' }}"
+          for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done

@@ -1,0 +1,10 @@
+{
+  "name": "dust-to-downtown",
+  "private": true,
+  "description": "City history 3D timelapse engine",
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/cinzel": "^5.1.0",
+    "@fontsource/cormorant-garamond": "^5.1.0"
+  }
+}

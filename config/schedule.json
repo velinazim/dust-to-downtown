@@ -1,0 +1,4 @@
+{
+  "long":  {"auto": true, "slots_utc": ["TUE 15:00", "FRI 15:00"], "min_lead_hours": 3},
+  "short": {"auto": true, "slots_utc": ["MON 16:00", "WED 16:00", "THU 16:00", "SAT 16:00", "SUN 16:00"], "min_lead_hours": 3}
+}

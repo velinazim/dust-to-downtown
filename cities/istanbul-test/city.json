@@ -1,0 +1,1210 @@
+{
+ "slug": "istanbul-test",
+ "name": {
+  "en": "Istanbul",
+  "tr": "İstanbul"
+ },
+ "intro": {
+  "en": "2,700 Years in 45 Seconds",
+  "tr": "45 Saniyede 2.700 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "seed": 1453,
+ "geo": {
+  "bbox": [
+   40.93462840269864,
+   28.79292292565975,
+   41.16072133593792,
+   29.17387707434025
+  ],
+  "origin": [
+   41.0115,
+   28.9834
+  ],
+  "cell_m": 60,
+  "manual": true
+ },
+ "view": {
+  "azimuth_deg": 7,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": -680,
+   "to": -500,
+   "seconds": 9,
+   "era": {
+    "en": "Archaic Greek",
+    "tr": "Arkaik Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Byzantion Is Founded",
+    "tr": "Byzantion Kuruluyor"
+   },
+   "sub": {
+    "en": "c. 667 BC: colonists from Megara settle the tip of the peninsula",
+    "tr": "MÖ ~667: Megaralı koloniciler yarımadanın ucuna yerleşir"
+   },
+   "camera": {
+    "center": [
+     41.010596,
+     28.979829
+    ],
+    "dist_km": 4.2
+   },
+   "chapter": "Byzantion"
+  },
+  {
+   "from": 150,
+   "to": 210,
+   "seconds": 6,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Byzantium",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Severus Rebuilds",
+    "tr": "Severus Yeniden Kuruyor"
+   },
+   "sub": {
+    "en": "AD 196–200: the city is razed, then rebuilt larger with a Hippodrome",
+    "tr": "MS 196–200: yıkılan şehir Hipodromla birlikte daha büyük kurulur"
+   },
+   "camera": {
+    "center": [
+     41.010415,
+     28.976257
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 324,
+   "to": 380,
+   "seconds": 6,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "New Rome",
+    "tr": "Yeni Roma"
+   },
+   "sub": {
+    "en": "AD 330: Constantine makes it his capital and pushes the walls 3 km west",
+    "tr": "MS 330: Konstantin başkenti buraya taşır, surları 3 km batıya kaydırır"
+   },
+   "camera": {
+    "center": [
+     41.0115,
+     28.965543
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": "New Rome"
+  },
+  {
+   "from": 400,
+   "to": 450,
+   "seconds": 6,
+   "era": {
+    "en": "East Roman",
+    "tr": "Doğu Roma"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Theodosian Walls",
+    "tr": "Theodosius Surları"
+   },
+   "sub": {
+    "en": "AD 413: moat, double wall and nearly a hundred towers",
+    "tr": "MS 413: hendek, çift sur ve yüze yakın kule"
+   },
+   "population": [
+    300000,
+    330000
+   ],
+   "camera": {
+    "center": [
+     41.012857,
+     28.956019
+    ],
+    "dist_km": 10.2
+   }
+  },
+  {
+   "from": 520,
+   "to": 540,
+   "seconds": 6,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "sub": {
+    "en": "AD 537: Justinian's great dome rises over a city of half a million",
+    "tr": "MS 537: Justinianus’un dev kubbesi yarım milyonluk şehrin üstünde yükselir"
+   },
+   "population": [
+    420000,
+    500000
+   ],
+   "camera": {
+    "center": [
+     41.014213,
+     28.955424
+    ],
+    "dist_km": 11.6
+   }
+  },
+  {
+   "from": 560,
+   "to": 1440,
+   "seconds": 3,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": null,
+   "sub": null,
+   "camera": {
+    "center": [
+     41.015117,
+     28.954828
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1440,
+   "to": 1453,
+   "seconds": 7,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "İstanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Conquest",
+    "tr": "Fetih"
+   },
+   "sub": {
+    "en": "29 May 1453: Mehmed II takes a city shrunk to a cluster of villages",
+    "tr": "29 Mayıs 1453: II. Mehmed köy kümelerine dönmüş şehri alır"
+   },
+   "population": [
+    45000,
+    50000
+   ],
+   "camera": {
+    "center": [
+     41.01557,
+     28.956019
+    ],
+    "dist_km": 12.4
+   },
+   "chapter": "1453"
+  }
+ ],
+ "walls": [
+  {
+   "name": "Archaic wall",
+   "path": [
+    [
+     41.017288,
+     28.9784
+    ],
+    [
+     41.013309,
+     28.976257
+    ],
+    [
+     41.007883,
+     28.976019
+    ],
+    [
+     41.002456,
+     28.977686
+    ]
+   ],
+   "built": -660,
+   "removed": 196,
+   "height": "low",
+   "towers_m": 180
+  },
+  {
+   "name": "Archaic sea wall",
+   "path": [
+    [
+     41.017288,
+     28.9784
+    ],
+    [
+     41.01616,
+     28.979884
+    ],
+    [
+     41.012198,
+     28.984869
+    ],
+    [
+     41.008011,
+     28.985995
+    ],
+    [
+     41.003677,
+     28.981019
+    ],
+    [
+     41.002456,
+     28.977686
+    ]
+   ],
+   "built": -640,
+   "removed": 196,
+   "height": "low",
+   "towers_m": 240
+  },
+  {
+   "name": "Severan wall",
+   "path": [
+    [
+     41.020544,
+     28.968519
+    ],
+    [
+     41.015117,
+     28.966138
+    ],
+    [
+     41.007883,
+     28.965543
+    ],
+    [
+     40.999924,
+     28.967328
+    ]
+   ],
+   "built": 196,
+   "removed": 330,
+   "height": "mid",
+   "towers_m": 180
+  },
+  {
+   "name": "Severan sea wall",
+   "path": [
+    [
+     41.020544,
+     28.968519
+    ],
+    [
+     41.018884,
+     28.972805
+    ],
+    [
+     41.016183,
+     28.979664
+    ],
+    [
+     41.012304,
+     28.98479
+    ],
+    [
+     41.007972,
+     28.985976
+    ],
+    [
+     41.00364,
+     28.980823
+    ],
+    [
+     41.000952,
+     28.9728
+    ],
+    [
+     40.999924,
+     28.967328
+    ]
+   ],
+   "built": 200,
+   "removed": 330,
+   "height": "low",
+   "towers_m": 240
+  },
+  {
+   "name": "Constantinian wall",
+   "path": [
+    [
+     41.028864,
+     28.947686
+    ],
+    [
+     41.021448,
+     28.943519
+    ],
+    [
+     41.0115,
+     28.941733
+    ],
+    [
+     41.002456,
+     28.942328
+    ],
+    [
+     40.99495,
+     28.944114
+    ]
+   ],
+   "built": 328,
+   "removed": 1200,
+   "height": "mid",
+   "towers_m": 150
+  },
+  {
+   "name": "Theodosian walls",
+   "path": [
+    [
+     41.044238,
+     28.917328
+    ],
+    [
+     41.035014,
+     28.913757
+    ],
+    [
+     41.025066,
+     28.911376
+    ],
+    [
+     41.015117,
+     28.910185
+    ],
+    [
+     41.004265,
+     28.90959
+    ],
+    [
+     40.995221,
+     28.90959
+    ],
+    [
+     40.987715,
+     28.90959
+    ]
+   ],
+   "built": 408,
+   "height": "high",
+   "towers_m": 70,
+   "double": true,
+   "double_side": -1,
+   "moat": true
+  },
+  {
+   "name": "Sea walls",
+   "path": [
+    [
+     41.044238,
+     28.917328
+    ],
+    [
+     41.039694,
+     28.926535
+    ],
+    [
+     41.034698,
+     28.936013
+    ],
+    [
+     41.029694,
+     28.945445
+    ],
+    [
+     41.025159,
+     28.954763
+    ],
+    [
+     41.021638,
+     28.964024
+    ],
+    [
+     41.019041,
+     28.97225
+    ],
+    [
+     41.016405,
+     28.979361
+    ],
+    [
+     41.012404,
+     28.98471
+    ],
+    [
+     41.007945,
+     28.985907
+    ],
+    [
+     41.0035,
+     28.980579
+    ],
+    [
+     41.000867,
+     28.972307
+    ],
+    [
+     40.999598,
+     28.962911
+    ],
+    [
+     40.997392,
+     28.952447
+    ],
+    [
+     40.994647,
+     28.941929
+    ],
+    [
+     40.991889,
+     28.931312
+    ],
+    [
+     40.989591,
+     28.920651
+    ],
+    [
+     40.987715,
+     28.90959
+    ]
+   ],
+   "built": 439,
+   "height": "low",
+   "towers_m": 210
+  }
+ ],
+ "districts": [
+  {
+   "name": "Byzantion",
+   "style": "ancient",
+   "poly": [
+    [
+     41.017288,
+     28.9784
+    ],
+    [
+     41.013309,
+     28.976257
+    ],
+    [
+     41.007883,
+     28.976019
+    ],
+    [
+     41.002456,
+     28.977686
+    ],
+    [
+     41.003361,
+     28.981019
+    ],
+    [
+     41.007883,
+     28.986376
+    ],
+    [
+     41.012404,
+     28.985186
+    ],
+    [
+     41.016474,
+     28.979829
+    ]
+   ],
+   "from": -660,
+   "to": -520,
+   "density": 0.55,
+   "grow_from": [
+    41.010143,
+    28.983995
+   ]
+  },
+  {
+   "name": "Severan city",
+   "style": "roman",
+   "poly": [
+    [
+     41.020544,
+     28.968519
+    ],
+    [
+     41.015117,
+     28.966138
+    ],
+    [
+     41.007883,
+     28.965543
+    ],
+    [
+     40.999924,
+     28.967328
+    ],
+    [
+     41.000648,
+     28.972686
+    ],
+    [
+     41.003361,
+     28.981019
+    ],
+    [
+     41.007883,
+     28.986376
+    ],
+    [
+     41.012404,
+     28.985186
+    ],
+    [
+     41.016474,
+     28.979829
+    ],
+    [
+     41.019187,
+     28.972686
+    ]
+   ],
+   "from": 196,
+   "to": 210,
+   "density": 0.75,
+   "grow_from": [
+    41.010143,
+    28.978638
+   ]
+  },
+  {
+   "name": "Constantinian city",
+   "style": "roman",
+   "poly": [
+    [
+     41.028864,
+     28.947686
+    ],
+    [
+     41.021448,
+     28.943519
+    ],
+    [
+     41.0115,
+     28.941733
+    ],
+    [
+     41.002456,
+     28.942328
+    ],
+    [
+     40.99495,
+     28.944114
+    ],
+    [
+     40.99703,
+     28.952447
+    ],
+    [
+     40.999291,
+     28.963162
+    ],
+    [
+     41.000648,
+     28.972686
+    ],
+    [
+     41.003361,
+     28.981019
+    ],
+    [
+     41.007883,
+     28.986376
+    ],
+    [
+     41.012404,
+     28.985186
+    ],
+    [
+     41.016474,
+     28.979829
+    ],
+    [
+     41.019187,
+     28.972686
+    ],
+    [
+     41.0219,
+     28.964352
+    ],
+    [
+     41.025518,
+     28.954828
+    ]
+   ],
+   "from": 330,
+   "to": 375,
+   "density": 0.72,
+   "grow_from": [
+    41.009691,
+    28.967924
+   ]
+  },
+  {
+   "name": "Theodosian city",
+   "style": "roman",
+   "poly": [
+    [
+     41.044238,
+     28.917328
+    ],
+    [
+     41.035014,
+     28.913757
+    ],
+    [
+     41.025066,
+     28.911376
+    ],
+    [
+     41.015117,
+     28.910185
+    ],
+    [
+     41.004265,
+     28.90959
+    ],
+    [
+     40.995221,
+     28.90959
+    ],
+    [
+     40.987715,
+     28.90959
+    ],
+    [
+     40.989343,
+     28.920304
+    ],
+    [
+     40.991604,
+     28.931019
+    ],
+    [
+     40.994317,
+     28.941733
+    ],
+    [
+     40.99703,
+     28.952447
+    ],
+    [
+     40.999291,
+     28.963162
+    ],
+    [
+     41.000648,
+     28.972686
+    ],
+    [
+     41.003361,
+     28.981019
+    ],
+    [
+     41.007883,
+     28.986376
+    ],
+    [
+     41.012404,
+     28.985186
+    ],
+    [
+     41.016474,
+     28.979829
+    ],
+    [
+     41.019187,
+     28.972686
+    ],
+    [
+     41.0219,
+     28.964352
+    ],
+    [
+     41.025518,
+     28.954828
+    ],
+    [
+     41.03004,
+     28.945305
+    ],
+    [
+     41.035014,
+     28.935781
+    ],
+    [
+     41.039988,
+     28.926257
+    ]
+   ],
+   "from": 410,
+   "to": 535,
+   "density": 0.55,
+   "grow_from": [
+    41.0115,
+    28.945305
+   ],
+   "fade": [
+    600,
+    1430,
+    0.15
+   ]
+  },
+  {
+   "name": "Galata",
+   "style": "medieval",
+   "poly": [
+    [
+     41.023257,
+     28.977448
+    ],
+    [
+     41.020996,
+     28.990543
+    ],
+    [
+     41.025066,
+     28.994114
+    ],
+    [
+     41.029135,
+     28.985781
+    ],
+    [
+     41.026874,
+     28.977448
+    ]
+   ],
+   "from": 1300,
+   "to": 1440,
+   "density": 0.8,
+   "grow_from": [
+    41.025066,
+    28.986376
+   ]
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "temple",
+   "name": {
+    "en": "Acropolis",
+    "tr": "Akropolis"
+   },
+   "at": [
+    41.010415,
+    28.983638
+   ],
+   "built": -650,
+   "removed": 1460,
+   "rot_deg": -17
+  },
+  {
+   "type": "circus",
+   "name": {
+    "en": "Hippodrome",
+    "tr": "Hipodrom"
+   },
+   "at": [
+    41.005893,
+    28.973281
+   ],
+   "built": 200,
+   "rot_deg": -37
+  },
+  {
+   "type": "forum",
+   "name": {
+    "en": "Forum of Constantine",
+    "tr": "Konstantin Forumu"
+   },
+   "at": [
+    41.007702,
+    28.963757
+   ],
+   "built": 330,
+   "scale": 1.4
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Great Palace",
+    "tr": "Büyük Saray"
+   },
+   "at": [
+    41.002728,
+    28.974471
+   ],
+   "built": 335,
+   "rot_deg": -12
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "at": [
+    41.009691,
+    28.977448
+   ],
+   "built": 532,
+   "scale": 1.5,
+   "colors": {
+    "wall": "#d9a47c"
+   },
+   "rise_s": 2.0,
+   "additions": [
+    {
+     "type": "minarets",
+     "year": 1453,
+     "count": 4,
+     "spread_m": 70,
+     "height_m": 75
+    }
+   ]
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Galata Tower",
+    "tr": "Galata Kulesi"
+   },
+   "at": [
+    41.025518,
+    28.986376
+   ],
+   "built": 1348,
+   "scale": 1.5
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Fatih Mosque",
+    "tr": "Fatih Camii"
+   },
+   "at": [
+    41.018283,
+    28.955424
+   ],
+   "built": 1453,
+   "scale": 1.5,
+   "colors": {
+    "minarets": 2
+   }
+  }
+ ],
+ "roads": [
+  {
+   "name": "Mese",
+   "path": [
+    [
+     41.008335,
+     28.973876
+    ],
+    [
+     41.007702,
+     28.964352
+    ],
+    [
+     41.009691,
+     28.954828
+    ],
+    [
+     41.006978,
+     28.945305
+    ],
+    [
+     41.000648,
+     28.929828
+    ],
+    [
+     40.994317,
+     28.910185
+    ]
+   ],
+   "from": 330,
+   "kind": "roman",
+   "width_m": 28
+  },
+  {
+   "name": "Mese north",
+   "path": [
+    [
+     41.009691,
+     28.954828
+    ],
+    [
+     41.018735,
+     28.935781
+    ],
+    [
+     41.022352,
+     28.912566
+    ]
+   ],
+   "from": 410,
+   "kind": "roman",
+   "width_m": 24
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     41.033205,
+     28.905423
+    ],
+    [
+     40.995221,
+     28.907209
+    ],
+    [
+     40.995221,
+     28.892923
+    ],
+    [
+     41.033205,
+     28.892923
+    ]
+   ],
+   "from": 1446,
+   "to": 1460,
+   "count": 260
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    41.01557,
+    28.910543
+   ],
+   "from": 1447,
+   "to": 1460
+  },
+  {
+   "at": [
+    41.008335,
+    28.90959
+   ],
+   "from": 1448,
+   "to": 1460
+  },
+  {
+   "at": [
+    41.025518,
+    28.912566
+   ],
+   "from": 1449,
+   "to": 1460
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "Chalcedon",
+    "tr": "Khalkedon"
+   },
+   "at": [
+    40.990699,
+    29.021495
+   ],
+   "kind": "place",
+   "to": 200
+  },
+  {
+   "text": {
+    "en": "SEA OF MARMARA",
+    "tr": "MARMARA DENİZİ"
+   },
+   "at": [
+    40.987986,
+    28.973876
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "GOLDEN HORN",
+    "tr": "HALİÇ"
+   },
+   "at": [
+    41.026151,
+    28.958995
+   ],
+   "kind": "water",
+   "to": 330
+  },
+  {
+   "text": {
+    "en": "GOLDEN HORN",
+    "tr": "HALİÇ"
+   },
+   "at": [
+    41.035466,
+    28.938757
+   ],
+   "kind": "water",
+   "from": 330
+  },
+  {
+   "text": {
+    "en": "BOSPHORUS",
+    "tr": "BOĞAZ"
+   },
+   "at": [
+    41.019639,
+    29.005424
+   ],
+   "kind": "water",
+   "to": 324
+  },
+  {
+   "text": {
+    "en": "BOSPHORUS",
+    "tr": "BOĞAZ"
+   },
+   "at": [
+    41.051292,
+    29.018519
+   ],
+   "kind": "water",
+   "from": 324
+  },
+  {
+   "text": {
+    "en": "Hippodrome",
+    "tr": "Hipodrom"
+   },
+   "at": [
+    41.005893,
+    28.973281
+   ],
+   "from": 205,
+   "to": 400
+  },
+  {
+   "text": {
+    "en": "Forum of Constantine",
+    "tr": "Konstantin Forumu"
+   },
+   "at": [
+    41.007702,
+    28.963757
+   ],
+   "from": 332,
+   "to": 430,
+   "lift_m": 150
+  },
+  {
+   "text": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "at": [
+    41.009691,
+    28.977448
+   ],
+   "from": 535,
+   "lift_m": 140
+  },
+  {
+   "text": {
+    "en": "Galata",
+    "tr": "Galata"
+   },
+   "at": [
+    41.025066,
+    28.986376
+   ],
+   "from": 1440,
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "Ottoman camp",
+    "tr": "Osmanlı ordugâhı"
+   },
+   "at": [
+    41.013309,
+    28.900662
+   ],
+   "from": 1447,
+   "dot": false
+  }
+ ],
+ "open_spaces": [],
+ "youtube": {
+  "title": {
+   "en": "Istanbul: 2,700 Years in 45 Seconds (3D)",
+   "tr": "İstanbul: 45 Saniyede 2.700 Yıl (3D)"
+  },
+  "description": {
+   "en": "Test.",
+   "tr": "Test."
+  },
+  "tags": [
+   "istanbul"
+  ],
+  "thumb": {
+   "line1": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "line2": {
+    "en": "2,700 YEARS",
+    "tr": "2.700 YIL"
+   },
+   "line3": {
+    "en": "From Greek colony to Ottoman capital",
+    "tr": "Yunan kolonisinden Osmanlı başkentine"
+   }
+  }
+ },
+ "test": true
+}

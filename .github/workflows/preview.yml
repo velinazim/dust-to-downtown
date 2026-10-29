@@ -1,0 +1,46 @@
+name: Preview (real map + stills)
+# Runs when a city.json changes: builds geo.json from real elevation + OpenStreetMap water (if needed),
+# renders 10 preview stills per language and commits them to cities/<slug>/preview/ for review.
+on:
+  push:
+    branches: [main]
+    paths: ['cities/*/city.json']
+  workflow_dispatch:
+    inputs:
+      slug: {description: 'city slug', required: true}
+concurrency:
+  group: preview
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
+      - id: slugs
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then L="${{ github.event.inputs.slug }}"
+          else L=$(git diff --name-only HEAD~1 HEAD -- 'cities/*/city.json' | cut -d/ -f2 | sort -u | tr '\n' ' '); fi
+          echo "list=$L" >> "$GITHUB_OUTPUT"; echo "cities: $L"
+      - uses: ./.github/actions/setup
+      - name: Geo + validate + stills
+        run: |
+          set -e
+          for s in ${{ steps.slugs.outputs.list }}; do
+            echo "::group::$s"
+            python3 tools/prepare_geo.py cities/$s --if-needed
+            python3 tools/validate.py $s | tee cities/$s/validate.txt
+            rm -rf cities/$s/preview && mkdir -p cities/$s/preview
+            python3 engine/render.py stills $s cities/$s/preview auto --w 1280 --h 720 2>&1 | tee cities/$s/preview/log.txt
+            echo "::endgroup::"
+          done
+      - name: Commit preview
+        run: |
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          git add cities/*/geo.json cities/*/preview cities/*/validate.txt 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -qm "preview: ${{ steps.slugs.outputs.list }}"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done
