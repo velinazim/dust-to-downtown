@@ -140,7 +140,7 @@ window.CHAPTERS = SEG.filter(s => s.chapter).map(s => ({ t: s.t0, title: s.chapt
 
 // ------------------------------------------------------------ camera
 const VIEW = city.view || {};
-const AZ = (VIEW.azimuth_deg ?? 0) * Math.PI / 180, PITCH = (VIEW.pitch_deg ?? 46) * Math.PI / 180;
+const AZ = (+(Q.get('az') ?? VIEW.azimuth_deg ?? 0)) * Math.PI / 180, PITCH = (+(Q.get('pitch') ?? VIEW.pitch_deg ?? 46)) * Math.PI / 180;
 const VIEW_DIR = new THREE.Vector3(Math.sin(AZ) * Math.cos(PITCH), Math.sin(PITCH), Math.cos(AZ) * Math.cos(PITCH)).normalize();
 const CAMK = []; { let prev = null; for (const s of SEG) { const c = s.camera || prev; if (!c) continue; prev = c; const [x, z] = ll(c.center); CAMK.push([s.t0 + s.seconds * 0.5, x, z, c.dist_km]); } }
 if (CAMK.length) { CAMK.unshift([0, CAMK[0][1], CAMK[0][2], CAMK[0][3]]); CAMK.push([DUR, ...CAMK[CAMK.length - 1].slice(1)]); }
@@ -153,8 +153,10 @@ function camAt(t) {
 }
 const camera = new THREE.PerspectiveCamera(VIEW.fov ?? 34, W / H, 0.02, 400);
 const CAM_MAX = Math.max(...CAMK.map(k => k[3]));
+const CAM_OVR = Q.get('cam') ? Q.get('cam').split(',').map(Number) : null; // lat,lon,dist_km
 function placeCamera(t) {
-  const [x, z, d] = camAt(t);
+  let [x, z, d] = camAt(t);
+  if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; }
   const target = new THREE.Vector3(x, 0.05, z);
   camera.position.copy(target).addScaledVector(VIEW_DIR, d);
   camera.near = Math.max(0.01, d * 0.01); camera.far = d * 6 + 20;
@@ -261,10 +263,11 @@ function buildScene() {
   renderer.shadowMap.enabled = Q.get('sh') !== '0'; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   document.body.appendChild(renderer.domElement);
   const scene = new THREE.Scene();
-  const SKY = new THREE.Color('#b9cfd6'); scene.background = SKY;
-  scene.fog = new THREE.Fog(SKY, CAM_MAX * 1.4, CAM_MAX * 3.2);
-  scene.add(new THREE.HemisphereLight('#e4eef3', '#6d6a4c', 1.15));
-  const sun = new THREE.DirectionalLight('#fff1d6', 2.0);
+  const GOLDEN = Q.get('mood') === 'golden';
+  const SKY = new THREE.Color(GOLDEN ? '#e7b48a' : '#b9cfd6'); scene.background = SKY;
+  scene.fog = new THREE.Fog(SKY, CAM_MAX * (GOLDEN ? 0.9 : 1.4), CAM_MAX * (GOLDEN ? 2.4 : 3.2));
+  scene.add(new THREE.HemisphereLight(GOLDEN ? '#f3cfa8' : '#e4eef3', GOLDEN ? '#3f3428' : '#6d6a4c', GOLDEN ? 0.75 : 1.15));
+  const sun = new THREE.DirectionalLight(GOLDEN ? '#ffb070' : '#fff1d6', GOLDEN ? 3.0 : 2.0);
   sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
   sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.004;
   scene.add(sun); scene.add(sun.target);
@@ -549,6 +552,7 @@ function buildScene() {
     const { target, d } = placeCamera(t);
     const sh = clamp(d * 0.75, 3, 40);
     Object.assign(sun.shadow.camera, { left: -sh, right: sh, top: sh, bottom: -sh, near: 0.5, far: d * 4 + 20 }); sun.shadow.camera.updateProjectionMatrix();
+    if (GOLDEN) sun.position.set(target.x - d * 1.1, d * 0.38 + 0.6, target.z - d * 0.15); else
     sun.position.set(target.x - d * 0.55, d * 0.8 + 2, target.z + d * 0.45); sun.target.position.copy(target); sun.target.updateMatrixWorld();
     renderer.render(scene, camera);
   }

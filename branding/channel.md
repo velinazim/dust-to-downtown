@@ -1,7 +1,7 @@
 # Channel profile — Dust to Downtown
 
 **Handle:** @DustToDowntown
-**Express projects:** logo https://new.express.adobe.com/id/urn:aaid:sc:AP:d9a78da0-22bf-479b-acf0-4e8d12719559 · banner https://new.express.adobe.com/id/urn:aaid:sc:AP:eabe9a7f-8c64-4b82-a98a-32b677fec115
+**Express projects:** logo (D monogram) https://new.express.adobe.com/id/urn:aaid:sc:AP:43cec89a-2e31-4101-9700-834de6b2695f · banner https://new.express.adobe.com/id/urn:aaid:sc:AP:91e93ad9-f0f5-4204-a6c6-d0bdb05e20aa
 
 ## Description (English — main)
 
