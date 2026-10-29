@@ -1,0 +1,6 @@
+channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)
+before: {"keywords": null, "defaultLanguage": null, "country": null} | description chars: 723
+branding update: 200 
+after: {"keywords": "\"city history\" \"history of cities\" \"3D timelapse\" \"city evolution\" \"urban history\" \"ancient cities\" \"how cities grew\" \"history map animation\" \"world history\" timelapse", "defaultLanguage": "en", "country": "TR"} | description chars: 723
+made-for-kids = no: 200 
+watermark: 204 
