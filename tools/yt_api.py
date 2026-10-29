@@ -160,11 +160,50 @@ def cmd_publish(repo):
         print(fn, res)
 
 
+def cmd_setup(repo):
+    """Channel settings that the mobile app can't change. Reads the current branding first and only adds/changes
+    keywords, default language, country (only if empty), made-for-kids = no, and the watermark. Description, name,
+    logo and banner are left exactly as the owner set them."""
+    tok = token()
+    cid = check_channel(tok, repo)
+    cfg = json.load(open(os.path.join(repo, 'config', 'channel_setup.json')))
+    r = requests.get(f'{API}/channels', params={'part': 'brandingSettings,status', 'id': cid}, headers=H(tok), timeout=30).json()['items'][0]
+    ch = r.get('brandingSettings', {}).get('channel', {})
+    print('before:', json.dumps({k: ch.get(k) for k in ('keywords', 'defaultLanguage', 'country')}, ensure_ascii=False),
+          '| description chars:', len(ch.get('description', '')))
+    ch['keywords'] = ' '.join(f'"{k}"' if ' ' in k else k for k in cfg['keywords'])[:500]
+    ch['defaultLanguage'] = cfg.get('defaultLanguage', 'en')
+    if not ch.get('country') and cfg.get('country'):
+        ch['country'] = cfg['country']
+    body = {'id': cid, 'brandingSettings': {'channel': ch}}
+    r2 = requests.put(f'{API}/channels', params={'part': 'brandingSettings'}, headers=H(tok, **{'Content-Type': 'application/json'}),
+                      data=json.dumps(body), timeout=30)
+    print('branding update:', r2.status_code, '' if r2.status_code == 200 else r2.text[:300])
+    if r2.status_code == 200:
+        after = r2.json()['brandingSettings']['channel']
+        print('after:', json.dumps({k: after.get(k) for k in ('keywords', 'defaultLanguage', 'country')}, ensure_ascii=False),
+              '| description chars:', len(after.get('description', '')))
+    r3 = requests.put(f'{API}/channels', params={'part': 'status'}, headers=H(tok, **{'Content-Type': 'application/json'}),
+                      data=json.dumps({'id': cid, 'status': {'selfDeclaredMadeForKids': False}}), timeout=30)
+    print('made-for-kids = no:', r3.status_code, '' if r3.status_code == 200 else r3.text[:300])
+    wm = os.path.join(repo, cfg.get('watermark', 'branding/watermark_150.png'))
+    if os.path.exists(wm):
+        meta = {'timing': {'type': 'offsetFromStart', 'offsetMs': 0}, 'position': {'type': 'corner', 'cornerPosition': 'topRight'}}
+        boundary = 'd2dwm'
+        payload = (f'--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{json.dumps(meta)}\r\n'
+                   f'--{boundary}\r\nContent-Type: image/png\r\n\r\n').encode() + open(wm, 'rb').read() + f'\r\n--{boundary}--'.encode()
+        r4 = requests.post('https://www.googleapis.com/upload/youtube/v3/watermarks/set', params={'channelId': cid, 'uploadType': 'multipart'},
+                           headers=H(tok, **{'Content-Type': f'multipart/related; boundary={boundary}'}), data=payload, timeout=60)
+        print('watermark:', r4.status_code, '' if r4.status_code in (200, 204) else r4.text[:300])
+
+
 if __name__ == '__main__':
     c = sys.argv[1]
     if c == 'whoami':
         print(channel(token()))
     elif c == 'upload':
         cmd_upload(sys.argv[2], sys.argv[3])
+    elif c == 'setup':
+        cmd_setup(sys.argv[2])
     elif c == 'publish':
         cmd_publish(sys.argv[2])

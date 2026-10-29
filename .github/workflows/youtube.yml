@@ -7,7 +7,7 @@ on:
     paths: ['requests/publish/*.json']
   workflow_dispatch:
     inputs:
-      action: {description: 'whoami or publish', default: 'whoami'}
+      action: {description: 'whoami, setup or publish', default: 'whoami'}
 concurrency:
   group: youtube
   cancel-in-progress: false
@@ -25,12 +25,16 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          if [ "${{ github.event.inputs.action }}" = "whoami" ]; then python3 tools/yt_api.py whoami | tee whoami.txt; else python3 tools/yt_api.py publish .; fi
+          case "${{ github.event.inputs.action }}" in
+            whoami) python3 tools/yt_api.py whoami | tee whoami.txt ;;
+            setup)  python3 tools/yt_api.py setup . | tee config/setup_result.txt ;;
+            *)      python3 tools/yt_api.py publish . ;;
+          esac
       - name: Commit
         run: |
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
           [ -f whoami.txt ] && cp whoami.txt config/whoami.txt
-          git add -A requests config/whoami.txt 2>/dev/null || true
+          git add -A requests config/whoami.txt config/setup_result.txt 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -qm "youtube: ${{ github.event.inputs.action || 'publish' }}"
           for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done
