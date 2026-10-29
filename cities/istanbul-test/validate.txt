@@ -1,0 +1,7 @@
+duration 43s (0.7 min), segments 7, ≈4964 buildings
+WARN  segments[1]: titled segment shorter than 7s is hard to read
+WARN  segments[2]: titled segment shorter than 7s is hard to read
+WARN  segments[3]: titled segment shorter than 7s is hard to read
+WARN  segments[4]: titled segment shorter than 7s is hard to read
+WARN  fewer than 6 sources listed
+OK
