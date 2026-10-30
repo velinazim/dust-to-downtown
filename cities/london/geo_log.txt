@@ -1,22 +1,10 @@
-  overpass retry: https://overpass-api.de/api/interpreter -> 502
-  overpass retry: https://overpass.kumi.systems/api/interpreter -> 504
-  overpass retry: https://maps.mail.ru/osm/tools/overpass/api/interpreter -> 504
-WARNING: Overpass unavailable, rivers/lakes skipped: https://maps.mail.ru/osm/tools/overpass/api/interpreter -> 504
+osm rivers: 953 elements
+osm lakes: 912 elements
+osm water: 1868 outer rings, 430 inner rings
 grid 602x490 @ 120 m
 elevation: zoom 11, tiles 7x6
-Traceback (most recent call last):
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 203, in <module>
-    main(sys.argv[1], '--if-needed' in sys.argv)
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 185, in main
-    grid, elev, sd, land = build_layer(city, bbox, origin, g.get('cell_m', 60) / 1000, rings)
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 150, in build_layer
-    elev = elevation(grid, cell_km, origin[0])
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 59, in elevation
-    px, py = deg2tile(LAT, LON, z)
-             ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 27, in deg2tile
-    y = (1 - math.asinh(math.tan(math.radians(lat))) / math.pi) / 2 * n
-                                 ^^^^^^^^^^^^^^^^^
-TypeError: only 0-dimensional arrays can be converted to Python scalars
+grid 510x230 @ 30 m
+elevation: zoom 13, tiles 6x4
+core layer 510 x 230
+wrote geo.json 602 x 490
+maps written to cities/london/preview
