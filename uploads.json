@@ -1,6 +1,6 @@
 [
  {
-  "key": "london:long",
+  "key": "london:long:replaced",
   "slug": "london",
   "kind": "long",
   "video_id": "g3Tm5FSU9ys",
@@ -9,6 +9,21 @@
   "publish_at": "2026-10-30T15:00:00Z",
   "uploaded": "2026-10-30T07:22:28Z",
   "thumbnail": "thumbnail not set (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat — custom thumbnails need a phone-verified channel",
-  "playlist": "added"
+  "playlist": "added",
+  "replaced_by": "LPzIgfcAY_k",
+  "unscheduled": true
+ },
+ {
+  "key": "london:long",
+  "slug": "london",
+  "kind": "long",
+  "video_id": "LPzIgfcAY_k",
+  "link": "https://youtu.be/LPzIgfcAY_k",
+  "title": "London: 2,000 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-10-30T15:00:00Z",
+  "uploaded": "2026-10-30T09:55:08Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "g3Tm5FSU9ys"
  }
 ]

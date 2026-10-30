@@ -1,4 +1,6 @@
 {
  "upload_retry": "2026-10-30T07:22:28Z",
- "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nstart upload 400 (dropped so far up to None): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"errors\": [\n      {\n        \"domain\": \"youtube.api.v3.VideoInsertResponse.Error\",\n        \"reason\": \"INVALID_REQUEST_METADATA\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n\nmetadata accepted after dropping: ('snippet', 'defaultAudioLanguage')\nuploaded london:long https://youtu.be/g3Tm5FSU9ys publish_at=2026-10-30T15:00:00Z thumbnail=thumbnail not set (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat \u2014 custom thumbnails need a phone-verified channel playlist=added\n"
+ "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nold video unscheduled (stays private): g3Tm5FSU9ys 200 \nreplaced london:long: https://youtu.be/LPzIgfcAY_k publish_at=2026-10-30T15:00:00Z thumbnail=ok playlist=added\n",
+ "rendered": "2026-10-30T09:55:59Z",
+ "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41022385088"
 }
