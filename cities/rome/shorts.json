@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": -1000, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Rome", "tr": "Roma"}, "line2": {"en": "3,000 years in 50 seconds", "tr": "50 saniyede 3.000 yıl"}},
+   "end": {"line2": {"en": "Rome: 3,000 Years in 14 Minutes", "tr": "Roma: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "Rome: 3,000 Years in 50 Seconds #shorts", "tr": "Roma: 50 Saniyede 3.000 Yıl #shorts"},
+   "description": {"en": "From villages by the marshy valley of the future Forum around 1000 BC to 2.7 million people today — the year and the population stay on screen the whole way.",
+                   "tr": "MÖ 1000 civarında geleceğin Forum'unun bataklık vadisindeki köylerden bugünün 2,7 milyonluk şehrine — yıl ve nüfus baştan sona ekranda."},
+   "tags": ["rome history", "history of rome", "ancient rome", "3d timelapse", "city evolution", "how rome grew", "shorts"],
+   "hashtags": ["#Rome", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "rise-and-fall",
+   "from_year": -43, "to_year": 600, "seconds": 50,
+   "hook": {"line1": {"en": "Rise and Fall", "tr": "Yükseliş ve Çöküş"}, "line2": {"en": "Rome, 43 BC – AD 600", "tr": "Roma, MÖ 43 – MS 600"}},
+   "end": {"line2": {"en": "Rome: 3,000 Years in 14 Minutes", "tr": "Roma: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "Rome: From Nearly a Million People to Under 50,000 #shorts", "tr": "Roma: Bir Milyona Yakın Nüfustan 50 Binin Altına #shorts"},
+   "description": {"en": "Under Augustus Rome nears a million people. Then the Great Fire (AD 64), the Colosseum (AD 70–80), the Aurelian Walls (271–275), the sacks of 410 and 455 — and around 537 besieging Goths cut the aqueducts. Soon fewer than 50,000 people remain.",
+                   "tr": "Augustus döneminde Roma'nın nüfusu bir milyona yaklaşır. Ardından Büyük Yangın (MS 64), Kolezyum (MS 70–80), Aurelianus Surları (271–275), 410 ve 455 yağmaları — ve 537 civarında kuşatan Gotlar su kemerlerini keser. Kısa sürede 50 binden az insan kalır."},
+   "tags": ["fall of rome", "roman empire", "ancient rome", "colosseum", "sack of rome", "rome history", "3d timelapse", "shorts"],
+   "hashtags": ["#Rome", "#RomanEmpire", "#History", "#Shorts"]
+  },
+  {
+   "id": "rebirth",
+   "from_year": 1420, "to_year": 1667, "seconds": 45,
+   "hook": {"line1": {"en": "Rome Rises Again", "tr": "Roma Yeniden Doğuyor"}, "line2": {"en": "1420–1667", "tr": "1420–1667"}},
+   "end": {"line2": {"en": "Rome: 3,000 Years in 14 Minutes", "tr": "Roma: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "How Rome Rose Again: 1420–1667 #shorts", "tr": "Roma Nasıl Yeniden Doğdu: 1420–1667 #shorts"},
+   "description": {"en": "1420: Pope Martin V returns to a city of huts and ruins. Ponte Sisto (1473–1479), a new St Peter's (from 1506), the Sack of 1527, Sixtus V's straight streets, the 137 m dome (1590) and Bernini's colonnades (1656–1667).",
+                   "tr": "1420: Papa V. Martinus kulübe ve harabelerden oluşan bir şehre döner. Ponte Sisto (1473–1479), yeni St Peter (1506'dan itibaren), 1527 Yağması, V. Sixtus'un düz caddeleri, 137 m'lik kubbe (1590) ve Bernini'nin sütunları (1656–1667)."},
+   "tags": ["renaissance rome", "st peters basilica", "sack of rome 1527", "bernini", "rome history", "3d timelapse", "shorts"],
+   "hashtags": ["#Rome", "#Renaissance", "#History", "#Shorts"]
+  }
+ ]
+}
