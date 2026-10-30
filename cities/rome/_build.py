@@ -88,6 +88,15 @@ LREP = T("Late Republic", "Geç Cumhuriyet"); EMP = T("Roman Empire", "Roma İmp
 ROMA = T("Rome", "Roma"); MED = T("Middle Ages", "Orta Çağ"); REN = T("Renaissance", "Rönesans"); BAR = T("Baroque", "Barok")
 PAPAL = T("Papal States", "Papalık Devleti"); KING = T("Kingdom of Italy", "İtalya Krallığı"); RIT = T("Italian Republic", "İtalya Cumhuriyeti")
 M = 1000000
+# sourced anchors (year, people) for interpolation between two sourced points; see research.md
+ANCH = [(550, 50000), (1090, 30000), (1300, 30000), (1350, 20000), (1527, 55000), (1527.4, 10000), (1600, 100000),
+        (1790, 165000), (1871, 209222)]
+def P(y):
+    for (y0, p0), (y1, p1) in zip(ANCH, ANCH[1:]):
+        if y0 <= y <= y1:
+            u = (y - y0) / (y1 - y0); return int(round(math.exp(math.log(p0) + (math.log(p1) - math.log(p0)) * u), -3))
+    raise ValueError(y)
+PI = lambda a, b: [P(a), P(b)]
 S = [
  seg(-1000, -801, 13, IRON, T("Tiber valley", "Tiber vadisi"), T("Before Rome", "Roma'dan Önce"),
      T("c. 1000 BC: villagers bury their dead in the marshy valley of the future Forum", "MÖ ~1000: köylüler, ileride Forum olacak bataklık vadiye ölülerini gömer"),
@@ -149,50 +158,50 @@ S = [
      cam=(41.8955, 12.4850, 6.2), chapter=T("The Fall", "Çöküş")),
  seg(456, 600, 18, T("Goths and Byzantines", "Gotlar ve Bizans"), ROMA, T("The Water Stops", "Su Kesiliyor"),
      T("c. AD 537: besieging Goths cut the aqueducts; soon fewer than 50,000 people remain", "MS ~537: kuşatan Gotlar su kemerlerini keser; kısa sürede 50.000'den az kişi kalır"),
-     cam=(41.8925, 12.4855, 5.6)),
+     pop=50000, cam=(41.8925, 12.4855, 5.6)),
  seg(601, 845, 16, MED, ROMA, T("Down to the River", "Nehir Kıyısına"),
      T("609: the Pantheon becomes a church; the people move down to the Tiber bend", "609: Pantheon kiliseye dönüşür; halk Tiber'in kıvrımına iner"),
-     cam=(41.8985, 12.4760, 4.6), chapter=T("Medieval Rome", "Orta Çağ Roması")),
+     pop=PI(601, 845), cam=(41.8985, 12.4760, 4.6), chapter=T("Medieval Rome", "Orta Çağ Roması")),
  seg(846, 1083, 18, MED, ROMA, T("The Leonine Wall", "Leo Suru"),
      T("846: raiders sack Old St Peter's; Pope Leo IV then walls in the Vatican hill", "846: akıncılar Eski St. Peter'i yağmalar; Papa IV. Leo ardından Vatikan tepesini surla çevirir"),
-     cam=(41.9015, 12.4610, 3.6)),
+     pop=PI(846, 1083), cam=(41.9015, 12.4610, 3.6)),
  seg(1084, 1347, 16, MED, ROMA, T("The Norman Sack", "Norman Yağması"),
      T("1084: Norman troops sack the city; Rome now has fewer than 30,000 people", "1084: Norman askerleri şehri yağmalar; Roma'da artık 30.000'den az kişi yaşar"),
-     cam=(41.8930, 12.4870, 5.0)),
+     pop=30000, cam=(41.8930, 12.4870, 5.0)),
  seg(1348, 1419, 16, T("Late Middle Ages", "Geç Orta Çağ"), ROMA, T("Plague and Earthquake", "Veba ve Deprem"),
      T("After the Black Death fewer than 20,000 remain; in 1349 a quake hits the Colosseum", "Kara Ölüm'den sonra 20.000'den az kişi kalır; 1349'da bir deprem Kolezyum'u yıkar"),
-     cam=(41.8935, 12.4850, 4.4)),
+     pop=[30000, 20000], cam=(41.8935, 12.4850, 4.4)),
  seg(1420, 1472, 14, REN, ROMA, T("The Popes Return", "Papalar Dönüyor"),
      T("1420: Pope Martin V returns to a city of huts and ruins and begins to rebuild", "1420: Papa V. Martinus kulübe ve harabe dolu şehre döner, yeniden inşaya başlar"),
-     cam=(41.8985, 12.4725, 4.4), chapter=T("Renaissance", "Rönesans")),
+     pop=PI(1420, 1472), cam=(41.8985, 12.4725, 4.4), chapter=T("Renaissance", "Rönesans")),
  seg(1473, 1505, 14, REN, ROMA, T("Ponte Sisto", "Ponte Sisto"),
      T("1473–1479: Sixtus IV builds the first new bridge over the Tiber since antiquity", "1473–1479: IV. Sixtus, antik çağdan beri Tiber'e yapılan ilk yeni köprüyü kurar"),
-     cam=(41.8945, 12.4705, 3.0)),
+     pop=PI(1473, 1505), cam=(41.8945, 12.4705, 3.0)),
  seg(1506, 1526, 15, REN, ROMA, T("A New St Peter's", "Yeni St. Peter"),
      T("18 April 1506: work begins on a new St Peter's in place of Constantine's basilica", "18 Nisan 1506: Konstantin'in bazilikasının yerine yeni St. Peter'in inşası başlar"),
-     cam=(41.9020, 12.4565, 3.2)),
+     pop=PI(1506, 1526), cam=(41.9020, 12.4565, 3.2)),
  seg(1527, 1530, 16, REN, ROMA, T("The Sack of 1527", "1527 Yağması"),
      T("6 May 1527: imperial troops sack Rome; its people fall from 55,000 to about 10,000", "6 Mayıs 1527: imparatorluk askerleri Roma'yı yağmalar; nüfus 55.000'den ~10.000'e düşer"),
      pop=[55000, 10000], cam=(41.9000, 12.4680, 4.4)),
  seg(1531, 1589, 16, REN, ROMA, T("Sixtus V Replans Rome", "V. Sixtus'un Yeni Roması"),
      T("1585–1590: Sixtus V cuts straight streets; in 1586 the Vatican obelisk is moved", "1585–1590: V. Sixtus düz caddeler açar; 1586'da Vatikan dikilitaşı yerinden taşınır"),
-     cam=(41.9000, 12.4800, 6.0)),
+     pop=PI(1531, 1589), cam=(41.9000, 12.4800, 6.0)),
  seg(1590, 1655, 16, BAR, ROMA, T("The Great Dome", "Büyük Kubbe"),
      T("1590: St Peter's 137 m dome is finished; by 1600 Rome has over 100,000 people", "1590: St. Peter'in 137 m'lik kubbesi biter; 1600'de Roma 100.000'i aşar"),
-     pop=100000, cam=(41.9020, 12.4590, 3.8), chapter=T("Baroque Rome", "Barok Roma")),
+     pop=PI(1590, 1655), cam=(41.9020, 12.4590, 3.8), chapter=T("Baroque Rome", "Barok Roma")),
  seg(1656, 1667, 15, BAR, ROMA, T("St Peter's Square", "St. Peter Meydanı"),
      T("1656–1667: Bernini's colonnades wrap the vast square in front of the basilica", "1656–1667: Bernini'nin sütunlu galerileri bazilikanın önündeki meydanı kuşatır"),
-     cam=(41.9022, 12.4600, 2.8)),
+     pop=PI(1656, 1667), cam=(41.9022, 12.4600, 2.8)),
  seg(1668, 1790, 15, BAR, ROMA, T("Grand Tour Rome", "Büyük Tur Roması"),
      T("By 1790 the city of the popes has grown to about 165,000 people", "1790'a gelindiğinde papaların şehri yaklaşık 165.000 kişiye ulaşır"),
-     pop=[100000, 165000], cam=(41.8990, 12.4800, 6.5)),
- seg(1791, 1862, 7, PAPAL, ROMA, cam=(41.8990, 12.4880, 5.8)),
+     pop=[P(1668), 165000], cam=(41.8990, 12.4800, 6.5)),
+ seg(1791, 1862, 7, PAPAL, ROMA, pop=PI(1791, 1862), cam=(41.8990, 12.4880, 5.8)),
  seg(1863, 1869, 14, PAPAL, ROMA, T("The Railway Arrives", "Demiryolu Geliyor"),
      T("25 Feb 1863: Pius IX opens a station at Termini for three railway lines", "25 Şubat 1863: IX. Pius, üç demiryolu hattı için Termini'de bir istasyon açar"),
-     cam=(41.8990, 12.4960, 5.0)),
+     pop=PI(1863, 1869), cam=(41.8990, 12.4960, 5.0)),
  seg(1870, 1871.1, 16, KING, ROMA, T("The Breach of Porta Pia", "Porta Pia Gediği"),
      T("20 Sept 1870: Italian troops breach the wall near Porta Pia and take Rome", "20 Eylül 1870: İtalyan birlikleri Porta Pia yakınında suru yarar ve Roma'yı alır"),
-     cam=(41.9060, 12.5000, 3.6), chapter=T("Capital of Italy", "İtalya'nın Başkenti")),
+     pop=PI(1870, 1871), cam=(41.9060, 12.5000, 3.6), chapter=T("Capital of Italy", "İtalya'nın Başkenti")),
  seg(1871.2, 1910, 18, KING, ROMA, T("Capital of Italy", "İtalya'nın Başkenti"),
      T("Capital from 1871: new quarters and river walls; 209,222 people become 511,076 by 1911", "1871'den itibaren başkent: yeni mahalleler, rıhtımlar; 209.222 kişi 1911'de 511.076 olur"),
      pop=[209222, 511076], cam=(41.9000, 12.4850, 7.8)),
@@ -211,9 +220,9 @@ S = [
  seg(1982, 2021, 18, T("Today", "Bugün"), ROMA, T("Rome Today", "Bugünün Roması"),
      T("The 2021 census counts 2,749,031 people in the city of Rome", "2021 sayımı Roma şehrinde 2.749.031 kişi sayar"),
      pop=[2797337, 2749031], cam=(41.8900, 12.4800, 30.0)),
- seg(2022, 2025, 22, T("Today", "Bugün"), ROMA, T("The Eternal City", "Ebedi Şehir"),
+ seg(2022, 2026, 22, T("Today", "Bugün"), ROMA, T("The Eternal City", "Ebedi Şehir"),
      T("From huts on the Palatine to 2.7 million people, nearly 2,800 years on", "Palatin'deki kulübelerden 2,7 milyon kişiye, yaklaşık 2.800 yıl sonra"),
-     pop=2749031, cam=(41.8960, 12.4760, 8.5)),
+     pop=[2749031, 2747290], cam=(41.8960, 12.4760, 8.5)),
 ]
 SCALE_T, SCALE_Q = 1.21, 1.1   # pacing; total kept under 15:00 (channel not verified for longer uploads)
 for s_ in S:
@@ -223,8 +232,7 @@ W = lambda c: {"wall": c}
 city = {
  "slug": "rome", "seed": 753,
  "name": T("Rome", "Roma"), "intro": T("3,000 Years in 15 Minutes", "15 Dakikada 3.000 Yıl"), "intro_seconds": 4.5,
- "geo": {"bbox": [41.60, 12.10, 42.18, 12.78], "cell_m": 100, "core_bbox": [41.840, 12.400, 41.950, 12.560], "core_cell_m": 30,
-         "rivers_keep": ["Tevere", "Tiber"]},
+ "geo": {"bbox": [41.60, 12.10, 42.18, 12.78], "cell_m": 100, "core_bbox": [41.840, 12.400, 41.950, 12.560], "core_cell_m": 30},
  "view": {"azimuth_deg": 70, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 3.0},
  "segments": S,

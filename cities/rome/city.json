@@ -24,11 +24,7 @@
    41.95,
    12.56
   ],
-  "core_cell_m": 30,
-  "rivers_keep": [
-   "Tevere",
-   "Tiber"
-  ]
+  "core_cell_m": 30
  },
  "view": {
   "azimuth_deg": 70,
@@ -670,6 +666,7 @@
     "en": "c. AD 537: besieging Goths cut the aqueducts; soon fewer than 50,000 people remain",
     "tr": "MS ~537: kuşatan Gotlar su kemerlerini keser; kısa sürede 50.000'den az kişi kalır"
    },
+   "population": 50000,
    "camera": {
     "center": [
      41.8925,
@@ -698,6 +695,10 @@
     "en": "609: the Pantheon becomes a church; the people move down to the Tiber bend",
     "tr": "609: Pantheon kiliseye dönüşür; halk Tiber'in kıvrımına iner"
    },
+   "population": [
+    48000,
+    38000
+   ],
    "camera": {
     "center": [
      41.8985,
@@ -730,6 +731,10 @@
     "en": "846: raiders sack Old St Peter's; Pope Leo IV then walls in the Vatican hill",
     "tr": "846: akıncılar Eski St. Peter'i yağmalar; Papa IV. Leo ardından Vatikan tepesini surla çevirir"
    },
+   "population": [
+    38000,
+    30000
+   ],
    "camera": {
     "center": [
      41.9015,
@@ -758,6 +763,7 @@
     "en": "1084: Norman troops sack the city; Rome now has fewer than 30,000 people",
     "tr": "1084: Norman askerleri şehri yağmalar; Roma'da artık 30.000'den az kişi yaşar"
    },
+   "population": 30000,
    "camera": {
     "center": [
      41.893,
@@ -786,6 +792,10 @@
     "en": "After the Black Death fewer than 20,000 remain; in 1349 a quake hits the Colosseum",
     "tr": "Kara Ölüm'den sonra 20.000'den az kişi kalır; 1349'da bir deprem Kolezyum'u yıkar"
    },
+   "population": [
+    30000,
+    20000
+   ],
    "camera": {
     "center": [
      41.8935,
@@ -814,6 +824,10 @@
     "en": "1420: Pope Martin V returns to a city of huts and ruins and begins to rebuild",
     "tr": "1420: Papa V. Martinus kulübe ve harabe dolu şehre döner, yeniden inşaya başlar"
    },
+   "population": [
+    30000,
+    40000
+   ],
    "camera": {
     "center": [
      41.8985,
@@ -846,6 +860,10 @@
     "en": "1473–1479: Sixtus IV builds the first new bridge over the Tiber since antiquity",
     "tr": "1473–1479: IV. Sixtus, antik çağdan beri Tiber'e yapılan ilk yeni köprüyü kurar"
    },
+   "population": [
+    40000,
+    49000
+   ],
    "camera": {
     "center": [
      41.8945,
@@ -874,6 +892,10 @@
     "en": "18 April 1506: work begins on a new St Peter's in place of Constantine's basilica",
     "tr": "18 Nisan 1506: Konstantin'in bazilikasının yerine yeni St. Peter'in inşası başlar"
    },
+   "population": [
+    49000,
+    55000
+   ],
    "camera": {
     "center": [
      41.902,
@@ -934,6 +956,10 @@
     "en": "1585–1590: Sixtus V cuts straight streets; in 1586 the Vatican obelisk is moved",
     "tr": "1585–1590: V. Sixtus düz caddeler açar; 1586'da Vatikan dikilitaşı yerinden taşınır"
    },
+   "population": [
+    11000,
+    71000
+   ],
    "camera": {
     "center": [
      41.9,
@@ -962,7 +988,10 @@
     "en": "1590: St Peter's 137 m dome is finished; by 1600 Rome has over 100,000 people",
     "tr": "1590: St. Peter'in 137 m'lik kubbesi biter; 1600'de Roma 100.000'i aşar"
    },
-   "population": 100000,
+   "population": [
+    73000,
+    116000
+   ],
    "camera": {
     "center": [
      41.902,
@@ -995,6 +1024,10 @@
     "en": "1656–1667: Bernini's colonnades wrap the vast square in front of the basilica",
     "tr": "1656–1667: Bernini'nin sütunlu galerileri bazilikanın önündeki meydanı kuşatır"
    },
+   "population": [
+    116000,
+    119000
+   ],
    "camera": {
     "center": [
      41.9022,
@@ -1024,7 +1057,7 @@
     "tr": "1790'a gelindiğinde papaların şehri yaklaşık 165.000 kişiye ulaşır"
    },
    "population": [
-    100000,
+    120000,
     165000
    ],
    "camera": {
@@ -1047,6 +1080,10 @@
     "en": "Rome",
     "tr": "Roma"
    },
+   "population": [
+    165000,
+    204000
+   ],
    "camera": {
     "center": [
      41.899,
@@ -1075,6 +1112,10 @@
     "en": "25 Feb 1863: Pius IX opens a station at Termini for three railway lines",
     "tr": "25 Şubat 1863: IX. Pius, üç demiryolu hattı için Termini'de bir istasyon açar"
    },
+   "population": [
+    204000,
+    208000
+   ],
    "camera": {
     "center": [
      41.899,
@@ -1103,6 +1144,10 @@
     "en": "20 Sept 1870: Italian troops breach the wall near Porta Pia and take Rome",
     "tr": "20 Eylül 1870: İtalyan birlikleri Porta Pia yakınında suru yarar ve Roma'yı alır"
    },
+   "population": [
+    209000,
+    209000
+   ],
    "camera": {
     "center": [
      41.906,
@@ -1313,7 +1358,7 @@
   },
   {
    "from": 2022,
-   "to": 2025,
+   "to": 2026,
    "seconds": 27,
    "era": {
     "en": "Today",
@@ -1331,7 +1376,10 @@
     "en": "From huts on the Palatine to 2.7 million people, nearly 2,800 years on",
     "tr": "Palatin'deki kulübelerden 2,7 milyon kişiye, yaklaşık 2.800 yıl sonra"
    },
-   "population": 2749031,
+   "population": [
+    2749031,
+    2747290
+   ],
    "camera": {
     "center": [
      41.896,

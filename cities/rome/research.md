@@ -1,6 +1,6 @@
 # Rome — research notes
 
-Episode: ~14:30, Iron Age (c. 1000 BC) → 2025. Every on-screen date/number below has its source (all pages opened
+Episode: ~14:15, Iron Age (c. 1000 BC) → 2026. Every on-screen date/number below has its source (all pages opened
 during research, 30 Oct 2026). Landmark coordinates are the published Wikipedia coordinates of each page; walls,
 districts, fire areas and roads are simplified traces between sourced points (marked ≈).
 
@@ -85,9 +85,19 @@ districts, fire areas and roads are simplified traces between sourced points (ma
 | 1790 | 165,000 | | Britannica |
 | censuses | 1871 209,222; 1881 269,813; 1901 416,028; 1911 511,076; 1921 650,258; 1931 916,858; 1936 1,133,202; 1951 1,626,793; 1961 2,155,093; 1971 2,739,952; 1981 2,797,337; 1991 2,733,908; 2001 2,546,804; 2011 2,617,175; 2021 2,749,031 | comune di Roma | tuttitalia.it (ISTAT censuses) |
 
-No figure is shown before Augustus (no reliable estimate) or for the 4th–5th centuries. Segments without a sourced
-figure carry no population. "Fewer than N" figures are shown as N with the counter's "≈" (upper bound, stated in the
-subtitle as "fewer than"). Between censuses the counter interpolates between the two sourced census values.
+| Augustus–2nd c. (2) | "one million" (Brunt 1971, Hopkins 1978, Stambaugh 1988, Bairoch 1989, Robinson 1992); Storey argues ~half a million | used as ≈1,000,000 | Storey, "Vox populi" (Brewminate reprint) |
+| 31 Dec 2024 | 2,747,290 | comune di Roma, latest official | tuttitalia.it (Città metropolitana statistics) |
+
+How the counter is filled (CITY_SPEC: always on screen where any estimate exists):
+- Before Augustus: "—". The only Republican numbers found are census counts of citizens across Roman territory
+  (e.g. 900,000 in 69 BC), not city populations.
+- 43 BC – AD 270: ≈1,000,000 held (the mainstream figure; Beloch ~800,000, Oates ~1.25 m, Storey ~0.5 m).
+- AD 271–455: "—" (no sourced figure for the 4th–5th centuries; interpolating 1 m → 50,000 over 350 years would invent a curve).
+- 456–600: 50,000 held ("fewer than 50,000" in the 6th c. — upper bound shown with ≈).
+- 601–1083: log-interpolated between 50,000 (c. 550) and 30,000 (late 11th c.); 1084–1347: 30,000 held ("never more than
+  30,000" in the 13th c.); 1348–1419: 30,000 → 20,000 ("fewer than 20,000" after the Black Death). These are upper bounds.
+- 1420–1526: log-interpolated 20,000 (c. 1350) → 55,000 (1527). 1527: 55,000 → 10,000. 1531–1655: 10,000 (1527) → 100,000 (1600)
+  → interpolated on to 165,000 (1790) → 209,222 (1871 census). From 1871 the census values; 2022–2026 ends on 2,747,290.
 
 ## Coordinates used (lat, lon)
 
