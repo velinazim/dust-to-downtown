@@ -18,7 +18,7 @@ from geo_common import make_grid, signed_distance, write_geo, rasterize, kx, KZ
 UA = {'User-Agent': 'dust-to-downtown/1.0 (github.com/velinazim/dust-to-downtown)'}
 TILE = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
 OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter',
-            'https://maps.mail.ru/osm/tools/overpass/api/interpreter']
+            'https://overpass.private.coffee/api/interpreter']
 
 
 def deg2tile(lat, lon, z):
@@ -62,45 +62,50 @@ def elevation(grid, cell_km, lat_c):
     return ndimage.map_coordinates(mosaic, [py, px], order=1, mode='nearest')
 
 
+def overpass(q, label):
+    for rnd in range(3):
+        for url in OVERPASS:
+            try:
+                r = requests.post(url, data={'data': q}, headers=UA, timeout=400)
+                if r.status_code == 200:
+                    return r.json()
+                print(f'  {label}: {url.split("/")[2]} -> {r.status_code}')
+            except Exception as ex:
+                print(f'  {label}: {url.split("/")[2]} -> {ex}')
+            time.sleep(8)
+        time.sleep(30 * (rnd + 1))
+    return None
+
+
 def osm_water(bbox):
+    """Rivers (area-mapped), lakes, reservoirs, docks and basins. Small untagged ponds are skipped on purpose:
+    they are invisible at this scale and make the query too heavy for the public servers."""
     s, w, n, e = bbox
-    q = f"""[out:json][timeout:600][maxsize:1073741824];
-(
-  way["natural"="water"]({s},{w},{n},{e});
-  relation["natural"="water"]({s},{w},{n},{e});
-  way["waterway"="riverbank"]({s},{w},{n},{e});
-  relation["waterway"="riverbank"]({s},{w},{n},{e});
-  way["natural"="bay"]({s},{w},{n},{e});
-  way["landuse"="basin"]({s},{w},{n},{e});
-  way["waterway"="dock"]({s},{w},{n},{e});
-);
-out geom;"""
-    last = None
-    for url in OVERPASS:
-        try:
-            r = requests.post(url, data={'data': q}, headers=UA, timeout=700)
-            if r.status_code == 200:
-                data = r.json()
-                break
-            last = f'{url} -> {r.status_code}'
-        except Exception as ex:
-            last = f'{url} -> {ex}'
-        print('  overpass retry:', last)
-        time.sleep(10)
-    else:
-        print('WARNING: Overpass unavailable, rivers/lakes skipped:', last)
-        return [], []
+    b = f'({s},{w},{n},{e})'
+    queries = {
+        'rivers': f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(river|tidal|canal|oxbow|stream_pool)$"]{b};'
+                  f'relation["natural"="water"]["water"~"^(river|tidal|canal|oxbow)$"]{b};way["waterway"="riverbank"]{b};relation["waterway"="riverbank"]{b};);out geom;',
+        'lakes': f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(lake|reservoir|basin|lagoon|dock|lock)$"]{b};'
+                 f'relation["natural"="water"]["water"~"^(lake|reservoir|basin|lagoon|dock)$"]{b};way["landuse"="reservoir"]{b};'
+                 f'way["waterway"="dock"]{b};way["landuse"="basin"]{b};);out geom;',
+    }
     outer, inner = [], []
-    for el in data.get('elements', []):
-        if el['type'] == 'way' and 'geometry' in el:
-            ring = [[p['lat'], p['lon']] for p in el['geometry']]
-            if len(ring) >= 3:
-                outer.append(ring)
-        elif el['type'] == 'relation':
-            # stitch member ways by role
-            for role, dest in (('outer', outer), ('inner', inner)):
-                segs = [[[p['lat'], p['lon']] for p in m['geometry']] for m in el.get('members', []) if m.get('role') == role and 'geometry' in m]
-                dest.extend(stitch(segs))
+    for label, q in queries.items():
+        data = overpass(q, label)
+        if data is None:
+            raise SystemExit(f'Overpass failed for {label}; try again later (map not written).')
+        n_el = 0
+        for el in data.get('elements', []):
+            n_el += 1
+            if el['type'] == 'way' and 'geometry' in el:
+                ring = [[p['lat'], p['lon']] for p in el['geometry']]
+                if len(ring) >= 3 and ring[0] == ring[-1]:
+                    outer.append(ring)
+            elif el['type'] == 'relation':
+                for role, dest in (('outer', outer), ('inner', inner)):
+                    segs = [[[p['lat'], p['lon']] for p in m['geometry']] for m in el.get('members', []) if m.get('role') == role and 'geometry' in m]
+                    dest.extend(r for r in stitch(segs) if r[0] == r[-1])
+        print(f'osm {label}: {n_el} elements')
     print(f'osm water: {len(outer)} outer rings, {len(inner)} inner rings')
     return outer, inner
 
