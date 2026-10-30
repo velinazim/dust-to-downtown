@@ -81,8 +81,23 @@ def upload_video(tok, path, meta, publish_at):
     if meta.get('localizations'):
         body['localizations'] = meta['localizations']
     size = os.path.getsize(path)
-    r = requests.post(f'{UPLOAD}?uploadType=resumable&part=snippet,status,localizations', headers=H(tok, **{'Content-Type': 'application/json',
-                      'X-Upload-Content-Type': 'video/mp4', 'X-Upload-Content-Length': str(size)}), data=json.dumps(body), timeout=60)
+    # Starting a resumable session creates nothing on the channel, so when YouTube rejects the metadata we can
+    # drop optional fields one by one and say which one it disliked.
+    drops = [None, ('snippet', 'defaultAudioLanguage'), ('status', 'containsSyntheticMedia'), ('', 'localizations'),
+             ('snippet', 'tags'), ('status', 'embeddable')]
+    for d in drops:
+        if d:
+            (body.get(d[0]) if d[0] else body).pop(d[1], None)
+        parts = 'snippet,status' + (',localizations' if 'localizations' in body else '')
+        r = requests.post(f'{UPLOAD}?uploadType=resumable&part={parts}', headers=H(tok, **{'Content-Type': 'application/json',
+                          'X-Upload-Content-Type': 'video/mp4', 'X-Upload-Content-Length': str(size)}), data=json.dumps(body), timeout=60)
+        if r.status_code == 200:
+            if d:
+                print('metadata accepted after dropping:', d)
+            break
+        print(f'start upload {r.status_code} (dropped so far up to {d}): {r.text[:300]}')
+        if r.status_code != 400:
+            break
     if r.status_code != 200:
         raise RuntimeError(f'start upload {r.status_code}: {r.text[:400]}')
     url = r.headers['Location']
