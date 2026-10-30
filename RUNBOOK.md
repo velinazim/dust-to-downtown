@@ -3,12 +3,16 @@
 Channel: **Dust to Downtown** (@DustToDowntown) — silent 3D timelapses of how great cities grew, ~15 min each,
 English on screen (Turkish version rendered too, kept for a future Turkish channel). Owner speaks Turkish;
 all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri 15:00 UTC).
+Episodes are made ahead of time (one per day, up to 8 in stock) and wait on YouTube as private + scheduled.
 
 The owner cares most about **accuracy and quality**. A slower, correct episode beats a fast, wrong one.
 
 ## A. Make the next episode (scheduled run, or owner says "yeni bölüm", "sıradaki şehri yap")
 
-1. `git pull`. Pick the first unchecked city in `cities/queue.md` (or the city the owner named).
+1. `git pull`. **Stock check:** count long videos in `uploads.json` whose `publish_at` is in the future, plus cities
+   whose `render.json` exists but are not yet in `uploads.json`. If that is 8 or more (4 weeks of stock), make nothing:
+   just report to the owner "stok dolu (N bölüm hazır, son yayın <tarih>)" and stop.
+   Otherwise pick the first unchecked city in `cities/queue.md` (or the city the owner named).
    Skip a city whose folder already has `status.json` with `rendered`.
 2. **Research (most of the time goes here).** Use WebSearch/WebFetch; open the pages you cite. At least 10 sources:
    Wikipedia for orientation (city article, history article, list of walls/bridges/landmarks), plus Britannica,
