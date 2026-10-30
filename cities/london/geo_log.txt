@@ -1,16 +1,15 @@
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 504
+  rivers: overpass.private.coffee -> 504
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 504
+  rivers: overpass.private.coffee -> 504
 osm rivers: kept 14, skipped 727 -> 14 outer / 66 inner rings
-Traceback (most recent call last):
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 246, in <module>
-    main(sys.argv[1], '--if-needed' in sys.argv)
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 223, in main
-    rings = osm_water(bbox, g.get('rivers_keep')) if g.get('osm_water', True) else None
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 140, in osm_water
-    lakes.append([[round(a, 5), round(c, 5)] for a, c in rdp(r, 0.00008)])
-                                                         ^^^^^^^^^^^^^^^
-  File "/home/runner/work/dust-to-downtown/dust-to-downtown/tools/prepare_geo.py", line 85, in rdp
-    P = np.array(pts); d = np.abs(np.cross(ab, P - a)) / L
-                                  ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/numpy/_core/numeric.py", line 1680, in cross
-    raise ValueError(
-ValueError: Both input arrays must be (arrays of) 3-dimensional vectors, but they are 2 and 2 dimensional instead.
+osm lakes: 147 lakes >= 0.02 km2
+grid 602x490 @ 120 m
+elevation: zoom 11, tiles 7x6
+grid 510x230 @ 30 m
+elevation: zoom 13, tiles 6x4
+core layer 510 x 230
+wrote geo.json 602 x 490
+maps written to cities/london/preview
