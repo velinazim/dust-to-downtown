@@ -13,7 +13,9 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    whose `render.json` exists but are not yet in `uploads.json`. If that is 8 or more (4 weeks of stock), make nothing:
    just report to the owner "stok dolu (N bölüm hazır, son yayın <tarih>)" and stop.
    Otherwise pick the first unchecked city in `cities/queue.md` (or the city the owner named).
-   Skip a city whose folder already has `status.json` with `rendered`.
+   Skip a city whose folder already has `status.json` with `rendered`. If the city folder already has `city.json`,
+   `research.md` and a preview but no `render.json`, an earlier run was cut off: **continue that work** (read
+   research.md and the latest preview stills, fix what is left, go to step 6/7) instead of starting over.
 2. **Research (most of the time goes here).** Use WebSearch/WebFetch; open the pages you cite. At least 10 sources:
    Wikipedia for orientation (city article, history article, list of walls/bridges/landmarks), plus Britannica,
    museum / archaeology / city-government / university pages. Collect into `cities/<slug>/research.md`:
@@ -63,8 +65,8 @@ Result appears in `requests/done/` within ~5 minutes.
 - Preview/geo failures: the log is committed to `cities/<slug>/geo_log.txt` (GitHub's own log host is not reachable
   from Claude sessions). Overpass (OSM) can be busy: the script retries for a few minutes; if it still fails, re-run
   the Preview action later (`gh api -X POST repos/velinazim/dust-to-downtown/actions/workflows/preview.yml/dispatches -f ref=main -f 'inputs[slug]=<slug>'`).
-- The channel is not phone-verified yet (`config/whoami.txt`: longUploadsStatus=eligible): keep episodes under 15:00
-  until it says `allowed`; validate.py warns above 899 s.
+- The channel is phone-verified since 30 Oct 2026 (`config/whoami.txt`: longUploadsStatus=allowed): episodes may run
+  past 15:00 and custom thumbnails work. Set `"long_ok": true` in city.json to silence the validator warning.
 - A city can be written with a small generator (cities/london/_build.py) — keep it next to city.json.
 
 - Never put secrets in files or chat. YouTube credentials live only in GitHub Secrets.
