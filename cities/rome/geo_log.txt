@@ -1,0 +1,9 @@
+osm rivers: kept 1, skipped 63 -> 1 outer / 0 inner rings
+osm lakes: 8 lakes >= 0.02 km2
+grid 565x643 @ 100 m
+elevation: zoom 11, tiles 5x6
+grid 443x407 @ 30 m
+elevation: zoom 13, tiles 4x4
+core layer 443 x 407
+wrote geo.json 565 x 643
+maps written to cities/rome/preview
