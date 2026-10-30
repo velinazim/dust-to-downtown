@@ -27,5 +27,41 @@
   "playlist": "added",
   "replaces": "g3Tm5FSU9ys",
   "note": "owner moved it to 17:00 Istanbul and it went public"
+ },
+ {
+  "key": "london:short:whole",
+  "slug": "london",
+  "kind": "short",
+  "video_id": "SHoiyJ5W1YY",
+  "link": "https://youtube.com/shorts/SHoiyJ5W1YY",
+  "title": "London: 2,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-10-31T16:00:00Z",
+  "uploaded": "2026-10-30T22:52:57Z",
+  "thumbnail": "none",
+  "playlist": "not added (409)"
+ },
+ {
+  "key": "london:short:great-fire",
+  "slug": "london",
+  "kind": "short",
+  "video_id": "UYKAqkdqiWE",
+  "link": "https://youtube.com/shorts/UYKAqkdqiWE",
+  "title": "The Great Fire of London, 1666 #shorts",
+  "publish_at": "2026-11-01T16:00:00Z",
+  "uploaded": "2026-10-30T22:53:01Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "london:short:victorian",
+  "slug": "london",
+  "kind": "short",
+  "video_id": "JfXfAV_KmTM",
+  "link": "https://youtube.com/shorts/JfXfAV_KmTM",
+  "title": "How London Grew From 1 Million to 8.7 Million #shorts",
+  "publish_at": "2026-11-02T16:00:00Z",
+  "uploaded": "2026-10-30T22:53:06Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]

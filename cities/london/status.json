@@ -2,5 +2,8 @@
  "upload_retry": "2026-10-30T07:22:28Z",
  "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nold video unscheduled (stays private): g3Tm5FSU9ys 200 \nreplaced london:long: https://youtu.be/LPzIgfcAY_k publish_at=2026-10-30T15:00:00Z thumbnail=ok playlist=added\n",
  "rendered": "2026-10-30T09:55:59Z",
- "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41022385088"
+ "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41022385088",
+ "shorts_rendered": "2026-10-30T22:53:07Z",
+ "shorts_run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41137646709",
+ "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded london:short:whole https://youtube.com/shorts/SHoiyJ5W1YY publish_at=2026-10-31T16:00:00Z thumbnail=none playlist=not added (409)\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded london:short:great-fire https://youtube.com/shorts/UYKAqkdqiWE publish_at=2026-11-01T16:00:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded london:short:victorian https://youtube.com/shorts/JfXfAV_KmTM publish_at=2026-11-02T16:00:00Z thumbnail=none playlist=added\n"
 }
