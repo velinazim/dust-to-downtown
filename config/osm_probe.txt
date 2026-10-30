@@ -1,0 +1,3 @@
+coastline_ways overpass-api.de 0 []
+river_areas overpass-api.de 2 [{"type": "relation", "id": 28934, "tags": {"natural": "water", "tidal": "yes", "type": "multipolygon", "water": "river"}}, {"type": "relation", "id": 70347, "tags": {"loc_name": "Pool of London", "natural": "water", "note": "Divided into Upper and Lower Pool of London by the Tower Bridge", "tidal": "yes", "type": "multipolygon", "water": "river"}}]
+all_water_count overpass-api.de 1 [{"type": "count", "id": 0, "tags": {"nodes": "0", "ways": "44", "relations": "7", "total": "51"}}]
