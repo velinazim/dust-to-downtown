@@ -2,7 +2,8 @@
 
 Channel: **Dust to Downtown** (@DustToDowntown) — silent 3D timelapses of how great cities grew, ~15 min each,
 English on screen (Turkish version rendered too, kept for a future Turkish channel). Owner speaks Turkish;
-all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri 15:00 UTC).
+all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri 15:00 UTC) + 2–3 vertical Shorts
+per episode on the days between (16:00 UTC).
 Episodes are made ahead of time (one per day, up to 8 in stock) and wait on YouTube as private + scheduled.
 
 The owner cares most about **accuracy and quality**. A slower, correct episode beats a fast, wrong one.
@@ -26,6 +27,12 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    - the extent of the built-up area per era (from historical maps descriptions) → district polygons.
 3. Write `cities/<slug>/city.json` following `CITY_SPEC.md` (target 13–16 min). Write the subtitles yourself in
    plain English and natural Turkish (not word-for-word). Fill `youtube` and `sources`.
+3b. **Shorts.** Write `cities/<slug>/shorts.json` (format and example: `cities/london/shorts.json`, docs at the top of
+   `tools/shorts.py`): **3 Shorts**, strongest first — (1) `whole`: the whole timeline in 50 s, (2) and (3) the two
+   most dramatic stretches of this city's history (a fire, a siege, a boom), 45–50 s each, every one ≤ 59 s with hold.
+   Hook line 1 ≤ 22 characters, facts in titles/descriptions only from research.md. Only as many as fit before the
+   next long episode are rendered (Fri episode → Sat/Sun/Mon = 3, Tue episode → Wed/Thu = 2), in this order.
+   Check with `python3 tools/shorts.py info <slug>`.
 4. `python3 tools/validate.py <slug>` until it prints OK. Fix every WARN you can.
 5. Commit + push (`episode: <slug> draft`). The **Preview** action builds the real map and commits 10 stills per
    language to `cities/<slug>/preview/` (~10–20 min). Poll: every 60 s `git pull -q`, until
@@ -38,6 +45,8 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    **Then look at every preview still** (Read the jpgs). Check: buildings/walls in the water? walls ending on land
    short of the shore? districts spilling outside the real coastline/river? camera too close/far, city off-frame?
    labels overlapping each other or the title? text cut off? Fix city.json and push again. Up to 3 rounds.
+   Then render 3 vertical stills per Short locally (`python3 engine/render.py stills <slug> /tmp/s 2,25,49 --short <id>
+   --w 540 --h 960 --langs en`, needs geo.json from the preview) and check the city fills the frame and the text reads.
 7. When the stills are right: write `cities/<slug>/render.json` = `{"upload": true}`, commit + push
    (`episode: <slug> render`). The **Render episode** action renders in ~20 parallel machines, joins, adds music
    and uploads the English video to YouTube as private, scheduled for the next free slot. ~45–90 min. Do not wait.
@@ -49,6 +58,9 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
 `git pull`; read `uploads.json` (link, publish time), `cities/*/status.json` (render runs and upload logs), and the
 last action runs (`gh api repos/velinazim/dust-to-downtown/actions/runs?per_page=10`). Report in Turkish: what is
 scheduled/published, anything failed and why, what is next in the queue.
+
+Report also: Shorts in `uploads.json` (`kind: short`) and `status.json` `shorts_upload_log`. If a long episode is
+uploaded but its Shorts are missing, start them: `gh workflow run shorts.yml -f slug=<slug> -f upload=true`.
 
 ## C. Publish now / change time ("yayınla")
 

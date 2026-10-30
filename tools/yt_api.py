@@ -52,9 +52,11 @@ def check_channel(tok, repo):
     return cid
 
 
-def next_slot(cfg, taken, now=None):
-    """First weekly slot (e.g. "TUE 15:00" UTC) at least min_lead_hours away that is not already taken."""
+def next_slot(cfg, taken, now=None, not_before=None):
+    """First weekly slot (e.g. "TUE 15:00" UTC) at least min_lead_hours away that is not already taken
+    (and, for a Short, not before its long episode goes public)."""
     now = now or dt.datetime.now(dt.timezone.utc)
+    nb = dt.datetime.strptime(not_before, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc) if not_before else None
     days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
     taken = set(taken)
     for add in range(0, 60):
@@ -66,7 +68,7 @@ def next_slot(cfg, taken, now=None):
             h, m = map(int, hm.split(':'))
             at = dt.datetime(d.year, d.month, d.day, h, m, tzinfo=dt.timezone.utc)
             iso = at.strftime('%Y-%m-%dT%H:%M:%SZ')
-            if at < now + dt.timedelta(hours=cfg.get('min_lead_hours', 3)) or iso in taken:
+            if at < now + dt.timedelta(hours=cfg.get('min_lead_hours', 3)) or iso in taken or (nb and at <= nb):
                 continue
             return iso
     return None
@@ -138,7 +140,7 @@ def cmd_upload(ep, repo):
     meta = json.load(open(os.path.join(ep, 'meta.json')))
     up_path = os.path.join(repo, 'uploads.json')
     uploads = json.load(open(up_path)) if os.path.exists(up_path) else []
-    key = meta['slug'] + ':' + meta['kind']
+    key = meta.get('key') or meta['slug'] + ':' + meta['kind']
     done = next((u for u in uploads if u['key'] == key), None)
     rj = os.path.join(repo, 'cities', meta['slug'], 'render.json')
     replace = done and os.path.exists(rj) and json.load(open(rj)).get('replace') == done['video_id']
@@ -176,7 +178,7 @@ def cmd_upload(ep, repo):
         return
     cfg = json.load(open(os.path.join(repo, 'config', 'schedule.json')))
     slots = cfg['long'] if meta['kind'] == 'long' else cfg['short']
-    at = next_slot(slots, [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind']]) if slots.get('auto', True) else None
+    at = next_slot(slots, [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind']], not_before=meta.get('not_before')) if slots.get('auto', True) else None
     vid = upload_video(tok, os.path.join(ep, meta['file']), meta, at)
     th = set_thumb(tok, vid, os.path.join(ep, meta['thumb'])) if meta.get('thumb') and os.path.exists(os.path.join(ep, meta['thumb'])) else 'none'
     pl = playlist(tok, vid, meta['playlist'], meta.get('playlist_desc', '')) if meta.get('playlist') else 'none'

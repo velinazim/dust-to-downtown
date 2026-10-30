@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
-  actions: read
+  actions: write
 jobs:
   upload:
     runs-on: ubuntu-latest
@@ -50,3 +50,15 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -qm "upload: $S"
           for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done
+      - name: Start the Shorts
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          S=${{ github.event.inputs.slug }}
+          git pull -q origin main || true
+          if [ -f cities/$S/shorts.json ] && grep -q "\"$S:long\"" uploads.json; then
+            gh workflow run shorts.yml --repo ${{ github.repository }} -f slug=$S -f upload=true && echo "shorts started for $S"
+          else
+            echo "no shorts.json or long video not uploaded - skipping shorts"
+          fi

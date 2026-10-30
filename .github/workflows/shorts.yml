@@ -1,0 +1,112 @@
+name: Render shorts
+# Vertical Shorts (1080x1920) cut from an episode, defined in cities/<slug>/shorts.json. Started automatically by
+# "Render episode" once the long video is uploaded (or by hand). Only as many Shorts as fit between this episode's
+# long slot and the next one are made (Fri episode → Sat/Sun/Mon, Tue episode → Wed/Thu). Each is uploaded private +
+# scheduled to the next free Short slot after the long video goes public. Both languages kept 30 days as artifacts.
+on:
+  workflow_dispatch:
+    inputs:
+      slug: {description: 'city slug', required: true}
+      upload: {description: 'upload to YouTube', type: boolean, default: true}
+concurrency:
+  group: shorts-${{ github.event.inputs.slug }}
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+      any: ${{ steps.p.outputs.any }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          S="${{ github.event.inputs.slug }}"
+          test -f "cities/$S/shorts.json" || { echo "no cities/$S/shorts.json"; exit 1; }
+          python3 tools/shorts.py info "$S"
+          python3 tools/shorts.py plan "$S" > plan.json; cat plan.json
+          echo "matrix=$(python3 -c 'import json;print(json.dumps(json.load(open("plan.json"))["chunks"]))')" >> "$GITHUB_OUTPUT"
+          echo "any=$(python3 -c 'import json;print(str(bool(json.load(open("plan.json"))["chunks"])).lower())')" >> "$GITHUB_OUTPUT"
+  render:
+    needs: plan
+    if: needs.plan.outputs.any == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        chunk: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - name: Map
+        run: python3 tools/prepare_geo.py cities/${{ github.event.inputs.slug }} --if-needed
+      - name: Render ${{ matrix.chunk.id }} frames ${{ matrix.chunk.start }}-${{ matrix.chunk.end }}
+        run: |
+          python3 engine/render.py chunk ${{ github.event.inputs.slug }} chunks/${{ matrix.chunk.id }} --short ${{ matrix.chunk.id }} \
+            --w 1080 --h 1920 --crf 18 --start ${{ matrix.chunk.start }} --end ${{ matrix.chunk.end }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: schunk-${{ matrix.chunk.id }}-${{ matrix.chunk.start }}
+          path: chunks/
+          retention-days: 2
+          compression-level: 0
+  assemble:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          pip install -q numpy scipy requests
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'schunk-*', path: chunks, merge-multiple: true}
+      - name: Assemble
+        run: |
+          find chunks -name '*.mp4' | sort | head -50
+          python3 tools/shorts.py assemble ${{ github.event.inputs.slug }} chunks out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts-${{ github.event.inputs.slug }}
+          path: out/
+          retention-days: 30
+          compression-level: 0
+      - name: Upload to YouTube (English)
+        if: github.event.inputs.upload != 'false'
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          git pull -q origin main || true   # fresh uploads.json (slots already taken, long video link)
+          : > upload.log
+          # in shorts.json order, so the strongest Short gets the first slot; one failure doesn't stop the others
+          IDS=$(python3 -c "import json,os; print(' '.join(s['id'] for s in json.load(open('cities/${{ github.event.inputs.slug }}/shorts.json'))['shorts'] if os.path.isdir('out/'+s['id']+'/en')))")
+          echo "shorts to upload: $IDS"
+          for id in $IDS; do
+            python3 tools/yt_api.py upload out/$id/en . 2>&1 | tee -a upload.log || echo "FAILED $id" | tee -a upload.log
+          done
+      - name: Record result
+        if: always()
+        run: |
+          S=${{ github.event.inputs.slug }}
+          python3 - <<EOF
+          import json, os, datetime
+          p = 'cities/$S/status.json'
+          st = json.load(open(p)) if os.path.exists(p) else {}
+          st['shorts_rendered'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+          st['shorts_run'] = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+          st['shorts_upload_log'] = open('upload.log').read()[-2500:] if os.path.exists('upload.log') else None
+          json.dump(st, open(p, 'w'), indent=1)
+          EOF
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          for f in uploads.json cities/$S/status.json; do [ -e "$f" ] && git add "$f"; done; true
+          git diff --cached --quiet && exit 0
+          git commit -qm "shorts: $S"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done

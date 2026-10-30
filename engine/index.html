@@ -45,6 +45,34 @@
   #thumb .l2{font-family:Cinzel;font-weight:700;font-size:44px;letter-spacing:.08em;color:#f3c96b;margin-top:14px}
   #thumb .l3{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:30px;color:#fff;margin-top:8px}
   html.thumb #ov > *:not(#thumb){display:none !important}
+  /* ---- vertical Shorts (720x1280 base, scaled to W). Keeps clear of the Shorts UI: top ~110 px, bottom ~300 px, right ~90 px */
+  #hook,#endc{display:none}
+  html.short #ov{width:720px;height:1280px}
+  html.short #intro,html.short #wm,html.short #thumb{display:none !important}
+  html.short #gradT{height:520px;background:linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,.5))}
+  html.short #gradB{height:560px;background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.55))}
+  html.short #hook{display:block;position:absolute;left:40px;right:40px;top:128px;text-align:center}
+  html.short #hook .h1{font-family:Cinzel;font-weight:700;font-size:44px;line-height:1.05;letter-spacing:.06em}
+  html.short #hook .h2{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:29px;color:#f3c96b;margin-top:6px}
+  html.short #bl{left:0;right:0;bottom:auto;top:262px;text-align:center}
+  html.short #bl .yr{font-size:84px}
+  html.short #bl .pre,html.short #bl .post{font-size:30px}
+  html.short #tr{left:0;right:0;top:372px;text-align:center}
+  html.short #tr .row{justify-content:center}
+  html.short #tr .pop{font-size:34px}
+  html.short #tr svg{width:18px;height:21px}
+  html.short #tr .popl{font-size:12px}
+  html.short #tl{left:0;right:0;top:446px;text-align:center}
+  html.short #tl .era{font-size:14px}
+  html.short #tl .city{font-size:26px}
+  html.short #br{left:40px;right:40px;bottom:318px;text-align:center;max-width:none}
+  html.short #br .title{font-size:36px}
+  html.short #br .sub{font-size:24px;line-height:1.25}
+  html.short #endc{display:block;position:absolute;left:40px;right:40px;bottom:318px;text-align:center;font-family:Cinzel;font-weight:700;font-size:30px;letter-spacing:.06em;line-height:1.2}
+  html.short #endc .s{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:26px;color:#f3c96b;letter-spacing:0;margin-top:6px}
+  html.short .lab.place{font-size:13px}
+  html.short .lab.water{font-size:19px}
+  html.short .lab.region{font-size:14px}
   html.thumb #thumb{display:block}
   .lab{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;text-align:center}
   .lab.water{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-size:15px;letter-spacing:.3em;color:#eaf6fa}
@@ -63,6 +91,8 @@
   <div id="bl" class="shadow"><span class="pre"></span><span class="yr"></span><span class="post"></span></div>
   <div id="br" class="shadow"><div class="title"></div><div class="sub"></div></div>
   <div id="wm" class="shadow">DUST TO DOWNTOWN</div>
+  <div id="hook" class="shadow"><div class="h1"></div><div class="h2"></div></div>
+  <div id="endc" class="shadow"><div class="m"></div><div class="s"></div></div>
   <div id="thumb" class="shadow"><div class="shade"></div><div class="txt"><div class="l1"></div><div class="l2"></div><div class="l3"></div></div></div>
   <div id="intro" class="shadow"><div class="bg"></div><div class="name"></div><div class="line"></div><div class="tag"></div></div>
 </div>
@@ -99,6 +129,15 @@ function b64i16(s) { const bin = atob(s); const u8 = new Uint8Array(bin.length);
 // ------------------------------------------------------------ load data
 const city = await (await fetch(`../cities/${SLUG}/city.json`, { cache: 'no-store' })).json();
 const geo = await (await fetch(`../cities/${SLUG}/geo.json`, { cache: 'no-store' })).json();
+// Vertical Shorts: ?short=<id> picks an entry of cities/<slug>/shorts.json. render.py maps each output frame to an
+// episode time (window.RT = seconds into the Short, SPD = episode seconds per Short second).
+const SHORT_ID = Q.get('short');
+const SHORT = SHORT_ID ? ((await (await fetch(`../cities/${SLUG}/shorts.json`, { cache: 'no-store' })).json()).shorts || []).find(x => x.id === SHORT_ID) : null;
+if (SHORT_ID && !SHORT) throw new Error('short not found: ' + SHORT_ID);
+if (SHORT) document.documentElement.classList.add('short');
+const SPD = +(Q.get('spd') || 1), SLEN = +(Q.get('slen') || 0);
+window.RT = 0;
+const BW = SHORT ? 720 : 1280, BH = SHORT ? 1280 : 720;   // overlay layout base size
 const [LAT0, LON0] = geo.origin;
 const KX = 111.32 * Math.cos(LAT0 * Math.PI / 180), KZ = 110.574;
 const ll = ([lat, lon]) => [(lon - LON0) * KX, -(lat - LAT0) * KZ];
@@ -151,7 +190,9 @@ window.CHAPTERS = SEG.filter(s => s.chapter).map(s => ({ t: s.t0, title: s.chapt
 
 // ------------------------------------------------------------ camera
 const VIEW = city.view || {};
-const AZ = (+(Q.get('az') ?? VIEW.azimuth_deg ?? 0)) * Math.PI / 180, PITCH = (+(Q.get('pitch') ?? VIEW.pitch_deg ?? 46)) * Math.PI / 180;
+// A tall frame sees much further towards the horizon, so Shorts look down more steeply (no map edge / sky at the top).
+const AZ = (+(Q.get('az') ?? VIEW.azimuth_deg ?? 0)) * Math.PI / 180,
+  PITCH = (+(Q.get('pitch') ?? (SHORT ? (SHORT.pitch_deg ?? (VIEW.pitch_deg ?? 46) + 16) : (VIEW.pitch_deg ?? 46)))) * Math.PI / 180;
 const VIEW_DIR = new THREE.Vector3(Math.sin(AZ) * Math.cos(PITCH), Math.sin(PITCH), Math.cos(AZ) * Math.cos(PITCH)).normalize();
 const CAMK = []; { let prev = null; for (const s of SEG) { const c = s.camera || prev; if (!c) continue; prev = c; const [x, z] = ll(c.center); CAMK.push([s.t0 + s.seconds * 0.5, x, z, c.dist_km]); } }
 if (CAMK.length) { CAMK.unshift([0, CAMK[0][1], CAMK[0][2], CAMK[0][3]]); CAMK.push([DUR, ...CAMK[CAMK.length - 1].slice(1)]); }
@@ -162,12 +203,13 @@ function camAt(t) {
   const g = j => k[clamp(j, 0, k.length - 1)];
   return [1, 2, 3].map(c => catmull(g(i - 1)[c], g(i)[c], g(i + 1)[c], g(i + 2)[c], u));
 }
-const camera = new THREE.PerspectiveCamera(VIEW.fov ?? 34, W / H, 0.02, 400);
+const camera = new THREE.PerspectiveCamera(+(Q.get('fov') || (SHORT ? (SHORT.fov ?? 52) : (VIEW.fov ?? 34))), W / H, 0.02, 400);
+const DK = SHORT ? (SHORT.dist_mult ?? 1.35) : 1;   // a tall frame is narrow: pull back so the city still fits sideways
 const CAM_MAX = Math.max(...CAMK.map(k => k[3]));
 const CAM_OVR = Q.get('cam') ? Q.get('cam').split(',').map(Number) : null; // lat,lon,dist_km
 function placeCamera(t) {
   let [x, z, d] = camAt(t);
-  if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; }
+  if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; } else if (SHORT) d = Math.min(d * DK, Math.max(d, CAM_MAX * 0.8));
   const target = new THREE.Vector3(x, 0.05, z);
   camera.position.copy(target).addScaledVector(VIEW_DIR, d);
   camera.near = Math.max(0.01, d * 0.01); camera.far = d * 6 + 20;
@@ -194,7 +236,13 @@ function fmtPop(p, L) {
 const LABELS = (city.labels || []).map(l => ({ ...l, xz: ll(l.at) }));
 function setupOverlay() {
   const L = HUD[LANG];
-  document.getElementById('ov').style.transform = `scale(${W / 1280})`;
+  document.getElementById('ov').style.transform = `scale(${W / BW})`;
+  if (SHORT) {
+    document.querySelector('#hook .h1').textContent = T(SHORT.hook?.line1 ?? city.name).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
+    document.querySelector('#hook .h2').textContent = T(SHORT.hook?.line2 ?? '');
+    document.querySelector('#endc .m').textContent = T(SHORT.end?.line1 ?? { en: 'FULL EPISODE ON THE CHANNEL', tr: 'TAM BÖLÜM KANALDA' }).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
+    document.querySelector('#endc .s').textContent = T(SHORT.end?.line2 ?? '');
+  }
   document.querySelector('#tr .popl').textContent = L.pop;
   document.querySelector('#intro .name').textContent = T(city.name).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
   document.querySelector('#intro .tag').textContent = T(city.intro);
@@ -211,23 +259,29 @@ const INTRO = city.intro_seconds ?? 4.5;
 function renderOverlay(t) {
   const L = HUD[LANG]; placeCamera(t);
   const s = segAt(t), idx = SEG.indexOf(s), last = idx === SEG.length - 1;
-  const hud = sstep(INTRO - 0.6, INTRO + 0.4, t);
-  const iop = (1 - sstep(INTRO - 1.0, INTRO, t)) * sstep(0.15, 0.9, t);
+  const K = SHORT ? SPD : 1;                       // fades are written in episode seconds; keep them the same on screen
+  const hud = SHORT ? 1 : sstep(INTRO - 0.6, INTRO + 0.4, t);
+  const iop = SHORT ? 0 : (1 - sstep(INTRO - 1.0, INTRO, t)) * sstep(0.15, 0.9, t);
   const intro = document.getElementById('intro'); intro.style.opacity = iop; intro.style.display = iop > 0.002 ? '' : 'none';
-  const cs = Math.max(s.t0, INTRO);
-  const cardOp = (s.title ? 1 : 0) * sstep(cs + 0.3, cs + 0.9, t) * (last ? 1 : 1 - sstep(s.t1 - 0.5, s.t1 - 0.08, t)) * hud;
+  const cs = SHORT ? s.t0 : Math.max(s.t0, INTRO);
+  // In a Short a card is shown only if its segment stays on screen long enough to read (≥ 4 s), and it gives way to the end card.
+  const endOp = SHORT && SLEN ? sstep(SLEN - 2.6, SLEN - 2.0, window.RT) : 0;
+  const readable = !SHORT || s.seconds / SPD >= 4;
+  const cardOp = (s.title && readable ? 1 : 0) * sstep(cs + 0.3 * K, cs + 0.9 * K, t) * (last ? 1 : 1 - sstep(s.t1 - 0.5 * K, s.t1 - 0.08 * K, t)) * hud * (1 - endOp);
+  if (SHORT) document.getElementById('endc').style.opacity = endOp;
   const br = document.getElementById('br');
   br.querySelector('.title').textContent = T(s.title).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
   br.querySelector('.sub').textContent = T(s.sub);
-  br.style.opacity = cardOp; br.style.transform = `translateY(${(1 - sstep(cs + 0.3, cs + 0.9, t)) * 10}px)`;
+  br.style.opacity = cardOp; br.style.transform = `translateY(${(1 - sstep(cs + 0.3 * K, cs + 0.9 * K, t)) * 10}px)`;
   const prev = SEG[idx - 1], next = SEG[idx + 1];
   const sameEraPrev = prev && T(prev.era) === T(s.era) && T(prev.city_name) === T(s.city_name);
   const sameEraNext = next && T(next.era) === T(s.era) && T(next.city_name) === T(s.city_name);
-  const eraOp = hud * (sameEraPrev ? 1 : sstep(s.t0 - 0.05, s.t0 + 0.5, t)) * (sameEraNext || last ? 1 : 1 - sstep(s.t1 - 0.4, s.t1 - 0.02, t) * 0.999);
+  const eraOp = hud * (sameEraPrev ? 1 : sstep(s.t0 - 0.05 * K, s.t0 + 0.5 * K, t)) * (sameEraNext || last ? 1 : 1 - sstep(s.t1 - 0.4 * K, s.t1 - 0.02 * K, t) * 0.999);
   const tl = document.getElementById('tl');
   tl.querySelector('.era').textContent = T(s.era).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US'); tl.querySelector('.city').textContent = T(s.city_name);
   tl.style.opacity = eraOp;
-  const yv = yearAt(t); const [pre, yr, post] = L.year(yv < 0 ? Math.ceil(yv) : Math.floor(yv));
+  const yv = yearAt(t) + (SHORT ? 0.01 : 0);   // a Short stops a hair before the next segment: show its to_year
+  const [pre, yr, post] = L.year(yv < 0 ? Math.ceil(yv) : Math.floor(yv));
   const bl = document.getElementById('bl');
   bl.querySelector('.pre').textContent = pre; bl.querySelector('.yr').textContent = yr; bl.querySelector('.post').textContent = post;
   bl.querySelector('.pre').style.display = pre ? '' : 'none'; bl.querySelector('.post').style.display = post ? '' : 'none';
@@ -238,9 +292,10 @@ function renderOverlay(t) {
   document.getElementById('wm').style.opacity = 0.45 * hud;
   for (const lb of LABELS) {
     const v = new THREE.Vector3(lb.xz[0], lb.y3, lb.xz[1]).project(camera);
-    const op = hud * sstep(lb.ta, lb.ta + 0.7, t) * (1 - sstep(lb.tb - 0.7, lb.tb, t));
-    const sx = (v.x + 1) / 2 * 1280, sy = (1 - v.y) / 2 * 720;
-    const on = op > 0.002 && v.z < 1 && sx > -80 && sx < 1360 && sy > -40 && sy < 760;
+    const op = hud * sstep(lb.ta, lb.ta + 0.7 * K, t) * (1 - sstep(lb.tb - 0.7 * K, lb.tb, t));
+    const sx = (v.x + 1) / 2 * BW, sy = (1 - v.y) / 2 * BH;
+    // in a Short, keep labels out of the headline/counter band at the top and the Shorts UI at the bottom
+    const on = op > 0.002 && v.z < 1 && sx > -80 && sx < BW + 80 && sy > (SHORT ? 520 : -40) && sy < (SHORT ? BH - 330 : BH + 40);
     lb.el.style.display = on ? '' : 'none';
     if (on) { lb.el.style.left = sx + 'px'; lb.el.style.top = sy + 'px'; lb.el.style.opacity = op * (lb.kind === 'water' ? 0.8 : 1); }
   }

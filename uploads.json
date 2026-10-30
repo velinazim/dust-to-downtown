@@ -11,7 +11,8 @@
   "thumbnail": "thumbnail not set (403): {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat — custom thumbnails need a phone-verified channel",
   "playlist": "added",
   "replaced_by": "LPzIgfcAY_k",
-  "unscheduled": true
+  "unscheduled": true,
+  "deleted": "2026-10-30 (owner deleted it in Studio)"
  },
  {
   "key": "london:long",
@@ -20,10 +21,11 @@
   "video_id": "LPzIgfcAY_k",
   "link": "https://youtu.be/LPzIgfcAY_k",
   "title": "London: 2,000 Years in 14 Minutes (3D Timelapse)",
-  "publish_at": "2026-10-30T15:00:00Z",
+  "publish_at": "2026-10-30T14:00:00Z",
   "uploaded": "2026-10-30T09:55:08Z",
   "thumbnail": "ok",
   "playlist": "added",
-  "replaces": "g3Tm5FSU9ys"
+  "replaces": "g3Tm5FSU9ys",
+  "note": "owner moved it to 17:00 Istanbul and it went public"
  }
 ]

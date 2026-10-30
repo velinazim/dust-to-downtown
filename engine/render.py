@@ -3,6 +3,8 @@
   python3 engine/render.py info   <slug>
   python3 engine/render.py stills <slug> <outdir> <t1,t2,...|auto> [--langs en,tr] [--w 1920 --h 1080]
   python3 engine/render.py chunk  <slug> <outdir> --start F0 --end F1 [--fps 30] [--langs en,tr]
+  add --short <id> to render a vertical Short from cities/<slug>/shorts.json (use --w 1080 --h 1920;
+  frames and still times are then Short frames/seconds, mapped onto the episode by tools/shorts.py)
 
 A local static server is started on the repo root automatically.
 Chunks are H.264 files with identical settings so they can be joined with the ffmpeg concat demuxer.
@@ -11,6 +13,7 @@ import argparse, functools, http.server, json, os, shutil, socketserver, subproc
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
 ARGS = ["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist", "--disable-gpu-sandbox"]
 
 
@@ -47,10 +50,28 @@ def main():
     ap.add_argument("cmd"); ap.add_argument("slug"); ap.add_argument("out", nargs="?"); ap.add_argument("times", nargs="?")
     ap.add_argument("--langs", default="en,tr"); ap.add_argument("--w", type=int, default=1920); ap.add_argument("--h", type=int, default=1080)
     ap.add_argument("--fps", type=int, default=30); ap.add_argument("--start", type=int, default=0); ap.add_argument("--end", type=int, default=-1)
-    ap.add_argument("--crf", default="19"); ap.add_argument("--extra", default="")
+    ap.add_argument("--crf", default="19"); ap.add_argument("--extra", default=""); ap.add_argument("--short", default="")
     a = ap.parse_args()
     langs = [l for l in a.langs.split(",") if l]
     dur = duration(a.slug)
+    SR = None; oextra = ""
+    if a.short:
+        import shorts as SH
+        city, lst = SH.load(a.slug)
+        sh = next((x for x in lst if x["id"] == a.short), None)
+        if not sh:
+            sys.exit(f"no short {a.short} in cities/{a.slug}/shorts.json")
+        SR = SH.resolve(city, sh, a.fps)
+        oextra = f"&short={a.short}&spd={SR['spd']}&slen={SR['total']}"
+        a.extra += oextra
+        dur = SR["total"]
+    def at(pg, t):
+        """t = output seconds; in a Short it is mapped onto the episode timeline."""
+        if SR:
+            et = min(SR["t1"], SR["t0"] + t * SR["spd"])
+            pg.evaluate(f"window.RT = {t}; window.renderAt({et})")
+        else:
+            pg.evaluate(f"window.renderAt({t})")
     if a.cmd == "info":
         print(json.dumps({"duration_s": dur, "frames": int(round(dur * a.fps))}))
         return
@@ -62,14 +83,14 @@ def main():
             b, pg = open_page(p, port, a.slug, "scene", "en", a.w, a.h, a.extra)
             print("stats", pg.evaluate("window.stats"), flush=True)
             for t in ts:
-                t0 = time.time(); pg.evaluate(f"window.renderAt({t})")
+                t0 = time.time(); at(pg, t)
                 pg.screenshot(path=f"{a.out}/s_{t:07.2f}.png")
                 print(f"  scene t={t} {time.time() - t0:.1f}s", flush=True)
             b.close()
             for lang in langs:
-                b, pg = open_page(p, port, a.slug, "overlay", lang, a.w, a.h)
+                b, pg = open_page(p, port, a.slug, "overlay", lang, a.w, a.h, oextra)
                 for t in ts:
-                    pg.evaluate(f"window.renderAt({t})")
+                    at(pg, t)
                     pg.screenshot(path=f"{a.out}/o_{lang}_{t:07.2f}.png", omit_background=True)
                 b.close()
                 for t in ts:
@@ -97,16 +118,16 @@ def main():
             b, pg = open_page(p, port, a.slug, "scene", "en", a.w, a.h, a.extra)
             t0 = time.time()
             for f in range(f0, f1):
-                pg.evaluate(f"window.renderAt({f / a.fps})")
+                at(pg, f / a.fps)
                 pg.screenshot(path=f"{tmp}/scene/{f - f0:05d}.jpg", type="jpeg", quality=92)
                 if (f - f0) % 60 == 0:
                     print(f"scene {f - f0}/{f1 - f0} {time.time() - t0:.0f}s", flush=True)
             b.close()
             for lang in langs:
                 os.makedirs(f"{tmp}/ov_{lang}", exist_ok=True)
-                b, pg = open_page(p, port, a.slug, "overlay", lang, a.w, a.h)
+                b, pg = open_page(p, port, a.slug, "overlay", lang, a.w, a.h, oextra)
                 for f in range(f0, f1):
-                    pg.evaluate(f"window.renderAt({f / a.fps})")
+                    at(pg, f / a.fps)
                     pg.screenshot(path=f"{tmp}/ov_{lang}/{f - f0:05d}.png", omit_background=True)
                 b.close()
                 out = os.path.join(a.out, f"chunk_{lang}_{f0:06d}.mp4")
