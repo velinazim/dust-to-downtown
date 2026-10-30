@@ -58,7 +58,7 @@ jobs:
           S=${{ github.event.inputs.slug }}
           git pull -q origin main || true
           if [ -f cities/$S/shorts.json ] && grep -q "\"$S:long\"" uploads.json; then
-            gh workflow run shorts.yml --repo ${{ github.repository }} -f slug=$S -f upload=true && echo "shorts started for $S"
+            gh api -X POST repos/${{ github.repository }}/actions/workflows/shorts.yml/dispatches -f ref=main -f "inputs[slug]=$S" -f "inputs[upload]=true" && echo "shorts started for $S"
           else
             echo "no shorts.json or long video not uploaded - skipping shorts"
           fi

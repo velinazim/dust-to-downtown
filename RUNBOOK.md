@@ -60,7 +60,7 @@ last action runs (`gh api repos/velinazim/dust-to-downtown/actions/runs?per_page
 scheduled/published, anything failed and why, what is next in the queue.
 
 Report also: Shorts in `uploads.json` (`kind: short`) and `status.json` `shorts_upload_log`. If a long episode is
-uploaded but its Shorts are missing, start them: `gh workflow run shorts.yml -f slug=<slug> -f upload=true`.
+uploaded but its Shorts are missing, start them: `gh api -X POST repos/velinazim/dust-to-downtown/actions/workflows/shorts.yml/dispatches -f ref=main -f "inputs[slug]=<slug>" -f "inputs[upload]=true"`.
 
 ## C. Publish now / change time ("yayınla")
 
