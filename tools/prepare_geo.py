@@ -78,11 +78,16 @@ def overpass(q, label):
 
 
 def rdp(pts, eps):
-    """Douglas-Peucker simplification of [lat, lon] points (eps in degrees)."""
+    """Douglas-Peucker simplification of [lat, lon] points (eps in degrees). Closed rings are split in two first."""
     if len(pts) < 3:
         return pts
-    a, b = np.array(pts[0]), np.array(pts[-1]); ab = b - a; L = np.hypot(*ab) or 1e-12
-    P = np.array(pts); d = np.abs(np.cross(ab, P - a)) / L
+    if pts[0] == pts[-1]:
+        P = np.array(pts); k = int(np.argmax(np.hypot(P[:, 0] - P[0, 0], P[:, 1] - P[0, 1])))
+        if k == 0:
+            return pts
+        return rdp(pts[:k + 1], eps)[:-1] + rdp(pts[k:], eps)
+    a, b = np.array(pts[0], float), np.array(pts[-1], float); ab = b - a; L = np.hypot(*ab) or 1e-12
+    P = np.array(pts, float); d = np.abs(ab[0] * (P[:, 1] - a[1]) - ab[1] * (P[:, 0] - a[0])) / L
     i = int(np.argmax(d))
     if d[i] > eps:
         return rdp(pts[:i + 1], eps)[:-1] + rdp(pts[i:], eps)
