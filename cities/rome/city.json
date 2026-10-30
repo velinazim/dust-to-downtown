@@ -1,0 +1,5328 @@
+{
+ "slug": "rome",
+ "seed": 753,
+ "name": {
+  "en": "Rome",
+  "tr": "Roma"
+ },
+ "intro": {
+  "en": "3,000 Years in 14 Minutes",
+  "tr": "14 Dakikada 3.000 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   41.6,
+   12.1,
+   42.18,
+   12.78
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   41.84,
+   12.4,
+   41.95,
+   12.56
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Tevere",
+   "Tiber"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 70,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": -1000,
+   "to": -801,
+   "seconds": 16,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "Tiber valley",
+    "tr": "Tiber vadisi"
+   },
+   "title": {
+    "en": "Before Rome",
+    "tr": "Roma'dan Önce"
+   },
+   "sub": {
+    "en": "c. 1000 BC: villagers bury their dead in the marshy valley of the future Forum",
+    "tr": "MÖ ~1000: köylüler, ileride Forum olacak bataklık vadiye ölülerini gömer"
+   },
+   "camera": {
+    "center": [
+     41.8905,
+     12.486
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Origins",
+    "tr": "Başlangıç"
+   }
+  },
+  {
+   "from": -800,
+   "to": -700,
+   "seconds": 24,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Huts on the Palatine",
+    "tr": "Palatin'de Kulübeler"
+   },
+   "sub": {
+    "en": "Legend says Rome was founded on 21 April 753 BC; huts already stood on the Palatine",
+    "tr": "Efsaneye göre Roma 21 Nisan MÖ 753'te kuruldu; Palatin'de kulübeler zaten vardı"
+   },
+   "camera": {
+    "center": [
+     41.8898,
+     12.4868
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": -699,
+   "to": -560,
+   "seconds": 22,
+   "era": {
+    "en": "Kings of Rome",
+    "tr": "Krallar Dönemi"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Forum Is Drained",
+    "tr": "Forum Kurutuluyor"
+   },
+   "sub": {
+    "en": "7th century BC: the first Cloaca Maxima drains the valley; c. 600 BC it is paved",
+    "tr": "MÖ 7. yüzyıl: ilk Cloaca Maxima vadiyi kurutur; MÖ ~600'de zemin döşenir"
+   },
+   "camera": {
+    "center": [
+     41.8908,
+     12.4858
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": -559,
+   "to": -509,
+   "seconds": 22,
+   "era": {
+    "en": "Kings of Rome",
+    "tr": "Krallar Dönemi"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Temple of Jupiter",
+    "tr": "Jüpiter Tapınağı"
+   },
+   "sub": {
+    "en": "509 BC: the great temple on the Capitol is dedicated as the Republic begins",
+    "tr": "MÖ 509: Cumhuriyet başlarken Capitolium'daki büyük tapınak açılır"
+   },
+   "camera": {
+    "center": [
+     41.8915,
+     12.4845
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": -508,
+   "to": -391,
+   "seconds": 8,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "camera": {
+    "center": [
+     41.8915,
+     12.4855
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "The Republic",
+    "tr": "Cumhuriyet"
+   }
+  },
+  {
+   "from": -390,
+   "to": -387,
+   "seconds": 18,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Gauls Sack Rome",
+    "tr": "Galyalılar Roma'yı Yağmalıyor"
+   },
+   "sub": {
+    "en": "390 BC (or 387): Gauls burn the city; only the Capitol holds out",
+    "tr": "MÖ 390 (ya da 387): Galyalılar şehri yakar; yalnızca Capitolium direnir"
+   },
+   "camera": {
+    "center": [
+     41.8915,
+     12.4865
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": -386,
+   "to": -320,
+   "seconds": 22,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Servian Wall",
+    "tr": "Servius Suru"
+   },
+   "sub": {
+    "en": "Early 4th century BC: an 11 km stone wall, up to 10 m high, rings the hills",
+    "tr": "MÖ 4. yüzyıl başı: 11 km uzunluğunda, 10 m'ye varan taş bir sur tepeleri çevreler"
+   },
+   "camera": {
+    "center": [
+     41.892,
+     12.489
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": -319,
+   "to": -221,
+   "seconds": 22,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Roads and Water",
+    "tr": "Yollar ve Su"
+   },
+   "sub": {
+    "en": "312 BC: Appius Claudius begins the Via Appia and Rome's first aqueduct",
+    "tr": "MÖ 312: Appius Claudius, Via Appia'yı ve Roma'nın ilk su kemerini başlatır"
+   },
+   "camera": {
+    "center": [
+     41.887,
+     12.493
+    ],
+    "dist_km": 5.4
+   }
+  },
+  {
+   "from": -220,
+   "to": -180,
+   "seconds": 8,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "camera": {
+    "center": [
+     41.895,
+     12.484
+    ],
+    "dist_km": 5.4
+   }
+  },
+  {
+   "from": -179,
+   "to": -142,
+   "seconds": 19,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The First Stone Bridge",
+    "tr": "İlk Taş Köprü"
+   },
+   "sub": {
+    "en": "179–142 BC: the Pons Aemilius crosses the Tiber on stone piers and arches",
+    "tr": "MÖ 179–142: Pons Aemilius, taş ayaklar ve kemerlerle Tiber'i geçer"
+   },
+   "camera": {
+    "center": [
+     41.8905,
+     12.4805
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": -141,
+   "to": -63,
+   "seconds": 8,
+   "era": {
+    "en": "Roman Republic",
+    "tr": "Roma Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "camera": {
+    "center": [
+     41.8935,
+     12.479
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": -62,
+   "to": -44,
+   "seconds": 22,
+   "era": {
+    "en": "Late Republic",
+    "tr": "Geç Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Pompey's Theatre",
+    "tr": "Pompeius Tiyatrosu"
+   },
+   "sub": {
+    "en": "55 BC: Pompey opens a vast theatre; in 44 BC Caesar is killed in its curia",
+    "tr": "MÖ 55: Pompeius dev bir tiyatro açar; MÖ 44'te Sezar onun meclis salonunda öldürülür"
+   },
+   "camera": {
+    "center": [
+     41.8955,
+     12.4765
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": -43,
+   "to": 14,
+   "seconds": 24,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Rome of Augustus",
+    "tr": "Augustus'un Roması"
+   },
+   "sub": {
+    "en": "His mausoleum (28 BC) and Agrippa's Pantheon rise; Rome nears a million people",
+    "tr": "Mozolesi (MÖ 28) ve Agrippa'nın Pantheon'u yükselir; Roma bir milyona yaklaşır"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.9,
+     12.4795
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Imperial Rome",
+    "tr": "İmparatorluk Roması"
+   }
+  },
+  {
+   "from": 15,
+   "to": 63,
+   "seconds": 8,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.895,
+     12.485
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 64,
+   "to": 64.5,
+   "seconds": 22,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   },
+   "sub": {
+    "en": "July AD 64: fire starts by the Circus Maximus; 10 of 14 districts are destroyed",
+    "tr": "Temmuz MS 64: yangın Circus Maximus'ta başlar; 14 bölgenin 10'u yok olur"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.8885,
+     12.4895
+    ],
+    "dist_km": 3.8
+   }
+  },
+  {
+   "from": 64.6,
+   "to": 80,
+   "seconds": 22,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Colosseum",
+    "tr": "Kolezyum"
+   },
+   "sub": {
+    "en": "AD 70–80: Vespasian and Titus build a 48 m arena for about 50,000 spectators",
+    "tr": "MS 70–80: Vespasianus ve Titus, yaklaşık 50.000 kişilik 48 m'lik bir arena yapar"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.8905,
+     12.4912
+    ],
+    "dist_km": 2.9
+   }
+  },
+  {
+   "from": 81,
+   "to": 125,
+   "seconds": 22,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Trajan's Forum",
+    "tr": "Traianus Forumu"
+   },
+   "sub": {
+    "en": "AD 112: Trajan's Forum opens; Hadrian's domed Pantheon follows c. AD 125",
+    "tr": "MS 112: Traianus Forumu açılır; Hadrianus'un kubbeli Pantheon'u MS ~125'te gelir"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.8965,
+     12.4825
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 126,
+   "to": 200,
+   "seconds": 19,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Hadrian's Tomb",
+    "tr": "Hadrianus'un Mezarı"
+   },
+   "sub": {
+    "en": "AD 134–139: Hadrian's mausoleum and its bridge rise across the Tiber",
+    "tr": "MS 134–139: Hadrianus'un mozolesi ve köprüsü Tiber'in karşı yakasında yükselir"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.901,
+     12.47
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 201,
+   "to": 270,
+   "seconds": 19,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Baths of Caracalla",
+    "tr": "Caracalla Hamamları"
+   },
+   "sub": {
+    "en": "AD 216: the baths open in a walled precinct about 400 m on each side",
+    "tr": "MS 216: hamamlar, her kenarı yaklaşık 400 m olan duvarlı bir alanda açılır"
+   },
+   "population": 1000000,
+   "camera": {
+    "center": [
+     41.883,
+     12.4925
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 271,
+   "to": 311,
+   "seconds": 22,
+   "era": {
+    "en": "Late Empire",
+    "tr": "Geç İmparatorluk"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Aurelian Walls",
+    "tr": "Aurelianus Surları"
+   },
+   "sub": {
+    "en": "AD 271–275: a 19 km wall now encloses about 14 km² of the city",
+    "tr": "MS 271–275: 19 km'lik yeni sur şehrin yaklaşık 14 km²'sini çevreler"
+   },
+   "camera": {
+    "center": [
+     41.8945,
+     12.4885
+    ],
+    "dist_km": 8.5
+   },
+   "chapter": {
+    "en": "Late Empire",
+    "tr": "Geç İmparatorluk"
+   }
+  },
+  {
+   "from": 312,
+   "to": 400,
+   "seconds": 22,
+   "era": {
+    "en": "Late Empire",
+    "tr": "Geç İmparatorluk"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "A Christian City",
+    "tr": "Hristiyan Şehir"
+   },
+   "sub": {
+    "en": "After the Milvian Bridge (312) Constantine founds the Lateran (324) and St Peter's",
+    "tr": "Milvius Köprüsü'nden (312) sonra Konstantin, Lateran'ı (324) ve St. Peter'i kurar"
+   },
+   "camera": {
+    "center": [
+     41.8955,
+     12.4805
+    ],
+    "dist_km": 7.2
+   }
+  },
+  {
+   "from": 401,
+   "to": 455.6,
+   "seconds": 22,
+   "era": {
+    "en": "Fall of the West",
+    "tr": "Batı'nın Çöküşü"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Rome Is Sacked",
+    "tr": "Roma Yağmalanıyor"
+   },
+   "sub": {
+    "en": "AD 410: the Visigoths sack Rome for three days; in 455 the Vandals for two weeks",
+    "tr": "MS 410: Vizigotlar Roma'yı üç gün yağmalar; 455'te Vandallar iki hafta"
+   },
+   "camera": {
+    "center": [
+     41.8955,
+     12.485
+    ],
+    "dist_km": 6.2
+   },
+   "chapter": {
+    "en": "The Fall",
+    "tr": "Çöküş"
+   }
+  },
+  {
+   "from": 456,
+   "to": 600,
+   "seconds": 22,
+   "era": {
+    "en": "Goths and Byzantines",
+    "tr": "Gotlar ve Bizans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Water Stops",
+    "tr": "Su Kesiliyor"
+   },
+   "sub": {
+    "en": "c. AD 537: besieging Goths cut the aqueducts; soon fewer than 50,000 people remain",
+    "tr": "MS ~537: kuşatan Gotlar su kemerlerini keser; kısa sürede 50.000'den az kişi kalır"
+   },
+   "camera": {
+    "center": [
+     41.8925,
+     12.4855
+    ],
+    "dist_km": 5.6
+   }
+  },
+  {
+   "from": 601,
+   "to": 845,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Down to the River",
+    "tr": "Nehir Kıyısına"
+   },
+   "sub": {
+    "en": "609: the Pantheon becomes a church; the people move down to the Tiber bend",
+    "tr": "609: Pantheon kiliseye dönüşür; halk Tiber'in kıvrımına iner"
+   },
+   "camera": {
+    "center": [
+     41.8985,
+     12.476
+    ],
+    "dist_km": 4.6
+   },
+   "chapter": {
+    "en": "Medieval Rome",
+    "tr": "Orta Çağ Roması"
+   }
+  },
+  {
+   "from": 846,
+   "to": 1083,
+   "seconds": 22,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Leonine Wall",
+    "tr": "Leo Suru"
+   },
+   "sub": {
+    "en": "846: raiders sack Old St Peter's; Pope Leo IV then walls in the Vatican hill",
+    "tr": "846: akıncılar Eski St. Peter'i yağmalar; Papa IV. Leo ardından Vatikan tepesini surla çevirir"
+   },
+   "camera": {
+    "center": [
+     41.9015,
+     12.461
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1084,
+   "to": 1347,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Norman Sack",
+    "tr": "Norman Yağması"
+   },
+   "sub": {
+    "en": "1084: Norman troops sack the city; Rome now has fewer than 30,000 people",
+    "tr": "1084: Norman askerleri şehri yağmalar; Roma'da artık 30.000'den az kişi yaşar"
+   },
+   "camera": {
+    "center": [
+     41.893,
+     12.487
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1348,
+   "to": 1419,
+   "seconds": 19,
+   "era": {
+    "en": "Late Middle Ages",
+    "tr": "Geç Orta Çağ"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Plague and Earthquake",
+    "tr": "Veba ve Deprem"
+   },
+   "sub": {
+    "en": "After the Black Death fewer than 20,000 remain; in 1349 a quake hits the Colosseum",
+    "tr": "Kara Ölüm'den sonra 20.000'den az kişi kalır; 1349'da bir deprem Kolezyum'u yıkar"
+   },
+   "camera": {
+    "center": [
+     41.8935,
+     12.485
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1420,
+   "to": 1472,
+   "seconds": 17,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Popes Return",
+    "tr": "Papalar Dönüyor"
+   },
+   "sub": {
+    "en": "1420: Pope Martin V returns to a city of huts and ruins and begins to rebuild",
+    "tr": "1420: Papa V. Martinus kulübe ve harabe dolu şehre döner, yeniden inşaya başlar"
+   },
+   "camera": {
+    "center": [
+     41.8985,
+     12.4725
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   }
+  },
+  {
+   "from": 1473,
+   "to": 1505,
+   "seconds": 17,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Ponte Sisto",
+    "tr": "Ponte Sisto"
+   },
+   "sub": {
+    "en": "1473–1479: Sixtus IV builds the first new bridge over the Tiber since antiquity",
+    "tr": "1473–1479: IV. Sixtus, antik çağdan beri Tiber'e yapılan ilk yeni köprüyü kurar"
+   },
+   "camera": {
+    "center": [
+     41.8945,
+     12.4705
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1506,
+   "to": 1526,
+   "seconds": 18,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "A New St Peter's",
+    "tr": "Yeni St. Peter"
+   },
+   "sub": {
+    "en": "18 April 1506: work begins on a new St Peter's in place of Constantine's basilica",
+    "tr": "18 Nisan 1506: Konstantin'in bazilikasının yerine yeni St. Peter'in inşası başlar"
+   },
+   "camera": {
+    "center": [
+     41.902,
+     12.4565
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1527,
+   "to": 1530,
+   "seconds": 19,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Sack of 1527",
+    "tr": "1527 Yağması"
+   },
+   "sub": {
+    "en": "6 May 1527: imperial troops sack Rome; its people fall from 55,000 to about 10,000",
+    "tr": "6 Mayıs 1527: imparatorluk askerleri Roma'yı yağmalar; nüfus 55.000'den ~10.000'e düşer"
+   },
+   "population": [
+    55000,
+    10000
+   ],
+   "camera": {
+    "center": [
+     41.9,
+     12.468
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1531,
+   "to": 1589,
+   "seconds": 19,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Sixtus V Replans Rome",
+    "tr": "V. Sixtus'un Yeni Roması"
+   },
+   "sub": {
+    "en": "1585–1590: Sixtus V cuts straight streets; in 1586 the Vatican obelisk is moved",
+    "tr": "1585–1590: V. Sixtus düz caddeler açar; 1586'da Vatikan dikilitaşı yerinden taşınır"
+   },
+   "camera": {
+    "center": [
+     41.9,
+     12.48
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1590,
+   "to": 1655,
+   "seconds": 19,
+   "era": {
+    "en": "Baroque",
+    "tr": "Barok"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Great Dome",
+    "tr": "Büyük Kubbe"
+   },
+   "sub": {
+    "en": "1590: St Peter's 137 m dome is finished; by 1600 Rome has over 100,000 people",
+    "tr": "1590: St. Peter'in 137 m'lik kubbesi biter; 1600'de Roma 100.000'i aşar"
+   },
+   "population": 100000,
+   "camera": {
+    "center": [
+     41.902,
+     12.459
+    ],
+    "dist_km": 3.8
+   },
+   "chapter": {
+    "en": "Baroque Rome",
+    "tr": "Barok Roma"
+   }
+  },
+  {
+   "from": 1656,
+   "to": 1667,
+   "seconds": 18,
+   "era": {
+    "en": "Baroque",
+    "tr": "Barok"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "St Peter's Square",
+    "tr": "St. Peter Meydanı"
+   },
+   "sub": {
+    "en": "1656–1667: Bernini's colonnades wrap the vast square in front of the basilica",
+    "tr": "1656–1667: Bernini'nin sütunlu galerileri bazilikanın önündeki meydanı kuşatır"
+   },
+   "camera": {
+    "center": [
+     41.9022,
+     12.46
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1668,
+   "to": 1790,
+   "seconds": 18,
+   "era": {
+    "en": "Baroque",
+    "tr": "Barok"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Grand Tour Rome",
+    "tr": "Büyük Tur Roması"
+   },
+   "sub": {
+    "en": "By 1790 the city of the popes has grown to about 165,000 people",
+    "tr": "1790'a gelindiğinde papaların şehri yaklaşık 165.000 kişiye ulaşır"
+   },
+   "population": [
+    100000,
+    165000
+   ],
+   "camera": {
+    "center": [
+     41.899,
+     12.48
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1791,
+   "to": 1862,
+   "seconds": 8,
+   "era": {
+    "en": "Papal States",
+    "tr": "Papalık Devleti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "camera": {
+    "center": [
+     41.899,
+     12.488
+    ],
+    "dist_km": 5.8
+   }
+  },
+  {
+   "from": 1863,
+   "to": 1869,
+   "seconds": 17,
+   "era": {
+    "en": "Papal States",
+    "tr": "Papalık Devleti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Railway Arrives",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "25 Feb 1863: Pius IX opens a station at Termini for three railway lines",
+    "tr": "25 Şubat 1863: IX. Pius, üç demiryolu hattı için Termini'de bir istasyon açar"
+   },
+   "camera": {
+    "center": [
+     41.899,
+     12.496
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1870,
+   "to": 1871.1,
+   "seconds": 19,
+   "era": {
+    "en": "Kingdom of Italy",
+    "tr": "İtalya Krallığı"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Breach of Porta Pia",
+    "tr": "Porta Pia Gediği"
+   },
+   "sub": {
+    "en": "20 Sept 1870: Italian troops breach the wall near Porta Pia and take Rome",
+    "tr": "20 Eylül 1870: İtalyan birlikleri Porta Pia yakınında suru yarar ve Roma'yı alır"
+   },
+   "camera": {
+    "center": [
+     41.906,
+     12.5
+    ],
+    "dist_km": 3.6
+   },
+   "chapter": {
+    "en": "Capital of Italy",
+    "tr": "İtalya'nın Başkenti"
+   }
+  },
+  {
+   "from": 1871.2,
+   "to": 1910,
+   "seconds": 22,
+   "era": {
+    "en": "Kingdom of Italy",
+    "tr": "İtalya Krallığı"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Capital of Italy",
+    "tr": "İtalya'nın Başkenti"
+   },
+   "sub": {
+    "en": "Capital from 1871: new quarters and river walls; 209,222 people become 511,076 by 1911",
+    "tr": "1871'den itibaren başkent: yeni mahalleler, rıhtımlar; 209.222 kişi 1911'de 511.076 olur"
+   },
+   "population": [
+    209222,
+    511076
+   ],
+   "camera": {
+    "center": [
+     41.9,
+     12.485
+    ],
+    "dist_km": 7.8
+   }
+  },
+  {
+   "from": 1911,
+   "to": 1936.8,
+   "seconds": 19,
+   "era": {
+    "en": "Kingdom of Italy",
+    "tr": "İtalya Krallığı"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Vittoriano",
+    "tr": "Vittoriano"
+   },
+   "sub": {
+    "en": "Opened in 1911 and finished in 1935, the 81 m monument rises beside the Capitol",
+    "tr": "1911'de açılıp 1935'te tamamlanan 81 m'lik anıt Capitolium'un yanında yükselir"
+   },
+   "population": [
+    511076,
+    1133202
+   ],
+   "camera": {
+    "center": [
+     41.8955,
+     12.4835
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1936.9,
+   "to": 1950,
+   "seconds": 19,
+   "era": {
+    "en": "Kingdom of Italy",
+    "tr": "İtalya Krallığı"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Road to St Peter's",
+    "tr": "St. Peter'e Giden Yol"
+   },
+   "sub": {
+    "en": "1936–1950: the heart of the old Borgo is cleared for the Via della Conciliazione",
+    "tr": "1936–1950: Via della Conciliazione için eski Borgo'nun ortası yıkılır"
+   },
+   "population": [
+    1133202,
+    1626793
+   ],
+   "camera": {
+    "center": [
+     41.902,
+     12.462
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1951,
+   "to": 1960.9,
+   "seconds": 19,
+   "era": {
+    "en": "Italian Republic",
+    "tr": "İtalya Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The 1960 Olympics",
+    "tr": "1960 Olimpiyatları"
+   },
+   "sub": {
+    "en": "Rome hosts the 1960 Games at the Stadio Olimpico; EUR is all but finished",
+    "tr": "Roma 1960 Oyunları'nı Stadio Olimpico'da düzenler; EUR neredeyse tamamdır"
+   },
+   "population": [
+    1626793,
+    2155093
+   ],
+   "camera": {
+    "center": [
+     41.886,
+     12.472
+    ],
+    "dist_km": 14.0
+   },
+   "chapter": {
+    "en": "Modern Rome",
+    "tr": "Modern Roma"
+   }
+  },
+  {
+   "from": 1961,
+   "to": 1981,
+   "seconds": 22,
+   "era": {
+    "en": "Italian Republic",
+    "tr": "İtalya Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Great Expansion",
+    "tr": "Büyük Genişleme"
+   },
+   "sub": {
+    "en": "By 1981 Rome counts 2.8 million people; its 68 km ring road is finished in 1970",
+    "tr": "1981'de Roma 2,8 milyon kişiyi sayar; 68 km'lik çevre yolu 1970'te tamamlanır"
+   },
+   "population": [
+    2155093,
+    2797337
+   ],
+   "camera": {
+    "center": [
+     41.89,
+     12.488
+    ],
+    "dist_km": 26.0
+   }
+  },
+  {
+   "from": 1982,
+   "to": 2021,
+   "seconds": 22,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "Rome Today",
+    "tr": "Bugünün Roması"
+   },
+   "sub": {
+    "en": "The 2021 census counts 2,749,031 people in the city of Rome",
+    "tr": "2021 sayımı Roma şehrinde 2.749.031 kişi sayar"
+   },
+   "population": [
+    2797337,
+    2749031
+   ],
+   "camera": {
+    "center": [
+     41.89,
+     12.48
+    ],
+    "dist_km": 30.0
+   }
+  },
+  {
+   "from": 2022,
+   "to": 2025,
+   "seconds": 27,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "title": {
+    "en": "The Eternal City",
+    "tr": "Ebedi Şehir"
+   },
+   "sub": {
+    "en": "From huts on the Palatine to 2.7 million people, nearly 2,800 years on",
+    "tr": "Palatin'deki kulübelerden 2,7 milyon kişiye, yaklaşık 2.800 yıl sonra"
+   },
+   "population": 2749031,
+   "camera": {
+    "center": [
+     41.896,
+     12.476
+    ],
+    "dist_km": 8.5
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Palatine huts",
+   "style": "celtic",
+   "poly": [
+    [
+     41.8903,
+     12.4858
+    ],
+    [
+     41.8906,
+     12.488
+    ],
+    [
+     41.8896,
+     12.4894
+    ],
+    [
+     41.8882,
+     12.4889
+    ],
+    [
+     41.8877,
+     12.4866
+    ],
+    [
+     41.8888,
+     12.4852
+    ]
+   ],
+   "from": -850,
+   "to": -760,
+   "density": 0.55,
+   "grain_m": 45,
+   "grow_from": [
+    41.8893,
+    12.4872
+   ],
+   "fade": [
+    -640,
+    -600,
+    0.0
+   ]
+  },
+  {
+   "name": "Archaic Rome",
+   "style": "ancient",
+   "poly": [
+    [
+     41.8925,
+     12.48
+    ],
+    [
+     41.8945,
+     12.484
+    ],
+    [
+     41.895,
+     12.4885
+    ],
+    [
+     41.8935,
+     12.493
+    ],
+    [
+     41.8905,
+     12.4935
+    ],
+    [
+     41.888,
+     12.4905
+    ],
+    [
+     41.887,
+     12.486
+    ],
+    [
+     41.8885,
+     12.4815
+    ],
+    [
+     41.8905,
+     12.4795
+    ]
+   ],
+   "from": -700,
+   "to": -540,
+   "density": 0.6,
+   "grow_from": [
+    41.8905,
+    12.486
+   ]
+  },
+  {
+   "name": "Republican Rome",
+   "style": "ancient",
+   "poly": [
+    [
+     41.8928,
+     12.4785
+    ],
+    [
+     41.8945,
+     12.4808
+    ],
+    [
+     41.8955,
+     12.483
+    ],
+    [
+     41.8975,
+     12.4855
+    ],
+    [
+     41.8995,
+     12.488
+    ],
+    [
+     41.901,
+     12.4915
+    ],
+    [
+     41.905,
+     12.4975
+    ],
+    [
+     41.903,
+     12.5
+    ],
+    [
+     41.901,
+     12.5015
+    ],
+    [
+     41.8975,
+     12.5025
+    ],
+    [
+     41.8958,
+     12.5012
+    ],
+    [
+     41.8925,
+     12.5005
+    ],
+    [
+     41.889,
+     12.5
+    ],
+    [
+     41.8865,
+     12.4965
+    ],
+    [
+     41.884,
+     12.49
+    ],
+    [
+     41.8815,
+     12.4885
+    ],
+    [
+     41.879,
+     12.4865
+    ],
+    [
+     41.878,
+     12.4825
+    ],
+    [
+     41.8795,
+     12.479
+    ],
+    [
+     41.883,
+     12.4778
+    ],
+    [
+     41.8868,
+     12.4797
+    ],
+    [
+     41.89,
+     12.479
+    ]
+   ],
+   "from": -386,
+   "to": -230,
+   "density": 0.72,
+   "grow_from": [
+    41.891,
+    12.486
+   ],
+   "fade": [
+    450,
+    650,
+    0.08
+   ]
+  },
+  {
+   "name": "Campus Martius & Trastevere (late Republic)",
+   "style": "roman",
+   "poly": [
+    [
+     41.893,
+     12.474
+    ],
+    [
+     41.896,
+     12.469
+    ],
+    [
+     41.9,
+     12.466
+    ],
+    [
+     41.903,
+     12.469
+    ],
+    [
+     41.9065,
+     12.473
+    ],
+    [
+     41.911,
+     12.474
+    ],
+    [
+     41.9115,
+     12.4765
+    ],
+    [
+     41.906,
+     12.48
+    ],
+    [
+     41.9,
+     12.4815
+    ],
+    [
+     41.8955,
+     12.4815
+    ],
+    [
+     41.8932,
+     12.479
+    ]
+   ],
+   "from": -150,
+   "to": -20,
+   "density": 0.6,
+   "grow_from": [
+    41.895,
+    12.479
+   ],
+   "fade": [
+    450,
+    650,
+    0.1
+   ]
+  },
+  {
+   "name": "Trastevere",
+   "style": "roman",
+   "poly": [
+    [
+     41.8945,
+     12.468
+    ],
+    [
+     41.8925,
+     12.466
+    ],
+    [
+     41.8885,
+     12.462
+    ],
+    [
+     41.885,
+     12.468
+    ],
+    [
+     41.8835,
+     12.4745
+    ],
+    [
+     41.887,
+     12.4772
+    ],
+    [
+     41.8905,
+     12.4762
+    ],
+    [
+     41.8928,
+     12.4722
+    ]
+   ],
+   "from": -120,
+   "to": 0,
+   "density": 0.65,
+   "grow_from": [
+    41.8895,
+    12.476
+   ],
+   "fade": [
+    450,
+    650,
+    0.1
+   ]
+  },
+  {
+   "name": "Imperial Rome",
+   "style": "roman",
+   "poly": [
+    [
+     41.9117,
+     12.4728
+    ],
+    [
+     41.91153,
+     12.47597
+    ],
+    [
+     41.9128,
+     12.479
+    ],
+    [
+     41.9108,
+     12.485
+    ],
+    [
+     41.90944,
+     12.48833
+    ],
+    [
+     41.9096,
+     12.496
+    ],
+    [
+     41.9092,
+     12.5011
+    ],
+    [
+     41.9082,
+     12.507
+    ],
+    [
+     41.9032,
+     12.5088
+    ],
+    [
+     41.8975,
+     12.51028
+    ],
+    [
+     41.894,
+     12.513
+    ],
+    [
+     41.89146,
+     12.51524
+    ],
+    [
+     41.888,
+     12.516
+    ],
+    [
+     41.8868,
+     12.512
+    ],
+    [
+     41.88583,
+     12.50917
+    ],
+    [
+     41.883,
+     12.505
+    ],
+    [
+     41.8805,
+     12.499
+    ],
+    [
+     41.877,
+     12.5015
+    ],
+    [
+     41.8745,
+     12.504
+    ],
+    [
+     41.8736,
+     12.5019
+    ],
+    [
+     41.8732,
+     12.495
+    ],
+    [
+     41.8745,
+     12.488
+    ],
+    [
+     41.8764,
+     12.4808
+    ],
+    [
+     41.8778,
+     12.4762
+    ],
+    [
+     41.879,
+     12.4738
+    ],
+    [
+     41.884,
+     12.4775
+    ],
+    [
+     41.89,
+     12.4795
+    ],
+    [
+     41.893,
+     12.474
+    ],
+    [
+     41.8965,
+     12.468
+    ],
+    [
+     41.8995,
+     12.4665
+    ],
+    [
+     41.9015,
+     12.4675
+    ],
+    [
+     41.9035,
+     12.4705
+    ],
+    [
+     41.906,
+     12.4728
+    ],
+    [
+     41.909,
+     12.4732
+    ]
+   ],
+   "from": -30,
+   "to": 60,
+   "density": 0.82,
+   "grow_from": [
+    41.893,
+    12.486
+   ],
+   "fade": [
+    450,
+    650,
+    0.07
+   ]
+  },
+  {
+   "name": "Rebuilt after the fire",
+   "style": "roman",
+   "poly": [
+    [
+     41.8915,
+     12.483
+    ],
+    [
+     41.8935,
+     12.488
+    ],
+    [
+     41.896,
+     12.496
+    ],
+    [
+     41.8945,
+     12.501
+    ],
+    [
+     41.89,
+     12.501
+    ],
+    [
+     41.886,
+     12.496
+    ],
+    [
+     41.883,
+     12.49
+    ],
+    [
+     41.8845,
+     12.482
+    ],
+    [
+     41.888,
+     12.481
+    ]
+   ],
+   "from": 65,
+   "to": 95,
+   "density": 0.82,
+   "grow_from": [
+    41.89,
+    12.49
+   ],
+   "fade": [
+    450,
+    650,
+    0.07
+   ]
+  },
+  {
+   "name": "Medieval Rome (Tiber bend)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.893,
+     12.4735
+    ],
+    [
+     41.8965,
+     12.4685
+    ],
+    [
+     41.9005,
+     12.4665
+    ],
+    [
+     41.9035,
+     12.47
+    ],
+    [
+     41.907,
+     12.4735
+    ],
+    [
+     41.908,
+     12.476
+    ],
+    [
+     41.903,
+     12.4795
+    ],
+    [
+     41.8985,
+     12.481
+    ],
+    [
+     41.8945,
+     12.4815
+    ],
+    [
+     41.892,
+     12.48
+    ],
+    [
+     41.8905,
+     12.479
+    ]
+   ],
+   "from": 650,
+   "to": 1100,
+   "density": 0.75,
+   "grow_from": [
+    41.8975,
+    12.472
+   ],
+   "fade": [
+    1348,
+    1360,
+    0.7
+   ]
+  },
+  {
+   "name": "Medieval Trastevere",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.8945,
+     12.468
+    ],
+    [
+     41.8925,
+     12.466
+    ],
+    [
+     41.8885,
+     12.462
+    ],
+    [
+     41.885,
+     12.468
+    ],
+    [
+     41.8835,
+     12.4745
+    ],
+    [
+     41.887,
+     12.4772
+    ],
+    [
+     41.8905,
+     12.4762
+    ],
+    [
+     41.8928,
+     12.4722
+    ]
+   ],
+   "from": 700,
+   "to": 1150,
+   "density": 0.6,
+   "grow_from": [
+    41.89,
+    12.474
+   ]
+  },
+  {
+   "name": "Borgo (Leonine City)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.904,
+     12.4655
+    ],
+    [
+     41.904,
+     12.457
+    ],
+    [
+     41.903,
+     12.4555
+    ],
+    [
+     41.9005,
+     12.456
+    ],
+    [
+     41.9,
+     12.464
+    ],
+    [
+     41.9015,
+     12.4665
+    ]
+   ],
+   "from": 850,
+   "to": 1000,
+   "density": 0.65,
+   "grow_from": [
+    41.902,
+    12.462
+   ]
+  },
+  {
+   "name": "Lateran",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.884,
+     12.502
+    ],
+    [
+     41.8875,
+     12.502
+    ],
+    [
+     41.8875,
+     12.5085
+    ],
+    [
+     41.884,
+     12.5085
+    ]
+   ],
+   "from": 800,
+   "to": 1000,
+   "density": 0.45,
+   "grow_from": [
+    41.8858,
+    12.5056
+   ]
+  },
+  {
+   "name": "Santa Maria Maggiore",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.896,
+     12.4955
+    ],
+    [
+     41.899,
+     12.4955
+    ],
+    [
+     41.899,
+     12.501
+    ],
+    [
+     41.896,
+     12.501
+    ]
+   ],
+   "from": 800,
+   "to": 1000,
+   "density": 0.45,
+   "grow_from": [
+    41.8975,
+    12.4986
+   ]
+  },
+  {
+   "name": "Renaissance Rome",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.893,
+     12.4735
+    ],
+    [
+     41.8965,
+     12.4685
+    ],
+    [
+     41.9005,
+     12.4665
+    ],
+    [
+     41.9035,
+     12.47
+    ],
+    [
+     41.9075,
+     12.4735
+    ],
+    [
+     41.9112,
+     12.4745
+    ],
+    [
+     41.9112,
+     12.4775
+    ],
+    [
+     41.906,
+     12.4835
+    ],
+    [
+     41.902,
+     12.487
+    ],
+    [
+     41.8985,
+     12.4905
+    ],
+    [
+     41.895,
+     12.492
+    ],
+    [
+     41.8935,
+     12.488
+    ],
+    [
+     41.8945,
+     12.484
+    ],
+    [
+     41.892,
+     12.48
+    ],
+    [
+     41.8905,
+     12.479
+    ]
+   ],
+   "from": 1420,
+   "to": 1600,
+   "density": 0.88,
+   "grow_from": [
+    41.8985,
+    12.473
+   ]
+  },
+  {
+   "name": "Borgo (Renaissance)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.904,
+     12.4655
+    ],
+    [
+     41.904,
+     12.457
+    ],
+    [
+     41.903,
+     12.4555
+    ],
+    [
+     41.9005,
+     12.456
+    ],
+    [
+     41.9,
+     12.464
+    ],
+    [
+     41.9015,
+     12.4665
+    ]
+   ],
+   "from": 1480,
+   "to": 1600,
+   "density": 0.82,
+   "grow_from": [
+    41.902,
+    12.463
+   ]
+  },
+  {
+   "name": "Trastevere (Renaissance)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.8945,
+     12.468
+    ],
+    [
+     41.8925,
+     12.466
+    ],
+    [
+     41.8885,
+     12.462
+    ],
+    [
+     41.885,
+     12.468
+    ],
+    [
+     41.8835,
+     12.4745
+    ],
+    [
+     41.887,
+     12.4772
+    ],
+    [
+     41.8905,
+     12.4762
+    ],
+    [
+     41.8928,
+     12.4722
+    ]
+   ],
+   "from": 1500,
+   "to": 1650,
+   "density": 0.82,
+   "grow_from": [
+    41.8905,
+    12.473
+   ]
+  },
+  {
+   "name": "Baroque Monti & Quirinal",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.906,
+     12.4835
+    ],
+    [
+     41.9045,
+     12.492
+    ],
+    [
+     41.901,
+     12.4985
+    ],
+    [
+     41.896,
+     12.5
+    ],
+    [
+     41.893,
+     12.496
+    ],
+    [
+     41.895,
+     12.492
+    ],
+    [
+     41.8985,
+     12.4905
+    ],
+    [
+     41.902,
+     12.487
+    ]
+   ],
+   "from": 1590,
+   "to": 1790,
+   "density": 0.78,
+   "grow_from": [
+    41.9,
+    12.487
+   ]
+  },
+  {
+   "name": "Umbertine Esquilino",
+   "style": "roman",
+   "poly": [
+    [
+     41.908,
+     12.488
+    ],
+    [
+     41.9085,
+     12.505
+    ],
+    [
+     41.9,
+     12.51
+    ],
+    [
+     41.892,
+     12.513
+    ],
+    [
+     41.889,
+     12.508
+    ],
+    [
+     41.893,
+     12.499
+    ],
+    [
+     41.899,
+     12.496
+    ],
+    [
+     41.904,
+     12.49
+    ]
+   ],
+   "from": 1872,
+   "to": 1910,
+   "density": 0.85,
+   "grain_m": 65,
+   "grid_deg": 30,
+   "grow_from": [
+    41.9,
+    12.499
+   ]
+  },
+  {
+   "name": "Testaccio",
+   "style": "roman",
+   "poly": [
+    [
+     41.88,
+     12.474
+    ],
+    [
+     41.88,
+     12.48
+    ],
+    [
+     41.877,
+     12.48
+    ],
+    [
+     41.8765,
+     12.4745
+    ]
+   ],
+   "from": 1885,
+   "to": 1915,
+   "density": 0.85,
+   "grid_deg": 35,
+   "grow_from": [
+    41.8785,
+    12.477
+   ]
+  },
+  {
+   "name": "Prati",
+   "style": "roman",
+   "poly": [
+    [
+     41.9135,
+     12.452
+    ],
+    [
+     41.9145,
+     12.468
+    ],
+    [
+     41.9085,
+     12.4725
+    ],
+    [
+     41.9045,
+     12.468
+    ],
+    [
+     41.905,
+     12.459
+    ]
+   ],
+   "from": 1885,
+   "to": 1925,
+   "density": 0.85,
+   "grain_m": 65,
+   "grid_deg": 15,
+   "grow_from": [
+    41.906,
+    12.468
+   ]
+  },
+  {
+   "name": "Salario & San Lorenzo",
+   "style": "roman",
+   "poly": [
+    [
+     41.92,
+     12.49
+    ],
+    [
+     41.918,
+     12.51
+    ],
+    [
+     41.905,
+     12.525
+    ],
+    [
+     41.896,
+     12.523
+    ],
+    [
+     41.898,
+     12.512
+    ],
+    [
+     41.9085,
+     12.506
+    ],
+    [
+     41.91,
+     12.49
+    ]
+   ],
+   "from": 1885,
+   "to": 1930,
+   "density": 0.8,
+   "grain_m": 70,
+   "grow_from": [
+    41.908,
+    12.506
+   ]
+  },
+  {
+   "name": "Interwar Rome",
+   "style": "modern",
+   "poly": [
+    [
+     41.94,
+     12.45
+    ],
+    [
+     41.935,
+     12.495
+    ],
+    [
+     41.925,
+     12.53
+    ],
+    [
+     41.905,
+     12.545
+    ],
+    [
+     41.88,
+     12.54
+    ],
+    [
+     41.865,
+     12.515
+    ],
+    [
+     41.86,
+     12.485
+    ],
+    [
+     41.865,
+     12.455
+    ],
+    [
+     41.875,
+     12.44
+    ],
+    [
+     41.895,
+     12.438
+    ],
+    [
+     41.915,
+     12.44
+    ],
+    [
+     41.93,
+     12.443
+    ]
+   ],
+   "holes": [
+    [
+     [
+      41.9117,
+      12.4728
+     ],
+     [
+      41.91153,
+      12.47597
+     ],
+     [
+      41.9128,
+      12.479
+     ],
+     [
+      41.9108,
+      12.485
+     ],
+     [
+      41.90944,
+      12.48833
+     ],
+     [
+      41.9096,
+      12.496
+     ],
+     [
+      41.9092,
+      12.5011
+     ],
+     [
+      41.9082,
+      12.507
+     ],
+     [
+      41.9032,
+      12.5088
+     ],
+     [
+      41.8975,
+      12.51028
+     ],
+     [
+      41.894,
+      12.513
+     ],
+     [
+      41.89146,
+      12.51524
+     ],
+     [
+      41.888,
+      12.516
+     ],
+     [
+      41.8868,
+      12.512
+     ],
+     [
+      41.88583,
+      12.50917
+     ],
+     [
+      41.883,
+      12.505
+     ],
+     [
+      41.8805,
+      12.499
+     ],
+     [
+      41.877,
+      12.5015
+     ],
+     [
+      41.8745,
+      12.504
+     ],
+     [
+      41.8736,
+      12.5019
+     ],
+     [
+      41.8732,
+      12.495
+     ],
+     [
+      41.8745,
+      12.488
+     ],
+     [
+      41.8764,
+      12.4808
+     ],
+     [
+      41.8778,
+      12.4762
+     ],
+     [
+      41.879,
+      12.4738
+     ],
+     [
+      41.884,
+      12.4775
+     ],
+     [
+      41.89,
+      12.4795
+     ],
+     [
+      41.893,
+      12.474
+     ],
+     [
+      41.8965,
+      12.468
+     ],
+     [
+      41.8995,
+      12.4665
+     ],
+     [
+      41.9015,
+      12.4675
+     ],
+     [
+      41.9035,
+      12.4705
+     ],
+     [
+      41.906,
+      12.4728
+     ],
+     [
+      41.909,
+      12.4732
+     ]
+    ],
+    [
+     [
+      41.9135,
+      12.452
+     ],
+     [
+      41.9145,
+      12.468
+     ],
+     [
+      41.9085,
+      12.4725
+     ],
+     [
+      41.9045,
+      12.468
+     ],
+     [
+      41.905,
+      12.459
+     ]
+    ],
+    [
+     [
+      41.92,
+      12.49
+     ],
+     [
+      41.918,
+      12.51
+     ],
+     [
+      41.905,
+      12.525
+     ],
+     [
+      41.896,
+      12.523
+     ],
+     [
+      41.898,
+      12.512
+     ],
+     [
+      41.9085,
+      12.506
+     ],
+     [
+      41.91,
+      12.49
+     ]
+    ],
+    [
+     [
+      41.9175,
+      12.479
+     ],
+     [
+      41.918,
+      12.493
+     ],
+     [
+      41.911,
+      12.4945
+     ],
+     [
+      41.91,
+      12.482
+     ]
+    ],
+    [
+     [
+      41.906,
+      12.447
+     ],
+     [
+      41.905,
+      12.452
+     ],
+     [
+      41.902,
+      12.452
+     ],
+     [
+      41.901,
+      12.447
+     ]
+    ]
+   ],
+   "from": 1915,
+   "to": 1950,
+   "density": 0.7,
+   "grain_m": 120,
+   "grow_from": [
+    41.896,
+    12.488
+   ]
+  },
+  {
+   "name": "EUR",
+   "style": "modern",
+   "poly": [
+    [
+     41.826,
+     12.46
+    ],
+    [
+     41.842,
+     12.46
+    ],
+    [
+     41.842,
+     12.482
+    ],
+    [
+     41.826,
+     12.482
+    ]
+   ],
+   "from": 1938,
+   "to": 1960,
+   "density": 0.6,
+   "grain_m": 120,
+   "grid_deg": 0,
+   "grow_from": [
+    41.8336,
+    12.4708
+   ]
+  },
+  {
+   "name": "Post-war Rome",
+   "style": "modern",
+   "poly": [
+    [
+     41.985,
+     12.43
+    ],
+    [
+     41.98,
+     12.51
+    ],
+    [
+     41.96,
+     12.57
+    ],
+    [
+     41.92,
+     12.61
+    ],
+    [
+     41.87,
+     12.6
+    ],
+    [
+     41.835,
+     12.56
+    ],
+    [
+     41.815,
+     12.5
+    ],
+    [
+     41.82,
+     12.43
+    ],
+    [
+     41.845,
+     12.39
+    ],
+    [
+     41.88,
+     12.38
+    ],
+    [
+     41.92,
+     12.38
+    ],
+    [
+     41.96,
+     12.395
+    ]
+   ],
+   "holes": [
+    [
+     [
+      41.94,
+      12.45
+     ],
+     [
+      41.935,
+      12.495
+     ],
+     [
+      41.925,
+      12.53
+     ],
+     [
+      41.905,
+      12.545
+     ],
+     [
+      41.88,
+      12.54
+     ],
+     [
+      41.865,
+      12.515
+     ],
+     [
+      41.86,
+      12.485
+     ],
+     [
+      41.865,
+      12.455
+     ],
+     [
+      41.875,
+      12.44
+     ],
+     [
+      41.895,
+      12.438
+     ],
+     [
+      41.915,
+      12.44
+     ],
+     [
+      41.93,
+      12.443
+     ]
+    ],
+    [
+     [
+      41.826,
+      12.46
+     ],
+     [
+      41.842,
+      12.46
+     ],
+     [
+      41.842,
+      12.482
+     ],
+     [
+      41.826,
+      12.482
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 1981,
+   "density": 0.68,
+   "grain_m": 190,
+   "grow_from": [
+    41.895,
+    12.488
+   ]
+  },
+  {
+   "name": "Outer suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     42.03,
+     12.4
+    ],
+    [
+     42.03,
+     12.53
+    ],
+    [
+     41.99,
+     12.64
+    ],
+    [
+     41.92,
+     12.69
+    ],
+    [
+     41.84,
+     12.65
+    ],
+    [
+     41.78,
+     12.58
+    ],
+    [
+     41.76,
+     12.48
+    ],
+    [
+     41.79,
+     12.37
+    ],
+    [
+     41.85,
+     12.32
+    ],
+    [
+     41.93,
+     12.32
+    ],
+    [
+     41.99,
+     12.34
+    ]
+   ],
+   "holes": [
+    [
+     [
+      41.985,
+      12.43
+     ],
+     [
+      41.98,
+      12.51
+     ],
+     [
+      41.96,
+      12.57
+     ],
+     [
+      41.92,
+      12.61
+     ],
+     [
+      41.87,
+      12.6
+     ],
+     [
+      41.835,
+      12.56
+     ],
+     [
+      41.815,
+      12.5
+     ],
+     [
+      41.82,
+      12.43
+     ],
+     [
+      41.845,
+      12.39
+     ],
+     [
+      41.88,
+      12.38
+     ],
+     [
+      41.92,
+      12.38
+     ],
+     [
+      41.96,
+      12.395
+     ]
+    ]
+   ],
+   "from": 1965,
+   "to": 2020,
+   "density": 0.45,
+   "grain_m": 240,
+   "grow_from": [
+    41.895,
+    12.488
+   ]
+  },
+  {
+   "name": "Ostia",
+   "style": "modern",
+   "poly": [
+    [
+     41.745,
+     12.27
+    ],
+    [
+     41.745,
+     12.315
+    ],
+    [
+     41.725,
+     12.33
+    ],
+    [
+     41.72,
+     12.285
+    ]
+   ],
+   "from": 1950,
+   "to": 1990,
+   "density": 0.6,
+   "grain_m": 160,
+   "grow_from": [
+    41.733,
+    12.29
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Palatine wall",
+   "path": [
+    [
+     41.8903,
+     12.4856
+    ],
+    [
+     41.8907,
+     12.4881
+    ],
+    [
+     41.8896,
+     12.4896
+    ],
+    [
+     41.888,
+     12.489
+    ],
+    [
+     41.8875,
+     12.4865
+    ],
+    [
+     41.8888,
+     12.485
+    ],
+    [
+     41.8903,
+     12.4856
+    ]
+   ],
+   "built": -725,
+   "removed": -500,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 2.0
+  },
+  {
+   "name": "Servian Wall",
+   "path": [
+    [
+     41.8928,
+     12.4785
+    ],
+    [
+     41.8945,
+     12.4808
+    ],
+    [
+     41.8955,
+     12.483
+    ],
+    [
+     41.8975,
+     12.4855
+    ],
+    [
+     41.8995,
+     12.488
+    ],
+    [
+     41.901,
+     12.4915
+    ],
+    [
+     41.905,
+     12.4975
+    ],
+    [
+     41.903,
+     12.5
+    ],
+    [
+     41.901,
+     12.5015
+    ],
+    [
+     41.8975,
+     12.5025
+    ],
+    [
+     41.8958,
+     12.5012
+    ],
+    [
+     41.8925,
+     12.5005
+    ],
+    [
+     41.889,
+     12.5
+    ],
+    [
+     41.8865,
+     12.4965
+    ],
+    [
+     41.884,
+     12.49
+    ],
+    [
+     41.8815,
+     12.4885
+    ],
+    [
+     41.879,
+     12.4865
+    ],
+    [
+     41.878,
+     12.4825
+    ],
+    [
+     41.8795,
+     12.479
+    ],
+    [
+     41.883,
+     12.4778
+    ],
+    [
+     41.8868,
+     12.4797
+    ]
+   ],
+   "built": -378,
+   "removed": 300,
+   "height": "mid",
+   "towers_m": 0,
+   "draw_s": 3.5
+  },
+  {
+   "name": "Aurelian Walls",
+   "path": [
+    [
+     41.9117,
+     12.4728
+    ],
+    [
+     41.91153,
+     12.47597
+    ],
+    [
+     41.9128,
+     12.479
+    ],
+    [
+     41.9108,
+     12.485
+    ],
+    [
+     41.90944,
+     12.48833
+    ],
+    [
+     41.9096,
+     12.496
+    ],
+    [
+     41.9092,
+     12.5011
+    ],
+    [
+     41.9082,
+     12.507
+    ],
+    [
+     41.9032,
+     12.5088
+    ],
+    [
+     41.8975,
+     12.51028
+    ],
+    [
+     41.894,
+     12.513
+    ],
+    [
+     41.89146,
+     12.51524
+    ],
+    [
+     41.888,
+     12.516
+    ],
+    [
+     41.8868,
+     12.512
+    ],
+    [
+     41.88583,
+     12.50917
+    ],
+    [
+     41.883,
+     12.505
+    ],
+    [
+     41.8805,
+     12.499
+    ],
+    [
+     41.877,
+     12.5015
+    ],
+    [
+     41.8745,
+     12.504
+    ],
+    [
+     41.8736,
+     12.5019
+    ],
+    [
+     41.8732,
+     12.495
+    ],
+    [
+     41.8745,
+     12.488
+    ],
+    [
+     41.8764,
+     12.4808
+    ],
+    [
+     41.8778,
+     12.4762
+    ],
+    [
+     41.879,
+     12.4738
+    ]
+   ],
+   "built": 271,
+   "height": "mid",
+   "towers_m": 60,
+   "draw_s": 4.0
+  },
+  {
+   "name": "Aurelian Walls (Trastevere)",
+   "path": [
+    [
+     41.883,
+     12.4752
+    ],
+    [
+     41.8839,
+     12.47402
+    ],
+    [
+     41.8855,
+     12.469
+    ],
+    [
+     41.8875,
+     12.464
+    ],
+    [
+     41.88844,
+     12.4615
+    ],
+    [
+     41.89,
+     12.4635
+    ],
+    [
+     41.8915,
+     12.466
+    ],
+    [
+     41.89221,
+     12.46761
+    ],
+    [
+     41.8935,
+     12.469
+    ]
+   ],
+   "built": 272,
+   "height": "mid",
+   "towers_m": 60,
+   "draw_s": 2.0
+  },
+  {
+   "name": "Aurelian Walls (river)",
+   "path": [
+    [
+     41.8935,
+     12.4712
+    ],
+    [
+     41.8965,
+     12.468
+    ],
+    [
+     41.8995,
+     12.4665
+    ],
+    [
+     41.9015,
+     12.4675
+    ],
+    [
+     41.9035,
+     12.4705
+    ],
+    [
+     41.906,
+     12.4728
+    ],
+    [
+     41.909,
+     12.4732
+    ],
+    [
+     41.9117,
+     12.4728
+    ]
+   ],
+   "built": 273,
+   "height": "low",
+   "towers_m": 60,
+   "draw_s": 2.0
+  },
+  {
+   "name": "Leonine Wall",
+   "path": [
+    [
+     41.9031,
+     12.4655
+    ],
+    [
+     41.904,
+     12.46
+    ],
+    [
+     41.905,
+     12.456
+    ],
+    [
+     41.9045,
+     12.4525
+    ],
+    [
+     41.902,
+     12.451
+    ],
+    [
+     41.8995,
+     12.453
+    ],
+    [
+     41.8995,
+     12.458
+    ],
+    [
+     41.9,
+     12.463
+    ],
+    [
+     41.9005,
+     12.4655
+    ]
+   ],
+   "built": 848,
+   "height": "mid",
+   "towers_m": 70,
+   "draw_s": 3.0
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Pons Sublicius",
+   "path": [
+    [
+     41.8878,
+     12.4788
+    ],
+    [
+     41.8872,
+     12.4775
+    ]
+   ],
+   "built": -642,
+   "removed": 800,
+   "style": "wood",
+   "width_m": 10
+  },
+  {
+   "name": "Milvian Bridge (wood)",
+   "path": [
+    [
+     41.9362,
+     12.4669
+    ],
+    [
+     41.9349,
+     12.467
+    ]
+   ],
+   "built": -206,
+   "removed": -109,
+   "style": "wood",
+   "width_m": 10
+  },
+  {
+   "name": "Milvian Bridge",
+   "path": [
+    [
+     41.9362,
+     12.4669
+    ],
+    [
+     41.9349,
+     12.467
+    ]
+   ],
+   "built": -109,
+   "style": "stone",
+   "width_m": 12
+  },
+  {
+   "name": "Pons Aemilius",
+   "path": [
+    [
+     41.8892,
+     12.4802
+    ],
+    [
+     41.8897,
+     12.4787
+    ]
+   ],
+   "built": -179,
+   "removed": 1598,
+   "style": "stone",
+   "width_m": 14
+  },
+  {
+   "name": "Pons Fabricius",
+   "path": [
+    [
+     41.8915,
+     12.4789
+    ],
+    [
+     41.8908,
+     12.478
+    ]
+   ],
+   "built": -62,
+   "style": "stone",
+   "width_m": 10
+  },
+  {
+   "name": "Pons Cestius",
+   "path": [
+    [
+     41.8902,
+     12.4768
+    ],
+    [
+     41.8897,
+     12.476
+    ]
+   ],
+   "built": -46,
+   "style": "stone",
+   "width_m": 10
+  },
+  {
+   "name": "Pons Aelius (Ponte Sant'Angelo)",
+   "path": [
+    [
+     41.9025,
+     12.4663
+    ],
+    [
+     41.9013,
+     12.4667
+    ]
+   ],
+   "built": 134,
+   "style": "stone",
+   "width_m": 14
+  },
+  {
+   "name": "Ponte Sisto",
+   "path": [
+    [
+     41.8928,
+     12.4713
+    ],
+    [
+     41.8919,
+     12.4702
+    ]
+   ],
+   "built": 1475,
+   "style": "stone",
+   "width_m": 12
+  }
+ ],
+ "roads": [
+  {
+   "name": "Via Appia",
+   "path": [
+    [
+     41.884,
+     12.4895
+    ],
+    [
+     41.88,
+     12.4945
+    ],
+    [
+     41.8736,
+     12.5019
+    ],
+    [
+     41.84,
+     12.53
+    ],
+    [
+     41.79,
+     12.575
+    ],
+    [
+     41.73,
+     12.625
+    ]
+   ],
+   "from": -312,
+   "kind": "roman",
+   "width_m": 16
+  },
+  {
+   "name": "Via Flaminia",
+   "path": [
+    [
+     41.8955,
+     12.4825
+    ],
+    [
+     41.905,
+     12.4795
+    ],
+    [
+     41.91153,
+     12.47597
+    ],
+    [
+     41.925,
+     12.47
+    ],
+    [
+     41.9349,
+     12.467
+    ],
+    [
+     41.945,
+     12.472
+    ],
+    [
+     41.99,
+     12.49
+    ],
+    [
+     42.05,
+     12.495
+    ]
+   ],
+   "from": -220,
+   "kind": "roman",
+   "width_m": 16
+  },
+  {
+   "name": "Railways from Termini",
+   "path": [
+    [
+     41.90083,
+     12.50194
+    ],
+    [
+     41.896,
+     12.518
+    ],
+    [
+     41.887,
+     12.538
+    ],
+    [
+     41.87,
+     12.565
+    ],
+    [
+     41.84,
+     12.61
+    ]
+   ],
+   "from": 1863,
+   "kind": "rail",
+   "width_m": 22
+  },
+  {
+   "name": "Via dei Fori Imperiali",
+   "path": [
+    [
+     41.8958,
+     12.4826
+    ],
+    [
+     41.893,
+     12.487
+    ],
+    [
+     41.891,
+     12.4905
+    ]
+   ],
+   "from": 1933,
+   "kind": "avenue",
+   "width_m": 30
+  },
+  {
+   "name": "Via della Conciliazione",
+   "path": [
+    [
+     41.9022,
+     12.459
+    ],
+    [
+     41.9023,
+     12.462
+    ],
+    [
+     41.9025,
+     12.465
+    ]
+   ],
+   "from": 1950,
+   "kind": "avenue",
+   "width_m": 40
+  },
+  {
+   "name": "Grande Raccordo Anulare",
+   "path": [
+    [
+     41.996,
+     12.4828
+    ],
+    [
+     41.99444,
+     12.50668
+    ],
+    [
+     41.98981,
+     12.52983
+    ],
+    [
+     41.98224,
+     12.55155
+    ],
+    [
+     41.97197,
+     12.57118
+    ],
+    [
+     41.95931,
+     12.58813
+    ],
+    [
+     41.94465,
+     12.60188
+    ],
+    [
+     41.92843,
+     12.61201
+    ],
+    [
+     41.91113,
+     12.61821
+    ],
+    [
+     41.8933,
+     12.6203
+    ],
+    [
+     41.87547,
+     12.61821
+    ],
+    [
+     41.85817,
+     12.61201
+    ],
+    [
+     41.84195,
+     12.60188
+    ],
+    [
+     41.82729,
+     12.58813
+    ],
+    [
+     41.81463,
+     12.57118
+    ],
+    [
+     41.80436,
+     12.55155
+    ],
+    [
+     41.79679,
+     12.52983
+    ],
+    [
+     41.79216,
+     12.50668
+    ],
+    [
+     41.7906,
+     12.4828
+    ],
+    [
+     41.79216,
+     12.45892
+    ],
+    [
+     41.79679,
+     12.43577
+    ],
+    [
+     41.80436,
+     12.41405
+    ],
+    [
+     41.81463,
+     12.39442
+    ],
+    [
+     41.82729,
+     12.37747
+    ],
+    [
+     41.84195,
+     12.36372
+    ],
+    [
+     41.85817,
+     12.35359
+    ],
+    [
+     41.87547,
+     12.34739
+    ],
+    [
+     41.8933,
+     12.3453
+    ],
+    [
+     41.91113,
+     12.34739
+    ],
+    [
+     41.92843,
+     12.35359
+    ],
+    [
+     41.94465,
+     12.36372
+    ],
+    [
+     41.95931,
+     12.37747
+    ],
+    [
+     41.97197,
+     12.39442
+    ],
+    [
+     41.98224,
+     12.41405
+    ],
+    [
+     41.98981,
+     12.43577
+    ],
+    [
+     41.99444,
+     12.45892
+    ],
+    [
+     41.996,
+     12.4828
+    ]
+   ],
+   "from": 1970,
+   "kind": "motorway",
+   "width_m": 40
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "forum",
+   "name": {
+    "en": "Roman Forum",
+    "tr": "Roma Forumu"
+   },
+   "at": [
+    41.8922,
+    12.4852
+   ],
+   "built": -600,
+   "size_m": [
+    130,
+    50
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "column": false
+   }
+  },
+  {
+   "type": "circus",
+   "name": {
+    "en": "Circus Maximus",
+    "tr": "Circus Maximus"
+   },
+   "at": [
+    41.8858,
+    12.4858
+   ],
+   "built": -550,
+   "removed": 1100,
+   "size_m": [
+    621,
+    118
+   ],
+   "rot_deg": 28
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Temple of Jupiter",
+    "tr": "Jüpiter Tapınağı"
+   },
+   "at": [
+    41.8922,
+    12.4817
+   ],
+   "built": -509,
+   "removed": 800,
+   "rise_s": 3,
+   "size_m": [
+    55,
+    60,
+    22
+   ],
+   "rot_deg": 90
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Theatre of Pompey",
+    "tr": "Pompeius Tiyatrosu"
+   },
+   "at": [
+    41.8953,
+    12.4736
+   ],
+   "built": -55,
+   "removed": 700,
+   "size_m": [
+    150,
+    95,
+    22
+   ],
+   "colors": {
+    "wall": "#e6dcc4"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Mausoleum of Augustus",
+    "tr": "Augustus Mozolesi"
+   },
+   "at": [
+    41.9061,
+    12.4764
+   ],
+   "built": -28,
+   "rise_s": 3,
+   "size_m": [
+    90,
+    90,
+    42
+   ],
+   "colors": {
+    "wall": "#e8dfcc",
+    "roof": "#6f8a5a"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Agrippa's Pantheon",
+    "tr": "Agrippa'nın Pantheon'u"
+   },
+   "at": [
+    41.8986,
+    12.4768
+   ],
+   "built": -25,
+   "removed": 113,
+   "size_m": [
+    45,
+    25,
+    18
+   ],
+   "rot_deg": 90
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Pyramid of Cestius",
+    "tr": "Cestius Piramidi"
+   },
+   "at": [
+    41.8764,
+    12.4808
+   ],
+   "built": -15,
+   "size_m": [
+    30,
+    30,
+    30
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "roof": "#ece6d8"
+   }
+  },
+  {
+   "type": "amphitheatre",
+   "name": {
+    "en": "Colosseum",
+    "tr": "Kolezyum"
+   },
+   "at": [
+    41.8903,
+    12.4922
+   ],
+   "built": 72,
+   "rise_s": 6,
+   "size_m": [
+    189,
+    156,
+    48
+   ],
+   "rot_deg": 20
+  },
+  {
+   "type": "forum",
+   "name": {
+    "en": "Trajan's Forum",
+    "tr": "Traianus Forumu"
+   },
+   "at": [
+    41.89542,
+    12.48587
+   ],
+   "built": 108,
+   "size_m": [
+    300,
+    185
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "column": false
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Trajan's Column",
+    "tr": "Traianus Sütunu"
+   },
+   "at": [
+    41.8958,
+    12.4843
+   ],
+   "built": 113,
+   "size_m": [
+    8,
+    8,
+    38
+   ]
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Pantheon",
+    "tr": "Pantheon"
+   },
+   "at": [
+    41.8986,
+    12.4768
+   ],
+   "built": 118,
+   "rise_s": 4,
+   "size_m": [
+    70,
+    56,
+    22
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#d9cfbd",
+    "dome": "#a39e94"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Mausoleum of Hadrian",
+    "tr": "Hadrianus Mozolesi"
+   },
+   "at": [
+    41.9031,
+    12.4663
+   ],
+   "built": 135,
+   "rise_s": 3,
+   "size_m": [
+    80,
+    80,
+    32
+   ],
+   "colors": {
+    "wall": "#e3d9c4",
+    "roof": "#8f8a80"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Baths of Caracalla",
+    "tr": "Caracalla Hamamları"
+   },
+   "at": [
+    41.87944,
+    12.49306
+   ],
+   "built": 212,
+   "size_m": [
+    400,
+    390,
+    10
+   ],
+   "colors": {
+    "wall": "#e2d2b4",
+    "roof": "#c0694a"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Caracalla bath block",
+    "tr": "Caracalla hamam binası"
+   },
+   "at": [
+    41.87944,
+    12.49306
+   ],
+   "built": 214,
+   "rise_s": 3,
+   "size_m": [
+    214,
+    110,
+    38
+   ],
+   "colors": {
+    "wall": "#e8dcc2",
+    "roof": "#b4583b"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Lateran Basilica",
+    "tr": "Lateran Bazilikası"
+   },
+   "at": [
+    41.8858,
+    12.5056
+   ],
+   "built": 318,
+   "rise_s": 3,
+   "size_m": [
+    140,
+    50,
+    30
+   ],
+   "colors": {
+    "wall": "#e6dcc8",
+    "roof": "#a9533a",
+    "spire": false
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Old St Peter's",
+    "tr": "Eski St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "built": 326,
+   "removed": 1506,
+   "rise_s": 3,
+   "size_m": [
+    120,
+    60,
+    30
+   ],
+   "colors": {
+    "wall": "#e6dcc8",
+    "roof": "#a9533a",
+    "spire": false
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Santa Maria Maggiore",
+    "tr": "Santa Maria Maggiore"
+   },
+   "at": [
+    41.8975,
+    12.4986
+   ],
+   "built": 432,
+   "size_m": [
+    85,
+    35,
+    24
+   ],
+   "colors": {
+    "wall": "#ece2cc",
+    "roof": "#a9533a"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Castel Sant'Angelo",
+    "tr": "Sant'Angelo Kalesi"
+   },
+   "at": [
+    41.9031,
+    12.4663
+   ],
+   "built": 1350,
+   "size_m": [
+    140,
+    140,
+    14
+   ],
+   "colors": {
+    "wall": "#cfc0a2"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "St Peter's Basilica",
+    "tr": "St. Peter Bazilikası"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "built": 1506.1,
+   "rise_s": 52,
+   "size_m": [
+    200,
+    140,
+    45
+   ],
+   "colors": {
+    "wall": "#e6dfcf",
+    "dome": "#9aa4a8",
+    "lantern": true
+   }
+  },
+  {
+   "type": "obelisk",
+   "name": {
+    "en": "Vatican obelisk",
+    "tr": "Vatikan dikilitaşı"
+   },
+   "at": [
+    41.9022,
+    12.4573
+   ],
+   "built": 1586,
+   "size_m": [
+    6,
+    6,
+    26
+   ]
+  },
+  {
+   "type": "forum",
+   "name": {
+    "en": "St Peter's Square",
+    "tr": "St. Peter Meydanı"
+   },
+   "at": [
+    41.9022,
+    12.4573
+   ],
+   "built": 1657,
+   "rise_s": 4,
+   "size_m": [
+    320,
+    240
+   ],
+   "colors": {
+    "wall": "#e3dccb",
+    "column": false
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Termini",
+    "tr": "Termini"
+   },
+   "at": [
+    41.90083,
+    12.50194
+   ],
+   "built": 1868,
+   "size_m": [
+    240,
+    90,
+    22
+   ],
+   "rot_deg": 60
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Vittoriano",
+    "tr": "Vittoriano"
+   },
+   "at": [
+    41.8947,
+    12.4831
+   ],
+   "built": 1885,
+   "rise_s": 14,
+   "size_m": [
+    135,
+    130,
+    45
+   ],
+   "colors": {
+    "wall": "#f4f2ec",
+    "roof": "#e9e6dd"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Stadio Olimpico",
+    "tr": "Stadio Olimpico"
+   },
+   "at": [
+    41.93389,
+    12.45472
+   ],
+   "built": 1953,
+   "size_m": [
+    300,
+    230,
+    40
+   ]
+  }
+ ],
+ "fires": [
+  {
+   "year": -389.5,
+   "poly": [
+    [
+     41.8932,
+     12.4838
+    ],
+    [
+     41.8948,
+     12.4885
+    ],
+    [
+     41.8935,
+     12.493
+    ],
+    [
+     41.8905,
+     12.4935
+    ],
+    [
+     41.888,
+     12.4905
+    ],
+    [
+     41.887,
+     12.486
+    ],
+    [
+     41.8885,
+     12.483
+    ],
+    [
+     41.8912,
+     12.4838
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 4
+  },
+  {
+   "year": 64.2,
+   "poly": [
+    [
+     41.8915,
+     12.483
+    ],
+    [
+     41.8935,
+     12.488
+    ],
+    [
+     41.896,
+     12.496
+    ],
+    [
+     41.8945,
+     12.501
+    ],
+    [
+     41.89,
+     12.501
+    ],
+    [
+     41.886,
+     12.496
+    ],
+    [
+     41.883,
+     12.49
+    ],
+    [
+     41.8845,
+     12.482
+    ],
+    [
+     41.888,
+     12.481
+    ]
+   ],
+   "duration_s": 12,
+   "plumes": 8,
+   "plume_scale": 1.6
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    41.9,
+    12.49
+   ],
+   "from": 410,
+   "to": 413,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    41.893,
+    12.483
+   ],
+   "from": 455.4,
+   "to": 455.6,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 846,
+   "to": 860,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    41.887,
+    12.5
+   ],
+   "from": 1084,
+   "to": 1100,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    41.901,
+    12.46
+   ],
+   "from": 1527.3,
+   "to": 1528.5,
+   "scale": 1.3
+  },
+  {
+   "at": [
+    41.898,
+    12.472
+   ],
+   "from": 1527.4,
+   "to": 1529,
+   "scale": 1.3
+  },
+  {
+   "at": [
+    41.9092,
+    12.5011
+   ],
+   "from": 1870.7,
+   "to": 1870.9,
+   "scale": 1.0
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     41.911,
+     12.502
+    ],
+    [
+     41.916,
+     12.502
+    ],
+    [
+     41.916,
+     12.511
+    ],
+    [
+     41.911,
+     12.511
+    ]
+   ],
+   "from": 1870.6,
+   "to": 1870.75,
+   "count": 90
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Villa Borghese",
+   "poly": [
+    [
+     41.9175,
+     12.479
+    ],
+    [
+     41.918,
+     12.493
+    ],
+    [
+     41.911,
+     12.4945
+    ],
+    [
+     41.91,
+     12.482
+    ]
+   ]
+  },
+  {
+   "name": "Villa Doria Pamphili",
+   "poly": [
+    [
+     41.892,
+     12.44
+    ],
+    [
+     41.889,
+     12.456
+    ],
+    [
+     41.882,
+     12.456
+    ],
+    [
+     41.883,
+     12.44
+    ]
+   ]
+  },
+  {
+   "name": "Villa Ada",
+   "poly": [
+    [
+     41.934,
+     12.496
+    ],
+    [
+     41.933,
+     12.506
+    ],
+    [
+     41.926,
+     12.505
+    ],
+    [
+     41.927,
+     12.496
+    ]
+   ]
+  },
+  {
+   "name": "Appia Antica park",
+   "poly": [
+    [
+     41.87,
+     12.5
+    ],
+    [
+     41.86,
+     12.525
+    ],
+    [
+     41.82,
+     12.55
+    ],
+    [
+     41.81,
+     12.53
+    ],
+    [
+     41.85,
+     12.505
+    ]
+   ]
+  },
+  {
+   "name": "Vatican Gardens",
+   "poly": [
+    [
+     41.906,
+     12.447
+    ],
+    [
+     41.905,
+     12.452
+    ],
+    [
+     41.902,
+     12.452
+    ],
+    [
+     41.901,
+     12.447
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "TIBER",
+    "tr": "TİBER"
+   },
+   "at": [
+    41.8975,
+    12.47
+   ],
+   "kind": "water",
+   "to": 1870
+  },
+  {
+   "text": {
+    "en": "TIBER",
+    "tr": "TİBER"
+   },
+   "at": [
+    41.92,
+    12.468
+   ],
+   "kind": "water",
+   "from": 1870
+  },
+  {
+   "text": {
+    "en": "Palatine",
+    "tr": "Palatin"
+   },
+   "at": [
+    41.8892,
+    12.4872
+   ],
+   "kind": "place",
+   "from": -850,
+   "to": -560,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Forum",
+    "tr": "Forum"
+   },
+   "at": [
+    41.8922,
+    12.4852
+   ],
+   "from": -690,
+   "to": -560,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Capitol",
+    "tr": "Capitolium"
+   },
+   "at": [
+    41.8922,
+    12.4817
+   ],
+   "from": -540,
+   "to": -380,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Via Appia",
+    "tr": "Via Appia"
+   },
+   "at": [
+    41.879,
+    12.496
+   ],
+   "kind": "region",
+   "from": -312,
+   "to": -230
+  },
+  {
+   "text": {
+    "en": "Tiber Island",
+    "tr": "Tiber Adası"
+   },
+   "at": [
+    41.8906,
+    12.4776
+   ],
+   "from": -179,
+   "to": -140,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "CAMPUS MARTIUS",
+    "tr": "CAMPUS MARTIUS"
+   },
+   "at": [
+    41.899,
+    12.4745
+   ],
+   "kind": "region",
+   "from": -60,
+   "to": 0
+  },
+  {
+   "text": {
+    "en": "Theatre of Pompey",
+    "tr": "Pompeius Tiyatrosu"
+   },
+   "at": [
+    41.8953,
+    12.4736
+   ],
+   "from": -55,
+   "to": -44,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Mausoleum of Augustus",
+    "tr": "Augustus Mozolesi"
+   },
+   "at": [
+    41.9061,
+    12.4764
+   ],
+   "from": -25,
+   "to": 14,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Circus Maximus",
+    "tr": "Circus Maximus"
+   },
+   "at": [
+    41.8858,
+    12.4858
+   ],
+   "from": 64,
+   "to": 64.5,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Colosseum",
+    "tr": "Kolezyum"
+   },
+   "at": [
+    41.8903,
+    12.4922
+   ],
+   "from": 72,
+   "to": 120,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Pantheon",
+    "tr": "Pantheon"
+   },
+   "at": [
+    41.8986,
+    12.4768
+   ],
+   "from": 120,
+   "to": 200,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Trajan's Forum",
+    "tr": "Traianus Forumu"
+   },
+   "at": [
+    41.89542,
+    12.48587
+   ],
+   "from": 110,
+   "to": 125,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Mausoleum of Hadrian",
+    "tr": "Hadrianus Mozolesi"
+   },
+   "at": [
+    41.9031,
+    12.4663
+   ],
+   "from": 136,
+   "to": 200,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Baths of Caracalla",
+    "tr": "Caracalla Hamamları"
+   },
+   "at": [
+    41.87944,
+    12.49306
+   ],
+   "from": 214,
+   "to": 270,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "TRASTEVERE",
+    "tr": "TRASTEVERE"
+   },
+   "at": [
+    41.8885,
+    12.469
+   ],
+   "kind": "region",
+   "from": 272,
+   "to": 311
+  },
+  {
+   "text": {
+    "en": "St Peter's",
+    "tr": "St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 330,
+   "to": 400,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Lateran",
+    "tr": "Lateran"
+   },
+   "at": [
+    41.8858,
+    12.5056
+   ],
+   "from": 325,
+   "to": 400,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Pantheon",
+    "tr": "Pantheon"
+   },
+   "at": [
+    41.8986,
+    12.4768
+   ],
+   "from": 609,
+   "to": 845,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Old St Peter's",
+    "tr": "Eski St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 846,
+   "to": 1080,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "BORGO",
+    "tr": "BORGO"
+   },
+   "at": [
+    41.902,
+    12.461
+   ],
+   "kind": "region",
+   "from": 860,
+   "to": 1080
+  },
+  {
+   "text": {
+    "en": "Colosseum",
+    "tr": "Kolezyum"
+   },
+   "at": [
+    41.8903,
+    12.4922
+   ],
+   "from": 1348,
+   "to": 1419,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Ponte Sisto",
+    "tr": "Ponte Sisto"
+   },
+   "at": [
+    41.89233,
+    12.47075
+   ],
+   "from": 1476,
+   "to": 1505,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "St Peter's",
+    "tr": "St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 1507,
+   "to": 1530,
+   "lift_m": 100
+  },
+  {
+   "text": {
+    "en": "Castel Sant'Angelo",
+    "tr": "Sant'Angelo Kalesi"
+   },
+   "at": [
+    41.9031,
+    12.4663
+   ],
+   "from": 1527,
+   "to": 1530,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "St Peter's",
+    "tr": "St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 1590,
+   "to": 1790,
+   "lift_m": 170
+  },
+  {
+   "text": {
+    "en": "Termini",
+    "tr": "Termini"
+   },
+   "at": [
+    41.90083,
+    12.50194
+   ],
+   "from": 1863,
+   "to": 1869,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Porta Pia",
+    "tr": "Porta Pia"
+   },
+   "at": [
+    41.9092,
+    12.5011
+   ],
+   "kind": "place",
+   "from": 1870,
+   "to": 1871.1,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "PRATI",
+    "tr": "PRATI"
+   },
+   "at": [
+    41.91,
+    12.462
+   ],
+   "kind": "region",
+   "from": 1890,
+   "to": 1910
+  },
+  {
+   "text": {
+    "en": "Vittoriano",
+    "tr": "Vittoriano"
+   },
+   "at": [
+    41.8947,
+    12.4831
+   ],
+   "from": 1911,
+   "to": 1936.8,
+   "lift_m": 90
+  },
+  {
+   "text": {
+    "en": "Via della Conciliazione",
+    "tr": "Via della Conciliazione"
+   },
+   "at": [
+    41.9024,
+    12.4625
+   ],
+   "from": 1945,
+   "to": 1950,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Stadio Olimpico",
+    "tr": "Stadio Olimpico"
+   },
+   "at": [
+    41.93389,
+    12.45472
+   ],
+   "from": 1953,
+   "to": 1961,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "EUR",
+    "tr": "EUR"
+   },
+   "at": [
+    41.8336,
+    12.4708
+   ],
+   "kind": "place",
+   "from": 1952,
+   "to": 1981,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Ring road (GRA)",
+    "tr": "Çevre yolu (GRA)"
+   },
+   "at": [
+    41.9933,
+    12.545
+   ],
+   "kind": "region",
+   "from": 1970,
+   "to": 1981
+  },
+  {
+   "text": {
+    "en": "Fiumicino",
+    "tr": "Fiumicino"
+   },
+   "at": [
+    41.772,
+    12.24
+   ],
+   "kind": "place",
+   "from": 1982,
+   "to": 2021
+  },
+  {
+   "text": {
+    "en": "St Peter's",
+    "tr": "St. Peter"
+   },
+   "at": [
+    41.90222,
+    12.45333
+   ],
+   "from": 2022,
+   "lift_m": 170
+  },
+  {
+   "text": {
+    "en": "Colosseum",
+    "tr": "Kolezyum"
+   },
+   "at": [
+    41.8903,
+    12.4922
+   ],
+   "from": 2022,
+   "lift_m": 70
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Rome: 3,000 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Roma: 14 Dakikada 3.000 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Around 1000 BC there was only a marshy valley between seven hills by the Tiber. Watch Rome grow from huts on the Palatine into the capital of an empire of a million people, shrink to a small town in the Middle Ages, rise again as the city of the popes and become the capital of modern Italy: the Forum, the Servian and Aurelian walls, the Colosseum, the Pantheon, the sacks of 410 and 1527, St Peter's, the breach of Porta Pia and today's city of 2.7 million, with the year and the population on screen.",
+   "tr": "MÖ 1000 civarında Tiber kıyısındaki yedi tepenin arasında yalnızca bataklık bir vadi vardı. Roma'nın Palatin'deki kulübelerden bir milyon kişilik bir imparatorluğun başkentine büyüyüşünü, Orta Çağ'da küçük bir kasabaya dönüşmesini, papaların şehri olarak yeniden yükselişini ve modern İtalya'nın başkenti oluşunu izleyin: Forum, Servius ve Aurelianus surları, Kolezyum, Pantheon, 410 ve 1527 yağmaları, St. Peter, Porta Pia gediği ve bugünün 2,7 milyonluk şehri; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "rome history",
+   "history of rome",
+   "ancient rome",
+   "roman empire",
+   "3d timelapse",
+   "city evolution",
+   "how rome grew",
+   "rome timelapse",
+   "colosseum",
+   "aurelian walls",
+   "medieval rome",
+   "urban history",
+   "italian history",
+   "eternal city"
+  ],
+  "hashtags": [
+   "#Rome",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Rome",
+    "tr": "Roma"
+   },
+   "line2": {
+    "en": "3,000 YEARS",
+    "tr": "3.000 YIL"
+   },
+   "line3": {
+    "en": "From Palatine huts to the Eternal City",
+    "tr": "Palatin kulübelerinden Ebedi Şehre"
+   },
+   "extra": "&mood=golden&pitch=30&az=64&cam=41.8960,12.4800,6.5"
+  }
+ },
+ "sources": [
+  {
+   "title": "Founding of Rome — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Founding_of_Rome"
+  },
+  {
+   "title": "Roman Forum — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roman_Forum"
+  },
+  {
+   "title": "Servian Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Servian_Wall"
+  },
+  {
+   "title": "Aurelian Walls — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aurelian_Walls"
+  },
+  {
+   "title": "Temple of Jupiter Optimus Maximus — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus"
+  },
+  {
+   "title": "Sack of Rome (390 BC) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(390_BC)"
+  },
+  {
+   "title": "Aqua Appia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aqua_Appia"
+  },
+  {
+   "title": "A Brief History of Via Appia Antica — Culture Trip",
+   "url": "https://www.theculturetrip.com/europe/italy/articles/a-brief-history-of-via-appia-antica-romes-oldest-road"
+  },
+  {
+   "title": "Via Flaminia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Via_Flaminia"
+  },
+  {
+   "title": "Circus Maximus — World History Encyclopedia",
+   "url": "https://worldhistory.org/Circus_Maximus/"
+  },
+  {
+   "title": "Pons Aemilius — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pons_Aemilius"
+  },
+  {
+   "title": "Pons Fabricius — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pons_Fabricius"
+  },
+  {
+   "title": "Ponte Milvio — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ponte_Milvio"
+  },
+  {
+   "title": "The Bridges of Rome — Rome Guide",
+   "url": "https://rolfgross.dreamhosters.com/Rome-Guide/Bridges/Bridges.html"
+  },
+  {
+   "title": "Theatre of Pompey — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Theatre_of_Pompey"
+  },
+  {
+   "title": "Mausoleum of Augustus — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Augustus"
+  },
+  {
+   "title": "The Population of Rome (Oates, Classical Philology 1934)",
+   "url": "https://penelope.uchicago.edu/Thayer/E/Journals/CP/29/2/Population_of_Rome*.html"
+  },
+  {
+   "title": "Great Fire of Rome — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Rome"
+  },
+  {
+   "title": "Colosseum — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  {
+   "title": "Trajan's Forum — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Trajan%27s_Forum"
+  },
+  {
+   "title": "Pantheon, Rome — Wikipedia",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Pantheon%2C_Rome"
+  },
+  {
+   "title": "Castel Sant'Angelo — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo"
+  },
+  {
+   "title": "Baths of Caracalla — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Baths_of_Caracalla"
+  },
+  {
+   "title": "Bishops of Rome under Constantine the Great — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bishops_of_Rome_under_Constantine_the_Great"
+  },
+  {
+   "title": "Archbasilica of Saint John Lateran — Wikipedia",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Archbasilica_of_Saint_John_Lateran"
+  },
+  {
+   "title": "Sack of Rome (455) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(455)"
+  },
+  {
+   "title": "Arab raid against Rome — Wikipedia",
+   "url": "https://cavac.at/cavacopedia/Arab%20raid%20against%20Rome"
+  },
+  {
+   "title": "Pope Leo IV — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pope_Leo_IV"
+  },
+  {
+   "title": "Rome: City of the popes — Britannica",
+   "url": "https://www.britannica.com/place/Rome/City-of-the-popes"
+  },
+  {
+   "title": "Rome: Evolution of the modern city — Britannica",
+   "url": "https://www.britannica.com/place/Rome/Evolution-of-the-modern-city"
+  },
+  {
+   "title": "Rome: Capital of a united Italy — Britannica",
+   "url": "https://www.britannica.com/place/Rome/Capital-of-a-united-Italy"
+  },
+  {
+   "title": "Development of the Disabitato — Carleton CGMR",
+   "url": "https://cgmr.carleton.edu/exhibits/show/uninhabited_rome/disabitato_development"
+  },
+  {
+   "title": "Renaissance city planning in Rome — University of Washington",
+   "url": "https://courses.washington.edu/rome250/week8notes%20ren%20city%20planning.htm"
+  },
+  {
+   "title": "Ponte Sisto — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ponte_Sisto"
+  },
+  {
+   "title": "St. Peter's Basilica — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+  },
+  {
+   "title": "Sack of Rome (1527) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_(1527)"
+  },
+  {
+   "title": "Roma Termini railway station — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Roma_Termini_railway_station"
+  },
+  {
+   "title": "Capture of Rome — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Capture_of_Rome"
+  },
+  {
+   "title": "Lungotevere — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lungotevere"
+  },
+  {
+   "title": "Victor Emmanuel II Monument — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_II_Monument"
+  },
+  {
+   "title": "Via della Conciliazione — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Via_della_Conciliazione"
+  },
+  {
+   "title": "EUR, Rome — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/EUR,_Rome"
+  },
+  {
+   "title": "Stadio Olimpico — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Stadio_Olimpico"
+  },
+  {
+   "title": "Grande Raccordo Anulare (A90) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Autostrada_A90"
+  },
+  {
+   "title": "Roma: censimenti della popolazione — Tuttitalia (ISTAT)",
+   "url": "https://www.tuttitalia.it/lazio/33-roma/statistiche/censimenti-popolazione/"
+  }
+ ]
+}
