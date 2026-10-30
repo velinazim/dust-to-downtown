@@ -223,7 +223,7 @@ function renderOverlay(t) {
   const tl = document.getElementById('tl');
   tl.querySelector('.era').textContent = T(s.era).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US'); tl.querySelector('.city').textContent = T(s.city_name);
   tl.style.opacity = eraOp;
-  const [pre, yr, post] = L.year(Math.round(yearAt(t)));
+  const yv = yearAt(t); const [pre, yr, post] = L.year(yv < 0 ? Math.ceil(yv) : Math.floor(yv));
   const bl = document.getElementById('bl');
   bl.querySelector('.pre').textContent = pre; bl.querySelector('.yr').textContent = yr; bl.querySelector('.post').textContent = post;
   bl.querySelector('.pre').style.display = pre ? '' : 'none'; bl.querySelector('.post').style.display = post ? '' : 'none';
@@ -327,7 +327,8 @@ function buildScene() {
   const roadBlock = (x, z, yearT) => ROADS.some(r => tOf(r.from) <= yearT + 0.01 && lineDist(x, z, r.pl) < r.w / 2 + 0.004);
   const openBlock = (x, z) => OPEN.some(o => x >= o.bb[0] && x <= o.bb[1] && z >= o.bb[2] && z <= o.bb[3] && inPoly(x, z, o.poly));
   const lmBlock = (x, z) => LMS.some(l => Math.hypot(x - l.xz[0], z - l.xz[1]) < lmRadius(l));
-  const TW = (city.timed_water || []).map(w => ({ ...w, poly: llp(w.poly), bb: bboxOf(llp(w.poly)) }));
+  const lakeList = (geo.lakes && city.geo.lakes_from != null) ? geo.lakes.map(p => ({ poly: p, from: city.geo.lakes_from })) : [];
+  const TW = [...(city.timed_water || []), ...lakeList].map(w => ({ ...w, poly: llp(w.poly), bb: bboxOf(llp(w.poly)) }));
   const waterBlock = (x, z) => TW.some(o => x >= o.bb[0] - 0.02 && x <= o.bb[1] + 0.02 && z >= o.bb[2] - 0.02 && z <= o.bb[3] + 0.02 && (inPoly(x, z, o.poly) || lineDist(x, z, o.poly.concat([o.poly[0]])) < 0.02));
   const twMeshes = TW.map(w => {
     const sh = new THREE.Shape(w.poly.map(([x, z]) => new THREE.Vector2(x, -z)));
@@ -348,8 +349,8 @@ function buildScene() {
     ottoman:   { grain: 55, h: [14, 26], roof: 'hip', walls: ['#e8dcc2', '#d9c7a3', '#c9ab84', '#efe6d2'], roofs: ['#b4583b', '#a24c33', '#9b5a41'] },
     georgian:  { grain: 60, h: [20, 32], roof: 'gable', walls: ['#a8553f', '#b8694f', '#9a4e3b', '#d9cdb5'], roofs: ['#4f565f', '#5b626b'] },
     industrial:{ grain: 90, h: [16, 26], roof: 'gable', walls: ['#8f4a37', '#7e4433', '#99553f'], roofs: ['#3f4246', '#4a4d52'], chimney: 0.12 },
-    victorian: { grain: 65, h: [20, 30], roof: 'gable', walls: ['#a35a43', '#b46a4c', '#c9b79a', '#9a5541'], roofs: ['#4c5258', '#575d64'] },
-    suburb:    { grain: 70, h: [12, 18], roof: 'hip', walls: ['#e6dccb', '#d9c3a5', '#c7a07f', '#efe9df'], roofs: ['#8c4b38', '#6b5d55', '#9a5a44'] },
+    victorian: { grain: 65, h: [20, 30], roof: 'gable', walls: ['#b07a62', '#c4a58a', '#a9705a', '#d2bfa3'], roofs: ['#6b7178', '#7a7f86', '#8a6f62', '#77706a'] },
+    suburb:    { grain: 70, h: [12, 18], roof: 'hip', walls: ['#e6dccb', '#d9c3a5', '#dcd2c2', '#efe9df'], roofs: ['#8a6a5c', '#7d736c', '#94786a', '#857d77'] },
     modern:    { grain: 110, h: [20, 60], roof: 'flat', walls: ['#d9d9d6', '#c8c8c4', '#e6e4de', '#b9bcbf'], roofs: ['#8d8f92', '#9a9c9e'] },
     highrise:  { grain: 150, h: [90, 260], roof: 'flat', walls: ['#8fa6b5', '#7d93a3', '#a7b8c4', '#6f8494'], roofs: ['#5d666d'] },
   };
@@ -403,6 +404,7 @@ function buildScene() {
   // fires
   const FIRES = (city.fires || []).map(f => ({ ...f, poly: llp(f.poly), t: tOf(f.year), dur: f.duration_s ?? 5 }));
   for (const f of FIRES) for (const b of B) if (b.a < f.t && b.v > f.t && inPoly(b.x, b.z, f.poly)) b.v = f.t + R() * f.dur;
+  window.__debug = { B, FIRES, tOf, SEG };
 
   const N = B.length;
   const bBody = new THREE.InstancedMesh(unitBox, mat('#ffffff'), N);

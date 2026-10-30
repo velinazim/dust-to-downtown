@@ -77,37 +77,69 @@ def overpass(q, label):
     return None
 
 
-def osm_water(bbox):
-    """Rivers (area-mapped), lakes, reservoirs, docks and basins. Small untagged ponds are skipped on purpose:
-    they are invisible at this scale and make the query too heavy for the public servers."""
+def rdp(pts, eps):
+    """Douglas-Peucker simplification of [lat, lon] points (eps in degrees)."""
+    if len(pts) < 3:
+        return pts
+    a, b = np.array(pts[0]), np.array(pts[-1]); ab = b - a; L = np.hypot(*ab) or 1e-12
+    P = np.array(pts); d = np.abs(np.cross(ab, P - a)) / L
+    i = int(np.argmax(d))
+    if d[i] > eps:
+        return rdp(pts[:i + 1], eps)[:-1] + rdp(pts[i:], eps)
+    return [pts[0], pts[-1]]
+
+
+def ring_area_km2(ring):
+    lat0 = sum(p[0] for p in ring) / len(ring); k = kx(lat0)
+    xs = [p[1] * k for p in ring]; ys = [p[0] * KZ for p in ring]
+    return abs(sum(xs[i] * ys[i - 1] - xs[i - 1] * ys[i] for i in range(len(ring)))) / 2
+
+
+def osm_water(bbox, rivers_keep=None):
+    """Area-mapped rivers (optionally only those named in rivers_keep, plus anything tidal) and lakes/reservoirs.
+    Docks, basins and canals are left out: docks are drawn as timed_water at their real opening year, and canals and
+    small streams are too thin for this scale. Returns (river_outer, river_inner, lakes)."""
     s, w, n, e = bbox
     b = f'({s},{w},{n},{e})'
-    queries = {
-        'rivers': f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(river|tidal|canal|oxbow|stream_pool)$"]{b};'
-                  f'relation["natural"="water"]["water"~"^(river|tidal|canal|oxbow)$"]{b};way["waterway"="riverbank"]{b};relation["waterway"="riverbank"]{b};);out geom;',
-        'lakes': f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(lake|reservoir|basin|lagoon|dock|lock)$"]{b};'
-                 f'relation["natural"="water"]["water"~"^(lake|reservoir|basin|lagoon|dock)$"]{b};way["landuse"="reservoir"]{b};'
-                 f'way["waterway"="dock"]{b};way["landuse"="basin"]{b};);out geom;',
-    }
-    outer, inner = [], []
-    for label, q in queries.items():
-        data = overpass(q, label)
-        if data is None:
-            raise SystemExit(f'Overpass failed for {label}; try again later (map not written).')
-        n_el = 0
-        for el in data.get('elements', []):
-            n_el += 1
-            if el['type'] == 'way' and 'geometry' in el:
-                ring = [[p['lat'], p['lon']] for p in el['geometry']]
-                if len(ring) >= 3 and ring[0] == ring[-1]:
-                    outer.append(ring)
-            elif el['type'] == 'relation':
-                for role, dest in (('outer', outer), ('inner', inner)):
-                    segs = [[[p['lat'], p['lon']] for p in m['geometry']] for m in el.get('members', []) if m.get('role') == role and 'geometry' in m]
-                    dest.extend(r for r in stitch(segs) if r[0] == r[-1])
-        print(f'osm {label}: {n_el} elements')
-    print(f'osm water: {len(outer)} outer rings, {len(inner)} inner rings')
-    return outer, inner
+    q_rivers = (f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(river|tidal|oxbow)$"]{b};'
+                f'relation["natural"="water"]["water"~"^(river|tidal|oxbow)$"]{b};way["waterway"="riverbank"]{b};relation["waterway"="riverbank"]{b};);out geom;')
+    q_lakes = (f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(lake|reservoir|lagoon)$"]{b};'
+               f'relation["natural"="water"]["water"~"^(lake|reservoir|lagoon)$"]{b};way["landuse"="reservoir"]{b};);out geom;')
+    keep = [k.lower() for k in (rivers_keep or [])]
+    def wanted(tags):
+        if not keep:
+            return True
+        name = (tags.get('name', '') + ' ' + tags.get('name:en', '')).lower()
+        return tags.get('tidal') == 'yes' or any(k in name for k in keep)
+    def rings(el):
+        if el['type'] == 'way' and 'geometry' in el:
+            r = [[p['lat'], p['lon']] for p in el['geometry']]
+            return ([r] if len(r) >= 4 and r[0] == r[-1] else []), []
+        if el['type'] == 'relation':
+            o = [r for r in stitch([[[p['lat'], p['lon']] for p in m['geometry']] for m in el.get('members', []) if m.get('role') == 'outer' and 'geometry' in m]) if r[0] == r[-1]]
+            i = [r for r in stitch([[[p['lat'], p['lon']] for p in m['geometry']] for m in el.get('members', []) if m.get('role') == 'inner' and 'geometry' in m]) if r[0] == r[-1]]
+            return o, i
+        return [], []
+    data = overpass(q_rivers, 'rivers')
+    if data is None:
+        raise SystemExit('Overpass failed for rivers; try again later (map not written).')
+    r_out, r_in, kept, skipped = [], [], 0, 0
+    for el in data.get('elements', []):
+        if not wanted(el.get('tags', {})):
+            skipped += 1; continue
+        o, i = rings(el); r_out += o; r_in += i; kept += 1
+    print(f'osm rivers: kept {kept}, skipped {skipped} -> {len(r_out)} outer / {len(r_in)} inner rings')
+    data = overpass(q_lakes, 'lakes')
+    if data is None:
+        raise SystemExit('Overpass failed for lakes; try again later (map not written).')
+    lakes = []
+    for el in data.get('elements', []):
+        o, _ = rings(el)
+        for r in o:
+            if ring_area_km2(r) >= 0.02:
+                lakes.append([[round(a, 5), round(c, 5)] for a, c in rdp(r, 0.00008)])
+    print(f'osm lakes: {len(lakes)} lakes >= 0.02 km2')
+    return r_out, r_in, lakes
 
 
 def stitch(segs):
@@ -155,8 +187,10 @@ def build_layer(city, bbox, origin, cell_km, water_rings):
     elev = elevation(grid, cell_km, origin[0])
     land = elev > g.get('sea_level_m', 0.0)
     if water_rings is not None:
-        outer, inner = water_rings
+        outer, inner, lakes = water_rings
         land &= ~(rasterize(outer, grid, origin) & ~rasterize(inner, grid, origin))
+        if g.get('lakes_from') is None and lakes:
+            land &= ~rasterize(lakes, grid, origin)
     for ed in city.get('geo_edits', []):
         if ed['op'] == 'river':
             land &= ~river_mask(ed['path'], ed.get('width_m', 200), grid, origin)
@@ -186,11 +220,15 @@ def main(city_dir, if_needed=False):
             pass
     bbox = g['bbox']                     # [south, west, north, east]
     origin = g.get('origin') or [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2]
-    rings = osm_water(bbox) if g.get('osm_water', True) else None
+    rings = osm_water(bbox, g.get('rivers_keep')) if g.get('osm_water', True) else None
     grid, elev, sd, land = build_layer(city, bbox, origin, g.get('cell_m', 60) / 1000, rings)
     meta = dict(source='AWS terrain tiles (terrarium) + OpenStreetMap water (ODbL)', bbox=bbox, geo_hash=geo_hash(city),
                 land_fraction=round(float(land.mean()), 4))
     out = write_geo(gp, origin, grid, g.get('cell_m', 60) / 1000, elev, sd, meta=meta)
+    if rings and rings[2] and g.get('lakes_from') is not None:
+        out['lakes'] = rings[2]
+        with open(gp, 'w') as f:
+            json.dump(out, f, separators=(',', ':'))
     if g.get('core_bbox'):
         ccell = g.get('core_cell_m', 30) / 1000
         cgrid, celev, csd, cland = build_layer(city, g['core_bbox'], origin, ccell, rings)
