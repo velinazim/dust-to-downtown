@@ -55,6 +55,11 @@ Result appears in `requests/done/` within ~5 minutes.
 
 ## Notes
 
+- Upload failed but the render succeeded (no entry in `uploads.json`, error in `cities/<slug>/status.json`): first check
+  the channel with the YouTube action `list` (writes `config/videos.txt`) so nothing is uploaded twice, then run
+  **Upload rendered episode** (`upload.yml`, inputs slug + the render run id). Re-running it for an uploaded episode only
+  retries a missing custom thumbnail (needs the phone-verified channel).
+
 - Preview/geo failures: the log is committed to `cities/<slug>/geo_log.txt` (GitHub's own log host is not reachable
   from Claude sessions). Overpass (OSM) can be busy: the script retries for a few minutes; if it still fails, re-run
   the Preview action later (`gh api -X POST repos/velinazim/dust-to-downtown/actions/workflows/preview.yml/dispatches -f ref=main -f 'inputs[slug]=<slug>'`).
