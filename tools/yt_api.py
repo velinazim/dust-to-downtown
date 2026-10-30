@@ -4,6 +4,7 @@ YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (never paste them anywhere else
 
   python3 tools/yt_api.py whoami                       # prints the channel the token belongs to
   python3 tools/yt_api.py upload <episode_dir> <repo>  # upload video.mp4 (+ thumb.jpg) from meta.json, schedule it
+  python3 tools/yt_api.py list                         # every video on the channel with privacy / schedule
   python3 tools/yt_api.py publish <repo>               # handle requests/publish/*.json (make public now / at a time)
 
 Safety: every upload first checks that the token's channel title equals config/channel.json "title".
@@ -203,6 +204,19 @@ if __name__ == '__main__':
         tk = token(); cid, title = channel(tk)
         st = requests.get(f'{API}/channels', params={'part': 'status', 'id': cid}, headers=H(tk), timeout=30).json()['items'][0]['status']
         print((cid, title), 'longUploadsStatus=' + str(st.get('longUploadsStatus')))
+    elif c == 'list':
+        tk = token(); cid, title = channel(tk)
+        up = requests.get(f'{API}/channels', params={'part': 'contentDetails', 'id': cid}, headers=H(tk), timeout=30).json()['items'][0]['contentDetails']['relatedPlaylists']['uploads']
+        items = requests.get(f'{API}/playlistItems', params={'part': 'contentDetails', 'playlistId': up, 'maxResults': 50}, headers=H(tk), timeout=30).json().get('items', [])
+        ids = [i['contentDetails']['videoId'] for i in items]
+        print(f'{title}: {len(ids)} video(s)')
+        if ids:
+            vs = requests.get(f'{API}/videos', params={'part': 'snippet,status,contentDetails,processingDetails', 'id': ','.join(ids)}, headers=H(tk), timeout=30).json().get('items', [])
+            for v in vs:
+                st = v['status']
+                print(v['id'], '|', v['snippet']['title'], '|', st.get('privacyStatus'), '| publishAt', st.get('publishAt'), '| upload', st.get('uploadStatus'),
+                      st.get('rejectionReason') or st.get('failureReason') or '', '| duration', v['contentDetails'].get('duration'),
+                      '| processing', v.get('processingDetails', {}).get('processingStatus'))
     elif c == 'upload':
         cmd_upload(sys.argv[2], sys.argv[3])
     elif c == 'setup':

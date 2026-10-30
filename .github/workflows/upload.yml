@@ -1,0 +1,52 @@
+name: Upload rendered episode
+# Re-try the YouTube upload of an episode that already rendered (no re-render). Uses the
+# episode-<slug> artifact kept 30 days by the "Render episode" run.
+on:
+  workflow_dispatch:
+    inputs:
+      slug: {description: 'city slug', required: true}
+      run_id: {description: 'Render episode run id that holds the episode artifact', required: true}
+concurrency:
+  group: youtube-upload
+  cancel-in-progress: false
+permissions:
+  contents: write
+  actions: read
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - uses: actions/download-artifact@v4
+        with:
+          name: episode-${{ github.event.inputs.slug }}
+          path: out
+          run-id: ${{ github.event.inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload to YouTube (English)
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          set -o pipefail
+          ls -la out out/en || true
+          python3 tools/yt_api.py upload out/en . 2>&1 | tee upload.log
+      - name: Record result
+        if: always()
+        run: |
+          S=${{ github.event.inputs.slug }}
+          python3 - <<EOF
+          import json, os, datetime
+          p = 'cities/$S/status.json'
+          st = json.load(open(p)) if os.path.exists(p) else {}
+          st['upload_retry'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+          st['upload_log'] = open('upload.log').read()[-1500:] if os.path.exists('upload.log') else None
+          json.dump(st, open(p, 'w'), indent=1)
+          EOF
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          for f in uploads.json cities/$S/status.json; do [ -e "$f" ] && git add "$f"; done; true
+          git diff --cached --quiet && exit 0
+          git commit -qm "upload: $S"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done

@@ -87,7 +87,9 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: python3 tools/yt_api.py upload out/en . | tee upload.log
+        run: |
+          set -o pipefail
+          python3 tools/yt_api.py upload out/en . 2>&1 | tee upload.log
       - name: Record result
         if: always()
         run: |
@@ -102,7 +104,7 @@ jobs:
           json.dump(st, open(p, 'w'), indent=1)
           EOF
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
-          git add uploads.json cities/$S/status.json 2>/dev/null || true
+          for f in uploads.json cities/$S/status.json; do [ -e "$f" ] && git add "$f"; done; true
           git diff --cached --quiet && exit 0
           git commit -qm "rendered: $S"
           for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done
