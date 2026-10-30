@@ -28,20 +28,24 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Geo + validate + stills
         run: |
-          set -e
+          set -o pipefail
+          fail=0
           for s in ${{ steps.slugs.outputs.list }}; do
             echo "::group::$s"
-            python3 tools/prepare_geo.py cities/$s --if-needed
-            python3 tools/validate.py $s | tee cities/$s/validate.txt
+            mkdir -p cities/$s/preview
+            ( python3 -u tools/prepare_geo.py cities/$s --if-needed 2>&1 | tee cities/$s/geo_log.txt ) || { fail=1; continue; }
+            python3 tools/validate.py $s | tee cities/$s/validate.txt || true
             rm -rf cities/$s/preview && mkdir -p cities/$s/preview
-            python3 tools/debug_map.py $s cities/$s/preview
-            python3 engine/render.py stills $s cities/$s/preview auto --w 1280 --h 720 2>&1 | tee cities/$s/preview/log.txt
+            python3 tools/debug_map.py $s cities/$s/preview 2>&1 | tee -a cities/$s/geo_log.txt || fail=1
+            python3 engine/render.py stills $s cities/$s/preview auto --w 1280 --h 720 2>&1 | tee cities/$s/preview/log.txt || fail=1
             echo "::endgroup::"
           done
+          exit $fail
       - name: Commit preview
+        if: always()
         run: |
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
-          git add cities/*/geo.json cities/*/preview cities/*/validate.txt 2>/dev/null || true
+          git add cities/*/geo.json cities/*/preview cities/*/validate.txt cities/*/geo_log.txt 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -qm "preview: ${{ steps.slugs.outputs.list }}"
           for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done
