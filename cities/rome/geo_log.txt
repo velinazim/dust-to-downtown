@@ -1,4 +1,7 @@
-osm rivers: kept 1, skipped 63 -> 1 outer / 0 inner rings
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 504
+  rivers: overpass.private.coffee -> 504
+osm rivers: kept 64, skipped 0 -> 64 outer / 18 inner rings
 osm lakes: 8 lakes >= 0.02 km2
 grid 565x643 @ 100 m
 elevation: zoom 11, tiles 5x6
