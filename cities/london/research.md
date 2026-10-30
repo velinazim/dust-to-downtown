@@ -72,6 +72,8 @@ Different sources measure different areas; the counter shows "≈" and the descr
 | 2021 | 8,799,728 | Greater London census | City Population |
 | mid-2024 | 9,089,736 | Greater London estimate | City Population |
 
+During the Blitz segment the counter holds the 1939 figure (≈8.7 m); wartime evacuation figures are not shown.
+
 Interpolated values used only as segment end points between sourced years: 1852 ≈2.3 m, 1894 ≈5.9 m (between 1891 5,565,856 and 1901 6,226,494).
 
 ## Simplifications and uncertainties

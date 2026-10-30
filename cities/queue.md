@@ -3,7 +3,7 @@
 Order mixes cities with big audiences in high-paying ad markets (US, UK, Canada, Australia, Germany) and
 ancient cities everyone is curious about. Owner can reorder any time.
 
-- [ ] london — London (Londinium 47 AD → today)
+- [x] london — London (Londinium 47 AD → today)
 - [ ] rome — Rome (753 BC → today)
 - [ ] paris — Paris (Lutetia → today)
 - [ ] boston — Boston (1630 → today, landfill growth)

@@ -154,7 +154,7 @@ S = [
      pop=[5900000, 8700000], cam=(51.5000, -0.1200, 30.0), chapter=T("Greater London", "Büyük Londra")),
  seg(1940, 1941.4, 20, T("Second World War", "İkinci Dünya Savaşı"), T("Greater London", "Büyük Londra"), T("The Blitz", "Blitz"),
      T("Sept 1940 – May 1941: bombs burn the docks and much of the City", "Eylül 1940 – Mayıs 1941: bombalar dokları ve City'nin büyük kısmını yakar"),
-     cam=(51.5080, -0.0650, 18.0), chapter=T("The Blitz", "Blitz")),
+     pop=8700000, cam=(51.5080, -0.0650, 18.0), chapter=T("The Blitz", "Blitz")),
  seg(1941.5, 1980, 18, T("Post-war", "Savaş Sonrası"), T("Greater London", "Büyük Londra"), T("Rebuilding and Moving Out", "Yeniden İnşa ve Göç"),
      T("Bomb sites become estates; Greater London falls to 6.6 million by 1981", "Bomba alanlarına siteler yükselir; nüfus 1981'de 6,6 milyona iner"),
      pop=[8164416, 6608513], cam=(51.5000, -0.1200, 30.0)),

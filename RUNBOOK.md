@@ -25,7 +25,11 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    language to `cities/<slug>/preview/` (~10–20 min). Poll: every 60 s `git pull -q`, until
    `cities/<slug>/preview/log.txt` is newer than your push (max 30 min; if the action failed, read its log with
    `gh api repos/velinazim/dust-to-downtown/actions/runs?per_page=3` and fix).
-6. **Look at every preview still** (Read the jpgs). Check: buildings/walls in the water? walls ending on land
+6. **Check the map first**: `cities/<slug>/preview/map_core.png` and `map_full.png` show the real land/water with every
+   wall, bridge, district, landmark and dock drawn on top. For a sharper look at one area run
+   `python3 tools/debug_map.py <slug> /tmp/x` locally after `git pull` (geo.json is committed), or sample the shoreline
+   in Python as cities/london shows. Bridge ends must be on land (sd > 20 m), walls must end at the shore.
+   **Then look at every preview still** (Read the jpgs). Check: buildings/walls in the water? walls ending on land
    short of the shore? districts spilling outside the real coastline/river? camera too close/far, city off-frame?
    labels overlapping each other or the title? text cut off? Fix city.json and push again. Up to 3 rounds.
 7. When the stills are right: write `cities/<slug>/render.json` = `{"upload": true}`, commit + push
@@ -46,6 +50,13 @@ Write `requests/publish/<YYYYMMDD-HHMM>.json` = `{"video_ids": ["..."], "at": "<
 Result appears in `requests/done/` within ~5 minutes.
 
 ## Notes
+
+- Preview/geo failures: the log is committed to `cities/<slug>/geo_log.txt` (GitHub's own log host is not reachable
+  from Claude sessions). Overpass (OSM) can be busy: the script retries for a few minutes; if it still fails, re-run
+  the Preview action later (`gh api -X POST repos/velinazim/dust-to-downtown/actions/workflows/preview.yml/dispatches -f ref=main -f 'inputs[slug]=<slug>'`).
+- The channel is not phone-verified yet (`config/whoami.txt`: longUploadsStatus=eligible): keep episodes under 15:00
+  until it says `allowed`; validate.py warns above 899 s.
+- A city can be written with a small generator (cities/london/_build.py) — keep it next to city.json.
 
 - Never put secrets in files or chat. YouTube credentials live only in GitHub Secrets.
 - The upload refuses to run if the token belongs to another channel (config/channel.json).

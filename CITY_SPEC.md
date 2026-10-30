@@ -36,8 +36,15 @@ Years: negative = BC, positive = AD.
 }
 ```
 
-- `geo.bbox` = [south, west, north, east]; must contain everything the camera ever shows. Keep it ≤ ~60 × 60 km.
-  `cell_m` 60–120 (bigger bbox → bigger cells).
+- `geo.bbox` = [south, west, north, east]; must contain everything the camera ever shows (at 40 km camera distance the
+  view reaches ~25 km north and ~35 km sideways of the target). `cell_m` 60–120 (bigger bbox → bigger cells).
+- `geo.core_bbox` + `core_cell_m` (30): a fine terrain layer around the old city, used whenever the camera is close
+  (< ~8 km). Always set it for big cities; make it cover every close-up camera view.
+- `geo.rivers_keep`: e.g. `["Thames"]` — only area-mapped rivers whose name contains one of these (plus anything tidal)
+  are drawn as water. Small streams and canals become thin "beach" ribbons at this scale, so leave them out.
+- `geo.lakes_from`: year from which lakes/reservoirs (from OSM, ≥ 0.02 km²) appear. Use it when most lakes are modern
+  (reservoirs, park lakes); omit it for natural lakes (they are then part of the base map from the start).
+- Docks and other dug water go in `timed_water` (below), never as static water.
 - `view.azimuth_deg`: 0 = camera south of the city looking north. Choose the direction that puts the main
   water (river/sea) across the frame and the old core in the middle.
 - `geo_edits`: historical water/land the modern map lacks or has extra (filled harbours, reclaimed land):
@@ -80,6 +87,8 @@ Played in order. Each segment = a span of years shown over `seconds`. Years may 
 - `grain_m` = spacing; default per style (60 m old towns … 150 m highrise). For huge modern suburbs use 150–250.
 - Budget: the validator estimates buildings; keep the total under ~60,000.
 - `grid_deg`: orientation of a planned street grid (omit for organic towns).
+- `holes`: list of polygons left empty — use it so a big ring district (e.g. Victorian suburbs) does not overwrite the
+  older core it surrounds.
 
 ## walls, roads, bridges
 
@@ -115,6 +124,7 @@ Landmarks are drawn ~1.3–1.6× real size (`scale`) so they read at a distance;
 "camps": [{"poly": [...], "from": 1452, "to": 1460, "count": 250}]              // army tents
 "smoke": [{"at": [lat,lon], "from": 1453, "to": 1460, "scale": 1}]
 "open_spaces": [{"name": "Hyde Park", "poly": [...]}]                            // never built on, trees stay
+"timed_water": [{"name": "West India Docks", "poly": [...], "from": 1802, "to": null}] // docks/lakes dug (and filled) at real dates
 "labels": [{"text": {"en": "RIVER THAMES", "tr": "THAMES NEHRİ"}, "at": [lat,lon], "kind": "water", "from": -50, "to": null}]
 ```
 
