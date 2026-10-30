@@ -140,6 +140,33 @@ def cmd_upload(ep, repo):
     uploads = json.load(open(up_path)) if os.path.exists(up_path) else []
     key = meta['slug'] + ':' + meta['kind']
     done = next((u for u in uploads if u['key'] == key), None)
+    rj = os.path.join(repo, 'cities', meta['slug'], 'render.json')
+    replace = done and os.path.exists(rj) and json.load(open(rj)).get('replace') == done['video_id']
+    if replace:
+        # A corrected render replaces a scheduled, not-yet-public upload: the new video takes its slot (or the next
+        # free one) and only after the new upload succeeded is the old one taken off the schedule (kept private).
+        now = dt.datetime.now(dt.timezone.utc)
+        old_at = dt.datetime.strptime(done['publish_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc) if done.get('publish_at') else None
+        if old_at and old_at <= now:
+            print('NOT REPLACED: the old video', done['link'], 'is already public; nothing uploaded'); return
+        cfg = json.load(open(os.path.join(repo, 'config', 'schedule.json')))
+        at = done['publish_at'] if old_at and old_at > now + dt.timedelta(minutes=30) else \
+            next_slot(cfg['long'], [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind'] and u is not done])
+        vid = upload_video(tok, os.path.join(ep, meta['file']), meta, at)
+        r = requests.put(f'{API}/videos', params={'part': 'status'}, headers=H(tok, **{'Content-Type': 'application/json'}),
+                         data=json.dumps({'id': done['video_id'], 'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False}}), timeout=30)
+        print('old video unscheduled (stays private):', done['video_id'], r.status_code, '' if r.status_code == 200 else r.text[:300])
+        th = set_thumb(tok, vid, os.path.join(ep, meta['thumb'])) if meta.get('thumb') and os.path.exists(os.path.join(ep, meta['thumb'])) else 'none'
+        pl = playlist(tok, vid, meta['playlist'], meta.get('playlist_desc', '')) if meta.get('playlist') else 'none'
+        uploads.remove(done)
+        done.update({'key': key + ':replaced', 'replaced_by': vid, 'unscheduled': r.status_code == 200})
+        uploads.append(done)
+        uploads.append({'key': key, 'slug': meta['slug'], 'kind': meta['kind'], 'video_id': vid, 'link': f'https://youtu.be/{vid}',
+                        'title': meta['title'], 'publish_at': at, 'uploaded': now.strftime('%Y-%m-%dT%H:%M:%SZ'), 'thumbnail': th,
+                        'playlist': pl, 'replaces': done['video_id']})
+        json.dump(uploads, open(up_path, 'w'), indent=1, ensure_ascii=False)
+        print(f'replaced {key}: https://youtu.be/{vid} publish_at={at} thumbnail={th} playlist={pl}')
+        return
     if done:
         print('already uploaded:', key, done['link'])
         if done.get('thumbnail') != 'ok' and meta.get('thumb') and os.path.exists(os.path.join(ep, meta['thumb'])):

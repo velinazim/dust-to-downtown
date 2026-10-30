@@ -57,6 +57,12 @@ Different sources measure different areas; the counter shows "≈" and the descr
 
 | Year | Figure | Area / note | Source |
 | --- | --- | --- | --- |
+| 60 | 10,000–20,000 → shown 15,000 | before the revolt | The History of London ("The rise and fall of the first Roman town") |
+| 62–99 | 15,000 → 30,000 | interpolated | — |
+| mid-2nd c. | 20,000–30,000 (City of London) vs 45,000–60,000 c. 140 (Wikipedia) → held at 30,000 | | City of London Roman Amphitheatre information sheet; Londinium |
+| 3rd–6th c. | no agreed figure (decline; "almost completely abandoned" by 457) → counter shows "—" | | Anglo-Saxon London; Londinium |
+| mid-8th c. / late 8th c. | ~5,000 / up to 10,000 (Lundenwic) | | The History of London (Lundenwic); Project Britain |
+| 842–1040 | no figure → "—" | | |
 | c. 100–140 | 30,000 (range 30,000–60,000) | Londinium | Londinium |
 | 1066 | ~20,000 | | Anglo-Saxon London |
 | c. 1100 | ~25,000 (18,000 in the 1070s per another source) | | Encyclopedia.com; Norman and medieval London |
@@ -71,6 +77,7 @@ Different sources measure different areas; the counter shows "≈" and the descr
 | 1939 | ~8.7 million (peak) | | Encyclopedia.com |
 | 2021 | 8,799,728 | Greater London census | City Population |
 | mid-2024 | 9,089,736 | Greater London estimate | City Population |
+| mid-2025 | 9,122,909 | Greater London estimate (end of the video, 2026) | City Population |
 
 During the Blitz segment the counter holds the 1939 figure (≈8.7 m); wartime evacuation figures are not shown.
 

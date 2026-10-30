@@ -67,7 +67,12 @@ Played in order. Each segment = a span of years shown over `seconds`. Years may 
 - Target total **13–16 minutes (780–960 s)**, 35–50 segments, titled segments 14–30 s each.
   Quiet "time passes" segments without `title` (5–10 s) between big events are good pacing.
 - `title` ≤ 34 characters, `sub` ≤ 95 characters, one concrete fact with a date.
-- `population`: [start, end] of the segment, or one number. Omit when unknown.
+- `population`: [start, end] of the segment, or one number. Give it on **every** segment that has a sourced estimate
+  (a range's midpoint, or the nearest estimate held through a short segment, or interpolation between two sourced
+  points — note which in research.md). The counter never disappears; a segment without a figure shows "—", so keep
+  those to periods where scholars really give no number.
+- The last segment must end in the **current year** (e.g. `"to": 2026`) with the latest official estimate; the year
+  counter reaches it before the video ends.
 - `camera`: where the camera is centred at the middle of the segment, and how far (km). Start close
   (2–5 km) on the first settlement and pull back as the city grows (up to ~40 km for a modern metropolis).
   Change gradually; big jumps look jerky. Segments without a camera keep the previous one.

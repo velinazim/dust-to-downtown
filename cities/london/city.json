@@ -119,6 +119,7 @@
     "en": "AD 60 or 61: the Iceni revolt razes the young town",
     "tr": "MS 60 ya da 61: İceni isyanı genç kasabayı yerle bir eder"
    },
+   "population": 15000,
    "camera": {
     "center": [
      51.5105,
@@ -147,6 +148,10 @@
     "en": "By about AD 100 Londinium replaces Colchester as the capital of Britannia",
     "tr": "MS ~100'de Londinium, Colchester'ın yerine Britannia'nın başkenti olur"
    },
+   "population": [
+    15000,
+    30000
+   ],
    "camera": {
     "center": [
      51.5115,
@@ -199,6 +204,7 @@
     "en": "Londinium",
     "tr": "Londinium"
    },
+   "population": 30000,
    "camera": {
     "center": [
      51.512,
@@ -339,6 +345,10 @@
     "en": "From c. AD 600 a Saxon trading town grows along the Strand, west of the ruins",
     "tr": "MS ~600'den itibaren harabelerin batısında, Strand boyunca bir Sakson ticaret kasabası büyür"
    },
+   "population": [
+    5000,
+    10000
+   ],
    "camera": {
     "center": [
      51.511,
@@ -719,6 +729,7 @@
     "en": "2–5 Sept 1666: 13,200 houses, 87 churches and St Paul's burn",
     "tr": "2–5 Eylül 1666: 13.200 ev, 87 kilise ve St Paul yanar"
    },
+   "population": 460000,
    "camera": {
     "center": [
      51.5125,
@@ -1198,7 +1209,7 @@
   },
   {
    "from": 2022,
-   "to": 2025,
+   "to": 2026,
    "seconds": 32,
    "era": {
     "en": "Today",
@@ -1213,12 +1224,12 @@
     "tr": "Bugünün Londrası"
    },
    "sub": {
-    "en": "Mid-2024: about 9.1 million people, from a Roman bridge 1,975 years ago",
-    "tr": "2024 ortası: yaklaşık 9,1 milyon kişi; 1.975 yıl önceki bir Roma köprüsünden"
+    "en": "Mid-2025: about 9.1 million people, grown from a Roman bridge nearly 2,000 years ago",
+    "tr": "2025 ortası: yaklaşık 9,1 milyon kişi; neredeyse 2.000 yıl önceki bir Roma köprüsünden"
    },
    "population": [
     8799728,
-    9089736
+    9122909
    ],
    "camera": {
     "center": [
@@ -4897,6 +4908,22 @@
   {
    "title": "Demography of London — Wikipedia",
    "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Demography_of_London"
+  },
+  {
+   "title": "The rise and fall of the first Roman town of Londinium — The History of London",
+   "url": "https://www.thehistoryoflondon.co.uk/the-rise-and-fall-of-the-first-roman-town-of-londinium/"
+  },
+  {
+   "title": "Roman London information sheet — City of London",
+   "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-roman-london.pdf"
+  },
+  {
+   "title": "The early Saxon settlers and the town of Lundenwic — The History of London",
+   "url": "https://thehistoryoflondon.co.uk/the-early-saxon-settlers-and-the-town-of-lundenwic/2"
+  },
+  {
+   "title": "Saxons and Vikings in London — Project Britain",
+   "url": "https://projectbritain.com/london/history/saxonsandvikings.html"
   },
   {
    "title": "The Blitz hits London — History",

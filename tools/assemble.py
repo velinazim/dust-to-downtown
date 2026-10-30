@@ -55,8 +55,12 @@ def main(slug, chunks, out):
         with open(os.path.join(d, 'list.txt'), 'w') as f:
             for p in parts:
                 f.write(f"file '{os.path.abspath(p)}'\n")
+        # The uploaded (English) version is scaled to 1440p: YouTube then streams it with its higher-bitrate codec,
+        # which looks much sharper than a 1080p upload even when watched at 1080p.
+        vcodec = (['-vf', 'scale=2560:1440:flags=lanczos', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p']
+                  if lang == 'en' else ['-c:v', 'copy'])
         subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', os.path.join(d, 'list.txt'), '-i', music,
-                        '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart',
+                        '-map', '0:v', '-map', '1:a', *vcodec, '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart',
                         os.path.join(d, 'video.mp4')], check=True)
         os.remove(os.path.join(d, 'list.txt'))
         th = glob.glob(os.path.join(chunks, '**', f'thumb_{lang}.jpg'), recursive=True)

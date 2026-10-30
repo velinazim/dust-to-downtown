@@ -53,9 +53,21 @@ def L(pts):
 
 
 # ------------------------------------------------------------------ timeline
+# Population for segments written without one (sources in research.md). Segments not listed here have no
+# sourced estimate and show a dash: 47–59 founding years, 190–599 late Roman decline and abandonment, 842–1040.
+POP_FILL = {
+    (60, 61): 15000,              # "by 60AD ... between ten and twenty thousand" (The History of London)
+    (62, 99): [15000, 30000],     # interpolated between the AD 60 estimate and c. 100 (30,000–60,000, Wikipedia)
+    (131, 189): 30000,            # mid-2nd century: 20,000–30,000 (City of London) / 45,000–60,000 c. 140 (Wikipedia)
+    (600, 841): [5000, 10000],    # ~5,000 by the mid-8th century (The History of London); up to 10,000 late 8th (Project Britain)
+    (1666.6, 1666.7): 460000,     # the 1665 figure held through the fire (Britannica)
+}
+
+
 def seg(frm, to, sec, era, city, title=None, sub=None, pop=None, cam=None, chapter=None):
     d = {"from": frm, "to": to, "seconds": sec, "era": era, "city_name": city}
     if title: d["title"] = title; d["sub"] = sub
+    if pop is None: pop = POP_FILL.get((frm, to))
     if pop is not None: d["population"] = pop
     if cam: d["camera"] = {"center": [cam[0], cam[1]], "dist_km": cam[2]}
     if chapter: d["chapter"] = chapter
@@ -167,9 +179,9 @@ S = [
  seg(2013, 2021, 16, T("Today", "Bugün"), T("Greater London", "Büyük Londra"), T("A Megacity", "Bir Megakent"),
      T("The 2021 census counts 8.8 million people in Greater London", "2021 sayımı Büyük Londra'da 8,8 milyon kişi sayar"),
      pop=[8173941, 8799728], cam=(51.4980, -0.1200, 40.0)),
- seg(2022, 2025, 24, T("Today", "Bugün"), LON, T("London Today", "Bugünün Londrası"),
-     T("Mid-2024: about 9.1 million people, from a Roman bridge 1,975 years ago", "2024 ortası: yaklaşık 9,1 milyon kişi; 1.975 yıl önceki bir Roma köprüsünden"),
-     pop=[8799728, 9089736], cam=(51.5060, -0.0950, 9.5)),
+ seg(2022, 2026, 24, T("Today", "Bugün"), LON, T("London Today", "Bugünün Londrası"),
+     T("Mid-2025: about 9.1 million people, grown from a Roman bridge nearly 2,000 years ago", "2025 ortası: yaklaşık 9,1 milyon kişi; neredeyse 2.000 yıl önceki bir Roma köprüsünden"),
+     pop=[8799728, 9122909], cam=(51.5060, -0.0950, 9.5)),
 ]
 # pacing: titled segments x1.34, quiet ones x1.2 → ~14 min, kept under 15:00 (unverified channels can't upload longer)
 for s_ in S:
@@ -367,6 +379,10 @@ city = {
   {"title": "The world's first Underground — London Transport Museum", "url": "https://ltmuseum.co.uk/visit/museum-guide/worlds-first-underground"},
   {"title": "Tower Bridge — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tower_Bridge"},
   {"title": "Demography of London — Wikipedia", "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Demography_of_London"},
+  {"title": "The rise and fall of the first Roman town of Londinium — The History of London", "url": "https://www.thehistoryoflondon.co.uk/the-rise-and-fall-of-the-first-roman-town-of-londinium/"},
+  {"title": "Roman London information sheet — City of London", "url": "https://www.cityoflondon.gov.uk/assets/Things-to-do/roman-amphitheatre-roman-london.pdf"},
+  {"title": "The early Saxon settlers and the town of Lundenwic — The History of London", "url": "https://thehistoryoflondon.co.uk/the-early-saxon-settlers-and-the-town-of-lundenwic/2"},
+  {"title": "Saxons and Vikings in London — Project Britain", "url": "https://projectbritain.com/london/history/saxonsandvikings.html"},
   {"title": "The Blitz hits London — History", "url": "https://www.history.co.uk/history-of-london/ww2-blitz-hits-london"},
   {"title": "One Canada Square — Wikipedia", "url": "https://en.wikipedia.org/wiki/One_Canada_Square"},
   {"title": "Tallest buildings in the UK — Designing Buildings", "url": "https://www.designingbuildings.co.uk/wiki/Tallest_buildings_in_the_UK"},
