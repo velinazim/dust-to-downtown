@@ -1,15 +1,2 @@
-  rivers: overpass-api.de -> 502
-  rivers: overpass.kumi.systems -> 504
-  rivers: overpass.private.coffee -> 504
-  rivers: overpass-api.de -> 502
-  rivers: overpass.kumi.systems -> 504
-  rivers: overpass.private.coffee -> 504
-osm rivers: kept 14, skipped 727 -> 14 outer / 66 inner rings
-osm lakes: 147 lakes >= 0.02 km2
-grid 602x490 @ 120 m
-elevation: zoom 11, tiles 7x6
-grid 510x230 @ 30 m
-elevation: zoom 13, tiles 6x4
-core layer 510 x 230
-wrote geo.json 602 x 490
+geo.json up to date
 maps written to cities/london/preview
