@@ -74,7 +74,7 @@ def next_slot(cfg, taken, now=None):
 
 def upload_video(tok, path, meta, publish_at):
     body = {'snippet': {'title': meta['title'][:100], 'description': meta['description'][:5000], 'tags': meta.get('tags', [])[:30],
-                        'categoryId': '27', 'defaultLanguage': meta.get('lang', 'en'), 'defaultAudioLanguage': 'zxx'},
+                        'categoryId': '27', 'defaultLanguage': meta.get('lang', 'en')},
             'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False, 'embeddable': True, 'containsSyntheticMedia': False}}
     if publish_at:
         body['status']['publishAt'] = publish_at
@@ -83,7 +83,7 @@ def upload_video(tok, path, meta, publish_at):
     size = os.path.getsize(path)
     # Starting a resumable session creates nothing on the channel, so when YouTube rejects the metadata we can
     # drop optional fields one by one and say which one it disliked.
-    drops = [None, ('snippet', 'defaultAudioLanguage'), ('status', 'containsSyntheticMedia'), ('', 'localizations'),
+    drops = [None, ('status', 'containsSyntheticMedia'), ('', 'localizations'),
              ('snippet', 'tags'), ('status', 'embeddable')]
     for d in drops:
         if d:
@@ -139,8 +139,14 @@ def cmd_upload(ep, repo):
     up_path = os.path.join(repo, 'uploads.json')
     uploads = json.load(open(up_path)) if os.path.exists(up_path) else []
     key = meta['slug'] + ':' + meta['kind']
-    if any(u['key'] == key for u in uploads):
-        print('already uploaded:', key); return
+    done = next((u for u in uploads if u['key'] == key), None)
+    if done:
+        print('already uploaded:', key, done['link'])
+        if done.get('thumbnail') != 'ok' and meta.get('thumb') and os.path.exists(os.path.join(ep, meta['thumb'])):
+            done['thumbnail'] = set_thumb(tok, done['video_id'], os.path.join(ep, meta['thumb']))
+            json.dump(uploads, open(up_path, 'w'), indent=1, ensure_ascii=False)
+            print('thumbnail retry:', done['thumbnail'][:120])
+        return
     cfg = json.load(open(os.path.join(repo, 'config', 'schedule.json')))
     slots = cfg['long'] if meta['kind'] == 'long' else cfg['short']
     at = next_slot(slots, [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind']]) if slots.get('auto', True) else None
