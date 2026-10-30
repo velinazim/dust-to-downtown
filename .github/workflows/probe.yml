@@ -1,0 +1,17 @@
+name: OSM probe
+on:
+  workflow_dispatch:
+    inputs:
+      bbox: {description: 'S W N E', required: true}
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests && python3 -u tools/osm_probe.py ${{ github.event.inputs.bbox }} 2>&1 | tee config/osm_probe.txt
+      - run: |
+          git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
+          git add config/osm_probe.txt; git commit -qm "osm probe" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done

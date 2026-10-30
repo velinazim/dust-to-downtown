@@ -23,8 +23,8 @@ OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.sy
 
 def deg2tile(lat, lon, z):
     n = 2 ** z
-    x = (lon + 180) / 360 * n
-    y = (1 - math.asinh(math.tan(math.radians(lat))) / math.pi) / 2 * n
+    x = (np.asarray(lon) + 180) / 360 * n
+    y = (1 - np.arcsinh(np.tan(np.radians(lat))) / np.pi) / 2 * n
     return x, y
 
 
