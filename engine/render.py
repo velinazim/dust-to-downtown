@@ -58,7 +58,7 @@ def main():
     os.makedirs(a.out, exist_ok=True)
     with sync_playwright() as p:
         if a.cmd == "stills":
-            ts = [round(dur * k / 11, 2) for k in range(1, 11)] if a.times in (None, "auto") else [float(x) for x in a.times.split(",")]
+            ts = [round(dur * k / 17, 2) for k in range(1, 17)] if a.times in (None, "auto") else [float(x) for x in a.times.split(",")]
             b, pg = open_page(p, port, a.slug, "scene", "en", a.w, a.h, a.extra)
             print("stats", pg.evaluate("window.stats"), flush=True)
             for t in ts:
@@ -79,8 +79,9 @@ def main():
             for t in ts:
                 os.remove(f"{a.out}/s_{t:07.2f}.png")
         elif a.cmd == "thumb":
-            t = float(a.times) if a.times not in (None, "auto") else round(dur * 0.93, 2)
-            b, pg = open_page(p, port, a.slug, "scene", "en", 1280, 720, a.extra)
+            cj = json.load(open(os.path.join(ROOT, "cities", a.slug, "city.json"))).get("youtube", {}).get("thumb", {})
+            t = float(a.times) if a.times not in (None, "auto") else float(cj.get("t", round(dur * 0.93, 2)))
+            b, pg = open_page(p, port, a.slug, "scene", "en", 1280, 720, a.extra or cj.get("extra", ""))
             pg.evaluate(f"window.renderAt({t})"); pg.screenshot(path=f"{a.out}/thumb_scene.png"); b.close()
             for lang in langs:
                 b, pg = open_page(p, port, a.slug, "overlay", lang, 1280, 720, "&thumb=1")

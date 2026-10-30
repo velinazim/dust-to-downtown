@@ -200,7 +200,9 @@ def cmd_setup(repo):
 if __name__ == '__main__':
     c = sys.argv[1]
     if c == 'whoami':
-        print(channel(token()))
+        tk = token(); cid, title = channel(tk)
+        st = requests.get(f'{API}/channels', params={'part': 'status', 'id': cid}, headers=H(tk), timeout=30).json()['items'][0]['status']
+        print((cid, title), 'longUploadsStatus=' + str(st.get('longUploadsStatus')))
     elif c == 'upload':
         cmd_upload(sys.argv[2], sys.argv[3])
     elif c == 'setup':

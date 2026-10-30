@@ -61,7 +61,7 @@ def main(slug):
         for p in d['poly']: inside(p, f'districts[{i}]')
         g = (d.get('grain_m') or STYLE_GRAIN.get(d['style'], 60)) / 1000
         if d['style'] not in STYLE_GRAIN: E(f'districts[{i}]: unknown style {d["style"]}')
-        n = area_km2(d['poly']) / (g * g) * d.get('density', 0.85) * 0.8
+        n = max(0, area_km2(d['poly']) - sum(area_km2(h) for h in d.get('holes', []))) / (g * g) * d.get('density', 0.85) * 0.8
         est += n
         if n > 15000: Wn(f'districts[{i}] "{d.get("name")}" ≈{int(n)} buildings; raise grain_m')
     for i, l in enumerate(c.get('landmarks', [])):
@@ -76,6 +76,7 @@ def main(slug):
     bil(yt.get('title'), 'youtube.title', 100); bil(yt.get('description'), 'youtube.description')
     if len(c.get('sources', [])) < 6: Wn('fewer than 6 sources listed')
     if not (780 <= total <= 1080) and not c.get('test'): Wn(f'duration {total}s; target is 13–18 min (780–1080 s)')
+    if total > 899 and not c.get('long_ok'): Wn('over 15:00 — needs a phone-verified channel (longUploadsStatus=allowed)')
     print(f'duration {total}s ({total / 60:.1f} min), segments {len(segs)}, ≈{int(est)} buildings')
     if est > 70000: E(f'≈{int(est)} buildings is too many (limit ~70k); use larger grain_m for modern areas')
     for m in warns: print('WARN ', m)

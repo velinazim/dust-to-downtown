@@ -105,20 +105,27 @@ const ll = ([lat, lon]) => [(lon - LON0) * KX, -(lat - LAT0) * KZ];
 const llp = (pts) => pts.map(ll);
 const EXAG = city.render?.vertical_exaggeration ?? 3.0;
 
-const G = { nx: geo.nx, nz: geo.nz, x0: geo.x0, z0: geo.z0, c: geo.cell_km, elev: b64i16(geo.elev_b64), sd: b64i16(geo.sd_b64) };
-function sampleGrid(arr, x, z) {
-  let gx = (x - G.x0) / G.c, gz = (z - G.z0) / G.c;
-  gx = clamp(gx, 0, G.nx - 1.001); gz = clamp(gz, 0, G.nz - 1.001);
-  const i = Math.floor(gx), j = Math.floor(gz), u = gx - i, v = gz - j, n = G.nx;
+const mkGrid = g => ({ nx: g.nx, nz: g.nz, x0: g.x0, z0: g.z0, c: g.cell_km, elev: b64i16(g.elev_b64), sd: b64i16(g.sd_b64),
+  x1: g.x0 + (g.nx - 1) * g.cell_km, z1: g.z0 + (g.nz - 1) * g.cell_km });
+const G = mkGrid(geo);
+const GC = geo.core ? mkGrid(geo.core) : null;   // fine layer around the old city
+function sampleGrid(arr, x, z, g = G) {
+  let gx = (x - g.x0) / g.c, gz = (z - g.z0) / g.c;
+  gx = clamp(gx, 0, g.nx - 1.001); gz = clamp(gz, 0, g.nz - 1.001);
+  const i = Math.floor(gx), j = Math.floor(gz), u = gx - i, v = gz - j, n = g.nx;
   return lerp(lerp(arr[j * n + i], arr[j * n + i + 1], u), lerp(arr[(j + 1) * n + i], arr[(j + 1) * n + i + 1], u), v);
 }
+const CORE_BLEND = 0.4;
+function coreW(x, z) { if (!GC) return 0; const m = Math.min(x - GC.x0, GC.x1 - x, z - GC.z0, GC.z1 - z); return sstep(0, CORE_BLEND, m); }
+function sample2(key, x, z) { const w = coreW(x, z); const a = sampleGrid(G[key], x, z, G); return w > 0 ? lerp(a, sampleGrid(GC[key], x, z, GC), w) : a; }
+const inGrid = (x, z) => x >= G.x0 && x <= G.x1 && z >= G.z0 && z <= G.z1;
 function heightInfo(x, z) {
-  const e = sampleGrid(G.elev, x, z), d = sampleGrid(G.sd, x, z) / 1000;
+  const e = sample2('elev', x, z), d = sample2('sd', x, z) / 1000;
   if (d <= 0) return { h: Math.max(-0.11, d * 0.16), land: false, d: -d, e };
   return { h: Math.min(d * 0.16, 0.006) + Math.max(e, 0) * 0.001 * EXAG * sstep(0, 0.25, d), land: true, d, e };
 }
 const heightAt = (x, z) => heightInfo(x, z).h;
-const isLand = (x, z) => sampleGrid(G.sd, x, z) > 0;
+const isLand = (x, z) => inGrid(x, z) && sample2('sd', x, z) > 0;
 
 // ------------------------------------------------------------ timeline
 const SEG = city.segments; { let acc = 0; for (const s of SEG) { s.t0 = acc; acc += s.seconds; s.t1 = acc; } }
@@ -274,22 +281,35 @@ function buildScene() {
   const R = rng(city.seed ?? 1234);
 
   // ---------------- terrain
+  const cA = new THREE.Color('#7e8b54'), cB = new THREE.Color('#a39d66'), cC = new THREE.Color('#6e7d48'), cHi = new THREE.Color('#9c9a72'), cSand = new THREE.Color('#cdbf93');
+  const cSh = new THREE.Color('#79c3cf'), cDeep = new THREE.Color('#2a6b80'), tmp = new THREE.Color();
+  const terrainMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 });
+  function terrainMesh(x0, z0, cell, NX, NZ, skip, yOff) {
+    const n = (NX + 1) * (NZ + 1), posA = new Float32Array(n * 3), colA = new Float32Array(n * 3), idx = [];
+    for (let j = 0; j <= NZ; j++) for (let i = 0; i <= NX; i++) {
+      const k = j * (NX + 1) + i, x = x0 + i * cell, z = z0 + j * cell; const { h, land, d, e } = heightInfo(x, z);
+      posA[k * 3] = x; posA[k * 3 + 1] = h + yOff; posA[k * 3 + 2] = z;
+      if (land) { const nn = fbm(x * 1.3, z * 1.3); tmp.copy(cA).lerp(cB, sstep(0.35, 0.75, nn)).lerp(cC, sstep(0.55, 0.9, fbm(x * 0.4 + 9, z * 0.4))).lerp(cHi, sstep(80, 400, e) * 0.6); if (d < 0.07) tmp.lerp(cSand, 1 - sstep(0.02, 0.07, d)); }
+      else tmp.copy(cSh).lerp(cDeep, sstep(0, 0.9, d));
+      colA[k * 3] = tmp.r; colA[k * 3 + 1] = tmp.g; colA[k * 3 + 2] = tmp.b;
+    }
+    for (let j = 0; j < NZ; j++) for (let i = 0; i < NX; i++) {
+      if (skip && skip(x0 + i * cell, z0 + j * cell, x0 + (i + 1) * cell, z0 + (j + 1) * cell)) continue;
+      const a = j * (NX + 1) + i, b = a + 1, c = a + NX + 1, d2 = c + 1; idx.push(a, c, b, b, c, d2);
+    }
+    const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(posA, 3)); g.setAttribute('color', new THREE.BufferAttribute(colA, 3));
+    g.setIndex(idx); g.computeVertexNormals();
+    const m = new THREE.Mesh(g, terrainMat); m.receiveShadow = true; scene.add(m); return m;
+  }
   const step = Math.max(1, Math.ceil(Math.sqrt(G.nx * G.nz / 260000)));
   const NX = Math.floor((G.nx - 1) / step), NZ = Math.floor((G.nz - 1) / step);
   const tw = NX * step * G.c, th = NZ * step * G.c;
-  const tg = new THREE.PlaneGeometry(tw, th, NX, NZ); tg.rotateX(-Math.PI / 2); tg.translate(G.x0 + tw / 2, 0, G.z0 + th / 2);
-  const pos = tg.attributes.position; const col = new Float32Array(pos.count * 3);
-  const cA = new THREE.Color('#7e8b54'), cB = new THREE.Color('#a39d66'), cC = new THREE.Color('#6e7d48'), cHi = new THREE.Color('#9c9a72'), cSand = new THREE.Color('#cdbf93');
-  const cSh = new THREE.Color('#79c3cf'), cDeep = new THREE.Color('#2a6b80'), tmp = new THREE.Color();
-  for (let i = 0; i < pos.count; i++) {
-    const x = pos.getX(i), z = pos.getZ(i); const { h, land, d, e } = heightInfo(x, z); pos.setY(i, h);
-    if (land) { const n = fbm(x * 1.3, z * 1.3); tmp.copy(cA).lerp(cB, sstep(0.35, 0.75, n)).lerp(cC, sstep(0.55, 0.9, fbm(x * 0.4 + 9, z * 0.4))).lerp(cHi, sstep(80, 400, e) * 0.6); if (d < 0.07) tmp.lerp(cSand, 1 - sstep(0.02, 0.07, d)); }
-    else tmp.copy(cSh).lerp(cDeep, sstep(0, 0.9, d));
-    col[i * 3] = tmp.r; col[i * 3 + 1] = tmp.g; col[i * 3 + 2] = tmp.b;
+  const inCore = (x, z) => GC && x > GC.x0 + CORE_BLEND && x < GC.x1 - CORE_BLEND && z > GC.z0 + CORE_BLEND && z < GC.z1 - CORE_BLEND;
+  terrainMesh(G.x0, G.z0, step * G.c, NX, NZ, GC ? (a, b, c, d) => inCore(a, b) && inCore(c, d) : null, GC ? -0.0012 : 0);
+  if (GC) {
+    const cs = Math.max(GC.c, Math.sqrt((GC.x1 - GC.x0) * (GC.z1 - GC.z0) / 300000));
+    terrainMesh(GC.x0, GC.z0, cs, Math.floor((GC.x1 - GC.x0) / cs), Math.floor((GC.z1 - GC.z0) / cs), null, 0);
   }
-  tg.setAttribute('color', new THREE.BufferAttribute(col, 3)); tg.computeVertexNormals();
-  const terrain = new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 }));
-  terrain.receiveShadow = true; scene.add(terrain);
   const water = new THREE.Mesh(new THREE.PlaneGeometry(tw * 1.6, th * 1.6).rotateX(-Math.PI / 2).translate(G.x0 + tw / 2, 0, G.z0 + th / 2),
     new THREE.MeshStandardMaterial({ color: '#4fa3b8', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0.62 }));
   water.receiveShadow = true; scene.add(water);
@@ -307,6 +327,16 @@ function buildScene() {
   const roadBlock = (x, z, yearT) => ROADS.some(r => tOf(r.from) <= yearT + 0.01 && lineDist(x, z, r.pl) < r.w / 2 + 0.004);
   const openBlock = (x, z) => OPEN.some(o => x >= o.bb[0] && x <= o.bb[1] && z >= o.bb[2] && z <= o.bb[3] && inPoly(x, z, o.poly));
   const lmBlock = (x, z) => LMS.some(l => Math.hypot(x - l.xz[0], z - l.xz[1]) < lmRadius(l));
+  const TW = (city.timed_water || []).map(w => ({ ...w, poly: llp(w.poly), bb: bboxOf(llp(w.poly)) }));
+  const waterBlock = (x, z) => TW.some(o => x >= o.bb[0] - 0.02 && x <= o.bb[1] + 0.02 && z >= o.bb[2] - 0.02 && z <= o.bb[3] + 0.02 && (inPoly(x, z, o.poly) || lineDist(x, z, o.poly.concat([o.poly[0]])) < 0.02));
+  const twMeshes = TW.map(w => {
+    const sh = new THREE.Shape(w.poly.map(([x, z]) => new THREE.Vector2(x, -z)));
+    const g = new THREE.ShapeGeometry(sh).rotateX(-Math.PI / 2);
+    let hmax = 0; for (const [x, z] of w.poly) hmax = Math.max(hmax, heightAt(x, z));
+    const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#3f8fa3', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0 }));
+    m.position.y = hmax + 0.0015; m.receiveShadow = true; scene.add(m);
+    return { m, a: tOf(w.from), b: w.to != null ? tOf(w.to) : 1e9 };
+  });
 
   // ---------------- building styles (meters)
   const STY = {
@@ -331,6 +361,7 @@ function buildScene() {
   (city.districts || []).forEach((dd, di) => {
     const st = STY[dd.style] || STY.ancient;
     const poly = llp(dd.poly), [x0, x1, z0, z1] = bboxOf(poly);
+    const holes = (dd.holes || []).map(llp);
     const grain = (dd.grain_m ?? st.grain) / 1000;
     const origin = dd.grow_from ? ll(dd.grow_from) : centroid(poly);
     let maxR = 0; for (const p of poly) maxR = Math.max(maxR, Math.hypot(p[0] - origin[0], p[1] - origin[1]));
@@ -339,9 +370,10 @@ function buildScene() {
     const fade = dd.fade ? { a: tOf(dd.fade[0]), b: tOf(dd.fade[1]), keep: dd.fade[2] ?? 0.2 } : null;
     for (let gx = x0; gx < x1; gx += grain) for (let gz = z0; gz < z1; gz += grain) {
       const x = gx + (R() - 0.5) * grain * 0.7, z = gz + (R() - 0.5) * grain * 0.7;
-      if (R() > dens || !inPoly(x, z, poly)) continue;
+      if (R() > dens || !inPoly(x, z, poly) || holes.some(hp => inPoly(x, z, hp))) continue;
+      if (!inGrid(x, z)) continue;
       const hi = heightInfo(x, z); if (!hi.land || hi.d < grain * 0.8 + 0.02) continue;
-      if (openBlock(x, z) || lmBlock(x, z)) continue;
+      if (openBlock(x, z) || lmBlock(x, z) || waterBlock(x, z)) continue;
       const r = clamp(Math.hypot(x - origin[0], z - origin[1]) / Math.max(maxR, 1e-3), 0, 1);
       const a = lerp(fromT, toT, clamp(0.68 * r + 0.32 * R(), 0, 1));
       if (roadBlock(x, z, a)) continue;
@@ -387,17 +419,23 @@ function buildScene() {
   const TR = [];
   {
     const [cx0, cx1, cz0, cz1] = (() => { let a = 1e9, b = -1e9, c = 1e9, d = -1e9; for (const k of CAMK) { a = Math.min(a, k[1] - k[3] * 1.1); b = Math.max(b, k[1] + k[3] * 1.1); c = Math.min(c, k[2] - k[3] * 1.3); d = Math.max(d, k[2] + k[3] * 0.4); } return [a, b, c, d]; })();
-    const area = (cx1 - cx0) * (cz1 - cz0); const sp = Math.max(0.07, Math.sqrt(area / 26000));
-    const tscale = clamp(sp / 0.085, 1, 4);
     const tgrid = new Map(); B.forEach(b => { const k = key(b.x, b.z); tgrid.set(k, Math.min(tgrid.get(k) ?? 1e9, b.a)); });
-    for (let gx = cx0; gx < cx1; gx += sp) for (let gz = cz0; gz < cz1; gz += sp) {
+    const [ox, oz] = [CAMK[0][1], CAMK[0][2]];
+    const BANDS = [[0, 7, 0.085], [7, 16, 0.18], [16, 1e9, 0.4]];
+    for (const [r0, r1, sp] of BANDS) {
+    const tscale = sp / 0.085;
+    if (cx1 - cx0 < r0 * 2 && cz1 - cz0 < r0 * 2) continue;
+    for (let gx = Math.max(cx0, ox - r1); gx < Math.min(cx1, ox + r1); gx += sp) for (let gz = Math.max(cz0, oz - r1); gz < Math.min(cz1, oz + r1); gz += sp) {
       const x = gx + (R() - 0.5) * sp * 0.8, z = gz + (R() - 0.5) * sp * 0.8;
+      const rr = Math.max(Math.abs(x - ox), Math.abs(z - oz)); if (rr < r0 || rr >= r1) continue;
       if (fbm(x * 1.6 / tscale + 20, z * 1.6 / tscale) < 0.52 + R() * 0.1) continue;
+      if (!inGrid(x, z) || waterBlock(x, z)) continue;
       const hi = heightInfo(x, z); if (!hi.land || hi.d < 0.05) continue;
       let v = 1e9; const cx = Math.floor(x / CELL), cz = Math.floor(z / CELL);
       if (!openBlock(x, z)) for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) v = Math.min(v, tgrid.get((cx + i) + ',' + (cz + j)) ?? 1e9);
       const s = (0.018 + R() * 0.02) * Math.sqrt(tscale);
       TR.push({ x, z, y: hi.h + s * 0.5, s, v: v < 1e9 ? v - 0.2 : 1e9 });
+    }
     }
   }
   const tMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 0), mat('#ffffff'), Math.max(1, TR.length));
@@ -543,6 +581,7 @@ function buildScene() {
       const k = sstep(an.a, an.b, t) * (1 - sstep(an.va, an.vb, t)); an.obj.visible = k > 0.002;
       const Bs = an.base; if (an.mode === 'rise') an.obj.scale.set(Bs, Bs * Math.max(k, 0.001), Bs); else an.obj.scale.setScalar(Bs * Math.max(k, 0.001));
     }
+    for (const tw of twMeshes) { const k = sstep(tw.a, tw.a + 1.0, t) * (1 - sstep(tw.b, tw.b + 1.0, t)); tw.m.visible = k > 0.002; tw.m.material.opacity = 0.95 * k; }
     for (const pf of puffs) {
       const on = sstep(pf.a, pf.a + 1.0, t) * (1 - sstep(pf.b - 1.0, pf.b, t)); const ph = ((t * 0.32 + pf.ph) % 1 + 1) % 1;
       pf.s.position.set(pf.x + ph * 0.3 * pf.scale + (pf.j - 0.5) * 0.04, pf.py + ph * 0.6 * pf.scale, pf.z - ph * 0.08);

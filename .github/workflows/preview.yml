@@ -34,6 +34,7 @@ jobs:
             python3 tools/prepare_geo.py cities/$s --if-needed
             python3 tools/validate.py $s | tee cities/$s/validate.txt
             rm -rf cities/$s/preview && mkdir -p cities/$s/preview
+            python3 tools/debug_map.py $s cities/$s/preview
             python3 engine/render.py stills $s cities/$s/preview auto --w 1280 --h 720 2>&1 | tee cities/$s/preview/log.txt
             echo "::endgroup::"
           done

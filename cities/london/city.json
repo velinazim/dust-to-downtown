@@ -1,0 +1,4917 @@
+{
+ "slug": "london",
+ "seed": 47,
+ "name": {
+  "en": "London",
+  "tr": "Londra"
+ },
+ "intro": {
+  "en": "2,000 Years in 14 Minutes",
+  "tr": "14 Dakikada 2.000 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   51.24,
+   -0.63,
+   51.77,
+   0.41
+  ],
+  "cell_m": 120,
+  "core_bbox": [
+   51.478,
+   -0.215,
+   51.54,
+   0.005
+  ],
+  "core_cell_m": 30
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": -50,
+   "to": 43,
+   "seconds": 16,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "The Thames",
+    "tr": "Thames"
+   },
+   "title": {
+    "en": "Before London",
+    "tr": "Londra'dan Önce"
+   },
+   "sub": {
+    "en": "AD 43: Rome invades Britain. Here there is only a tidal river and gravel banks",
+    "tr": "MS 43: Roma Britanya'yı işgal eder. Burada henüz yalnızca bir nehir ve çakıl kıyılar var"
+   },
+   "camera": {
+    "center": [
+     51.5098,
+     -0.089
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 47,
+   "to": 59,
+   "seconds": 27,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "Londinium Is Founded",
+    "tr": "Londinium Kuruluyor"
+   },
+   "sub": {
+    "en": "c. AD 47: a Roman port grows where the Thames is bridged, around AD 50",
+    "tr": "MS ~47: Thames'in köprülendiği yerde (MS ~50) bir Roma limanı büyür"
+   },
+   "camera": {
+    "center": [
+     51.5105,
+     -0.088
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Roman Londinium",
+    "tr": "Roma Londinium'u"
+   }
+  },
+  {
+   "from": 60,
+   "to": 61,
+   "seconds": 16,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "Boudica Burns London",
+    "tr": "Boudica Londra'yı Yakıyor"
+   },
+   "sub": {
+    "en": "AD 60 or 61: the Iceni revolt razes the young town",
+    "tr": "MS 60 ya da 61: İceni isyanı genç kasabayı yerle bir eder"
+   },
+   "camera": {
+    "center": [
+     51.5105,
+     -0.088
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 62,
+   "to": 99,
+   "seconds": 24,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "Rebuilt and Bigger",
+    "tr": "Daha Büyük Yeniden"
+   },
+   "sub": {
+    "en": "By about AD 100 Londinium replaces Colchester as the capital of Britannia",
+    "tr": "MS ~100'de Londinium, Colchester'ın yerine Britannia'nın başkenti olur"
+   },
+   "camera": {
+    "center": [
+     51.5115,
+     -0.089
+    ],
+    "dist_km": 3.8
+   }
+  },
+  {
+   "from": 100,
+   "to": 130,
+   "seconds": 27,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "Forum and Fort",
+    "tr": "Forum ve Kale"
+   },
+   "sub": {
+    "en": "c. AD 120: one of the largest basilicas north of the Alps, and a fort for the garrison",
+    "tr": "MS ~120: Alpler'in kuzeyindeki en büyük bazilikalardan biri ve garnizon için bir kale"
+   },
+   "population": [
+    30000,
+    30000
+   ],
+   "camera": {
+    "center": [
+     51.512,
+     -0.09
+    ],
+    "dist_km": 4.2
+   }
+  },
+  {
+   "from": 131,
+   "to": 189,
+   "seconds": 7,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "camera": {
+    "center": [
+     51.512,
+     -0.09
+    ],
+    "dist_km": 4.3
+   }
+  },
+  {
+   "from": 190,
+   "to": 225,
+   "seconds": 24,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "The London Wall",
+    "tr": "Londra Suru"
+   },
+   "sub": {
+    "en": "c. AD 190–225: a 3 km stone wall, up to 6 m high, encloses 330 acres",
+    "tr": "MS ~190–225: 3 km uzunluğunda, 6 m'ye varan taş sur 130 hektarı çevreler"
+   },
+   "camera": {
+    "center": [
+     51.512,
+     -0.0905
+    ],
+    "dist_km": 4.6
+   },
+   "chapter": {
+    "en": "The Wall",
+    "tr": "Sur"
+   }
+  },
+  {
+   "from": 226,
+   "to": 399,
+   "seconds": 19,
+   "era": {
+    "en": "Roman Britain",
+    "tr": "Roma Britanyası"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "The River Wall",
+    "tr": "Nehir Suru"
+   },
+   "sub": {
+    "en": "From the late 3rd century a riverside wall closes the city's open side",
+    "tr": "3. yüzyılın sonundan itibaren nehir kıyısına da sur örülür"
+   },
+   "camera": {
+    "center": [
+     51.5118,
+     -0.092
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 400,
+   "to": 499,
+   "seconds": 21,
+   "era": {
+    "en": "Sub-Roman Britain",
+    "tr": "Roma sonrası Britanya"
+   },
+   "city_name": {
+    "en": "Londinium",
+    "tr": "Londinium"
+   },
+   "title": {
+    "en": "Rome Leaves",
+    "tr": "Roma Çekiliyor"
+   },
+   "sub": {
+    "en": "c. AD 410: Roman rule ends and the walled city is all but abandoned",
+    "tr": "MS ~410: Roma yönetimi sona erer, surlarla çevrili şehir neredeyse terk edilir"
+   },
+   "camera": {
+    "center": [
+     51.5115,
+     -0.095
+    ],
+    "dist_km": 5.0
+   },
+   "chapter": {
+    "en": "The Empty City",
+    "tr": "Boş Şehir"
+   }
+  },
+  {
+   "from": 500,
+   "to": 599,
+   "seconds": 7,
+   "era": {
+    "en": "Anglo-Saxon",
+    "tr": "Anglo-Sakson"
+   },
+   "city_name": {
+    "en": "Ruins of Londinium",
+    "tr": "Londinium harabeleri"
+   },
+   "camera": {
+    "center": [
+     51.5115,
+     -0.1
+    ],
+    "dist_km": 5.4
+   }
+  },
+  {
+   "from": 600,
+   "to": 841,
+   "seconds": 24,
+   "era": {
+    "en": "Anglo-Saxon",
+    "tr": "Anglo-Sakson"
+   },
+   "city_name": {
+    "en": "Lundenwic",
+    "tr": "Lundenwic"
+   },
+   "title": {
+    "en": "Lundenwic",
+    "tr": "Lundenwic"
+   },
+   "sub": {
+    "en": "From c. AD 600 a Saxon trading town grows along the Strand, west of the ruins",
+    "tr": "MS ~600'den itibaren harabelerin batısında, Strand boyunca bir Sakson ticaret kasabası büyür"
+   },
+   "camera": {
+    "center": [
+     51.511,
+     -0.105
+    ],
+    "dist_km": 5.6
+   },
+   "chapter": {
+    "en": "Saxon Lundenwic",
+    "tr": "Sakson Lundenwic'i"
+   }
+  },
+  {
+   "from": 842,
+   "to": 885,
+   "seconds": 21,
+   "era": {
+    "en": "Anglo-Saxon",
+    "tr": "Anglo-Sakson"
+   },
+   "city_name": {
+    "en": "Lundenwic",
+    "tr": "Lundenwic"
+   },
+   "title": {
+    "en": "Viking Raids",
+    "tr": "Viking Akınları"
+   },
+   "sub": {
+    "en": "AD 842 and 851: Viking attacks; by the 880s Lundenwic is abandoned",
+    "tr": "MS 842 ve 851: Viking saldırıları; 880'lerde Lundenwic terk edilir"
+   },
+   "camera": {
+    "center": [
+     51.511,
+     -0.105
+    ],
+    "dist_km": 5.6
+   }
+  },
+  {
+   "from": 886,
+   "to": 1040,
+   "seconds": 24,
+   "era": {
+    "en": "Anglo-Saxon",
+    "tr": "Anglo-Sakson"
+   },
+   "city_name": {
+    "en": "Lundenburh",
+    "tr": "Lundenburh"
+   },
+   "title": {
+    "en": "Back Inside the Walls",
+    "tr": "Yeniden Surların İçinde"
+   },
+   "sub": {
+    "en": "AD 886: King Alfred resettles the old Roman walls as Lundenburh",
+    "tr": "MS 886: Kral Alfred eski Roma surlarının içini Lundenburh adıyla yeniden iskân eder"
+   },
+   "camera": {
+    "center": [
+     51.5115,
+     -0.095
+    ],
+    "dist_km": 5.0
+   },
+   "chapter": {
+    "en": "Lundenburh",
+    "tr": "Lundenburh"
+   }
+  },
+  {
+   "from": 1041,
+   "to": 1065,
+   "seconds": 24,
+   "era": {
+    "en": "Anglo-Saxon",
+    "tr": "Anglo-Sakson"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Westminster Abbey",
+    "tr": "Westminster Manastırı"
+   },
+   "sub": {
+    "en": "1065: Edward the Confessor's abbey is consecrated upriver at Westminster",
+    "tr": "1065: Edward'ın manastırı nehrin yukarısında, Westminster'da kutsanır"
+   },
+   "population": [
+    20000,
+    20000
+   ],
+   "camera": {
+    "center": [
+     51.506,
+     -0.105
+    ],
+    "dist_km": 6.6
+   }
+  },
+  {
+   "from": 1066,
+   "to": 1100,
+   "seconds": 24,
+   "era": {
+    "en": "Norman",
+    "tr": "Norman"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Conqueror's Tower",
+    "tr": "Fatih'in Kulesi"
+   },
+   "sub": {
+    "en": "1066: William is crowned at Westminster; from the 1070s the White Tower rises",
+    "tr": "1066: William Westminster'da taç giyer; 1070'lerden itibaren Beyaz Kule yükselir"
+   },
+   "population": [
+    20000,
+    25000
+   ],
+   "camera": {
+    "center": [
+     51.5085,
+     -0.095
+    ],
+    "dist_km": 5.6
+   },
+   "chapter": {
+    "en": "Norman London",
+    "tr": "Norman Londrası"
+   }
+  },
+  {
+   "from": 1101,
+   "to": 1209,
+   "seconds": 24,
+   "era": {
+    "en": "Medieval",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Old London Bridge",
+    "tr": "Eski London Köprüsü"
+   },
+   "sub": {
+    "en": "1176–1209: a stone bridge of 19 arches, soon lined with houses and shops",
+    "tr": "1176–1209: 19 kemerli taş köprü kısa sürede evler ve dükkânlarla dolar"
+   },
+   "population": [
+    25000,
+    40000
+   ],
+   "camera": {
+    "center": [
+     51.5095,
+     -0.092
+    ],
+    "dist_km": 5.2
+   }
+  },
+  {
+   "from": 1210,
+   "to": 1314,
+   "seconds": 21,
+   "era": {
+    "en": "Medieval",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Old St Paul's",
+    "tr": "Eski St Paul"
+   },
+   "sub": {
+    "en": "Completed in 1314; its spire was then the tallest in Europe",
+    "tr": "1314'te tamamlanır; kulesi o dönem Avrupa'nın en yükseğidir"
+   },
+   "population": [
+    40000,
+    80000
+   ],
+   "camera": {
+    "center": [
+     51.5095,
+     -0.1
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1315,
+   "to": 1347,
+   "seconds": 7,
+   "era": {
+    "en": "Medieval",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "population": [
+    80000,
+    80000
+   ],
+   "camera": {
+    "center": [
+     51.5095,
+     -0.1
+    ],
+    "dist_km": 6.2
+   }
+  },
+  {
+   "from": 1348,
+   "to": 1400,
+   "seconds": 24,
+   "era": {
+    "en": "Medieval",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Black Death",
+    "tr": "Kara Ölüm"
+   },
+   "sub": {
+    "en": "1348: plague strikes; by 1377 London has shrunk to about 40,000 people",
+    "tr": "1348: veba gelir; 1377'de Londra yaklaşık 40.000 kişiye düşer"
+   },
+   "population": [
+    80000,
+    40000
+   ],
+   "camera": {
+    "center": [
+     51.51,
+     -0.1
+    ],
+    "dist_km": 6.4
+   }
+  },
+  {
+   "from": 1401,
+   "to": 1549,
+   "seconds": 16,
+   "era": {
+    "en": "Tudor",
+    "tr": "Tudor"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Beyond the Walls",
+    "tr": "Surların Ötesine"
+   },
+   "sub": {
+    "en": "By 1550 about 75,000 people; houses spread out along every road",
+    "tr": "1550'de yaklaşık 75.000 kişi; evler her yol boyunca dışarı taşar"
+   },
+   "population": [
+    50000,
+    75000
+   ],
+   "camera": {
+    "center": [
+     51.5095,
+     -0.1
+    ],
+    "dist_km": 7.2
+   },
+   "chapter": {
+    "en": "Tudor & Stuart",
+    "tr": "Tudor ve Stuart"
+   }
+  },
+  {
+   "from": 1550,
+   "to": 1650,
+   "seconds": 24,
+   "era": {
+    "en": "Tudor & Stuart",
+    "tr": "Tudor ve Stuart"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "A City of 400,000",
+    "tr": "400.000'lik Şehir"
+   },
+   "sub": {
+    "en": "About 200,000 people by 1600, and about 400,000 by 1650",
+    "tr": "1600'de yaklaşık 200.000, 1650'de yaklaşık 400.000 kişi"
+   },
+   "population": [
+    75000,
+    400000
+   ],
+   "camera": {
+    "center": [
+     51.51,
+     -0.1
+    ],
+    "dist_km": 8.5
+   }
+  },
+  {
+   "from": 1651,
+   "to": 1666.5,
+   "seconds": 19,
+   "era": {
+    "en": "Stuart",
+    "tr": "Stuart"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Great Plague",
+    "tr": "Büyük Veba"
+   },
+   "sub": {
+    "en": "1665: 68,596 recorded deaths, probably over 100,000 in reality",
+    "tr": "1665: kayıtlı 68.596 ölüm; gerçek sayı muhtemelen 100.000'i aşar"
+   },
+   "population": [
+    400000,
+    460000
+   ],
+   "camera": {
+    "center": [
+     51.511,
+     -0.098
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1666.6,
+   "to": 1666.7,
+   "seconds": 29,
+   "era": {
+    "en": "Stuart",
+    "tr": "Stuart"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   },
+   "sub": {
+    "en": "2–5 Sept 1666: 13,200 houses, 87 churches and St Paul's burn",
+    "tr": "2–5 Eylül 1666: 13.200 ev, 87 kilise ve St Paul yanar"
+   },
+   "camera": {
+    "center": [
+     51.5125,
+     -0.096
+    ],
+    "dist_km": 5.2
+   },
+   "chapter": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   }
+  },
+  {
+   "from": 1667,
+   "to": 1711,
+   "seconds": 27,
+   "era": {
+    "en": "Stuart",
+    "tr": "Stuart"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Wren Rebuilds",
+    "tr": "Wren Yeniden İnşa Ediyor"
+   },
+   "sub": {
+    "en": "The City is rebuilt in brick and stone; Wren's St Paul's is declared complete in 1711",
+    "tr": "Şehir tuğla ve taştan yeniden kurulur; Wren'in St Paul'ü 1711'de tamamlanır"
+   },
+   "population": [
+    400000,
+    550000
+   ],
+   "camera": {
+    "center": [
+     51.511,
+     -0.1
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1712,
+   "to": 1800,
+   "seconds": 27,
+   "era": {
+    "en": "Georgian",
+    "tr": "Georgian"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The West End",
+    "tr": "West End"
+   },
+   "sub": {
+    "en": "Squares and terraces spread west; Westminster Bridge opens in 1750",
+    "tr": "Meydanlar ve sıra evler batıya yayılır; Westminster Köprüsü 1750'de açılır"
+   },
+   "population": [
+    550000,
+    1011157
+   ],
+   "camera": {
+    "center": [
+     51.5085,
+     -0.115
+    ],
+    "dist_km": 11.0
+   },
+   "chapter": {
+    "en": "Georgian London",
+    "tr": "Georgian Londra"
+   }
+  },
+  {
+   "from": 1801,
+   "to": 1830,
+   "seconds": 24,
+   "era": {
+    "en": "Regency",
+    "tr": "Regency"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Docks",
+    "tr": "Doklar"
+   },
+   "sub": {
+    "en": "1802: the West India Docks open, the first of London's great enclosed docks",
+    "tr": "1802: Londra'nın büyük kapalı doklarının ilki West India Dokları açılır"
+   },
+   "population": [
+    1011157,
+    1729949
+   ],
+   "camera": {
+    "center": [
+     51.505,
+     -0.07
+    ],
+    "dist_km": 13.0
+   }
+  },
+  {
+   "from": 1831,
+   "to": 1850,
+   "seconds": 24,
+   "era": {
+    "en": "Victorian",
+    "tr": "Viktorya"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Railways Arrive",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "1836: the capital's first steam railway runs from London Bridge on 878 brick arches",
+    "tr": "1836: başkentin ilk buharlı treni London Bridge'den 878 tuğla kemer üzerinde ilerler"
+   },
+   "population": [
+    1729949,
+    2286609
+   ],
+   "camera": {
+    "center": [
+     51.506,
+     -0.09
+    ],
+    "dist_km": 13.5
+   },
+   "chapter": {
+    "en": "Victorian London",
+    "tr": "Viktorya Londrası"
+   }
+  },
+  {
+   "from": 1851,
+   "to": 1852,
+   "seconds": 19,
+   "era": {
+    "en": "Victorian",
+    "tr": "Viktorya"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The Crystal Palace",
+    "tr": "Kristal Saray"
+   },
+   "sub": {
+    "en": "1851: a 564 m hall of glass in Hyde Park houses the Great Exhibition",
+    "tr": "1851: Hyde Park'taki 564 m'lik cam salon Büyük Sergi'ye ev sahipliği yapar"
+   },
+   "population": [
+    2286609,
+    2300000
+   ],
+   "camera": {
+    "center": [
+     51.507,
+     -0.13
+    ],
+    "dist_km": 11.0
+   }
+  },
+  {
+   "from": 1853,
+   "to": 1862,
+   "seconds": 21,
+   "era": {
+    "en": "Victorian",
+    "tr": "Viktorya"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "A New Parliament",
+    "tr": "Yeni Parlamento"
+   },
+   "sub": {
+    "en": "Rebuilt after the fire of 1834; Big Ben is installed in 1859",
+    "tr": "1834 yangınından sonra yeniden yapılır; Big Ben 1859'da yerleştirilir"
+   },
+   "population": [
+    2300000,
+    3094391
+   ],
+   "camera": {
+    "center": [
+     51.504,
+     -0.115
+    ],
+    "dist_km": 11.5
+   }
+  },
+  {
+   "from": 1863,
+   "to": 1880,
+   "seconds": 21,
+   "era": {
+    "en": "Victorian",
+    "tr": "Viktorya"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "The First Underground",
+    "tr": "İlk Metro"
+   },
+   "sub": {
+    "en": "10 Jan 1863: the Metropolitan Railway opens from Paddington to Farringdon",
+    "tr": "10 Ocak 1863: Metropolitan Railway, Paddington–Farringdon arasında açılır"
+   },
+   "population": [
+    3094391,
+    4709960
+   ],
+   "camera": {
+    "center": [
+     51.507,
+     -0.11
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1881,
+   "to": 1894,
+   "seconds": 21,
+   "era": {
+    "en": "Victorian",
+    "tr": "Viktorya"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "Tower Bridge",
+    "tr": "Tower Köprüsü"
+   },
+   "sub": {
+    "en": "Opened 30 June 1894, its two towers stand 65 m above the Thames",
+    "tr": "30 Haziran 1894'te açılır; iki kulesi Thames'in 65 m üzerinde yükselir"
+   },
+   "population": [
+    4709960,
+    5900000
+   ],
+   "camera": {
+    "center": [
+     51.506,
+     -0.085
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1895,
+   "to": 1939,
+   "seconds": 27,
+   "era": {
+    "en": "Edwardian & Interwar",
+    "tr": "Edward ve Savaşlar Arası"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "Suburbs Without End",
+    "tr": "Bitmeyen Banliyöler"
+   },
+   "sub": {
+    "en": "Railways and the Tube pull houses outward; about 8.7 million people by 1939",
+    "tr": "Tren ve metro evleri dışarı taşır; 1939'da yaklaşık 8,7 milyon kişi"
+   },
+   "population": [
+    5900000,
+    8700000
+   ],
+   "camera": {
+    "center": [
+     51.5,
+     -0.12
+    ],
+    "dist_km": 30.0
+   },
+   "chapter": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   }
+  },
+  {
+   "from": 1940,
+   "to": 1941.4,
+   "seconds": 27,
+   "era": {
+    "en": "Second World War",
+    "tr": "İkinci Dünya Savaşı"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "The Blitz",
+    "tr": "Blitz"
+   },
+   "sub": {
+    "en": "Sept 1940 – May 1941: bombs burn the docks and much of the City",
+    "tr": "Eylül 1940 – Mayıs 1941: bombalar dokları ve City'nin büyük kısmını yakar"
+   },
+   "camera": {
+    "center": [
+     51.508,
+     -0.065
+    ],
+    "dist_km": 18.0
+   },
+   "chapter": {
+    "en": "The Blitz",
+    "tr": "Blitz"
+   }
+  },
+  {
+   "from": 1941.5,
+   "to": 1980,
+   "seconds": 24,
+   "era": {
+    "en": "Post-war",
+    "tr": "Savaş Sonrası"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "Rebuilding and Moving Out",
+    "tr": "Yeniden İnşa ve Göç"
+   },
+   "sub": {
+    "en": "Bomb sites become estates; Greater London falls to 6.6 million by 1981",
+    "tr": "Bomba alanlarına siteler yükselir; nüfus 1981'de 6,6 milyona iner"
+   },
+   "population": [
+    8164416,
+    6608513
+   ],
+   "camera": {
+    "center": [
+     51.5,
+     -0.12
+    ],
+    "dist_km": 30.0
+   }
+  },
+  {
+   "from": 1981,
+   "to": 1991,
+   "seconds": 21,
+   "era": {
+    "en": "Modern",
+    "tr": "Modern"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "Docklands Reborn",
+    "tr": "Doklar Yeniden Doğuyor"
+   },
+   "sub": {
+    "en": "The docks close; in 1991 One Canada Square rises 235 m above them",
+    "tr": "Doklar kapanır; 1991'de One Canada Square 235 m yükselir"
+   },
+   "population": [
+    6608513,
+    6887280
+   ],
+   "camera": {
+    "center": [
+     51.505,
+     -0.04
+    ],
+    "dist_km": 15.0
+   },
+   "chapter": {
+    "en": "Modern London",
+    "tr": "Modern Londra"
+   }
+  },
+  {
+   "from": 1992,
+   "to": 2012,
+   "seconds": 27,
+   "era": {
+    "en": "Modern",
+    "tr": "Modern"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "A New Skyline",
+    "tr": "Yeni Silüet"
+   },
+   "sub": {
+    "en": "The London Eye (2000), the Gherkin (2003) and the 310 m Shard (2012)",
+    "tr": "London Eye (2000), Gherkin (2003) ve 310 m'lik Shard (2012)"
+   },
+   "population": [
+    6887280,
+    8173941
+   ],
+   "camera": {
+    "center": [
+     51.507,
+     -0.095
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 2013,
+   "to": 2021,
+   "seconds": 21,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Greater London",
+    "tr": "Büyük Londra"
+   },
+   "title": {
+    "en": "A Megacity",
+    "tr": "Bir Megakent"
+   },
+   "sub": {
+    "en": "The 2021 census counts 8.8 million people in Greater London",
+    "tr": "2021 sayımı Büyük Londra'da 8,8 milyon kişi sayar"
+   },
+   "population": [
+    8173941,
+    8799728
+   ],
+   "camera": {
+    "center": [
+     51.498,
+     -0.12
+    ],
+    "dist_km": 40.0
+   }
+  },
+  {
+   "from": 2022,
+   "to": 2025,
+   "seconds": 32,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "title": {
+    "en": "London Today",
+    "tr": "Bugünün Londrası"
+   },
+   "sub": {
+    "en": "Mid-2024: about 9.1 million people, from a Roman bridge 1,975 years ago",
+    "tr": "2024 ortası: yaklaşık 9,1 milyon kişi; 1.975 yıl önceki bir Roma köprüsünden"
+   },
+   "population": [
+    8799728,
+    9089736
+   ],
+   "camera": {
+    "center": [
+     51.506,
+     -0.095
+    ],
+    "dist_km": 9.5
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Early Londinium",
+   "style": "roman",
+   "poly": [
+    [
+     51.51,
+     -0.0935
+    ],
+    [
+     51.513,
+     -0.0935
+    ],
+    [
+     51.514,
+     -0.088
+    ],
+    [
+     51.5136,
+     -0.082
+    ],
+    [
+     51.5106,
+     -0.0812
+    ],
+    [
+     51.51,
+     -0.085
+    ],
+    [
+     51.5101,
+     -0.09
+    ]
+   ],
+   "from": 47,
+   "to": 58,
+   "density": 0.6,
+   "grow_from": [
+    51.51,
+    -0.087
+   ],
+   "grain_m": 50
+  },
+  {
+   "name": "Roman Southwark",
+   "style": "roman",
+   "poly": [
+    [
+     51.504,
+     -0.0945
+    ],
+    [
+     51.5068,
+     -0.0945
+    ],
+    [
+     51.5068,
+     -0.084
+    ],
+    [
+     51.504,
+     -0.085
+    ]
+   ],
+   "from": 50,
+   "to": 70,
+   "density": 0.45,
+   "grow_from": [
+    51.5062,
+    -0.088
+   ],
+   "fade": [
+    300,
+    460,
+    0.0
+   ]
+  },
+  {
+   "name": "Roman city",
+   "style": "roman",
+   "poly": [
+    [
+     51.508,
+     -0.0768
+    ],
+    [
+     51.5098,
+     -0.0762
+    ],
+    [
+     51.5112,
+     -0.0758
+    ],
+    [
+     51.5137,
+     -0.077
+    ],
+    [
+     51.515,
+     -0.078
+    ],
+    [
+     51.5157,
+     -0.08
+    ],
+    [
+     51.5161,
+     -0.0817
+    ],
+    [
+     51.5166,
+     -0.0845
+    ],
+    [
+     51.5172,
+     -0.0885
+    ],
+    [
+     51.5181,
+     -0.0925
+    ],
+    [
+     51.5185,
+     -0.0955
+    ],
+    [
+     51.5168,
+     -0.0965
+    ],
+    [
+     51.5164,
+     -0.0978
+    ],
+    [
+     51.5157,
+     -0.1002
+    ],
+    [
+     51.514,
+     -0.1028
+    ],
+    [
+     51.512,
+     -0.1022
+    ],
+    [
+     51.5111,
+     -0.0975
+    ],
+    [
+     51.5104,
+     -0.0925
+    ],
+    [
+     51.5102,
+     -0.088
+    ],
+    [
+     51.5098,
+     -0.084
+    ],
+    [
+     51.5092,
+     -0.08
+    ],
+    [
+     51.5085,
+     -0.0778
+    ]
+   ],
+   "from": 62,
+   "to": 125,
+   "density": 0.72,
+   "grow_from": [
+    51.5128,
+    -0.086
+   ],
+   "fade": [
+    280,
+    470,
+    0.03
+   ]
+  },
+  {
+   "name": "Lundenwic",
+   "style": "celtic",
+   "poly": [
+    [
+     51.5085,
+     -0.1275
+    ],
+    [
+     51.5125,
+     -0.1285
+    ],
+    [
+     51.515,
+     -0.123
+    ],
+    [
+     51.515,
+     -0.1165
+    ],
+    [
+     51.5122,
+     -0.115
+    ],
+    [
+     51.51,
+     -0.118
+    ],
+    [
+     51.509,
+     -0.123
+    ]
+   ],
+   "from": 600,
+   "to": 780,
+   "density": 0.55,
+   "grow_from": [
+    51.5115,
+    -0.123
+   ],
+   "fade": [
+    842,
+    880,
+    0.0
+   ]
+  },
+  {
+   "name": "Lundenburh",
+   "style": "celtic",
+   "poly": [
+    [
+     51.508,
+     -0.0768
+    ],
+    [
+     51.5098,
+     -0.0762
+    ],
+    [
+     51.5112,
+     -0.0758
+    ],
+    [
+     51.5137,
+     -0.077
+    ],
+    [
+     51.515,
+     -0.078
+    ],
+    [
+     51.5157,
+     -0.08
+    ],
+    [
+     51.5161,
+     -0.0817
+    ],
+    [
+     51.5166,
+     -0.0845
+    ],
+    [
+     51.5172,
+     -0.0885
+    ],
+    [
+     51.5181,
+     -0.0925
+    ],
+    [
+     51.5185,
+     -0.0955
+    ],
+    [
+     51.5168,
+     -0.0965
+    ],
+    [
+     51.5164,
+     -0.0978
+    ],
+    [
+     51.5157,
+     -0.1002
+    ],
+    [
+     51.514,
+     -0.1028
+    ],
+    [
+     51.512,
+     -0.1022
+    ],
+    [
+     51.5111,
+     -0.0975
+    ],
+    [
+     51.5104,
+     -0.0925
+    ],
+    [
+     51.5102,
+     -0.088
+    ],
+    [
+     51.5098,
+     -0.084
+    ],
+    [
+     51.5092,
+     -0.08
+    ],
+    [
+     51.5085,
+     -0.0778
+    ]
+   ],
+   "from": 886,
+   "to": 1050,
+   "density": 0.45,
+   "grow_from": [
+    51.5125,
+    -0.09
+   ]
+  },
+  {
+   "name": "Westminster",
+   "style": "medieval",
+   "poly": [
+    [
+     51.4972,
+     -0.1305
+    ],
+    [
+     51.5015,
+     -0.1305
+    ],
+    [
+     51.5032,
+     -0.1255
+    ],
+    [
+     51.5003,
+     -0.1238
+    ],
+    [
+     51.4975,
+     -0.125
+    ]
+   ],
+   "from": 1045,
+   "to": 1300,
+   "density": 0.55,
+   "grow_from": [
+    51.4995,
+    -0.127
+   ]
+  },
+  {
+   "name": "Medieval City",
+   "style": "medieval",
+   "poly": [
+    [
+     51.508,
+     -0.0768
+    ],
+    [
+     51.5098,
+     -0.0762
+    ],
+    [
+     51.5112,
+     -0.0758
+    ],
+    [
+     51.5137,
+     -0.077
+    ],
+    [
+     51.515,
+     -0.078
+    ],
+    [
+     51.5157,
+     -0.08
+    ],
+    [
+     51.5161,
+     -0.0817
+    ],
+    [
+     51.5166,
+     -0.0845
+    ],
+    [
+     51.5172,
+     -0.0885
+    ],
+    [
+     51.5181,
+     -0.0925
+    ],
+    [
+     51.5185,
+     -0.0955
+    ],
+    [
+     51.5168,
+     -0.0965
+    ],
+    [
+     51.5164,
+     -0.0978
+    ],
+    [
+     51.5157,
+     -0.1002
+    ],
+    [
+     51.514,
+     -0.1028
+    ],
+    [
+     51.512,
+     -0.1022
+    ],
+    [
+     51.5111,
+     -0.0975
+    ],
+    [
+     51.5104,
+     -0.0925
+    ],
+    [
+     51.5102,
+     -0.088
+    ],
+    [
+     51.5098,
+     -0.084
+    ],
+    [
+     51.5092,
+     -0.08
+    ],
+    [
+     51.5085,
+     -0.0778
+    ]
+   ],
+   "from": 1066,
+   "to": 1300,
+   "density": 0.92,
+   "grow_from": [
+    51.512,
+    -0.092
+   ],
+   "fade": [
+    1348,
+    1380,
+    0.55
+   ]
+  },
+  {
+   "name": "Medieval Southwark",
+   "style": "medieval",
+   "poly": [
+    [
+     51.503,
+     -0.096
+    ],
+    [
+     51.5072,
+     -0.0975
+    ],
+    [
+     51.5072,
+     -0.082
+    ],
+    [
+     51.504,
+     -0.083
+    ],
+    [
+     51.502,
+     -0.09
+    ]
+   ],
+   "from": 1100,
+   "to": 1300,
+   "density": 0.7,
+   "grow_from": [
+    51.5062,
+    -0.0885
+   ],
+   "fade": [
+    1348,
+    1380,
+    0.6
+   ]
+  },
+  {
+   "name": "Fleet Street & Strand",
+   "style": "medieval",
+   "poly": [
+    [
+     51.5103,
+     -0.125
+    ],
+    [
+     51.5125,
+     -0.1252
+    ],
+    [
+     51.515,
+     -0.11
+    ],
+    [
+     51.5156,
+     -0.104
+    ],
+    [
+     51.5132,
+     -0.103
+    ],
+    [
+     51.511,
+     -0.108
+    ],
+    [
+     51.5095,
+     -0.118
+    ]
+   ],
+   "from": 1150,
+   "to": 1400,
+   "density": 0.6,
+   "grow_from": [
+    51.514,
+    -0.104
+   ]
+  },
+  {
+   "name": "Tudor & Stuart London",
+   "style": "medieval",
+   "poly": [
+    [
+     51.4985,
+     -0.132
+    ],
+    [
+     51.506,
+     -0.135
+    ],
+    [
+     51.513,
+     -0.13
+    ],
+    [
+     51.519,
+     -0.115
+    ],
+    [
+     51.524,
+     -0.105
+    ],
+    [
+     51.5265,
+     -0.085
+    ],
+    [
+     51.525,
+     -0.072
+    ],
+    [
+     51.518,
+     -0.062
+    ],
+    [
+     51.51,
+     -0.056
+    ],
+    [
+     51.5075,
+     -0.06
+    ],
+    [
+     51.505,
+     -0.07
+    ],
+    [
+     51.501,
+     -0.075
+    ],
+    [
+     51.499,
+     -0.09
+    ],
+    [
+     51.501,
+     -0.105
+    ],
+    [
+     51.5,
+     -0.118
+    ]
+   ],
+   "from": 1480,
+   "to": 1650,
+   "density": 0.78,
+   "grow_from": [
+    51.512,
+    -0.092
+   ]
+  },
+  {
+   "name": "Rebuilt City",
+   "style": "georgian",
+   "poly": [
+    [
+     51.5097,
+     -0.079
+    ],
+    [
+     51.5089,
+     -0.083
+    ],
+    [
+     51.5092,
+     -0.088
+    ],
+    [
+     51.5096,
+     -0.094
+    ],
+    [
+     51.5104,
+     -0.1
+    ],
+    [
+     51.5111,
+     -0.104
+    ],
+    [
+     51.5115,
+     -0.108
+    ],
+    [
+     51.5118,
+     -0.1105
+    ],
+    [
+     51.515,
+     -0.1095
+    ],
+    [
+     51.5175,
+     -0.105
+    ],
+    [
+     51.5176,
+     -0.102
+    ],
+    [
+     51.5168,
+     -0.0985
+    ],
+    [
+     51.5175,
+     -0.095
+    ],
+    [
+     51.517,
+     -0.09
+    ],
+    [
+     51.516,
+     -0.087
+    ],
+    [
+     51.514,
+     -0.085
+    ],
+    [
+     51.513,
+     -0.083
+    ],
+    [
+     51.5115,
+     -0.081
+    ],
+    [
+     51.5105,
+     -0.0795
+    ]
+   ],
+   "from": 1667,
+   "to": 1690,
+   "density": 0.92,
+   "grow_from": [
+    51.5125,
+    -0.095
+   ]
+  },
+  {
+   "name": "West End",
+   "style": "georgian",
+   "poly": [
+    [
+     51.5005,
+     -0.145
+    ],
+    [
+     51.507,
+     -0.153
+    ],
+    [
+     51.513,
+     -0.158
+    ],
+    [
+     51.52,
+     -0.16
+    ],
+    [
+     51.524,
+     -0.15
+    ],
+    [
+     51.525,
+     -0.13
+    ],
+    [
+     51.523,
+     -0.115
+    ],
+    [
+     51.517,
+     -0.117
+    ],
+    [
+     51.512,
+     -0.13
+    ],
+    [
+     51.506,
+     -0.133
+    ]
+   ],
+   "from": 1680,
+   "to": 1800,
+   "density": 0.85,
+   "grow_from": [
+    51.512,
+    -0.125
+   ]
+  },
+  {
+   "name": "Georgian East & South",
+   "style": "georgian",
+   "poly": [
+    [
+     51.528,
+     -0.095
+    ],
+    [
+     51.529,
+     -0.06
+    ],
+    [
+     51.52,
+     -0.04
+    ],
+    [
+     51.51,
+     -0.042
+    ],
+    [
+     51.498,
+     -0.05
+    ],
+    [
+     51.493,
+     -0.075
+    ],
+    [
+     51.492,
+     -0.105
+    ],
+    [
+     51.495,
+     -0.12
+    ],
+    [
+     51.505,
+     -0.115
+    ],
+    [
+     51.509,
+     -0.07
+    ],
+    [
+     51.518,
+     -0.07
+    ],
+    [
+     51.524,
+     -0.09
+    ]
+   ],
+   "from": 1700,
+   "to": 1800,
+   "density": 0.7,
+   "grow_from": [
+    51.51,
+    -0.08
+   ]
+  },
+  {
+   "name": "Docklands",
+   "style": "industrial",
+   "poly": [
+    [
+     51.511,
+     -0.075
+    ],
+    [
+     51.513,
+     -0.03
+    ],
+    [
+     51.516,
+     0.0
+    ],
+    [
+     51.517,
+     0.085
+    ],
+    [
+     51.504,
+     0.085
+    ],
+    [
+     51.496,
+     0.01
+    ],
+    [
+     51.485,
+     -0.01
+    ],
+    [
+     51.483,
+     -0.045
+    ],
+    [
+     51.492,
+     -0.065
+    ],
+    [
+     51.504,
+     -0.075
+    ]
+   ],
+   "from": 1802,
+   "to": 1885,
+   "density": 0.6,
+   "grow_from": [
+    51.508,
+    -0.06
+   ]
+  },
+  {
+   "name": "Victorian London",
+   "style": "victorian",
+   "poly": [
+    [
+     51.565,
+     -0.14
+    ],
+    [
+     51.565,
+     -0.08
+    ],
+    [
+     51.545,
+     -0.03
+    ],
+    [
+     51.53,
+     -0.005
+    ],
+    [
+     51.495,
+     -0.005
+    ],
+    [
+     51.475,
+     -0.02
+    ],
+    [
+     51.455,
+     -0.07
+    ],
+    [
+     51.455,
+     -0.12
+    ],
+    [
+     51.465,
+     -0.2
+    ],
+    [
+     51.495,
+     -0.225
+    ],
+    [
+     51.525,
+     -0.215
+    ],
+    [
+     51.54,
+     -0.195
+    ]
+   ],
+   "holes": [
+    [
+     [
+      51.496,
+      -0.165
+     ],
+     [
+      51.526,
+      -0.165
+     ],
+     [
+      51.529,
+      -0.056
+     ],
+     [
+      51.493,
+      -0.056
+     ]
+    ],
+    [
+     [
+      51.511,
+      -0.075
+     ],
+     [
+      51.513,
+      -0.03
+     ],
+     [
+      51.516,
+      0.0
+     ],
+     [
+      51.517,
+      0.085
+     ],
+     [
+      51.504,
+      0.085
+     ],
+     [
+      51.496,
+      0.01
+     ],
+     [
+      51.485,
+      -0.01
+     ],
+     [
+      51.483,
+      -0.045
+     ],
+     [
+      51.492,
+      -0.065
+     ],
+     [
+      51.504,
+      -0.075
+     ]
+    ]
+   ],
+   "from": 1820,
+   "to": 1895,
+   "density": 0.78,
+   "grain_m": 75,
+   "grow_from": [
+    51.51,
+    -0.11
+   ]
+  },
+  {
+   "name": "Interwar suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     51.6,
+     -0.25
+    ],
+    [
+     51.61,
+     -0.17
+    ],
+    [
+     51.6,
+     -0.1
+    ],
+    [
+     51.59,
+     -0.01
+    ],
+    [
+     51.56,
+     0.06
+    ],
+    [
+     51.53,
+     0.09
+    ],
+    [
+     51.48,
+     0.08
+    ],
+    [
+     51.44,
+     0.02
+    ],
+    [
+     51.43,
+     -0.05
+    ],
+    [
+     51.4,
+     -0.1
+    ],
+    [
+     51.41,
+     -0.2
+    ],
+    [
+     51.44,
+     -0.3
+    ],
+    [
+     51.48,
+     -0.34
+    ],
+    [
+     51.515,
+     -0.33
+    ],
+    [
+     51.56,
+     -0.3
+    ]
+   ],
+   "holes": [
+    [
+     [
+      51.565,
+      -0.14
+     ],
+     [
+      51.565,
+      -0.08
+     ],
+     [
+      51.545,
+      -0.03
+     ],
+     [
+      51.53,
+      -0.005
+     ],
+     [
+      51.495,
+      -0.005
+     ],
+     [
+      51.475,
+      -0.02
+     ],
+     [
+      51.455,
+      -0.07
+     ],
+     [
+      51.455,
+      -0.12
+     ],
+     [
+      51.465,
+      -0.2
+     ],
+     [
+      51.495,
+      -0.225
+     ],
+     [
+      51.525,
+      -0.215
+     ],
+     [
+      51.54,
+      -0.195
+     ]
+    ],
+    [
+     [
+      51.511,
+      -0.075
+     ],
+     [
+      51.513,
+      -0.03
+     ],
+     [
+      51.516,
+      0.0
+     ],
+     [
+      51.517,
+      0.085
+     ],
+     [
+      51.504,
+      0.085
+     ],
+     [
+      51.496,
+      0.01
+     ],
+     [
+      51.485,
+      -0.01
+     ],
+     [
+      51.483,
+      -0.045
+     ],
+     [
+      51.492,
+      -0.065
+     ],
+     [
+      51.504,
+      -0.075
+     ]
+    ]
+   ],
+   "from": 1895,
+   "to": 1939,
+   "density": 0.85,
+   "grain_m": 190,
+   "grow_from": [
+    51.505,
+    -0.11
+   ]
+  },
+  {
+   "name": "Outer suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     51.625,
+     -0.4
+    ],
+    [
+     51.64,
+     -0.3
+    ],
+    [
+     51.66,
+     -0.19
+    ],
+    [
+     51.66,
+     -0.06
+    ],
+    [
+     51.64,
+     0.02
+    ],
+    [
+     51.61,
+     0.12
+    ],
+    [
+     51.59,
+     0.21
+    ],
+    [
+     51.54,
+     0.23
+    ],
+    [
+     51.49,
+     0.19
+    ],
+    [
+     51.44,
+     0.15
+    ],
+    [
+     51.37,
+     0.1
+    ],
+    [
+     51.36,
+     0.02
+    ],
+    [
+     51.34,
+     -0.07
+    ],
+    [
+     51.35,
+     -0.2
+    ],
+    [
+     51.375,
+     -0.3
+    ],
+    [
+     51.42,
+     -0.38
+    ],
+    [
+     51.46,
+     -0.45
+    ],
+    [
+     51.52,
+     -0.47
+    ],
+    [
+     51.58,
+     -0.44
+    ]
+   ],
+   "holes": [
+    [
+     [
+      51.6,
+      -0.25
+     ],
+     [
+      51.61,
+      -0.17
+     ],
+     [
+      51.6,
+      -0.1
+     ],
+     [
+      51.59,
+      -0.01
+     ],
+     [
+      51.56,
+      0.06
+     ],
+     [
+      51.53,
+      0.09
+     ],
+     [
+      51.48,
+      0.08
+     ],
+     [
+      51.44,
+      0.02
+     ],
+     [
+      51.43,
+      -0.05
+     ],
+     [
+      51.4,
+      -0.1
+     ],
+     [
+      51.41,
+      -0.2
+     ],
+     [
+      51.44,
+      -0.3
+     ],
+     [
+      51.48,
+      -0.34
+     ],
+     [
+      51.515,
+      -0.33
+     ],
+     [
+      51.56,
+      -0.3
+     ]
+    ]
+   ],
+   "from": 1925,
+   "to": 1975,
+   "density": 0.75,
+   "grain_m": 240,
+   "grow_from": [
+    51.505,
+    -0.11
+   ]
+  },
+  {
+   "name": "Post-war rebuilding",
+   "style": "modern",
+   "poly": [
+    [
+     51.52,
+     -0.105
+    ],
+    [
+     51.52,
+     -0.03
+    ],
+    [
+     51.505,
+     -0.015
+    ],
+    [
+     51.5,
+     -0.05
+    ],
+    [
+     51.508,
+     -0.085
+    ],
+    [
+     51.51,
+     -0.105
+    ]
+   ],
+   "from": 1948,
+   "to": 1980,
+   "density": 0.55,
+   "grain_m": 100,
+   "grow_from": [
+    51.515,
+    -0.07
+   ]
+  },
+  {
+   "name": "Canary Wharf",
+   "style": "highrise",
+   "poly": [
+    [
+     51.507,
+     -0.028
+    ],
+    [
+     51.507,
+     -0.012
+    ],
+    [
+     51.503,
+     -0.012
+    ],
+    [
+     51.503,
+     -0.028
+    ]
+   ],
+   "from": 1988,
+   "to": 2015,
+   "density": 0.8,
+   "grain_m": 110,
+   "grow_from": [
+    51.505,
+    -0.0196
+   ]
+  },
+  {
+   "name": "City towers",
+   "style": "highrise",
+   "poly": [
+    [
+     51.5165,
+     -0.086
+    ],
+    [
+     51.5165,
+     -0.078
+    ],
+    [
+     51.512,
+     -0.078
+    ],
+    [
+     51.512,
+     -0.086
+    ]
+   ],
+   "from": 1995,
+   "to": 2020,
+   "density": 0.55,
+   "grain_m": 100,
+   "grow_from": [
+    51.514,
+    -0.082
+   ]
+  },
+  {
+   "name": "Stratford",
+   "style": "modern",
+   "poly": [
+    [
+     51.547,
+     -0.025
+    ],
+    [
+     51.547,
+     -0.005
+    ],
+    [
+     51.536,
+     -0.005
+    ],
+    [
+     51.536,
+     -0.025
+    ]
+   ],
+   "from": 2005,
+   "to": 2020,
+   "density": 0.7,
+   "grain_m": 110,
+   "grow_from": [
+    51.542,
+    -0.01
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Roman land wall",
+   "path": [
+    [
+     51.508,
+     -0.0768
+    ],
+    [
+     51.5098,
+     -0.0762
+    ],
+    [
+     51.5112,
+     -0.0758
+    ],
+    [
+     51.5137,
+     -0.077
+    ],
+    [
+     51.515,
+     -0.078
+    ],
+    [
+     51.5157,
+     -0.08
+    ],
+    [
+     51.5161,
+     -0.0817
+    ],
+    [
+     51.5166,
+     -0.0845
+    ],
+    [
+     51.5172,
+     -0.0885
+    ],
+    [
+     51.5181,
+     -0.0925
+    ],
+    [
+     51.5185,
+     -0.0955
+    ],
+    [
+     51.5168,
+     -0.0965
+    ],
+    [
+     51.5164,
+     -0.0978
+    ],
+    [
+     51.5157,
+     -0.1002
+    ],
+    [
+     51.514,
+     -0.1028
+    ],
+    [
+     51.512,
+     -0.1022
+    ]
+   ],
+   "built": 190,
+   "removed": 1765,
+   "height": "mid",
+   "towers_m": 160,
+   "draw_s": 3.0
+  },
+  {
+   "name": "Roman riverside wall",
+   "path": [
+    [
+     51.512,
+     -0.1022
+    ],
+    [
+     51.5111,
+     -0.0975
+    ],
+    [
+     51.5104,
+     -0.0925
+    ],
+    [
+     51.5102,
+     -0.088
+    ],
+    [
+     51.5098,
+     -0.084
+    ],
+    [
+     51.5092,
+     -0.08
+    ],
+    [
+     51.5085,
+     -0.0778
+    ],
+    [
+     51.508,
+     -0.0768
+    ]
+   ],
+   "built": 255,
+   "removed": 700,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 2.0
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Roman bridge",
+   "path": [
+    [
+     51.5097,
+     -0.0868
+    ],
+    [
+     51.5063,
+     -0.0878
+    ]
+   ],
+   "built": 50,
+   "removed": 1176,
+   "style": "wood",
+   "width_m": 12
+  },
+  {
+   "name": "Old London Bridge",
+   "path": [
+    [
+     51.5097,
+     -0.0868
+    ],
+    [
+     51.5063,
+     -0.0878
+    ]
+   ],
+   "built": 1180,
+   "removed": 1831,
+   "style": "stone",
+   "width_m": 24
+  },
+  {
+   "name": "London Bridge (1831)",
+   "path": [
+    [
+     51.5096,
+     -0.0879
+    ],
+    [
+     51.5062,
+     -0.0889
+    ]
+   ],
+   "built": 1831,
+   "style": "stone",
+   "width_m": 22
+  },
+  {
+   "name": "Westminster Bridge",
+   "path": [
+    [
+     51.5009,
+     -0.124
+    ],
+    [
+     51.5012,
+     -0.1194
+    ]
+   ],
+   "built": 1750,
+   "style": "stone",
+   "width_m": 18
+  },
+  {
+   "name": "Blackfriars Bridge",
+   "path": [
+    [
+     51.5115,
+     -0.104
+    ],
+    [
+     51.5082,
+     -0.1047
+    ]
+   ],
+   "built": 1769,
+   "style": "stone",
+   "width_m": 20
+  },
+  {
+   "name": "Vauxhall Bridge",
+   "path": [
+    [
+     51.489,
+     -0.1281
+    ],
+    [
+     51.4869,
+     -0.1252
+    ]
+   ],
+   "built": 1816,
+   "style": "iron",
+   "width_m": 18
+  },
+  {
+   "name": "Waterloo Bridge",
+   "path": [
+    [
+     51.5099,
+     -0.1167
+    ],
+    [
+     51.5064,
+     -0.115
+    ]
+   ],
+   "built": 1817,
+   "style": "stone",
+   "width_m": 20
+  },
+  {
+   "name": "Southwark Bridge",
+   "path": [
+    [
+     51.5098,
+     -0.0942
+    ],
+    [
+     51.5068,
+     -0.0946
+    ]
+   ],
+   "built": 1819,
+   "style": "iron",
+   "width_m": 16
+  },
+  {
+   "name": "Lambeth Bridge",
+   "path": [
+    [
+     51.4945,
+     -0.1247
+    ],
+    [
+     51.494,
+     -0.1197
+    ]
+   ],
+   "built": 1862,
+   "style": "iron",
+   "width_m": 16
+  },
+  {
+   "name": "Hungerford Bridge",
+   "path": [
+    [
+     51.507,
+     -0.1225
+    ],
+    [
+     51.5048,
+     -0.1188
+    ]
+   ],
+   "built": 1864,
+   "style": "iron",
+   "width_m": 14
+  },
+  {
+   "name": "Cannon Street Railway Bridge",
+   "path": [
+    [
+     51.51,
+     -0.0912
+    ],
+    [
+     51.5069,
+     -0.0917
+    ]
+   ],
+   "built": 1866,
+   "style": "iron",
+   "width_m": 18
+  },
+  {
+   "name": "Tower Bridge",
+   "path": [
+    [
+     51.5067,
+     -0.0749
+    ],
+    [
+     51.5043,
+     -0.0758
+    ]
+   ],
+   "built": 1894,
+   "style": "tower",
+   "width_m": 22
+  },
+  {
+   "name": "Millennium Bridge",
+   "path": [
+    [
+     51.5098,
+     -0.0985
+    ],
+    [
+     51.5071,
+     -0.0988
+    ]
+   ],
+   "built": 2000,
+   "style": "modern",
+   "width_m": 6
+  }
+ ],
+ "roads": [
+  {
+   "name": "Road north (Ermine Street)",
+   "path": [
+    [
+     51.5161,
+     -0.0817
+    ],
+    [
+     51.526,
+     -0.079
+    ],
+    [
+     51.545,
+     -0.076
+    ],
+    [
+     51.58,
+     -0.072
+    ],
+    [
+     51.64,
+     -0.065
+    ]
+   ],
+   "from": 55,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "Road west (Watling Street)",
+   "path": [
+    [
+     51.5157,
+     -0.1002
+    ],
+    [
+     51.5172,
+     -0.11
+    ],
+    [
+     51.516,
+     -0.14
+    ],
+    [
+     51.5135,
+     -0.159
+    ],
+    [
+     51.53,
+     -0.18
+    ],
+    [
+     51.57,
+     -0.22
+    ]
+   ],
+   "from": 55,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "Road east",
+   "path": [
+    [
+     51.5137,
+     -0.077
+    ],
+    [
+     51.517,
+     -0.06
+    ],
+    [
+     51.525,
+     -0.03
+    ],
+    [
+     51.542,
+     0.01
+    ]
+   ],
+   "from": 55,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "Road south (Stane Street)",
+   "path": [
+    [
+     51.5063,
+     -0.0878
+    ],
+    [
+     51.499,
+     -0.093
+    ],
+    [
+     51.48,
+     -0.11
+    ],
+    [
+     51.46,
+     -0.135
+    ]
+   ],
+   "from": 55,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "Road south-east (Watling Street)",
+   "path": [
+    [
+     51.5063,
+     -0.0878
+    ],
+    [
+     51.495,
+     -0.07
+    ],
+    [
+     51.48,
+     -0.045
+    ],
+    [
+     51.47,
+     -0.02
+    ]
+   ],
+   "from": 55,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "London & Greenwich Railway",
+   "path": [
+    [
+     51.505,
+     -0.086
+    ],
+    [
+     51.499,
+     -0.07
+    ],
+    [
+     51.488,
+     -0.04
+    ],
+    [
+     51.481,
+     -0.023
+    ],
+    [
+     51.4785,
+     -0.0125
+    ]
+   ],
+   "from": 1836,
+   "kind": "rail",
+   "width_m": 22
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "amphitheatre",
+   "name": {
+    "en": "Amphitheatre",
+    "tr": "Amfitiyatro"
+   },
+   "at": [
+    51.5156,
+    -0.0918
+   ],
+   "built": 70,
+   "removed": 420,
+   "size_m": [
+    100,
+    85,
+    18
+   ]
+  },
+  {
+   "type": "forum",
+   "name": {
+    "en": "Forum",
+    "tr": "Forum"
+   },
+   "at": [
+    51.5128,
+    -0.0838
+   ],
+   "built": 75,
+   "removed": 300,
+   "size_m": [
+    160,
+    160
+   ],
+   "colors": {
+    "column": false
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Basilica",
+    "tr": "Bazilika"
+   },
+   "at": [
+    51.5134,
+    -0.0838
+   ],
+   "built": 115,
+   "removed": 300,
+   "size_m": [
+    150,
+    45,
+    26
+   ],
+   "colors": {
+    "wall": "#ece2cc",
+    "roof": "#b4583b"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Cripplegate fort",
+    "tr": "Cripplegate kalesi"
+   },
+   "at": [
+    51.5172,
+    -0.0948
+   ],
+   "built": 120,
+   "removed": 200,
+   "size_m": [
+    240,
+    220,
+    8
+   ]
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "First St Paul's",
+    "tr": "İlk St Paul"
+   },
+   "at": [
+    51.5138,
+    -0.099
+   ],
+   "built": 604,
+   "removed": 1087,
+   "size_m": [
+    40,
+    16,
+    12
+   ]
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Edward's abbey",
+    "tr": "Edward'ın manastırı"
+   },
+   "at": [
+    51.4994,
+    -0.1275
+   ],
+   "built": 1050,
+   "removed": 1245,
+   "size_m": [
+    90,
+    28,
+    20
+   ]
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Tower of London",
+    "tr": "Londra Kulesi"
+   },
+   "at": [
+    51.5081,
+    -0.0759
+   ],
+   "built": 1078,
+   "rise_s": 3,
+   "size_m": [
+    180,
+    170,
+    18
+   ],
+   "colors": {
+    "keep": "#ece9e0"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Palace of Westminster (old)",
+    "tr": "Eski Westminster Sarayı"
+   },
+   "at": [
+    51.4997,
+    -0.1253
+   ],
+   "built": 1097,
+   "removed": 1834.8,
+   "size_m": [
+    110,
+    80,
+    18
+   ]
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Old St Paul's",
+    "tr": "Eski St Paul"
+   },
+   "at": [
+    51.5138,
+    -0.099
+   ],
+   "built": 1100,
+   "removed": 1666.65,
+   "rise_s": 4,
+   "size_m": [
+    178,
+    40,
+    30
+   ],
+   "scale": 1.25
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Westminster Abbey",
+    "tr": "Westminster Manastırı"
+   },
+   "at": [
+    51.4994,
+    -0.1275
+   ],
+   "built": 1245,
+   "rise_s": 3,
+   "size_m": [
+    150,
+    40,
+    32
+   ],
+   "colors": {
+    "spire": false
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "The Monument",
+    "tr": "Anıt"
+   },
+   "at": [
+    51.5101,
+    -0.0859
+   ],
+   "built": 1677,
+   "size_m": [
+    8,
+    8,
+    61
+   ]
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "St Paul's Cathedral",
+    "tr": "St Paul Katedrali"
+   },
+   "at": [
+    51.5138,
+    -0.0984
+   ],
+   "built": 1697,
+   "rise_s": 4,
+   "size_m": [
+    150,
+    75,
+    28
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#ddd8ca",
+    "dome": "#9aa4a8",
+    "lantern": true,
+    "towers": true
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Buckingham Palace",
+    "tr": "Buckingham Sarayı"
+   },
+   "at": [
+    51.5014,
+    -0.1419
+   ],
+   "built": 1837,
+   "size_m": [
+    120,
+    100,
+    24
+   ],
+   "colors": {
+    "wall": "#e8e3d6",
+    "roof": "#8f949a"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Crystal Palace",
+    "tr": "Kristal Saray"
+   },
+   "at": [
+    51.503,
+    -0.167
+   ],
+   "built": 1850.9,
+   "removed": 1852,
+   "rise_s": 2,
+   "size_m": [
+    564,
+    124,
+    33
+   ],
+   "colors": {
+    "wall": "#cfe3ea"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Houses of Parliament",
+    "tr": "Parlamento Binası"
+   },
+   "at": [
+    51.4995,
+    -0.1248
+   ],
+   "built": 1845,
+   "rise_s": 6,
+   "rot_deg": 270,
+   "size_m": [
+    265,
+    70,
+    26
+   ]
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "BT Tower",
+    "tr": "BT Kulesi"
+   },
+   "at": [
+    51.5215,
+    -0.1389
+   ],
+   "built": 1964,
+   "size_m": [
+    20,
+    20,
+    177
+   ],
+   "colors": {
+    "wall": "#c9ced2",
+    "roof": "#9aa1a6"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "One Canada Square",
+    "tr": "One Canada Square"
+   },
+   "at": [
+    51.505,
+    -0.0196
+   ],
+   "built": 1988,
+   "rise_s": 6,
+   "size_m": [
+    50,
+    50,
+    235
+   ],
+   "colors": {
+    "wall": "#b8c3cb"
+   }
+  },
+  {
+   "type": "dome_arena",
+   "name": {
+    "en": "Millennium Dome",
+    "tr": "Millennium Dome"
+   },
+   "at": [
+    51.503,
+    0.0032
+   ],
+   "built": 1999,
+   "size_m": [
+    180
+   ]
+  },
+  {
+   "type": "wheel",
+   "name": {
+    "en": "London Eye",
+    "tr": "London Eye"
+   },
+   "at": [
+    51.5033,
+    -0.1196
+   ],
+   "built": 2000,
+   "size_m": [
+    65
+   ],
+   "rot_deg": 30
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "The Gherkin",
+    "tr": "Gherkin"
+   },
+   "at": [
+    51.5145,
+    -0.0803
+   ],
+   "built": 2003,
+   "size_m": [
+    50,
+    50,
+    170
+   ],
+   "colors": {
+    "wall": "#7f97a6",
+    "roof": "#6a8292"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Heron Tower",
+    "tr": "Heron Kulesi"
+   },
+   "at": [
+    51.5162,
+    -0.0806
+   ],
+   "built": 2010,
+   "size_m": [
+    45,
+    45,
+    230
+   ],
+   "colors": {
+    "wall": "#9fb0bc"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "The Shard",
+    "tr": "Shard"
+   },
+   "at": [
+    51.5045,
+    -0.0865
+   ],
+   "built": 2010,
+   "rise_s": 5,
+   "size_m": [
+    60,
+    60,
+    310
+   ]
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    51.5386,
+    -0.0166
+   ],
+   "built": 2011,
+   "size_m": [
+    300,
+    250,
+    45
+   ]
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Leadenhall Building",
+    "tr": "Leadenhall Binası"
+   },
+   "at": [
+    51.5137,
+    -0.0822
+   ],
+   "built": 2014,
+   "size_m": [
+    45,
+    45,
+    225
+   ],
+   "colors": {
+    "wall": "#a9b8c2"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "20 Fenchurch Street",
+    "tr": "20 Fenchurch Street"
+   },
+   "at": [
+    51.5113,
+    -0.0835
+   ],
+   "built": 2014,
+   "size_m": [
+    55,
+    50,
+    160
+   ],
+   "colors": {
+    "wall": "#8ea3b1"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 60.5,
+   "poly": [
+    [
+     51.51,
+     -0.0935
+    ],
+    [
+     51.513,
+     -0.0935
+    ],
+    [
+     51.514,
+     -0.088
+    ],
+    [
+     51.5136,
+     -0.082
+    ],
+    [
+     51.5106,
+     -0.0812
+    ],
+    [
+     51.51,
+     -0.085
+    ],
+    [
+     51.5101,
+     -0.09
+    ],
+    [
+     51.509,
+     -0.092
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  },
+  {
+   "year": 60.6,
+   "poly": [
+    [
+     51.504,
+     -0.0945
+    ],
+    [
+     51.5068,
+     -0.0945
+    ],
+    [
+     51.5068,
+     -0.084
+    ],
+    [
+     51.504,
+     -0.085
+    ]
+   ],
+   "duration_s": 5,
+   "plumes": 2
+  },
+  {
+   "year": 1666.62,
+   "poly": [
+    [
+     51.5097,
+     -0.079
+    ],
+    [
+     51.5089,
+     -0.083
+    ],
+    [
+     51.5092,
+     -0.088
+    ],
+    [
+     51.5096,
+     -0.094
+    ],
+    [
+     51.5104,
+     -0.1
+    ],
+    [
+     51.5111,
+     -0.104
+    ],
+    [
+     51.5115,
+     -0.108
+    ],
+    [
+     51.5118,
+     -0.1105
+    ],
+    [
+     51.515,
+     -0.1095
+    ],
+    [
+     51.5175,
+     -0.105
+    ],
+    [
+     51.5176,
+     -0.102
+    ],
+    [
+     51.5168,
+     -0.0985
+    ],
+    [
+     51.5175,
+     -0.095
+    ],
+    [
+     51.517,
+     -0.09
+    ],
+    [
+     51.516,
+     -0.087
+    ],
+    [
+     51.514,
+     -0.085
+    ],
+    [
+     51.513,
+     -0.083
+    ],
+    [
+     51.5115,
+     -0.081
+    ],
+    [
+     51.5105,
+     -0.0795
+    ]
+   ],
+   "duration_s": 14,
+   "plumes": 9,
+   "plume_scale": 1.8
+  },
+  {
+   "year": 1940.68,
+   "poly": [
+    [
+     51.51,
+     -0.07
+    ],
+    [
+     51.511,
+     -0.03
+    ],
+    [
+     51.495,
+     -0.02
+    ],
+    [
+     51.492,
+     -0.045
+    ],
+    [
+     51.5,
+     -0.065
+    ]
+   ],
+   "duration_s": 8,
+   "plumes": 8,
+   "plume_scale": 4.0
+  },
+  {
+   "year": 1940.99,
+   "poly": [
+    [
+     51.5175,
+     -0.1
+    ],
+    [
+     51.5175,
+     -0.088
+    ],
+    [
+     51.5135,
+     -0.088
+    ],
+    [
+     51.513,
+     -0.1
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5,
+   "plume_scale": 3.0
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    51.5118,
+    -0.1225
+   ],
+   "from": 842,
+   "to": 860,
+   "scale": 1.3
+  },
+  {
+   "at": [
+    51.513,
+    -0.118
+   ],
+   "from": 851,
+   "to": 870,
+   "scale": 1.3
+  }
+ ],
+ "timed_water": [
+  {
+   "name": "Serpentine",
+   "poly": [
+    [
+     51.5075,
+     -0.1765
+    ],
+    [
+     51.506,
+     -0.172
+    ],
+    [
+     51.5048,
+     -0.164
+    ],
+    [
+     51.5042,
+     -0.1595
+    ],
+    [
+     51.505,
+     -0.159
+    ],
+    [
+     51.5058,
+     -0.164
+    ],
+    [
+     51.5068,
+     -0.1705
+    ],
+    [
+     51.5082,
+     -0.176
+    ]
+   ],
+   "from": 1730
+  },
+  {
+   "name": "West India Dock North",
+   "poly": [
+    [
+     51.5058,
+     -0.0275
+    ],
+    [
+     51.507,
+     -0.0275
+    ],
+    [
+     51.507,
+     -0.01
+    ],
+    [
+     51.5058,
+     -0.01
+    ]
+   ],
+   "from": 1802
+  },
+  {
+   "name": "West India Dock Middle",
+   "poly": [
+    [
+     51.503,
+     -0.026
+    ],
+    [
+     51.504,
+     -0.026
+    ],
+    [
+     51.504,
+     -0.011
+    ],
+    [
+     51.503,
+     -0.011
+    ]
+   ],
+   "from": 1802
+  },
+  {
+   "name": "West India Dock South",
+   "poly": [
+    [
+     51.5005,
+     -0.026
+    ],
+    [
+     51.5016,
+     -0.026
+    ],
+    [
+     51.5016,
+     -0.008
+    ],
+    [
+     51.5005,
+     -0.008
+    ]
+   ],
+   "from": 1866
+  },
+  {
+   "name": "London Docks",
+   "poly": [
+    [
+     51.506,
+     -0.067
+    ],
+    [
+     51.5085,
+     -0.067
+    ],
+    [
+     51.5085,
+     -0.056
+    ],
+    [
+     51.506,
+     -0.056
+    ]
+   ],
+   "from": 1805,
+   "to": 1970
+  },
+  {
+   "name": "Surrey Commercial Docks",
+   "poly": [
+    [
+     51.495,
+     -0.048
+    ],
+    [
+     51.501,
+     -0.048
+    ],
+    [
+     51.501,
+     -0.034
+    ],
+    [
+     51.495,
+     -0.034
+    ]
+   ],
+   "from": 1807,
+   "to": 1970
+  },
+  {
+   "name": "St Katharine Docks",
+   "poly": [
+    [
+     51.5068,
+     -0.073
+    ],
+    [
+     51.5085,
+     -0.073
+    ],
+    [
+     51.5085,
+     -0.07
+    ],
+    [
+     51.5068,
+     -0.07
+    ]
+   ],
+   "from": 1828
+  },
+  {
+   "name": "Royal Victoria Dock",
+   "poly": [
+    [
+     51.507,
+     0.013
+    ],
+    [
+     51.509,
+     0.013
+    ],
+    [
+     51.509,
+     0.042
+    ],
+    [
+     51.507,
+     0.042
+    ]
+   ],
+   "from": 1855
+  },
+  {
+   "name": "Millwall Dock",
+   "poly": [
+    [
+     51.495,
+     -0.026
+    ],
+    [
+     51.4995,
+     -0.026
+    ],
+    [
+     51.4995,
+     -0.015
+    ],
+    [
+     51.495,
+     -0.015
+    ]
+   ],
+   "from": 1868
+  },
+  {
+   "name": "Royal Albert Dock",
+   "poly": [
+    [
+     51.5065,
+     0.048
+    ],
+    [
+     51.508,
+     0.048
+    ],
+    [
+     51.508,
+     0.08
+    ],
+    [
+     51.5065,
+     0.08
+    ]
+   ],
+   "from": 1880
+  },
+  {
+   "name": "King George V Dock",
+   "poly": [
+    [
+     51.5,
+     0.048
+    ],
+    [
+     51.5018,
+     0.048
+    ],
+    [
+     51.5018,
+     0.072
+    ],
+    [
+     51.5,
+     0.072
+    ]
+   ],
+   "from": 1921
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Hyde Park & Kensington Gardens",
+   "poly": [
+    [
+     51.513,
+     -0.159
+    ],
+    [
+     51.5105,
+     -0.188
+    ],
+    [
+     51.502,
+     -0.188
+    ],
+    [
+     51.503,
+     -0.173
+    ],
+    [
+     51.502,
+     -0.152
+    ],
+    [
+     51.5065,
+     -0.1525
+    ]
+   ]
+  },
+  {
+   "name": "Green Park & St James's Park",
+   "poly": [
+    [
+     51.5065,
+     -0.15
+    ],
+    [
+     51.5045,
+     -0.139
+    ],
+    [
+     51.504,
+     -0.129
+    ],
+    [
+     51.5015,
+     -0.129
+    ],
+    [
+     51.501,
+     -0.136
+    ],
+    [
+     51.5005,
+     -0.144
+    ],
+    [
+     51.5025,
+     -0.15
+    ]
+   ]
+  },
+  {
+   "name": "Regent's Park",
+   "poly": [
+    [
+     51.5375,
+     -0.16
+    ],
+    [
+     51.537,
+     -0.146
+    ],
+    [
+     51.525,
+     -0.145
+    ],
+    [
+     51.5225,
+     -0.153
+    ],
+    [
+     51.525,
+     -0.164
+    ],
+    [
+     51.533,
+     -0.166
+    ]
+   ]
+  },
+  {
+   "name": "Hampstead Heath",
+   "poly": [
+    [
+     51.572,
+     -0.18
+    ],
+    [
+     51.571,
+     -0.15
+    ],
+    [
+     51.556,
+     -0.148
+    ],
+    [
+     51.558,
+     -0.172
+    ]
+   ]
+  },
+  {
+   "name": "Victoria Park",
+   "poly": [
+    [
+     51.541,
+     -0.05
+    ],
+    [
+     51.539,
+     -0.03
+    ],
+    [
+     51.532,
+     -0.036
+    ],
+    [
+     51.5355,
+     -0.051
+    ]
+   ]
+  },
+  {
+   "name": "Greenwich Park",
+   "poly": [
+    [
+     51.48,
+     -0.006
+    ],
+    [
+     51.479,
+     0.006
+    ],
+    [
+     51.472,
+     0.006
+    ],
+    [
+     51.473,
+     -0.005
+    ]
+   ]
+  },
+  {
+   "name": "Blackheath",
+   "poly": [
+    [
+     51.474,
+     -0.012
+    ],
+    [
+     51.472,
+     0.015
+    ],
+    [
+     51.463,
+     0.013
+    ],
+    [
+     51.465,
+     -0.01
+    ]
+   ]
+  },
+  {
+   "name": "Battersea Park",
+   "poly": [
+    [
+     51.4825,
+     -0.17
+    ],
+    [
+     51.4825,
+     -0.152
+    ],
+    [
+     51.477,
+     -0.15
+    ],
+    [
+     51.477,
+     -0.168
+    ]
+   ]
+  },
+  {
+   "name": "Clapham Common",
+   "poly": [
+    [
+     51.463,
+     -0.156
+    ],
+    [
+     51.46,
+     -0.138
+    ],
+    [
+     51.454,
+     -0.143
+    ],
+    [
+     51.456,
+     -0.16
+    ]
+   ]
+  },
+  {
+   "name": "Richmond Park",
+   "poly": [
+    [
+     51.456,
+     -0.295
+    ],
+    [
+     51.453,
+     -0.255
+    ],
+    [
+     51.43,
+     -0.24
+    ],
+    [
+     51.416,
+     -0.27
+    ],
+    [
+     51.425,
+     -0.305
+    ],
+    [
+     51.445,
+     -0.31
+    ]
+   ]
+  },
+  {
+   "name": "Wimbledon Common",
+   "poly": [
+    [
+     51.44,
+     -0.24
+    ],
+    [
+     51.438,
+     -0.215
+    ],
+    [
+     51.42,
+     -0.22
+    ],
+    [
+     51.422,
+     -0.245
+    ]
+   ]
+  },
+  {
+   "name": "Lea Valley",
+   "poly": [
+    [
+     51.62,
+     -0.045
+    ],
+    [
+     51.62,
+     -0.025
+    ],
+    [
+     51.545,
+     -0.015
+    ],
+    [
+     51.545,
+     -0.038
+    ]
+   ]
+  },
+  {
+   "name": "Wormwood Scrubs",
+   "poly": [
+    [
+     51.514,
+     -0.245
+    ],
+    [
+     51.52,
+     -0.245
+    ],
+    [
+     51.52,
+     -0.23
+    ],
+    [
+     51.514,
+     -0.23
+    ]
+   ]
+  },
+  {
+   "name": "Heathrow",
+   "poly": [
+    [
+     51.462,
+     -0.49
+    ],
+    [
+     51.48,
+     -0.49
+    ],
+    [
+     51.48,
+     -0.42
+    ],
+    [
+     51.462,
+     -0.42
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "RIVER THAMES",
+    "tr": "THAMES NEHRİ"
+   },
+   "at": [
+    51.5077,
+    -0.099
+   ],
+   "kind": "water",
+   "to": 1700
+  },
+  {
+   "text": {
+    "en": "RIVER THAMES",
+    "tr": "THAMES NEHRİ"
+   },
+   "at": [
+    51.487,
+    -0.165
+   ],
+   "kind": "water",
+   "from": 1700
+  },
+  {
+   "text": {
+    "en": "Forum",
+    "tr": "Forum"
+   },
+   "at": [
+    51.5128,
+    -0.0838
+   ],
+   "from": 80,
+   "to": 300,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Amphitheatre",
+    "tr": "Amfitiyatro"
+   },
+   "at": [
+    51.5156,
+    -0.0918
+   ],
+   "from": 75,
+   "to": 300,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Southwark",
+    "tr": "Southwark"
+   },
+   "at": [
+    51.505,
+    -0.09
+   ],
+   "kind": "region",
+   "from": 55,
+   "to": 400
+  },
+  {
+   "text": {
+    "en": "Lundenwic",
+    "tr": "Lundenwic"
+   },
+   "at": [
+    51.512,
+    -0.1225
+   ],
+   "from": 620,
+   "to": 880,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Westminster",
+    "tr": "Westminster"
+   },
+   "at": [
+    51.4994,
+    -0.1275
+   ],
+   "from": 1050,
+   "to": 1750,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Tower of London",
+    "tr": "Londra Kulesi"
+   },
+   "at": [
+    51.5081,
+    -0.0759
+   ],
+   "from": 1080,
+   "to": 1700,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "London Bridge",
+    "tr": "London Köprüsü"
+   },
+   "at": [
+    51.508,
+    -0.0873
+   ],
+   "from": 1209,
+   "to": 1700,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "St Paul's",
+    "tr": "St Paul"
+   },
+   "at": [
+    51.5138,
+    -0.099
+   ],
+   "from": 1300,
+   "to": 1666.6,
+   "lift_m": 120
+  },
+  {
+   "text": {
+    "en": "Pudding Lane",
+    "tr": "Pudding Lane"
+   },
+   "at": [
+    51.5103,
+    -0.0857
+   ],
+   "from": 1666.55,
+   "to": 1666.7,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "St Paul's Cathedral",
+    "tr": "St Paul Katedrali"
+   },
+   "at": [
+    51.5138,
+    -0.0984
+   ],
+   "from": 1705,
+   "to": 1800,
+   "lift_m": 140
+  },
+  {
+   "text": {
+    "en": "WEST END",
+    "tr": "WEST END"
+   },
+   "at": [
+    51.514,
+    -0.145
+   ],
+   "kind": "region",
+   "from": 1720,
+   "to": 1830
+  },
+  {
+   "text": {
+    "en": "EAST END",
+    "tr": "EAST END"
+   },
+   "at": [
+    51.519,
+    -0.055
+   ],
+   "kind": "region",
+   "from": 1790,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "Docklands",
+    "tr": "Doklar"
+   },
+   "at": [
+    51.504,
+    -0.02
+   ],
+   "from": 1803,
+   "to": 1850,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Crystal Palace",
+    "tr": "Kristal Saray"
+   },
+   "at": [
+    51.503,
+    -0.167
+   ],
+   "from": 1851,
+   "to": 1852,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Houses of Parliament",
+    "tr": "Parlamento"
+   },
+   "at": [
+    51.4995,
+    -0.1248
+   ],
+   "from": 1855,
+   "to": 1880,
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "Tower Bridge",
+    "tr": "Tower Köprüsü"
+   },
+   "at": [
+    51.5056,
+    -0.0753
+   ],
+   "from": 1894,
+   "to": 1900,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "CITY OF LONDON",
+    "tr": "LONDRA CITY"
+   },
+   "at": [
+    51.515,
+    -0.092
+   ],
+   "kind": "region",
+   "from": 1940,
+   "to": 1942
+  },
+  {
+   "text": {
+    "en": "Canary Wharf",
+    "tr": "Canary Wharf"
+   },
+   "at": [
+    51.505,
+    -0.0196
+   ],
+   "from": 1990,
+   "to": 2012,
+   "lift_m": 260
+  },
+  {
+   "text": {
+    "en": "The Shard",
+    "tr": "Shard"
+   },
+   "at": [
+    51.5045,
+    -0.0865
+   ],
+   "from": 2012,
+   "lift_m": 330
+  },
+  {
+   "text": {
+    "en": "St Paul's",
+    "tr": "St Paul"
+   },
+   "at": [
+    51.5138,
+    -0.0984
+   ],
+   "from": 2022,
+   "lift_m": 140
+  },
+  {
+   "text": {
+    "en": "Westminster",
+    "tr": "Westminster"
+   },
+   "at": [
+    51.4995,
+    -0.126
+   ],
+   "from": 2022,
+   "lift_m": 120
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "London: 2,000 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Londra: 14 Dakikada 2.000 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Around AD 47 the Romans built a port where the Thames could be bridged. Watch London grow from a timber trading town into a city of 9 million: Boudica's fire, the Roman wall, Saxon Lundenwic, the Tower, Old London Bridge, the Black Death, the Great Fire of 1666, the docks, the railways, the Blitz and today's skyline, with the year and the population on screen the whole way.",
+   "tr": "MS 47 civarında Romalılar, Thames'in köprülenebildiği yerde bir liman kurdu. Londra'nın ahşap bir ticaret kasabasından 9 milyonluk bir şehre büyüyüşünü izleyin: Boudica yangını, Roma suru, Sakson Lundenwic'i, Londra Kulesi, Eski London Köprüsü, Kara Ölüm, 1666 Büyük Yangını, doklar, demiryolları, Blitz ve bugünün silueti; yıl ve nüfus baştan sona ekranda."
+  },
+  "tags": [
+   "london history",
+   "history of london",
+   "londinium",
+   "roman london",
+   "great fire of london",
+   "3d timelapse",
+   "city evolution",
+   "how london grew",
+   "london timelapse",
+   "urban history",
+   "british history",
+   "the blitz",
+   "old london bridge"
+  ],
+  "hashtags": [
+   "#London",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "London",
+    "tr": "Londra"
+   },
+   "line2": {
+    "en": "2,000 YEARS",
+    "tr": "2.000 YIL"
+   },
+   "line3": {
+    "en": "From a Roman bridge to a megacity",
+    "tr": "Bir Roma köprüsünden megakente"
+   },
+   "extra": "&mood=golden&pitch=30&az=-6&cam=51.5065,-0.0960,7.5"
+  }
+ },
+ "sources": [
+  {
+   "title": "Londinium (Wikipedia mirror)",
+   "url": "https://cavac.at/cavacopedia/Londinium"
+  },
+  {
+   "title": "The Rise and Fall of Roman London — History Hit",
+   "url": "https://www.historyhit.com/the-rise-and-fall-of-roman-london/"
+  },
+  {
+   "title": "London Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/London_Wall"
+  },
+  {
+   "title": "Anglo-Saxon London — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_London"
+  },
+  {
+   "title": "Lundenwic: the other medieval London — London Museum",
+   "url": "https://www.londonmuseum.org.uk/collections/london-stories/lundenwic-other-medieval-london/"
+  },
+  {
+   "title": "Norman and medieval London — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Norman_and_medieval_London"
+  },
+  {
+   "title": "London, growth of — Encyclopedia.com",
+   "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/london-growth"
+  },
+  {
+   "title": "Old London Bridge — Britannica",
+   "url": "https://www.britannica.com/topic/Old-London-Bridge"
+  },
+  {
+   "title": "A history of St Paul's Cathedral — London Museum",
+   "url": "https://londonmuseum.org.uk/collections/london-stories/a-history-of-st-pauls-cathedral"
+  },
+  {
+   "title": "Great Plague of London — Britannica",
+   "url": "https://www.britannica.com/event/Great-Plague-of-London"
+  },
+  {
+   "title": "Great Fire of London — New World Encyclopedia",
+   "url": "https://www.newworldencyclopedia.org/entry/Great_Fire_of_London"
+  },
+  {
+   "title": "List of bridges in London — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_bridges_in_London"
+  },
+  {
+   "title": "West India Docks — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/West_India_Docks"
+  },
+  {
+   "title": "History of London Docklands — Canal & River Trust",
+   "url": "https://canalrivertrust.org.uk/canals-and-rivers/london-docklands/history-of-london-docklands"
+  },
+  {
+   "title": "London and Greenwich Railway — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/London_and_Greenwich_Railway"
+  },
+  {
+   "title": "Palace of Westminster key dates — UK Parliament",
+   "url": "https://webtest.parliament.uk/about/living-heritage/building/palace/architecture/key-dates-fire1834-to-present"
+  },
+  {
+   "title": "The world's first Underground — London Transport Museum",
+   "url": "https://ltmuseum.co.uk/visit/museum-guide/worlds-first-underground"
+  },
+  {
+   "title": "Tower Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tower_Bridge"
+  },
+  {
+   "title": "Demography of London — Wikipedia",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Demography_of_London"
+  },
+  {
+   "title": "The Blitz hits London — History",
+   "url": "https://www.history.co.uk/history-of-london/ww2-blitz-hits-london"
+  },
+  {
+   "title": "One Canada Square — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/One_Canada_Square"
+  },
+  {
+   "title": "Tallest buildings in the UK — Designing Buildings",
+   "url": "https://www.designingbuildings.co.uk/wiki/Tallest_buildings_in_the_UK"
+  },
+  {
+   "title": "London: population — City Population",
+   "url": "https://citypopulation.de/en/uk/london/"
+  }
+ ]
+}
