@@ -75,5 +75,29 @@
   "uploaded": "2026-10-31T00:48:52Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "rome:short:whole",
+  "slug": "rome",
+  "kind": "short",
+  "video_id": "lgQ3MBlxjBo",
+  "link": "https://youtube.com/shorts/lgQ3MBlxjBo",
+  "title": "Rome: 3,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-04T16:00:00Z",
+  "uploaded": "2026-10-31T01:07:30Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "rome:short:rise-and-fall",
+  "slug": "rome",
+  "kind": "short",
+  "video_id": "U6lXWIe6xts",
+  "link": "https://youtube.com/shorts/U6lXWIe6xts",
+  "title": "Rome: From Nearly a Million People to Under 50,000 #shorts",
+  "publish_at": "2026-11-05T16:00:00Z",
+  "uploaded": "2026-10-31T01:07:34Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
