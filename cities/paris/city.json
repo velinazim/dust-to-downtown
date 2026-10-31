@@ -1,0 +1,6737 @@
+{
+ "slug": "paris",
+ "seed": 52,
+ "long_ok": true,
+ "name": {
+  "en": "Paris",
+  "tr": "Paris"
+ },
+ "intro": {
+  "en": "2,300 Years in 15 Minutes",
+  "tr": "15 Dakikada 2.300 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   48.62,
+   1.95,
+   49.1,
+   2.78
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   48.8,
+   2.21,
+   48.915,
+   2.47
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Seine",
+   "Marne"
+  ],
+  "lakes_from": 1855
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": -250,
+   "to": -53,
+   "seconds": 20,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "Banks of the Seine",
+    "tr": "Seine kıyısı"
+   },
+   "title": {
+    "en": "The Parisii",
+    "tr": "Parisiiler"
+   },
+   "sub": {
+    "en": "c. 250 BC: a Gallic tribe, the Parisii, settles on the Seine; where their town stood is debated",
+    "tr": "MÖ ~250: Galyalı Parisii kabilesi Seine kıyısına yerleşir; kasabalarının yeri hâlâ tartışmalı"
+   },
+   "camera": {
+    "center": [
+     48.8545,
+     2.347
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Origins",
+    "tr": "Başlangıç"
+   }
+  },
+  {
+   "from": -52,
+   "to": -51,
+   "seconds": 18,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "Banks of the Seine",
+    "tr": "Seine kıyısı"
+   },
+   "title": {
+    "en": "Rome Takes the Seine",
+    "tr": "Roma Seine'i Alıyor"
+   },
+   "sub": {
+    "en": "52 BC: the Parisii burn their town and bridges; Labienus's legions win the battle",
+    "tr": "MÖ 52: Parisiiler kasabalarını ve köprülerini yakar; Labienus'un lejyonları savaşı kazanır"
+   },
+   "camera": {
+    "center": [
+     48.8545,
+     2.347
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": -50,
+   "to": 60,
+   "seconds": 20,
+   "era": {
+    "en": "Roman Gaul",
+    "tr": "Roma Galyası"
+   },
+   "city_name": {
+    "en": "Lutetia",
+    "tr": "Lutetia"
+   },
+   "title": {
+    "en": "Lutetia",
+    "tr": "Lutetia"
+   },
+   "sub": {
+    "en": "The Romans build a new town on the left bank along one straight main street, the cardo",
+    "tr": "Romalılar sol yakada, tek bir düz ana cadde (cardo) boyunca yeni bir kasaba kurar"
+   },
+   "population": [
+    6000,
+    7000
+   ],
+   "camera": {
+    "center": [
+     48.849,
+     2.3455
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Roman Lutetia",
+    "tr": "Roma Lutetia'sı"
+   }
+  },
+  {
+   "from": 61,
+   "to": 150,
+   "seconds": 20,
+   "era": {
+    "en": "Roman Gaul",
+    "tr": "Roma Galyası"
+   },
+   "city_name": {
+    "en": "Lutetia",
+    "tr": "Lutetia"
+   },
+   "title": {
+    "en": "Forum and Arena",
+    "tr": "Forum ve Arena"
+   },
+   "sub": {
+    "en": "Late 1st century AD: a forum crowns the hill; the arena seats up to 15,000 people",
+    "tr": "MS 1. yüzyıl sonu: tepeye bir forum kurulur; arenada 15.000 kişiye kadar yer vardır"
+   },
+   "population": [
+    7000,
+    8000
+   ],
+   "camera": {
+    "center": [
+     48.847,
+     2.347
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 151,
+   "to": 274,
+   "seconds": 20,
+   "era": {
+    "en": "Roman Gaul",
+    "tr": "Roma Galyası"
+   },
+   "city_name": {
+    "en": "Lutetia",
+    "tr": "Lutetia"
+   },
+   "title": {
+    "en": "The Baths of Cluny",
+    "tr": "Cluny Hamamları"
+   },
+   "sub": {
+    "en": "c. AD 200: great public baths rise beside the cardo; their vaulted hall still stands",
+    "tr": "MS ~200: cardo'nun yanında büyük hamamlar yükselir; tonozlu salonu bugün hâlâ ayakta"
+   },
+   "population": 8000,
+   "camera": {
+    "center": [
+     48.8495,
+     2.3445
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 275,
+   "to": 300,
+   "seconds": 19,
+   "era": {
+    "en": "Late Antiquity",
+    "tr": "Geç Antik Çağ"
+   },
+   "city_name": {
+    "en": "Lutetia",
+    "tr": "Lutetia"
+   },
+   "title": {
+    "en": "Retreat to the Island",
+    "tr": "Adaya Çekiliş"
+   },
+   "sub": {
+    "en": "From AD 275 raids empty the left bank; stones of its monuments wall the island",
+    "tr": "MS 275'ten itibaren akınlar sol yakayı boşaltır; anıtlarının taşlarıyla ada surlanır"
+   },
+   "camera": {
+    "center": [
+     48.8525,
+     2.348
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Late Antiquity",
+    "tr": "Geç Antik Çağ"
+   }
+  },
+  {
+   "from": 301,
+   "to": 450,
+   "seconds": 19,
+   "era": {
+    "en": "Late Antiquity",
+    "tr": "Geç Antik Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Julian, Emperor in Paris",
+    "tr": "Paris'te İmparator Julianus"
+   },
+   "sub": {
+    "en": "February 360: Julian's troops proclaim him emperor in the city, now known as Paris",
+    "tr": "Şubat 360: Julianus'un askerleri onu, artık Paris adıyla bilinen şehirde imparator ilan eder"
+   },
+   "camera": {
+    "center": [
+     48.8535,
+     2.3475
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 451,
+   "to": 485,
+   "seconds": 17,
+   "era": {
+    "en": "Late Antiquity",
+    "tr": "Geç Antik Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Genevieve and Attila",
+    "tr": "Genevieve ve Attila"
+   },
+   "sub": {
+    "en": "451: Attila's army threatens Paris but passes it by; Genevieve urged the people to stay",
+    "tr": "451: Attila'nın ordusu Paris'i tehdit eder ama geçip gider; Genevieve halkı kalmaya çağırmıştı"
+   },
+   "camera": {
+    "center": [
+     48.854,
+     2.347
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 486,
+   "to": 844,
+   "seconds": 19,
+   "era": {
+    "en": "Frankish Kingdom",
+    "tr": "Frank Krallığı"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Capital of Clovis",
+    "tr": "Clovis'in Başkenti"
+   },
+   "sub": {
+    "en": "508: Clovis, king of the Franks, makes Paris his capital; in 751 the court moves to Aachen",
+    "tr": "508: Frank kralı Clovis Paris'i başkenti yapar; 751'de saray Aachen'e taşınır"
+   },
+   "camera": {
+    "center": [
+     48.854,
+     2.346
+    ],
+    "dist_km": 3.2
+   },
+   "chapter": {
+    "en": "Franks and Vikings",
+    "tr": "Franklar ve Vikingler"
+   }
+  },
+  {
+   "from": 845,
+   "to": 884,
+   "seconds": 18,
+   "era": {
+    "en": "Frankish Kingdom",
+    "tr": "Frank Krallığı"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Vikings Arrive",
+    "tr": "Vikingler Geliyor"
+   },
+   "sub": {
+    "en": "Easter 845: 120 Viking ships reach Paris; the king pays 7,000 livres to make them leave",
+    "tr": "Paskalya 845: 120 Viking gemisi Paris'e ulaşır; kral gitmeleri için 7.000 livre öder"
+   },
+   "camera": {
+    "center": [
+     48.855,
+     2.346
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 885,
+   "to": 986,
+   "seconds": 18,
+   "era": {
+    "en": "Frankish Kingdom",
+    "tr": "Frank Krallığı"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Great Siege",
+    "tr": "Büyük Kuşatma"
+   },
+   "sub": {
+    "en": "885–886: a Viking army besieges Paris for a year; the island city holds out",
+    "tr": "885–886: bir Viking ordusu Paris'i bir yıl boyunca kuşatır; ada şehri direnir"
+   },
+   "camera": {
+    "center": [
+     48.855,
+     2.3455
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 987,
+   "to": 1162,
+   "seconds": 18,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "A Royal Town",
+    "tr": "Bir Kraliyet Kasabası"
+   },
+   "sub": {
+    "en": "987: Hugh Capet founds the Capetian dynasty; the town spreads over the right bank",
+    "tr": "987: Hugues Capet, Capet hanedanını kurar; kasaba sağ yakaya yayılır"
+   },
+   "camera": {
+    "center": [
+     48.856,
+     2.348
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Medieval Paris",
+    "tr": "Orta Çağ Parisi"
+   }
+  },
+  {
+   "from": 1163,
+   "to": 1189,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Notre-Dame",
+    "tr": "Notre-Dame"
+   },
+   "sub": {
+    "en": "1163: the first stone of Notre-Dame is laid; its high altar is consecrated in 1182",
+    "tr": "1163: Notre-Dame'ın ilk taşı konur; ana sunağı 1182'de kutsanır"
+   },
+   "camera": {
+    "center": [
+     48.8535,
+     2.349
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1190,
+   "to": 1215,
+   "seconds": 21,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Philip Augustus's Wall",
+    "tr": "Philippe Auguste Suru"
+   },
+   "sub": {
+    "en": "1190–1213: a wall with 77 towers rings 253 hectares; the Louvre fortress guards the river",
+    "tr": "1190–1213: 77 kuleli bir sur 253 hektarı çevreler; Louvre kalesi nehri korur"
+   },
+   "camera": {
+    "center": [
+     48.855,
+     2.347
+    ],
+    "dist_km": 4.2
+   }
+  },
+  {
+   "from": 1216,
+   "to": 1327,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Sainte-Chapelle",
+    "tr": "Sainte-Chapelle"
+   },
+   "sub": {
+    "en": "26 April 1248: Louis IX's Sainte-Chapelle is consecrated beside the royal palace",
+    "tr": "26 Nisan 1248: IX. Louis'nin Sainte-Chapelle'i kraliyet sarayının yanında kutsanır"
+   },
+   "camera": {
+    "center": [
+     48.855,
+     2.345
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1328,
+   "to": 1347,
+   "seconds": 17,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Largest City in Europe",
+    "tr": "Avrupa'nın En Büyük Şehri"
+   },
+   "sub": {
+    "en": "1328: about 200,000 people make Paris the largest city in Europe",
+    "tr": "1328: yaklaşık 200.000 kişiyle Paris Avrupa'nın en büyük şehridir"
+   },
+   "population": 200000,
+   "camera": {
+    "center": [
+     48.856,
+     2.348
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 1348,
+   "to": 1355,
+   "seconds": 17,
+   "era": {
+    "en": "Hundred Years' War",
+    "tr": "Yüz Yıl Savaşları"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Black Death",
+    "tr": "Kara Ölüm"
+   },
+   "sub": {
+    "en": "1348–1349: plague kills 40,000–50,000 Parisians, about a quarter of the city",
+    "tr": "1348–1349: veba 40.000–50.000 Parisliyi, şehrin yaklaşık dörtte birini öldürür"
+   },
+   "population": [
+    200000,
+    150000
+   ],
+   "camera": {
+    "center": [
+     48.856,
+     2.348
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 1356,
+   "to": 1383,
+   "seconds": 20,
+   "era": {
+    "en": "Hundred Years' War",
+    "tr": "Yüz Yıl Savaşları"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Wall of Charles V",
+    "tr": "V. Charles Suru"
+   },
+   "sub": {
+    "en": "1356–1383: a new wall takes in the Marais; the Bastille rises at its eastern gate",
+    "tr": "1356–1383: yeni sur Marais'yi içine alır; doğu kapısında Bastille yükselir"
+   },
+   "population": 150000,
+   "camera": {
+    "center": [
+     48.858,
+     2.353
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 1384,
+   "to": 1436,
+   "seconds": 18,
+   "era": {
+    "en": "Hundred Years' War",
+    "tr": "Yüz Yıl Savaşları"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "English Paris",
+    "tr": "İngiliz Parisi"
+   },
+   "sub": {
+    "en": "1420–1436: English troops hold Paris; by 1436 only about 100,000 people remain",
+    "tr": "1420–1436: İngiliz askerleri Paris'i elinde tutar; 1436'da yalnızca ~100.000 kişi kalır"
+   },
+   "population": [
+    150000,
+    100000
+   ],
+   "camera": {
+    "center": [
+     48.8575,
+     2.35
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1437,
+   "to": 1532,
+   "seconds": 18,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The City Recovers",
+    "tr": "Şehir Toparlanıyor"
+   },
+   "sub": {
+    "en": "By 1500 Paris has grown back to about 250,000 people",
+    "tr": "1500'e gelindiğinde Paris yeniden yaklaşık 250.000 kişiye ulaşır"
+   },
+   "population": [
+    101000,
+    278000
+   ],
+   "camera": {
+    "center": [
+     48.857,
+     2.348
+    ],
+    "dist_km": 5.2
+   },
+   "chapter": {
+    "en": "Renaissance Paris",
+    "tr": "Rönesans Parisi"
+   }
+  },
+  {
+   "from": 1533,
+   "to": 1563,
+   "seconds": 18,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "A Royal Louvre",
+    "tr": "Kraliyet Louvre'u"
+   },
+   "sub": {
+    "en": "1533: work begins on a new Hôtel de Ville; from 1534 the Louvre is the royal home",
+    "tr": "1533: yeni Hôtel de Ville'in yapımı başlar; 1534'ten itibaren Louvre kraliyet konutudur"
+   },
+   "population": [
+    279000,
+    308000
+   ],
+   "camera": {
+    "center": [
+     48.8585,
+     2.343
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1564,
+   "to": 1571,
+   "seconds": 16,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Tuileries Palace",
+    "tr": "Tuileries Sarayı"
+   },
+   "sub": {
+    "en": "1564: Catherine de' Medici begins the Tuileries Palace west of the Louvre",
+    "tr": "1564: Catherine de Médicis, Louvre'un batısında Tuileries Sarayı'nı başlatır"
+   },
+   "population": [
+    309000,
+    316000
+   ],
+   "camera": {
+    "center": [
+     48.8605,
+     2.339
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1572,
+   "to": 1577,
+   "seconds": 16,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "St Bartholomew's Day",
+    "tr": "Aziz Bartholomeos Günü"
+   },
+   "sub": {
+    "en": "24 August 1572: the massacre of Protestants begins in Paris, in years of religious war",
+    "tr": "24 Ağustos 1572: din savaşları yıllarında Paris'te Protestanlara yönelik katliam başlar"
+   },
+   "population": [
+    317000,
+    322000
+   ],
+   "camera": {
+    "center": [
+     48.8575,
+     2.345
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1578,
+   "to": 1604,
+   "seconds": 19,
+   "era": {
+    "en": "Renaissance",
+    "tr": "Rönesans"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Pont Neuf",
+    "tr": "Pont Neuf"
+   },
+   "sub": {
+    "en": "1578–1607: the Pont Neuf, 232 m long, crosses the Seine at the tip of the island",
+    "tr": "1578–1607: 232 m'lik Pont Neuf, adanın ucunda Seine'i geçer"
+   },
+   "population": [
+    323000,
+    352000
+   ],
+   "camera": {
+    "center": [
+     48.857,
+     2.342
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1605,
+   "to": 1632,
+   "seconds": 18,
+   "era": {
+    "en": "Bourbon France",
+    "tr": "Bourbon Fransası"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Place Royale",
+    "tr": "Place Royale"
+   },
+   "sub": {
+    "en": "1605–1612: Henry IV builds a 140 m square of brick houses, today's Place des Vosges",
+    "tr": "1605–1612: IV. Henri 140 m'lik bir meydan yaptırır: bugünkü Place des Vosges"
+   },
+   "population": [
+    353000,
+    386000
+   ],
+   "camera": {
+    "center": [
+     48.856,
+     2.36
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "The Age of Kings",
+    "tr": "Krallar Çağı"
+   }
+  },
+  {
+   "from": 1633,
+   "to": 1669,
+   "seconds": 18,
+   "era": {
+    "en": "Bourbon France",
+    "tr": "Bourbon Fransası"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The City Pushes West",
+    "tr": "Şehir Batıya Uzanıyor"
+   },
+   "sub": {
+    "en": "1633–1636: a new wall takes in the west; by 1643 Paris has about 400,000 people",
+    "tr": "1633–1636: yeni bir sur batıyı içine alır; 1643'te Paris'te ~400.000 kişi yaşar"
+   },
+   "population": [
+    387000,
+    432000
+   ],
+   "camera": {
+    "center": [
+     48.8615,
+     2.342
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1670,
+   "to": 1675,
+   "seconds": 17,
+   "era": {
+    "en": "Bourbon France",
+    "tr": "Bourbon Fransası"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Grand Boulevards",
+    "tr": "Büyük Bulvarlar"
+   },
+   "sub": {
+    "en": "1670: Louis XIV orders the walls torn down; tree-lined boulevards take their place",
+    "tr": "1670: XIV. Louis surların yıkılmasını emreder; yerlerini ağaçlı bulvarlar alır"
+   },
+   "population": [
+    434000,
+    440000
+   ],
+   "camera": {
+    "center": [
+     48.864,
+     2.348
+    ],
+    "dist_km": 5.4
+   }
+  },
+  {
+   "from": 1676,
+   "to": 1706,
+   "seconds": 18,
+   "era": {
+    "en": "Bourbon France",
+    "tr": "Bourbon Fransası"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Les Invalides",
+    "tr": "Les Invalides"
+   },
+   "sub": {
+    "en": "1671–1706: Louis XIV builds Les Invalides for old soldiers; its dome rises 107 m",
+    "tr": "1671–1706: XIV. Louis yaşlı askerler için Les Invalides'i yaptırır; kubbesi 107 m'ye yükselir"
+   },
+   "population": [
+    442000,
+    483000
+   ],
+   "camera": {
+    "center": [
+     48.8555,
+     2.32
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1707,
+   "to": 1783,
+   "seconds": 8,
+   "era": {
+    "en": "Bourbon France",
+    "tr": "Bourbon Fransası"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "population": [
+    485000,
+    609000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.34
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1784,
+   "to": 1788,
+   "seconds": 17,
+   "era": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Farmers-General Wall",
+    "tr": "Fermiers Généraux Suru"
+   },
+   "sub": {
+    "en": "1784–1791: a 24 km customs wall with 55 toll gates rings the whole city",
+    "tr": "1784–1791: 55 gümrük kapılı, 24 km'lik bir vergi suru bütün şehri çevreler"
+   },
+   "population": [
+    611000,
+    618000
+   ],
+   "camera": {
+    "center": [
+     48.86,
+     2.342
+    ],
+    "dist_km": 8.5
+   },
+   "chapter": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   }
+  },
+  {
+   "from": 1789,
+   "to": 1799,
+   "seconds": 19,
+   "era": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Fall of the Bastille",
+    "tr": "Bastille'in Düşüşü"
+   },
+   "sub": {
+    "en": "14 July 1789: crowds storm the Bastille; by November it is mostly torn down",
+    "tr": "14 Temmuz 1789: kalabalık Bastille'e saldırır; kasıma kadar büyük kısmı yıkılır"
+   },
+   "population": [
+    620000,
+    570000
+   ],
+   "camera": {
+    "center": [
+     48.8545,
+     2.364
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1800,
+   "to": 1836,
+   "seconds": 19,
+   "era": {
+    "en": "Napoleonic Era",
+    "tr": "Napolyon Dönemi"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Arc de Triomphe",
+    "tr": "Zafer Takı"
+   },
+   "sub": {
+    "en": "1806–1836: the 50 m Arc de Triomphe rises; the 1801 census counts 546,856 Parisians",
+    "tr": "1806–1836: 50 m'lik Zafer Takı yükselir; 1801 sayımında 546.856 Parisli vardır"
+   },
+   "population": [
+    546856,
+    899313
+   ],
+   "camera": {
+    "center": [
+     48.8665,
+     2.315
+    ],
+    "dist_km": 5.4
+   },
+   "chapter": {
+    "en": "19th-Century Paris",
+    "tr": "19. Yüzyıl Parisi"
+   }
+  },
+  {
+   "from": 1837,
+   "to": 1840,
+   "seconds": 16,
+   "era": {
+    "en": "July Monarchy",
+    "tr": "Temmuz Monarşisi"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The First Railway",
+    "tr": "İlk Demiryolu"
+   },
+   "sub": {
+    "en": "24 August 1837: Paris's first station opens, for the line to Saint-Germain-en-Laye",
+    "tr": "24 Ağustos 1837: Saint-Germain-en-Laye hattı için Paris'in ilk istasyonu açılır"
+   },
+   "population": [
+    906000,
+    928000
+   ],
+   "camera": {
+    "center": [
+     48.87,
+     2.32
+    ],
+    "dist_km": 5.8
+   }
+  },
+  {
+   "from": 1841,
+   "to": 1852,
+   "seconds": 18,
+   "era": {
+    "en": "July Monarchy",
+    "tr": "Temmuz Monarşisi"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Thiers Wall",
+    "tr": "Thiers Suru"
+   },
+   "sub": {
+    "en": "1841–1846: a 33 km rampart with 94 bastions encircles Paris and its villages",
+    "tr": "1841–1846: 94 tabyalı, 33 km'lik bir sur Paris'i ve çevre köylerini kuşatır"
+   },
+   "population": [
+    935000,
+    1076000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.34
+    ],
+    "dist_km": 13.0
+   }
+  },
+  {
+   "from": 1853,
+   "to": 1859,
+   "seconds": 20,
+   "era": {
+    "en": "Second Empire",
+    "tr": "İkinci İmparatorluk"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Haussmann's Paris",
+    "tr": "Haussmann'ın Parisi"
+   },
+   "sub": {
+    "en": "From 1853 Haussmann tears down 19,730 buildings and cuts wide new boulevards",
+    "tr": "1853'ten itibaren Haussmann 19.730 binayı yıkar ve geniş yeni bulvarlar açar"
+   },
+   "population": [
+    1100000,
+    1246000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.345
+    ],
+    "dist_km": 6.4
+   },
+   "chapter": {
+    "en": "Haussmann",
+    "tr": "Haussmann"
+   }
+  },
+  {
+   "from": 1860,
+   "to": 1869,
+   "seconds": 18,
+   "era": {
+    "en": "Second Empire",
+    "tr": "İkinci İmparatorluk"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Twenty Arrondissements",
+    "tr": "Yirmi Bölge"
+   },
+   "sub": {
+    "en": "1 January 1860: Paris annexes its suburbs up to the Thiers wall; 12 districts become 20",
+    "tr": "1 Ocak 1860: Paris, Thiers suruna kadar banliyöleri katar; 12 bölge 20 olur"
+   },
+   "population": [
+    1696000,
+    1838000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.342
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1870,
+   "to": 1871.1,
+   "seconds": 18,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Siege of Paris",
+    "tr": "Paris Kuşatması"
+   },
+   "sub": {
+    "en": "19 Sept 1870 – 28 Jan 1871: German armies besiege the city and shell it in January",
+    "tr": "19 Eylül 1870 – 28 Ocak 1871: Alman orduları şehri kuşatır, ocakta bombalar"
+   },
+   "population": [
+    1843000,
+    1848000
+   ],
+   "camera": {
+    "center": [
+     48.856,
+     2.34
+    ],
+    "dist_km": 17.0
+   },
+   "chapter": {
+    "en": "Siege and Commune",
+    "tr": "Kuşatma ve Komün"
+   }
+  },
+  {
+   "from": 1871.2,
+   "to": 1872,
+   "seconds": 18,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Paris Burns",
+    "tr": "Paris Yanıyor"
+   },
+   "sub": {
+    "en": "May 1871: as the Commune is crushed, fires gut the Tuileries and the Hôtel de Ville",
+    "tr": "Mayıs 1871: Komün bastırılırken yangınlar Tuileries'yi ve Hôtel de Ville'i harap eder"
+   },
+   "population": [
+    1848000,
+    1852000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.342
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1873,
+   "to": 1886,
+   "seconds": 18,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Opera and Sacré-Cœur",
+    "tr": "Opera ve Sacré-Cœur"
+   },
+   "sub": {
+    "en": "1875: the Palais Garnier opera opens and work begins on Sacré-Cœur on Montmartre",
+    "tr": "1875: Palais Garnier operası açılır ve Montmartre'da Sacré-Cœur'ün yapımı başlar"
+   },
+   "population": [
+    1885000,
+    2345000
+   ],
+   "camera": {
+    "center": [
+     48.874,
+     2.339
+    ],
+    "dist_km": 4.6
+   },
+   "chapter": {
+    "en": "Belle Époque",
+    "tr": "Belle Époque"
+   }
+  },
+  {
+   "from": 1887,
+   "to": 1899,
+   "seconds": 20,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Eiffel Tower",
+    "tr": "Eiffel Kulesi"
+   },
+   "sub": {
+    "en": "1887–1889: a 300 m iron tower is built for the World's Fair on the Champ de Mars",
+    "tr": "1887–1889: Champ de Mars'taki Dünya Fuarı için 300 m'lik demir bir kule yapılır"
+   },
+   "population": [
+    2365000,
+    2642000
+   ],
+   "camera": {
+    "center": [
+     48.857,
+     2.305
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1900,
+   "to": 1918,
+   "seconds": 18,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Métro",
+    "tr": "Metro"
+   },
+   "sub": {
+    "en": "19 July 1900: the first Métro line opens, from Porte Maillot to Porte de Vincennes",
+    "tr": "19 Temmuz 1900: ilk metro hattı Porte Maillot ile Porte de Vincennes arasında açılır"
+   },
+   "population": [
+    2678000,
+    2901000
+   ],
+   "camera": {
+    "center": [
+     48.86,
+     2.34
+    ],
+    "dist_km": 11.0
+   }
+  },
+  {
+   "from": 1919,
+   "to": 1939,
+   "seconds": 18,
+   "era": {
+    "en": "Third Republic",
+    "tr": "Üçüncü Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Peak Paris",
+    "tr": "Zirvedeki Paris"
+   },
+   "sub": {
+    "en": "From 1919 the Thiers wall is torn down; in 1921 Paris peaks at 2,906,472 people",
+    "tr": "1919'dan itibaren Thiers suru yıkılır; 1921'de Paris 2.906.472 kişiyle zirveye ulaşır"
+   },
+   "population": [
+    2903000,
+    2798000
+   ],
+   "camera": {
+    "center": [
+     48.859,
+     2.34
+    ],
+    "dist_km": 15.0
+   },
+   "chapter": {
+    "en": "20th-Century Paris",
+    "tr": "20. Yüzyıl Parisi"
+   }
+  },
+  {
+   "from": 1940,
+   "to": 1944.7,
+   "seconds": 18,
+   "era": {
+    "en": "World War II",
+    "tr": "II. Dünya Savaşı"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Occupation and Liberation",
+    "tr": "İşgal ve Kurtuluş"
+   },
+   "sub": {
+    "en": "1940–1944: German troops occupy Paris; it is liberated on 25 August 1944",
+    "tr": "1940–1944: Alman askerleri Paris'i işgal eder; şehir 25 Ağustos 1944'te kurtarılır"
+   },
+   "population": [
+    2788000,
+    2739000
+   ],
+   "camera": {
+    "center": [
+     48.857,
+     2.345
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1944.8,
+   "to": 1968,
+   "seconds": 18,
+   "era": {
+    "en": "Fifth Republic",
+    "tr": "Beşinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "La Défense",
+    "tr": "La Défense"
+   },
+   "sub": {
+    "en": "1958: work starts on a business district west of Paris; its first tower opens in 1966",
+    "tr": "1958: Paris'in batısında bir iş merkezinin yapımı başlar; ilk kulesi 1966'da açılır"
+   },
+   "population": [
+    2738000,
+    2591000
+   ],
+   "camera": {
+    "center": [
+     48.87,
+     2.29
+    ],
+    "dist_km": 13.0
+   }
+  },
+  {
+   "from": 1969,
+   "to": 1976,
+   "seconds": 18,
+   "era": {
+    "en": "Fifth Republic",
+    "tr": "Beşinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Ring Road and Tower",
+    "tr": "Çevre Yolu ve Kule"
+   },
+   "sub": {
+    "en": "1973: the 35 km Boulevard Périphérique is finished and the 210 m Montparnasse tower opens",
+    "tr": "1973: 35 km'lik Périphérique çevre yolu biter ve 210 m'lik Montparnasse kulesi açılır"
+   },
+   "population": [
+    2547000,
+    2282000
+   ],
+   "camera": {
+    "center": [
+     48.854,
+     2.335
+    ],
+    "dist_km": 15.0
+   }
+  },
+  {
+   "from": 1977,
+   "to": 1989,
+   "seconds": 18,
+   "era": {
+    "en": "Fifth Republic",
+    "tr": "Beşinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Grand Projects",
+    "tr": "Büyük Projeler"
+   },
+   "sub": {
+    "en": "1977: the Centre Pompidou opens; on 14 July 1989 the Grande Arche is inaugurated",
+    "tr": "1977: Centre Pompidou açılır; 14 Temmuz 1989'da Grande Arche açılışını yapar"
+   },
+   "population": [
+    2264000,
+    2155000
+   ],
+   "camera": {
+    "center": [
+     48.869,
+     2.3
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1990,
+   "to": 2018,
+   "seconds": 9,
+   "era": {
+    "en": "Fifth Republic",
+    "tr": "Beşinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "population": [
+    2152000,
+    2176000
+   ],
+   "camera": {
+    "center": [
+     48.86,
+     2.33
+    ],
+    "dist_km": 22.0
+   }
+  },
+  {
+   "from": 2019,
+   "to": 2024.4,
+   "seconds": 19,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Notre-Dame Burns",
+    "tr": "Notre-Dame Yanıyor"
+   },
+   "sub": {
+    "en": "15 April 2019: fire destroys Notre-Dame's spire and roof; it reopens in December 2024",
+    "tr": "15 Nisan 2019: yangın Notre-Dame'ın kulesini ve çatısını yakar; Aralık 2024'te yeniden açılır"
+   },
+   "population": [
+    2165000,
+    2104000
+   ],
+   "camera": {
+    "center": [
+     48.8535,
+     2.349
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Paris Today",
+    "tr": "Bugünün Parisi"
+   }
+  },
+  {
+   "from": 2024.5,
+   "to": 2024.9,
+   "seconds": 17,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "The Games on the Seine",
+    "tr": "Seine'de Olimpiyatlar"
+   },
+   "sub": {
+    "en": "26 July 2024: 85 boats carry 6,800 athletes down the Seine to open the Olympic Games",
+    "tr": "26 Temmuz 2024: 85 tekne 6.800 sporcuyu Seine boyunca taşıyarak Olimpiyatları açar"
+   },
+   "population": 2103778,
+   "camera": {
+    "center": [
+     48.858,
+     2.325
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 2025,
+   "to": 2026,
+   "seconds": 25,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "title": {
+    "en": "Paris Today",
+    "tr": "Bugünün Parisi"
+   },
+   "sub": {
+    "en": "From a Gallic tribe's town to 2.1 million Parisians, some 2,300 years on",
+    "tr": "Galyalı bir kabilenin kasabasından 2,1 milyon Parisliye, yaklaşık 2.300 yıl sonra"
+   },
+   "population": 2103778,
+   "camera": {
+    "center": [
+     48.862,
+     2.33
+    ],
+    "dist_km": 11.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Parisii village (≈, site debated)",
+   "style": "celtic",
+   "poly": [
+    [
+     48.857,
+     2.3412
+    ],
+    [
+     48.8567,
+     2.3455
+    ],
+    [
+     48.8556,
+     2.349
+    ],
+    [
+     48.8541,
+     2.3512
+    ],
+    [
+     48.8526,
+     2.3513
+    ],
+    [
+     48.8529,
+     2.348
+    ],
+    [
+     48.854,
+     2.3446
+    ],
+    [
+     48.8556,
+     2.3417
+    ]
+   ],
+   "from": -250,
+   "to": -150,
+   "density": 0.5,
+   "grain_m": 45,
+   "grow_from": [
+    48.855,
+    2.347
+   ]
+  },
+  {
+   "name": "Roman island",
+   "style": "roman",
+   "poly": [
+    [
+     48.857,
+     2.3412
+    ],
+    [
+     48.8567,
+     2.3455
+    ],
+    [
+     48.8556,
+     2.349
+    ],
+    [
+     48.8541,
+     2.3512
+    ],
+    [
+     48.8526,
+     2.3513
+    ],
+    [
+     48.8529,
+     2.348
+    ],
+    [
+     48.854,
+     2.3446
+    ],
+    [
+     48.8556,
+     2.3417
+    ]
+   ],
+   "from": -45,
+   "to": 40,
+   "density": 0.7,
+   "grain_m": 45,
+   "grow_from": [
+    48.855,
+    2.347
+   ]
+  },
+  {
+   "name": "Lutetia (left bank)",
+   "style": "roman",
+   "poly": [
+    [
+     48.8528,
+     2.3432
+    ],
+    [
+     48.8526,
+     2.349
+    ],
+    [
+     48.8505,
+     2.3508
+    ],
+    [
+     48.847,
+     2.3515
+    ],
+    [
+     48.844,
+     2.3505
+    ],
+    [
+     48.8416,
+     2.3478
+    ],
+    [
+     48.8411,
+     2.3422
+    ],
+    [
+     48.843,
+     2.3388
+    ],
+    [
+     48.847,
+     2.3378
+    ],
+    [
+     48.8505,
+     2.3398
+    ]
+   ],
+   "from": -48,
+   "to": 120,
+   "density": 0.62,
+   "grid_deg": 82,
+   "grow_from": [
+    48.851,
+    2.346
+   ],
+   "fade": [
+    275,
+    300,
+    0.1
+   ]
+  },
+  {
+   "name": "Late Roman Cité",
+   "style": "medieval",
+   "poly": [
+    [
+     48.857,
+     2.3412
+    ],
+    [
+     48.8567,
+     2.3455
+    ],
+    [
+     48.8556,
+     2.349
+    ],
+    [
+     48.8541,
+     2.3512
+    ],
+    [
+     48.8526,
+     2.3513
+    ],
+    [
+     48.8529,
+     2.348
+    ],
+    [
+     48.854,
+     2.3446
+    ],
+    [
+     48.8556,
+     2.3417
+    ]
+   ],
+   "from": 276,
+   "to": 300,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    48.854,
+    2.349
+   ]
+  },
+  {
+   "name": "Right bank (10th–12th c.)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.8582,
+     2.344
+    ],
+    [
+     48.8605,
+     2.3445
+    ],
+    [
+     48.8622,
+     2.3475
+    ],
+    [
+     48.8616,
+     2.3522
+    ],
+    [
+     48.8596,
+     2.356
+    ],
+    [
+     48.8572,
+     2.3575
+    ],
+    [
+     48.856,
+     2.3545
+    ],
+    [
+     48.857,
+     2.349
+    ]
+   ],
+   "from": 950,
+   "to": 1150,
+   "density": 0.75,
+   "grow_from": [
+    48.8575,
+    2.348
+   ]
+  },
+  {
+   "name": "Left bank bourgs (12th c.)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.8528,
+     2.3432
+    ],
+    [
+     48.8527,
+     2.3485
+    ],
+    [
+     48.8505,
+     2.351
+    ],
+    [
+     48.848,
+     2.35
+    ],
+    [
+     48.8478,
+     2.343
+    ],
+    [
+     48.85,
+     2.341
+    ]
+   ],
+   "from": 1100,
+   "to": 1180,
+   "density": 0.6,
+   "grow_from": [
+    48.8515,
+    2.346
+   ]
+  },
+  {
+   "name": "Inside Philip Augustus (right bank)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.859,
+     2.3378
+    ],
+    [
+     48.8604,
+     2.3392
+    ],
+    [
+     48.8615,
+     2.3405
+    ],
+    [
+     48.863,
+     2.3428
+    ],
+    [
+     48.8642,
+     2.3445
+    ],
+    [
+     48.8648,
+     2.3462
+    ],
+    [
+     48.8643,
+     2.35
+    ],
+    [
+     48.8627,
+     2.3533
+    ],
+    [
+     48.8607,
+     2.356
+    ],
+    [
+     48.8588,
+     2.36
+    ],
+    [
+     48.8567,
+     2.3615
+    ],
+    [
+     48.8552,
+     2.362
+    ],
+    [
+     48.8535,
+     2.3608
+    ],
+    [
+     48.8521,
+     2.36
+    ],
+    [
+     48.854,
+     2.354
+    ],
+    [
+     48.856,
+     2.349
+    ],
+    [
+     48.8575,
+     2.344
+    ],
+    [
+     48.8588,
+     2.339
+    ]
+   ],
+   "from": 1190,
+   "to": 1300,
+   "density": 0.85,
+   "grow_from": [
+    48.859,
+    2.348
+   ]
+  },
+  {
+   "name": "Inside Philip Augustus (left bank)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.8574,
+     2.3372
+    ],
+    [
+     48.8558,
+     2.3383
+    ],
+    [
+     48.854,
+     2.3392
+    ],
+    [
+     48.8522,
+     2.339
+    ],
+    [
+     48.8508,
+     2.3393
+    ],
+    [
+     48.8492,
+     2.3402
+    ],
+    [
+     48.848,
+     2.3412
+    ],
+    [
+     48.847,
+     2.3448
+    ],
+    [
+     48.8458,
+     2.3462
+    ],
+    [
+     48.8448,
+     2.3488
+    ],
+    [
+     48.8455,
+     2.351
+    ],
+    [
+     48.8475,
+     2.3518
+    ],
+    [
+     48.849,
+     2.353
+    ],
+    [
+     48.8504,
+     2.3551
+    ],
+    [
+     48.8515,
+     2.351
+    ],
+    [
+     48.8527,
+     2.347
+    ],
+    [
+     48.8545,
+     2.343
+    ],
+    [
+     48.8565,
+     2.3385
+    ]
+   ],
+   "from": 1200,
+   "to": 1320,
+   "density": 0.75,
+   "grow_from": [
+    48.851,
+    2.345
+   ]
+  },
+  {
+   "name": "Marais (Charles V)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.8603,
+     2.3313
+    ],
+    [
+     48.8625,
+     2.333
+    ],
+    [
+     48.8642,
+     2.336
+    ],
+    [
+     48.8657,
+     2.3412
+    ],
+    [
+     48.8672,
+     2.347
+    ],
+    [
+     48.869,
+     2.3528
+    ],
+    [
+     48.8693,
+     2.359
+    ],
+    [
+     48.8672,
+     2.3635
+    ],
+    [
+     48.8645,
+     2.366
+    ],
+    [
+     48.8605,
+     2.368
+    ],
+    [
+     48.856,
+     2.369
+    ],
+    [
+     48.8533,
+     2.3692
+    ],
+    [
+     48.8512,
+     2.366
+    ],
+    [
+     48.8497,
+     2.3628
+    ],
+    [
+     48.8515,
+     2.359
+    ],
+    [
+     48.854,
+     2.354
+    ],
+    [
+     48.856,
+     2.349
+    ],
+    [
+     48.8578,
+     2.343
+    ],
+    [
+     48.8592,
+     2.337
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.859,
+      2.3378
+     ],
+     [
+      48.8604,
+      2.3392
+     ],
+     [
+      48.8615,
+      2.3405
+     ],
+     [
+      48.863,
+      2.3428
+     ],
+     [
+      48.8642,
+      2.3445
+     ],
+     [
+      48.8648,
+      2.3462
+     ],
+     [
+      48.8643,
+      2.35
+     ],
+     [
+      48.8627,
+      2.3533
+     ],
+     [
+      48.8607,
+      2.356
+     ],
+     [
+      48.8588,
+      2.36
+     ],
+     [
+      48.8567,
+      2.3615
+     ],
+     [
+      48.8552,
+      2.362
+     ],
+     [
+      48.8535,
+      2.3608
+     ],
+     [
+      48.8521,
+      2.36
+     ],
+     [
+      48.854,
+      2.354
+     ],
+     [
+      48.856,
+      2.349
+     ],
+     [
+      48.8575,
+      2.344
+     ],
+     [
+      48.8588,
+      2.339
+     ]
+    ]
+   ],
+   "from": 1360,
+   "to": 1500,
+   "density": 0.75,
+   "grow_from": [
+    48.859,
+    2.36
+   ]
+  },
+  {
+   "name": "Left-bank faubourgs",
+   "style": "stone",
+   "poly": [
+    [
+     48.8574,
+     2.3372
+    ],
+    [
+     48.858,
+     2.33
+    ],
+    [
+     48.8585,
+     2.322
+    ],
+    [
+     48.856,
+     2.318
+    ],
+    [
+     48.851,
+     2.32
+    ],
+    [
+     48.847,
+     2.326
+    ],
+    [
+     48.844,
+     2.333
+    ],
+    [
+     48.8425,
+     2.342
+    ],
+    [
+     48.842,
+     2.352
+    ],
+    [
+     48.844,
+     2.358
+    ],
+    [
+     48.8475,
+     2.36
+    ],
+    [
+     48.8504,
+     2.3551
+    ],
+    [
+     48.849,
+     2.353
+    ],
+    [
+     48.8455,
+     2.351
+    ],
+    [
+     48.8448,
+     2.3488
+    ],
+    [
+     48.847,
+     2.3448
+    ],
+    [
+     48.8492,
+     2.3402
+    ],
+    [
+     48.854,
+     2.3392
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.844,
+      2.333
+     ],
+     [
+      48.849,
+      2.333
+     ],
+     [
+      48.849,
+      2.34
+     ],
+     [
+      48.844,
+      2.34
+     ]
+    ]
+   ],
+   "from": 1540,
+   "to": 1700,
+   "density": 0.65,
+   "grow_from": [
+    48.853,
+    2.338
+   ]
+  },
+  {
+   "name": "Western right bank (Louis XIII)",
+   "style": "stone",
+   "poly": [
+    [
+     48.8645,
+     2.3212
+    ],
+    [
+     48.8668,
+     2.3225
+    ],
+    [
+     48.8695,
+     2.3245
+    ],
+    [
+     48.8706,
+     2.329
+    ],
+    [
+     48.8712,
+     2.334
+    ],
+    [
+     48.8716,
+     2.34
+    ],
+    [
+     48.871,
+     2.346
+    ],
+    [
+     48.8702,
+     2.351
+    ],
+    [
+     48.8692,
+     2.3528
+    ],
+    [
+     48.8672,
+     2.347
+    ],
+    [
+     48.8657,
+     2.3412
+    ],
+    [
+     48.8642,
+     2.336
+    ],
+    [
+     48.8625,
+     2.333
+    ],
+    [
+     48.8603,
+     2.3313
+    ],
+    [
+     48.8625,
+     2.3255
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.8648,
+      2.3218
+     ],
+     [
+      48.8636,
+      2.3218
+     ],
+     [
+      48.8615,
+      2.33
+     ],
+     [
+      48.8627,
+      2.331
+     ]
+    ]
+   ],
+   "from": 1630,
+   "to": 1690,
+   "density": 0.8,
+   "grow_from": [
+    48.864,
+    2.335
+   ]
+  },
+  {
+   "name": "Île Saint-Louis (≈ 17th c.)",
+   "style": "stone",
+   "poly": [
+    [
+     48.853,
+     2.3545
+    ],
+    [
+     48.8524,
+     2.3585
+    ],
+    [
+     48.851,
+     2.3608
+    ],
+    [
+     48.8502,
+     2.36
+    ],
+    [
+     48.8509,
+     2.3565
+    ],
+    [
+     48.8521,
+     2.3542
+    ]
+   ],
+   "from": 1620,
+   "to": 1660,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    48.8516,
+    2.357
+   ]
+  },
+  {
+   "name": "18th-century faubourgs",
+   "style": "georgian",
+   "poly": [
+    [
+     48.8558,
+     2.287
+    ],
+    [
+     48.86,
+     2.2885
+    ],
+    [
+     48.865,
+     2.2905
+    ],
+    [
+     48.87,
+     2.2935
+    ],
+    [
+     48.8738,
+     2.295
+    ],
+    [
+     48.877,
+     2.2995
+    ],
+    [
+     48.88,
+     2.308
+    ],
+    [
+     48.8825,
+     2.3175
+    ],
+    [
+     48.8835,
+     2.327
+    ],
+    [
+     48.8822,
+     2.338
+    ],
+    [
+     48.8835,
+     2.35
+    ],
+    [
+     48.8842,
+     2.36
+    ],
+    [
+     48.883,
+     2.37
+    ],
+    [
+     48.877,
+     2.3735
+    ],
+    [
+     48.872,
+     2.377
+    ],
+    [
+     48.866,
+     2.383
+    ],
+    [
+     48.859,
+     2.3895
+    ],
+    [
+     48.853,
+     2.3945
+    ],
+    [
+     48.8483,
+     2.396
+    ],
+    [
+     48.843,
+     2.3985
+    ],
+    [
+     48.8395,
+     2.392
+    ],
+    [
+     48.8382,
+     2.38
+    ],
+    [
+     48.8362,
+     2.374
+    ],
+    [
+     48.834,
+     2.366
+    ],
+    [
+     48.8318,
+     2.358
+    ],
+    [
+     48.831,
+     2.3555
+    ],
+    [
+     48.8318,
+     2.345
+    ],
+    [
+     48.833,
+     2.338
+    ],
+    [
+     48.8338,
+     2.332
+    ],
+    [
+     48.8395,
+     2.326
+    ],
+    [
+     48.841,
+     2.32
+    ],
+    [
+     48.842,
+     2.314
+    ],
+    [
+     48.845,
+     2.309
+    ],
+    [
+     48.849,
+     2.299
+    ],
+    [
+     48.853,
+     2.29
+    ],
+    [
+     48.8543,
+     2.2878
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.8603,
+      2.3313
+     ],
+     [
+      48.8625,
+      2.333
+     ],
+     [
+      48.8642,
+      2.336
+     ],
+     [
+      48.8657,
+      2.3412
+     ],
+     [
+      48.8672,
+      2.347
+     ],
+     [
+      48.869,
+      2.3528
+     ],
+     [
+      48.8693,
+      2.359
+     ],
+     [
+      48.8672,
+      2.3635
+     ],
+     [
+      48.8645,
+      2.366
+     ],
+     [
+      48.8605,
+      2.368
+     ],
+     [
+      48.856,
+      2.369
+     ],
+     [
+      48.8533,
+      2.3692
+     ],
+     [
+      48.8512,
+      2.366
+     ],
+     [
+      48.8497,
+      2.3628
+     ],
+     [
+      48.8515,
+      2.359
+     ],
+     [
+      48.854,
+      2.354
+     ],
+     [
+      48.856,
+      2.349
+     ],
+     [
+      48.8578,
+      2.343
+     ],
+     [
+      48.8592,
+      2.337
+     ]
+    ],
+    [
+     [
+      48.8574,
+      2.3372
+     ],
+     [
+      48.8558,
+      2.3383
+     ],
+     [
+      48.854,
+      2.3392
+     ],
+     [
+      48.8522,
+      2.339
+     ],
+     [
+      48.8508,
+      2.3393
+     ],
+     [
+      48.8492,
+      2.3402
+     ],
+     [
+      48.848,
+      2.3412
+     ],
+     [
+      48.847,
+      2.3448
+     ],
+     [
+      48.8458,
+      2.3462
+     ],
+     [
+      48.8448,
+      2.3488
+     ],
+     [
+      48.8455,
+      2.351
+     ],
+     [
+      48.8475,
+      2.3518
+     ],
+     [
+      48.849,
+      2.353
+     ],
+     [
+      48.8504,
+      2.3551
+     ],
+     [
+      48.8515,
+      2.351
+     ],
+     [
+      48.8527,
+      2.347
+     ],
+     [
+      48.8545,
+      2.343
+     ],
+     [
+      48.8565,
+      2.3385
+     ]
+    ],
+    [
+     [
+      48.8574,
+      2.3372
+     ],
+     [
+      48.858,
+      2.33
+     ],
+     [
+      48.8585,
+      2.322
+     ],
+     [
+      48.856,
+      2.318
+     ],
+     [
+      48.851,
+      2.32
+     ],
+     [
+      48.847,
+      2.326
+     ],
+     [
+      48.844,
+      2.333
+     ],
+     [
+      48.8425,
+      2.342
+     ],
+     [
+      48.842,
+      2.352
+     ],
+     [
+      48.844,
+      2.358
+     ],
+     [
+      48.8475,
+      2.36
+     ],
+     [
+      48.8504,
+      2.3551
+     ],
+     [
+      48.849,
+      2.353
+     ],
+     [
+      48.8455,
+      2.351
+     ],
+     [
+      48.8448,
+      2.3488
+     ],
+     [
+      48.847,
+      2.3448
+     ],
+     [
+      48.8492,
+      2.3402
+     ],
+     [
+      48.854,
+      2.3392
+     ]
+    ],
+    [
+     [
+      48.8645,
+      2.3212
+     ],
+     [
+      48.8668,
+      2.3225
+     ],
+     [
+      48.8695,
+      2.3245
+     ],
+     [
+      48.8706,
+      2.329
+     ],
+     [
+      48.8712,
+      2.334
+     ],
+     [
+      48.8716,
+      2.34
+     ],
+     [
+      48.871,
+      2.346
+     ],
+     [
+      48.8702,
+      2.351
+     ],
+     [
+      48.8692,
+      2.3528
+     ],
+     [
+      48.8672,
+      2.347
+     ],
+     [
+      48.8657,
+      2.3412
+     ],
+     [
+      48.8642,
+      2.336
+     ],
+     [
+      48.8625,
+      2.333
+     ],
+     [
+      48.8603,
+      2.3313
+     ],
+     [
+      48.8625,
+      2.3255
+     ]
+    ],
+    [
+     [
+      48.857,
+      2.3412
+     ],
+     [
+      48.8567,
+      2.3455
+     ],
+     [
+      48.8556,
+      2.349
+     ],
+     [
+      48.8541,
+      2.3512
+     ],
+     [
+      48.8526,
+      2.3513
+     ],
+     [
+      48.8529,
+      2.348
+     ],
+     [
+      48.854,
+      2.3446
+     ],
+     [
+      48.8556,
+      2.3417
+     ]
+    ],
+    [
+     [
+      48.853,
+      2.3545
+     ],
+     [
+      48.8524,
+      2.3585
+     ],
+     [
+      48.851,
+      2.3608
+     ],
+     [
+      48.8502,
+      2.36
+     ],
+     [
+      48.8509,
+      2.3565
+     ],
+     [
+      48.8521,
+      2.3542
+     ]
+    ],
+    [
+     [
+      48.844,
+      2.333
+     ],
+     [
+      48.849,
+      2.333
+     ],
+     [
+      48.849,
+      2.34
+     ],
+     [
+      48.844,
+      2.34
+     ]
+    ],
+    [
+     [
+      48.8648,
+      2.3218
+     ],
+     [
+      48.8636,
+      2.3218
+     ],
+     [
+      48.8615,
+      2.33
+     ],
+     [
+      48.8627,
+      2.331
+     ]
+    ],
+    [
+     [
+      48.8585,
+      2.2955
+     ],
+     [
+      48.8545,
+      2.3035
+     ],
+     [
+      48.8525,
+      2.301
+     ],
+     [
+      48.8565,
+      2.293
+     ]
+    ]
+   ],
+   "from": 1700,
+   "to": 1800,
+   "density": 0.55,
+   "grain_m": 75,
+   "grow_from": [
+    48.86,
+    2.345
+   ]
+  },
+  {
+   "name": "Haussmann's Paris",
+   "style": "stone",
+   "poly": [
+    [
+     48.8558,
+     2.287
+    ],
+    [
+     48.86,
+     2.2885
+    ],
+    [
+     48.865,
+     2.2905
+    ],
+    [
+     48.87,
+     2.2935
+    ],
+    [
+     48.8738,
+     2.295
+    ],
+    [
+     48.877,
+     2.2995
+    ],
+    [
+     48.88,
+     2.308
+    ],
+    [
+     48.8825,
+     2.3175
+    ],
+    [
+     48.8835,
+     2.327
+    ],
+    [
+     48.8822,
+     2.338
+    ],
+    [
+     48.8835,
+     2.35
+    ],
+    [
+     48.8842,
+     2.36
+    ],
+    [
+     48.883,
+     2.37
+    ],
+    [
+     48.877,
+     2.3735
+    ],
+    [
+     48.872,
+     2.377
+    ],
+    [
+     48.866,
+     2.383
+    ],
+    [
+     48.859,
+     2.3895
+    ],
+    [
+     48.853,
+     2.3945
+    ],
+    [
+     48.8483,
+     2.396
+    ],
+    [
+     48.843,
+     2.3985
+    ],
+    [
+     48.8395,
+     2.392
+    ],
+    [
+     48.8382,
+     2.38
+    ],
+    [
+     48.8362,
+     2.374
+    ],
+    [
+     48.834,
+     2.366
+    ],
+    [
+     48.8318,
+     2.358
+    ],
+    [
+     48.831,
+     2.3555
+    ],
+    [
+     48.8318,
+     2.345
+    ],
+    [
+     48.833,
+     2.338
+    ],
+    [
+     48.8338,
+     2.332
+    ],
+    [
+     48.8395,
+     2.326
+    ],
+    [
+     48.841,
+     2.32
+    ],
+    [
+     48.842,
+     2.314
+    ],
+    [
+     48.845,
+     2.309
+    ],
+    [
+     48.849,
+     2.299
+    ],
+    [
+     48.853,
+     2.29
+    ],
+    [
+     48.8543,
+     2.2878
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.8605,
+      2.356
+     ],
+     [
+      48.864,
+      2.364
+     ],
+     [
+      48.86,
+      2.3675
+     ],
+     [
+      48.8555,
+      2.368
+     ],
+     [
+      48.8545,
+      2.3625
+     ],
+     [
+      48.8567,
+      2.3615
+     ]
+    ],
+    [
+     [
+      48.853,
+      2.3545
+     ],
+     [
+      48.8524,
+      2.3585
+     ],
+     [
+      48.851,
+      2.3608
+     ],
+     [
+      48.8502,
+      2.36
+     ],
+     [
+      48.8509,
+      2.3565
+     ],
+     [
+      48.8521,
+      2.3542
+     ]
+    ],
+    [
+     [
+      48.844,
+      2.333
+     ],
+     [
+      48.849,
+      2.333
+     ],
+     [
+      48.849,
+      2.34
+     ],
+     [
+      48.844,
+      2.34
+     ]
+    ],
+    [
+     [
+      48.8648,
+      2.3218
+     ],
+     [
+      48.8636,
+      2.3218
+     ],
+     [
+      48.8615,
+      2.33
+     ],
+     [
+      48.8627,
+      2.331
+     ]
+    ],
+    [
+     [
+      48.8585,
+      2.2955
+     ],
+     [
+      48.8545,
+      2.3035
+     ],
+     [
+      48.8525,
+      2.301
+     ],
+     [
+      48.8565,
+      2.293
+     ]
+    ]
+   ],
+   "from": 1853,
+   "to": 1872,
+   "density": 0.85,
+   "grain_m": 75,
+   "grow_from": [
+    48.86,
+    2.345
+   ]
+  },
+  {
+   "name": "Annexed communes (1860)",
+   "style": "stone",
+   "poly": [
+    [
+     48.8305,
+     2.3885
+    ],
+    [
+     48.8355,
+     2.404
+    ],
+    [
+     48.841,
+     2.411
+    ],
+    [
+     48.847,
+     2.4105
+    ],
+    [
+     48.856,
+     2.41
+    ],
+    [
+     48.8645,
+     2.4085
+    ],
+    [
+     48.874,
+     2.4045
+    ],
+    [
+     48.883,
+     2.399
+    ],
+    [
+     48.8885,
+     2.3925
+    ],
+    [
+     48.896,
+     2.388
+    ],
+    [
+     48.8985,
+     2.37
+    ],
+    [
+     48.8985,
+     2.359
+    ],
+    [
+     48.8975,
+     2.345
+    ],
+    [
+     48.896,
+     2.33
+    ],
+    [
+     48.8945,
+     2.3135
+    ],
+    [
+     48.89,
+     2.3
+    ],
+    [
+     48.886,
+     2.293
+    ],
+    [
+     48.881,
+     2.286
+    ],
+    [
+     48.878,
+     2.283
+    ],
+    [
+     48.8715,
+     2.2765
+    ],
+    [
+     48.861,
+     2.269
+    ],
+    [
+     48.853,
+     2.262
+    ],
+    [
+     48.8475,
+     2.2585
+    ],
+    [
+     48.84,
+     2.257
+    ],
+    [
+     48.8375,
+     2.2625
+    ],
+    [
+     48.8392,
+     2.268
+    ],
+    [
+     48.8376,
+     2.2722
+    ],
+    [
+     48.835,
+     2.279
+    ],
+    [
+     48.8325,
+     2.2875
+    ],
+    [
+     48.8305,
+     2.295
+    ],
+    [
+     48.8275,
+     2.3055
+    ],
+    [
+     48.8255,
+     2.314
+    ],
+    [
+     48.8235,
+     2.3255
+    ],
+    [
+     48.8225,
+     2.337
+    ],
+    [
+     48.8195,
+     2.348
+    ],
+    [
+     48.819,
+     2.3595
+    ],
+    [
+     48.8215,
+     2.364
+    ],
+    [
+     48.823,
+     2.372
+    ],
+    [
+     48.8275,
+     2.383
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.8558,
+      2.287
+     ],
+     [
+      48.86,
+      2.2885
+     ],
+     [
+      48.865,
+      2.2905
+     ],
+     [
+      48.87,
+      2.2935
+     ],
+     [
+      48.8738,
+      2.295
+     ],
+     [
+      48.877,
+      2.2995
+     ],
+     [
+      48.88,
+      2.308
+     ],
+     [
+      48.8825,
+      2.3175
+     ],
+     [
+      48.8835,
+      2.327
+     ],
+     [
+      48.8822,
+      2.338
+     ],
+     [
+      48.8835,
+      2.35
+     ],
+     [
+      48.8842,
+      2.36
+     ],
+     [
+      48.883,
+      2.37
+     ],
+     [
+      48.877,
+      2.3735
+     ],
+     [
+      48.872,
+      2.377
+     ],
+     [
+      48.866,
+      2.383
+     ],
+     [
+      48.859,
+      2.3895
+     ],
+     [
+      48.853,
+      2.3945
+     ],
+     [
+      48.8483,
+      2.396
+     ],
+     [
+      48.843,
+      2.3985
+     ],
+     [
+      48.8395,
+      2.392
+     ],
+     [
+      48.8382,
+      2.38
+     ],
+     [
+      48.8362,
+      2.374
+     ],
+     [
+      48.834,
+      2.366
+     ],
+     [
+      48.8318,
+      2.358
+     ],
+     [
+      48.831,
+      2.3555
+     ],
+     [
+      48.8318,
+      2.345
+     ],
+     [
+      48.833,
+      2.338
+     ],
+     [
+      48.8338,
+      2.332
+     ],
+     [
+      48.8395,
+      2.326
+     ],
+     [
+      48.841,
+      2.32
+     ],
+     [
+      48.842,
+      2.314
+     ],
+     [
+      48.845,
+      2.309
+     ],
+     [
+      48.849,
+      2.299
+     ],
+     [
+      48.853,
+      2.29
+     ],
+     [
+      48.8543,
+      2.2878
+     ]
+    ],
+    [
+     [
+      48.878,
+      2.254
+     ],
+     [
+      48.874,
+      2.27
+     ],
+     [
+      48.86,
+      2.266
+     ],
+     [
+      48.848,
+      2.256
+     ],
+     [
+      48.846,
+      2.242
+     ],
+     [
+      48.856,
+      2.236
+     ],
+     [
+      48.87,
+      2.242
+     ]
+    ]
+   ],
+   "from": 1860,
+   "to": 1914,
+   "density": 0.75,
+   "grain_m": 95,
+   "grow_from": [
+    48.86,
+    2.345
+   ]
+  },
+  {
+   "name": "Inner suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     48.95,
+     2.23
+    ],
+    [
+     48.955,
+     2.35
+    ],
+    [
+     48.94,
+     2.44
+    ],
+    [
+     48.89,
+     2.49
+    ],
+    [
+     48.82,
+     2.48
+    ],
+    [
+     48.78,
+     2.41
+    ],
+    [
+     48.77,
+     2.32
+    ],
+    [
+     48.79,
+     2.23
+    ],
+    [
+     48.83,
+     2.18
+    ],
+    [
+     48.89,
+     2.18
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.82933,
+      2.3905
+     ],
+     [
+      48.83455,
+      2.4067
+     ],
+     [
+      48.8403,
+      2.41402
+     ],
+     [
+      48.84657,
+      2.41349
+     ],
+     [
+      48.85597,
+      2.41297
+     ],
+     [
+      48.86486,
+      2.4114
+     ],
+     [
+      48.87478,
+      2.40722
+     ],
+     [
+      48.88419,
+      2.40148
+     ],
+     [
+      48.88994,
+      2.39468
+     ],
+     [
+      48.89777,
+      2.38998
+     ],
+     [
+      48.90039,
+      2.37117
+     ],
+     [
+      48.90039,
+      2.35968
+     ],
+     [
+      48.89934,
+      2.34505
+     ],
+     [
+      48.89777,
+      2.32937
+     ],
+     [
+      48.89621,
+      2.31213
+     ],
+     [
+      48.8915,
+      2.29802
+     ],
+     [
+      48.88732,
+      2.2907
+     ],
+     [
+      48.8821,
+      2.28339
+     ],
+     [
+      48.87896,
+      2.28025
+     ],
+     [
+      48.87217,
+      2.27346
+     ],
+     [
+      48.8612,
+      2.26562
+     ],
+     [
+      48.85284,
+      2.25831
+     ],
+     [
+      48.84709,
+      2.25465
+     ],
+     [
+      48.83925,
+      2.25309
+     ],
+     [
+      48.83664,
+      2.25883
+     ],
+     [
+      48.83842,
+      2.26458
+     ],
+     [
+      48.83675,
+      2.26897
+     ],
+     [
+      48.83403,
+      2.27608
+     ],
+     [
+      48.83142,
+      2.28496
+     ],
+     [
+      48.82933,
+      2.29279
+     ],
+     [
+      48.82619,
+      2.30377
+     ],
+     [
+      48.8241,
+      2.31265
+     ],
+     [
+      48.82201,
+      2.32467
+     ],
+     [
+      48.82097,
+      2.33669
+     ],
+     [
+      48.81783,
+      2.34818
+     ],
+     [
+      48.81731,
+      2.3602
+     ],
+     [
+      48.81992,
+      2.3649
+     ],
+     [
+      48.82149,
+      2.37326
+     ],
+     [
+      48.82619,
+      2.38476
+     ],
+     [
+      48.82933,
+      2.3905
+     ]
+    ],
+    [
+     [
+      48.878,
+      2.254
+     ],
+     [
+      48.874,
+      2.27
+     ],
+     [
+      48.86,
+      2.266
+     ],
+     [
+      48.848,
+      2.256
+     ],
+     [
+      48.846,
+      2.242
+     ],
+     [
+      48.856,
+      2.236
+     ],
+     [
+      48.87,
+      2.242
+     ]
+    ],
+    [
+     [
+      48.847,
+      2.42
+     ],
+     [
+      48.845,
+      2.45
+     ],
+     [
+      48.838,
+      2.47
+     ],
+     [
+      48.825,
+      2.46
+     ],
+     [
+      48.824,
+      2.435
+     ],
+     [
+      48.832,
+      2.418
+     ]
+    ],
+    [
+     [
+      48.8875,
+      2.23
+     ],
+     [
+      48.895,
+      2.23
+     ],
+     [
+      48.895,
+      2.25
+     ],
+     [
+      48.8875,
+      2.25
+     ]
+    ]
+   ],
+   "from": 1880,
+   "to": 1960,
+   "density": 0.55,
+   "grain_m": 190,
+   "grow_from": [
+    48.86,
+    2.345
+   ]
+  },
+  {
+   "name": "Outer suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     49.03,
+     2.15
+    ],
+    [
+     49.04,
+     2.35
+    ],
+    [
+     49.01,
+     2.56
+    ],
+    [
+     48.92,
+     2.63
+    ],
+    [
+     48.81,
+     2.61
+    ],
+    [
+     48.72,
+     2.5
+    ],
+    [
+     48.69,
+     2.33
+    ],
+    [
+     48.72,
+     2.15
+    ],
+    [
+     48.79,
+     2.05
+    ],
+    [
+     48.89,
+     2.04
+    ],
+    [
+     48.98,
+     2.08
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.95,
+      2.23
+     ],
+     [
+      48.955,
+      2.35
+     ],
+     [
+      48.94,
+      2.44
+     ],
+     [
+      48.89,
+      2.49
+     ],
+     [
+      48.82,
+      2.48
+     ],
+     [
+      48.78,
+      2.41
+     ],
+     [
+      48.77,
+      2.32
+     ],
+     [
+      48.79,
+      2.23
+     ],
+     [
+      48.83,
+      2.18
+     ],
+     [
+      48.89,
+      2.18
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 2015,
+   "density": 0.4,
+   "grain_m": 280,
+   "grow_from": [
+    48.86,
+    2.345
+   ]
+  },
+  {
+   "name": "La Défense",
+   "style": "highrise",
+   "poly": [
+    [
+     48.8875,
+     2.23
+    ],
+    [
+     48.895,
+     2.23
+    ],
+    [
+     48.895,
+     2.25
+    ],
+    [
+     48.8875,
+     2.25
+    ]
+   ],
+   "from": 1964,
+   "to": 2015,
+   "density": 0.7,
+   "grain_m": 110,
+   "grid_deg": 35,
+   "grow_from": [
+    48.892,
+    2.24
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Gallo-Roman wall (Cité)",
+   "path": [
+    [
+     48.8563,
+     2.3458
+    ],
+    [
+     48.8553,
+     2.3492
+    ],
+    [
+     48.8539,
+     2.3512
+    ],
+    [
+     48.8527,
+     2.3511
+    ],
+    [
+     48.853,
+     2.3482
+    ],
+    [
+     48.8536,
+     2.3458
+    ],
+    [
+     48.8563,
+     2.3458
+    ]
+   ],
+   "built": 276,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 2.0,
+   "removed": 1200
+  },
+  {
+   "name": "Wall of Philip Augustus (right bank)",
+   "path": [
+    [
+     48.859,
+     2.3378
+    ],
+    [
+     48.8604,
+     2.3392
+    ],
+    [
+     48.8615,
+     2.3405
+    ],
+    [
+     48.863,
+     2.3428
+    ],
+    [
+     48.8642,
+     2.3445
+    ],
+    [
+     48.8648,
+     2.3462
+    ],
+    [
+     48.8643,
+     2.35
+    ],
+    [
+     48.8627,
+     2.3533
+    ],
+    [
+     48.8607,
+     2.356
+    ],
+    [
+     48.8588,
+     2.36
+    ],
+    [
+     48.8567,
+     2.3615
+    ],
+    [
+     48.8552,
+     2.362
+    ],
+    [
+     48.8535,
+     2.3608
+    ],
+    [
+     48.8521,
+     2.36
+    ]
+   ],
+   "built": 1190,
+   "height": "mid",
+   "towers_m": 60,
+   "draw_s": 4.0,
+   "removed": 1700
+  },
+  {
+   "name": "Wall of Philip Augustus (left bank)",
+   "path": [
+    [
+     48.8574,
+     2.3372
+    ],
+    [
+     48.8558,
+     2.3383
+    ],
+    [
+     48.854,
+     2.3392
+    ],
+    [
+     48.8522,
+     2.339
+    ],
+    [
+     48.8508,
+     2.3393
+    ],
+    [
+     48.8492,
+     2.3402
+    ],
+    [
+     48.848,
+     2.3412
+    ],
+    [
+     48.847,
+     2.3448
+    ],
+    [
+     48.8458,
+     2.3462
+    ],
+    [
+     48.8448,
+     2.3488
+    ],
+    [
+     48.8455,
+     2.351
+    ],
+    [
+     48.8475,
+     2.3518
+    ],
+    [
+     48.849,
+     2.353
+    ],
+    [
+     48.8504,
+     2.3551
+    ]
+   ],
+   "built": 1200,
+   "height": "mid",
+   "towers_m": 60,
+   "draw_s": 4.0,
+   "removed": 1700
+  },
+  {
+   "name": "Wall of Charles V",
+   "path": [
+    [
+     48.8603,
+     2.3313
+    ],
+    [
+     48.8625,
+     2.333
+    ],
+    [
+     48.8642,
+     2.336
+    ],
+    [
+     48.8657,
+     2.3412
+    ],
+    [
+     48.8672,
+     2.347
+    ],
+    [
+     48.869,
+     2.3528
+    ],
+    [
+     48.8693,
+     2.359
+    ],
+    [
+     48.8672,
+     2.3635
+    ],
+    [
+     48.8645,
+     2.366
+    ],
+    [
+     48.8605,
+     2.368
+    ],
+    [
+     48.856,
+     2.369
+    ],
+    [
+     48.8533,
+     2.3692
+    ],
+    [
+     48.8512,
+     2.366
+    ],
+    [
+     48.8497,
+     2.3628
+    ]
+   ],
+   "built": 1356,
+   "height": "mid",
+   "towers_m": 80,
+   "draw_s": 4.0,
+   "removed": 1670,
+   "moat": true
+  },
+  {
+   "name": "Louis XIII wall",
+   "path": [
+    [
+     48.8645,
+     2.3212
+    ],
+    [
+     48.8668,
+     2.3225
+    ],
+    [
+     48.8695,
+     2.3245
+    ],
+    [
+     48.8706,
+     2.329
+    ],
+    [
+     48.8712,
+     2.334
+    ],
+    [
+     48.8716,
+     2.34
+    ],
+    [
+     48.871,
+     2.346
+    ],
+    [
+     48.8702,
+     2.351
+    ],
+    [
+     48.8692,
+     2.3528
+    ]
+   ],
+   "built": 1633,
+   "height": "mid",
+   "towers_m": 0,
+   "draw_s": 2.0,
+   "removed": 1670,
+   "moat": true
+  },
+  {
+   "name": "Wall of the Farmers-General (right bank)",
+   "path": [
+    [
+     48.8558,
+     2.287
+    ],
+    [
+     48.86,
+     2.2885
+    ],
+    [
+     48.865,
+     2.2905
+    ],
+    [
+     48.87,
+     2.2935
+    ],
+    [
+     48.8738,
+     2.295
+    ],
+    [
+     48.877,
+     2.2995
+    ],
+    [
+     48.88,
+     2.308
+    ],
+    [
+     48.8825,
+     2.3175
+    ],
+    [
+     48.8835,
+     2.327
+    ],
+    [
+     48.8822,
+     2.338
+    ],
+    [
+     48.8835,
+     2.35
+    ],
+    [
+     48.8842,
+     2.36
+    ],
+    [
+     48.883,
+     2.37
+    ],
+    [
+     48.877,
+     2.3735
+    ],
+    [
+     48.872,
+     2.377
+    ],
+    [
+     48.866,
+     2.383
+    ],
+    [
+     48.859,
+     2.3895
+    ],
+    [
+     48.853,
+     2.3945
+    ],
+    [
+     48.8483,
+     2.396
+    ],
+    [
+     48.843,
+     2.3985
+    ],
+    [
+     48.8395,
+     2.392
+    ],
+    [
+     48.8382,
+     2.38
+    ]
+   ],
+   "built": 1787,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3.5,
+   "removed": 1860
+  },
+  {
+   "name": "Wall of the Farmers-General (left bank)",
+   "path": [
+    [
+     48.8362,
+     2.374
+    ],
+    [
+     48.834,
+     2.366
+    ],
+    [
+     48.8318,
+     2.358
+    ],
+    [
+     48.831,
+     2.3555
+    ],
+    [
+     48.8318,
+     2.345
+    ],
+    [
+     48.833,
+     2.338
+    ],
+    [
+     48.8338,
+     2.332
+    ],
+    [
+     48.8395,
+     2.326
+    ],
+    [
+     48.841,
+     2.32
+    ],
+    [
+     48.842,
+     2.314
+    ],
+    [
+     48.845,
+     2.309
+    ],
+    [
+     48.849,
+     2.299
+    ],
+    [
+     48.853,
+     2.29
+    ],
+    [
+     48.8543,
+     2.2878
+    ]
+   ],
+   "built": 1784,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3.0,
+   "removed": 1860
+  },
+  {
+   "name": "Thiers wall (right bank)",
+   "path": [
+    [
+     48.8305,
+     2.3885
+    ],
+    [
+     48.8355,
+     2.404
+    ],
+    [
+     48.841,
+     2.411
+    ],
+    [
+     48.847,
+     2.4105
+    ],
+    [
+     48.856,
+     2.41
+    ],
+    [
+     48.8645,
+     2.4085
+    ],
+    [
+     48.874,
+     2.4045
+    ],
+    [
+     48.883,
+     2.399
+    ],
+    [
+     48.8885,
+     2.3925
+    ],
+    [
+     48.896,
+     2.388
+    ],
+    [
+     48.8985,
+     2.37
+    ],
+    [
+     48.8985,
+     2.359
+    ],
+    [
+     48.8975,
+     2.345
+    ],
+    [
+     48.896,
+     2.33
+    ],
+    [
+     48.8945,
+     2.3135
+    ],
+    [
+     48.89,
+     2.3
+    ],
+    [
+     48.886,
+     2.293
+    ],
+    [
+     48.881,
+     2.286
+    ],
+    [
+     48.878,
+     2.283
+    ],
+    [
+     48.8715,
+     2.2765
+    ],
+    [
+     48.861,
+     2.269
+    ],
+    [
+     48.853,
+     2.262
+    ],
+    [
+     48.8475,
+     2.2585
+    ],
+    [
+     48.84,
+     2.257
+    ],
+    [
+     48.8375,
+     2.2625
+    ],
+    [
+     48.8392,
+     2.268
+    ]
+   ],
+   "built": 1841,
+   "height": "mid",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1925,
+   "moat": true
+  },
+  {
+   "name": "Thiers wall (left bank)",
+   "path": [
+    [
+     48.8275,
+     2.383
+    ],
+    [
+     48.823,
+     2.372
+    ],
+    [
+     48.8215,
+     2.364
+    ],
+    [
+     48.819,
+     2.3595
+    ],
+    [
+     48.8195,
+     2.348
+    ],
+    [
+     48.8225,
+     2.337
+    ],
+    [
+     48.8235,
+     2.3255
+    ],
+    [
+     48.8255,
+     2.314
+    ],
+    [
+     48.8275,
+     2.3055
+    ],
+    [
+     48.8305,
+     2.295
+    ],
+    [
+     48.8325,
+     2.2875
+    ],
+    [
+     48.835,
+     2.279
+    ],
+    [
+     48.8376,
+     2.2722
+    ]
+   ],
+   "built": 1842,
+   "height": "mid",
+   "towers_m": 0,
+   "draw_s": 3.0,
+   "removed": 1925,
+   "moat": true
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Petit Pont (≈)",
+   "path": [
+    [
+     48.853,
+     2.3474
+    ],
+    [
+     48.8521,
+     2.3471
+    ]
+   ],
+   "built": -40,
+   "style": "wood",
+   "width_m": 12,
+   "removed": 1200
+  },
+  {
+   "name": "Grand Pont (≈)",
+   "path": [
+    [
+     48.8562,
+     2.3468
+    ],
+    [
+     48.8573,
+     2.3472
+    ]
+   ],
+   "built": -40,
+   "style": "wood",
+   "width_m": 12,
+   "removed": 1200
+  },
+  {
+   "name": "Petit Pont (stone, ≈)",
+   "path": [
+    [
+     48.853,
+     2.3474
+    ],
+    [
+     48.8521,
+     2.3471
+    ]
+   ],
+   "built": 1200,
+   "style": "stone",
+   "width_m": 14
+  },
+  {
+   "name": "Pont au Change (≈)",
+   "path": [
+    [
+     48.8562,
+     2.3468
+    ],
+    [
+     48.8573,
+     2.3472
+    ]
+   ],
+   "built": 1200,
+   "style": "stone",
+   "width_m": 18
+  },
+  {
+   "name": "Pont Neuf",
+   "path": [
+    [
+     48.859,
+     2.3428
+    ],
+    [
+     48.8558,
+     2.3405
+    ]
+   ],
+   "built": 1578,
+   "style": "stone",
+   "width_m": 22,
+   "draw_s": 6
+  }
+ ],
+ "roads": [
+  {
+   "name": "Cardo (rue Saint-Jacques)",
+   "path": [
+    [
+     48.8521,
+     2.3471
+    ],
+    [
+     48.849,
+     2.346
+    ],
+    [
+     48.846,
+     2.3448
+    ],
+    [
+     48.842,
+     2.3432
+    ],
+    [
+     48.834,
+     2.3395
+    ],
+    [
+     48.82,
+     2.335
+    ]
+   ],
+   "from": -48,
+   "kind": "roman",
+   "width_m": 14
+  },
+  {
+   "name": "Right-bank road (rue Saint-Martin)",
+   "path": [
+    [
+     48.8573,
+     2.3472
+    ],
+    [
+     48.861,
+     2.3505
+    ],
+    [
+     48.866,
+     2.353
+    ],
+    [
+     48.872,
+     2.3555
+    ],
+    [
+     48.885,
+     2.36
+    ]
+   ],
+   "from": -40,
+   "kind": "road",
+   "width_m": 12
+  },
+  {
+   "name": "Grands Boulevards",
+   "path": [
+    [
+     48.8698,
+     2.3245
+    ],
+    [
+     48.8706,
+     2.329
+    ],
+    [
+     48.8712,
+     2.334
+    ],
+    [
+     48.8716,
+     2.34
+    ],
+    [
+     48.871,
+     2.346
+    ],
+    [
+     48.8702,
+     2.351
+    ],
+    [
+     48.8693,
+     2.359
+    ],
+    [
+     48.8672,
+     2.3635
+    ],
+    [
+     48.8645,
+     2.366
+    ],
+    [
+     48.8605,
+     2.368
+    ],
+    [
+     48.856,
+     2.369
+    ],
+    [
+     48.8533,
+     2.3692
+    ]
+   ],
+   "from": 1671,
+   "kind": "avenue",
+   "width_m": 30
+  },
+  {
+   "name": "Champs-Élysées (≈, drawn from 1836)",
+   "path": [
+    [
+     48.8656,
+     2.3212
+    ],
+    [
+     48.87,
+     2.308
+    ],
+    [
+     48.8738,
+     2.295
+    ]
+   ],
+   "from": 1836,
+   "kind": "avenue",
+   "width_m": 40
+  },
+  {
+   "name": "Railway to Saint-Germain",
+   "path": [
+    [
+     48.8763,
+     2.3253
+    ],
+    [
+     48.885,
+     2.312
+    ],
+    [
+     48.893,
+     2.298
+    ]
+   ],
+   "from": 1837,
+   "kind": "rail",
+   "width_m": 22
+  },
+  {
+   "name": "Rue de Rivoli",
+   "path": [
+    [
+     48.8655,
+     2.3225
+    ],
+    [
+     48.862,
+     2.334
+    ],
+    [
+     48.859,
+     2.344
+    ],
+    [
+     48.857,
+     2.354
+    ],
+    [
+     48.8555,
+     2.36
+    ]
+   ],
+   "from": 1855,
+   "kind": "avenue",
+   "width_m": 26
+  },
+  {
+   "name": "Boulevard de Sébastopol",
+   "path": [
+    [
+     48.858,
+     2.3475
+    ],
+    [
+     48.864,
+     2.3505
+    ],
+    [
+     48.87,
+     2.3535
+    ],
+    [
+     48.876,
+     2.3585
+    ]
+   ],
+   "from": 1855,
+   "kind": "avenue",
+   "width_m": 30
+  },
+  {
+   "name": "Boulevard Saint-Michel",
+   "path": [
+    [
+     48.8532,
+     2.344
+    ],
+    [
+     48.849,
+     2.342
+    ],
+    [
+     48.844,
+     2.3395
+    ],
+    [
+     48.84,
+     2.3365
+    ]
+   ],
+   "from": 1859,
+   "kind": "avenue",
+   "width_m": 28
+  },
+  {
+   "name": "Boulevard Périphérique",
+   "path": [
+    [
+     48.82933,
+     2.3905
+    ],
+    [
+     48.83455,
+     2.4067
+    ],
+    [
+     48.8403,
+     2.41402
+    ],
+    [
+     48.84657,
+     2.41349
+    ],
+    [
+     48.85597,
+     2.41297
+    ],
+    [
+     48.86486,
+     2.4114
+    ],
+    [
+     48.87478,
+     2.40722
+    ],
+    [
+     48.88419,
+     2.40148
+    ],
+    [
+     48.88994,
+     2.39468
+    ],
+    [
+     48.89777,
+     2.38998
+    ],
+    [
+     48.90039,
+     2.37117
+    ],
+    [
+     48.90039,
+     2.35968
+    ],
+    [
+     48.89934,
+     2.34505
+    ],
+    [
+     48.89777,
+     2.32937
+    ],
+    [
+     48.89621,
+     2.31213
+    ],
+    [
+     48.8915,
+     2.29802
+    ],
+    [
+     48.88732,
+     2.2907
+    ],
+    [
+     48.8821,
+     2.28339
+    ],
+    [
+     48.87896,
+     2.28025
+    ],
+    [
+     48.87217,
+     2.27346
+    ],
+    [
+     48.8612,
+     2.26562
+    ],
+    [
+     48.85284,
+     2.25831
+    ],
+    [
+     48.84709,
+     2.25465
+    ],
+    [
+     48.83925,
+     2.25309
+    ],
+    [
+     48.83664,
+     2.25883
+    ],
+    [
+     48.83842,
+     2.26458
+    ],
+    [
+     48.83675,
+     2.26897
+    ],
+    [
+     48.83403,
+     2.27608
+    ],
+    [
+     48.83142,
+     2.28496
+    ],
+    [
+     48.82933,
+     2.29279
+    ],
+    [
+     48.82619,
+     2.30377
+    ],
+    [
+     48.8241,
+     2.31265
+    ],
+    [
+     48.82201,
+     2.32467
+    ],
+    [
+     48.82097,
+     2.33669
+    ],
+    [
+     48.81783,
+     2.34818
+    ],
+    [
+     48.81731,
+     2.3602
+    ],
+    [
+     48.81992,
+     2.3649
+    ],
+    [
+     48.82149,
+     2.37326
+    ],
+    [
+     48.82619,
+     2.38476
+    ],
+    [
+     48.82933,
+     2.3905
+    ]
+   ],
+   "from": 1973,
+   "kind": "motorway",
+   "width_m": 45
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "forum",
+   "name": {
+    "en": "Forum of Lutetia",
+    "tr": "Lutetia Forumu"
+   },
+   "at": [
+    48.8466,
+    2.3423
+   ],
+   "built": 80,
+   "removed": 300,
+   "size_m": [
+    178,
+    89
+   ],
+   "rot_deg": 82,
+   "colors": {
+    "column": false
+   }
+  },
+  {
+   "type": "amphitheatre",
+   "name": {
+    "en": "Arena of Lutetia",
+    "tr": "Lutetia Arenası"
+   },
+   "at": [
+    48.845,
+    2.35278
+   ],
+   "built": 85,
+   "removed": 600,
+   "rise_s": 3,
+   "size_m": [
+    130,
+    100,
+    14
+   ],
+   "rot_deg": 20
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Baths of Cluny",
+    "tr": "Cluny Hamamları"
+   },
+   "at": [
+    48.8506,
+    2.344
+   ],
+   "built": 200,
+   "rise_s": 3,
+   "size_m": [
+    100,
+    70,
+    18
+   ],
+   "colors": {
+    "wall": "#e2d6bd",
+    "roof": "#b4583b"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Notre-Dame",
+    "tr": "Notre-Dame"
+   },
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "built": 1163,
+   "removed": 2019.29,
+   "rise_s": 40,
+   "size_m": [
+    128,
+    48,
+    34
+   ],
+   "rot_deg": 18,
+   "colors": {
+    "wall": "#ddd6c4",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Notre-Dame (after the fire)",
+    "tr": "Notre-Dame (yangından sonra)"
+   },
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "built": 2019.3,
+   "removed": 2024.93,
+   "rise_s": 0.2,
+   "size_m": [
+    128,
+    48,
+    34
+   ],
+   "rot_deg": 18,
+   "colors": {
+    "wall": "#ddd6c4",
+    "roof": "#3b3b3b",
+    "spire": false
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Notre-Dame (restored)",
+    "tr": "Notre-Dame (restore)"
+   },
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "built": 2024.94,
+   "rise_s": 1.5,
+   "size_m": [
+    128,
+    48,
+    34
+   ],
+   "rot_deg": 18,
+   "colors": {
+    "wall": "#e6dfcd",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Louvre fortress",
+    "tr": "Louvre kalesi"
+   },
+   "at": [
+    48.86025,
+    2.338
+   ],
+   "built": 1190,
+   "removed": 1546,
+   "rise_s": 4,
+   "size_m": [
+    78,
+    72,
+    22
+   ],
+   "colors": {
+    "wall": "#d9cfb6"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Grosse Tour",
+    "tr": "Büyük Kule"
+   },
+   "at": [
+    48.86025,
+    2.338
+   ],
+   "built": 1200,
+   "removed": 1528,
+   "size_m": [
+    16,
+    16,
+    30
+   ],
+   "colors": {
+    "wall": "#d9cfb6",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Louvre Palace",
+    "tr": "Louvre Sarayı"
+   },
+   "at": [
+    48.86025,
+    2.338
+   ],
+   "built": 1546,
+   "rise_s": 6,
+   "size_m": [
+    160,
+    160,
+    26
+   ],
+   "colors": {
+    "wall": "#e8e0cc",
+    "roof": "#6f7680"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Sainte-Chapelle",
+    "tr": "Sainte-Chapelle"
+   },
+   "at": [
+    48.85528,
+    2.345
+   ],
+   "built": 1242,
+   "rise_s": 3,
+   "size_m": [
+    36,
+    17,
+    30
+   ],
+   "rot_deg": 20,
+   "colors": {
+    "wall": "#e4dccb",
+    "roof": "#4f565e"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Bastille",
+    "tr": "Bastille"
+   },
+   "at": [
+    48.85333,
+    2.36917
+   ],
+   "built": 1370,
+   "removed": 1789.8,
+   "rise_s": 4,
+   "size_m": [
+    68,
+    37,
+    24
+   ],
+   "colors": {
+    "wall": "#bfb39b"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Hôtel de Ville",
+    "tr": "Hôtel de Ville"
+   },
+   "at": [
+    48.85639,
+    2.35222
+   ],
+   "built": 1533,
+   "removed": 1871.4,
+   "rise_s": 8,
+   "size_m": [
+    110,
+    60,
+    22
+   ],
+   "colors": {
+    "wall": "#ece4d0",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Hôtel de Ville (rebuilt)",
+    "tr": "Hôtel de Ville (yeniden)"
+   },
+   "at": [
+    48.85639,
+    2.35222
+   ],
+   "built": 1873,
+   "rise_s": 6,
+   "size_m": [
+    140,
+    80,
+    24
+   ],
+   "colors": {
+    "wall": "#ece4d0",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Tuileries Palace",
+    "tr": "Tuileries Sarayı"
+   },
+   "at": [
+    48.86222,
+    2.3325
+   ],
+   "built": 1564,
+   "removed": 1883.7,
+   "rise_s": 6,
+   "size_m": [
+    266,
+    30,
+    24
+   ],
+   "rot_deg": -62,
+   "colors": {
+    "wall": "#e8e0cc",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "forum",
+   "name": {
+    "en": "Place Royale",
+    "tr": "Place Royale"
+   },
+   "at": [
+    48.85556,
+    2.36556
+   ],
+   "built": 1605,
+   "rise_s": 4,
+   "size_m": [
+    140,
+    140
+   ],
+   "colors": {
+    "wall": "#9fb07f",
+    "column": false
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Hôtel des Invalides",
+    "tr": "Invalides"
+   },
+   "at": [
+    48.8565,
+    2.3125
+   ],
+   "built": 1671,
+   "rise_s": 6,
+   "size_m": [
+    200,
+    180,
+    20
+   ],
+   "colors": {
+    "wall": "#e2dccb",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Dôme des Invalides",
+    "tr": "Invalides Kubbesi"
+   },
+   "at": [
+    48.8549,
+    2.3125
+   ],
+   "built": 1680,
+   "rise_s": 14,
+   "size_m": [
+    60,
+    60,
+    40
+   ],
+   "colors": {
+    "wall": "#e6dfcf",
+    "dome": "#c9a94a",
+    "lantern": true
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Arc de Triomphe",
+    "tr": "Zafer Takı"
+   },
+   "at": [
+    48.87378,
+    2.29503
+   ],
+   "built": 1806.6,
+   "rise_s": 14,
+   "size_m": [
+    45,
+    22,
+    50
+   ],
+   "colors": {
+    "wall": "#ebe5d6"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Palais Garnier",
+    "tr": "Palais Garnier"
+   },
+   "at": [
+    48.87194,
+    2.33167
+   ],
+   "built": 1861.6,
+   "rise_s": 10,
+   "size_m": [
+    155,
+    70,
+    32
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#e8dcc0",
+    "roof": "#6e8f6a"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Sacré-Cœur",
+    "tr": "Sacré-Cœur"
+   },
+   "at": [
+    48.88667,
+    2.34306
+   ],
+   "built": 1875.5,
+   "rise_s": 24,
+   "size_m": [
+    85,
+    35,
+    40
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#f4f1ea",
+    "dome": "#efece4"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "Eiffel Tower",
+    "tr": "Eiffel Kulesi"
+   },
+   "at": [
+    48.85822,
+    2.2945
+   ],
+   "built": 1887.1,
+   "rise_s": 9,
+   "size_m": [
+    125,
+    125,
+    300
+   ],
+   "colors": {
+    "wall": "#7b6a55"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Tour Montparnasse",
+    "tr": "Montparnasse Kulesi"
+   },
+   "at": [
+    48.8421,
+    2.322
+   ],
+   "built": 1969.5,
+   "rise_s": 6,
+   "size_m": [
+    50,
+    32,
+    210
+   ],
+   "colors": {
+    "wall": "#3d4650"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Centre Pompidou",
+    "tr": "Centre Pompidou"
+   },
+   "at": [
+    48.86064,
+    2.35225
+   ],
+   "built": 1971.5,
+   "rise_s": 4,
+   "size_m": [
+    166,
+    60,
+    45
+   ],
+   "colors": {
+    "wall": "#4f7fb0"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Grande Arche",
+    "tr": "Grande Arche"
+   },
+   "at": [
+    48.89278,
+    2.23583
+   ],
+   "built": 1985.5,
+   "rise_s": 4,
+   "size_m": [
+    110,
+    110,
+    110
+   ],
+   "colors": {
+    "wall": "#f2f2f0"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": -52,
+   "poly": [
+    [
+     48.857,
+     2.3412
+    ],
+    [
+     48.8567,
+     2.3455
+    ],
+    [
+     48.8556,
+     2.349
+    ],
+    [
+     48.8541,
+     2.3512
+    ],
+    [
+     48.8526,
+     2.3513
+    ],
+    [
+     48.8529,
+     2.348
+    ],
+    [
+     48.854,
+     2.3446
+    ],
+    [
+     48.8556,
+     2.3417
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 4
+  },
+  {
+   "year": 1871.39,
+   "poly": [
+    [
+     48.8648,
+     2.329
+    ],
+    [
+     48.863,
+     2.3355
+    ],
+    [
+     48.8612,
+     2.334
+    ],
+    [
+     48.8628,
+     2.3275
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 4
+  },
+  {
+   "year": 1871.395,
+   "poly": [
+    [
+     48.8556,
+     2.3505
+    ],
+    [
+     48.8572,
+     2.3505
+    ],
+    [
+     48.8572,
+     2.354
+    ],
+    [
+     48.8556,
+     2.354
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 3
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    48.855,
+    2.347
+   ],
+   "from": 845.2,
+   "to": 846,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    48.855,
+    2.347
+   ],
+   "from": 856.9,
+   "to": 858,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    48.8556,
+    2.344
+   ],
+   "from": 1871.39,
+   "to": 1871.5,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    48.85333,
+    2.36917
+   ],
+   "from": 1789.53,
+   "to": 1789.9,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    48.846,
+    2.333
+   ],
+   "from": 1871.01,
+   "to": 1871.07,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "from": 2019.29,
+   "to": 2019.33,
+   "scale": 1.3
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     48.85,
+     2.328
+    ],
+    [
+     48.8545,
+     2.328
+    ],
+    [
+     48.8545,
+     2.336
+    ],
+    [
+     48.85,
+     2.336
+    ]
+   ],
+   "from": 885.8,
+   "to": 886.8,
+   "count": 80
+  },
+  {
+   "poly": [
+    [
+     48.859,
+     2.352
+    ],
+    [
+     48.862,
+     2.352
+    ],
+    [
+     48.862,
+     2.36
+    ],
+    [
+     48.859,
+     2.36
+    ]
+   ],
+   "from": 885.8,
+   "to": 886.8,
+   "count": 60
+  },
+  {
+   "poly": [
+    [
+     48.938,
+     2.3
+    ],
+    [
+     48.95,
+     2.3
+    ],
+    [
+     48.95,
+     2.42
+    ],
+    [
+     48.938,
+     2.42
+    ]
+   ],
+   "from": 1870.72,
+   "to": 1871.08,
+   "count": 140
+  },
+  {
+   "poly": [
+    [
+     48.77,
+     2.26
+    ],
+    [
+     48.782,
+     2.26
+    ],
+    [
+     48.782,
+     2.4
+    ],
+    [
+     48.77,
+     2.4
+    ]
+   ],
+   "from": 1870.72,
+   "to": 1871.08,
+   "count": 140
+  },
+  {
+   "poly": [
+    [
+     48.81,
+     2.15
+    ],
+    [
+     48.89,
+     2.15
+    ],
+    [
+     48.89,
+     2.165
+    ],
+    [
+     48.81,
+     2.165
+    ]
+   ],
+   "from": 1870.72,
+   "to": 1871.08,
+   "count": 100
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Bois de Boulogne",
+   "poly": [
+    [
+     48.878,
+     2.254
+    ],
+    [
+     48.874,
+     2.27
+    ],
+    [
+     48.86,
+     2.266
+    ],
+    [
+     48.848,
+     2.256
+    ],
+    [
+     48.846,
+     2.242
+    ],
+    [
+     48.856,
+     2.236
+    ],
+    [
+     48.87,
+     2.242
+    ]
+   ]
+  },
+  {
+   "name": "Bois de Vincennes",
+   "poly": [
+    [
+     48.847,
+     2.42
+    ],
+    [
+     48.845,
+     2.45
+    ],
+    [
+     48.838,
+     2.47
+    ],
+    [
+     48.825,
+     2.46
+    ],
+    [
+     48.824,
+     2.435
+    ],
+    [
+     48.832,
+     2.418
+    ]
+   ]
+  },
+  {
+   "name": "Jardin du Luxembourg",
+   "poly": [
+    [
+     48.844,
+     2.333
+    ],
+    [
+     48.849,
+     2.333
+    ],
+    [
+     48.849,
+     2.34
+    ],
+    [
+     48.844,
+     2.34
+    ]
+   ]
+  },
+  {
+   "name": "Jardin des Tuileries",
+   "poly": [
+    [
+     48.8648,
+     2.3218
+    ],
+    [
+     48.8636,
+     2.3218
+    ],
+    [
+     48.8615,
+     2.33
+    ],
+    [
+     48.8627,
+     2.331
+    ]
+   ]
+  },
+  {
+   "name": "Champ de Mars",
+   "poly": [
+    [
+     48.8585,
+     2.2955
+    ],
+    [
+     48.8545,
+     2.3035
+    ],
+    [
+     48.8525,
+     2.301
+    ],
+    [
+     48.8565,
+     2.293
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "SEINE",
+    "tr": "SEINE"
+   },
+   "at": [
+    48.859,
+    2.329
+   ],
+   "kind": "water",
+   "to": 1840
+  },
+  {
+   "text": {
+    "en": "SEINE",
+    "tr": "SEINE"
+   },
+   "at": [
+    48.862,
+    2.303
+   ],
+   "kind": "water",
+   "from": 1840
+  },
+  {
+   "text": {
+    "en": "Île de la Cité",
+    "tr": "Cité Adası"
+   },
+   "at": [
+    48.8548,
+    2.3475
+   ],
+   "kind": "place",
+   "from": -250,
+   "to": -53,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "LEFT BANK",
+    "tr": "SOL YAKA"
+   },
+   "at": [
+    48.846,
+    2.344
+   ],
+   "kind": "region",
+   "from": -50,
+   "to": 60
+  },
+  {
+   "text": {
+    "en": "Forum",
+    "tr": "Forum"
+   },
+   "at": [
+    48.8466,
+    2.3423
+   ],
+   "from": 85,
+   "to": 150,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Arena",
+    "tr": "Arena"
+   },
+   "at": [
+    48.845,
+    2.35278
+   ],
+   "from": 88,
+   "to": 150,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Baths of Cluny",
+    "tr": "Cluny Hamamları"
+   },
+   "at": [
+    48.8506,
+    2.344
+   ],
+   "from": 202,
+   "to": 274,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Île de la Cité",
+    "tr": "Cité Adası"
+   },
+   "at": [
+    48.8548,
+    2.3475
+   ],
+   "kind": "place",
+   "from": 276,
+   "to": 362,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Notre-Dame",
+    "tr": "Notre-Dame"
+   },
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "from": 1165,
+   "to": 1189,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Louvre",
+    "tr": "Louvre"
+   },
+   "at": [
+    48.86025,
+    2.338
+   ],
+   "from": 1192,
+   "to": 1215,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Sainte-Chapelle",
+    "tr": "Sainte-Chapelle"
+   },
+   "at": [
+    48.85528,
+    2.345
+   ],
+   "from": 1244,
+   "to": 1270,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "MARAIS",
+    "tr": "MARAIS"
+   },
+   "at": [
+    48.859,
+    2.361
+   ],
+   "kind": "region",
+   "from": 1365,
+   "to": 1383
+  },
+  {
+   "text": {
+    "en": "Bastille",
+    "tr": "Bastille"
+   },
+   "at": [
+    48.85333,
+    2.36917
+   ],
+   "from": 1372,
+   "to": 1436,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Louvre",
+    "tr": "Louvre"
+   },
+   "at": [
+    48.86025,
+    2.338
+   ],
+   "from": 1534,
+   "to": 1563,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Tuileries",
+    "tr": "Tuileries"
+   },
+   "at": [
+    48.86222,
+    2.3325
+   ],
+   "from": 1565,
+   "to": 1571,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Pont Neuf",
+    "tr": "Pont Neuf"
+   },
+   "at": [
+    48.8575,
+    2.3417
+   ],
+   "from": 1580,
+   "to": 1604,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Place Royale",
+    "tr": "Place Royale"
+   },
+   "at": [
+    48.85556,
+    2.36556
+   ],
+   "from": 1607,
+   "to": 1632,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Les Invalides",
+    "tr": "Les Invalides"
+   },
+   "at": [
+    48.8549,
+    2.3125
+   ],
+   "from": 1680,
+   "to": 1706,
+   "lift_m": 120
+  },
+  {
+   "text": {
+    "en": "Bastille",
+    "tr": "Bastille"
+   },
+   "at": [
+    48.85333,
+    2.36917
+   ],
+   "from": 1789,
+   "to": 1790,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Arc de Triomphe",
+    "tr": "Zafer Takı"
+   },
+   "at": [
+    48.87378,
+    2.29503
+   ],
+   "from": 1810,
+   "to": 1836,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Palais Garnier",
+    "tr": "Palais Garnier"
+   },
+   "at": [
+    48.87194,
+    2.33167
+   ],
+   "from": 1873,
+   "to": 1886,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Montmartre",
+    "tr": "Montmartre"
+   },
+   "at": [
+    48.88667,
+    2.34306
+   ],
+   "kind": "place",
+   "from": 1873,
+   "to": 1886,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Eiffel Tower",
+    "tr": "Eiffel Kulesi"
+   },
+   "at": [
+    48.85822,
+    2.2945
+   ],
+   "from": 1889.2,
+   "to": 1918,
+   "lift_m": 320
+  },
+  {
+   "text": {
+    "en": "Tuileries",
+    "tr": "Tuileries"
+   },
+   "at": [
+    48.86222,
+    2.3325
+   ],
+   "from": 1871.25,
+   "to": 1872,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Hôtel de Ville",
+    "tr": "Hôtel de Ville"
+   },
+   "at": [
+    48.85639,
+    2.35222
+   ],
+   "from": 1871.25,
+   "to": 1872,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "La Défense",
+    "tr": "La Défense"
+   },
+   "at": [
+    48.892,
+    2.24
+   ],
+   "kind": "place",
+   "from": 1958,
+   "to": 1989,
+   "lift_m": 100
+  },
+  {
+   "text": {
+    "en": "Montparnasse",
+    "tr": "Montparnasse"
+   },
+   "at": [
+    48.8421,
+    2.322
+   ],
+   "from": 1973,
+   "to": 1976,
+   "lift_m": 230
+  },
+  {
+   "text": {
+    "en": "Centre Pompidou",
+    "tr": "Centre Pompidou"
+   },
+   "at": [
+    48.86064,
+    2.35225
+   ],
+   "from": 1977,
+   "to": 1989,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Notre-Dame",
+    "tr": "Notre-Dame"
+   },
+   "at": [
+    48.85306,
+    2.35
+   ],
+   "from": 2019,
+   "to": 2024.4,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Eiffel Tower",
+    "tr": "Eiffel Kulesi"
+   },
+   "at": [
+    48.85822,
+    2.2945
+   ],
+   "from": 2024.5,
+   "lift_m": 320
+  },
+  {
+   "text": {
+    "en": "Montmartre",
+    "tr": "Montmartre"
+   },
+   "at": [
+    48.88667,
+    2.34306
+   ],
+   "kind": "place",
+   "from": 2025,
+   "lift_m": 60
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Paris: 2,300 Years in 15 Minutes (3D Timelapse)",
+   "tr": "Paris: 15 Dakikada 2.300 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Around 250 BC a Gallic tribe, the Parisii, settled on the Seine. Watch Paris grow from Roman Lutetia on the left bank to a walled medieval capital, a city of kings and revolution, Haussmann's boulevards and today's city of 2.1 million: the island city, Notre-Dame, the walls of Philip Augustus and Charles V, the Louvre and the Bastille, the Pont Neuf, the Farmers-General and Thiers walls, the siege and fires of 1870–1871, the Eiffel Tower, the Périphérique and the 2019 Notre-Dame fire, with the year and the population on screen.",
+   "tr": "MÖ 250 civarında Galyalı Parisii kabilesi Seine kıyısına yerleşti. Paris'in sol yakadaki Roma kasabası Lutetia'dan surlarla çevrili bir Orta Çağ başkentine, kralların ve devrimin şehrine, Haussmann'ın bulvarlarına ve bugünün 2,1 milyonluk şehrine büyüyüşünü izleyin: ada şehri, Notre-Dame, Philippe Auguste ve V. Charles surları, Louvre ve Bastille, Pont Neuf, Fermiers Généraux ve Thiers surları, 1870–1871 kuşatması ve yangınları, Eiffel Kulesi, Périphérique ve 2019 Notre-Dame yangını; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "paris history",
+   "history of paris",
+   "lutetia",
+   "medieval paris",
+   "3d timelapse",
+   "city evolution",
+   "how paris grew",
+   "paris timelapse",
+   "notre dame",
+   "haussmann",
+   "walls of paris",
+   "french revolution",
+   "eiffel tower",
+   "urban history"
+  ],
+  "hashtags": [
+   "#Paris",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Paris",
+    "tr": "Paris"
+   },
+   "line2": {
+    "en": "2,300 YEARS",
+    "tr": "2.300 YIL"
+   },
+   "line3": {
+    "en": "From a Gallic village to the City of Light",
+    "tr": "Galya köyünden Işık Şehri'ne"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=48.8600,2.3300,7.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Paris"
+  },
+  {
+   "title": "Timeline of Paris — Wikipedia (Wikiwand)",
+   "url": "https://www.wikiwand.com/en/articles/Timeline_of_Paris"
+  },
+  {
+   "title": "Lutetia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lutetia"
+  },
+  {
+   "title": "Paris-Lutetia: from earliest times to c. 1000 — Indiana University",
+   "url": "https://paris10.sitehost.iu.edu/ParisOSS/Day_1_Early_Paris/Ancient_Early_Medieval/Jones_Ancient_Background.html"
+  },
+  {
+   "title": "The amphitheatre — Archéologie de Paris (Ministère de la Culture)",
+   "url": "https://archeologie.culture.gouv.fr/paris/en/amphitheatre"
+  },
+  {
+   "title": "Arènes de Lutèce — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ar%C3%A8nes_de_Lut%C3%A8ce"
+  },
+  {
+   "title": "Thermes de Cluny — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thermes_de_Cluny"
+  },
+  {
+   "title": "City walls of Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/City_walls_of_Paris"
+  },
+  {
+   "title": "Wall of Philip II Augustus — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wall_of_Philip_II_Augustus"
+  },
+  {
+   "title": "Wall of Charles V — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wall_of_Charles_V"
+  },
+  {
+   "title": "Wall of the Fermiers généraux — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wall_of_the_Fermiers_g%C3%A9n%C3%A9raux"
+  },
+  {
+   "title": "Thiers wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Thiers_wall"
+  },
+  {
+   "title": "Siege of Paris (845) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)"
+  },
+  {
+   "title": "Paris: Medieval development and discord — Britannica",
+   "url": "https://www.britannica.com/place/Paris/Medieval-development-and-discord-12th-century-to-16th-century"
+  },
+  {
+   "title": "Notre-Dame de Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+  },
+  {
+   "title": "Medieval Louvre Castle — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Medieval_Louvre_Castle"
+  },
+  {
+   "title": "Sainte-Chapelle — Wikipedia",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Sainte-Chapelle"
+  },
+  {
+   "title": "Bastille — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bastille"
+  },
+  {
+   "title": "Hôtel de Ville, Paris — Wikipedia",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/H%C3%B4tel_de_Ville%2C_Paris.html"
+  },
+  {
+   "title": "Tuileries Palace — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tuileries_Palace"
+  },
+  {
+   "title": "Pont Neuf — Wikipedia",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Pont_Neuf"
+  },
+  {
+   "title": "Place des Vosges — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Place_des_Vosges"
+  },
+  {
+   "title": "Les Invalides — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Les_Invalides"
+  },
+  {
+   "title": "Arc de Triomphe — Wikipedia",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Arc_De_Triomphe"
+  },
+  {
+   "title": "Haussmann's renovation of Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Haussmann%27s_renovation_of_Paris"
+  },
+  {
+   "title": "Palais Garnier — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Palais_Garnier"
+  },
+  {
+   "title": "Sacré-Cœur, Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+  },
+  {
+   "title": "Siege of Paris (1870–1871) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Paris_(1870%E2%80%931871)"
+  },
+  {
+   "title": "Fires in the Paris Commune — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fires_in_the_Paris_Commune"
+  },
+  {
+   "title": "Eiffel Tower — Wikipedia",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Tour_Eiffel"
+  },
+  {
+   "title": "Paris Métro Line 1 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro_Line_1"
+  },
+  {
+   "title": "Liberation of Paris — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+  },
+  {
+   "title": "History of the place — Paris La Défense",
+   "url": "https://www.ladefense.fr/en/history-place"
+  },
+  {
+   "title": "Boulevard Périphérique — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boulevard_P%C3%A9riph%C3%A9rique"
+  },
+  {
+   "title": "Tour Montparnasse — Wikipedia",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Tour_Montparnasse"
+  },
+  {
+   "title": "Centre Pompidou — Wikipedia",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Pompidou_Center"
+  },
+  {
+   "title": "Grande Arche — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grande_Arche"
+  },
+  {
+   "title": "Paris 2024 Opening Ceremony on the Seine — Olympics.com",
+   "url": "https://olympics.com/en/news/paris-2024-olympic-games-opening-ceremony-flame-cauldron"
+  },
+  {
+   "title": "Demographics of Paris — Wikipedia (census table)",
+   "url": "https://www.safekipedia.com/discoverer/wiki/Demographics_of_Paris"
+  },
+  {
+   "title": "Paris — population by census — City Population",
+   "url": "https://www.citypopulation.de/en/france/admin/75__paris"
+  },
+  {
+   "title": "Populations des départements en 2023 — INSEE",
+   "url": "https://www.insee.fr/fr/statistiques/8680659"
+  }
+ ]
+}

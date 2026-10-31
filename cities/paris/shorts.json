@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": -250, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Paris", "tr": "Paris"}, "line2": {"en": "2,300 years in 50 seconds", "tr": "50 saniyede 2.300 yıl"}},
+   "end": {"line2": {"en": "Paris: 2,300 Years in 15 Minutes", "tr": "Paris: 15 Dakikada 2.300 Yıl"}},
+   "title": {"en": "Paris: 2,300 Years in 50 Seconds #shorts", "tr": "Paris: 50 Saniyede 2.300 Yıl #shorts"},
+   "description": {"en": "From the Parisii on the Seine around 250 BC to 2.1 million Parisians today — the year and the population stay on screen the whole way.",
+                   "tr": "MÖ 250 civarında Seine kıyısındaki Parisiilerden bugünün 2,1 milyon Paris'lisine — yıl ve nüfus baştan sona ekranda."},
+   "tags": ["paris history", "history of paris", "lutetia", "3d timelapse", "city evolution", "how paris grew", "shorts"],
+   "hashtags": ["#Paris", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "haussmann",
+   "from_year": 1841, "to_year": 1889, "seconds": 50,
+   "hook": {"line1": {"en": "Paris Remade", "tr": "Yeniden Paris"}, "line2": {"en": "1841–1889", "tr": "1841–1889"}},
+   "end": {"line2": {"en": "Paris: 2,300 Years in 15 Minutes", "tr": "Paris: 15 Dakikada 2.300 Yıl"}},
+   "title": {"en": "How Haussmann Remade Paris: 1841–1889 #shorts", "tr": "Haussmann Paris'i Nasıl Yeniden Yaptı: 1841–1889 #shorts"},
+   "description": {"en": "1841–1846: the 33 km Thiers wall. From 1853 Haussmann tears down 19,730 buildings for wide boulevards. 1 January 1860: Paris grows from 12 to 20 arrondissements. Then the siege of 1870–71, the fires of May 1871, the Palais Garnier (1875) and the Eiffel Tower (1889).",
+                   "tr": "1841–1846: 33 km'lik Thiers suru. 1853'ten itibaren Haussmann geniş bulvarlar için 19.730 binayı yıkar. 1 Ocak 1860: Paris 12 bölgeden 20 bölgeye büyür. Ardından 1870–71 kuşatması, Mayıs 1871 yangınları, Palais Garnier (1875) ve Eiffel Kulesi (1889)."},
+   "tags": ["haussmann", "paris boulevards", "eiffel tower", "paris commune", "paris history", "3d timelapse", "shorts"],
+   "hashtags": ["#Paris", "#Haussmann", "#History", "#Shorts"]
+  },
+  {
+   "id": "medieval",
+   "from_year": 1163, "to_year": 1436, "seconds": 45,
+   "hook": {"line1": {"en": "Medieval Paris", "tr": "Orta Çağ Parisi"}, "line2": {"en": "1163–1436", "tr": "1163–1436"}},
+   "end": {"line2": {"en": "Paris: 2,300 Years in 15 Minutes", "tr": "Paris: 15 Dakikada 2.300 Yıl"}},
+   "title": {"en": "Medieval Paris: Notre-Dame, Walls and Plague #shorts", "tr": "Orta Çağ Parisi: Notre-Dame, Surlar ve Veba #shorts"},
+   "description": {"en": "1163: Notre-Dame is begun. 1190–1213: Philip Augustus walls in 253 hectares and builds the Louvre fortress. 1328: about 200,000 people, the largest city in Europe. 1348–49: the Black Death kills a quarter. 1356–1383: the wall of Charles V and the Bastille.",
+                   "tr": "1163: Notre-Dame'ın yapımı başlar. 1190–1213: Philippe Auguste 253 hektarı surla çevirir ve Louvre kalesini yaptırır. 1328: yaklaşık 200.000 kişiyle Avrupa'nın en büyük şehri. 1348–49: Kara Ölüm halkın dörtte birini öldürür. 1356–1383: V. Charles suru ve Bastille."},
+   "tags": ["medieval paris", "notre dame", "black death", "bastille", "louvre", "paris history", "3d timelapse", "shorts"],
+   "hashtags": ["#Paris", "#MiddleAges", "#History", "#Shorts"]
+  }
+ ]
+}
