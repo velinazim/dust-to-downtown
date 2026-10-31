@@ -1,0 +1,17 @@
+stats {'buildings': 20330, 'trees': 14205, 'pieces': 5094, 'tents': 520, 'landmarks': 24, 'duration': 902}
+  scene t=53.06 5.6s
+  scene t=106.12 2.8s
+  scene t=159.18 2.9s
+  scene t=212.24 3.0s
+  scene t=265.29 2.9s
+  scene t=318.35 2.8s
+  scene t=371.41 2.8s
+  scene t=424.47 2.8s
+  scene t=477.53 3.0s
+  scene t=530.59 3.2s
+  scene t=583.65 3.0s
+  scene t=636.71 3.4s
+  scene t=689.76 2.9s
+  scene t=742.82 3.6s
+  scene t=795.88 3.7s
+  scene t=848.94 2.9s

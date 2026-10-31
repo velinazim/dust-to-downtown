@@ -1,0 +1,12 @@
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 504
+  rivers: overpass.private.coffee -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+osm rivers: kept 12, skipped 220 -> 12 outer / 61 inner rings
+osm lakes: 27 lakes >= 0.02 km2
+grid 609x532 @ 100 m
+elevation: zoom 11, tiles 5x5
+grid 636x425 @ 30 m
+elevation: zoom 13, tiles 7x5
+core layer 636 x 425
+wrote geo.json 609 x 532
+maps written to cities/paris/preview
