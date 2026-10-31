@@ -134,3 +134,5 @@ coordinate); Hôtel des Invalides block placed ≈ 150 m north of the dome coord
 - Camps ≈: Vikings on both banks 885–886 (sites not given in sources); German siege lines 1870–71 drawn 9–12 km out
   (the source gives the forts 2–5 km outside the wall; the camp positions are illustrative).
 - Modern banks of the Seine are used throughout (the island shapes and quays changed over time; not modelled).
+- Water: all OSM river areas are used; the Seine's south arm past the Île de la Cité (missing from the OSM river areas) is
+  added as a 50 m channel, and the Bassin de l'Arsenal (a 19th-century basin) is filled back to land.
