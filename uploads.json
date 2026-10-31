@@ -111,5 +111,41 @@
   "uploaded": "2026-10-31T10:35:13Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "paris:short:whole",
+  "slug": "paris",
+  "kind": "short",
+  "video_id": "aqeA3sKZWLM",
+  "link": "https://youtube.com/shorts/aqeA3sKZWLM",
+  "title": "Paris: 2,300 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-07T16:00:00Z",
+  "uploaded": "2026-10-31T10:55:59Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "paris:short:haussmann",
+  "slug": "paris",
+  "kind": "short",
+  "video_id": "_aB_O3zMqSI",
+  "link": "https://youtube.com/shorts/_aB_O3zMqSI",
+  "title": "How Haussmann Remade Paris: 1841–1889 #shorts",
+  "publish_at": "2026-11-08T16:00:00Z",
+  "uploaded": "2026-10-31T10:56:05Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "paris:short:medieval",
+  "slug": "paris",
+  "kind": "short",
+  "video_id": "jtv6cxSeVUM",
+  "link": "https://youtube.com/shorts/jtv6cxSeVUM",
+  "title": "Medieval Paris: Notre-Dame, Walls and Plague #shorts",
+  "publish_at": "2026-11-09T16:00:00Z",
+  "uploaded": "2026-10-31T10:56:10Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]

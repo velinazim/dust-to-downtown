@@ -1,5 +1,8 @@
 {
  "rendered": "2026-10-31T10:35:13Z",
  "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41185681178",
- "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded paris:long https://youtu.be/5I-B-o2kjc4 publish_at=2026-11-06T15:00:00Z thumbnail=ok playlist=added\n"
+ "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded paris:long https://youtu.be/5I-B-o2kjc4 publish_at=2026-11-06T15:00:00Z thumbnail=ok playlist=added\n",
+ "shorts_rendered": "2026-10-31T10:56:10Z",
+ "shorts_run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41193364684",
+ "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded paris:short:whole https://youtube.com/shorts/aqeA3sKZWLM publish_at=2026-11-07T16:00:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded paris:short:haussmann https://youtube.com/shorts/_aB_O3zMqSI publish_at=2026-11-08T16:00:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded paris:short:medieval https://youtube.com/shorts/jtv6cxSeVUM publish_at=2026-11-09T16:00:00Z thumbnail=none playlist=added\n"
 }
