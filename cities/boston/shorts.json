@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1625, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Boston", "tr": "Boston"}, "line2": {"en": "400 years in 50 seconds", "tr": "50 saniyede 400 yıl"}},
+   "end": {"line2": {"en": "Boston: 400 Years in 14 Minutes", "tr": "Boston: 14 Dakikada 400 Yıl"}},
+   "title": {"en": "Boston: 400 Years in 50 Seconds #shorts", "tr": "Boston: 50 Saniyede 400 Yıl #shorts"},
+   "description": {"en": "From one English settler on the Shawmut Peninsula in 1625 to about 673,000 Bostonians today — and watch the water turn into land. The year and the population stay on screen the whole way.",
+                   "tr": "1625'te Shawmut Yarımadası'ndaki tek bir İngiliz yerleşimciden bugünün yaklaşık 673.000 Bostonlusuna — ve denizin toprağa dönüşmesini izleyin. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["boston history", "history of boston", "boston landfill", "3d timelapse", "city evolution", "how boston grew", "shorts"],
+   "hashtags": ["#Boston", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "made-land",
+   "from_year": 1807, "to_year": 1900, "seconds": 50,
+   "hook": {"line1": {"en": "Sea Into Land", "tr": "Denizden Toprak"}, "line2": {"en": "Boston, 1807–1900", "tr": "Boston, 1807–1900"}},
+   "end": {"line2": {"en": "Boston: 400 Years in 14 Minutes", "tr": "Boston: 14 Dakikada 400 Yıl"}},
+   "title": {"en": "How Boston Turned the Sea Into Land #shorts", "tr": "Boston Denizi Nasıl Toprağa Çevirdi #shorts"},
+   "description": {"en": "1807–1828: Beacon Hill and Copp's Hill fill the 50-acre Mill Pond. 1821: the Mill Dam closes off the Back Bay. 1833–1845: the South Cove. From 1857 trains bring gravel from Needham to fill the Back Bay — done by 1882, the Fens by 1900.",
+                   "tr": "1807–1828: Beacon ve Copp's tepeleri 50 dönümlük Değirmen Göleti'ni doldurur. 1821: bent Back Bay'i kapatır. 1833–1845: Güney Koyu. 1857'den itibaren trenler Needham'dan çakıl getirip Back Bay'i doldurur — 1882'de biter, Fens 1900'de."},
+   "tags": ["boston landfill", "back bay", "boston history", "made land", "mill pond", "3d timelapse", "shorts"],
+   "hashtags": ["#Boston", "#BackBay", "#History", "#Shorts"]
+  },
+  {
+   "id": "revolution",
+   "from_year": 1768, "to_year": 1776.5, "seconds": 45,
+   "hook": {"line1": {"en": "Boston, 1770–1776", "tr": "Boston, 1770–1776"}, "line2": {"en": "Massacre, tea and siege", "tr": "Katliam, çay ve kuşatma"}},
+   "end": {"line2": {"en": "Boston: 400 Years in 14 Minutes", "tr": "Boston: 14 Dakikada 400 Yıl"}},
+   "title": {"en": "Boston and the Revolution, 1770–1776 #shorts", "tr": "Boston ve Devrim, 1770–1776 #shorts"},
+   "description": {"en": "5 March 1770: the Boston Massacre. 16 December 1773: 342 chests of tea go into the harbor. 19 April 1775: the siege begins; 17 June: Bunker Hill. March 1776: cannon on Dorchester Heights, and on the 17th the British sail away.",
+                   "tr": "5 Mart 1770: Boston Katliamı. 16 Aralık 1773: 342 sandık çay denize dökülür. 19 Nisan 1775: kuşatma başlar; 17 Haziran: Bunker Tepesi. Mart 1776: Dorchester Tepeleri'nde toplar ve 17'sinde İngilizler denize açılır."},
+   "tags": ["boston tea party", "boston massacre", "siege of boston", "bunker hill", "american revolution", "3d timelapse", "shorts"],
+   "hashtags": ["#Boston", "#AmericanRevolution", "#History", "#Shorts"]
+  }
+ ]
+}

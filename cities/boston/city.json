@@ -1,0 +1,5072 @@
+{
+ "slug": "boston",
+ "seed": 1630,
+ "long_ok": true,
+ "name": {
+  "en": "Boston",
+  "tr": "Boston"
+ },
+ "intro": {
+  "en": "400 Years in 14 Minutes",
+  "tr": "14 Dakikada 400 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   42.2,
+   -71.32,
+   42.52,
+   -70.84
+  ],
+  "cell_m": 90,
+  "core_bbox": [
+   42.315,
+   -71.125,
+   42.395,
+   -70.975
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Charles",
+   "Mystic",
+   "Neponset",
+   "Chelsea",
+   "Fort Point",
+   "Reserved",
+   "Malden",
+   "Island End",
+   "Muddy"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": 1625,
+   "to": 1629,
+   "seconds": 22,
+   "era": {
+    "en": "Before the Colony",
+    "tr": "Koloni Öncesi"
+   },
+   "city_name": {
+    "en": "Shawmut",
+    "tr": "Shawmut"
+   },
+   "title": {
+    "en": "The Shawmut Peninsula",
+    "tr": "Shawmut Yarımadası"
+   },
+   "sub": {
+    "en": "1625: an English settler, William Blaxton, lives alone on a hilly peninsula called Shawmut",
+    "tr": "1625: İngiliz yerleşimci William Blaxton, Shawmut adlı tepelik bir yarımadada tek başına yaşar"
+   },
+   "camera": {
+    "center": [
+     42.357,
+     -71.062
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Shawmut",
+    "tr": "Shawmut"
+   }
+  },
+  {
+   "from": 1630,
+   "to": 1633,
+   "seconds": 22,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Boston Is Founded",
+    "tr": "Boston Kuruluyor"
+   },
+   "sub": {
+    "en": "7 September 1630: Puritans led by John Winthrop name their new town Boston",
+    "tr": "7 Eylül 1630: John Winthrop önderliğindeki Püritenler yeni kasabalarına Boston adını verir"
+   },
+   "camera": {
+    "center": [
+     42.359,
+     -71.06
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Puritan Boston",
+    "tr": "Püriten Boston"
+   }
+  },
+  {
+   "from": 1634,
+   "to": 1642,
+   "seconds": 20,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Common",
+    "tr": "Common"
+   },
+   "sub": {
+    "en": "1634: the town buys land from Blaxton for a common; today it is the oldest US city park",
+    "tr": "1634: kasaba ortak alan için Blaxton'dan arazi alır; bugün ABD'nin en eski şehir parkı"
+   },
+   "camera": {
+    "center": [
+     42.3575,
+     -71.063
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1643,
+   "to": 1657,
+   "seconds": 20,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Mill Pond",
+    "tr": "Değirmen Göleti"
+   },
+   "sub": {
+    "en": "1643: investors dam the North Cove to drive tidal corn mills; it becomes the Mill Pond",
+    "tr": "1643: yatırımcılar gelgit değirmenleri için Kuzey Koyu'nu bentle kapatır: Değirmen Göleti"
+   },
+   "population": [
+    1300,
+    2100
+   ],
+   "camera": {
+    "center": [
+     42.362,
+     -71.06
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1658,
+   "to": 1679,
+   "seconds": 19,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Town House",
+    "tr": "Belediye Binası"
+   },
+   "sub": {
+    "en": "1658: the first Town House is built where the Old State House stands today",
+    "tr": "1658: ilk belediye binası, bugünkü Eski Eyalet Binası'nın yerinde inşa edilir"
+   },
+   "population": [
+    2200,
+    4400
+   ],
+   "camera": {
+    "center": [
+     42.359,
+     -71.0585
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1680,
+   "to": 1709,
+   "seconds": 20,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "A Seaport Grows",
+    "tr": "Bir Liman Büyüyor"
+   },
+   "sub": {
+    "en": "1680–1710: Boston grows from about 4,500 to 9,000 people as wharves push into the harbor",
+    "tr": "1680–1710: rıhtımlar limana uzarken Boston yaklaşık 4.500'den 9.000 kişiye çıkar"
+   },
+   "population": [
+    4500,
+    8700
+   ],
+   "camera": {
+    "center": [
+     42.36,
+     -71.058
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Colonial Seaport",
+    "tr": "Koloni Limanı"
+   }
+  },
+  {
+   "from": 1710,
+   "to": 1712,
+   "seconds": 18,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Fire of 1711",
+    "tr": "1711 Yangını"
+   },
+   "sub": {
+    "en": "October 1711: a fire burns the first Town House; a brick one replaces it in 1713",
+    "tr": "Ekim 1711: bir yangın ilk belediye binasını yakar; 1713'te yerine tuğla bir bina yapılır"
+   },
+   "population": [
+    9000,
+    9200
+   ],
+   "camera": {
+    "center": [
+     42.359,
+     -71.058
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1713,
+   "to": 1720,
+   "seconds": 20,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Long Wharf",
+    "tr": "Uzun Rıhtım"
+   },
+   "sub": {
+    "en": "1710–1721: Long Wharf is built out from King Street, about a third of a mile into the harbor",
+    "tr": "1710–1721: Uzun Rıhtım, King Caddesi'nden limana doğru yaklaşık yarım kilometre uzatılır"
+   },
+   "population": [
+    9400,
+    10300
+   ],
+   "camera": {
+    "center": [
+     42.3595,
+     -71.0545
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1721,
+   "to": 1722,
+   "seconds": 18,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Smallpox",
+    "tr": "Çiçek Hastalığı"
+   },
+   "sub": {
+    "en": "1721–1722: smallpox strikes 5,889 of about 10,500 people; 844 die",
+    "tr": "1721–1722: çiçek hastalığı yaklaşık 10.500 kişiden 5.889'una bulaşır; 844 kişi ölür"
+   },
+   "population": [
+    10400,
+    10567
+   ],
+   "camera": {
+    "center": [
+     42.361,
+     -71.058
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1723,
+   "to": 1741,
+   "seconds": 19,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Old North and Old South",
+    "tr": "Old North ve Old South"
+   },
+   "sub": {
+    "en": "1723: Christ Church, the Old North, rises in the North End; the Old South follows in 1729",
+    "tr": "1723: Kuzey Yakası'nda Old North kilisesi yükselir; Old South 1729'da onu izler"
+   },
+   "population": [
+    10800,
+    16000
+   ],
+   "camera": {
+    "center": [
+     42.3625,
+     -71.057
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1742,
+   "to": 1759,
+   "seconds": 18,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Faneuil Hall",
+    "tr": "Faneuil Hall"
+   },
+   "sub": {
+    "en": "10 September 1742: Faneuil Hall opens, a market below and a meeting hall above",
+    "tr": "10 Eylül 1742: Faneuil Hall açılır; altta pazar, üstte toplantı salonu"
+   },
+   "population": [
+    16400,
+    15700
+   ],
+   "camera": {
+    "center": [
+     42.36,
+     -71.057
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1760,
+   "to": 1761,
+   "seconds": 19,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Great Fire of 1760",
+    "tr": "1760 Büyük Yangını"
+   },
+   "sub": {
+    "en": "20 March 1760: a fire from Cornhill burns 349 buildings down to Fort Hill; no one dies",
+    "tr": "20 Mart 1760: Cornhill'de çıkan yangın Fort Hill'e kadar 349 binayı yakar; ölen olmaz"
+   },
+   "population": [
+    15631,
+    15600
+   ],
+   "camera": {
+    "center": [
+     42.357,
+     -71.057
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1762,
+   "to": 1767,
+   "seconds": 7,
+   "era": {
+    "en": "Colonial Era",
+    "tr": "Koloni Dönemi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "population": [
+    15600,
+    15520
+   ],
+   "camera": {
+    "center": [
+     42.359,
+     -71.059
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1768,
+   "to": 1772,
+   "seconds": 20,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Boston Massacre",
+    "tr": "Boston Katliamı"
+   },
+   "sub": {
+    "en": "5 March 1770: British soldiers fire into a crowd by the Town House, killing five people",
+    "tr": "5 Mart 1770: İngiliz askerleri belediye binası önündeki kalabalığa ateş açar, beş kişi ölür"
+   },
+   "population": 15520,
+   "camera": {
+    "center": [
+     42.3585,
+     -71.059
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   }
+  },
+  {
+   "from": 1773,
+   "to": 1774,
+   "seconds": 20,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Boston Tea Party",
+    "tr": "Boston Çay Partisi"
+   },
+   "sub": {
+    "en": "16 December 1773: protesters dump 342 chests of tea into the harbor at Griffin's Wharf",
+    "tr": "16 Aralık 1773: protestocular Griffin İskelesi'nde 342 sandık çayı denize döker"
+   },
+   "population": 15520,
+   "camera": {
+    "center": [
+     42.3555,
+     -71.055
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1775,
+   "to": 1775.45,
+   "seconds": 19,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Siege of Boston",
+    "tr": "Boston Kuşatması"
+   },
+   "sub": {
+    "en": "19 April 1775: after Lexington and Concord, militia surround the British army in Boston",
+    "tr": "19 Nisan 1775: Lexington ve Concord'dan sonra milisler Boston'daki İngiliz ordusunu kuşatır"
+   },
+   "camera": {
+    "center": [
+     42.356,
+     -71.075
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1775.46,
+   "to": 1776.1,
+   "seconds": 19,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Bunker Hill",
+    "tr": "Bunker Tepesi"
+   },
+   "sub": {
+    "en": "17 June 1775: British troops take Breed's Hill in Charlestown, at a heavy cost",
+    "tr": "17 Haziran 1775: İngiliz askerleri Charlestown'daki Breed's Tepesi'ni ağır kayıpla alır"
+   },
+   "camera": {
+    "center": [
+     42.37,
+     -71.062
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1776.11,
+   "to": 1776.5,
+   "seconds": 19,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The British Leave",
+    "tr": "İngilizler Gidiyor"
+   },
+   "sub": {
+    "en": "March 1776: cannon on Dorchester Heights force the British to sail away on the 17th",
+    "tr": "Mart 1776: Dorchester Tepeleri'ne kurulan toplar İngilizleri 17'sinde denize açılmaya zorlar"
+   },
+   "camera": {
+    "center": [
+     42.348,
+     -71.052
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1777,
+   "to": 1793,
+   "seconds": 19,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Bridging the Charles",
+    "tr": "Charles'a Köprü"
+   },
+   "sub": {
+    "en": "1786: the Charles River Bridge links Boston and Charlestown; Cambridge follows in 1793",
+    "tr": "1786: Charles Nehri Köprüsü Boston'u Charlestown'a bağlar; 1793'te Cambridge'e köprü"
+   },
+   "population": [
+    10000,
+    20100
+   ],
+   "camera": {
+    "center": [
+     42.364,
+     -71.064
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "A Growing City",
+    "tr": "Büyüyen Şehir"
+   }
+  },
+  {
+   "from": 1794,
+   "to": 1806,
+   "seconds": 19,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The State House",
+    "tr": "Eyalet Meclisi"
+   },
+   "sub": {
+    "en": "1795–1798: Charles Bulfinch's State House rises on Beacon Hill; its dome is gilded in 1874",
+    "tr": "1795–1798: Bulfinch'in Eyalet Meclisi Beacon Tepesi'nde yükselir; kubbesi 1874'te yaldızlanır"
+   },
+   "population": [
+    20700,
+    29900
+   ],
+   "camera": {
+    "center": [
+     42.3585,
+     -71.064
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1807,
+   "to": 1820,
+   "seconds": 22,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Hills into the Sea",
+    "tr": "Tepeler Denize"
+   },
+   "sub": {
+    "en": "1807–c.1828: earth from Beacon Hill and Copp's Hill fills the 50-acre Mill Pond",
+    "tr": "1807–1828 civarı: Beacon ve Copp's tepelerinin toprağı 50 dönümlük Değirmen Göleti'ni doldurur"
+   },
+   "population": [
+    30800,
+    43300
+   ],
+   "camera": {
+    "center": [
+     42.363,
+     -71.062
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Making Land",
+    "tr": "Toprak Yaratmak"
+   }
+  },
+  {
+   "from": 1821,
+   "to": 1823,
+   "seconds": 19,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "A Dam and a City",
+    "tr": "Bir Bent ve Bir Şehir"
+   },
+   "sub": {
+    "en": "1821: a mill dam, today's Beacon Street, closes off the Back Bay; Boston becomes a city in 1822",
+    "tr": "1821: bugünkü Beacon Caddesi olan bent Back Bay'i kapatır; Boston 1822'de şehir olur"
+   },
+   "population": [
+    44800,
+    48100
+   ],
+   "camera": {
+    "center": [
+     42.354,
+     -71.078
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 1824,
+   "to": 1832,
+   "seconds": 18,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Quincy Market",
+    "tr": "Quincy Pazarı"
+   },
+   "sub": {
+    "en": "1824–1826: Quincy Market is built on new land just east of Faneuil Hall",
+    "tr": "1824–1826: Quincy Pazarı, Faneuil Hall'ün hemen doğusundaki yeni toprakta inşa edilir"
+   },
+   "population": [
+    49800,
+    66800
+   ],
+   "camera": {
+    "center": [
+     42.3605,
+     -71.056
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1833,
+   "to": 1835,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Railroads Cross the Bay",
+    "tr": "Demiryolu Körfezi Geçiyor"
+   },
+   "sub": {
+    "en": "1834–1835: lines to Providence and Worcester cross the Back Bay on causeways",
+    "tr": "1834–1835: Providence ve Worcester hatları Back Bay'i set yollar üzerinden geçer"
+   },
+   "population": [
+    69600,
+    75700
+   ],
+   "camera": {
+    "center": [
+     42.349,
+     -71.072
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Industrial Boston",
+    "tr": "Sanayi Bostonu"
+   }
+  },
+  {
+   "from": 1836,
+   "to": 1844,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Filling the South Cove",
+    "tr": "Güney Koyu Dolduruluyor"
+   },
+   "sub": {
+    "en": "1833–1845: new land fills the South Cove, where much of Chinatown stands today",
+    "tr": "1833–1845: bugünkü Çin Mahallesi'nin büyük kısmının bulunduğu Güney Koyu doldurulur"
+   },
+   "population": [
+    79000,
+    109000
+   ],
+   "camera": {
+    "center": [
+     42.351,
+     -71.059
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1845,
+   "to": 1856,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Famine Ships",
+    "tr": "Kıtlık Gemileri"
+   },
+   "sub": {
+    "en": "1845–1849: the Irish potato famine drives a wave of Irish Catholic immigration",
+    "tr": "1845–1849: İrlanda patates kıtlığı büyük bir İrlandalı Katolik göç dalgası getirir"
+   },
+   "population": [
+    113000,
+    160000
+   ],
+   "camera": {
+    "center": [
+     42.356,
+     -71.06
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 1857,
+   "to": 1867,
+   "seconds": 22,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Filling the Back Bay",
+    "tr": "Back Bay Dolduruluyor"
+   },
+   "sub": {
+    "en": "From 1857 trains bring gravel from Needham to fill the Back Bay, block by block",
+    "tr": "1857'den itibaren trenler Needham'dan çakıl getirip Back Bay'i blok blok doldurur"
+   },
+   "population": [
+    164000,
+    226000
+   ],
+   "camera": {
+    "center": [
+     42.351,
+     -71.079
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 1868,
+   "to": 1871,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Annexing the Suburbs",
+    "tr": "Banliyöler Katılıyor"
+   },
+   "sub": {
+    "en": "1868–1870: Boston annexes Roxbury and Dorchester; by 1870 it has 250,526 people",
+    "tr": "1868–1870: Boston, Roxbury ve Dorchester'ı katar; 1870'te nüfusu 250.526'dır"
+   },
+   "population": [
+    234000,
+    260000
+   ],
+   "camera": {
+    "center": [
+     42.34,
+     -71.07
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1872,
+   "to": 1873,
+   "seconds": 19,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Great Fire of 1872",
+    "tr": "1872 Büyük Yangını"
+   },
+   "sub": {
+    "en": "9–10 November 1872: in about 16 hours, fire burns 65 acres and 776 buildings downtown",
+    "tr": "9–10 Kasım 1872: yaklaşık 16 saatte yangın şehir merkezinde 65 dönüm ve 776 binayı yakar"
+   },
+   "population": [
+    270000,
+    280000
+   ],
+   "camera": {
+    "center": [
+     42.3555,
+     -71.057
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1874,
+   "to": 1876,
+   "seconds": 17,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Charlestown Joins",
+    "tr": "Charlestown Katılıyor"
+   },
+   "sub": {
+    "en": "1874: Boston annexes Charlestown, Brighton and West Roxbury",
+    "tr": "1874: Boston, Charlestown, Brighton ve West Roxbury'yi katar"
+   },
+   "population": [
+    291000,
+    313000
+   ],
+   "camera": {
+    "center": [
+     42.356,
+     -71.07
+    ],
+    "dist_km": 11.0
+   }
+  },
+  {
+   "from": 1877,
+   "to": 1887,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "sub": {
+    "en": "1872–1877: H. H. Richardson's Trinity Church rises on new land in Copley Square",
+    "tr": "1872–1877: H. H. Richardson'ın Trinity Kilisesi Copley Meydanı'nın yeni toprağında yükselir"
+   },
+   "population": [
+    325000,
+    421000
+   ],
+   "camera": {
+    "center": [
+     42.351,
+     -71.076
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1888,
+   "to": 1896,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Back Bay Is Done",
+    "tr": "Back Bay Tamamlanıyor"
+   },
+   "sub": {
+    "en": "By 1882 the Back Bay is filled; the fill reaches Kenmore Square in 1890 and the Fens by 1900",
+    "tr": "Back Bay 1882'de dolar; dolgu 1890'da Kenmore Meydanı'na, 1900'de Fens'e ulaşır"
+   },
+   "population": [
+    430000,
+    513000
+   ],
+   "camera": {
+    "center": [
+     42.35,
+     -71.082
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1897,
+   "to": 1898,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "America's First Subway",
+    "tr": "Amerika'nın İlk Metrosu"
+   },
+   "sub": {
+    "en": "1 September 1897: the Tremont Street subway opens, the first in North America",
+    "tr": "1 Eylül 1897: Tremont Caddesi metrosu açılır; Kuzey Amerika'nın ilk metrosu"
+   },
+   "population": [
+    524000,
+    536000
+   ],
+   "camera": {
+    "center": [
+     42.356,
+     -71.062
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1899,
+   "to": 1911,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "South Station",
+    "tr": "South Station"
+   },
+   "sub": {
+    "en": "1 January 1899: South Station opens on Dewey Square, with one of the largest train sheds",
+    "tr": "1 Ocak 1899: South Station, dünyanın en büyük tren hangarlarından biriyle açılır"
+   },
+   "population": [
+    548000,
+    678000
+   ],
+   "camera": {
+    "center": [
+     42.351,
+     -71.054
+    ],
+    "dist_km": 3.6
+   },
+   "chapter": {
+    "en": "Modern Boston",
+    "tr": "Modern Boston"
+   }
+  },
+  {
+   "from": 1912,
+   "to": 1918,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Custom House Tower",
+    "tr": "Gümrük Kulesi"
+   },
+   "sub": {
+    "en": "1915: a 496 ft tower tops the Custom House; Fenway Park has opened in 1912",
+    "tr": "1915: Gümrük Binası'na 151 m'lik bir kule eklenir; Fenway Park 1912'de açılmıştır"
+   },
+   "population": [
+    685000,
+    732000
+   ],
+   "camera": {
+    "center": [
+     42.356,
+     -71.064
+    ],
+    "dist_km": 5.6
+   }
+  },
+  {
+   "from": 1919,
+   "to": 1922,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Molasses Flood",
+    "tr": "Pekmez Seli"
+   },
+   "sub": {
+    "en": "15 January 1919: a tank bursts in the North End; a wave of molasses kills 21 people",
+    "tr": "15 Ocak 1919: Kuzey Yakası'nda bir tank patlar; pekmez dalgası 21 kişinin ölümüne yol açar"
+   },
+   "population": [
+    740000,
+    755000
+   ],
+   "camera": {
+    "center": [
+     42.366,
+     -71.056
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1923,
+   "to": 1939,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Boston Airport",
+    "tr": "Boston Havalimanı"
+   },
+   "sub": {
+    "en": "8 September 1923: an airport opens in East Boston; the Sumner Tunnel follows in 1934",
+    "tr": "8 Eylül 1923: Doğu Boston'da bir havalimanı açılır; 1934'te Sumner Tüneli gelir"
+   },
+   "population": [
+    758000,
+    772000
+   ],
+   "camera": {
+    "center": [
+     42.364,
+     -71.03
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1940,
+   "to": 1950,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Peak Boston",
+    "tr": "Zirvedeki Boston"
+   },
+   "sub": {
+    "en": "1950: the census counts 801,444 people, Boston's highest count so far",
+    "tr": "1950: sayım 801.444 kişi sayar; Boston'un bugüne kadarki en yüksek nüfusu"
+   },
+   "population": [
+    771000,
+    801000
+   ],
+   "camera": {
+    "center": [
+     42.354,
+     -71.05
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1951,
+   "to": 1962,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Central Artery",
+    "tr": "Central Artery"
+   },
+   "sub": {
+    "en": "1951–1959: an elevated highway cuts through downtown; the West End is razed from 1958",
+    "tr": "1951–1959: yükseltilmiş bir otoyol şehir merkezini böler; Batı Yakası 1958'den itibaren yıkılır"
+   },
+   "population": [
+    790000,
+    686000
+   ],
+   "camera": {
+    "center": [
+     42.361,
+     -71.06
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1963,
+   "to": 1970,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Prudential and City Hall",
+    "tr": "Prudential ve Belediye"
+   },
+   "sub": {
+    "en": "1964: the 749 ft Prudential Tower rises; in 1968 City Hall opens where Scollay Square stood",
+    "tr": "1964: 228 m'lik Prudential Kulesi yükselir; 1968'de Scollay Meydanı'nın yerinde belediye açılır"
+   },
+   "population": [
+    680000,
+    641000
+   ],
+   "camera": {
+    "center": [
+     42.354,
+     -71.07
+    ],
+    "dist_km": 4.8
+   }
+  },
+  {
+   "from": 1971,
+   "to": 1990,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Hancock Tower",
+    "tr": "Hancock Kulesi"
+   },
+   "sub": {
+    "en": "1976: I. M. Pei's 790 ft Hancock Tower becomes New England's tallest building",
+    "tr": "1976: I. M. Pei'nin 241 m'lik Hancock Kulesi New England'ın en yüksek binası olur"
+   },
+   "population": [
+    633000,
+    574000
+   ],
+   "camera": {
+    "center": [
+     42.35,
+     -71.074
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1991,
+   "to": 2007,
+   "seconds": 20,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "The Big Dig",
+    "tr": "Big Dig"
+   },
+   "sub": {
+    "en": "1991–2007: the highway goes underground; the elevated Central Artery comes down from 2004",
+    "tr": "1991–2007: otoyol yerin altına iner; yükseltilmiş Central Artery 2004'ten itibaren sökülür"
+   },
+   "population": [
+    576000,
+    609000
+   ],
+   "camera": {
+    "center": [
+     42.36,
+     -71.057
+    ],
+    "dist_km": 3.6
+   },
+   "chapter": {
+    "en": "Boston Today",
+    "tr": "Bugünün Bostonu"
+   }
+  },
+  {
+   "from": 2008,
+   "to": 2019,
+   "seconds": 19,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Made Land",
+    "tr": "Yapay Toprak"
+   },
+   "sub": {
+    "en": "More than two-thirds of inner Boston stands on land that did not exist in 1630",
+    "tr": "İç Boston'un üçte ikisinden fazlası, 1630'da var olmayan topraklar üzerinde durur"
+   },
+   "population": [
+    612000,
+    670000
+   ],
+   "camera": {
+    "center": [
+     42.354,
+     -71.06
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 2020,
+   "to": 2026,
+   "seconds": 26,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "title": {
+    "en": "Boston Today",
+    "tr": "Bugünün Bostonu"
+   },
+   "sub": {
+    "en": "From one settler on Shawmut to about 673,000 Bostonians, nearly 400 years on",
+    "tr": "Shawmut'taki tek bir yerleşimciden yaklaşık 673.000 Bostonluya, yaklaşık 400 yıl sonra"
+   },
+   "population": [
+    675647,
+    672973
+   ],
+   "camera": {
+    "center": [
+     42.356,
+     -71.062
+    ],
+    "dist_km": 11.0
+   }
+  }
+ ],
+ "timed_water": [],
+ "districts": [
+  {
+   "name": "First town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.3628,
+     -71.056
+    ],
+    [
+     42.3612,
+     -71.0582
+    ],
+    [
+     42.3592,
+     -71.0602
+    ],
+    [
+     42.357,
+     -71.0606
+    ],
+    [
+     42.3558,
+     -71.0588
+    ],
+    [
+     42.357,
+     -71.056
+    ],
+    [
+     42.3592,
+     -71.056
+    ],
+    [
+     42.3608,
+     -71.0568
+    ]
+   ],
+   "from": 1630,
+   "to": 1665,
+   "density": 0.55,
+   "grain_m": 45,
+   "grow_from": [
+    42.3595,
+    -71.058
+   ]
+  },
+  {
+   "name": "North End (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.3672,
+     -71.0582
+    ],
+    [
+     42.3681,
+     -71.0558
+    ],
+    [
+     42.3666,
+     -71.0526
+    ],
+    [
+     42.3642,
+     -71.053
+    ],
+    [
+     42.3624,
+     -71.0552
+    ],
+    [
+     42.3628,
+     -71.0582
+    ],
+    [
+     42.3655,
+     -71.0588
+    ]
+   ],
+   "from": 1640,
+   "to": 1700,
+   "density": 0.75,
+   "grain_m": 45,
+   "grow_from": [
+    42.3635,
+    -71.056
+   ]
+  },
+  {
+   "name": "Charlestown village (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.3722,
+     -71.0628
+    ],
+    [
+     42.374,
+     -71.06
+    ],
+    [
+     42.3762,
+     -71.061
+    ],
+    [
+     42.3772,
+     -71.065
+    ],
+    [
+     42.3745,
+     -71.0666
+    ]
+   ],
+   "from": 1630,
+   "to": 1680,
+   "density": 0.55,
+   "grain_m": 50,
+   "grow_from": [
+    42.3735,
+    -71.062
+   ]
+  },
+  {
+   "name": "Roxbury village (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.333,
+     -71.09
+    ],
+    [
+     42.333,
+     -71.085
+    ],
+    [
+     42.329,
+     -71.083
+    ],
+    [
+     42.327,
+     -71.087
+    ],
+    [
+     42.329,
+     -71.091
+    ]
+   ],
+   "from": 1631,
+   "to": 1700,
+   "density": 0.4,
+   "grain_m": 60,
+   "grow_from": [
+    42.3305,
+    -71.087
+   ]
+  },
+  {
+   "name": "Cambridge village (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.376,
+     -71.122
+    ],
+    [
+     42.376,
+     -71.116
+    ],
+    [
+     42.372,
+     -71.116
+    ],
+    [
+     42.3715,
+     -71.122
+    ]
+   ],
+   "from": 1631,
+   "to": 1700,
+   "density": 0.45,
+   "grain_m": 55,
+   "grow_from": [
+    42.374,
+    -71.119
+   ]
+  },
+  {
+   "name": "South town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     42.3572,
+     -71.061
+    ],
+    [
+     42.3558,
+     -71.059
+    ],
+    [
+     42.3543,
+     -71.056
+    ],
+    [
+     42.3528,
+     -71.0585
+    ],
+    [
+     42.351,
+     -71.0603
+    ],
+    [
+     42.3495,
+     -71.0617
+    ],
+    [
+     42.3505,
+     -71.0638
+    ],
+    [
+     42.354,
+     -71.063
+    ],
+    [
+     42.3562,
+     -71.0626
+    ]
+   ],
+   "from": 1660,
+   "to": 1730,
+   "density": 0.7,
+   "grain_m": 45,
+   "grow_from": [
+    42.356,
+    -71.06
+   ]
+  },
+  {
+   "name": "West End (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3652,
+     -71.065
+    ],
+    [
+     42.364,
+     -71.067
+    ],
+    [
+     42.3617,
+     -71.0686
+    ],
+    [
+     42.36,
+     -71.0672
+    ],
+    [
+     42.3608,
+     -71.064
+    ],
+    [
+     42.363,
+     -71.0615
+    ]
+   ],
+   "from": 1700,
+   "to": 1790,
+   "density": 0.7,
+   "grain_m": 50,
+   "grow_from": [
+    42.363,
+    -71.0625
+   ]
+  },
+  {
+   "name": "Brick downtown",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3628,
+     -71.056
+    ],
+    [
+     42.3612,
+     -71.0582
+    ],
+    [
+     42.3592,
+     -71.0602
+    ],
+    [
+     42.357,
+     -71.0606
+    ],
+    [
+     42.3558,
+     -71.0588
+    ],
+    [
+     42.357,
+     -71.056
+    ],
+    [
+     42.3592,
+     -71.056
+    ],
+    [
+     42.3608,
+     -71.0568
+    ]
+   ],
+   "from": 1712,
+   "to": 1760,
+   "density": 0.85,
+   "grain_m": 42,
+   "grow_from": [
+    42.359,
+    -71.058
+   ]
+  },
+  {
+   "name": "Beacon Hill",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3602,
+     -71.0692
+    ],
+    [
+     42.3585,
+     -71.0699
+    ],
+    [
+     42.3566,
+     -71.0703
+    ],
+    [
+     42.3578,
+     -71.0632
+    ],
+    [
+     42.36,
+     -71.0645
+    ]
+   ],
+   "holes": [
+    [
+     [
+      42.3566,
+      -71.0622
+     ],
+     [
+      42.3578,
+      -71.0631
+     ],
+     [
+      42.3561,
+      -71.0702
+     ],
+     [
+      42.3523,
+      -71.0689
+     ],
+     [
+      42.3524,
+      -71.0644
+     ]
+    ]
+   ],
+   "from": 1795,
+   "to": 1840,
+   "density": 0.8,
+   "grain_m": 45,
+   "grow_from": [
+    42.3582,
+    -71.064
+   ]
+  },
+  {
+   "name": "Shawmut, filled out",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3315,
+     -71.0815
+    ],
+    [
+     42.336,
+     -71.0762
+    ],
+    [
+     42.34,
+     -71.0712
+    ],
+    [
+     42.3439,
+     -71.067
+    ],
+    [
+     42.3468,
+     -71.0655
+    ],
+    [
+     42.3492,
+     -71.066
+    ],
+    [
+     42.3508,
+     -71.0672
+    ],
+    [
+     42.352,
+     -71.069
+    ],
+    [
+     42.354,
+     -71.0701
+    ],
+    [
+     42.3563,
+     -71.0704
+    ],
+    [
+     42.3585,
+     -71.0699
+    ],
+    [
+     42.3602,
+     -71.0693
+    ],
+    [
+     42.3617,
+     -71.0688
+    ],
+    [
+     42.363,
+     -71.0679
+    ],
+    [
+     42.3642,
+     -71.0667
+    ],
+    [
+     42.3652,
+     -71.0651
+    ],
+    [
+     42.3656,
+     -71.0634
+    ],
+    [
+     42.3648,
+     -71.0627
+    ],
+    [
+     42.3638,
+     -71.062
+    ],
+    [
+     42.3629,
+     -71.0609
+    ],
+    [
+     42.3623,
+     -71.0597
+    ],
+    [
+     42.3629,
+     -71.0589
+    ],
+    [
+     42.3645,
+     -71.0587
+    ],
+    [
+     42.366,
+     -71.0585
+    ],
+    [
+     42.3672,
+     -71.0583
+    ],
+    [
+     42.3681,
+     -71.0566
+    ],
+    [
+     42.3683,
+     -71.0546
+    ],
+    [
+     42.3676,
+     -71.0528
+    ],
+    [
+     42.3663,
+     -71.0519
+    ],
+    [
+     42.3649,
+     -71.0522
+    ],
+    [
+     42.3637,
+     -71.0532
+    ],
+    [
+     42.3627,
+     -71.0546
+    ],
+    [
+     42.3617,
+     -71.0559
+    ],
+    [
+     42.3608,
+     -71.0568
+    ],
+    [
+     42.3598,
+     -71.0563
+    ],
+    [
+     42.359,
+     -71.0555
+    ],
+    [
+     42.3582,
+     -71.0548
+    ],
+    [
+     42.3572,
+     -71.0539
+    ],
+    [
+     42.3562,
+     -71.053
+    ],
+    [
+     42.3551,
+     -71.0533
+    ],
+    [
+     42.3545,
+     -71.0548
+    ],
+    [
+     42.3539,
+     -71.0566
+    ],
+    [
+     42.3529,
+     -71.058
+    ],
+    [
+     42.3517,
+     -71.0592
+    ],
+    [
+     42.3504,
+     -71.0605
+    ],
+    [
+     42.3489,
+     -71.0616
+    ],
+    [
+     42.3468,
+     -71.063
+    ],
+    [
+     42.3439,
+     -71.0652
+    ],
+    [
+     42.34,
+     -71.069
+    ],
+    [
+     42.336,
+     -71.0738
+    ],
+    [
+     42.3318,
+     -71.0785
+    ]
+   ],
+   "holes": [
+    [
+     [
+      42.3566,
+      -71.0622
+     ],
+     [
+      42.3578,
+      -71.0631
+     ],
+     [
+      42.3561,
+      -71.0702
+     ],
+     [
+      42.3523,
+      -71.0689
+     ],
+     [
+      42.3524,
+      -71.0644
+     ]
+    ],
+    [
+     [
+      42.3602,
+      -71.0692
+     ],
+     [
+      42.3585,
+      -71.0699
+     ],
+     [
+      42.3566,
+      -71.0703
+     ],
+     [
+      42.3578,
+      -71.0632
+     ],
+     [
+      42.36,
+      -71.0645
+     ]
+    ]
+   ],
+   "from": 1760,
+   "to": 1830,
+   "density": 0.7,
+   "grain_m": 55,
+   "grow_from": [
+    42.359,
+    -71.059
+   ]
+  },
+  {
+   "name": "Charlestown",
+   "style": "georgian",
+   "poly": [
+    [
+     42.371,
+     -71.066
+    ],
+    [
+     42.3725,
+     -71.055
+    ],
+    [
+     42.379,
+     -71.054
+    ],
+    [
+     42.384,
+     -71.064
+    ],
+    [
+     42.38,
+     -71.0715
+    ],
+    [
+     42.374,
+     -71.069
+    ]
+   ],
+   "from": 1776.6,
+   "to": 1850,
+   "density": 0.65,
+   "grain_m": 60,
+   "grow_from": [
+    42.3735,
+    -71.062
+   ]
+  },
+  {
+   "name": "Bulfinch Triangle and North Station",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3615,
+     -71.065
+    ],
+    [
+     42.37,
+     -71.066
+    ],
+    [
+     42.3705,
+     -71.059
+    ],
+    [
+     42.3615,
+     -71.0585
+    ]
+   ],
+   "from": 1815,
+   "to": 1870,
+   "density": 0.75,
+   "grain_m": 55,
+   "grow_from": [
+    42.3635,
+    -71.061
+   ]
+  },
+  {
+   "name": "South Cove",
+   "style": "industrial",
+   "poly": [
+    [
+     42.3545,
+     -71.06
+    ],
+    [
+     42.3545,
+     -71.054
+    ],
+    [
+     42.347,
+     -71.056
+    ],
+    [
+     42.347,
+     -71.064
+    ]
+   ],
+   "from": 1838,
+   "to": 1870,
+   "density": 0.75,
+   "grain_m": 60,
+   "grow_from": [
+    42.352,
+    -71.059
+   ]
+  },
+  {
+   "name": "South Boston",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3418,
+     -71.0565
+    ],
+    [
+     42.341,
+     -71.05
+    ],
+    [
+     42.3401,
+     -71.042
+    ],
+    [
+     42.3392,
+     -71.035
+    ],
+    [
+     42.3381,
+     -71.028
+    ],
+    [
+     42.3376,
+     -71.0212
+    ],
+    [
+     42.335,
+     -71.0185
+    ],
+    [
+     42.3322,
+     -71.025
+    ],
+    [
+     42.3311,
+     -71.035
+    ],
+    [
+     42.33,
+     -71.045
+    ],
+    [
+     42.3286,
+     -71.053
+    ],
+    [
+     42.329,
+     -71.0575
+    ],
+    [
+     42.3335,
+     -71.059
+    ]
+   ],
+   "from": 1805,
+   "to": 1880,
+   "density": 0.55,
+   "grain_m": 70,
+   "grow_from": [
+    42.337,
+    -71.05
+   ]
+  },
+  {
+   "name": "East Boston",
+   "style": "georgian",
+   "poly": [
+    [
+     42.3648,
+     -71.0372
+    ],
+    [
+     42.37,
+     -71.0402
+    ],
+    [
+     42.376,
+     -71.0412
+    ],
+    [
+     42.381,
+     -71.0392
+    ],
+    [
+     42.3842,
+     -71.0332
+    ],
+    [
+     42.3812,
+     -71.0288
+    ],
+    [
+     42.376,
+     -71.0298
+    ],
+    [
+     42.37,
+     -71.03
+    ],
+    [
+     42.3655,
+     -71.031
+    ],
+    [
+     42.364,
+     -71.0336
+    ]
+   ],
+   "from": 1835,
+   "to": 1890,
+   "density": 0.6,
+   "grain_m": 65,
+   "grow_from": [
+    42.37,
+    -71.038
+   ]
+  },
+  {
+   "name": "South End",
+   "style": "victorian",
+   "poly": [
+    [
+     42.3478,
+     -71.0712
+    ],
+    [
+     42.3425,
+     -71.08
+    ],
+    [
+     42.3365,
+     -71.0778
+    ],
+    [
+     42.3385,
+     -71.069
+    ],
+    [
+     42.344,
+     -71.0615
+    ],
+    [
+     42.3478,
+     -71.0628
+    ]
+   ],
+   "from": 1840,
+   "to": 1885,
+   "density": 0.85,
+   "grain_m": 55,
+   "grow_from": [
+    42.346,
+    -71.066
+   ],
+   "grid_deg": 50
+  },
+  {
+   "name": "Back Bay",
+   "style": "victorian",
+   "poly": [
+    [
+     42.3562,
+     -71.0712
+    ],
+    [
+     42.354,
+     -71.079
+    ],
+    [
+     42.3515,
+     -71.0885
+    ],
+    [
+     42.3478,
+     -71.0885
+    ],
+    [
+     42.347,
+     -71.079
+    ],
+    [
+     42.3505,
+     -71.0712
+    ]
+   ],
+   "holes": [
+    [
+     [
+      42.356,
+      -71.0705
+     ],
+     [
+      42.3557,
+      -71.0727
+     ],
+     [
+      42.3518,
+      -71.0715
+     ],
+     [
+      42.3521,
+      -71.0692
+     ]
+    ]
+   ],
+   "from": 1859,
+   "to": 1905,
+   "density": 0.85,
+   "grain_m": 50,
+   "grow_from": [
+    42.353,
+    -71.0712
+   ],
+   "grid_deg": 22
+  },
+  {
+   "name": "Fort Point warehouses",
+   "style": "industrial",
+   "poly": [
+    [
+     42.353,
+     -71.0525
+    ],
+    [
+     42.3515,
+     -71.048
+    ],
+    [
+     42.344,
+     -71.049
+    ],
+    [
+     42.345,
+     -71.053
+    ]
+   ],
+   "from": 1880,
+   "to": 1915,
+   "density": 0.75,
+   "grain_m": 70,
+   "grow_from": [
+    42.35,
+    -71.052
+   ]
+  },
+  {
+   "name": "South Boston waterfront",
+   "style": "industrial",
+   "poly": [
+    [
+     42.354,
+     -71.048
+    ],
+    [
+     42.349,
+     -71.033
+    ],
+    [
+     42.342,
+     -71.028
+    ],
+    [
+     42.3405,
+     -71.045
+    ],
+    [
+     42.344,
+     -71.049
+    ]
+   ],
+   "from": 1900,
+   "to": 1950,
+   "density": 0.4,
+   "grain_m": 110,
+   "grow_from": [
+    42.348,
+    -71.045
+   ]
+  },
+  {
+   "name": "Inner suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     42.415,
+     -71.15
+    ],
+    [
+     42.42,
+     -71.07
+    ],
+    [
+     42.4,
+     -71.0
+    ],
+    [
+     42.36,
+     -70.995
+    ],
+    [
+     42.32,
+     -71.02
+    ],
+    [
+     42.29,
+     -71.04
+    ],
+    [
+     42.28,
+     -71.09
+    ],
+    [
+     42.29,
+     -71.14
+    ],
+    [
+     42.33,
+     -71.17
+    ],
+    [
+     42.38,
+     -71.17
+    ]
+   ],
+   "holes": [
+    [
+     [
+      42.3315,
+      -71.0815
+     ],
+     [
+      42.336,
+      -71.0762
+     ],
+     [
+      42.34,
+      -71.0712
+     ],
+     [
+      42.3439,
+      -71.067
+     ],
+     [
+      42.3468,
+      -71.0655
+     ],
+     [
+      42.3492,
+      -71.066
+     ],
+     [
+      42.3508,
+      -71.0672
+     ],
+     [
+      42.352,
+      -71.069
+     ],
+     [
+      42.354,
+      -71.0701
+     ],
+     [
+      42.3563,
+      -71.0704
+     ],
+     [
+      42.3585,
+      -71.0699
+     ],
+     [
+      42.3602,
+      -71.0693
+     ],
+     [
+      42.3617,
+      -71.0688
+     ],
+     [
+      42.363,
+      -71.0679
+     ],
+     [
+      42.3642,
+      -71.0667
+     ],
+     [
+      42.3652,
+      -71.0651
+     ],
+     [
+      42.3656,
+      -71.0634
+     ],
+     [
+      42.3648,
+      -71.0627
+     ],
+     [
+      42.3638,
+      -71.062
+     ],
+     [
+      42.3629,
+      -71.0609
+     ],
+     [
+      42.3623,
+      -71.0597
+     ],
+     [
+      42.3629,
+      -71.0589
+     ],
+     [
+      42.3645,
+      -71.0587
+     ],
+     [
+      42.366,
+      -71.0585
+     ],
+     [
+      42.3672,
+      -71.0583
+     ],
+     [
+      42.3681,
+      -71.0566
+     ],
+     [
+      42.3683,
+      -71.0546
+     ],
+     [
+      42.3676,
+      -71.0528
+     ],
+     [
+      42.3663,
+      -71.0519
+     ],
+     [
+      42.3649,
+      -71.0522
+     ],
+     [
+      42.3637,
+      -71.0532
+     ],
+     [
+      42.3627,
+      -71.0546
+     ],
+     [
+      42.3617,
+      -71.0559
+     ],
+     [
+      42.3608,
+      -71.0568
+     ],
+     [
+      42.3598,
+      -71.0563
+     ],
+     [
+      42.359,
+      -71.0555
+     ],
+     [
+      42.3582,
+      -71.0548
+     ],
+     [
+      42.3572,
+      -71.0539
+     ],
+     [
+      42.3562,
+      -71.053
+     ],
+     [
+      42.3551,
+      -71.0533
+     ],
+     [
+      42.3545,
+      -71.0548
+     ],
+     [
+      42.3539,
+      -71.0566
+     ],
+     [
+      42.3529,
+      -71.058
+     ],
+     [
+      42.3517,
+      -71.0592
+     ],
+     [
+      42.3504,
+      -71.0605
+     ],
+     [
+      42.3489,
+      -71.0616
+     ],
+     [
+      42.3468,
+      -71.063
+     ],
+     [
+      42.3439,
+      -71.0652
+     ],
+     [
+      42.34,
+      -71.069
+     ],
+     [
+      42.336,
+      -71.0738
+     ],
+     [
+      42.3318,
+      -71.0785
+     ]
+    ],
+    [
+     [
+      42.371,
+      -71.066
+     ],
+     [
+      42.3725,
+      -71.055
+     ],
+     [
+      42.379,
+      -71.054
+     ],
+     [
+      42.384,
+      -71.064
+     ],
+     [
+      42.38,
+      -71.0715
+     ],
+     [
+      42.374,
+      -71.069
+     ]
+    ],
+    [
+     [
+      42.3418,
+      -71.0565
+     ],
+     [
+      42.341,
+      -71.05
+     ],
+     [
+      42.3401,
+      -71.042
+     ],
+     [
+      42.3392,
+      -71.035
+     ],
+     [
+      42.3381,
+      -71.028
+     ],
+     [
+      42.3376,
+      -71.0212
+     ],
+     [
+      42.335,
+      -71.0185
+     ],
+     [
+      42.3322,
+      -71.025
+     ],
+     [
+      42.3311,
+      -71.035
+     ],
+     [
+      42.33,
+      -71.045
+     ],
+     [
+      42.3286,
+      -71.053
+     ],
+     [
+      42.329,
+      -71.0575
+     ],
+     [
+      42.3335,
+      -71.059
+     ]
+    ],
+    [
+     [
+      42.3648,
+      -71.0372
+     ],
+     [
+      42.37,
+      -71.0402
+     ],
+     [
+      42.376,
+      -71.0412
+     ],
+     [
+      42.381,
+      -71.0392
+     ],
+     [
+      42.3842,
+      -71.0332
+     ],
+     [
+      42.3812,
+      -71.0288
+     ],
+     [
+      42.376,
+      -71.0298
+     ],
+     [
+      42.37,
+      -71.03
+     ],
+     [
+      42.3655,
+      -71.031
+     ],
+     [
+      42.364,
+      -71.0336
+     ]
+    ],
+    [
+     [
+      42.38,
+      -71.029
+     ],
+     [
+      42.388,
+      -71.02
+     ],
+     [
+      42.38,
+      -70.985
+     ],
+     [
+      42.355,
+      -70.985
+     ],
+     [
+      42.355,
+      -71.01
+     ],
+     [
+      42.361,
+      -71.023
+     ],
+     [
+      42.36,
+      -71.032
+     ],
+     [
+      42.3655,
+      -71.031
+     ]
+    ],
+    [
+     [
+      42.3562,
+      -71.0712
+     ],
+     [
+      42.354,
+      -71.079
+     ],
+     [
+      42.3515,
+      -71.0885
+     ],
+     [
+      42.3478,
+      -71.0885
+     ],
+     [
+      42.347,
+      -71.079
+     ],
+     [
+      42.3505,
+      -71.0712
+     ]
+    ],
+    [
+     [
+      42.3478,
+      -71.0712
+     ],
+     [
+      42.3425,
+      -71.08
+     ],
+     [
+      42.3365,
+      -71.0778
+     ],
+     [
+      42.3385,
+      -71.069
+     ],
+     [
+      42.344,
+      -71.0615
+     ],
+     [
+      42.3478,
+      -71.0628
+     ]
+    ],
+    [
+     [
+      42.344,
+      -71.094
+     ],
+     [
+      42.346,
+      -71.0915
+     ],
+     [
+      42.342,
+      -71.088
+     ],
+     [
+      42.339,
+      -71.092
+     ],
+     [
+      42.34,
+      -71.096
+     ]
+    ],
+    [
+     [
+      42.3532,
+      -71.048
+     ],
+     [
+      42.3502,
+      -71.039
+     ],
+     [
+      42.3455,
+      -71.0395
+     ],
+     [
+      42.347,
+      -71.049
+     ]
+    ],
+    [
+     [
+      42.353,
+      -71.0525
+     ],
+     [
+      42.3515,
+      -71.048
+     ],
+     [
+      42.344,
+      -71.049
+     ],
+     [
+      42.345,
+      -71.053
+     ]
+    ]
+   ],
+   "from": 1850,
+   "to": 1930,
+   "density": 0.6,
+   "grain_m": 95,
+   "grow_from": [
+    42.356,
+    -71.062
+   ]
+  },
+  {
+   "name": "Outer suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     42.47,
+     -71.23
+    ],
+    [
+     42.48,
+     -71.05
+    ],
+    [
+     42.44,
+     -70.97
+    ],
+    [
+     42.3,
+     -70.99
+    ],
+    [
+     42.24,
+     -71.03
+    ],
+    [
+     42.23,
+     -71.13
+    ],
+    [
+     42.26,
+     -71.24
+    ],
+    [
+     42.35,
+     -71.27
+    ],
+    [
+     42.42,
+     -71.27
+    ]
+   ],
+   "holes": [
+    [
+     [
+      42.415,
+      -71.15
+     ],
+     [
+      42.42,
+      -71.07
+     ],
+     [
+      42.4,
+      -71.0
+     ],
+     [
+      42.36,
+      -70.995
+     ],
+     [
+      42.32,
+      -71.02
+     ],
+     [
+      42.29,
+      -71.04
+     ],
+     [
+      42.28,
+      -71.09
+     ],
+     [
+      42.29,
+      -71.14
+     ],
+     [
+      42.33,
+      -71.17
+     ],
+     [
+      42.38,
+      -71.17
+     ]
+    ]
+   ],
+   "from": 1900,
+   "to": 1990,
+   "density": 0.4,
+   "grain_m": 170,
+   "grow_from": [
+    42.356,
+    -71.062
+   ]
+  },
+  {
+   "name": "Downtown offices",
+   "style": "modern",
+   "poly": [
+    [
+     42.3598,
+     -71.059
+    ],
+    [
+     42.3592,
+     -71.054
+    ],
+    [
+     42.3555,
+     -71.0525
+    ],
+    [
+     42.3532,
+     -71.0558
+    ],
+    [
+     42.3548,
+     -71.0598
+    ]
+   ],
+   "from": 1873,
+   "to": 1930,
+   "density": 0.85,
+   "grain_m": 55,
+   "grow_from": [
+    42.356,
+    -71.057
+   ]
+  },
+  {
+   "name": "West End towers",
+   "style": "modern",
+   "poly": [
+    [
+     42.3652,
+     -71.065
+    ],
+    [
+     42.364,
+     -71.067
+    ],
+    [
+     42.3617,
+     -71.0686
+    ],
+    [
+     42.36,
+     -71.0672
+    ],
+    [
+     42.3608,
+     -71.064
+    ],
+    [
+     42.363,
+     -71.0615
+    ]
+   ],
+   "from": 1959,
+   "to": 1965,
+   "density": 0.35,
+   "grain_m": 90,
+   "grow_from": [
+    42.364,
+    -71.066
+   ]
+  },
+  {
+   "name": "Financial District towers",
+   "style": "highrise",
+   "poly": [
+    [
+     42.3598,
+     -71.059
+    ],
+    [
+     42.3592,
+     -71.054
+    ],
+    [
+     42.3555,
+     -71.0525
+    ],
+    [
+     42.3532,
+     -71.0558
+    ],
+    [
+     42.3548,
+     -71.0598
+    ]
+   ],
+   "from": 1965,
+   "to": 2020,
+   "density": 0.55,
+   "grain_m": 90,
+   "grow_from": [
+    42.356,
+    -71.056
+   ]
+  },
+  {
+   "name": "Seaport",
+   "style": "modern",
+   "poly": [
+    [
+     42.3532,
+     -71.048
+    ],
+    [
+     42.3502,
+     -71.039
+    ],
+    [
+     42.3455,
+     -71.0395
+    ],
+    [
+     42.347,
+     -71.049
+    ]
+   ],
+   "from": 2005,
+   "to": 2024,
+   "density": 0.75,
+   "grain_m": 85,
+   "grid_deg": 30,
+   "grow_from": [
+    42.352,
+    -71.047
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Boston Neck gate and earthwork (≈)",
+   "path": [
+    [
+     42.34405,
+     -71.06745
+    ],
+    [
+     42.34375,
+     -71.06505
+    ]
+   ],
+   "built": 1631,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 1.5,
+   "removed": 1830,
+   "moat": true
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Charles River Bridge (≈ site)",
+   "path": [
+    [
+     42.3676,
+     -71.0586
+    ],
+    [
+     42.3717,
+     -71.0624
+    ]
+   ],
+   "built": 1786,
+   "removed": 1900,
+   "style": "wood",
+   "width_m": 14
+  },
+  {
+   "name": "Charlestown Bridge (≈ site)",
+   "path": [
+    [
+     42.3676,
+     -71.0586
+    ],
+    [
+     42.3717,
+     -71.0624
+    ]
+   ],
+   "built": 1900,
+   "style": "iron",
+   "width_m": 26
+  },
+  {
+   "name": "West Boston Bridge (≈ site)",
+   "path": [
+    [
+     42.3612,
+     -71.0715
+    ],
+    [
+     42.3626,
+     -71.0785
+    ]
+   ],
+   "built": 1793,
+   "removed": 1907,
+   "style": "wood",
+   "width_m": 14
+  },
+  {
+   "name": "Longfellow Bridge (≈ ends)",
+   "path": [
+    [
+     42.3612,
+     -71.0715
+    ],
+    [
+     42.3626,
+     -71.0785
+    ]
+   ],
+   "built": 1907,
+   "style": "stone",
+   "width_m": 32
+  },
+  {
+   "name": "Zakim Bridge (≈ ends)",
+   "path": [
+    [
+     42.367,
+     -71.0622
+    ],
+    [
+     42.3707,
+     -71.0646
+    ]
+   ],
+   "built": 2002.5,
+   "style": "modern",
+   "width_m": 56,
+   "draw_s": 4
+  }
+ ],
+ "roads": [
+  {
+   "name": "Orange St / Washington St over the Neck",
+   "path": [
+    [
+     42.358,
+     -71.059
+    ],
+    [
+     42.3545,
+     -71.061
+    ],
+    [
+     42.35,
+     -71.0627
+    ],
+    [
+     42.3439,
+     -71.066
+    ],
+    [
+     42.34,
+     -71.07
+    ],
+    [
+     42.336,
+     -71.075
+    ],
+    [
+     42.33,
+     -71.084
+    ]
+   ],
+   "from": 1630,
+   "kind": "road",
+   "width_m": 10
+  },
+  {
+   "name": "Central Artery (elevated)",
+   "path": [
+    [
+     42.369,
+     -71.062
+    ],
+    [
+     42.3655,
+     -71.06
+    ],
+    [
+     42.3628,
+     -71.0565
+    ],
+    [
+     42.3603,
+     -71.0545
+    ],
+    [
+     42.357,
+     -71.0535
+    ],
+    [
+     42.353,
+     -71.056
+    ],
+    [
+     42.348,
+     -71.059
+    ],
+    [
+     42.342,
+     -71.0612
+    ],
+    [
+     42.333,
+     -71.061
+    ]
+   ],
+   "from": 1951,
+   "to": 2004.5,
+   "kind": "motorway",
+   "width_m": 40
+  },
+  {
+   "name": "Massachusetts Turnpike extension",
+   "path": [
+    [
+     42.3495,
+     -71.061
+    ],
+    [
+     42.3478,
+     -71.066
+    ],
+    [
+     42.3472,
+     -71.076
+    ],
+    [
+     42.3482,
+     -71.099
+    ],
+    [
+     42.353,
+     -71.13
+    ],
+    [
+     42.354,
+     -71.17
+    ]
+   ],
+   "from": 1965,
+   "kind": "motorway",
+   "width_m": 40
+  },
+  {
+   "name": "Boston and Providence Railroad",
+   "path": [
+    [
+     42.3503,
+     -71.0683
+    ],
+    [
+     42.3364,
+     -71.089
+    ],
+    [
+     42.31,
+     -71.115
+    ]
+   ],
+   "from": 1835,
+   "kind": "rail",
+   "width_m": 18
+  },
+  {
+   "name": "Boston and Worcester Railroad",
+   "path": [
+    [
+     42.3478,
+     -71.0655
+    ],
+    [
+     42.3473,
+     -71.076
+    ],
+    [
+     42.3482,
+     -71.099
+    ],
+    [
+     42.353,
+     -71.14
+    ]
+   ],
+   "from": 1835,
+   "kind": "rail",
+   "width_m": 18
+  },
+  {
+   "name": "Commonwealth Avenue (≈ from 1865)",
+   "path": [
+    [
+     42.3536,
+     -71.0715
+    ],
+    [
+     42.3505,
+     -71.087
+    ],
+    [
+     42.3489,
+     -71.0953
+    ]
+   ],
+   "from": 1865,
+   "kind": "avenue",
+   "width_m": 40
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "box",
+   "name": {
+    "en": "First Town House",
+    "tr": "İlk Belediye Binası"
+   },
+   "at": [
+    42.35875,
+    -71.05747
+   ],
+   "built": 1658,
+   "removed": 1711.8,
+   "rise_s": 3,
+   "size_m": [
+    24,
+    14,
+    12
+   ],
+   "colors": {
+    "wall": "#8a6a48",
+    "roof": "#5d4a38"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Town House (Old State House)",
+    "tr": "Eski Eyalet Binası"
+   },
+   "at": [
+    42.35875,
+    -71.05747
+   ],
+   "built": 1713,
+   "rise_s": 3,
+   "size_m": [
+    34,
+    17,
+    16
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Old North Church",
+    "tr": "Old North Kilisesi"
+   },
+   "at": [
+    42.3663,
+    -71.0545
+   ],
+   "built": 1723,
+   "rise_s": 4,
+   "size_m": [
+    30,
+    16,
+    18
+   ],
+   "rot_deg": 145,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#e8e3d8"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Old South Meeting House",
+    "tr": "Old South"
+   },
+   "at": [
+    42.35694,
+    -71.05861
+   ],
+   "built": 1729,
+   "rise_s": 4,
+   "size_m": [
+    33,
+    20,
+    18
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#e8e3d8"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Faneuil Hall",
+    "tr": "Faneuil Hall"
+   },
+   "at": [
+    42.36,
+    -71.05611
+   ],
+   "built": 1742,
+   "removed": 1806,
+   "rise_s": 3,
+   "size_m": [
+    30,
+    23,
+    14
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Faneuil Hall (enlarged)",
+    "tr": "Faneuil Hall (büyütülmüş)"
+   },
+   "at": [
+    42.36,
+    -71.05611
+   ],
+   "built": 1806,
+   "rise_s": 1,
+   "size_m": [
+    31,
+    30,
+    20
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Quincy Market",
+    "tr": "Quincy Pazarı"
+   },
+   "at": [
+    42.36008,
+    -71.0548
+   ],
+   "built": 1824.5,
+   "rise_s": 4,
+   "size_m": [
+    163,
+    16,
+    14
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d8cdb5",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "State House",
+    "tr": "Eyalet Meclisi"
+   },
+   "at": [
+    42.3582,
+    -71.0637
+   ],
+   "built": 1795.5,
+   "removed": 1874,
+   "rise_s": 8,
+   "size_m": [
+    52,
+    40,
+    20
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "dome": "#8f969c",
+    "lantern": true
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "State House (gilded dome)",
+    "tr": "Eyalet Meclisi (yaldızlı)"
+   },
+   "at": [
+    42.3582,
+    -71.0637
+   ],
+   "built": 1874,
+   "rise_s": 0.3,
+   "size_m": [
+    52,
+    40,
+    20
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "dome": "#d6b04a",
+    "lantern": true
+   }
+  },
+  {
+   "type": "obelisk",
+   "name": {
+    "en": "Bunker Hill Monument",
+    "tr": "Bunker Hill Anıtı"
+   },
+   "at": [
+    42.376361,
+    -71.060778
+   ],
+   "built": 1825.5,
+   "rise_s": 12,
+   "size_m": [
+    10,
+    10,
+    67
+   ],
+   "colors": {
+    "wall": "#d6d1c4"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Custom House",
+    "tr": "Gümrük Binası"
+   },
+   "at": [
+    42.3591,
+    -71.0534
+   ],
+   "built": 1837,
+   "rise_s": 6,
+   "size_m": [
+    45,
+    30,
+    22
+   ],
+   "colors": {
+    "wall": "#ddd6c4",
+    "roof": "#7a8a8a"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Custom House Tower",
+    "tr": "Gümrük Kulesi"
+   },
+   "at": [
+    42.3591,
+    -71.0534
+   ],
+   "built": 1913,
+   "rise_s": 10,
+   "size_m": [
+    26,
+    26,
+    151
+   ],
+   "colors": {
+    "wall": "#ddd6c4",
+    "roof": "#6f8c86"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "at": [
+    42.35,
+    -71.0756
+   ],
+   "built": 1872.5,
+   "rise_s": 10,
+   "size_m": [
+    50,
+    36,
+    22
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#b98b6a",
+    "roof": "#8a4a3a"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "South Station",
+    "tr": "South Station"
+   },
+   "at": [
+    42.35194,
+    -71.05528
+   ],
+   "built": 1898.6,
+   "rise_s": 6,
+   "size_m": [
+    220,
+    140,
+    28
+   ],
+   "rot_deg": 30,
+   "colors": {
+    "wall": "#d6cdb8",
+    "roof": "#6c7a80"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Fenway Park",
+    "tr": "Fenway Park"
+   },
+   "at": [
+    42.34639,
+    -71.09778
+   ],
+   "built": 1911.8,
+   "rise_s": 4,
+   "size_m": [
+    170,
+    150,
+    22
+   ],
+   "colors": {
+    "wall": "#3f6b4f"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Prudential Tower",
+    "tr": "Prudential Kulesi"
+   },
+   "at": [
+    42.3472,
+    -71.0825
+   ],
+   "built": 1960.5,
+   "rise_s": 8,
+   "size_m": [
+    50,
+    50,
+    228
+   ],
+   "colors": {
+    "wall": "#8b8f93"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Boston City Hall",
+    "tr": "Boston Belediyesi"
+   },
+   "at": [
+    42.3603222,
+    -71.0579667
+   ],
+   "built": 1963.5,
+   "rise_s": 6,
+   "size_m": [
+    90,
+    80,
+    38
+   ],
+   "colors": {
+    "wall": "#bdb6a8"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Hancock Tower",
+    "tr": "Hancock Kulesi"
+   },
+   "at": [
+    42.349278,
+    -71.074778
+   ],
+   "built": 1968.5,
+   "rise_s": 10,
+   "size_m": [
+    90,
+    32,
+    241
+   ],
+   "rot_deg": 30,
+   "colors": {
+    "wall": "#7fa3bf"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Castle William",
+    "tr": "Castle William"
+   },
+   "at": [
+    42.3376,
+    -71.0106
+   ],
+   "built": 1634.5,
+   "removed": 1776.3,
+   "rise_s": 3,
+   "size_m": [
+    90,
+    80,
+    10
+   ],
+   "colors": {
+    "wall": "#bfb39b"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort Independence",
+    "tr": "Fort Independence"
+   },
+   "at": [
+    42.3376,
+    -71.0106
+   ],
+   "built": 1833,
+   "rise_s": 5,
+   "size_m": [
+    120,
+    110,
+    12
+   ],
+   "colors": {
+    "wall": "#cfc6b1"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1711.8,
+   "poly": [
+    [
+     42.358,
+     -71.0585
+    ],
+    [
+     42.3595,
+     -71.0585
+    ],
+    [
+     42.3595,
+     -71.056
+    ],
+    [
+     42.358,
+     -71.056
+    ]
+   ],
+   "duration_s": 4,
+   "plumes": 3
+  },
+  {
+   "year": 1760.22,
+   "poly": [
+    [
+     42.358,
+     -71.059
+    ],
+    [
+     42.3586,
+     -71.056
+    ],
+    [
+     42.3578,
+     -71.0546
+    ],
+    [
+     42.3565,
+     -71.0535
+    ],
+    [
+     42.3552,
+     -71.0538
+    ],
+    [
+     42.3553,
+     -71.057
+    ],
+    [
+     42.3565,
+     -71.0592
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  },
+  {
+   "year": 1872.86,
+   "poly": [
+    [
+     42.3568,
+     -71.0588
+    ],
+    [
+     42.3575,
+     -71.056
+    ],
+    [
+     42.357,
+     -71.0537
+    ],
+    [
+     42.3548,
+     -71.0527
+    ],
+    [
+     42.353,
+     -71.0545
+    ],
+    [
+     42.3533,
+     -71.058
+    ],
+    [
+     42.3548,
+     -71.0593
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 6
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    42.3764,
+    -71.0608
+   ],
+   "from": 1775.46,
+   "to": 1775.6,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    42.3328,
+    -71.0464
+   ],
+   "from": 1776.17,
+   "to": 1776.21,
+   "scale": 0.8
+  },
+  {
+   "at": [
+    42.3685,
+    -71.0558
+   ],
+   "from": 1919.04,
+   "to": 1919.1,
+   "scale": 0.6
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     42.353,
+     -71.069
+    ],
+    [
+     42.356,
+     -71.069
+    ],
+    [
+     42.356,
+     -71.065
+    ],
+    [
+     42.353,
+     -71.065
+    ]
+   ],
+   "from": 1768.8,
+   "to": 1776.2,
+   "count": 60
+  },
+  {
+   "poly": [
+    [
+     42.37,
+     -71.125
+    ],
+    [
+     42.38,
+     -71.125
+    ],
+    [
+     42.38,
+     -71.105
+    ],
+    [
+     42.37,
+     -71.105
+    ]
+   ],
+   "from": 1775.3,
+   "to": 1776.2,
+   "count": 160
+  },
+  {
+   "poly": [
+    [
+     42.32,
+     -71.095
+    ],
+    [
+     42.329,
+     -71.095
+    ],
+    [
+     42.329,
+     -71.078
+    ],
+    [
+     42.32,
+     -71.078
+    ]
+   ],
+   "from": 1775.3,
+   "to": 1776.2,
+   "count": 140
+  },
+  {
+   "poly": [
+    [
+     42.331,
+     -71.05
+    ],
+    [
+     42.3345,
+     -71.05
+    ],
+    [
+     42.3345,
+     -71.043
+    ],
+    [
+     42.331,
+     -71.043
+    ]
+   ],
+   "from": 1776.17,
+   "to": 1776.22,
+   "count": 50
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Boston Common",
+   "poly": [
+    [
+     42.3566,
+     -71.0622
+    ],
+    [
+     42.3578,
+     -71.0631
+    ],
+    [
+     42.3561,
+     -71.0702
+    ],
+    [
+     42.3523,
+     -71.0689
+    ],
+    [
+     42.3524,
+     -71.0644
+    ]
+   ]
+  },
+  {
+   "name": "Public Garden",
+   "poly": [
+    [
+     42.356,
+     -71.0705
+    ],
+    [
+     42.3557,
+     -71.0727
+    ],
+    [
+     42.3518,
+     -71.0715
+    ],
+    [
+     42.3521,
+     -71.0692
+    ]
+   ]
+  },
+  {
+   "name": "Back Bay Fens",
+   "poly": [
+    [
+     42.344,
+     -71.094
+    ],
+    [
+     42.346,
+     -71.0915
+    ],
+    [
+     42.342,
+     -71.088
+    ],
+    [
+     42.339,
+     -71.092
+    ],
+    [
+     42.34,
+     -71.096
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "CHARLES RIVER",
+    "tr": "CHARLES NEHRİ"
+   },
+   "at": [
+    42.364,
+    -71.085
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "BOSTON HARBOR",
+    "tr": "BOSTON LİMANI"
+   },
+   "at": [
+    42.356,
+    -71.038
+   ],
+   "kind": "water",
+   "to": 1880
+  },
+  {
+   "text": {
+    "en": "BOSTON HARBOR",
+    "tr": "BOSTON LİMANI"
+   },
+   "at": [
+    42.356,
+    -71.025
+   ],
+   "kind": "water",
+   "from": 1880,
+   "to": 1940
+  },
+  {
+   "text": {
+    "en": "BACK BAY",
+    "tr": "BACK BAY"
+   },
+   "at": [
+    42.349,
+    -71.082
+   ],
+   "kind": "water",
+   "from": 1625,
+   "to": 1856
+  },
+  {
+   "text": {
+    "en": "BACK BAY",
+    "tr": "BACK BAY"
+   },
+   "at": [
+    42.35,
+    -71.081
+   ],
+   "kind": "region",
+   "from": 1880,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "SHAWMUT",
+    "tr": "SHAWMUT"
+   },
+   "at": [
+    42.3575,
+    -71.061
+   ],
+   "kind": "region",
+   "from": 1625,
+   "to": 1633
+  },
+  {
+   "text": {
+    "en": "Boston Neck",
+    "tr": "Boston Boynu"
+   },
+   "at": [
+    42.3439,
+    -71.066
+   ],
+   "kind": "place",
+   "from": 1625,
+   "to": 1660,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Charlestown",
+    "tr": "Charlestown"
+   },
+   "at": [
+    42.377,
+    -71.064
+   ],
+   "kind": "place",
+   "from": 1630,
+   "to": 1642
+  },
+  {
+   "text": {
+    "en": "Boston Common",
+    "tr": "Boston Common"
+   },
+   "at": [
+    42.355,
+    -71.066
+   ],
+   "kind": "place",
+   "from": 1634,
+   "to": 1642,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Mill Pond",
+    "tr": "Değirmen Göleti"
+   },
+   "at": [
+    42.364,
+    -71.061
+   ],
+   "kind": "water",
+   "from": 1643,
+   "to": 1657
+  },
+  {
+   "text": {
+    "en": "Town House",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    42.35875,
+    -71.05747
+   ],
+   "from": 1659,
+   "to": 1679,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Long Wharf",
+    "tr": "Uzun Rıhtım"
+   },
+   "at": [
+    42.36,
+    -71.05
+   ],
+   "kind": "place",
+   "from": 1716,
+   "to": 1720,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Old North",
+    "tr": "Old North"
+   },
+   "at": [
+    42.3663,
+    -71.0545
+   ],
+   "from": 1724,
+   "to": 1741,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Faneuil Hall",
+    "tr": "Faneuil Hall"
+   },
+   "at": [
+    42.36,
+    -71.05611
+   ],
+   "from": 1742.7,
+   "to": 1759,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Fort Hill",
+    "tr": "Fort Hill"
+   },
+   "at": [
+    42.356,
+    -71.054
+   ],
+   "kind": "place",
+   "from": 1760,
+   "to": 1761,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Town House",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    42.35875,
+    -71.05747
+   ],
+   "from": 1768,
+   "to": 1772,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Griffin's Wharf",
+    "tr": "Griffin İskelesi"
+   },
+   "at": [
+    42.3536,
+    -71.0525
+   ],
+   "kind": "place",
+   "from": 1773,
+   "to": 1774,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Cambridge",
+    "tr": "Cambridge"
+   },
+   "at": [
+    42.376,
+    -71.115
+   ],
+   "kind": "place",
+   "from": 1775,
+   "to": 1775.45
+  },
+  {
+   "text": {
+    "en": "Roxbury",
+    "tr": "Roxbury"
+   },
+   "at": [
+    42.327,
+    -71.087
+   ],
+   "kind": "place",
+   "from": 1775,
+   "to": 1775.45
+  },
+  {
+   "text": {
+    "en": "Breed's Hill",
+    "tr": "Breed's Tepesi"
+   },
+   "at": [
+    42.3764,
+    -71.0608
+   ],
+   "kind": "place",
+   "from": 1775.46,
+   "to": 1776.1,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Dorchester Heights",
+    "tr": "Dorchester Tepeleri"
+   },
+   "at": [
+    42.3328,
+    -71.0464
+   ],
+   "kind": "place",
+   "from": 1776.11,
+   "to": 1776.5,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "State House",
+    "tr": "Eyalet Meclisi"
+   },
+   "at": [
+    42.3582,
+    -71.0637
+   ],
+   "from": 1797,
+   "to": 1806,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Mill Pond",
+    "tr": "Değirmen Göleti"
+   },
+   "at": [
+    42.364,
+    -71.061
+   ],
+   "kind": "water",
+   "from": 1807,
+   "to": 1820
+  },
+  {
+   "text": {
+    "en": "Mill Dam",
+    "tr": "Değirmen Bendi"
+   },
+   "at": [
+    42.353,
+    -71.082
+   ],
+   "kind": "place",
+   "from": 1821,
+   "to": 1823,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Quincy Market",
+    "tr": "Quincy Pazarı"
+   },
+   "at": [
+    42.36008,
+    -71.0548
+   ],
+   "from": 1826,
+   "to": 1832,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "SOUTH COVE",
+    "tr": "GÜNEY KOYU"
+   },
+   "at": [
+    42.35,
+    -71.057
+   ],
+   "kind": "water",
+   "from": 1833,
+   "to": 1840
+  },
+  {
+   "text": {
+    "en": "Copley Square",
+    "tr": "Copley Meydanı"
+   },
+   "at": [
+    42.35,
+    -71.077
+   ],
+   "kind": "place",
+   "from": 1877,
+   "to": 1887,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Kenmore Square",
+    "tr": "Kenmore Meydanı"
+   },
+   "at": [
+    42.3489,
+    -71.0953
+   ],
+   "kind": "place",
+   "from": 1888,
+   "to": 1896
+  },
+  {
+   "text": {
+    "en": "Park Street",
+    "tr": "Park Street"
+   },
+   "at": [
+    42.3564,
+    -71.0624
+   ],
+   "kind": "place",
+   "from": 1897,
+   "to": 1898,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "South Station",
+    "tr": "South Station"
+   },
+   "at": [
+    42.35194,
+    -71.05528
+   ],
+   "from": 1899,
+   "to": 1911,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Custom House",
+    "tr": "Gümrük Binası"
+   },
+   "at": [
+    42.3591,
+    -71.0534
+   ],
+   "from": 1915,
+   "to": 1918,
+   "lift_m": 170
+  },
+  {
+   "text": {
+    "en": "Fenway Park",
+    "tr": "Fenway Park"
+   },
+   "at": [
+    42.34639,
+    -71.09778
+   ],
+   "kind": "place",
+   "from": 1912,
+   "to": 1918,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "North End",
+    "tr": "Kuzey Yakası"
+   },
+   "at": [
+    42.365,
+    -71.0545
+   ],
+   "kind": "place",
+   "from": 1919,
+   "to": 1922,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "East Boston",
+    "tr": "Doğu Boston"
+   },
+   "at": [
+    42.375,
+    -71.036
+   ],
+   "kind": "place",
+   "from": 1923,
+   "to": 1939
+  },
+  {
+   "text": {
+    "en": "Logan Airport",
+    "tr": "Logan Havalimanı"
+   },
+   "at": [
+    42.365,
+    -71.012
+   ],
+   "kind": "place",
+   "from": 1940,
+   "to": 1950
+  },
+  {
+   "text": {
+    "en": "West End",
+    "tr": "Batı Yakası"
+   },
+   "at": [
+    42.364,
+    -71.066
+   ],
+   "kind": "place",
+   "from": 1958,
+   "to": 1962,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Prudential",
+    "tr": "Prudential"
+   },
+   "at": [
+    42.3472,
+    -71.0825
+   ],
+   "from": 1964.2,
+   "to": 1970,
+   "lift_m": 250
+  },
+  {
+   "text": {
+    "en": "City Hall",
+    "tr": "Belediye"
+   },
+   "at": [
+    42.3603222,
+    -71.0579667
+   ],
+   "from": 1968,
+   "to": 1970,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Hancock Tower",
+    "tr": "Hancock Kulesi"
+   },
+   "at": [
+    42.349278,
+    -71.074778
+   ],
+   "from": 1976,
+   "to": 1990,
+   "lift_m": 260
+  },
+  {
+   "text": {
+    "en": "Zakim Bridge",
+    "tr": "Zakim Köprüsü"
+   },
+   "at": [
+    42.36889,
+    -71.06333
+   ],
+   "from": 2003,
+   "to": 2007,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "BACK BAY",
+    "tr": "BACK BAY"
+   },
+   "at": [
+    42.35,
+    -71.081
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "SOUTH BOSTON",
+    "tr": "GÜNEY BOSTON"
+   },
+   "at": [
+    42.335,
+    -71.04
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "CHARLESTOWN",
+    "tr": "CHARLESTOWN"
+   },
+   "at": [
+    42.378,
+    -71.061
+   ],
+   "kind": "region",
+   "from": 2020
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Boston: 400 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Boston: 14 Dakikada 400 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "In 1625 one English settler lived on the Shawmut Peninsula. Watch Boston grow from a Puritan town of 1630 into a colonial seaport, the city of the Tea Party and the Siege of 1775–1776, and then a city that built itself new land: the Mill Pond, the South Cove, the Back Bay, the South Boston flats and Logan Airport were all once water. With the Long Wharf, Faneuil Hall, the State House, the Great Fires of 1760 and 1872, America's first subway, the Central Artery and the Big Dig, and the year and the population on screen.",
+   "tr": "1625'te Shawmut Yarımadası'nda tek bir İngiliz yerleşimci yaşıyordu. Boston'un 1630'un Püriten kasabasından bir koloni limanına, Çay Partisi'nin ve 1775–1776 kuşatmasının şehrine, sonra kendine yeni toprak yaratan bir şehre dönüşmesini izleyin: Değirmen Göleti, Güney Koyu, Back Bay, Güney Boston sığlıkları ve Logan Havalimanı bir zamanlar denizdi. Uzun Rıhtım, Faneuil Hall, Eyalet Meclisi, 1760 ve 1872 büyük yangınları, Amerika'nın ilk metrosu, Central Artery ve Big Dig; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "boston history",
+   "history of boston",
+   "boston landfill",
+   "back bay",
+   "3d timelapse",
+   "city evolution",
+   "how boston grew",
+   "boston timelapse",
+   "boston tea party",
+   "siege of boston",
+   "made land",
+   "big dig",
+   "urban history",
+   "massachusetts history"
+  ],
+  "hashtags": [
+   "#Boston",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of North America",
+   "tr": "Kuzey Amerika Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "North American cities rebuilt in 3D, from the first house to the skyline.",
+   "tr": "Kuzey Amerika şehirleri 3D olarak, ilk evden siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Boston",
+    "tr": "Boston"
+   },
+   "line2": {
+    "en": "400 YEARS",
+    "tr": "400 YIL"
+   },
+   "line3": {
+    "en": "A city built on new land",
+    "tr": "Yeni toprak üzerine kurulan şehir"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=42.3560,-71.0640,6.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Boston — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/History_of_Boston"
+  },
+  {
+   "title": "Timeline of Boston — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Boston"
+  },
+  {
+   "title": "Boston — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston"
+  },
+  {
+   "title": "Overview: Development of the Back Bay — Back Bay Houses",
+   "url": "https://backbayhouses.org/overview-development-of-the-back-bay/"
+  },
+  {
+   "title": "Back Bay, Boston — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Back_Bay,_Boston"
+  },
+  {
+   "title": "Mill Pond — Massachusetts Historical Commission (archaeology exhibit)",
+   "url": "https://www.sec.state.ma.us/divisions/mhc/archaeology/exhibits/mill-pond.htm"
+  },
+  {
+   "title": "How Boston Lost Its Hills — History of Massachusetts",
+   "url": "https://historyofmassachusetts.org/how-boston-lost-its-hills/"
+  },
+  {
+   "title": "8 maps that explain Boston's changing shoreline — WBUR",
+   "url": "https://www.wbur.org/earthwhile/2021/06/14/8-maps-that-explain-bostons-changing-shoreline"
+  },
+  {
+   "title": "Boston Neck — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston_Neck"
+  },
+  {
+   "title": "South End, Boston — Wikipedia (IPFS mirror)",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/South_End%2C_Boston.html"
+  },
+  {
+   "title": "First Street: The Original Shoreline — South Boston Harbor Walk sign",
+   "url": "https://boshw.us/sign/first-street-the-original-shoreline/"
+  },
+  {
+   "title": "Long Wharf (Boston) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Long_Wharf_(Boston)"
+  },
+  {
+   "title": "Old State House (Boston) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_State_House_(Boston)"
+  },
+  {
+   "title": "Faneuil Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Faneuil_Hall"
+  },
+  {
+   "title": "Old North Church — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Old_North_Church"
+  },
+  {
+   "title": "Old South Meeting House — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_South_Meeting_House"
+  },
+  {
+   "title": "Great Boston Fire of 1760 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Boston_Fire_of_1760"
+  },
+  {
+   "title": "Boston Tea Party — Wikipedia (Kiwix mirror)",
+   "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Boston_Tea_Party"
+  },
+  {
+   "title": "Siege of Boston — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Siege_of_Boston"
+  },
+  {
+   "title": "Fortification of Dorchester Heights — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fortification_of_Dorchester_Heights"
+  },
+  {
+   "title": "Bunker Hill Monument — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bunker_Hill_Monument"
+  },
+  {
+   "title": "Massachusetts State House — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Massachusetts_State_House"
+  },
+  {
+   "title": "Boston Common — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Boston_Common"
+  },
+  {
+   "title": "List of crossings of the Charles River — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_crossings_of_the_Charles_River"
+  },
+  {
+   "title": "Boston and Providence Railroad — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Boston_and_Providence_Railroad"
+  },
+  {
+   "title": "Framingham/Worcester Line — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Framingham/Worcester_Line"
+  },
+  {
+   "title": "Great Boston Fire of 1872 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Boston_Fire_of_1872"
+  },
+  {
+   "title": "Trinity Church (Boston) — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Trinity_Church_(Boston)"
+  },
+  {
+   "title": "Tremont Street subway — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tremont_Street_subway"
+  },
+  {
+   "title": "South Station — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/South_Station"
+  },
+  {
+   "title": "Custom House Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Custom_House_Tower"
+  },
+  {
+   "title": "Fenway Park — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fenway_Park"
+  },
+  {
+   "title": "Great Molasses Flood — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Great_Molasses_Flood"
+  },
+  {
+   "title": "Logan International Airport — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Logan_International_Airport"
+  },
+  {
+   "title": "Castle Island (Massachusetts) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Castle_Island_(Massachusetts)"
+  },
+  {
+   "title": "Central Artery — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Central_Artery"
+  },
+  {
+   "title": "Boston: The contemporary city — Britannica",
+   "url": "https://www.britannica.com/place/Boston/The-contemporary-city"
+  },
+  {
+   "title": "Prudential Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prudential_Tower"
+  },
+  {
+   "title": "Boston City Hall — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Boston_City_Hall.html"
+  },
+  {
+   "title": "John Hancock Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/John_Hancock_Tower"
+  },
+  {
+   "title": "The Big Dig: project background — Mass.gov",
+   "url": "https://www.mass.gov/service-details/the-big-dig-project-background"
+  },
+  {
+   "title": "The Big Dig: tunnels and bridges — Mass.gov",
+   "url": "https://www.mass.gov/service-details/the-big-dig-tunnels-and-bridges"
+  },
+  {
+   "title": "Leonard P. Zakim Bunker Hill Memorial Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Leonard_P._Zakim_Bunker_Hill_Memorial_Bridge"
+  },
+  {
+   "title": "Boston population 1640 (Atlas of Boston History) — When and Where in Boston",
+   "url": "https://whenandwhereinboston.org/entry/boston-population-is-estimated-at-1200"
+  },
+  {
+   "title": "Boston, Massachusetts — population (US Census Bureau data) — City Population",
+   "url": "https://www.citypopulation.de/en/usa/cities/massachusetts/"
+  }
+ ]
+}
