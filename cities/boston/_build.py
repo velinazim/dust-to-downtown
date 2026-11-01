@@ -82,8 +82,8 @@ ZONES = [
     ("Back Bay to Massachusetts Ave", 1881, lon_strip(-71.0885, -71.0850, 42.3470, 42.3640)),
     ("Kenmore / Bay State Road", 1890, lon_strip(-71.1040, -71.0885, 42.3465, 42.3640)),
     ("Back Bay south (rail yards) ≈", 1882, [(42.3470, -71.0735), (42.3470, -71.0885), (42.3420, -71.0885), (42.3420, -71.0800)]),
-    ("Fens and Roxbury flats", 1900, [(42.3465, -71.1040), (42.3465, -71.0885), (42.3420, -71.0885), (42.3420, -71.0800),
-                                     (42.3360, -71.0790), (42.3310, -71.0850), (42.3330, -71.0960), (42.3400, -71.1030)]),
+    ("Fens and Roxbury flats", 1900, [(42.3465, -71.1030), (42.3465, -71.0885), (42.3420, -71.0885), (42.3420, -71.0800),
+                                     (42.3360, -71.0790), (42.3355, -71.0860), (42.3380, -71.0960), (42.3420, -71.1030)]),
     # ---- South End (1830s–1870s), north half first
     ("South End (north)", 1850, [(42.3470, -71.0735), (42.3470, -71.0580), (42.3430, -71.0580), (42.3420, -71.0800)]),
     ("South End (south)", 1870, [(42.3430, -71.0580), (42.3420, -71.0800), (42.3360, -71.0790), (42.3330, -71.0700),
@@ -109,17 +109,17 @@ ZONES = [
     # ---- Charlestown, Cambridge, East Boston
     ("Charlestown waterfront ≈", 1880, [(42.3700, -71.0740), (42.3720, -71.0560), (42.3760, -71.0450), (42.3880, -71.0560),
                                        (42.3880, -71.0760), (42.3846, -71.0790)]),
-    ("East Cambridge ≈", 1850, [(42.3846, -71.0790), (42.3700, -71.0740), (42.3640, -71.0760), (42.3640, -71.0830),
-                               (42.3700, -71.0830), (42.3800, -71.0830)]),
+    ("East Cambridge ≈", 1850, [(42.3760, -71.0760), (42.3700, -71.0740), (42.3640, -71.0760), (42.3640, -71.0830),
+                               (42.3700, -71.0830), (42.3750, -71.0830)]),
     ("Cambridge riverbank (MIT site) ≈", 1895, [(42.3640, -71.0760), (42.3560, -71.0760), (42.3530, -71.1060), (42.3580, -71.1080),
                                                (42.3610, -71.0960), (42.3640, -71.0870)]),
     ("East Boston waterfront ≈", 1870, [(42.3620, -71.0450), (42.3880, -71.0450), (42.3880, -71.0340), (42.3640, -71.0330)]),
     ("Boston Airport (1923)", 1923, [(42.3655, -71.0310), (42.3700, -71.0300), (42.3700, -71.0230), (42.3610, -71.0230),
                                      (42.3600, -71.0320)]),
-    ("Logan Airport (1940s)", 1950, [(42.3700, -71.0300), (42.3790, -71.0290), (42.3800, -71.0100), (42.3600, -71.0100),
+    ("Logan Airport (1940s)", 1950, [(42.3700, -71.0300), (42.3785, -71.0290), (42.3785, -71.0100), (42.3600, -71.0100),
                                      (42.3610, -71.0230), (42.3700, -71.0230)]),
-    ("Logan Airport (1950s)", 1960, [(42.3800, -71.0290), (42.3880, -71.0200), (42.3800, -70.9850), (42.3550, -70.9850),
-                                     (42.3550, -71.0100), (42.3800, -71.0100)]),
+    ("Logan Airport (1950s)", 1960, [(42.3785, -71.0290), (42.3790, -71.0100), (42.3790, -70.9850), (42.3550, -70.9850),
+                                     (42.3550, -71.0100), (42.3785, -71.0100)]),
 ]
 # made-land strips that appear first (they then split the zones around them)
 STRIPS = [
@@ -142,10 +142,19 @@ def build_fill():
     from shapely.ops import unary_union
     g = json.load(open(gp)); c = g['core']; lat0, lon0 = g['origin']
     k = 111.32 * math.cos(math.radians(lat0)); KZ = 110.574
-    sd = np.frombuffer(base64.b64decode(c['sd_b64']), dtype='<i2').reshape(c['nz'], c['nx'])
-    land = sd > 12
-    # drop timed-water cells that a previous run added as land: land mask = modern land only if geo has no fills yet
+    from scipy import ndimage
+    from PIL import Image, ImageDraw
+    el = np.frombuffer(base64.b64decode(c['elev_b64']), dtype='<i2').reshape(c['nz'], c['nx'])
+    # modern land = above SEA_M (rounded DEM metres; rivers are carved to -1), minus the extra channels, shrunk ~1 cell
+    land = el >= round(SEA_M + 0.4)
     cell = c['cell_km']
+    img = Image.new('L', (c['nx'], c['nz']), 0); dr = ImageDraw.Draw(img)
+    for ed in GEO_EDITS:
+        if ed['op'] == 'river':
+            pts = [(((b_ - lon0) * k - c['x0']) / cell, (-(a_ - lat0) * KZ - c['z0']) / cell) for a_, b_ in ed['path']]
+            dr.line(pts, fill=1, width=max(1, int(round(ed['width_m'] / 1000 / cell))))
+    land &= ~np.array(img, dtype=bool)
+    land = ndimage.binary_erosion(land, iterations=1)
     def cell_poly(j, i0, i1):
         x0 = c['x0'] + (i0 - 0.5) * cell; x1 = c['x0'] + (i1 + 0.5) * cell
         z0 = c['z0'] + (j - 0.5) * cell; z1 = c['z0'] + (j + 0.5) * cell
@@ -173,7 +182,7 @@ def build_fill():
     out, taken = [], unary_union([])
     def emit(name, year, geom):
         if geom is None or geom.is_empty: return
-        geom = geom.buffer(0.00012).buffer(-0.00024).buffer(0.00012).simplify(0.00008)   # smooth the cell staircase
+        geom = geom.buffer(0.00012).buffer(-0.00024).buffer(0.00018).simplify(0.00006)   # smooth the cell staircase, overlap neighbours ~5 m
         parts = [geom] if geom.geom_type == 'Polygon' else list(getattr(geom, 'geoms', []))
         for i, p in enumerate(parts):
             if p.geom_type != 'Polygon' or p.area < 2e-7: continue
@@ -188,6 +197,11 @@ def build_fill():
     return out, True
 
 
+SEA_M = 0.6   # the DEM gives the harbour 0–1 m, so the sea line is raised (geo.sea_level_m)
+GEO_EDITS = [
+ {"op": "river", "path": L([(42.3562, -71.0500), (42.3532, -71.0514), (42.3502, -71.0529), (42.3472, -71.0548), (42.3442, -71.0563),
+                            (42.3415, -71.0575)]), "width_m": 70},
+]
 FILL, HAVE_GEO = build_fill()
 
 # ------------------------------------------------------------------ other geography (≈, see research.md)
@@ -567,7 +581,9 @@ city = {
  "slug": "boston", "seed": 1630, "long_ok": True,
  "name": T("Boston", "Boston"), "intro": T("400 Years in 15 Minutes", "15 Dakikada 400 Yıl"), "intro_seconds": 4.5,
  "geo": {"bbox": [42.20, -71.32, 42.52, -70.84], "cell_m": 90, "core_bbox": [42.315, -71.125, 42.395, -70.975], "core_cell_m": 30,
-         "rivers_keep": ["Charles", "Mystic", "Neponset", "Chelsea", "Fort Point", "Reserved", "Malden", "Island End", "Muddy"]},
+         "rivers_keep": ["Charles", "Mystic", "Neponset", "Chelsea", "Fort Point", "Reserved", "Malden", "Island End", "Muddy"],
+         "sea_level_m": SEA_M},
+ "geo_edits": GEO_EDITS,
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 3.0},
  "segments": S,

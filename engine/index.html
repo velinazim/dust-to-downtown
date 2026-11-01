@@ -401,7 +401,7 @@ function buildScene() {
       for (const [x, z] of w.poly) hs.push(heightAt(x, z));
       hs.sort((p, q) => p - q); hmax = Math.max(0, hs[Math.floor((hs.length - 1) * 0.9)]);
     }
-    const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: '#3f8fa3', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0 }));
+    const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color: w.fill ? '#72adc2' : '#3f8fa3', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0 }));
     m.position.y = hmax + 0.0015; m.receiveShadow = true; scene.add(m);
     return { m, a: w.fill ? -1e9 : tOf(w.from), b: w.to != null ? tOf(w.to) : 1e9 };
   });
