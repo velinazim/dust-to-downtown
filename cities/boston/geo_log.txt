@@ -1,0 +1,11 @@
+osm rivers: kept 15, skipped 71 -> 15 outer / 13 inner rings
+  lakes: overpass-api.de -> 502
+  lakes: overpass.kumi.systems -> 502
+osm lakes: 49 lakes >= 0.02 km2
+grid 440x395 @ 90 m
+elevation: zoom 11, tiles 4x3
+grid 413x296 @ 30 m
+elevation: zoom 13, tiles 4x4
+core layer 413 x 296
+wrote geo.json 440 x 395
+maps written to cities/boston/preview
