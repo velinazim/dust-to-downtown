@@ -44,7 +44,8 @@ SOUTHBOSTON = [(42.3418, -71.0565), (42.3410, -71.0500), (42.3401, -71.0420), (4
                (42.3286, -71.0530), (42.3290, -71.0575), (42.3335, -71.0590)]
 NODDLE = [(42.3648, -71.0372), (42.3700, -71.0402), (42.3760, -71.0412), (42.3810, -71.0392), (42.3842, -71.0332),
           (42.3812, -71.0288), (42.3760, -71.0298), (42.3700, -71.0300), (42.3655, -71.0310), (42.3640, -71.0336)]
-ORIGINAL = [SHAWMUT, CHARLESTOWN, SOUTHBOSTON, NODDLE]
+CASTLE_ISLAND = rect(42.3360, -71.0132, 42.3393, -71.0083)
+ORIGINAL = [SHAWMUT, CHARLESTOWN, SOUTHBOSTON, NODDLE, CASTLE_ISLAND]
 
 # ------------------------------------------------------------------ fill zones: (name, to_year, rough zone polygon)
 # to_year = when the zone is shown as land. Sourced: Mill Pond 1807–c.1828 (MHC); South Cove 1833–1845; Back Bay
@@ -80,7 +81,8 @@ ZONES = [
     ("Back Bay to Fairfield St", 1871, lon_strip(-71.0815, -71.0778, 42.3470, 42.3640)),
     ("Back Bay to Hereford St", 1876, lon_strip(-71.0850, -71.0815, 42.3470, 42.3640)),
     ("Back Bay to Massachusetts Ave", 1881, lon_strip(-71.0885, -71.0850, 42.3470, 42.3640)),
-    ("Kenmore / Bay State Road", 1890, lon_strip(-71.1040, -71.0885, 42.3465, 42.3640)),
+    ("Kenmore / Bay State Road", 1890, [(42.3465, -71.0885), (42.3560, -71.0885), (42.3530, -71.1220), (42.3515, -71.1220),
+                                        (42.3500, -71.1100), (42.3490, -71.1040), (42.3465, -71.1000)]),
     ("Back Bay south (rail yards) ≈", 1882, [(42.3470, -71.0735), (42.3470, -71.0885), (42.3420, -71.0885), (42.3420, -71.0800)]),
     ("Fens and Roxbury flats", 1900, [(42.3465, -71.1030), (42.3465, -71.0885), (42.3420, -71.0885), (42.3420, -71.0800),
                                      (42.3360, -71.0790), (42.3355, -71.0860), (42.3380, -71.0960), (42.3420, -71.1030)]),
@@ -109,10 +111,11 @@ ZONES = [
     # ---- Charlestown, Cambridge, East Boston
     ("Charlestown waterfront ≈", 1880, [(42.3700, -71.0740), (42.3720, -71.0560), (42.3760, -71.0450), (42.3880, -71.0560),
                                        (42.3880, -71.0760), (42.3846, -71.0790)]),
-    ("East Cambridge ≈", 1850, [(42.3760, -71.0760), (42.3700, -71.0740), (42.3640, -71.0760), (42.3640, -71.0830),
-                               (42.3700, -71.0830), (42.3750, -71.0830)]),
-    ("Cambridge riverbank (MIT site) ≈", 1895, [(42.3640, -71.0760), (42.3560, -71.0760), (42.3530, -71.1060), (42.3580, -71.1080),
-                                               (42.3610, -71.0960), (42.3640, -71.0870)]),
+    ("East Cambridge ≈", 1850, [(42.3760, -71.0760), (42.3700, -71.0740), (42.3640, -71.0760), (42.3640, -71.0882),
+                               (42.3655, -71.0880), (42.3690, -71.0870), (42.3720, -71.0840), (42.3760, -71.0790)]),
+    ("Cambridge riverbank (MIT site) ≈", 1895, [(42.3640, -71.0760), (42.3560, -71.0760), (42.3520, -71.1180), (42.3575, -71.1180),
+                                               (42.3575, -71.1080), (42.3590, -71.1030), (42.3605, -71.0960), (42.3630, -71.0900),
+                                               (42.3640, -71.0882)]),
     ("East Boston waterfront ≈", 1870, [(42.3620, -71.0450), (42.3880, -71.0450), (42.3880, -71.0340), (42.3640, -71.0330)]),
     ("Boston Airport (1923)", 1923, [(42.3655, -71.0310), (42.3700, -71.0300), (42.3700, -71.0230), (42.3610, -71.0230),
                                      (42.3600, -71.0320)]),
@@ -179,21 +182,25 @@ def build_fill():
                 else:
                     i += 1
         return unary_union(boxes).intersection(geom) if boxes else None
-    out, taken = [], unary_union([])
-    def emit(name, year, geom):
-        if geom is None or geom.is_empty: return
-        geom = geom.buffer(0.00012).buffer(-0.00024).buffer(0.00018).simplify(0.00006)   # smooth the cell staircase, overlap neighbours ~5 m
+    out, taken, cores = [], unary_union([]), []
+    smooth = lambda g: g.buffer(0.00012).buffer(-0.00024).buffer(0.00012) if g is not None and not g.is_empty else None
+    for name, year, s in strips:
+        cores.append((name, year, smooth(land_in(s.difference(orig)))))
+    for name, year, zp in ZONES:
+        z = to_xy(zp).buffer(0).difference(orig).difference(strip_u).difference(taken)
+        taken = taken.union(to_xy(zp).buffer(0))
+        cores.append((name, year, smooth(land_in(z))))
+    cores = [(n, y, g) for n, y, g in cores if g is not None and not g.is_empty]
+    for idx, (name, year, g) in enumerate(cores):
+        # grow ~45 m over the water and over unclaimed slivers (so no modern shore rim shows), never onto 1630 land
+        # or onto another zone's own land
+        others = unary_union([g2 for j, (_, _, g2) in enumerate(cores) if j != idx])
+        geom = g.buffer(0.0005).difference(orig).difference(others).union(g).simplify(0.00005)
         parts = [geom] if geom.geom_type == 'Polygon' else list(getattr(geom, 'geoms', []))
         for i, p in enumerate(parts):
             if p.geom_type != 'Polygon' or p.area < 2e-7: continue
             ring = [(round(y, 5), round(x, 5)) for x, y in p.exterior.coords][:-1]
             out.append({"name": name + (f" #{i + 1}" if len(parts) > 1 else ""), "fill": True, "from": 1600, "to": year, "poly": L(ring)})
-    for name, year, s in strips:
-        geom = land_in(s.difference(orig)); emit(name, year, geom)
-    for name, year, zp in ZONES:
-        z = to_xy(zp).buffer(0).difference(orig).difference(strip_u).difference(taken)
-        taken = taken.union(to_xy(zp).buffer(0))
-        emit(name, year, land_in(z))
     return out, True
 
 

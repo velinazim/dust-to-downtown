@@ -204,6 +204,8 @@ def build_layer(city, bbox, origin, cell_km, water_rings):
         land = (land | m) if ed['op'] == 'land' else (land & ~m)
     # docks/lakes dug later are land in the base map; the engine floods them at their year
     for tw in city.get('timed_water', []):
+        if tw.get('fill'):   # landfill sheets already lie on modern land (and may overhang the water a little)
+            continue
         land |= rasterize([tw['poly']], grid, origin)
     land = ndimage.binary_opening(land, iterations=1)
     sd = signed_distance(land, cell_km)

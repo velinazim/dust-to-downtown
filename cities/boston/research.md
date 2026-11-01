@@ -109,6 +109,8 @@ West Boston / Longfellow Bridge ends, Zakim Bridge ends (from its centre and 1,4
   flats near today's North Station), Charlestown waterfront ≈1880 and East Cambridge ≈1850, Cambridge riverbank / MIT site
   ≈1895 (WBUR: the 1895 map shows Cambridge had filled the estuary where MIT stands; Charlestown and South Boston expanded
   1796–1895), East Boston waterfront ≈1870, South Bay ≈1900.
+- Each fill sheet is grown ~45 m over the water around it (never onto 1630 land or another zone) so the modern shoreline
+  does not show through; Castle Island is kept as 1630 land (fort from 1634).
 - Left out: Dorchester Bay / Columbia Point, Chelsea and the outer harbour shore stay as today's land from the start.
 - The Neck is drawn ~150 m wide so it reads on screen (source: ~120 ft at high tide).
 - Boston Neck gate and earthwork from c.1631 (strengthened 1710, 1774); removal year not in sources → drawn until ≈1830 when
