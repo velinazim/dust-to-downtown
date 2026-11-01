@@ -185,7 +185,7 @@ def build_fill():
     out, taken, cores = [], unary_union([]), []
     smooth = lambda g: g.buffer(0.00012).buffer(-0.00024).buffer(0.00012) if g is not None and not g.is_empty else None
     for name, year, s in strips:
-        cores.append((name, year, smooth(land_in(s.difference(orig)))))
+        g = land_in(s.difference(orig)); cores.append((name, year, g.buffer(0.00004).buffer(-0.00004) if g is not None else None))
     for name, year, zp in ZONES:
         z = to_xy(zp).buffer(0).difference(orig).difference(strip_u).difference(taken)
         taken = taken.union(to_xy(zp).buffer(0))
@@ -244,7 +244,8 @@ LOGAN = [(42.3800, -71.0290), (42.3880, -71.0200), (42.3800, -70.9850), (42.3550
 MADE_CORE = [(42.3720, -71.0700), (42.3720, -71.0560), (42.3660, -71.0500), (42.3560, -71.0490), (42.3500, -71.0510),
              (42.3420, -71.0560), (42.3330, -71.0640), (42.3330, -71.0800), (42.3400, -71.0950), (42.3480, -71.1000),
              (42.3540, -71.0900), (42.3600, -71.0740), (42.3680, -71.0730)]
-CORE_HOLES = [L(SHAWMUT), L(CHAS_TOWN), L(SB), L(EB), L(LOGAN), L(BACK_BAY), L(SOUTH_END), L(FENS), L(SEAPORT), L(FORT_POINT)]
+AIRPORT = rect(42.3540, -71.0315, 42.3800, -70.9850)
+CORE_HOLES = [L(AIRPORT), L(SHAWMUT), L(CHAS_TOWN), L(SB), L(EB), L(LOGAN), L(BACK_BAY), L(SOUTH_END), L(FENS), L(SEAPORT), L(FORT_POINT)]
 
 
 # ------------------------------------------------------------------ timeline
