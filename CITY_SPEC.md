@@ -45,6 +45,10 @@ Years: negative = BC, positive = AD.
 - `geo.lakes_from`: year from which lakes/reservoirs (from OSM, ≥ 0.02 km²) appear. Use it when most lakes are modern
   (reservoirs, park lakes); omit it for natural lakes (they are then part of the base map from the start).
 - Docks and other dug water go in `timed_water` (below), never as static water.
+- Land made by filling (Boston's Back Bay, harbour fill) goes in `timed_water` with `"fill": true` and `"to"` = the year it is land
+  (`from` is ignored; the sheet shows from the very start). The polygon must lie on modern land. Buildings inside it (and
+  within ~15 m) are delayed until just after `to`; trees are never placed in fills. See cities/boston/_build.py, which clips
+  fill zones to the modern land in geo.json.
 - `view.azimuth_deg`: 0 = camera south of the city looking north. Choose the direction that puts the main
   water (river/sea) across the frame and the old core in the middle.
 - `geo_edits`: historical water/land the modern map lacks or has extra (filled harbours, reclaimed land):
@@ -130,6 +134,7 @@ Landmarks are drawn ~1.3–1.6× real size (`scale`) so they read at a distance;
 "smoke": [{"at": [lat,lon], "from": 1453, "to": 1460, "scale": 1}]
 "open_spaces": [{"name": "Hyde Park", "poly": [...]}]                            // never built on, trees stay
 "timed_water": [{"name": "West India Docks", "poly": [...], "from": 1802, "to": null}] // docks/lakes dug (and filled) at real dates
+"timed_water": [{"name": "Back Bay", "fill": true, "to": 1882, "poly": [...]}]  // landfill: water from the start until "to", then buildable land
 "labels": [{"text": {"en": "RIVER THAMES", "tr": "THAMES NEHRİ"}, "at": [lat,lon], "kind": "water", "from": -50, "to": null}]
 ```
 
