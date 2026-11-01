@@ -159,5 +159,29 @@
   "uploaded": "2026-11-01T10:30:24Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "boston:short:whole",
+  "slug": "boston",
+  "kind": "short",
+  "video_id": "a5CKBuqQRyk",
+  "link": "https://youtube.com/shorts/a5CKBuqQRyk",
+  "title": "Boston: 400 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-11T16:00:00Z",
+  "uploaded": "2026-11-01T10:46:03Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "boston:short:made-land",
+  "slug": "boston",
+  "kind": "short",
+  "video_id": "19uMvCRFTCk",
+  "link": "https://youtube.com/shorts/19uMvCRFTCk",
+  "title": "How Boston Turned the Sea Into Land #shorts",
+  "publish_at": "2026-11-12T16:00:00Z",
+  "uploaded": "2026-11-01T10:46:06Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
