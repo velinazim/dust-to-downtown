@@ -147,5 +147,17 @@
   "uploaded": "2026-10-31T10:56:10Z",
   "thumbnail": "none",
   "playlist": "added"
+ },
+ {
+  "key": "boston:long",
+  "slug": "boston",
+  "kind": "long",
+  "video_id": "nspQVa_0wBI",
+  "link": "https://youtu.be/nspQVa_0wBI",
+  "title": "Boston: 400 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-10T15:00:00Z",
+  "uploaded": "2026-11-01T10:30:24Z",
+  "thumbnail": "ok",
+  "playlist": "added"
  }
 ]
