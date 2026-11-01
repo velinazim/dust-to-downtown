@@ -241,6 +241,9 @@ OUTER = [(42.4700, -71.2300), (42.4800, -71.0500), (42.4400, -70.9700), (42.3000
          (42.2300, -71.1300), (42.2600, -71.2400), (42.3500, -71.2700), (42.4200, -71.2700)]
 LOGAN = [(42.3800, -71.0290), (42.3880, -71.0200), (42.3800, -70.9850), (42.3550, -70.9850), (42.3550, -71.0100),
          (42.3610, -71.0230), (42.3600, -71.0320), (42.3655, -71.0310)]
+MADE_CORE = [(42.3720, -71.0700), (42.3720, -71.0560), (42.3660, -71.0500), (42.3560, -71.0490), (42.3500, -71.0510),
+             (42.3420, -71.0560), (42.3330, -71.0640), (42.3330, -71.0800), (42.3400, -71.0950), (42.3480, -71.1000),
+             (42.3540, -71.0900), (42.3600, -71.0740), (42.3680, -71.0730)]
 CORE_HOLES = [L(SHAWMUT), L(CHAS_TOWN), L(SB), L(EB), L(LOGAN), L(BACK_BAY), L(SOUTH_END), L(FENS), L(SEAPORT), L(FORT_POINT)]
 
 
@@ -492,9 +495,9 @@ districts = [
   (42.3615, -71.0585)]), "from": 1815, "to": 1870, "density": 0.75, "grain_m": 55, "grow_from": [42.3635, -71.0610]},
  {"name": "South Cove", "style": "industrial", "poly": L([(42.3545, -71.0600), (42.3545, -71.0540), (42.3470, -71.0560), (42.3470, -71.0640)]),
   "from": 1838, "to": 1870, "density": 0.75, "grain_m": 60, "grow_from": [42.3520, -71.0590]},
- {"name": "South Boston", "style": "georgian", "poly": L(SB), "from": 1805, "to": 1880, "density": 0.55, "grain_m": 70,
+ {"name": "South Boston", "style": "victorian", "poly": L(SB), "from": 1805, "to": 1890, "density": 0.8, "grain_m": 62,
   "grow_from": [42.3370, -71.0500]},
- {"name": "East Boston", "style": "georgian", "poly": L(EB), "from": 1835, "to": 1890, "density": 0.6, "grain_m": 65,
+ {"name": "East Boston", "style": "victorian", "poly": L(EB), "from": 1835, "to": 1890, "density": 0.8, "grain_m": 60,
   "grow_from": [42.3700, -71.0380]},
  {"name": "South End", "style": "victorian", "poly": L(SOUTH_END), "from": 1840, "to": 1885, "density": 0.85, "grain_m": 55,
   "grow_from": [42.3460, -71.0660], "grid_deg": 50},
@@ -504,6 +507,11 @@ districts = [
   "grow_from": [42.3500, -71.0520]},
  {"name": "South Boston waterfront", "style": "industrial", "poly": L([(42.3540, -71.0480), (42.3490, -71.0330), (42.3420, -71.0280),
   (42.3405, -71.0450), (42.3440, -71.0490)]), "from": 1900, "to": 1950, "density": 0.4, "grain_m": 110, "grow_from": [42.3480, -71.0450]},
+ {"name": "Made land, inner Boston (≈, follows each fill)", "style": "victorian", "poly": L(MADE_CORE),
+  "holes": [L(COMMON), L(PUBLIC_GARDEN), L(FENS), L(SHAWMUT)], "from": 1830, "to": 1915, "density": 0.75, "grain_m": 60,
+  "grow_from": [42.3580, -71.0600]},
+ {"name": "South Boston waterfront (dense)", "style": "industrial", "poly": L([(42.3540, -71.0480), (42.3490, -71.0330), (42.3420, -71.0280),
+  (42.3405, -71.0450), (42.3440, -71.0490)]), "from": 1905, "to": 1960, "density": 0.55, "grain_m": 80, "grow_from": [42.3480, -71.0450]},
  {"name": "Inner suburbs", "style": "suburb", "poly": L(INNER), "holes": CORE_HOLES, "from": 1850, "to": 1930,
   "density": 0.6, "grain_m": 95, "grow_from": [42.3560, -71.0620]},
  {"name": "Outer suburbs", "style": "suburb", "poly": L(OUTER), "holes": [L(INNER)], "from": 1900, "to": 1990, "density": 0.4,
@@ -581,7 +589,7 @@ roads = [
  {"name": "Boston and Worcester Railroad", "path": L([(42.3478, -71.0655), (42.3473, -71.0760), (42.3482, -71.0990), (42.3530, -71.1400)]),
   "from": 1835, "kind": "rail", "width_m": 18},
  {"name": "Commonwealth Avenue (≈ from 1865)", "path": L([(42.3536, -71.0715), (42.3505, -71.0870), (42.3489, -71.0953)]), "from": 1865,
-  "kind": "avenue", "width_m": 40},
+  "kind": "avenue", "width_m": 24},
 ]
 
 city = {
