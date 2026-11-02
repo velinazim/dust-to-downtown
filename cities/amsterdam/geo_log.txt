@@ -1,0 +1,9 @@
+osm rivers: kept 29, skipped 0 -> 29 outer / 15 inner rings
+osm lakes: 49 lakes >= 0.02 km2
+grid 410x344 @ 100 m
+elevation: zoom 11, tiles 5x4
+grid 432x241 @ 30 m
+elevation: zoom 13, tiles 5x3
+core layer 432 x 241
+wrote geo.json 410 x 344
+maps written to cities/amsterdam/preview
