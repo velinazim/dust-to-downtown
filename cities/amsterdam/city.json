@@ -1,0 +1,5149 @@
+{
+ "slug": "amsterdam",
+ "seed": 1275,
+ "long_ok": true,
+ "name": {
+  "en": "Amsterdam",
+  "tr": "Amsterdam"
+ },
+ "intro": {
+  "en": "1,000 Years in 14 Minutes",
+  "tr": "14 Dakikada 1.000 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   52.19,
+   4.56,
+   52.5,
+   5.16
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   52.335,
+   4.835,
+   52.4,
+   5.025
+  ],
+  "core_cell_m": 30,
+  "sea_level_m": -30
+ },
+ "geo_edits": [
+  {
+   "op": "water",
+   "poly": [
+    [
+     52.383,
+     4.87
+    ],
+    [
+     52.387,
+     4.87
+    ],
+    [
+     52.388,
+     4.89
+    ],
+    [
+     52.387,
+     4.91
+    ],
+    [
+     52.385,
+     4.93
+    ],
+    [
+     52.386,
+     4.95
+    ],
+    [
+     52.38,
+     4.955
+    ],
+    [
+     52.3835,
+     4.933
+    ],
+    [
+     52.3835,
+     4.888
+    ],
+    [
+     52.382,
+     4.876
+    ]
+   ]
+  }
+ ],
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": 1000,
+   "to": 1269,
+   "seconds": 22,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amstel",
+    "tr": "Amstel"
+   },
+   "title": {
+    "en": "Peat Bog on the Amstel",
+    "tr": "Amstel Kıyısında Turbalık"
+   },
+   "sub": {
+    "en": "Around 1000: the first farmers settle the wet peat land where the Amstel meets the IJ",
+    "tr": "1000 civarı: ilk çiftçiler Amstel'in IJ ile buluştuğu ıslak turbalığa yerleşir"
+   },
+   "camera": {
+    "center": [
+     52.3745,
+     4.8945
+    ],
+    "dist_km": 3.2
+   },
+   "chapter": {
+    "en": "A Dam on the Amstel",
+    "tr": "Amstel'de Bir Bent"
+   }
+  },
+  {
+   "from": 1270,
+   "to": 1299,
+   "seconds": 22,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amestelledamme",
+    "tr": "Amestelledamme"
+   },
+   "title": {
+    "en": "A Dam in the Amstel",
+    "tr": "Amstel'e Bir Bent"
+   },
+   "sub": {
+    "en": "27 October 1275: a toll privilege gives the oldest record of the name Amestelledamme",
+    "tr": "27 Ekim 1275: bir gümrük ayrıcalığı, Amestelledamme adının bilinen en eski kaydıdır"
+   },
+   "camera": {
+    "center": [
+     52.374,
+     4.894
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1300,
+   "to": 1344,
+   "seconds": 20,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "City Rights",
+    "tr": "Şehir Hakları"
+   },
+   "sub": {
+    "en": "1306: Amsterdam receives city rights, and its stone church, the Oude Kerk, is consecrated",
+    "tr": "1306: Amsterdam şehir hakları alır; ilk taş kilisesi Oude Kerk takdis edilir"
+   },
+   "population": [
+    1000,
+    1800
+   ],
+   "camera": {
+    "center": [
+     52.3742,
+     4.8955
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1345,
+   "to": 1384,
+   "seconds": 18,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A Pilgrim Town",
+    "tr": "Bir Hac Kasabası"
+   },
+   "sub": {
+    "en": "1345: a reported miracle draws pilgrims; a chapel, the Heilige Stede, follows in 1347",
+    "tr": "1345: anlatılan bir mucize hacıları çeker; 1347'de Heilige Stede şapeli yapılır"
+   },
+   "population": [
+    1800,
+    3000
+   ],
+   "camera": {
+    "center": [
+     52.3738,
+     4.8945
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1385,
+   "to": 1420,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Nieuwe Kerk",
+    "tr": "Nieuwe Kerk"
+   },
+   "sub": {
+    "en": "1385: new walls and moats ring the town; a second parish church is consecrated in 1409",
+    "tr": "1385: kasabayı yeni surlar ve hendekler çevirir; ikinci bölge kilisesi 1409'da takdis edilir"
+   },
+   "population": [
+    3000,
+    4800
+   ],
+   "camera": {
+    "center": [
+     52.3738,
+     4.893
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1421,
+   "to": 1424,
+   "seconds": 17,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Fire of 1421",
+    "tr": "1421 Yangını"
+   },
+   "sub": {
+    "en": "1421: a fire destroys about a third of the wooden town",
+    "tr": "1421: bir yangın ahşap kasabanın yaklaşık üçte birini yok eder"
+   },
+   "population": [
+    4800,
+    5000
+   ],
+   "camera": {
+    "center": [
+     52.3735,
+     4.8945
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1425,
+   "to": 1451,
+   "seconds": 18,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A New Moat",
+    "tr": "Yeni Bir Hendek"
+   },
+   "sub": {
+    "en": "1425: a moat is dug around the town, today's Singel, Kloveniersburgwal and Geldersekade",
+    "tr": "1425: kasabanın çevresine bugünkü Singel, Kloveniersburgwal ve Geldersekade kazılır"
+   },
+   "population": [
+    5100,
+    7200
+   ],
+   "camera": {
+    "center": [
+     52.3725,
+     4.8955
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1452,
+   "to": 1480,
+   "seconds": 19,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Great Fire of 1452",
+    "tr": "1452 Büyük Yangını"
+   },
+   "sub": {
+    "en": "1452: fire destroys three quarters of Amsterdam; new houses must be built of stone",
+    "tr": "1452: yangın Amsterdam'ın dörtte üçünü yok eder; yeni evler taştan yapılmak zorundadır"
+   },
+   "population": [
+    7300,
+    10500
+   ],
+   "camera": {
+    "center": [
+     52.3735,
+     4.895
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1481,
+   "to": 1514,
+   "seconds": 20,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A Wall of Brick",
+    "tr": "Tuğladan Bir Sur"
+   },
+   "sub": {
+    "en": "1482–1494: a brick wall 5–6 m high rises with towers like the Schreierstoren of c. 1487",
+    "tr": "1482–1494: Schreierstoren (1487 civarı) gibi kulelerle 5–6 m yüksekliğinde tuğla sur yükselir"
+   },
+   "population": [
+    10600,
+    16300
+   ],
+   "camera": {
+    "center": [
+     52.3725,
+     4.896
+    ],
+    "dist_km": 2.8
+   },
+   "chapter": {
+    "en": "The Walled Town",
+    "tr": "Surlu Kasaba"
+   }
+  },
+  {
+   "from": 1515,
+   "to": 1577,
+   "seconds": 18,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Montelbaanstoren",
+    "tr": "Montelbaanstoren"
+   },
+   "sub": {
+    "en": "1515–1518: a new moat guards the shipyards of the Lastage; a watchtower rises c. 1516",
+    "tr": "1515–1518: yeni bir hendek Lastage tersanelerini korur; 1516 civarı bir gözcü kulesi yükselir"
+   },
+   "population": [
+    16500,
+    37000
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.901
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1578,
+   "to": 1584,
+   "seconds": 18,
+   "era": {
+    "en": "Middle Ages",
+    "tr": "Orta Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Alteratie",
+    "tr": "Alteratie"
+   },
+   "sub": {
+    "en": "1578: Amsterdam changes sides in the Dutch Revolt without bloodshed and joins the rebels",
+    "tr": "1578: Amsterdam, Hollanda İsyanı'nda kan dökülmeden taraf değiştirir ve isyancılara katılır"
+   },
+   "population": [
+    37500,
+    40600
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.895
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1585,
+   "to": 1601,
+   "seconds": 20,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Merchants from Antwerp",
+    "tr": "Antwerpenli Tüccarlar"
+   },
+   "sub": {
+    "en": "1585: Antwerp falls, its merchants move north, and Amsterdam builds new walls with 11 bastions",
+    "tr": "1585: Antwerpen düşer, tüccarları kuzeye göçer; Amsterdam 11 burçlu yeni surlar yapar"
+   },
+   "population": [
+    41100,
+    51700
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.896
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   }
+  },
+  {
+   "from": 1602,
+   "to": 1612,
+   "seconds": 19,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The East India Company",
+    "tr": "Doğu Hindistan Şirketi"
+   },
+   "sub": {
+    "en": "1602: the VOC is founded and Amsterdam's stock exchange begins; about 50,000 people live here",
+    "tr": "1602: VOC kurulur ve Amsterdam borsası başlar; şehirde yaklaşık 50.000 kişi yaşar"
+   },
+   "population": [
+    53500,
+    74900
+   ],
+   "camera": {
+    "center": [
+     52.374,
+     4.897
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1613,
+   "to": 1619,
+   "seconds": 22,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Canal Ring",
+    "tr": "Kanal Kuşağı"
+   },
+   "sub": {
+    "en": "1613: digging begins on the Herengracht, Keizersgracht and Prinsengracht, finished c. 1625",
+    "tr": "1613: Herengracht, Keizersgracht ve Prinsengracht kazılmaya başlar; 1625 civarı tamamlanır"
+   },
+   "population": [
+    77500,
+    94900
+   ],
+   "camera": {
+    "center": [
+     52.3745,
+     4.887
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1620,
+   "to": 1628,
+   "seconds": 18,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Munttoren",
+    "tr": "Munttoren"
+   },
+   "sub": {
+    "en": "1620: the burnt Regulierspoort gate gets a new tower by Hendrick de Keyser",
+    "tr": "1620: yanmış Regulierspoort kapısına Hendrick de Keyser yeni bir kule tasarlar"
+   },
+   "population": [
+    98200,
+    115000
+   ],
+   "camera": {
+    "center": [
+     52.369,
+     4.893
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1629,
+   "to": 1630,
+   "seconds": 17,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Draining the Diemermeer",
+    "tr": "Diemermeer Kurutuluyor"
+   },
+   "sub": {
+    "en": "1629: the Diemermeer lake east of the city is drained; today it is the Watergraafsmeer",
+    "tr": "1629: şehrin doğusundaki Diemermeer gölü kurutulur; bugün Watergraafsmeer'dir"
+   },
+   "population": [
+    116000,
+    118000
+   ],
+   "camera": {
+    "center": [
+     52.36,
+     4.93
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1631,
+   "to": 1647,
+   "seconds": 19,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Westerkerk",
+    "tr": "Westerkerk"
+   },
+   "sub": {
+    "en": "1631: the Westerkerk opens in the new canal district; its tower is 87 m tall",
+    "tr": "1631: Westerkerk yeni kanal semtinde açılır; kulesi 87 m yüksekliğindedir"
+   },
+   "population": [
+    120000,
+    151000
+   ],
+   "camera": {
+    "center": [
+     52.374,
+     4.886
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1648,
+   "to": 1651,
+   "seconds": 18,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A New Town Hall",
+    "tr": "Yeni Bir Belediye Binası"
+   },
+   "sub": {
+    "en": "1648: work begins on a vast town hall on the Dam, standing on 13,659 wooden piles",
+    "tr": "1648: Dam Meydanı'nda 13.659 ahşap kazık üzerinde dev bir belediye binası başlar"
+   },
+   "population": [
+    154000,
+    161000
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.8925
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1652,
+   "to": 1656,
+   "seconds": 18,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Old Town Hall Burns",
+    "tr": "Eski Belediye Yanıyor"
+   },
+   "sub": {
+    "en": "7 July 1652: the old town hall burns down; the new one is inaugurated in July 1655",
+    "tr": "7 Temmuz 1652: eski belediye binası yanar; yenisi Temmuz 1655'te açılır"
+   },
+   "population": [
+    163000,
+    173000
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.8925
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1657,
+   "to": 1662,
+   "seconds": 22,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Great Expansion",
+    "tr": "Büyük Genişleme"
+   },
+   "sub": {
+    "en": "1657–c.1663: a rampart with 26 bastions rings the city; harbour islands rise in the east",
+    "tr": "1657–1663 civarı: 26 burçlu yeni bir sur şehri sarar; doğuda liman adaları yapılır"
+   },
+   "population": [
+    175000,
+    189000
+   ],
+   "camera": {
+    "center": [
+     52.37,
+     4.9
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1663,
+   "to": 1666,
+   "seconds": 18,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Plague",
+    "tr": "Veba"
+   },
+   "sub": {
+    "en": "1663–1666: bubonic plague; in 1664 alone 24,148 people are buried",
+    "tr": "1663–1666: veba salgını; yalnızca 1664'te 24.148 kişi gömülür"
+   },
+   "population": [
+    191000,
+    200000
+   ],
+   "camera": {
+    "center": [
+     52.372,
+     4.895
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1667,
+   "to": 1671,
+   "seconds": 18,
+   "era": {
+    "en": "Golden Age",
+    "tr": "Altın Çağ"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Canals to the Amstel",
+    "tr": "Kanallar Amstel'e"
+   },
+   "sub": {
+    "en": "From about 1660 the three canals are extended to the Amstel, giving the city its crescent",
+    "tr": "1660 civarından itibaren üç kanal Amstel'e uzatılır ve şehir hilal biçimini alır"
+   },
+   "population": [
+    199000,
+    197000
+   ],
+   "camera": {
+    "center": [
+     52.366,
+     4.895
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1672,
+   "to": 1699,
+   "seconds": 18,
+   "era": {
+    "en": "Dutch Republic",
+    "tr": "Hollanda Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Disaster Year",
+    "tr": "Felaket Yılı"
+   },
+   "sub": {
+    "en": "1672: France invades the Republic; the flooded Water Line stops it before Amsterdam",
+    "tr": "1672: Fransa Cumhuriyet'i işgal eder; su baskını hattı onu Amsterdam'dan önce durdurur"
+   },
+   "population": [
+    197000,
+    209000
+   ],
+   "camera": {
+    "center": [
+     52.37,
+     4.895
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1700,
+   "to": 1779,
+   "seconds": 19,
+   "era": {
+    "en": "Dutch Republic",
+    "tr": "Hollanda Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A Rich, Quiet Century",
+    "tr": "Zengin, Sakin Bir Yüzyıl"
+   },
+   "sub": {
+    "en": "1700–1775: Amsterdam stays near 210,000 people as its wealth stops growing",
+    "tr": "1700–1775: refahı artmayı bırakırken Amsterdam yaklaşık 210.000 kişide kalır"
+   },
+   "population": [
+    210000,
+    207000
+   ],
+   "camera": {
+    "center": [
+     52.37,
+     4.896
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Decline and French Rule",
+    "tr": "Gerileme ve Fransız Yönetimi"
+   }
+  },
+  {
+   "from": 1780,
+   "to": 1794,
+   "seconds": 17,
+   "era": {
+    "en": "Dutch Republic",
+    "tr": "Hollanda Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "War with Britain",
+    "tr": "İngiltere ile Savaş"
+   },
+   "sub": {
+    "en": "1780–1784: the Fourth Anglo-Dutch War hits Amsterdam hard",
+    "tr": "1780–1784: Dördüncü İngiliz-Hollanda Savaşı Amsterdam'ı ağır vurur"
+   },
+   "population": [
+    206000,
+    198000
+   ],
+   "camera": {
+    "center": [
+     52.374,
+     4.905
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1795,
+   "to": 1809,
+   "seconds": 18,
+   "era": {
+    "en": "French Period",
+    "tr": "Fransız Dönemi"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The French Arrive",
+    "tr": "Fransızlar Geliyor"
+   },
+   "sub": {
+    "en": "1795: France takes the Netherlands; in 1808 the town hall becomes a royal palace",
+    "tr": "1795: Fransa Hollanda'yı alır; 1808'de belediye binası kraliyet sarayı olur"
+   },
+   "population": [
+    198000,
+    186000
+   ],
+   "camera": {
+    "center": [
+     52.373,
+     4.8925
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1810,
+   "to": 1838,
+   "seconds": 18,
+   "era": {
+    "en": "French Period",
+    "tr": "Fransız Dönemi"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Capital Again",
+    "tr": "Yeniden Başkent"
+   },
+   "sub": {
+    "en": "1810: annexed by France; the French leave on 16 November 1813 and Amsterdam is capital in 1814",
+    "tr": "1810: Fransa'ya katılır; Fransızlar 16 Kasım 1813'te çekilir, Amsterdam 1814'te başkent olur"
+   },
+   "population": [
+    185000,
+    211000
+   ],
+   "camera": {
+    "center": [
+     52.372,
+     4.895
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1839,
+   "to": 1847,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The First Railway",
+    "tr": "İlk Demiryolu"
+   },
+   "sub": {
+    "en": "1839: the Haarlem line opens, and from 1839 to 1848 the old ramparts are pulled down",
+    "tr": "1839: Haarlem hattı açılır; 1839–1848 arasında eski surlar yıkılır"
+   },
+   "population": [
+    212000,
+    221000
+   ],
+   "camera": {
+    "center": [
+     52.374,
+     4.87
+    ],
+    "dist_km": 6.0
+   },
+   "chapter": {
+    "en": "Industrial Amsterdam",
+    "tr": "Sanayi Amsterdamı"
+   }
+  },
+  {
+   "from": 1848,
+   "to": 1852,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Haarlemmermeer Pumped Dry",
+    "tr": "Haarlemmermeer Kurutuluyor"
+   },
+   "sub": {
+    "en": "1849–1852: three steam pumping stations drain the Haarlemmermeer, about 180 km² of lake",
+    "tr": "1849–1852: üç buharlı pompa istasyonu yaklaşık 180 km²'lik Haarlemmermeer'i kurutur"
+   },
+   "population": [
+    223000,
+    230000
+   ],
+   "camera": {
+    "center": [
+     52.32,
+     4.76
+    ],
+    "dist_km": 22.0
+   }
+  },
+  {
+   "from": 1853,
+   "to": 1864,
+   "seconds": 8,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "population": [
+    232000,
+    259000
+   ],
+   "camera": {
+    "center": [
+     52.365,
+     4.88
+    ],
+    "dist_km": 10.0
+   }
+  },
+  {
+   "from": 1865,
+   "to": 1875,
+   "seconds": 19,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The North Sea Canal",
+    "tr": "Kuzey Denizi Kanalı"
+   },
+   "sub": {
+    "en": "1865: digging starts on a canal to the sea; by 1872 the main reclamations of the IJ are done",
+    "tr": "1865: denize bir kanal kazılmaya başlar; 1872'de IJ'deki büyük kurutmalar tamamlanır"
+   },
+   "population": [
+    262000,
+    280000
+   ],
+   "camera": {
+    "center": [
+     52.39,
+     4.78
+    ],
+    "dist_km": 18.0
+   }
+  },
+  {
+   "from": 1876,
+   "to": 1881,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "A Shortcut to the Sea",
+    "tr": "Denize Kestirme"
+   },
+   "sub": {
+    "en": "1 November 1876: the North Sea Canal opens; new docks follow east of the city",
+    "tr": "1 Kasım 1876: Kuzey Denizi Kanalı açılır; şehrin doğusunda yeni rıhtımlar yapılır"
+   },
+   "population": [
+    282000,
+    329000
+   ],
+   "camera": {
+    "center": [
+     52.378,
+     4.915
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1882,
+   "to": 1888,
+   "seconds": 18,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Rijksmuseum",
+    "tr": "Rijksmuseum"
+   },
+   "sub": {
+    "en": "13 July 1885: the Rijksmuseum opens; the Concertgebouw follows on 11 April 1888",
+    "tr": "13 Temmuz 1885: Rijksmuseum açılır; Concertgebouw 11 Nisan 1888'de onu izler"
+   },
+   "population": [
+    340000,
+    396000
+   ],
+   "camera": {
+    "center": [
+     52.36,
+     4.884
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1889,
+   "to": 1899,
+   "seconds": 19,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Centraal Station",
+    "tr": "Merkez İstasyonu"
+   },
+   "sub": {
+    "en": "15 October 1889: Centraal Station opens on three artificial islands in the IJ",
+    "tr": "15 Ekim 1889: Merkez İstasyonu, IJ'de üç yapay ada üzerinde açılır"
+   },
+   "population": [
+    406000,
+    512000
+   ],
+   "camera": {
+    "center": [
+     52.377,
+     4.899
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1900,
+   "to": 1916,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Half a Million",
+    "tr": "Yarım Milyon"
+   },
+   "sub": {
+    "en": "1900: Amsterdam has 523,557 people; new quarters now ring the old canal city",
+    "tr": "1900: Amsterdam'ın nüfusu 523.557'dir; yeni mahalleler eski kanal şehrini çevreler"
+   },
+   "population": [
+    524000,
+    626000
+   ],
+   "camera": {
+    "center": [
+     52.368,
+     4.895
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "Modern Amsterdam",
+    "tr": "Modern Amsterdam"
+   }
+  },
+  {
+   "from": 1917,
+   "to": 1927,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Plan Zuid",
+    "tr": "Güney Planı"
+   },
+   "sub": {
+    "en": "1917: building starts on Plan Zuid; in 1921 the city grows from 4,630 to 17,455 hectares",
+    "tr": "1917: Güney Planı'nın inşası başlar; 1921'de şehir 4.630'dan 17.455 hektara büyür"
+   },
+   "population": [
+    633000,
+    739000
+   ],
+   "camera": {
+    "center": [
+     52.355,
+     4.885
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1928,
+   "to": 1939,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The 1928 Olympics",
+    "tr": "1928 Olimpiyatları"
+   },
+   "sub": {
+    "en": "17 May 1928: the Olympic Stadium opens for the Summer Games",
+    "tr": "17 Mayıs 1928: Olimpiyat Stadı Yaz Oyunları için açılır"
+   },
+   "population": [
+    752000,
+    861000
+   ],
+   "camera": {
+    "center": [
+     52.348,
+     4.865
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1940,
+   "to": 1943,
+   "seconds": 20,
+   "era": {
+    "en": "Occupation",
+    "tr": "İşgal"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Occupation",
+    "tr": "İşgal"
+   },
+   "sub": {
+    "en": "1940: German occupation begins; in February 1941 workers strike against the persecution of Jews",
+    "tr": "1940: Alman işgali başlar; Şubat 1941'de işçiler Yahudilere zulme karşı grev yapar"
+   },
+   "population": 861000,
+   "camera": {
+    "center": [
+     52.372,
+     4.89
+    ],
+    "dist_km": 3.6
+   },
+   "chapter": {
+    "en": "War",
+    "tr": "Savaş"
+   }
+  },
+  {
+   "from": 1944,
+   "to": 1945.4,
+   "seconds": 20,
+   "era": {
+    "en": "Occupation",
+    "tr": "İşgal"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Persecution and Hunger",
+    "tr": "Zulüm ve Açlık"
+   },
+   "sub": {
+    "en": "Three quarters of Dutch Jews are deported and murdered; famine follows in winter 1944–45",
+    "tr": "Hollanda Yahudilerinin dörtte üçü sürgün edilip öldürülür; 1944–45 kışında kıtlık baş gösterir"
+   },
+   "population": 863000,
+   "camera": {
+    "center": [
+     52.372,
+     4.89
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1945.4,
+   "to": 1965,
+   "seconds": 19,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Garden Cities",
+    "tr": "Bahçe Şehirler"
+   },
+   "sub": {
+    "en": "1950s–1960s: following the 1935 expansion plan, garden cities rise in the west",
+    "tr": "1950'ler–1960'lar: 1935 genişleme planına göre batıda bahçe şehirler yükselir"
+   },
+   "population": [
+    865000,
+    836000
+   ],
+   "camera": {
+    "center": [
+     52.365,
+     4.85
+    ],
+    "dist_km": 9.0
+   },
+   "chapter": {
+    "en": "The Growing Metropolis",
+    "tr": "Büyüyen Metropol"
+   }
+  },
+  {
+   "from": 1966,
+   "to": 1976,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "The Bijlmermeer",
+    "tr": "Bijlmermeer"
+   },
+   "sub": {
+    "en": "1968: the Bijlmermeer, a district of high-rise blocks, opens southeast of the city",
+    "tr": "1968: yüksek bloklardan oluşan Bijlmermeer semti şehrin güneydoğusunda açılır"
+   },
+   "population": [
+    830000,
+    772000
+   ],
+   "camera": {
+    "center": [
+     52.33,
+     4.93
+    ],
+    "dist_km": 10.0
+   }
+  },
+  {
+   "from": 1977,
+   "to": 1996,
+   "seconds": 18,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Metro and the Old City",
+    "tr": "Metro ve Eski Şehir"
+   },
+   "sub": {
+    "en": "1977: the metro opens; after the 1975 Nieuwmarkt riots, a city motorway plan is dropped",
+    "tr": "1977: metro açılır; 1975 Nieuwmarkt olaylarından sonra merkezden geçecek otoyoldan vazgeçilir"
+   },
+   "population": [
+    766000,
+    726000
+   ],
+   "camera": {
+    "center": [
+     52.37,
+     4.9
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1997,
+   "to": 2009,
+   "seconds": 18,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Islands in the IJmeer",
+    "tr": "IJmeer'de Adalar"
+   },
+   "sub": {
+    "en": "1997: work begins on IJburg, a new district built on artificial islands",
+    "tr": "1997: yapay adalar üzerine kurulan yeni bir semt olan IJburg'ün yapımı başlar"
+   },
+   "population": [
+    731000,
+    789000
+   ],
+   "camera": {
+    "center": [
+     52.36,
+     4.97
+    ],
+    "dist_km": 8.0
+   },
+   "chapter": {
+    "en": "Amsterdam Today",
+    "tr": "Bugünün Amsterdamı"
+   }
+  },
+  {
+   "from": 2010,
+   "to": 2019,
+   "seconds": 18,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "World Heritage",
+    "tr": "Dünya Mirası"
+   },
+   "sub": {
+    "en": "1 August 2010: the 17th-century canal ring becomes a UNESCO World Heritage Site",
+    "tr": "1 Ağustos 2010: 17. yüzyıl kanal kuşağı UNESCO Dünya Mirası Listesi'ne girer"
+   },
+   "population": [
+    793000,
+    877000
+   ],
+   "camera": {
+    "center": [
+     52.37,
+     4.89
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 2020,
+   "to": 2026,
+   "seconds": 26,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "title": {
+    "en": "Amsterdam Today",
+    "tr": "Bugünün Amsterdamı"
+   },
+   "sub": {
+    "en": "From a dam on the Amstel to 942,504 Amsterdammers, a record, in January 2026",
+    "tr": "Amstel'deki bir bentten Ocak 2026'da rekor seviyedeki 942.504 Amsterdamlıya"
+   },
+   "population": [
+    885000,
+    943000
+   ],
+   "camera": {
+    "center": [
+     52.36,
+     4.895
+    ],
+    "dist_km": 16.0
+   }
+  }
+ ],
+ "timed_water": [
+  {
+   "name": "Amstel: Damrak (≈)",
+   "poly": [
+    [
+     52.37708,
+     4.89659
+    ],
+    [
+     52.37468,
+     4.89459
+    ],
+    [
+     52.37492,
+     4.89381
+    ],
+    [
+     52.37732,
+     4.89581
+    ]
+   ],
+   "from": 1000,
+   "to": null
+  },
+  {
+   "name": "Amstel: Rokin (≈)",
+   "poly": [
+    [
+     52.36884,
+     4.89286
+    ],
+    [
+     52.3677,
+     4.89334
+    ],
+    [
+     52.36694,
+     4.89429
+    ],
+    [
+     52.36666,
+     4.89371
+    ],
+    [
+     52.36752,
+     4.89265
+    ],
+    [
+     52.36877,
+     4.89214
+    ],
+    [
+     52.37017,
+     4.89184
+    ],
+    [
+     52.37023,
+     4.89256
+    ]
+   ],
+   "from": 1000,
+   "to": null
+  },
+  {
+   "name": "Amstel in the city (≈)",
+   "poly": [
+    [
+     52.36711,
+     4.89413
+    ],
+    [
+     52.36628,
+     4.89923
+    ],
+    [
+     52.36547,
+     4.90128
+    ],
+    [
+     52.36536,
+     4.90145
+    ],
+    [
+     52.36368,
+     4.9027
+    ],
+    [
+     52.36157,
+     4.9032
+    ],
+    [
+     52.35789,
+     4.90499
+    ],
+    [
+     52.35771,
+     4.90401
+    ],
+    [
+     52.36141,
+     4.90221
+    ],
+    [
+     52.36351,
+     4.9017
+    ],
+    [
+     52.36498,
+     4.90059
+    ],
+    [
+     52.36571,
+     4.89879
+    ],
+    [
+     52.36649,
+     4.89387
+    ]
+   ],
+   "from": 1000,
+   "to": null
+  },
+  {
+   "name": "Singel (moat of 1425)",
+   "poly": [
+    [
+     52.37769,
+     4.89239
+    ],
+    [
+     52.37614,
+     4.89093
+    ],
+    [
+     52.37446,
+     4.89004
+    ],
+    [
+     52.37249,
+     4.88955
+    ],
+    [
+     52.37051,
+     4.88945
+    ],
+    [
+     52.36886,
+     4.88974
+    ],
+    [
+     52.36772,
+     4.89116
+    ],
+    [
+     52.36704,
+     4.8936
+    ],
+    [
+     52.36676,
+     4.8934
+    ],
+    [
+     52.36748,
+     4.89085
+    ],
+    [
+     52.36871,
+     4.8893
+    ],
+    [
+     52.36878,
+     4.88925
+    ],
+    [
+     52.37048,
+     4.88895
+    ],
+    [
+     52.3725,
+     4.88905
+    ],
+    [
+     52.37452,
+     4.88955
+    ],
+    [
+     52.37625,
+     4.89046
+    ],
+    [
+     52.3779,
+     4.89201
+    ],
+    [
+     52.37873,
+     4.89406
+    ],
+    [
+     52.37847,
+     4.89434
+    ]
+   ],
+   "from": 1425,
+   "to": null
+  },
+  {
+   "name": "Kloveniersburgwal and Geldersekade (1425)",
+   "poly": [
+    [
+     52.36903,
+     4.89726
+    ],
+    [
+     52.37106,
+     4.89877
+    ],
+    [
+     52.37256,
+     4.89997
+    ],
+    [
+     52.37425,
+     4.90076
+    ],
+    [
+     52.37575,
+     4.90156
+    ],
+    [
+     52.37656,
+     4.90207
+    ],
+    [
+     52.37644,
+     4.90253
+    ],
+    [
+     52.37565,
+     4.90204
+    ],
+    [
+     52.37415,
+     4.90124
+    ],
+    [
+     52.37244,
+     4.90043
+    ],
+    [
+     52.37093,
+     4.89923
+    ],
+    [
+     52.36895,
+     4.89774
+    ],
+    [
+     52.36707,
+     4.89704
+    ],
+    [
+     52.36713,
+     4.89656
+    ]
+   ],
+   "from": 1425,
+   "to": null
+  },
+  {
+   "name": "Oudeschans (1515–1518)",
+   "poly": [
+    [
+     52.37007,
+     4.90378
+    ],
+    [
+     52.37356,
+     4.90657
+    ],
+    [
+     52.37555,
+     4.90777
+    ],
+    [
+     52.37545,
+     4.90823
+    ],
+    [
+     52.37343,
+     4.90702
+    ],
+    [
+     52.36993,
+     4.90422
+    ]
+   ],
+   "from": 1516,
+   "to": null
+  },
+  {
+   "name": "Herengracht, west (from 1613)",
+   "poly": [
+    [
+     52.37874,
+     4.88972
+    ],
+    [
+     52.37646,
+     4.88843
+    ],
+    [
+     52.37399,
+     4.88773
+    ],
+    [
+     52.37151,
+     4.88764
+    ],
+    [
+     52.36922,
+     4.88803
+    ],
+    [
+     52.36753,
+     4.88863
+    ],
+    [
+     52.36747,
+     4.88817
+    ],
+    [
+     52.36918,
+     4.88757
+    ],
+    [
+     52.37148,
+     4.88717
+    ],
+    [
+     52.37402,
+     4.88727
+    ],
+    [
+     52.37655,
+     4.88798
+    ],
+    [
+     52.37885,
+     4.88928
+    ],
+    [
+     52.38087,
+     4.89099
+    ],
+    [
+     52.38073,
+     4.89141
+    ]
+   ],
+   "from": 1614,
+   "to": null
+  },
+  {
+   "name": "Keizersgracht, west (from 1613)",
+   "poly": [
+    [
+     52.37944,
+     4.88752
+    ],
+    [
+     52.37697,
+     4.88623
+    ],
+    [
+     52.37449,
+     4.88553
+    ],
+    [
+     52.37201,
+     4.88544
+    ],
+    [
+     52.36902,
+     4.88603
+    ],
+    [
+     52.36682,
+     4.88663
+    ],
+    [
+     52.36678,
+     4.88617
+    ],
+    [
+     52.36898,
+     4.88557
+    ],
+    [
+     52.37198,
+     4.88497
+    ],
+    [
+     52.37452,
+     4.88507
+    ],
+    [
+     52.37704,
+     4.88578
+    ],
+    [
+     52.37954,
+     4.88708
+    ],
+    [
+     52.38157,
+     4.88879
+    ],
+    [
+     52.38143,
+     4.88921
+    ]
+   ],
+   "from": 1616,
+   "to": null
+  },
+  {
+   "name": "Prinsengracht, west (from 1613)",
+   "poly": [
+    [
+     52.37995,
+     4.88532
+    ],
+    [
+     52.37747,
+     4.88403
+    ],
+    [
+     52.37498,
+     4.88333
+    ],
+    [
+     52.37251,
+     4.88314
+    ],
+    [
+     52.36903,
+     4.88403
+    ],
+    [
+     52.36623,
+     4.88503
+    ],
+    [
+     52.36617,
+     4.88457
+    ],
+    [
+     52.36898,
+     4.88357
+    ],
+    [
+     52.37248,
+     4.88267
+    ],
+    [
+     52.37501,
+     4.88286
+    ],
+    [
+     52.37754,
+     4.88358
+    ],
+    [
+     52.38004,
+     4.88488
+    ],
+    [
+     52.38226,
+     4.88659
+    ],
+    [
+     52.38214,
+     4.88701
+    ]
+   ],
+   "from": 1618,
+   "to": null
+  },
+  {
+   "name": "Singelgracht, west (1613)",
+   "poly": [
+    [
+     52.38192,
+     4.88027
+    ],
+    [
+     52.37895,
+     4.87849
+    ],
+    [
+     52.37549,
+     4.8775
+    ],
+    [
+     52.37202,
+     4.87779
+    ],
+    [
+     52.36904,
+     4.87879
+    ],
+    [
+     52.36606,
+     4.88028
+    ],
+    [
+     52.36408,
+     4.88177
+    ],
+    [
+     52.36392,
+     4.88123
+    ],
+    [
+     52.36595,
+     4.87972
+    ],
+    [
+     52.36896,
+     4.87821
+    ],
+    [
+     52.37198,
+     4.87721
+    ],
+    [
+     52.37551,
+     4.87691
+    ],
+    [
+     52.37905,
+     4.87792
+    ],
+    [
+     52.38206,
+     4.87972
+    ],
+    [
+     52.38489,
+     4.88255
+    ],
+    [
+     52.38471,
+     4.88305
+    ]
+   ],
+   "from": 1615,
+   "to": null
+  },
+  {
+   "name": "Herengracht, south (from about 1660)",
+   "poly": [
+    [
+     52.3663,
+     4.88939
+    ],
+    [
+     52.36564,
+     4.89127
+    ],
+    [
+     52.36545,
+     4.89401
+    ],
+    [
+     52.36554,
+     4.89748
+    ],
+    [
+     52.36574,
+     4.90047
+    ],
+    [
+     52.36546,
+     4.90053
+    ],
+    [
+     52.36526,
+     4.89751
+    ],
+    [
+     52.36516,
+     4.89401
+    ],
+    [
+     52.36536,
+     4.89115
+    ],
+    [
+     52.3661,
+     4.88903
+    ],
+    [
+     52.36745,
+     4.88818
+    ],
+    [
+     52.36755,
+     4.88862
+    ]
+   ],
+   "from": 1662,
+   "to": null
+  },
+  {
+   "name": "Keizersgracht, south (from about 1660)",
+   "poly": [
+    [
+     52.36508,
+     4.8876
+    ],
+    [
+     52.36393,
+     4.88971
+    ],
+    [
+     52.36354,
+     4.89303
+    ],
+    [
+     52.36334,
+     4.90151
+    ],
+    [
+     52.36306,
+     4.90149
+    ],
+    [
+     52.36326,
+     4.89297
+    ],
+    [
+     52.36367,
+     4.88951
+    ],
+    [
+     52.36493,
+     4.8872
+    ],
+    [
+     52.36675,
+     4.88618
+    ],
+    [
+     52.36685,
+     4.88662
+    ]
+   ],
+   "from": 1664,
+   "to": null
+  },
+  {
+   "name": "Prinsengracht, south (from about 1660)",
+   "poly": [
+    [
+     52.36457,
+     4.88621
+    ],
+    [
+     52.36272,
+     4.88845
+    ],
+    [
+     52.36184,
+     4.89157
+    ],
+    [
+     52.36134,
+     4.89603
+    ],
+    [
+     52.36114,
+     4.90251
+    ],
+    [
+     52.36086,
+     4.90249
+    ],
+    [
+     52.36106,
+     4.89599
+    ],
+    [
+     52.36156,
+     4.89146
+    ],
+    [
+     52.36247,
+     4.8882
+    ],
+    [
+     52.36443,
+     4.8858
+    ],
+    [
+     52.36614,
+     4.88458
+    ],
+    [
+     52.36626,
+     4.88502
+    ]
+   ],
+   "from": 1666,
+   "to": null
+  },
+  {
+   "name": "Singelgracht, south and east (1657–c.1663)",
+   "poly": [
+    [
+     52.36213,
+     4.8847
+    ],
+    [
+     52.36036,
+     4.88814
+    ],
+    [
+     52.35968,
+     4.89205
+    ],
+    [
+     52.35948,
+     4.89702
+    ],
+    [
+     52.35918,
+     4.90297
+    ],
+    [
+     52.36017,
+     4.90891
+    ],
+    [
+     52.36167,
+     4.91488
+    ],
+    [
+     52.36315,
+     4.91983
+    ],
+    [
+     52.3656,
+     4.92374
+    ],
+    [
+     52.36855,
+     4.92522
+    ],
+    [
+     52.36845,
+     4.92578
+    ],
+    [
+     52.3654,
+     4.92425
+    ],
+    [
+     52.36285,
+     4.92016
+    ],
+    [
+     52.36133,
+     4.91511
+    ],
+    [
+     52.35983,
+     4.90911
+    ],
+    [
+     52.35883,
+     4.90308
+    ],
+    [
+     52.35912,
+     4.89698
+    ],
+    [
+     52.35932,
+     4.89195
+    ],
+    [
+     52.36003,
+     4.88789
+    ],
+    [
+     52.36186,
+     4.88431
+    ],
+    [
+     52.36388,
+     4.88128
+    ],
+    [
+     52.36412,
+     4.88172
+    ]
+   ],
+   "from": 1659,
+   "to": null
+  }
+ ],
+ "districts": [
+  {
+   "name": "Dam village (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     52.3768,
+     4.895
+    ],
+    [
+     52.3745,
+     4.8925
+    ],
+    [
+     52.372,
+     4.8918
+    ],
+    [
+     52.3705,
+     4.8925
+    ],
+    [
+     52.3712,
+     4.896
+    ],
+    [
+     52.374,
+     4.8985
+    ],
+    [
+     52.3762,
+     4.8995
+    ]
+   ],
+   "from": 1270,
+   "to": 1320,
+   "density": 0.55,
+   "grain_m": 45,
+   "grow_from": [
+    52.3735,
+    4.8935
+   ]
+  },
+  {
+   "name": "Medieval town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     52.3784,
+     4.8935
+    ],
+    [
+     52.377,
+     4.8915
+    ],
+    [
+     52.3745,
+     4.8903
+    ],
+    [
+     52.3715,
+     4.8898
+    ],
+    [
+     52.3688,
+     4.89
+    ],
+    [
+     52.3672,
+     4.8925
+    ],
+    [
+     52.3672,
+     4.8962
+    ],
+    [
+     52.37,
+     4.898
+    ],
+    [
+     52.373,
+     4.9
+    ],
+    [
+     52.376,
+     4.9015
+    ],
+    [
+     52.3766,
+     4.8995
+    ],
+    [
+     52.3772,
+     4.897
+    ]
+   ],
+   "from": 1300,
+   "to": 1450,
+   "density": 0.75,
+   "grain_m": 42,
+   "grow_from": [
+    52.3735,
+    4.894
+   ],
+   "holes": [
+    [
+     [
+      52.3768,
+      4.895
+     ],
+     [
+      52.3745,
+      4.8925
+     ],
+     [
+      52.372,
+      4.8918
+     ],
+     [
+      52.3705,
+      4.8925
+     ],
+     [
+      52.3712,
+      4.896
+     ],
+     [
+      52.374,
+      4.8985
+     ],
+     [
+      52.3762,
+      4.8995
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Rebuilt in brick after 1452",
+   "style": "stone",
+   "poly": [
+    [
+     52.3784,
+     4.8935
+    ],
+    [
+     52.377,
+     4.8915
+    ],
+    [
+     52.3745,
+     4.8903
+    ],
+    [
+     52.3715,
+     4.8898
+    ],
+    [
+     52.3688,
+     4.89
+    ],
+    [
+     52.3672,
+     4.8925
+    ],
+    [
+     52.3672,
+     4.8962
+    ],
+    [
+     52.37,
+     4.898
+    ],
+    [
+     52.373,
+     4.9
+    ],
+    [
+     52.376,
+     4.9015
+    ],
+    [
+     52.3766,
+     4.8995
+    ],
+    [
+     52.3772,
+     4.897
+    ]
+   ],
+   "from": 1453,
+   "to": 1500,
+   "density": 0.8,
+   "grain_m": 40,
+   "grow_from": [
+    52.3735,
+    4.894
+   ]
+  },
+  {
+   "name": "Lastage (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     52.3762,
+     4.9025
+    ],
+    [
+     52.3742,
+     4.9015
+    ],
+    [
+     52.3705,
+     4.8992
+    ],
+    [
+     52.369,
+     4.903
+    ],
+    [
+     52.3705,
+     4.9045
+    ],
+    [
+     52.374,
+     4.907
+    ],
+    [
+     52.3762,
+     4.9075
+    ]
+   ],
+   "from": 1500,
+   "to": 1590,
+   "density": 0.6,
+   "grain_m": 48,
+   "grow_from": [
+    52.3745,
+    4.903
+   ]
+  },
+  {
+   "name": "1585 expansion (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.379,
+     4.8915
+    ],
+    [
+     52.3765,
+     4.889
+    ],
+    [
+     52.3725,
+     4.8885
+    ],
+    [
+     52.369,
+     4.8888
+    ],
+    [
+     52.3676,
+     4.8905
+    ],
+    [
+     52.3682,
+     4.8892
+    ],
+    [
+     52.3698,
+     4.8885
+    ],
+    [
+     52.374,
+     4.8882
+    ],
+    [
+     52.377,
+     4.8892
+    ],
+    [
+     52.3795,
+     4.8905
+    ]
+   ],
+   "from": 1585,
+   "to": 1605,
+   "density": 0.75,
+   "grain_m": 42,
+   "grow_from": [
+    52.374,
+    4.889
+   ]
+  },
+  {
+   "name": "Canal ring, west (1613 →)",
+   "style": "stone",
+   "poly": [
+    [
+     52.3822,
+     4.888
+    ],
+    [
+     52.38,
+     4.8845
+    ],
+    [
+     52.377,
+     4.883
+    ],
+    [
+     52.3725,
+     4.8825
+    ],
+    [
+     52.368,
+     4.8835
+    ],
+    [
+     52.366,
+     4.885
+    ],
+    [
+     52.3672,
+     4.889
+    ],
+    [
+     52.369,
+     4.8888
+    ],
+    [
+     52.3725,
+     4.8888
+    ],
+    [
+     52.3765,
+     4.8893
+    ],
+    [
+     52.3792,
+     4.8912
+    ],
+    [
+     52.381,
+     4.892
+    ]
+   ],
+   "from": 1614,
+   "to": 1650,
+   "density": 0.8,
+   "grain_m": 42,
+   "grow_from": [
+    52.376,
+    4.886
+   ],
+   "holes": [
+    [
+     [
+      52.379,
+      4.8915
+     ],
+     [
+      52.3765,
+      4.889
+     ],
+     [
+      52.3725,
+      4.8885
+     ],
+     [
+      52.369,
+      4.8888
+     ],
+     [
+      52.3676,
+      4.8905
+     ],
+     [
+      52.3682,
+      4.8892
+     ],
+     [
+      52.3698,
+      4.8885
+     ],
+     [
+      52.374,
+      4.8882
+     ],
+     [
+      52.377,
+      4.8892
+     ],
+     [
+      52.3795,
+      4.8905
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Jordaan (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     52.385,
+     4.8835
+    ],
+    [
+     52.382,
+     4.8805
+    ],
+    [
+     52.379,
+     4.879
+    ],
+    [
+     52.3755,
+     4.878
+    ],
+    [
+     52.372,
+     4.8782
+    ],
+    [
+     52.369,
+     4.8792
+    ],
+    [
+     52.3664,
+     4.8808
+    ],
+    [
+     52.3662,
+     4.8842
+    ],
+    [
+     52.369,
+     4.8833
+    ],
+    [
+     52.3725,
+     4.8824
+    ],
+    [
+     52.377,
+     4.8828
+    ],
+    [
+     52.38,
+     4.8842
+    ],
+    [
+     52.3825,
+     4.8865
+    ]
+   ],
+   "from": 1614,
+   "to": 1660,
+   "density": 0.85,
+   "grain_m": 38,
+   "grow_from": [
+    52.376,
+    4.8805
+   ]
+  },
+  {
+   "name": "Canal ring, south (1660s →)",
+   "style": "stone",
+   "poly": [
+    [
+     52.3664,
+     4.8848
+    ],
+    [
+     52.364,
+     4.8835
+    ],
+    [
+     52.361,
+     4.8875
+    ],
+    [
+     52.3602,
+     4.892
+    ],
+    [
+     52.36,
+     4.8975
+    ],
+    [
+     52.3598,
+     4.903
+    ],
+    [
+     52.364,
+     4.903
+    ],
+    [
+     52.366,
+     4.901
+    ],
+    [
+     52.3666,
+     4.896
+    ],
+    [
+     52.3668,
+     4.892
+    ],
+    [
+     52.3676,
+     4.8885
+    ]
+   ],
+   "from": 1662,
+   "to": 1720,
+   "density": 0.75,
+   "grain_m": 44,
+   "grow_from": [
+    52.364,
+    4.89
+   ]
+  },
+  {
+   "name": "Eastern expansion (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.369,
+     4.904
+    ],
+    [
+     52.366,
+     4.904
+    ],
+    [
+     52.361,
+     4.9045
+    ],
+    [
+     52.361,
+     4.91
+    ],
+    [
+     52.363,
+     4.919
+    ],
+    [
+     52.368,
+     4.924
+    ],
+    [
+     52.372,
+     4.925
+    ],
+    [
+     52.373,
+     4.913
+    ],
+    [
+     52.374,
+     4.908
+    ]
+   ],
+   "from": 1660,
+   "to": 1720,
+   "density": 0.55,
+   "grain_m": 50,
+   "grow_from": [
+    52.368,
+    4.908
+   ]
+  },
+  {
+   "name": "Eastern Islands shipyards",
+   "style": "industrial",
+   "poly": [
+    [
+     52.3785,
+     4.9135
+    ],
+    [
+     52.379,
+     4.922
+    ],
+    [
+     52.3765,
+     4.928
+    ],
+    [
+     52.3725,
+     4.9255
+    ],
+    [
+     52.3735,
+     4.914
+    ]
+   ],
+   "from": 1661,
+   "to": 1700,
+   "density": 0.55,
+   "grain_m": 60,
+   "grow_from": [
+    52.3765,
+    4.92
+   ]
+  },
+  {
+   "name": "19th-century belt (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     52.39,
+     4.865
+    ],
+    [
+     52.38,
+     4.858
+    ],
+    [
+     52.365,
+     4.86
+    ],
+    [
+     52.352,
+     4.875
+    ],
+    [
+     52.348,
+     4.895
+    ],
+    [
+     52.352,
+     4.915
+    ],
+    [
+     52.36,
+     4.935
+    ],
+    [
+     52.368,
+     4.945
+    ],
+    [
+     52.374,
+     4.94
+    ],
+    [
+     52.378,
+     4.915
+    ],
+    [
+     52.383,
+     4.885
+    ]
+   ],
+   "from": 1877,
+   "to": 1914,
+   "density": 0.85,
+   "grain_m": 52,
+   "grow_from": [
+    52.37,
+    4.89
+   ],
+   "holes": [
+    [
+     [
+      52.385,
+      4.883
+     ],
+     [
+      52.379,
+      4.878
+     ],
+     [
+      52.372,
+      4.877
+     ],
+     [
+      52.364,
+      4.881
+     ],
+     [
+      52.3595,
+      4.89
+     ],
+     [
+      52.3592,
+      4.903
+     ],
+     [
+      52.362,
+      4.917
+     ],
+     [
+      52.3685,
+      4.9255
+     ],
+     [
+      52.373,
+      4.925
+     ],
+     [
+      52.3765,
+      4.911
+     ],
+     [
+      52.378,
+      4.895
+     ],
+     [
+      52.381,
+      4.889
+     ]
+    ],
+    [
+     [
+      52.355,
+      4.855
+     ],
+     [
+      52.346,
+      4.86
+     ],
+     [
+      52.342,
+      4.88
+     ],
+     [
+      52.343,
+      4.9
+     ],
+     [
+      52.348,
+      4.91
+     ],
+     [
+      52.352,
+      4.9
+     ],
+     [
+      52.352,
+      4.88
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Eastern Docklands (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     52.38,
+     4.92
+    ],
+    [
+     52.381,
+     4.948
+    ],
+    [
+     52.376,
+     4.948
+    ],
+    [
+     52.3755,
+     4.92
+    ]
+   ],
+   "from": 1896,
+   "to": 1927,
+   "density": 0.6,
+   "grain_m": 70,
+   "grow_from": [
+    52.378,
+    4.93
+   ]
+  },
+  {
+   "name": "Plan Zuid (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     52.355,
+     4.855
+    ],
+    [
+     52.346,
+     4.86
+    ],
+    [
+     52.342,
+     4.88
+    ],
+    [
+     52.343,
+     4.9
+    ],
+    [
+     52.348,
+     4.91
+    ],
+    [
+     52.352,
+     4.9
+    ],
+    [
+     52.352,
+     4.88
+    ]
+   ],
+   "from": 1917,
+   "to": 1940,
+   "density": 0.8,
+   "grain_m": 55,
+   "grow_from": [
+    52.352,
+    4.885
+   ],
+   "grid_deg": 10
+  },
+  {
+   "name": "Amsterdam-Noord (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     52.41,
+     4.88
+    ],
+    [
+     52.415,
+     4.93
+    ],
+    [
+     52.4,
+     4.96
+    ],
+    [
+     52.388,
+     4.955
+    ],
+    [
+     52.388,
+     4.91
+    ],
+    [
+     52.389,
+     4.88
+    ]
+   ],
+   "from": 1910,
+   "to": 1970,
+   "density": 0.6,
+   "grain_m": 75,
+   "grow_from": [
+    52.392,
+    4.905
+   ]
+  },
+  {
+   "name": "Western garden cities (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     52.385,
+     4.79
+    ],
+    [
+     52.385,
+     4.835
+    ],
+    [
+     52.37,
+     4.845
+    ],
+    [
+     52.35,
+     4.845
+    ],
+    [
+     52.345,
+     4.82
+    ],
+    [
+     52.35,
+     4.785
+    ],
+    [
+     52.37,
+     4.78
+    ]
+   ],
+   "from": 1950,
+   "to": 1970,
+   "density": 0.6,
+   "grain_m": 90,
+   "grow_from": [
+    52.365,
+    4.835
+   ]
+  },
+  {
+   "name": "Buitenveldert and Amstelveen (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     52.338,
+     4.845
+    ],
+    [
+     52.338,
+     4.905
+    ],
+    [
+     52.325,
+     4.905
+    ],
+    [
+     52.325,
+     4.85
+    ]
+   ],
+   "from": 1958,
+   "to": 1975,
+   "density": 0.6,
+   "grain_m": 90,
+   "grow_from": [
+    52.335,
+    4.88
+   ]
+  },
+  {
+   "name": "Bijlmermeer (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     52.325,
+     4.94
+    ],
+    [
+     52.325,
+     4.99
+    ],
+    [
+     52.3,
+     4.99
+    ],
+    [
+     52.295,
+     4.95
+    ],
+    [
+     52.31,
+     4.935
+    ]
+   ],
+   "from": 1966,
+   "to": 1980,
+   "density": 0.35,
+   "grain_m": 170,
+   "grow_from": [
+    52.315,
+    4.955
+   ]
+  },
+  {
+   "name": "Region towns and suburbs (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     52.46,
+     4.65
+    ],
+    [
+     52.47,
+     5.0
+    ],
+    [
+     52.43,
+     5.08
+    ],
+    [
+     52.33,
+     5.06
+    ],
+    [
+     52.26,
+     4.98
+    ],
+    [
+     52.26,
+     4.83
+    ],
+    [
+     52.32,
+     4.63
+    ],
+    [
+     52.4,
+     4.61
+    ]
+   ],
+   "from": 1900,
+   "to": 1995,
+   "density": 0.4,
+   "grain_m": 160,
+   "grow_from": [
+    52.37,
+    4.89
+   ],
+   "holes": [
+    [
+     [
+      52.385,
+      4.883
+     ],
+     [
+      52.379,
+      4.878
+     ],
+     [
+      52.372,
+      4.877
+     ],
+     [
+      52.364,
+      4.881
+     ],
+     [
+      52.3595,
+      4.89
+     ],
+     [
+      52.3592,
+      4.903
+     ],
+     [
+      52.362,
+      4.917
+     ],
+     [
+      52.3685,
+      4.9255
+     ],
+     [
+      52.373,
+      4.925
+     ],
+     [
+      52.3765,
+      4.911
+     ],
+     [
+      52.378,
+      4.895
+     ],
+     [
+      52.381,
+      4.889
+     ]
+    ],
+    [
+     [
+      52.39,
+      4.865
+     ],
+     [
+      52.38,
+      4.858
+     ],
+     [
+      52.365,
+      4.86
+     ],
+     [
+      52.352,
+      4.875
+     ],
+     [
+      52.348,
+      4.895
+     ],
+     [
+      52.352,
+      4.915
+     ],
+     [
+      52.36,
+      4.935
+     ],
+     [
+      52.368,
+      4.945
+     ],
+     [
+      52.374,
+      4.94
+     ],
+     [
+      52.378,
+      4.915
+     ],
+     [
+      52.383,
+      4.885
+     ]
+    ],
+    [
+     [
+      52.355,
+      4.855
+     ],
+     [
+      52.346,
+      4.86
+     ],
+     [
+      52.342,
+      4.88
+     ],
+     [
+      52.343,
+      4.9
+     ],
+     [
+      52.348,
+      4.91
+     ],
+     [
+      52.352,
+      4.9
+     ],
+     [
+      52.352,
+      4.88
+     ]
+    ],
+    [
+     [
+      52.41,
+      4.88
+     ],
+     [
+      52.415,
+      4.93
+     ],
+     [
+      52.4,
+      4.96
+     ],
+     [
+      52.388,
+      4.955
+     ],
+     [
+      52.388,
+      4.91
+     ],
+     [
+      52.389,
+      4.88
+     ]
+    ],
+    [
+     [
+      52.385,
+      4.79
+     ],
+     [
+      52.385,
+      4.835
+     ],
+     [
+      52.37,
+      4.845
+     ],
+     [
+      52.35,
+      4.845
+     ],
+     [
+      52.345,
+      4.82
+     ],
+     [
+      52.35,
+      4.785
+     ],
+     [
+      52.37,
+      4.78
+     ]
+    ],
+    [
+     [
+      52.338,
+      4.845
+     ],
+     [
+      52.338,
+      4.905
+     ],
+     [
+      52.325,
+      4.905
+     ],
+     [
+      52.325,
+      4.85
+     ]
+    ],
+    [
+     [
+      52.325,
+      4.94
+     ],
+     [
+      52.325,
+      4.99
+     ],
+     [
+      52.3,
+      4.99
+     ],
+     [
+      52.295,
+      4.95
+     ],
+     [
+      52.31,
+      4.935
+     ]
+    ],
+    [
+     [
+      52.36,
+      4.985
+     ],
+     [
+      52.362,
+      5.005
+     ],
+     [
+      52.354,
+      5.018
+     ],
+     [
+      52.348,
+      5.005
+     ],
+     [
+      52.35,
+      4.985
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Docklands rebuilt (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     52.38,
+     4.92
+    ],
+    [
+     52.381,
+     4.948
+    ],
+    [
+     52.376,
+     4.948
+    ],
+    [
+     52.3755,
+     4.92
+    ]
+   ],
+   "from": 1990,
+   "to": 2010,
+   "density": 0.6,
+   "grain_m": 75,
+   "grow_from": [
+    52.378,
+    4.935
+   ]
+  },
+  {
+   "name": "Zuidas (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     52.34,
+     4.86
+    ],
+    [
+     52.34,
+     4.885
+    ],
+    [
+     52.3355,
+     4.885
+    ],
+    [
+     52.3355,
+     4.86
+    ]
+   ],
+   "from": 1998,
+   "to": 2022,
+   "density": 0.5,
+   "grain_m": 90,
+   "grow_from": [
+    52.338,
+    4.873
+   ]
+  },
+  {
+   "name": "IJburg (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     52.36,
+     4.985
+    ],
+    [
+     52.362,
+     5.005
+    ],
+    [
+     52.354,
+     5.018
+    ],
+    [
+     52.348,
+     5.005
+    ],
+    [
+     52.35,
+     4.985
+    ]
+   ],
+   "from": 2003,
+   "to": 2025,
+   "density": 0.6,
+   "grain_m": 85,
+   "grow_from": [
+    52.354,
+    4.995
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Brick wall, west (1482–1494)",
+   "path": [
+    [
+     52.3786,
+     4.8942
+    ],
+    [
+     52.3778,
+     4.8922
+    ],
+    [
+     52.3762,
+     4.8907
+    ],
+    [
+     52.3745,
+     4.8898
+    ],
+    [
+     52.3725,
+     4.8893
+    ],
+    [
+     52.3705,
+     4.8892
+    ],
+    [
+     52.3688,
+     4.8895
+    ],
+    [
+     52.3676,
+     4.891
+    ],
+    [
+     52.367,
+     4.893
+    ]
+   ],
+   "built": 1482,
+   "removed": 1610,
+   "height": "mid",
+   "towers_m": 110,
+   "draw_s": 3.0
+  },
+  {
+   "name": "Brick wall, east (1482–1494)",
+   "path": [
+    [
+     52.3672,
+     4.8962
+    ],
+    [
+     52.369,
+     4.8975
+    ],
+    [
+     52.371,
+     4.899
+    ],
+    [
+     52.3725,
+     4.9002
+    ],
+    [
+     52.3742,
+     4.901
+    ],
+    [
+     52.3757,
+     4.9018
+    ],
+    [
+     52.3765,
+     4.9023
+    ]
+   ],
+   "built": 1482,
+   "removed": 1610,
+   "height": "mid",
+   "towers_m": 110,
+   "draw_s": 3.0
+  },
+  {
+   "name": "Bastioned rampart, 1585 (≈ east)",
+   "path": [
+    [
+     52.37,
+     4.904
+    ],
+    [
+     52.3715,
+     4.9052
+    ],
+    [
+     52.3735,
+     4.9068
+    ],
+    [
+     52.3755,
+     4.908
+    ]
+   ],
+   "built": 1585,
+   "removed": 1660,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 2.0
+  },
+  {
+   "name": "Bastioned rampart, west (1613)",
+   "path": [
+    [
+     52.3848,
+     4.8828
+    ],
+    [
+     52.382,
+     4.88
+    ],
+    [
+     52.379,
+     4.8782
+    ],
+    [
+     52.3755,
+     4.8772
+    ],
+    [
+     52.372,
+     4.8775
+    ],
+    [
+     52.369,
+     4.8785
+    ],
+    [
+     52.366,
+     4.88
+    ],
+    [
+     52.364,
+     4.8815
+    ]
+   ],
+   "built": 1615,
+   "removed": 1848,
+   "height": "low",
+   "towers_m": 160,
+   "draw_s": 3.0,
+   "double_side": -1
+  },
+  {
+   "name": "Bastioned rampart, south and east (1657–c.1663)",
+   "path": [
+    [
+     52.364,
+     4.8815
+    ],
+    [
+     52.362,
+     4.8845
+    ],
+    [
+     52.3602,
+     4.888
+    ],
+    [
+     52.3595,
+     4.892
+    ],
+    [
+     52.3593,
+     4.897
+    ],
+    [
+     52.359,
+     4.903
+    ],
+    [
+     52.36,
+     4.909
+    ],
+    [
+     52.3615,
+     4.915
+    ],
+    [
+     52.363,
+     4.92
+    ],
+    [
+     52.3655,
+     4.924
+    ],
+    [
+     52.3685,
+     4.9255
+    ]
+   ],
+   "built": 1659,
+   "removed": 1848,
+   "height": "low",
+   "towers_m": 160,
+   "draw_s": 4.0,
+   "double_side": -1
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Magere Brug (≈ site)",
+   "path": [
+    [
+     52.3636,
+     4.9012
+    ],
+    [
+     52.3632,
+     4.9035
+    ]
+   ],
+   "built": 1691,
+   "style": "wood",
+   "width_m": 10
+  }
+ ],
+ "roads": [
+  {
+   "name": "Haarlem railway (1839, ≈)",
+   "path": [
+    [
+     52.38,
+     4.88
+    ],
+    [
+     52.383,
+     4.85
+    ],
+    [
+     52.386,
+     4.8
+    ],
+    [
+     52.382,
+     4.72
+    ],
+    [
+     52.38,
+     4.65
+    ]
+   ],
+   "from": 1839,
+   "kind": "rail",
+   "width_m": 18
+  },
+  {
+   "name": "Railway along the IJ to Centraal (1889, ≈)",
+   "path": [
+    [
+     52.38,
+     4.88
+    ],
+    [
+     52.3795,
+     4.89
+    ],
+    [
+     52.3793,
+     4.9
+    ],
+    [
+     52.3785,
+     4.915
+    ],
+    [
+     52.372,
+     4.935
+    ],
+    [
+     52.36,
+     4.95
+    ]
+   ],
+   "from": 1889,
+   "kind": "rail",
+   "width_m": 20
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "church",
+   "name": {
+    "en": "Oude Kerk",
+    "tr": "Oude Kerk"
+   },
+   "at": [
+    52.3744,
+    4.898
+   ],
+   "built": 1300,
+   "rise_s": 5,
+   "size_m": [
+    70,
+    40,
+    30
+   ],
+   "rot_deg": 60,
+   "colors": {
+    "wall": "#b8aa92",
+    "roof": "#5f666f"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Nieuwe Kerk",
+    "tr": "Nieuwe Kerk"
+   },
+   "at": [
+    52.3739,
+    4.8917
+   ],
+   "built": 1385,
+   "rise_s": 6,
+   "size_m": [
+    80,
+    40,
+    30
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#b8aa92",
+    "roof": "#5f666f"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Schreierstoren",
+    "tr": "Schreierstoren"
+   },
+   "at": [
+    52.37644,
+    4.90227
+   ],
+   "built": 1485,
+   "rise_s": 3,
+   "size_m": [
+    14,
+    14,
+    14
+   ],
+   "colors": {
+    "wall": "#8a5a44"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Sint Antoniespoort (Waag)",
+    "tr": "Sint Antoniespoort (Waag)"
+   },
+   "at": [
+    52.372746,
+    4.900323
+   ],
+   "built": 1488,
+   "rise_s": 4,
+   "size_m": [
+    26,
+    22,
+    22
+   ],
+   "colors": {
+    "wall": "#8a5a44",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Regulierspoort",
+    "tr": "Regulierspoort"
+   },
+   "at": [
+    52.367001,
+    4.893151
+   ],
+   "built": 1480,
+   "removed": 1618.4,
+   "rise_s": 3,
+   "size_m": [
+    16,
+    16,
+    20
+   ],
+   "colors": {
+    "wall": "#8a5a44"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Munttoren",
+    "tr": "Munttoren"
+   },
+   "at": [
+    52.367001,
+    4.893151
+   ],
+   "built": 1619.5,
+   "rise_s": 5,
+   "size_m": [
+    12,
+    12,
+    40
+   ],
+   "colors": {
+    "wall": "#8a5a44",
+    "roof": "#3f4a46"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Montelbaanstoren (≈ height before 1606)",
+    "tr": "Montelbaanstoren"
+   },
+   "at": [
+    52.3720583,
+    4.9056833
+   ],
+   "built": 1516,
+   "removed": 1606,
+   "rise_s": 4,
+   "size_m": [
+    12,
+    12,
+    22
+   ],
+   "colors": {
+    "wall": "#8a5a44"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Montelbaanstoren",
+    "tr": "Montelbaanstoren"
+   },
+   "at": [
+    52.3720583,
+    4.9056833
+   ],
+   "built": 1606,
+   "rise_s": 2,
+   "size_m": [
+    12,
+    12,
+    48
+   ],
+   "colors": {
+    "wall": "#8a5a44",
+    "roof": "#3f4a46"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Westerkerk",
+    "tr": "Westerkerk"
+   },
+   "at": [
+    52.37444,
+    4.88361
+   ],
+   "built": 1620,
+   "rise_s": 10,
+   "size_m": [
+    58,
+    29,
+    24
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#4f565f"
+   },
+   "scale": 1.2
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Westerkerk tower (west end, ≈)",
+    "tr": "Westerkerk kulesi"
+   },
+   "at": [
+    52.37446,
+    4.8832
+   ],
+   "built": 1620.5,
+   "rise_s": 10,
+   "size_m": [
+    11,
+    11,
+    87
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#3f4a46"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Town Hall (Royal Palace)",
+    "tr": "Belediye Sarayı (Kraliyet Sarayı)"
+   },
+   "at": [
+    52.37317,
+    4.89136
+   ],
+   "built": 1652.6,
+   "rise_s": 8,
+   "size_m": [
+    80,
+    60,
+    33
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d8cdb5",
+    "roof": "#5f666f"
+   },
+   "scale": 1.2
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Rijksmuseum",
+    "tr": "Rijksmuseum"
+   },
+   "at": [
+    52.360001,
+    4.885278
+   ],
+   "built": 1876.8,
+   "rise_s": 10,
+   "size_m": [
+    140,
+    70,
+    30
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Concertgebouw",
+    "tr": "Concertgebouw"
+   },
+   "at": [
+    52.3563,
+    4.8791
+   ],
+   "built": 1883,
+   "rise_s": 6,
+   "size_m": [
+    70,
+    45,
+    25
+   ],
+   "colors": {
+    "wall": "#b8694f",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Centraal Station",
+    "tr": "Merkez İstasyonu"
+   },
+   "at": [
+    52.37833,
+    4.9
+   ],
+   "built": 1882,
+   "rise_s": 10,
+   "size_m": [
+    310,
+    80,
+    30
+   ],
+   "rot_deg": -5,
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    52.34333,
+    4.85417
+   ],
+   "built": 1927,
+   "rise_s": 5,
+   "size_m": [
+    230,
+    160,
+    20
+   ],
+   "colors": {
+    "wall": "#8f4a37"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1421.5,
+   "poly": [
+    [
+     52.376,
+     4.896
+    ],
+    [
+     52.3745,
+     4.893
+    ],
+    [
+     52.3725,
+     4.8925
+    ],
+    [
+     52.3725,
+     4.8955
+    ],
+    [
+     52.3745,
+     4.898
+    ]
+   ],
+   "duration_s": 5,
+   "plumes": 4
+  },
+  {
+   "year": 1452.4,
+   "poly": [
+    [
+     52.3784,
+     4.8935
+    ],
+    [
+     52.377,
+     4.8915
+    ],
+    [
+     52.3745,
+     4.8903
+    ],
+    [
+     52.3715,
+     4.8898
+    ],
+    [
+     52.3688,
+     4.89
+    ],
+    [
+     52.3672,
+     4.8925
+    ],
+    [
+     52.3672,
+     4.8962
+    ],
+    [
+     52.37,
+     4.898
+    ],
+    [
+     52.373,
+     4.9
+    ],
+    [
+     52.376,
+     4.9015
+    ],
+    [
+     52.3766,
+     4.8995
+    ],
+    [
+     52.3772,
+     4.897
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 7
+  },
+  {
+   "year": 1652.52,
+   "poly": [
+    [
+     52.3728,
+     4.8905
+    ],
+    [
+     52.3736,
+     4.8905
+    ],
+    [
+     52.3736,
+     4.8922
+    ],
+    [
+     52.3728,
+     4.8922
+    ]
+   ],
+   "duration_s": 3,
+   "plumes": 2
+  }
+ ],
+ "smoke": [],
+ "camps": [],
+ "open_spaces": [
+  {
+   "name": "Vondelpark (≈)",
+   "poly": [
+    [
+     52.361,
+     4.878
+    ],
+    [
+     52.359,
+     4.865
+    ],
+    [
+     52.356,
+     4.858
+    ],
+    [
+     52.3545,
+     4.86
+    ],
+    [
+     52.3575,
+     4.87
+    ],
+    [
+     52.3595,
+     4.879
+    ]
+   ]
+  },
+  {
+   "name": "Dam square",
+   "poly": [
+    [
+     52.3726,
+     4.8925
+    ],
+    [
+     52.3734,
+     4.8925
+    ],
+    [
+     52.3734,
+     4.8945
+    ],
+    [
+     52.3726,
+     4.8945
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "THE IJ",
+    "tr": "IJ"
+   },
+   "at": [
+    52.385,
+    4.905
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "AMSTEL",
+    "tr": "AMSTEL"
+   },
+   "at": [
+    52.356,
+    4.906
+   ],
+   "kind": "water",
+   "to": 1700
+  },
+  {
+   "text": {
+    "en": "ZUIDERZEE",
+    "tr": "ZUIDERZEE"
+   },
+   "at": [
+    52.375,
+    5.06
+   ],
+   "kind": "water",
+   "from": 1840,
+   "to": 1931
+  },
+  {
+   "text": {
+    "en": "IJMEER",
+    "tr": "IJMEER"
+   },
+   "at": [
+    52.375,
+    5.06
+   ],
+   "kind": "water",
+   "from": 1997
+  },
+  {
+   "text": {
+    "en": "Dam",
+    "tr": "Dam"
+   },
+   "at": [
+    52.3731,
+    4.893
+   ],
+   "kind": "place",
+   "from": 1270,
+   "to": 1299,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Oude Kerk",
+    "tr": "Oude Kerk"
+   },
+   "at": [
+    52.3744,
+    4.898
+   ],
+   "from": 1306,
+   "to": 1344,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Nieuwe Kerk",
+    "tr": "Nieuwe Kerk"
+   },
+   "at": [
+    52.3739,
+    4.8917
+   ],
+   "from": 1405,
+   "to": 1420,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Singel",
+    "tr": "Singel"
+   },
+   "at": [
+    52.3715,
+    4.8893
+   ],
+   "kind": "place",
+   "from": 1426,
+   "to": 1451,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Schreierstoren",
+    "tr": "Schreierstoren"
+   },
+   "at": [
+    52.37644,
+    4.90227
+   ],
+   "from": 1488,
+   "to": 1514,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Montelbaanstoren",
+    "tr": "Montelbaanstoren"
+   },
+   "at": [
+    52.3720583,
+    4.9056833
+   ],
+   "from": 1517,
+   "to": 1577,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "Herengracht",
+    "tr": "Herengracht"
+   },
+   "at": [
+    52.3765,
+    4.8882
+   ],
+   "kind": "place",
+   "from": 1614,
+   "to": 1619,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Prinsengracht",
+    "tr": "Prinsengracht"
+   },
+   "at": [
+    52.3725,
+    4.8829
+   ],
+   "kind": "place",
+   "from": 1618,
+   "to": 1619,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Munttoren",
+    "tr": "Munttoren"
+   },
+   "at": [
+    52.367001,
+    4.893151
+   ],
+   "from": 1621,
+   "to": 1628,
+   "lift_m": 55
+  },
+  {
+   "text": {
+    "en": "Watergraafsmeer",
+    "tr": "Watergraafsmeer"
+   },
+   "at": [
+    52.351,
+    4.944
+   ],
+   "kind": "place",
+   "from": 1629.5,
+   "to": 1630
+  },
+  {
+   "text": {
+    "en": "Westerkerk",
+    "tr": "Westerkerk"
+   },
+   "at": [
+    52.37444,
+    4.88361
+   ],
+   "from": 1631,
+   "to": 1647,
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "Town Hall",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    52.37317,
+    4.89136
+   ],
+   "from": 1655.5,
+   "to": 1656,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Oostenburg",
+    "tr": "Oostenburg"
+   },
+   "at": [
+    52.3755,
+    4.922
+   ],
+   "kind": "place",
+   "from": 1661,
+   "to": 1662
+  },
+  {
+   "text": {
+    "en": "Royal Palace",
+    "tr": "Kraliyet Sarayı"
+   },
+   "at": [
+    52.37317,
+    4.89136
+   ],
+   "from": 1808,
+   "to": 1809,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "HAARLEMMERMEER",
+    "tr": "HAARLEMMERMEER"
+   },
+   "at": [
+    52.29,
+    4.69
+   ],
+   "kind": "water",
+   "from": 1839,
+   "to": 1851
+  },
+  {
+   "text": {
+    "en": "Haarlemmermeer",
+    "tr": "Haarlemmermeer"
+   },
+   "at": [
+    52.29,
+    4.69
+   ],
+   "kind": "region",
+   "from": 1852,
+   "to": 1852.9
+  },
+  {
+   "text": {
+    "en": "Haarlem",
+    "tr": "Haarlem"
+   },
+   "at": [
+    52.381,
+    4.637
+   ],
+   "kind": "place",
+   "from": 1839,
+   "to": 1847
+  },
+  {
+   "text": {
+    "en": "NORTH SEA CANAL",
+    "tr": "KUZEY DENİZİ KANALI"
+   },
+   "at": [
+    52.415,
+    4.75
+   ],
+   "kind": "water",
+   "from": 1876,
+   "to": 1881
+  },
+  {
+   "text": {
+    "en": "Rijksmuseum",
+    "tr": "Rijksmuseum"
+   },
+   "at": [
+    52.360001,
+    4.885278
+   ],
+   "from": 1885.5,
+   "to": 1888,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Concertgebouw",
+    "tr": "Concertgebouw"
+   },
+   "at": [
+    52.3563,
+    4.8791
+   ],
+   "from": 1888.3,
+   "to": 1888.9,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Centraal Station",
+    "tr": "Merkez İstasyonu"
+   },
+   "at": [
+    52.37833,
+    4.9
+   ],
+   "from": 1889.8,
+   "to": 1899,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "Plan Zuid",
+    "tr": "Güney Planı"
+   },
+   "at": [
+    52.35,
+    4.885
+   ],
+   "kind": "region",
+   "from": 1920,
+   "to": 1927
+  },
+  {
+   "text": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    52.34333,
+    4.85417
+   ],
+   "from": 1928.4,
+   "to": 1939,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Dam Square",
+    "tr": "Dam Meydanı"
+   },
+   "at": [
+    52.3731,
+    4.893
+   ],
+   "kind": "place",
+   "from": 1940,
+   "to": 1945.4,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Nieuw-West",
+    "tr": "Nieuw-West"
+   },
+   "at": [
+    52.365,
+    4.81
+   ],
+   "kind": "region",
+   "from": 1955,
+   "to": 1965
+  },
+  {
+   "text": {
+    "en": "Bijlmermeer",
+    "tr": "Bijlmermeer"
+   },
+   "at": [
+    52.315,
+    4.965
+   ],
+   "kind": "region",
+   "from": 1968,
+   "to": 1976
+  },
+  {
+   "text": {
+    "en": "Nieuwmarkt",
+    "tr": "Nieuwmarkt"
+   },
+   "at": [
+    52.3725,
+    4.90056
+   ],
+   "kind": "place",
+   "from": 1977,
+   "to": 1996,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "IJburg",
+    "tr": "IJburg"
+   },
+   "at": [
+    52.355,
+    5.0
+   ],
+   "kind": "region",
+   "from": 2004,
+   "to": 2009
+  },
+  {
+   "text": {
+    "en": "CANAL RING",
+    "tr": "KANAL KUŞAĞI"
+   },
+   "at": [
+    52.37,
+    4.885
+   ],
+   "kind": "region",
+   "from": 2010,
+   "to": 2019
+  },
+  {
+   "text": {
+    "en": "Schiphol",
+    "tr": "Schiphol"
+   },
+   "at": [
+    52.3,
+    4.765
+   ],
+   "kind": "place",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "NOORD",
+    "tr": "NOORD"
+   },
+   "at": [
+    52.395,
+    4.92
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "ZUID",
+    "tr": "ZUID"
+   },
+   "at": [
+    52.345,
+    4.87
+   ],
+   "kind": "region",
+   "from": 2020
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Amsterdam: 14 Dakikada 1.000 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Around the year 1000 farmers settled a wet peat bog where the Amstel meets the IJ. Watch Amsterdam grow from a dam of about 1270 into a walled medieval town, burn in 1421 and 1452, become the busiest port of the Golden Age and dig its famous canal ring from 1613. Then the bastions fall, lakes are pumped dry, the North Sea Canal and Centraal Station arrive, and new quarters, garden cities and islands spread across the polders, with the year and the population on screen.",
+   "tr": "1000 yılı civarında çiftçiler Amstel'in IJ ile buluştuğu ıslak bir turbalığa yerleşti. Amsterdam'ın 1270 civarındaki bir bentten surlu bir Orta Çağ kasabasına dönüşmesini, 1421 ve 1452'de yanmasını, Altın Çağ'ın en işlek limanı olmasını ve 1613'ten itibaren ünlü kanal kuşağını kazmasını izleyin. Ardından burçlar yıkılır, göller kurutulur, Kuzey Denizi Kanalı ve Merkez İstasyonu gelir; yeni mahalleler, bahçe şehirler ve adalar polderlere yayılır. Yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "amsterdam history",
+   "history of amsterdam",
+   "amsterdam canals",
+   "canal ring",
+   "3d timelapse",
+   "city evolution",
+   "how amsterdam grew",
+   "amsterdam timelapse",
+   "dutch golden age",
+   "grachtengordel",
+   "urban history",
+   "netherlands history"
+  ],
+  "hashtags": [
+   "#Amsterdam",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "thumb": {
+   "line1": {
+    "en": "Amsterdam",
+    "tr": "Amsterdam"
+   },
+   "line2": {
+    "en": "1,000 YEARS",
+    "tr": "1.000 YIL"
+   },
+   "line3": {
+    "en": "From a dam to a city of canals",
+    "tr": "Bir bentten kanallar şehrine"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=52.3700,4.8920,4.5"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Amsterdam"
+  },
+  {
+   "title": "Timeline of Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Amsterdam"
+  },
+  {
+   "title": "Canals of Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Canals_of_Amsterdam"
+  },
+  {
+   "title": "Grachtengordel — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grachtengordel"
+  },
+  {
+   "title": "Walls of Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Amsterdam"
+  },
+  {
+   "title": "IJ (Amsterdam) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/IJ_(Amsterdam)"
+  },
+  {
+   "title": "North Sea Canal — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Sea_Canal"
+  },
+  {
+   "title": "Cruquius Pumping Station (Haarlemmermeer) — ASME Landmark #153",
+   "url": "https://www.asme.org/about-asme/engineering-history/landmarks/153-cruquius-pumping-station"
+  },
+  {
+   "title": "Royal Palace of Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam"
+  },
+  {
+   "title": "Oude Kerk, Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oude_Kerk,_Amsterdam"
+  },
+  {
+   "title": "Nieuwe Kerk, Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nieuwe_Kerk,_Amsterdam"
+  },
+  {
+   "title": "Schreierstoren — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Schreierstoren"
+  },
+  {
+   "title": "Waag, Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Waag,_Amsterdam"
+  },
+  {
+   "title": "Montelbaanstoren — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Montelbaanstoren"
+  },
+  {
+   "title": "Munttoren — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Munttoren"
+  },
+  {
+   "title": "Westerkerk — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Westerkerk"
+  },
+  {
+   "title": "Nieuwmarkt — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nieuwmarkt"
+  },
+  {
+   "title": "Archaeology of Oostenburg: the Amsterdam harbour extension of 1660 and the VOC shipyard — tDAR",
+   "url": "https://core.tdar.org/document/437105/archaeology-of-oostenburg-the-amsterdam-harbour-extension-of-1660-and-the-voc-ship-yard"
+  },
+  {
+   "title": "Oostelijke Eilanden then and now — I amsterdam",
+   "url": "https://iamsterdam.com/en/explore/neighbourhoods/oostelijke-eilanden/then-and-now"
+  },
+  {
+   "title": "Rijksmuseum — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rijksmuseum"
+  },
+  {
+   "title": "Concertgebouw, Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Concertgebouw,_Amsterdam"
+  },
+  {
+   "title": "Amsterdam Centraal station — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam_CS"
+  },
+  {
+   "title": "Olympic Stadium (Amsterdam) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Olympic_Stadium_(Amsterdam)"
+  },
+  {
+   "title": "Amsterdam Airport Schiphol — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam_Airport_Schiphol"
+  },
+  {
+   "title": "Amsterdam Nieuw-West — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Amsterdam_Nieuw-West"
+  },
+  {
+   "title": "Bijlmermeer — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bijlmermeer"
+  },
+  {
+   "title": "IJburg — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/IJburg"
+  },
+  {
+   "title": "Anne Frank House — the people in hiding are arrested",
+   "url": "https://www.annefrank.org/en/timeline/16/the-people-in-hiding-are-discovered-they-are-arrested-and-put-in-prison/"
+  },
+  {
+   "title": "List of largest European cities in history (Chandler 1987 figures) — Wikiwand",
+   "url": "https://wikiwand.com/en/articles/List_of_largest_European_cities_in_history"
+  },
+  {
+   "title": "Amsterdam — History of Holland",
+   "url": "https://historyofholland.com/amsterdam-netherlands.html"
+  },
+  {
+   "title": "Amsterdam municipality population — City Population (CBS data)",
+   "url": "https://www.citypopulation.de/en/netherlands/admin/noord_holland/0363__amsterdam"
+  },
+  {
+   "title": "Amsterdam groeit verder naar ruim 940.000 inwoners — NH Nieuws, 2 Feb 2026",
+   "url": "https://www.nhnieuws.nl/nieuws/356781/amsterdam-groeit-verder-naar-ruim-940000-inwoners"
+  },
+  {
+   "title": "Rijksmuseum, Waag, Munttoren coordinates — LatLong.net",
+   "url": "https://www.latlong.net/place/waag-amsterdam-netherlands-357.html"
+  }
+ ]
+}
