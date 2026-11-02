@@ -7,7 +7,7 @@ ancient cities everyone is curious about. Owner can reorder any time.
 - [x] rome — Rome (753 BC → today)
 - [x] paris — Paris (Lutetia → today)
 - [x] boston — Boston (1630 → today, landfill growth)
-- [ ] amsterdam — Amsterdam (1270 dam → canal ring → today)
+- [x] amsterdam — Amsterdam (1270 dam → canal ring → today)
 - [ ] istanbul — Istanbul (Byzantion 667 BC → today)
 - [ ] vienna — Vienna (Vindobona → Ringstraße → today)
 - [ ] athens — Athens (Bronze Age → today)
