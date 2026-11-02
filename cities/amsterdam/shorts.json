@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1000, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Amsterdam", "tr": "Amsterdam"}, "line2": {"en": "1,000 years in 50 seconds", "tr": "50 saniyede 1.000 yıl"}},
+   "end": {"line2": {"en": "Amsterdam: 1,000 Years in 14 Minutes", "tr": "Amsterdam: 14 Dakikada 1.000 Yıl"}},
+   "title": {"en": "Amsterdam: 1,000 Years in 50 Seconds #shorts", "tr": "Amsterdam: 50 Saniyede 1.000 Yıl #shorts"},
+   "description": {"en": "From a dam in the Amstel around 1270 to 942,504 Amsterdammers in 2026 — walls, the canal ring of 1613, drained lakes and new islands. The year and the population stay on screen the whole way.",
+                   "tr": "1270 civarında Amstel'deki bir bentten 2026'da 942.504 Amsterdamlıya — surlar, 1613 kanal kuşağı, kurutulan göller ve yeni adalar. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["amsterdam history", "history of amsterdam", "amsterdam canals", "3d timelapse", "city evolution", "how amsterdam grew", "shorts"],
+   "hashtags": ["#Amsterdam", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "canal-ring",
+   "from_year": 1585, "to_year": 1672, "seconds": 50,
+   "hook": {"line1": {"en": "Digging Canals", "tr": "Kanal Kazmak"}, "line2": {"en": "Amsterdam, 1585–1672", "tr": "Amsterdam, 1585–1672"}},
+   "end": {"line2": {"en": "Amsterdam: 1,000 Years in 14 Minutes", "tr": "Amsterdam: 14 Dakikada 1.000 Yıl"}},
+   "title": {"en": "How Amsterdam Built Its Canal Ring #shorts", "tr": "Amsterdam Kanal Kuşağını Nasıl Kurdu #shorts"},
+   "description": {"en": "1585: Antwerp falls and its merchants move north. 1613: digging begins on the Herengracht, Keizersgracht and Prinsengracht. 1657–c.1663: a rampart with 26 bastions, and from about 1660 the canals reach the Amstel.",
+                   "tr": "1585: Antwerpen düşer, tüccarları kuzeye göçer. 1613: Herengracht, Keizersgracht ve Prinsengracht kazılmaya başlar. 1657–1663 civarı: 26 burçlu bir sur; 1660 civarından itibaren kanallar Amstel'e ulaşır."},
+   "tags": ["amsterdam canals", "canal ring", "grachtengordel", "dutch golden age", "amsterdam history", "3d timelapse", "shorts"],
+   "hashtags": ["#Amsterdam", "#Canals", "#History", "#Shorts"]
+  },
+  {
+   "id": "fire-and-walls",
+   "from_year": 1385, "to_year": 1520, "seconds": 45,
+   "hook": {"line1": {"en": "Fire and Walls", "tr": "Yangın ve Sur"}, "line2": {"en": "Amsterdam, 1421–1516", "tr": "Amsterdam, 1421–1516"}},
+   "end": {"line2": {"en": "Amsterdam: 1,000 Years in 14 Minutes", "tr": "Amsterdam: 14 Dakikada 1.000 Yıl"}},
+   "title": {"en": "Amsterdam Burns Twice, Then Builds a Wall #shorts", "tr": "Amsterdam İki Kez Yanıyor, Sonra Sur Yapıyor #shorts"},
+   "description": {"en": "1421: a fire destroys about a third of the town. 1425: a moat — today's Singel. 1452: fire destroys three quarters of Amsterdam. 1482–1494: a brick wall with towers like the Schreierstoren.",
+                   "tr": "1421: bir yangın kasabanın yaklaşık üçte birini yok eder. 1425: bir hendek — bugünkü Singel. 1452: yangın Amsterdam'ın dörtte üçünü yok eder. 1482–1494: Schreierstoren gibi kuleleriyle bir tuğla sur."},
+   "tags": ["amsterdam history", "medieval amsterdam", "amsterdam fire 1452", "schreierstoren", "3d timelapse", "shorts"],
+   "hashtags": ["#Amsterdam", "#MedievalHistory", "#History", "#Shorts"]
+  }
+ ]
+}
