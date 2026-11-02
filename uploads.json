@@ -195,5 +195,41 @@
   "uploaded": "2026-11-02T09:51:23Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "amsterdam:short:whole",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "A1HrBqmQCcQ",
+  "link": "https://youtube.com/shorts/A1HrBqmQCcQ",
+  "title": "Amsterdam: 1,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-14T23:30:00Z",
+  "uploaded": "2026-11-02T10:06:52Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "amsterdam:short:canal-ring",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "msyqg5u-S1k",
+  "link": "https://youtube.com/shorts/msyqg5u-S1k",
+  "title": "How Amsterdam Built Its Canal Ring #shorts",
+  "publish_at": "2026-11-15T23:30:00Z",
+  "uploaded": "2026-11-02T10:06:55Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "amsterdam:short:fire-and-walls",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "h8BFvvrqkiI",
+  "link": "https://youtube.com/shorts/h8BFvvrqkiI",
+  "title": "Amsterdam Burns Twice, Then Builds a Wall #shorts",
+  "publish_at": "2026-11-16T23:30:00Z",
+  "uploaded": "2026-11-02T10:06:58Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
