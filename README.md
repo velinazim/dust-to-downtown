@@ -1,7 +1,7 @@
 # Dust to Downtown
 
 Şehirlerin ilk yerleşimden bugüne nasıl büyüdüğünü gösteren sessiz 3D timelapse videoları üreten otomasyon.
-Kanal: **Dust to Downtown** (@DustToDowntown). Haftada 2 uzun video (Salı ve Cuma 18:00 Türkiye saati).
+Kanal: **Dust to Downtown** (@DustToDowntown). Haftada 2 uzun video (Salı ve Cuma) + aradaki günlerde Shorts. Yayın saatini `tools/best_slot.py` izleyici saat dilimlerine göre seçer (şu an 02:30 Türkiye saati); `config/best_slot.md` nedenini yazar.
 
 ## Nasıl çalışır
 
@@ -28,6 +28,6 @@ Kanal: **Dust to Downtown** (@DustToDowntown). Haftada 2 uzun video (Salı ve Cu
 | `engine/render.py` | Kare yakalama, parça render, küçük resim |
 | `tools/` | Harita hazırlama, doğrulama, müzik, birleştirme, YouTube |
 | `cities/<şehir>/` | `city.json` (bölüm), `research.md` (kaynaklar), `preview/` (kontrol kareleri) |
-| `config/schedule.json` | Yayın saatleri (UTC) |
+| `config/schedule.json` | Yayın günleri ve saatleri (UTC); saati `tools/best_slot.py` günceller |
 | `uploads.json` | Yüklenen videolar ve linkleri |
 | `RUNBOOK.md`, `CITY_SPEC.md` | Claude'un çalışma talimatları |

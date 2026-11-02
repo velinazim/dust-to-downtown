@@ -53,12 +53,14 @@ def check_channel(tok, repo):
 
 
 def next_slot(cfg, taken, now=None, not_before=None):
-    """First weekly slot (e.g. "TUE 15:00" UTC) at least min_lead_hours away that is not already taken
-    (and, for a Short, not before its long episode goes public)."""
+    """First weekly slot (e.g. "TUE 23:30" UTC) at least min_lead_hours away on a day with nothing of this kind
+    scheduled yet (and, for a Short, not before its long episode goes public). A day counts as taken whatever the
+    hour, so videos scheduled earlier at a different hour (the slot hour is re-chosen by tools/best_slot.py)
+    never get a second video on the same UTC day."""
     now = now or dt.datetime.now(dt.timezone.utc)
     nb = dt.datetime.strptime(not_before, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc) if not_before else None
     days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
-    taken = set(taken)
+    taken_days = {t[:10] for t in taken if t}
     for add in range(0, 60):
         d = (now + dt.timedelta(days=add)).date()
         for slot in sorted(cfg['slots_utc']):
@@ -68,7 +70,7 @@ def next_slot(cfg, taken, now=None, not_before=None):
             h, m = map(int, hm.split(':'))
             at = dt.datetime(d.year, d.month, d.day, h, m, tzinfo=dt.timezone.utc)
             iso = at.strftime('%Y-%m-%dT%H:%M:%SZ')
-            if at < now + dt.timedelta(hours=cfg.get('min_lead_hours', 3)) or iso in taken or (nb and at <= nb):
+            if at < now + dt.timedelta(hours=cfg.get('min_lead_hours', 3)) or iso[:10] in taken_days or (nb and at <= nb):
                 continue
             return iso
     return None

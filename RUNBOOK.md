@@ -2,8 +2,11 @@
 
 Channel: **Dust to Downtown** (@DustToDowntown) — silent 3D timelapses of how great cities grew, ~15 min each,
 English on screen (Turkish version rendered too, kept for a future Turkish channel). Owner speaks Turkish;
-all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri 15:00 UTC) + 2–3 vertical Shorts
-per episode on the days between (16:00 UTC).
+all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri) + 2–3 vertical Shorts
+per episode on the days between. The weekdays are fixed in `config/schedule.json`; the hour of day is chosen by
+`tools/best_slot.py` from where the audience lives (weekly Action "Best publish time", reason in `config/best_slot.md`;
+currently 23:30 UTC = 02:30 Istanbul). Videos already scheduled keep their time. Never edit the hour by hand unless the
+owner asks for a fixed time; then set `"fixed": true` in the file and the script leaves it alone.
 Episodes are made ahead of time (one per day, up to 8 in stock) and wait on YouTube as private + scheduled.
 
 The owner cares most about **accuracy and quality**. A slower, correct episode beats a fast, wrong one.
@@ -51,7 +54,7 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    (`episode: <slug> render`). The **Render episode** action renders in ~20 parallel machines, joins, adds music
    and uploads the English video to YouTube as private, scheduled for the next free slot. ~45–90 min. Do not wait.
 8. Tick the city in `cities/queue.md`, commit + push. Tell the owner (Turkish, short): city, length, what the
-   episode covers, that rendering started, and when it is scheduled to go live.
+   episode covers, that rendering started, and when it is scheduled to go live (read `publish_at` from `uploads.json` and convert to Istanbul time; do not assume a fixed hour).
 
 ## B. Report ("rapor", "durum")
 

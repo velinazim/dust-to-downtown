@@ -1,4 +1,22 @@
 {
-  "long":  {"auto": true, "slots_utc": ["TUE 15:00", "FRI 15:00"], "min_lead_hours": 3},
-  "short": {"auto": true, "slots_utc": ["MON 16:00", "WED 16:00", "THU 16:00", "SAT 16:00", "SUN 16:00"], "min_lead_hours": 3}
+ "long": {
+  "auto": true,
+  "slots_utc": [
+   "TUE 23:30",
+   "FRI 23:30"
+  ],
+  "min_lead_hours": 3
+ },
+ "short": {
+  "auto": true,
+  "slots_utc": [
+   "MON 23:30",
+   "WED 23:30",
+   "THU 23:30",
+   "SAT 23:30",
+   "SUN 23:30"
+  ],
+  "min_lead_hours": 3
+ },
+ "chosen_by": "tools/best_slot.py 2026-11-02"
 }
