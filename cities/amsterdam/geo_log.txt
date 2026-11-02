@@ -1,5 +1,8 @@
+  rivers: overpass-api.de -> 502
 osm rivers: kept 29, skipped 0 -> 29 outer / 15 inner rings
-osm lakes: 49 lakes >= 0.02 km2
+  lakes: overpass-api.de -> 502
+  lakes: overpass.kumi.systems -> HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=400)
+osm lakes: 47 lakes >= 0.02 km2
 grid 410x344 @ 100 m
 elevation: zoom 11, tiles 5x4
 grid 432x241 @ 30 m
