@@ -23,4 +23,5 @@ jobs:
           git add config/schedule.json config/best_slot.md
           git diff --cached --quiet && exit 0
           git commit -qm "slot: best publish time"
-          for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done
+          for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 7; done
+          exit 1

@@ -19,6 +19,8 @@ Same idea as The Before Atlas' tools/best_slot.py, adapted to this channel's wee
     python3 tools/best_slot.py --print    # only show the decision
 
 "fixed": true inside config/schedule.json stops all changes (owner wants a fixed time).
+The hour of the first slot of each kind is the "current" one; a change sets every slot of that kind to the new hour.
+Nothing is written (and the weekly Action makes no commit) while the hours stay the same.
 """
 import datetime as dt, json, os, sys
 from zoneinfo import ZoneInfo
@@ -120,14 +122,22 @@ def main():
     if '--print' in sys.argv:
         return
     if cfg.get('fixed'):
-        sys.exit('slot fixed by the owner: not changed')
+        print('slot fixed by the owner ("fixed": true): not changed')
+        return
+    if all(out[k]['old'] == out[k]['new'] for k in out):
+        if not os.path.exists(REPORT):
+            with open(REPORT, 'w', encoding='utf-8') as f:
+                f.write(md)
+        return                                  # nothing to change: no commit
     for kind in ('long', 'short'):
         new = out[kind]['new']
         cfg[kind]['slots_utc'] = [f'{parse(s)[0]} {hm(new)}' for s in cfg[kind]['slots_utc']]
     cfg['chosen_by'] = f'tools/best_slot.py {dt.date.today().isoformat()}'
-    with open(CFG, 'w') as f:
+    tmp = CFG + '.tmp'
+    with open(tmp, 'w') as f:                   # write whole file, then swap: schedule.json is never half written
         json.dump(cfg, f, indent=1)
         f.write('\n')
+    os.replace(tmp, CFG)
     with open(REPORT, 'w', encoding='utf-8') as f:
         f.write(md)
 

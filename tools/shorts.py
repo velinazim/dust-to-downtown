@@ -86,24 +86,26 @@ def long_entry(slug):
     return next((u for u in ups if u.get('key') == f'{slug}:long'), None), ups
 
 
+def budget(start, cfg):
+    """How many Shorts fit between a long episode's day and the next long day (Friday episode: Sat, Sun, Mon = 3;
+    Tuesday episode: Wed, Thu = 2). Counted by UTC date, so the hour of day (re-chosen by tools/best_slot.py, and
+    different for episodes scheduled earlier) never changes the count."""
+    def days(kind, n):
+        for add in range(n):
+            d = start.date() + dt.timedelta(days=add)
+            if any(DAYS.index(sl.split()[0]) == d.weekday() for sl in cfg[kind]['slots_utc']):
+                yield d
+    nxt = next((d for d in days('long', 9) if d > start.date()), start.date() + dt.timedelta(days=7))
+    return sum(1 for d in days('short', 9) if start.date() < d < nxt)
+
+
 def slot_budget(slug):
-    """How many Shorts of this episode fit between its own long slot and the next long slot
-    (Friday episode → Sat, Sun, Mon = 3; Tuesday episode → Wed, Thu = 2). None = no limit known."""
+    """Shorts of this episode that fit before the next long episode. None = no limit known."""
     le, _ = long_entry(slug)
     if not le or not le.get('publish_at'):
         return None
     cfg = json.load(open(os.path.join(ROOT, 'config', 'schedule.json')))
-    start = utc(le['publish_at'])
-    def slots(kind, days):
-        for add in range(days):
-            d = (start + dt.timedelta(days=add)).date()
-            for sl in cfg[kind]['slots_utc']:
-                wd, hm = sl.split()
-                if DAYS.index(wd) == d.weekday():
-                    h, m = map(int, hm.split(':'))
-                    yield dt.datetime(d.year, d.month, d.day, h, m, tzinfo=dt.timezone.utc)
-    nxt = min((a for a in slots('long', 9) if a > start + dt.timedelta(hours=1)), default=start + dt.timedelta(days=7))
-    return sum(1 for a in slots('short', 9) if start < a < nxt)
+    return budget(utc(le['publish_at']), cfg)
 
 
 def chosen(slug):
