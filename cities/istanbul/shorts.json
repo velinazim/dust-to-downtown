@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": -667, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Istanbul", "tr": "İstanbul"}, "line2": {"en": "2,700 years in 50 seconds", "tr": "50 saniyede 2.700 yıl"}},
+   "end": {"line2": {"en": "Istanbul: 2,700 Years in 15 Minutes", "tr": "İstanbul: 15 Dakikada 2.700 Yıl"}},
+   "title": {"en": "Istanbul: 2,700 Years in 50 Seconds #shorts", "tr": "İstanbul: 50 Saniyede 2.700 Yıl #shorts"},
+   "description": {"en": "From Greek Byzantion in the 7th century BC to 15,754,053 people at the end of 2025 — Constantinople, the Theodosian Walls of 413, the conquest of 1453 and three bridges over the Bosphorus. The year and the population stay on screen the whole way.",
+                   "tr": "MÖ 7. yüzyıldaki Yunan Byzantion'dan 2025 sonunda 15.754.053 kişiye — Konstantinopolis, 413'teki Theodosius Surları, 1453 fethi ve Boğaz'daki üç köprü. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["istanbul history", "history of istanbul", "constantinople", "byzantium", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Istanbul", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "conquest-1453",
+   "from_year": 1393, "to_year": 1470, "seconds": 50,
+   "hook": {"line1": {"en": "The Fall of 1453", "tr": "1453 Fethi"}, "line2": {"en": "Constantinople, 1393–1470", "tr": "Konstantinopolis, 1393–1470"}},
+   "end": {"line2": {"en": "Istanbul: 2,700 Years in 15 Minutes", "tr": "İstanbul: 15 Dakikada 2.700 Yıl"}},
+   "title": {"en": "How Constantinople Fell in 1453 #shorts", "tr": "Konstantinopolis 1453'te Nasıl Fethedildi #shorts"},
+   "description": {"en": "1393–1394: Anadoluhisarı. 15 April 1452: Rumelihisarı begins. 6 April 1453: the siege of the land walls. 22 April: ships dragged over the hill into the Golden Horn. 29 May 1453: Mehmed II takes the city after 53 days.",
+                   "tr": "1393–1394: Anadoluhisarı. 15 Nisan 1452: Rumelihisarı'nın yapımı başlar. 6 Nisan 1453: kara surlarının kuşatması. 22 Nisan: gemiler karadan Haliç'e indirilir. 29 Mayıs 1453: II. Mehmed 53 günün sonunda şehri alır."},
+   "tags": ["fall of constantinople", "1453", "conquest of istanbul", "mehmed ii", "theodosian walls", "istanbul history", "shorts"],
+   "hashtags": ["#Istanbul", "#Constantinople", "#History", "#Shorts"]
+  },
+  {
+   "id": "new-rome",
+   "from_year": 324, "to_year": 540, "seconds": 48,
+   "hook": {"line1": {"en": "Building New Rome", "tr": "Yeni Roma"}, "line2": {"en": "Constantinople, 324–537", "tr": "Konstantinopolis, 324–537"}},
+   "end": {"line2": {"en": "Istanbul: 2,700 Years in 15 Minutes", "tr": "İstanbul: 15 Dakikada 2.700 Yıl"}},
+   "title": {"en": "How Constantine Built a New Rome #shorts", "tr": "Konstantin Yeni Roma'yı Nasıl Kurdu #shorts"},
+   "description": {"en": "324: Constantine picks Byzantion as his capital. 11 May 330: Constantinople is dedicated. 413: the Theodosian land walls, 5.7 km long. 27 December 537: Justinian's Hagia Sophia, its dome 55 m high.",
+                   "tr": "324: Konstantin Byzantion'u başkent seçer. 11 Mayıs 330: Konstantinopolis açılır. 413: 5,7 km'lik Theodosius kara surları. 27 Aralık 537: kubbesi 55 m yüksekliğindeki Justinianus'un Ayasofya'sı."},
+   "tags": ["constantinople", "constantine the great", "hagia sophia", "theodosian walls", "byzantine empire", "3d timelapse", "shorts"],
+   "hashtags": ["#Constantinople", "#Byzantine", "#History", "#Shorts"]
+  }
+ ]
+}

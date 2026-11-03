@@ -1,0 +1,5239 @@
+{
+ "slug": "istanbul",
+ "seed": 667,
+ "long_ok": true,
+ "name": {
+  "en": "Istanbul",
+  "tr": "İstanbul"
+ },
+ "intro": {
+  "en": "2,700 Years in 15 Minutes",
+  "tr": "15 Dakikada 2.700 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   40.8,
+   28.55,
+   41.32,
+   29.45
+  ],
+  "cell_m": 120,
+  "core_bbox": [
+   40.97,
+   28.89,
+   41.1,
+   29.09
+  ],
+  "core_cell_m": 30
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 2.2
+ },
+ "segments": [
+  {
+   "from": -667,
+   "to": -514,
+   "seconds": 19,
+   "era": {
+    "en": "Greek",
+    "tr": "Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Byzantion Is Founded",
+    "tr": "Byzantion Kuruluyor"
+   },
+   "sub": {
+    "en": "7th century BC: Greeks from Megara settle the point between the Golden Horn and the sea",
+    "tr": "MÖ 7. yüzyıl: Megaralı Yunanlar, Haliç ile deniz arasındaki burna yerleşir"
+   },
+   "camera": {
+    "center": [
+     41.0105,
+     28.983
+    ],
+    "dist_km": 3.2
+   },
+   "chapter": {
+    "en": "Greek Byzantion",
+    "tr": "Yunan Byzantion"
+   }
+  },
+  {
+   "from": -513,
+   "to": -480,
+   "seconds": 16,
+   "era": {
+    "en": "Greek",
+    "tr": "Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Persian Rule",
+    "tr": "Pers Egemenliği"
+   },
+   "sub": {
+    "en": "513 BC: Darius I of Persia takes the city during his campaign against the Scythians",
+    "tr": "MÖ 513: Pers kralı I. Darius, İskitlere karşı seferinde şehri alır"
+   },
+   "camera": {
+    "center": [
+     41.006,
+     29.005
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": -479,
+   "to": -341,
+   "seconds": 16,
+   "era": {
+    "en": "Greek",
+    "tr": "Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Sparta Drives Out Persia",
+    "tr": "Sparta Persleri Kovuyor"
+   },
+   "sub": {
+    "en": "479 BC: after the Battle of Plataea, the Spartans take Byzantion from the Persians",
+    "tr": "MÖ 479: Plataea Savaşı'ndan sonra Spartalılar Byzantion'u Perslerden alır"
+   },
+   "camera": {
+    "center": [
+     41.01,
+     28.982
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": -340,
+   "to": -339,
+   "seconds": 16,
+   "era": {
+    "en": "Greek",
+    "tr": "Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Philip of Macedon's Siege",
+    "tr": "Makedonyalı Filip Kuşatıyor"
+   },
+   "sub": {
+    "en": "340 BC: Philip II besieges Byzantion; a sudden bright light foils his night attack",
+    "tr": "MÖ 340: II. Filip Byzantion'u kuşatır; ani bir ışık onun gece saldırısını boşa çıkarır"
+   },
+   "camera": {
+    "center": [
+     41.01,
+     28.978
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": -338,
+   "to": 195,
+   "seconds": 9,
+   "era": {
+    "en": "Greek",
+    "tr": "Yunan"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "camera": {
+    "center": [
+     41.01,
+     28.98
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 196,
+   "to": 202,
+   "seconds": 16,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "Razed by Severus",
+    "tr": "Severus Yerle Bir Ediyor"
+   },
+   "sub": {
+    "en": "AD 196: Byzantion backs the wrong emperor; Septimius Severus takes it and razes it",
+    "tr": "MS 196: Byzantion yanlış imparatoru destekler; Septimius Severus şehri alıp yıkar"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     41.01,
+     28.98
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Roman City",
+    "tr": "Roma Şehri"
+   }
+  },
+  {
+   "from": 203,
+   "to": 323,
+   "seconds": 17,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "title": {
+    "en": "A Hippodrome and a Main Street",
+    "tr": "Bir Hipodrom ve Ana Cadde"
+   },
+   "sub": {
+    "en": "203: Severus rebuilds the city with a hippodrome and the Mese, its main street",
+    "tr": "203: Severus şehri bir hipodrom ve ana cadde Mese ile yeniden kurar"
+   },
+   "population": [
+    15000,
+    20000
+   ],
+   "camera": {
+    "center": [
+     41.0085,
+     28.976
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 324,
+   "to": 329,
+   "seconds": 18,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Nova Roma",
+    "tr": "Nova Roma"
+   },
+   "title": {
+    "en": "Constantine's New Rome",
+    "tr": "Konstantin'in Yeni Roma'sı"
+   },
+   "sub": {
+    "en": "324: Constantine chooses Byzantion as his new capital and begins a wall far to the west",
+    "tr": "324: Konstantin Byzantion'u yeni başkenti seçer ve çok batıda bir sur başlatır"
+   },
+   "population": [
+    20000,
+    25000
+   ],
+   "camera": {
+    "center": [
+     41.011,
+     28.964
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   }
+  },
+  {
+   "from": 330,
+   "to": 359,
+   "seconds": 17,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "sub": {
+    "en": "11 May 330: the new capital is dedicated; a column about 50 m tall marks Constantine's forum",
+    "tr": "11 Mayıs 330: yeni başkent açılır; Konstantin forumunu 50 m kadar yüksek bir sütun süsler"
+   },
+   "population": [
+    26000,
+    99000
+   ],
+   "camera": {
+    "center": [
+     41.0095,
+     28.972
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 360,
+   "to": 367,
+   "seconds": 16,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The First Hagia Sophia",
+    "tr": "İlk Ayasofya"
+   },
+   "sub": {
+    "en": "15 February 360: the Great Church, the first Hagia Sophia, is consecrated",
+    "tr": "15 Şubat 360: Büyük Kilise, yani ilk Ayasofya, takdis edilir"
+   },
+   "population": [
+    104000,
+    143000
+   ],
+   "camera": {
+    "center": [
+     41.0085,
+     28.979
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 368,
+   "to": 412,
+   "seconds": 17,
+   "era": {
+    "en": "Roman",
+    "tr": "Roma"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Aqueduct of Valens",
+    "tr": "Bozdoğan Kemeri"
+   },
+   "sub": {
+    "en": "368: an aqueduct up to 29 m high carries water across the valley to the growing capital",
+    "tr": "368: 29 m'ye varan bir su kemeri, büyüyen başkente vadinin üstünden su taşır"
+   },
+   "population": [
+    150000,
+    225000
+   ],
+   "camera": {
+    "center": [
+     41.014,
+     28.958
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 413,
+   "to": 446,
+   "seconds": 19,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Theodosian Walls",
+    "tr": "Theodosius Surları"
+   },
+   "sub": {
+    "en": "413: new land walls 5.7 km long close the peninsula from the Marmara to the Golden Horn",
+    "tr": "413: 5,7 km uzunluğunda yeni kara surları yarımadayı Marmara'dan Haliç'e kadar kapatır"
+   },
+   "population": [
+    227000,
+    278000
+   ],
+   "camera": {
+    "center": [
+     41.015,
+     28.935
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "The Great Walls",
+    "tr": "Büyük Surlar"
+   }
+  },
+  {
+   "from": 447,
+   "to": 531,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Rebuilt in 60 Days",
+    "tr": "60 Günde Yeniden"
+   },
+   "sub": {
+    "en": "447: earthquakes bring down the walls; 16,000 workers rebuild them in 60 days",
+    "tr": "447: depremler surları yıkar; 16.000 işçi onları 60 günde yeniden yapar"
+   },
+   "population": [
+    280000,
+    473000
+   ],
+   "camera": {
+    "center": [
+     41.012,
+     28.93
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 532,
+   "to": 536,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Nika Riots",
+    "tr": "Nika Ayaklanması"
+   },
+   "sub": {
+    "en": "January 532: riots start in the Hippodrome; Hagia Sophia burns and about 30,000 people die",
+    "tr": "Ocak 532: Hipodrom'da ayaklanma çıkar; Ayasofya yanar, yaklaşık 30.000 kişi ölür"
+   },
+   "population": [
+    476000,
+    488000
+   ],
+   "camera": {
+    "center": [
+     41.0075,
+     28.9775
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Justinian",
+    "tr": "Justinianus"
+   }
+  },
+  {
+   "from": 537,
+   "to": 540,
+   "seconds": 18,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "A New Hagia Sophia",
+    "tr": "Yeni Ayasofya"
+   },
+   "sub": {
+    "en": "27 December 537: Justinian inaugurates the new Hagia Sophia, its dome 55 m high",
+    "tr": "27 Aralık 537: Justinianus, kubbesi 55 m yükseklikteki yeni Ayasofya'yı açar"
+   },
+   "population": [
+    491000,
+    500000
+   ],
+   "camera": {
+    "center": [
+     41.0085,
+     28.98
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 541,
+   "to": 625,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Plague of Justinian",
+    "tr": "Justinianus Vebası"
+   },
+   "sub": {
+    "en": "541–542: plague kills between a fifth and two fifths of the people",
+    "tr": "541–542: veba, halkın beşte biri ile beşte ikisi arasında bir kısmını öldürür"
+   },
+   "population": [
+    500000,
+    350000
+   ],
+   "camera": {
+    "center": [
+     41.011,
+     28.955
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 626,
+   "to": 673,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Avars and Persians",
+    "tr": "Avarlar ve Persler"
+   },
+   "sub": {
+    "en": "626: Avars, Slavs and Persians besiege Constantinople; the walls hold",
+    "tr": "626: Avarlar, Slavlar ve Persler Konstantinopolis'i kuşatır; surlar dayanır"
+   },
+   "camera": {
+    "center": [
+     41.015,
+     28.925
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 674,
+   "to": 716,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Arab Sieges",
+    "tr": "Arap Kuşatmaları"
+   },
+   "sub": {
+    "en": "674–678: an Umayyad siege fails; the walls and Greek fire help save the city",
+    "tr": "674–678: Emevi kuşatması başarısız olur; surlar ve Grejuva ateşi şehri kurtarır"
+   },
+   "camera": {
+    "center": [
+     41.01,
+     28.94
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 717,
+   "to": 739,
+   "seconds": 15,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Second Arab Siege",
+    "tr": "İkinci Arap Kuşatması"
+   },
+   "sub": {
+    "en": "717–718: a second Umayyad army and fleet besiege the city, and fail again",
+    "tr": "717–718: ikinci bir Emevi ordusu ve donanması şehri kuşatır ve yine başarısız olur"
+   },
+   "camera": {
+    "center": [
+     41.015,
+     28.93
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 740,
+   "to": 1142,
+   "seconds": 9,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "camera": {
+    "center": [
+     41.015,
+     28.95
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1143,
+   "to": 1203,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "A Medieval Metropolis",
+    "tr": "Bir Orta Çağ Metropolü"
+   },
+   "sub": {
+    "en": "Mid-12th century: about 400,000 people live here, among them 60,000–80,000 foreigners",
+    "tr": "12. yüzyıl ortası: burada 60.000–80.000'i yabancı olmak üzere yaklaşık 400.000 kişi yaşar"
+   },
+   "population": [
+    400000,
+    400000
+   ],
+   "camera": {
+    "center": [
+     41.017,
+     28.955
+    ],
+    "dist_km": 5.0
+   },
+   "chapter": {
+    "en": "Crusaders and Genoese",
+    "tr": "Haçlılar ve Cenevizliler"
+   }
+  },
+  {
+   "from": 1204,
+   "to": 1260,
+   "seconds": 18,
+   "era": {
+    "en": "Latin Empire",
+    "tr": "Latin İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Fourth Crusade",
+    "tr": "Dördüncü Haçlı Seferi"
+   },
+   "sub": {
+    "en": "12 April 1204: crusaders storm the city from the Golden Horn and sack it",
+    "tr": "12 Nisan 1204: Haçlılar şehre Haliç'ten saldırır ve onu yağmalar"
+   },
+   "population": [
+    384000,
+    37000
+   ],
+   "camera": {
+    "center": [
+     41.023,
+     28.955
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1261,
+   "to": 1266,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Byzantines Return",
+    "tr": "Bizanslılar Geri Dönüyor"
+   },
+   "sub": {
+    "en": "25 July 1261: Byzantine forces retake the city; only about 35,000 people remain",
+    "tr": "25 Temmuz 1261: Bizans kuvvetleri şehri geri alır; yalnızca 35.000 kadar kişi kalmıştır"
+   },
+   "population": [
+    35000,
+    41000
+   ],
+   "camera": {
+    "center": [
+     41.015,
+     28.95
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1267,
+   "to": 1347,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Genoese Galata",
+    "tr": "Ceneviz Galatası"
+   },
+   "sub": {
+    "en": "1267: Genoa founds a colony in Galata, across the Golden Horn",
+    "tr": "1267: Cenova, Haliç'in karşı yakasındaki Galata'da bir koloni kurar"
+   },
+   "population": [
+    43000,
+    80000
+   ],
+   "camera": {
+    "center": [
+     41.023,
+     28.974
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1348,
+   "to": 1392,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Galata Tower",
+    "tr": "Galata Kulesi"
+   },
+   "sub": {
+    "en": "1348: the Genoese build the Galata Tower, 63 m tall, at the top of their walled town",
+    "tr": "1348: Cenevizliler, surlu kasabalarının en yüksek yerine 63 m'lik Galata Kulesi'ni yapar"
+   },
+   "population": [
+    80000,
+    66000
+   ],
+   "camera": {
+    "center": [
+     41.024,
+     28.9745
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1393,
+   "to": 1451,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Ottomans on the Bosphorus",
+    "tr": "Boğaz'da Osmanlılar"
+   },
+   "sub": {
+    "en": "1393–1394: Ottoman sultan Bayezid I builds Anadoluhisarı on the Asian shore",
+    "tr": "1393–1394: Osmanlı padişahı Yıldırım Bayezid, Anadolu yakasında Anadoluhisarı'nı yaptırır"
+   },
+   "population": [
+    65000,
+    50000
+   ],
+   "camera": {
+    "center": [
+     41.08,
+     29.062
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "The Conquest",
+    "tr": "Fetih"
+   }
+  },
+  {
+   "from": 1452,
+   "to": 1453.25,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Rumelihisarı",
+    "tr": "Rumelihisarı"
+   },
+   "sub": {
+    "en": "15 April 1452: Mehmed II begins a fortress opposite, on the European shore",
+    "tr": "15 Nisan 1452: II. Mehmed karşı kıyıda, Avrupa yakasında bir hisar inşasına başlar"
+   },
+   "population": 50000,
+   "camera": {
+    "center": [
+     41.083,
+     29.06
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1453.26,
+   "to": 1453.3,
+   "seconds": 19,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "The Siege Begins",
+    "tr": "Kuşatma Başlıyor"
+   },
+   "sub": {
+    "en": "6 April 1453: the Ottoman army, about 70 cannons with it, begins its assault on the land walls",
+    "tr": "6 Nisan 1453: yaklaşık 70 topu olan Osmanlı ordusu kara surlarına saldırıya başlar"
+   },
+   "population": 50000,
+   "camera": {
+    "center": [
+     41.017,
+     28.93
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1453.31,
+   "to": 1453.4,
+   "seconds": 17,
+   "era": {
+    "en": "Byzantine",
+    "tr": "Bizans"
+   },
+   "city_name": {
+    "en": "Constantinople",
+    "tr": "Konstantinopolis"
+   },
+   "title": {
+    "en": "Ships Over the Hill",
+    "tr": "Gemiler Karadan"
+   },
+   "sub": {
+    "en": "22 April 1453: Ottoman ships are dragged over the hill behind Galata into the Golden Horn",
+    "tr": "22 Nisan 1453: Osmanlı gemileri Galata'nın arkasındaki tepeden Haliç'e indirilir"
+   },
+   "population": 50000,
+   "camera": {
+    "center": [
+     41.029,
+     28.965
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1453.41,
+   "to": 1458,
+   "seconds": 20,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Fall of Constantinople",
+    "tr": "İstanbul'un Fethi"
+   },
+   "sub": {
+    "en": "29 May 1453: Mehmed II takes the city after a 53-day siege; Hagia Sophia becomes a mosque",
+    "tr": "29 Mayıs 1453: II. Mehmed 53 günlük kuşatmanın ardından şehri alır; Ayasofya camiye çevrilir"
+   },
+   "population": [
+    50000,
+    54000
+   ],
+   "camera": {
+    "center": [
+     41.017,
+     28.935
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1459,
+   "to": 1469,
+   "seconds": 17,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Topkapı Palace",
+    "tr": "Topkapı Sarayı"
+   },
+   "sub": {
+    "en": "1459: work begins on Topkapı Palace on the point where Byzantion once stood",
+    "tr": "1459: bir zamanlar Byzantion'un bulunduğu burunda Topkapı Sarayı'nın inşasına başlanır"
+   },
+   "population": [
+    55000,
+    65000
+   ],
+   "camera": {
+    "center": [
+     41.011,
+     28.981
+    ],
+    "dist_km": 2.2
+   },
+   "chapter": {
+    "en": "Ottoman Capital",
+    "tr": "Osmanlı Başkenti"
+   }
+  },
+  {
+   "from": 1470,
+   "to": 1508,
+   "seconds": 17,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The City Fills Again",
+    "tr": "Şehir Yeniden Doluyor"
+   },
+   "sub": {
+    "en": "1470: the Fatih Mosque is finished; by 1481 about 80,000 people live in the city",
+    "tr": "1470: Fatih Camii tamamlanır; 1481'e gelindiğinde şehirde yaklaşık 80.000 kişi yaşar"
+   },
+   "population": [
+    67000,
+    167000
+   ],
+   "camera": {
+    "center": [
+     41.015,
+     28.96
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1509,
+   "to": 1549,
+   "seconds": 16,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Earthquake of 1509",
+    "tr": "1509 Depremi"
+   },
+   "sub": {
+    "en": "10 September 1509: an earthquake brings down 1,070 homes and damages 49 towers of the walls",
+    "tr": "10 Eylül 1509: bir deprem 1.070 evi yıkar ve surların 49 kulesine zarar verir"
+   },
+   "population": [
+    172000,
+    360000
+   ],
+   "camera": {
+    "center": [
+     41.014,
+     28.945
+    ],
+    "dist_km": 5.5
+   }
+  },
+  {
+   "from": 1550,
+   "to": 1608,
+   "seconds": 18,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Süleymaniye",
+    "tr": "Süleymaniye"
+   },
+   "sub": {
+    "en": "1550–1557: the architect Sinan builds the Süleymaniye Mosque, its dome 53 m high",
+    "tr": "1550–1557: Mimar Sinan, kubbesi 53 m yüksekliğindeki Süleymaniye Camii'ni inşa eder"
+   },
+   "population": [
+    361000,
+    400000
+   ],
+   "camera": {
+    "center": [
+     41.0145,
+     28.964
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1609,
+   "to": 1659,
+   "seconds": 17,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Blue Mosque",
+    "tr": "Sultanahmet Camii"
+   },
+   "sub": {
+    "en": "1609–1617: the Sultan Ahmed Mosque rises beside the Hippodrome with six minarets",
+    "tr": "1609–1617: Sultanahmet Camii altı minaresiyle Hipodrom'un yanında yükselir"
+   },
+   "population": [
+    400000,
+    400000
+   ],
+   "camera": {
+    "center": [
+     41.006,
+     28.977
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1660,
+   "to": 1662,
+   "seconds": 17,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Great Fire of 1660",
+    "tr": "1660 Büyük Yangını"
+   },
+   "sub": {
+    "en": "24 July 1660: a fire burns for about two days and destroys some two thirds of the city",
+    "tr": "24 Temmuz 1660: yaklaşık iki gün süren bir yangın şehrin üçte ikisi kadarını yok eder"
+   },
+   "population": [
+    400000,
+    400000
+   ],
+   "camera": {
+    "center": [
+     41.014,
+     28.962
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1663,
+   "to": 1765,
+   "seconds": 10,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "population": [
+    400000,
+    466000
+   ],
+   "camera": {
+    "center": [
+     41.03,
+     28.99
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1766,
+   "to": 1835,
+   "seconds": 16,
+   "era": {
+    "en": "Ottoman",
+    "tr": "Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Earthquake of 1766",
+    "tr": "1766 Depremi"
+   },
+   "sub": {
+    "en": "22 May 1766: an earthquake destroys the Fatih Mosque; a new one is finished in 1771",
+    "tr": "22 Mayıs 1766: bir deprem Fatih Camii'ni yıkar; yenisi 1771'de tamamlanır"
+   },
+   "population": [
+    467000,
+    616000
+   ],
+   "camera": {
+    "center": [
+     41.019,
+     28.95
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1836,
+   "to": 1844,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Bridging the Golden Horn",
+    "tr": "Haliç'e Köprü"
+   },
+   "sub": {
+    "en": "1836: a pontoon bridge, the first across the Golden Horn, opens at Unkapanı",
+    "tr": "1836: Haliç'in ilk köprüsü olan bir duba köprü Unkapanı'nda açılır"
+   },
+   "population": [
+    620000,
+    650000
+   ],
+   "camera": {
+    "center": [
+     41.023,
+     28.964
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "A Modern City",
+    "tr": "Modernleşen Şehir"
+   }
+  },
+  {
+   "from": 1845,
+   "to": 1855,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Galata Bridge",
+    "tr": "Galata Köprüsü"
+   },
+   "sub": {
+    "en": "1845: a wooden bridge joins Eminönü and Karaköy at the mouth of the Golden Horn",
+    "tr": "1845: ahşap bir köprü Haliç'in ağzında Eminönü ile Karaköy'ü birleştirir"
+   },
+   "population": [
+    654000,
+    694000
+   ],
+   "camera": {
+    "center": [
+     41.02,
+     28.973
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1856,
+   "to": 1869,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Dolmabahçe Palace",
+    "tr": "Dolmabahçe Sarayı"
+   },
+   "sub": {
+    "en": "1856: the new Dolmabahçe Palace on the Bosphorus is finished and the court moves there",
+    "tr": "1856: Boğaz kıyısındaki yeni Dolmabahçe Sarayı tamamlanır ve saray oraya taşınır"
+   },
+   "population": [
+    698000,
+    759000
+   ],
+   "camera": {
+    "center": [
+     41.035,
+     28.996
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1870,
+   "to": 1872,
+   "seconds": 15,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Fire of Pera",
+    "tr": "Pera Yangını"
+   },
+   "sub": {
+    "en": "5 June 1870: a great fire sweeps through Pera, north of the Golden Horn",
+    "tr": "5 Haziran 1870: büyük bir yangın Haliç'in kuzeyindeki Pera'yı silip süpürür"
+   },
+   "population": [
+    764000,
+    775000
+   ],
+   "camera": {
+    "center": [
+     41.03,
+     28.979
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1873,
+   "to": 1889,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Trains and the Tünel",
+    "tr": "Tren ve Tünel"
+   },
+   "sub": {
+    "en": "1873: trains reach a station at Sirkeci; the Tünel funicular opens in 1875",
+    "tr": "1873: trenler Sirkeci'deki bir istasyona ulaşır; Tünel füniküleri 1875'te açılır"
+   },
+   "population": [
+    780000,
+    868000
+   ],
+   "camera": {
+    "center": [
+     41.012,
+     28.95
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1890,
+   "to": 1913,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "End of the Line",
+    "tr": "Hattın Sonu"
+   },
+   "sub": {
+    "en": "1890: the new Sirkeci station opens, the terminus of the Orient Express",
+    "tr": "1890: yeni Sirkeci Garı açılır; Orient Express'in son durağıdır"
+   },
+   "population": [
+    874000,
+    1110000
+   ],
+   "camera": {
+    "center": [
+     41.015,
+     28.976
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1914,
+   "to": 1922,
+   "seconds": 16,
+   "era": {
+    "en": "Late Ottoman",
+    "tr": "Geç Osmanlı"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Over a Million",
+    "tr": "Bir Milyonu Aşkın"
+   },
+   "sub": {
+    "en": "1914: about 1,125,000 people live here, and electric trams begin to run",
+    "tr": "1914: burada yaklaşık 1.125.000 kişi yaşar ve elektrikli tramvaylar çalışmaya başlar"
+   },
+   "population": [
+    1120000,
+    908000
+   ],
+   "camera": {
+    "center": [
+     41.02,
+     28.98
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "Republic",
+    "tr": "Cumhuriyet"
+   }
+  },
+  {
+   "from": 1923,
+   "to": 1949,
+   "seconds": 17,
+   "era": {
+    "en": "Republic of Türkiye",
+    "tr": "Türkiye Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Ankara Becomes the Capital",
+    "tr": "Ankara Başkent Oluyor"
+   },
+   "sub": {
+    "en": "13 October 1923: the capital moves to Ankara; the 1927 census counts 794,444 people",
+    "tr": "13 Ekim 1923: başkent Ankara'ya taşınır; 1927 sayımı 794.444 kişi sayar"
+   },
+   "population": [
+    884000,
+    1150000
+   ],
+   "camera": {
+    "center": [
+     41.02,
+     28.98
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1950,
+   "to": 1972,
+   "seconds": 17,
+   "era": {
+    "en": "Republic of Türkiye",
+    "tr": "Türkiye Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Boom Years",
+    "tr": "Patlama Yılları"
+   },
+   "sub": {
+    "en": "1950–1970: the population of the province grows from 1.17 to 3 million",
+    "tr": "1950–1970: ilin nüfusu 1,17 milyondan 3 milyona çıkar"
+   },
+   "population": [
+    1166476,
+    3350000
+   ],
+   "camera": {
+    "center": [
+     41.03,
+     28.98
+    ],
+    "dist_km": 16.0
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1987,
+   "seconds": 17,
+   "era": {
+    "en": "Republic of Türkiye",
+    "tr": "Türkiye Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Bosphorus Bridge",
+    "tr": "Boğaziçi Köprüsü"
+   },
+   "sub": {
+    "en": "30 October 1973: the first bridge across the Bosphorus joins Europe and Asia",
+    "tr": "30 Ekim 1973: Boğaz'ın ilk köprüsü Avrupa ile Asya'yı birleştirir"
+   },
+   "population": [
+    3520000,
+    6390000
+   ],
+   "camera": {
+    "center": [
+     41.04,
+     29.03
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Modern Istanbul",
+    "tr": "Modern İstanbul"
+   }
+  },
+  {
+   "from": 1988,
+   "to": 1999,
+   "seconds": 16,
+   "era": {
+    "en": "Republic of Türkiye",
+    "tr": "Türkiye Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Second Bridge",
+    "tr": "İkinci Köprü"
+   },
+   "sub": {
+    "en": "3 July 1988: the Fatih Sultan Mehmet Bridge opens beside Rumelihisarı",
+    "tr": "3 Temmuz 1988: Fatih Sultan Mehmet Köprüsü Rumelihisarı'nın yanında açılır"
+   },
+   "population": [
+    6680000,
+    9740000
+   ],
+   "camera": {
+    "center": [
+     41.08,
+     29.06
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 2000,
+   "to": 2012,
+   "seconds": 16,
+   "era": {
+    "en": "Republic of Türkiye",
+    "tr": "Türkiye Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Ten Million",
+    "tr": "On Milyon"
+   },
+   "sub": {
+    "en": "2000: the census counts 10,018,735 people in the province of Istanbul",
+    "tr": "2000: sayım İstanbul ilinde 10.018.735 kişi sayar"
+   },
+   "population": [
+    10018735,
+    13850000
+   ],
+   "camera": {
+    "center": [
+     41.04,
+     28.99
+    ],
+    "dist_km": 24.0
+   }
+  },
+  {
+   "from": 2013,
+   "to": 2015,
+   "seconds": 16,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "A Tunnel Under the Bosphorus",
+    "tr": "Boğaz'ın Altında Tünel"
+   },
+   "sub": {
+    "en": "29 October 2013: Marmaray opens, a railway 60 m below sea level under the Bosphorus",
+    "tr": "29 Ekim 2013: Boğaz'ın altından deniz seviyesinin 60 m altında geçen Marmaray açılır"
+   },
+   "population": [
+    14160467,
+    14590000
+   ],
+   "camera": {
+    "center": [
+     41.015,
+     29.0
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 2016,
+   "to": 2017,
+   "seconds": 16,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "The Third Bridge",
+    "tr": "Üçüncü Köprü"
+   },
+   "sub": {
+    "en": "26 August 2016: the Yavuz Sultan Selim Bridge opens near the Black Sea",
+    "tr": "26 Ağustos 2016: Yavuz Sultan Selim Köprüsü Karadeniz'e yakın açılır"
+   },
+   "population": [
+    14804115,
+    14940000
+   ],
+   "camera": {
+    "center": [
+     41.18,
+     29.09
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 2018,
+   "to": 2024,
+   "seconds": 16,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Istanbul Airport",
+    "tr": "İstanbul Havalimanı"
+   },
+   "sub": {
+    "en": "29 October 2018: a new airport opens near Lake Terkos, on the Black Sea coast",
+    "tr": "29 Ekim 2018: Terkos Gölü yakınında, Karadeniz kıyısında yeni bir havalimanı açılır"
+   },
+   "population": [
+    15067723,
+    15701602
+   ],
+   "camera": {
+    "center": [
+     41.15,
+     28.85
+    ],
+    "dist_km": 28.0
+   }
+  },
+  {
+   "from": 2025,
+   "to": 2026,
+   "seconds": 23,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "title": {
+    "en": "Istanbul Today",
+    "tr": "Bugünün İstanbulu"
+   },
+   "sub": {
+    "en": "From a Greek colony on a point of land to 15,754,053 people at the end of 2025",
+    "tr": "Bir burundaki Yunan kolonisinden 2025 sonunda 15.754.053 kişiye"
+   },
+   "population": [
+    15754053,
+    15754053
+   ],
+   "camera": {
+    "center": [
+     41.03,
+     28.99
+    ],
+    "dist_km": 34.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Byzantion (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     41.0168,
+     28.9775
+    ],
+    [
+     41.013,
+     28.9768
+    ],
+    [
+     41.009,
+     28.9778
+    ],
+    [
+     41.0055,
+     28.9798
+    ],
+    [
+     41.006,
+     28.984
+    ],
+    [
+     41.01,
+     28.9885
+    ],
+    [
+     41.014,
+     28.989
+    ],
+    [
+     41.0172,
+     28.987
+    ]
+   ],
+   "from": -660,
+   "to": -560,
+   "density": 0.6,
+   "grain_m": 50,
+   "grow_from": [
+    41.0115,
+    28.983
+   ]
+  },
+  {
+   "name": "Chalcedon (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     40.9945,
+     29.0215
+    ],
+    [
+     40.9945,
+     29.033
+    ],
+    [
+     40.987,
+     29.033
+    ],
+    [
+     40.986,
+     29.024
+    ]
+   ],
+   "from": -680,
+   "to": -580,
+   "density": 0.45,
+   "grain_m": 60,
+   "grow_from": [
+    40.991,
+    29.027
+   ]
+  },
+  {
+   "name": "Byzantion rebuilt by Severus (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     41.0175,
+     28.9705
+    ],
+    [
+     41.013,
+     28.9695
+    ],
+    [
+     41.01,
+     28.9698
+    ],
+    [
+     41.0062,
+     28.971
+    ],
+    [
+     41.003,
+     28.974
+    ],
+    [
+     41.003,
+     28.98
+    ],
+    [
+     41.006,
+     28.985
+    ],
+    [
+     41.01,
+     28.989
+    ],
+    [
+     41.015,
+     28.9895
+    ],
+    [
+     41.0175,
+     28.986
+    ]
+   ],
+   "from": 203,
+   "to": 240,
+   "density": 0.65,
+   "grain_m": 55,
+   "grow_from": [
+    41.01,
+    28.98
+   ]
+  },
+  {
+   "name": "Constantine's city (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     41.0232,
+     28.9595
+    ],
+    [
+     41.0205,
+     28.954
+    ],
+    [
+     41.017,
+     28.95
+    ],
+    [
+     41.012,
+     28.9466
+    ],
+    [
+     41.007,
+     28.945
+    ],
+    [
+     41.0,
+     28.9445
+    ],
+    [
+     41.0,
+     28.96
+    ],
+    [
+     41.002,
+     28.97
+    ],
+    [
+     41.0062,
+     28.971
+    ],
+    [
+     41.01,
+     28.9698
+    ],
+    [
+     41.0175,
+     28.9705
+    ],
+    [
+     41.02,
+     28.966
+    ]
+   ],
+   "from": 326,
+   "to": 380,
+   "density": 0.65,
+   "grain_m": 55,
+   "grow_from": [
+    41.011,
+    28.965
+   ]
+  },
+  {
+   "name": "Theodosian city (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     40.991,
+     28.922
+    ],
+    [
+     40.999,
+     28.9225
+    ],
+    [
+     41.0058,
+     28.9212
+    ],
+    [
+     41.0118,
+     28.92
+    ],
+    [
+     41.0192,
+     28.921
+    ],
+    [
+     41.0245,
+     28.9268
+    ],
+    [
+     41.0297,
+     28.935
+    ],
+    [
+     41.0336,
+     28.941
+    ],
+    [
+     41.0412,
+     28.944
+    ],
+    [
+     41.0352,
+     28.9475
+    ],
+    [
+     41.0262,
+     28.9555
+    ],
+    [
+     41.0232,
+     28.9595
+    ],
+    [
+     41.017,
+     28.95
+    ],
+    [
+     41.012,
+     28.9466
+    ],
+    [
+     41.0,
+     28.9445
+    ],
+    [
+     40.996,
+     28.933
+    ]
+   ],
+   "from": 413,
+   "to": 520,
+   "density": 0.45,
+   "grain_m": 60,
+   "grow_from": [
+    41.011,
+    28.945
+   ],
+   "fade": [
+    541,
+    560,
+    0.55
+   ]
+  },
+  {
+   "name": "Late Byzantine decline (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     40.991,
+     28.922
+    ],
+    [
+     40.999,
+     28.9225
+    ],
+    [
+     41.0058,
+     28.9212
+    ],
+    [
+     41.0118,
+     28.92
+    ],
+    [
+     41.0192,
+     28.921
+    ],
+    [
+     41.0245,
+     28.9268
+    ],
+    [
+     41.0297,
+     28.935
+    ],
+    [
+     41.0336,
+     28.941
+    ],
+    [
+     41.0412,
+     28.944
+    ],
+    [
+     41.0352,
+     28.9475
+    ],
+    [
+     41.0262,
+     28.9555
+    ],
+    [
+     41.0232,
+     28.9595
+    ],
+    [
+     41.017,
+     28.95
+    ],
+    [
+     41.012,
+     28.9466
+    ],
+    [
+     41.0,
+     28.9445
+    ],
+    [
+     40.996,
+     28.933
+    ]
+   ],
+   "from": 1205,
+   "to": 1215,
+   "density": 0.2,
+   "grain_m": 70,
+   "grow_from": [
+    41.025,
+    28.95
+   ],
+   "fade": [
+    1205,
+    1262,
+    0.35
+   ]
+  },
+  {
+   "name": "Genoese Galata (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     41.0225,
+     28.9668
+    ],
+    [
+     41.0248,
+     28.9702
+    ],
+    [
+     41.0258,
+     28.9742
+    ],
+    [
+     41.0262,
+     28.9778
+    ],
+    [
+     41.025,
+     28.981
+    ],
+    [
+     41.023,
+     28.98
+    ],
+    [
+     41.0218,
+     28.974
+    ]
+   ],
+   "from": 1267,
+   "to": 1360,
+   "density": 0.75,
+   "grain_m": 45,
+   "grow_from": [
+    41.0245,
+    28.9745
+   ]
+  },
+  {
+   "name": "Ottoman Istanbul (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     40.991,
+     28.922
+    ],
+    [
+     40.999,
+     28.9225
+    ],
+    [
+     41.0058,
+     28.9212
+    ],
+    [
+     41.0118,
+     28.92
+    ],
+    [
+     41.0192,
+     28.921
+    ],
+    [
+     41.0245,
+     28.9268
+    ],
+    [
+     41.0297,
+     28.935
+    ],
+    [
+     41.0336,
+     28.941
+    ],
+    [
+     41.0412,
+     28.944
+    ],
+    [
+     41.0352,
+     28.9475
+    ],
+    [
+     41.0262,
+     28.9555
+    ],
+    [
+     41.0232,
+     28.9595
+    ],
+    [
+     41.0178,
+     28.9705
+    ],
+    [
+     41.017,
+     28.979
+    ],
+    [
+     41.0162,
+     28.987
+    ],
+    [
+     41.012,
+     28.9885
+    ],
+    [
+     41.0035,
+     28.9825
+    ],
+    [
+     41.001,
+     28.96
+    ],
+    [
+     40.996,
+     28.933
+    ]
+   ],
+   "from": 1454,
+   "to": 1560,
+   "density": 0.7,
+   "grain_m": 52,
+   "grow_from": [
+    41.011,
+    28.97
+   ]
+  },
+  {
+   "name": "Eyüp (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.0525,
+     28.93
+    ],
+    [
+     41.0525,
+     28.939
+    ],
+    [
+     41.045,
+     28.939
+    ],
+    [
+     41.045,
+     28.93
+    ]
+   ],
+   "from": 1458,
+   "to": 1520,
+   "density": 0.55,
+   "grain_m": 60,
+   "grow_from": [
+    41.048,
+    28.934
+   ]
+  },
+  {
+   "name": "Üsküdar (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.03,
+     29.008
+    ],
+    [
+     41.03,
+     29.025
+    ],
+    [
+     41.018,
+     29.028
+    ],
+    [
+     41.015,
+     29.015
+    ],
+    [
+     41.02,
+     29.008
+    ]
+   ],
+   "from": 1460,
+   "to": 1580,
+   "density": 0.6,
+   "grain_m": 55,
+   "grow_from": [
+    41.025,
+    29.015
+   ]
+  },
+  {
+   "name": "Pera (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.0262,
+     28.973
+    ],
+    [
+     41.03,
+     28.97
+    ],
+    [
+     41.037,
+     28.976
+    ],
+    [
+     41.037,
+     28.988
+    ],
+    [
+     41.03,
+     28.99
+    ],
+    [
+     41.0262,
+     28.981
+    ]
+   ],
+   "from": 1500,
+   "to": 1620,
+   "density": 0.6,
+   "grain_m": 52,
+   "grow_from": [
+    41.03,
+    28.977
+   ]
+  },
+  {
+   "name": "Rebuilt after the 1660 fire (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.009,
+     28.958
+    ],
+    [
+     41.0225,
+     28.958
+    ],
+    [
+     41.0225,
+     28.976
+    ],
+    [
+     41.009,
+     28.976
+    ]
+   ],
+   "from": 1661,
+   "to": 1690,
+   "density": 0.75,
+   "grain_m": 52,
+   "grow_from": [
+    41.016,
+    28.968
+   ]
+  },
+  {
+   "name": "Bosphorus villages, European shore (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.03,
+     28.99
+    ],
+    [
+     41.045,
+     29.0
+    ],
+    [
+     41.05,
+     29.03
+    ],
+    [
+     41.07,
+     29.042
+    ],
+    [
+     41.088,
+     29.056
+    ],
+    [
+     41.088,
+     29.05
+    ],
+    [
+     41.07,
+     29.035
+    ],
+    [
+     41.05,
+     29.02
+    ],
+    [
+     41.042,
+     28.995
+    ]
+   ],
+   "from": 1600,
+   "to": 1850,
+   "density": 0.4,
+   "grain_m": 60,
+   "grow_from": [
+    41.042,
+    29.005
+   ]
+  },
+  {
+   "name": "Bosphorus villages, Asian shore (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     41.03,
+     29.025
+    ],
+    [
+     41.045,
+     29.042
+    ],
+    [
+     41.07,
+     29.062
+    ],
+    [
+     41.085,
+     29.07
+    ],
+    [
+     41.085,
+     29.078
+    ],
+    [
+     41.07,
+     29.07
+    ],
+    [
+     41.045,
+     29.05
+    ],
+    [
+     41.03,
+     29.033
+    ]
+   ],
+   "from": 1600,
+   "to": 1850,
+   "density": 0.4,
+   "grain_m": 60,
+   "grow_from": [
+    41.04,
+    29.035
+   ]
+  },
+  {
+   "name": "Pera rebuilt after 1870 (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     41.0262,
+     28.973
+    ],
+    [
+     41.03,
+     28.97
+    ],
+    [
+     41.037,
+     28.976
+    ],
+    [
+     41.037,
+     28.988
+    ],
+    [
+     41.03,
+     28.99
+    ],
+    [
+     41.0262,
+     28.981
+    ]
+   ],
+   "from": 1871,
+   "to": 1900,
+   "density": 0.8,
+   "grain_m": 50,
+   "grow_from": [
+    41.033,
+    28.978
+   ]
+  },
+  {
+   "name": "Kadıköy and Moda (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     41.0,
+     29.015
+    ],
+    [
+     41.005,
+     29.04
+    ],
+    [
+     40.99,
+     29.055
+    ],
+    [
+     40.975,
+     29.045
+    ],
+    [
+     40.98,
+     29.025
+    ]
+   ],
+   "from": 1860,
+   "to": 1920,
+   "density": 0.55,
+   "grain_m": 60,
+   "grow_from": [
+    40.99,
+    29.03
+   ]
+  },
+  {
+   "name": "Şişli and Nişantaşı (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     41.037,
+     28.976
+    ],
+    [
+     41.07,
+     28.98
+    ],
+    [
+     41.075,
+     29.005
+    ],
+    [
+     41.045,
+     29.0
+    ],
+    [
+     41.037,
+     28.988
+    ]
+   ],
+   "from": 1880,
+   "to": 1950,
+   "density": 0.6,
+   "grain_m": 60,
+   "grow_from": [
+    41.048,
+    28.987
+   ]
+  },
+  {
+   "name": "Western shore suburbs (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     40.995,
+     28.915
+    ],
+    [
+     40.985,
+     28.88
+    ],
+    [
+     40.975,
+     28.83
+    ],
+    [
+     40.985,
+     28.81
+    ],
+    [
+     41.005,
+     28.85
+    ],
+    [
+     41.015,
+     28.9
+    ],
+    [
+     41.01,
+     28.918
+    ]
+   ],
+   "from": 1950,
+   "to": 1975,
+   "density": 0.5,
+   "grain_m": 100,
+   "grow_from": [
+    41.0,
+    28.88
+   ]
+  },
+  {
+   "name": "Asian shore suburbs (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     40.99,
+     29.055
+    ],
+    [
+     40.975,
+     29.1
+    ],
+    [
+     40.95,
+     29.14
+    ],
+    [
+     40.915,
+     29.18
+    ],
+    [
+     40.89,
+     29.24
+    ],
+    [
+     40.87,
+     29.3
+    ],
+    [
+     40.895,
+     29.31
+    ],
+    [
+     40.93,
+     29.24
+    ],
+    [
+     40.97,
+     29.17
+    ],
+    [
+     41.005,
+     29.11
+    ],
+    [
+     41.02,
+     29.05
+    ],
+    [
+     41.005,
+     29.04
+    ]
+   ],
+   "from": 1955,
+   "to": 1990,
+   "density": 0.45,
+   "grain_m": 110,
+   "grow_from": [
+    40.98,
+    29.07
+   ]
+  },
+  {
+   "name": "Greater Istanbul (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     41.2,
+     28.6
+    ],
+    [
+     41.17,
+     28.8
+    ],
+    [
+     41.2,
+     28.95
+    ],
+    [
+     41.18,
+     29.04
+    ],
+    [
+     41.14,
+     29.1
+    ],
+    [
+     41.15,
+     29.2
+    ],
+    [
+     41.08,
+     29.3
+    ],
+    [
+     40.92,
+     29.38
+    ],
+    [
+     40.86,
+     29.35
+    ],
+    [
+     40.9,
+     29.2
+    ],
+    [
+     40.96,
+     29.09
+    ],
+    [
+     40.98,
+     28.85
+    ],
+    [
+     40.97,
+     28.65
+    ],
+    [
+     41.01,
+     28.58
+    ]
+   ],
+   "from": 1960,
+   "to": 2015,
+   "density": 0.35,
+   "grain_m": 230,
+   "grow_from": [
+    41.03,
+    28.98
+   ],
+   "holes": [
+    [
+     [
+      40.991,
+      28.922
+     ],
+     [
+      40.999,
+      28.9225
+     ],
+     [
+      41.0058,
+      28.9212
+     ],
+     [
+      41.0118,
+      28.92
+     ],
+     [
+      41.0192,
+      28.921
+     ],
+     [
+      41.0245,
+      28.9268
+     ],
+     [
+      41.0297,
+      28.935
+     ],
+     [
+      41.0336,
+      28.941
+     ],
+     [
+      41.0412,
+      28.944
+     ],
+     [
+      41.0352,
+      28.9475
+     ],
+     [
+      41.0262,
+      28.9555
+     ],
+     [
+      41.0232,
+      28.9595
+     ],
+     [
+      41.0178,
+      28.9705
+     ],
+     [
+      41.017,
+      28.979
+     ],
+     [
+      41.0162,
+      28.987
+     ],
+     [
+      41.012,
+      28.9885
+     ],
+     [
+      41.0035,
+      28.9825
+     ],
+     [
+      41.001,
+      28.96
+     ],
+     [
+      40.996,
+      28.933
+     ]
+    ],
+    [
+     [
+      41.0225,
+      28.9668
+     ],
+     [
+      41.0248,
+      28.9702
+     ],
+     [
+      41.0258,
+      28.9742
+     ],
+     [
+      41.0262,
+      28.9778
+     ],
+     [
+      41.025,
+      28.981
+     ],
+     [
+      41.023,
+      28.98
+     ],
+     [
+      41.0218,
+      28.974
+     ]
+    ],
+    [
+     [
+      41.0262,
+      28.973
+     ],
+     [
+      41.03,
+      28.97
+     ],
+     [
+      41.037,
+      28.976
+     ],
+     [
+      41.037,
+      28.988
+     ],
+     [
+      41.03,
+      28.99
+     ],
+     [
+      41.0262,
+      28.981
+     ]
+    ],
+    [
+     [
+      41.03,
+      29.008
+     ],
+     [
+      41.03,
+      29.025
+     ],
+     [
+      41.018,
+      29.028
+     ],
+     [
+      41.015,
+      29.015
+     ],
+     [
+      41.02,
+      29.008
+     ]
+    ],
+    [
+     [
+      41.0,
+      29.015
+     ],
+     [
+      41.005,
+      29.04
+     ],
+     [
+      40.99,
+      29.055
+     ],
+     [
+      40.975,
+      29.045
+     ],
+     [
+      40.98,
+      29.025
+     ]
+    ],
+    [
+     [
+      41.037,
+      28.976
+     ],
+     [
+      41.07,
+      28.98
+     ],
+     [
+      41.075,
+      29.005
+     ],
+     [
+      41.045,
+      29.0
+     ],
+     [
+      41.037,
+      28.988
+     ]
+    ],
+    [
+     [
+      41.075,
+      29.0
+     ],
+     [
+      41.115,
+      29.015
+     ],
+     [
+      41.115,
+      29.03
+     ],
+     [
+      41.075,
+      29.02
+     ]
+    ],
+    [
+     [
+      40.995,
+      29.11
+     ],
+     [
+      40.995,
+      29.13
+     ],
+     [
+      40.98,
+      29.13
+     ],
+     [
+      40.98,
+      29.11
+     ]
+    ],
+    [
+     [
+      40.995,
+      28.915
+     ],
+     [
+      40.985,
+      28.88
+     ],
+     [
+      40.975,
+      28.83
+     ],
+     [
+      40.985,
+      28.81
+     ],
+     [
+      41.005,
+      28.85
+     ],
+     [
+      41.015,
+      28.9
+     ],
+     [
+      41.01,
+      28.918
+     ]
+    ],
+    [
+     [
+      40.99,
+      29.055
+     ],
+     [
+      40.975,
+      29.1
+     ],
+     [
+      40.95,
+      29.14
+     ],
+     [
+      40.915,
+      29.18
+     ],
+     [
+      40.89,
+      29.24
+     ],
+     [
+      40.87,
+      29.3
+     ],
+     [
+      40.895,
+      29.31
+     ],
+     [
+      40.93,
+      29.24
+     ],
+     [
+      40.97,
+      29.17
+     ],
+     [
+      41.005,
+      29.11
+     ],
+     [
+      41.02,
+      29.05
+     ],
+     [
+      41.005,
+      29.04
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Levent and Maslak (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     41.075,
+     29.0
+    ],
+    [
+     41.115,
+     29.015
+    ],
+    [
+     41.115,
+     29.03
+    ],
+    [
+     41.075,
+     29.02
+    ]
+   ],
+   "from": 1990,
+   "to": 2020,
+   "density": 0.5,
+   "grain_m": 110,
+   "grow_from": [
+    41.08,
+    29.01
+   ]
+  },
+  {
+   "name": "Ataşehir (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     40.995,
+     29.11
+    ],
+    [
+     40.995,
+     29.13
+    ],
+    [
+     40.98,
+     29.13
+    ],
+    [
+     40.98,
+     29.11
+    ]
+   ],
+   "from": 2005,
+   "to": 2022,
+   "density": 0.45,
+   "grain_m": 110,
+   "grow_from": [
+    40.988,
+    29.12
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Walls of Byzantion (≈ course)",
+   "path": [
+    [
+     41.016,
+     28.9768
+    ],
+    [
+     41.0122,
+     28.9766
+    ],
+    [
+     41.0088,
+     28.9774
+    ],
+    [
+     41.0052,
+     28.9792
+    ]
+   ],
+   "built": -640,
+   "removed": 196.3,
+   "height": "low",
+   "towers_m": 110,
+   "draw_s": 3.0
+  },
+  {
+   "name": "Severan wall (≈ course)",
+   "path": [
+    [
+     41.0172,
+     28.9712
+    ],
+    [
+     41.0132,
+     28.9702
+    ],
+    [
+     41.0103,
+     28.9705
+    ],
+    [
+     41.0068,
+     28.9715
+    ],
+    [
+     41.0042,
+     28.973
+    ],
+    [
+     41.0028,
+     28.9748
+    ]
+   ],
+   "built": 203,
+   "removed": 400,
+   "height": "mid",
+   "towers_m": 120,
+   "draw_s": 3.0
+  },
+  {
+   "name": "Constantinian wall (≈ course)",
+   "path": [
+    [
+     41.0228,
+     28.9598
+    ],
+    [
+     41.0205,
+     28.9545
+    ],
+    [
+     41.017,
+     28.9505
+    ],
+    [
+     41.012,
+     28.9472
+    ],
+    [
+     41.007,
+     28.9456
+    ],
+    [
+     41.0012,
+     28.945
+    ]
+   ],
+   "built": 324.5,
+   "removed": 900,
+   "height": "mid",
+   "towers_m": 130,
+   "draw_s": 4.0
+  },
+  {
+   "name": "Theodosian land walls",
+   "path": [
+    [
+     40.9912,
+     28.9212
+    ],
+    [
+     40.99335,
+     28.92309
+    ],
+    [
+     40.999,
+     28.9218
+    ],
+    [
+     41.0058,
+     28.9205
+    ],
+    [
+     41.0118,
+     28.9194
+    ],
+    [
+     41.0192,
+     28.9203
+    ],
+    [
+     41.0245,
+     28.9262
+    ],
+    [
+     41.0297,
+     28.9343
+    ],
+    [
+     41.0336,
+     28.9404
+    ],
+    [
+     41.0378,
+     28.9418
+    ],
+    [
+     41.0412,
+     28.9433
+    ]
+   ],
+   "built": 412.8,
+   "height": "high",
+   "towers_m": 60,
+   "double": true,
+   "double_side": -1,
+   "moat": true,
+   "draw_s": 6.0
+  },
+  {
+   "name": "Sea walls, Golden Horn (≈ shore)",
+   "path": [
+    [
+     41.0412,
+     28.9433
+    ],
+    [
+     41.0352,
+     28.9468
+    ],
+    [
+     41.0303,
+     28.95
+    ],
+    [
+     41.0262,
+     28.955
+    ],
+    [
+     41.0226,
+     28.961
+    ],
+    [
+     41.0178,
+     28.9705
+    ],
+    [
+     41.017,
+     28.979
+    ],
+    [
+     41.0162,
+     28.9858
+    ]
+   ],
+   "built": 439,
+   "height": "low",
+   "towers_m": 55,
+   "draw_s": 5.0
+  },
+  {
+   "name": "Sea walls, Marmara (≈ shore)",
+   "path": [
+    [
+     41.0162,
+     28.9858
+    ],
+    [
+     41.012,
+     28.9872
+    ],
+    [
+     41.004,
+     28.9822
+    ],
+    [
+     41.0026,
+     28.97
+    ],
+    [
+     41.002,
+     28.964
+    ],
+    [
+     41.001,
+     28.95
+    ],
+    [
+     40.9985,
+     28.938
+    ],
+    [
+     40.9945,
+     28.929
+    ],
+    [
+     40.9912,
+     28.9212
+    ]
+   ],
+   "built": 439,
+   "height": "low",
+   "towers_m": 50,
+   "draw_s": 5.0
+  },
+  {
+   "name": "Genoese walls of Galata (≈ course)",
+   "path": [
+    [
+     41.0228,
+     28.967
+    ],
+    [
+     41.0248,
+     28.9705
+    ],
+    [
+     41.02566,
+     28.97416
+    ],
+    [
+     41.0262,
+     28.9775
+    ],
+    [
+     41.0252,
+     28.9805
+    ],
+    [
+     41.024,
+     28.9815
+    ]
+   ],
+   "built": 1300,
+   "removed": 1870,
+   "height": "mid",
+   "towers_m": 80,
+   "draw_s": 3.0
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Hayratiye Bridge (pontoon, ≈ ends)",
+   "path": [
+    [
+     41.0218,
+     28.9625
+    ],
+    [
+     41.0262,
+     28.9682
+    ]
+   ],
+   "built": 1836.67,
+   "removed": 1936,
+   "style": "wood",
+   "width_m": 14
+  },
+  {
+   "name": "Atatürk Bridge (≈ ends)",
+   "path": [
+    [
+     41.0218,
+     28.9625
+    ],
+    [
+     41.0262,
+     28.9682
+    ]
+   ],
+   "built": 1940,
+   "style": "iron",
+   "width_m": 25
+  },
+  {
+   "name": "Galata Bridge, wooden (≈ ends)",
+   "path": [
+    [
+     41.0172,
+     28.9724
+    ],
+    [
+     41.0228,
+     28.9742
+    ]
+   ],
+   "built": 1845,
+   "removed": 1875,
+   "style": "wood",
+   "width_m": 14
+  },
+  {
+   "name": "Galata Bridge, 1875 and 1912 (≈ ends)",
+   "path": [
+    [
+     41.0172,
+     28.9724
+    ],
+    [
+     41.0228,
+     28.9742
+    ]
+   ],
+   "built": 1875,
+   "removed": 1992,
+   "style": "iron",
+   "width_m": 25
+  },
+  {
+   "name": "Galata Bridge, 1994 (≈ ends)",
+   "path": [
+    [
+     41.0172,
+     28.9724
+    ],
+    [
+     41.0228,
+     28.9742
+    ]
+   ],
+   "built": 1994,
+   "style": "modern",
+   "width_m": 42
+  },
+  {
+   "name": "Bosphorus Bridge (≈ ends from centre)",
+   "path": [
+    [
+     41.0478,
+     29.0262
+    ],
+    [
+     41.0428,
+     29.0428
+    ]
+   ],
+   "built": 1973.6,
+   "style": "modern",
+   "width_m": 40
+  },
+  {
+   "name": "Fatih Sultan Mehmet Bridge (≈ ends from centre)",
+   "path": [
+    [
+     41.092,
+     29.054
+    ],
+    [
+     41.0905,
+     29.07
+    ]
+   ],
+   "built": 1988.4,
+   "style": "modern",
+   "width_m": 40
+  },
+  {
+   "name": "Yavuz Sultan Selim Bridge (≈ ends from centre)",
+   "path": [
+    [
+     41.204,
+     29.098
+    ],
+    [
+     41.2022,
+     29.1255
+    ]
+   ],
+   "built": 2016.6,
+   "style": "modern",
+   "width_m": 58
+  }
+ ],
+ "roads": [
+  {
+   "name": "Mese (≈)",
+   "path": [
+    [
+     41.008,
+     28.9782
+    ],
+    [
+     41.00861,
+     28.97111
+    ],
+    [
+     41.0098,
+     28.964
+    ],
+    [
+     41.0085,
+     28.955
+    ],
+    [
+     41.006,
+     28.946
+    ],
+    [
+     41.001,
+     28.933
+    ],
+    [
+     40.994,
+     28.924
+    ]
+   ],
+   "from": 203,
+   "kind": "roman",
+   "width_m": 22
+  },
+  {
+   "name": "Mese, northern branch (≈)",
+   "path": [
+    [
+     41.0085,
+     28.955
+    ],
+    [
+     41.014,
+     28.948
+    ],
+    [
+     41.02,
+     28.942
+    ],
+    [
+     41.026,
+     28.937
+    ],
+    [
+     41.0297,
+     28.9343
+    ]
+   ],
+   "from": 413,
+   "kind": "roman",
+   "width_m": 18
+  },
+  {
+   "name": "Railway along the Marmara (≈)",
+   "path": [
+    [
+     41.015,
+     28.9772
+    ],
+    [
+     41.016,
+     28.984
+    ],
+    [
+     41.011,
+     28.9862
+    ],
+    [
+     41.0042,
+     28.9815
+    ],
+    [
+     41.003,
+     28.97
+    ],
+    [
+     41.004,
+     28.955
+    ],
+    [
+     40.9995,
+     28.94
+    ],
+    [
+     40.995,
+     28.93
+    ],
+    [
+     40.994,
+     28.915
+    ],
+    [
+     40.985,
+     28.88
+    ],
+    [
+     40.978,
+     28.85
+    ]
+   ],
+   "from": 1872,
+   "kind": "rail",
+   "width_m": 18
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "temple",
+   "name": {
+    "en": "Acropolis of Byzantion (≈)",
+    "tr": "Byzantion Akropolü"
+   },
+   "at": [
+    41.0128,
+    28.984
+   ],
+   "built": -620,
+   "removed": 1459,
+   "rise_s": 5,
+   "size_m": [
+    40,
+    22,
+    14
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d9d0bb",
+    "roof": "#9c6b4e"
+   }
+  },
+  {
+   "type": "circus",
+   "name": {
+    "en": "Hippodrome",
+    "tr": "Hipodrom"
+   },
+   "at": [
+    41.00639,
+    28.97583
+   ],
+   "built": 203,
+   "removed": 1500,
+   "rise_s": 8,
+   "size_m": [
+    450,
+    130,
+    14
+   ],
+   "rot_deg": -58,
+   "colors": {
+    "wall": "#cfc4ac"
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Column of Constantine",
+    "tr": "Çemberlitaş"
+   },
+   "at": [
+    41.00861,
+    28.97111
+   ],
+   "built": 328,
+   "rise_s": 4,
+   "size_m": [
+    6,
+    6,
+    50
+   ],
+   "colors": {
+    "wall": "#a58a6a"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Great Church (first Hagia Sophia)",
+    "tr": "Büyük Kilise (ilk Ayasofya)"
+   },
+   "at": [
+    41.00833,
+    28.98
+   ],
+   "built": 355,
+   "removed": 532.04,
+   "rise_s": 5,
+   "size_m": [
+    80,
+    45,
+    30
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d6cdb8",
+    "roof": "#7d6a58"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "at": [
+    41.00833,
+    28.98
+   ],
+   "built": 532.15,
+   "rise_s": 10,
+   "size_m": [
+    82,
+    73,
+    55
+   ],
+   "rot_deg": 0,
+   "scale": 1.4,
+   "colors": {
+    "wall": "#c9a98a",
+    "roof": "#8c939a"
+   },
+   "additions": [
+    {
+     "type": "minarets",
+     "year": 1577,
+     "count": 4,
+     "spread_m": 62,
+     "height_m": 60
+    }
+   ]
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Aqueduct of Valens",
+    "tr": "Bozdoğan Kemeri"
+   },
+   "at": [
+    41.015944,
+    28.95556
+   ],
+   "built": 368,
+   "rise_s": 5,
+   "size_m": [
+    921,
+    10,
+    29
+   ],
+   "rot_deg": -12,
+   "colors": {
+    "wall": "#b39a7a"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Golden Gate",
+    "tr": "Altınkapı"
+   },
+   "at": [
+    40.99335,
+    28.92309
+   ],
+   "built": 410,
+   "rise_s": 4,
+   "size_m": [
+    45,
+    25,
+    22
+   ],
+   "colors": {
+    "wall": "#d8cdb5",
+    "roof": "#7c7468"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Yedikule Fortress",
+    "tr": "Yedikule Hisarı"
+   },
+   "at": [
+    40.99335,
+    28.92309
+   ],
+   "built": 1458,
+   "rise_s": 4,
+   "size_m": [
+    170,
+    130,
+    25
+   ],
+   "colors": {
+    "wall": "#cfc4ac"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Galata Tower",
+    "tr": "Galata Kulesi"
+   },
+   "at": [
+    41.0256556,
+    28.9741556
+   ],
+   "built": 1348,
+   "rise_s": 5,
+   "size_m": [
+    16,
+    16,
+    63
+   ],
+   "colors": {
+    "wall": "#b7aa95",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Anadoluhisarı",
+    "tr": "Anadoluhisarı"
+   },
+   "at": [
+    41.081944,
+    29.066944
+   ],
+   "built": 1393,
+   "rise_s": 5,
+   "size_m": [
+    80,
+    60,
+    22
+   ],
+   "colors": {
+    "wall": "#b8aa92"
+   },
+   "scale": 1.5
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Rumelihisarı",
+    "tr": "Rumelihisarı"
+   },
+   "at": [
+    41.084722,
+    29.056111
+   ],
+   "built": 1452.29,
+   "rise_s": 6,
+   "size_m": [
+    250,
+    130,
+    28
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#b8aa92"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Topkapı Palace",
+    "tr": "Topkapı Sarayı"
+   },
+   "at": [
+    41.013,
+    28.984
+   ],
+   "built": 1459,
+   "rise_s": 10,
+   "size_m": [
+    300,
+    200,
+    16
+   ],
+   "rot_deg": -30,
+   "colors": {
+    "wall": "#ece4d2",
+    "roof": "#8a8f95"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Grand Bazaar",
+    "tr": "Kapalıçarşı"
+   },
+   "at": [
+    41.0105806,
+    28.9679333
+   ],
+   "built": 1456,
+   "rise_s": 6,
+   "size_m": [
+    200,
+    150,
+    12
+   ],
+   "rot_deg": -10,
+   "colors": {
+    "wall": "#d2c5aa",
+    "roof": "#8a8f95"
+   }
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Eyüp Sultan Mosque",
+    "tr": "Eyüp Sultan Camii"
+   },
+   "at": [
+    41.0479472,
+    28.9337861
+   ],
+   "built": 1458,
+   "rise_s": 5,
+   "size_m": [
+    40,
+    40,
+    16
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "minarets": 2
+   }
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Fatih Mosque",
+    "tr": "Fatih Camii"
+   },
+   "at": [
+    41.01972,
+    28.94972
+   ],
+   "built": 1463,
+   "removed": 1766.39,
+   "rise_s": 8,
+   "size_m": [
+    60,
+    60,
+    22
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "minarets": 2
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Fatih Mosque (rebuilt)",
+    "tr": "Fatih Camii (yeniden)"
+   },
+   "at": [
+    41.01972,
+    28.94972
+   ],
+   "built": 1767,
+   "rise_s": 8,
+   "size_m": [
+    60,
+    60,
+    22
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "minarets": 2
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Süleymaniye Mosque",
+    "tr": "Süleymaniye Camii"
+   },
+   "at": [
+    41.01611,
+    28.96389
+   ],
+   "built": 1550,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    60,
+    26
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "minarets": 4
+   },
+   "scale": 1.4
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Sultan Ahmed Mosque",
+    "tr": "Sultanahmet Camii"
+   },
+   "at": [
+    41.0053851,
+    28.9768247
+   ],
+   "built": 1609,
+   "rise_s": 10,
+   "size_m": [
+    73,
+    65,
+    24
+   ],
+   "colors": {
+    "wall": "#ece6d8",
+    "minarets": 6
+   },
+   "scale": 1.4
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Dolmabahçe Palace",
+    "tr": "Dolmabahçe Sarayı"
+   },
+   "at": [
+    41.0390472,
+    29.0005035
+   ],
+   "built": 1843,
+   "rise_s": 12,
+   "size_m": [
+    280,
+    70,
+    22
+   ],
+   "rot_deg": -50,
+   "colors": {
+    "wall": "#efe9dc",
+    "roof": "#7d8790"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Sirkeci Station",
+    "tr": "Sirkeci Garı"
+   },
+   "at": [
+    41.015,
+    28.977222
+   ],
+   "built": 1888.1,
+   "rise_s": 6,
+   "size_m": [
+    110,
+    30,
+    18
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d7c3a5",
+    "roof": "#59656a"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 196.3,
+   "poly": [
+    [
+     41.0168,
+     28.9775
+    ],
+    [
+     41.013,
+     28.9768
+    ],
+    [
+     41.009,
+     28.9778
+    ],
+    [
+     41.0055,
+     28.9798
+    ],
+    [
+     41.006,
+     28.984
+    ],
+    [
+     41.01,
+     28.9885
+    ],
+    [
+     41.014,
+     28.989
+    ],
+    [
+     41.0172,
+     28.987
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  },
+  {
+   "year": 532.04,
+   "poly": [
+    [
+     41.0045,
+     28.973
+    ],
+    [
+     41.011,
+     28.973
+    ],
+    [
+     41.011,
+     28.983
+    ],
+    [
+     41.0045,
+     28.983
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  },
+  {
+   "year": 1204.28,
+   "poly": [
+    [
+     41.0235,
+     28.958
+    ],
+    [
+     41.018,
+     28.97
+    ],
+    [
+     41.013,
+     28.968
+    ],
+    [
+     41.017,
+     28.952
+    ],
+    [
+     41.023,
+     28.948
+    ]
+   ],
+   "duration_s": 7,
+   "plumes": 6,
+   "plume_scale": 1.5
+  },
+  {
+   "year": 1660.56,
+   "poly": [
+    [
+     41.0225,
+     28.958
+    ],
+    [
+     41.0175,
+     28.972
+    ],
+    [
+     41.014,
+     28.976
+    ],
+    [
+     41.008,
+     28.97
+    ],
+    [
+     41.005,
+     28.956
+    ],
+    [
+     41.009,
+     28.945
+    ],
+    [
+     41.018,
+     28.947
+    ]
+   ],
+   "duration_s": 10,
+   "plumes": 9,
+   "plume_scale": 1.8
+  },
+  {
+   "year": 1870.43,
+   "poly": [
+    [
+     41.029,
+     28.974
+    ],
+    [
+     41.035,
+     28.974
+    ],
+    [
+     41.035,
+     28.984
+    ],
+    [
+     41.029,
+     28.984
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     41.008,
+     28.96
+    ],
+    [
+     41.016,
+     28.96
+    ],
+    [
+     41.016,
+     28.97
+    ],
+    [
+     41.008,
+     28.97
+    ]
+   ],
+   "from": -340,
+   "to": -339.2,
+   "count": 120
+  },
+  {
+   "poly": [
+    [
+     41.0,
+     28.895
+    ],
+    [
+     41.035,
+     28.895
+    ],
+    [
+     41.035,
+     28.912
+    ],
+    [
+     41.0,
+     28.912
+    ]
+   ],
+   "from": 626,
+   "to": 627,
+   "count": 260
+  },
+  {
+   "poly": [
+    [
+     41.0,
+     28.895
+    ],
+    [
+     41.035,
+     28.895
+    ],
+    [
+     41.035,
+     28.912
+    ],
+    [
+     41.0,
+     28.912
+    ]
+   ],
+   "from": 717,
+   "to": 718.6,
+   "count": 260
+  },
+  {
+   "poly": [
+    [
+     40.995,
+     28.9
+    ],
+    [
+     41.038,
+     28.9
+    ],
+    [
+     41.038,
+     28.915
+    ],
+    [
+     40.995,
+     28.915
+    ]
+   ],
+   "from": 1453.25,
+   "to": 1453.42,
+   "count": 400
+  },
+  {
+   "poly": [
+    [
+     41.03,
+     28.96
+    ],
+    [
+     41.042,
+     28.96
+    ],
+    [
+     41.042,
+     28.975
+    ],
+    [
+     41.03,
+     28.975
+    ]
+   ],
+   "from": 1453.25,
+   "to": 1453.42,
+   "count": 120
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    41.02,
+    28.9195
+   ],
+   "from": 1453.26,
+   "to": 1453.41,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    41.03,
+    28.933
+   ],
+   "from": 1453.27,
+   "to": 1453.41,
+   "scale": 1.2
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Hippodrome square (Atmeydanı)",
+   "poly": [
+    [
+     41.0075,
+     28.9765
+    ],
+    [
+     41.0045,
+     28.9735
+    ],
+    [
+     41.004,
+     28.9745
+    ],
+    [
+     41.007,
+     28.9775
+    ]
+   ]
+  },
+  {
+   "name": "Topkapı gardens / Gülhane (≈)",
+   "poly": [
+    [
+     41.0165,
+     28.98
+    ],
+    [
+     41.013,
+     28.9795
+    ],
+    [
+     41.011,
+     28.981
+    ],
+    [
+     41.0125,
+     28.984
+    ],
+    [
+     41.016,
+     28.9845
+    ]
+   ]
+  },
+  {
+   "name": "Belgrad Forest (≈)",
+   "poly": [
+    [
+     41.22,
+     28.9
+    ],
+    [
+     41.22,
+     29.01
+    ],
+    [
+     41.15,
+     29.01
+    ],
+    [
+     41.15,
+     28.9
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "GOLDEN HORN",
+    "tr": "HALİÇ"
+   },
+   "at": [
+    41.03,
+    28.956
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "BOSPHORUS",
+    "tr": "BOĞAZİÇİ"
+   },
+   "at": [
+    41.062,
+    29.045
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "SEA OF MARMARA",
+    "tr": "MARMARA DENİZİ"
+   },
+   "at": [
+    40.985,
+    28.98
+   ],
+   "kind": "water"
+  },
+  {
+   "text": {
+    "en": "BLACK SEA",
+    "tr": "KARADENİZ"
+   },
+   "at": [
+    41.27,
+    29.05
+   ],
+   "kind": "water",
+   "from": 1950
+  },
+  {
+   "text": {
+    "en": "Byzantion",
+    "tr": "Byzantion"
+   },
+   "at": [
+    41.0115,
+    28.983
+   ],
+   "kind": "place",
+   "from": -660,
+   "to": -341,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Chalcedon",
+    "tr": "Kalkedon"
+   },
+   "at": [
+    40.991,
+    29.027
+   ],
+   "kind": "place",
+   "from": -660,
+   "to": -480
+  },
+  {
+   "text": {
+    "en": "EUROPE",
+    "tr": "AVRUPA"
+   },
+   "at": [
+    41.05,
+    28.93
+   ],
+   "kind": "region",
+   "from": -513,
+   "to": -480
+  },
+  {
+   "text": {
+    "en": "ASIA",
+    "tr": "ASYA"
+   },
+   "at": [
+    41.02,
+    29.07
+   ],
+   "kind": "region",
+   "from": -513,
+   "to": -480
+  },
+  {
+   "text": {
+    "en": "Hippodrome",
+    "tr": "Hipodrom"
+   },
+   "at": [
+    41.00639,
+    28.97583
+   ],
+   "from": 204,
+   "to": 323,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Constantine's wall",
+    "tr": "Konstantin Suru"
+   },
+   "at": [
+    41.012,
+    28.9472
+   ],
+   "kind": "place",
+   "from": 325,
+   "to": 329,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Column of Constantine",
+    "tr": "Çemberlitaş"
+   },
+   "at": [
+    41.00861,
+    28.97111
+   ],
+   "from": 330,
+   "to": 359,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "at": [
+    41.00833,
+    28.98
+   ],
+   "from": 361,
+   "to": 367,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Aqueduct of Valens",
+    "tr": "Bozdoğan Kemeri"
+   },
+   "at": [
+    41.015944,
+    28.95556
+   ],
+   "from": 369,
+   "to": 412,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Golden Gate",
+    "tr": "Altınkapı"
+   },
+   "at": [
+    40.99335,
+    28.92309
+   ],
+   "from": 414,
+   "to": 446,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Hippodrome",
+    "tr": "Hipodrom"
+   },
+   "at": [
+    41.00639,
+    28.97583
+   ],
+   "from": 532,
+   "to": 536,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Hagia Sophia",
+    "tr": "Ayasofya"
+   },
+   "at": [
+    41.00833,
+    28.98
+   ],
+   "from": 537.9,
+   "to": 540,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Galata",
+    "tr": "Galata"
+   },
+   "at": [
+    41.024,
+    28.976
+   ],
+   "kind": "place",
+   "from": 1204,
+   "to": 1347,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Galata Tower",
+    "tr": "Galata Kulesi"
+   },
+   "at": [
+    41.0256556,
+    28.9741556
+   ],
+   "from": 1349,
+   "to": 1392,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Anadoluhisarı",
+    "tr": "Anadoluhisarı"
+   },
+   "at": [
+    41.081944,
+    29.066944
+   ],
+   "from": 1394,
+   "to": 1453.25,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Rumelihisarı",
+    "tr": "Rumelihisarı"
+   },
+   "at": [
+    41.084722,
+    29.056111
+   ],
+   "from": 1452.4,
+   "to": 1453.25,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Galata",
+    "tr": "Galata"
+   },
+   "at": [
+    41.025,
+    28.976
+   ],
+   "kind": "place",
+   "from": 1453.31,
+   "to": 1453.4,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Topkapı Palace",
+    "tr": "Topkapı Sarayı"
+   },
+   "at": [
+    41.013,
+    28.984
+   ],
+   "from": 1460,
+   "to": 1469,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Fatih Mosque",
+    "tr": "Fatih Camii"
+   },
+   "at": [
+    41.01972,
+    28.94972
+   ],
+   "from": 1470,
+   "to": 1508,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Süleymaniye",
+    "tr": "Süleymaniye"
+   },
+   "at": [
+    41.01611,
+    28.96389
+   ],
+   "from": 1556,
+   "to": 1608,
+   "lift_m": 90
+  },
+  {
+   "text": {
+    "en": "Sultan Ahmed Mosque",
+    "tr": "Sultanahmet Camii"
+   },
+   "at": [
+    41.0053851,
+    28.9768247
+   ],
+   "from": 1616,
+   "to": 1659,
+   "lift_m": 90
+  },
+  {
+   "text": {
+    "en": "Fatih Mosque",
+    "tr": "Fatih Camii"
+   },
+   "at": [
+    41.01972,
+    28.94972
+   ],
+   "from": 1771,
+   "to": 1835,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Unkapanı",
+    "tr": "Unkapanı"
+   },
+   "at": [
+    41.0215,
+    28.961
+   ],
+   "kind": "place",
+   "from": 1836.7,
+   "to": 1844,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Eminönü",
+    "tr": "Eminönü"
+   },
+   "at": [
+    41.0165,
+    28.9725
+   ],
+   "kind": "place",
+   "from": 1845,
+   "to": 1855,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Karaköy",
+    "tr": "Karaköy"
+   },
+   "at": [
+    41.0235,
+    28.9765
+   ],
+   "kind": "place",
+   "from": 1845,
+   "to": 1855,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Dolmabahçe Palace",
+    "tr": "Dolmabahçe Sarayı"
+   },
+   "at": [
+    41.0390472,
+    29.0005035
+   ],
+   "from": 1856,
+   "to": 1869,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Pera",
+    "tr": "Pera"
+   },
+   "at": [
+    41.033,
+    28.978
+   ],
+   "kind": "place",
+   "from": 1870,
+   "to": 1872,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Sirkeci",
+    "tr": "Sirkeci"
+   },
+   "at": [
+    41.015,
+    28.977222
+   ],
+   "kind": "place",
+   "from": 1873,
+   "to": 1913,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Ankara →",
+    "tr": "Ankara →"
+   },
+   "at": [
+    40.99,
+    29.15
+   ],
+   "kind": "region",
+   "from": 1923.8,
+   "to": 1935
+  },
+  {
+   "text": {
+    "en": "EUROPE",
+    "tr": "AVRUPA"
+   },
+   "at": [
+    41.07,
+    28.99
+   ],
+   "kind": "region",
+   "from": 1973,
+   "to": 1987
+  },
+  {
+   "text": {
+    "en": "ASIA",
+    "tr": "ASYA"
+   },
+   "at": [
+    41.03,
+    29.08
+   ],
+   "kind": "region",
+   "from": 1973,
+   "to": 1987
+  },
+  {
+   "text": {
+    "en": "Rumelihisarı",
+    "tr": "Rumelihisarı"
+   },
+   "at": [
+    41.084722,
+    29.056111
+   ],
+   "from": 1988,
+   "to": 1999,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Levent",
+    "tr": "Levent"
+   },
+   "at": [
+    41.08,
+    29.01
+   ],
+   "kind": "place",
+   "from": 2000,
+   "to": 2012,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Kadıköy",
+    "tr": "Kadıköy"
+   },
+   "at": [
+    40.991,
+    29.027
+   ],
+   "kind": "place",
+   "from": 2000,
+   "to": 2012
+  },
+  {
+   "text": {
+    "en": "Yenikapı",
+    "tr": "Yenikapı"
+   },
+   "at": [
+    41.004,
+    28.951
+   ],
+   "kind": "place",
+   "from": 2013,
+   "to": 2015,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Üsküdar",
+    "tr": "Üsküdar"
+   },
+   "at": [
+    41.026,
+    29.016
+   ],
+   "kind": "place",
+   "from": 2013,
+   "to": 2015,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Istanbul Airport",
+    "tr": "İstanbul Havalimanı"
+   },
+   "at": [
+    41.26222,
+    28.72778
+   ],
+   "kind": "place",
+   "from": 2018.8
+  },
+  {
+   "text": {
+    "en": "HISTORIC PENINSULA",
+    "tr": "TARİHİ YARIMADA"
+   },
+   "at": [
+    41.01,
+    28.95
+   ],
+   "kind": "region",
+   "from": 2025
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Istanbul: 2,700 Years in 15 Minutes (3D Timelapse)",
+   "tr": "İstanbul: 15 Dakikada 2.700 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "In the 7th century BC Greek colonists settled the point of land between the Golden Horn and the Sea of Marmara. Watch Byzantion become Constantine's Constantinople, rise behind the Theodosian Walls, build Hagia Sophia and survive siege after siege, until the crusaders sack it in 1204 and Mehmed II takes it in 1453. Then Ottoman Istanbul fills the peninsula with mosques, burns and rebuilds, bridges the Golden Horn and the Bosphorus, and grows into a city of over 15 million people on two continents, with the year and the population on screen.",
+   "tr": "MÖ 7. yüzyılda Yunan kolonistler Haliç ile Marmara Denizi arasındaki buruna yerleşti. Byzantion'un Konstantin'in Konstantinopolis'ine dönüşmesini, Theodosius Surları'nın ardında büyümesini, Ayasofya'yı inşa etmesini ve kuşatma üstüne kuşatma atlatmasını izleyin; ta ki Haçlılar 1204'te onu yağmalayana ve II. Mehmed 1453'te fethedene kadar. Ardından Osmanlı İstanbul'u yarımadayı camilerle doldurur, yanar ve yeniden kurulur, Haliç'e ve Boğaz'a köprüler kurar ve iki kıtada 15 milyonu aşkın insanın yaşadığı bir şehre dönüşür. Yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "istanbul history",
+   "history of istanbul",
+   "constantinople",
+   "byzantium",
+   "3d timelapse",
+   "city evolution",
+   "how istanbul grew",
+   "istanbul timelapse",
+   "fall of constantinople",
+   "theodosian walls",
+   "hagia sophia",
+   "ottoman empire",
+   "byzantine empire",
+   "urban history"
+  ],
+  "hashtags": [
+   "#Istanbul",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "thumb": {
+   "line1": {
+    "en": "Istanbul",
+    "tr": "İstanbul"
+   },
+   "line2": {
+    "en": "2,700 YEARS",
+    "tr": "2.700 YIL"
+   },
+   "line3": {
+    "en": "From Byzantion to megacity",
+    "tr": "Byzantion'dan megakente"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=41.0120,28.9700,5.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "Timeline of Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul"
+  },
+  {
+   "title": "History of Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Istanbul"
+  },
+  {
+   "title": "Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Istanbul"
+  },
+  {
+   "title": "Byzantium — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Byzantium"
+  },
+  {
+   "title": "Constantinople — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Constantinople"
+  },
+  {
+   "title": "Walls of Constantinople — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walls_of_Constantinople"
+  },
+  {
+   "title": "Fall of Constantinople — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+  },
+  {
+   "title": "Istanbul: Centuries of growth — Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Istanbul/Centuries-of-growth"
+  },
+  {
+   "title": "İstanbul Nüfusu: Fetihten XVIII. Yüzyıl Sonlarına Kadar — İstanbul Tarihi (İBB / İSAM)",
+   "url": "https://istanbultarihi.ist/assets/uploads/pdf/istanbul-nufusu-fetihten-xviii-yuzyil-sonlarina-kadar-94.pdf"
+  },
+  {
+   "title": "Cumhuriyet Sonrası İstanbul Demografisi — İstanbul Tarihi",
+   "url": "https://istanbultarihi.ist/assets/uploads/pdf/cumhuriyet-sonrasi-istanbul-demografisi-97.pdf"
+  },
+  {
+   "title": "Demographics of Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_Istanbul"
+  },
+  {
+   "title": "Istanbul region (statistical): census population — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Istanbul_region_(statistical)"
+  },
+  {
+   "title": "1927 Turkish census — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1927_Turkish_census"
+  },
+  {
+   "title": "TÜİK: Türkiye nüfusu 86 milyon 92 bin 168 kişi oldu — DHA, 9 Feb 2026",
+   "url": "https://www.dha.com.tr/gundem/tuik-turkiye-nufusu-86-milyon-92-bin-168-kisi-oldu-2815103"
+  },
+  {
+   "title": "Hagia Sophia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+  },
+  {
+   "title": "Hippodrome of Constantinople — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hippodrome_of_Constantinople"
+  },
+  {
+   "title": "Column of Constantine — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Column_of_Constantine"
+  },
+  {
+   "title": "Aqueduct of Valens — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Valens"
+  },
+  {
+   "title": "Yedikule Fortress — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yedikule_Fortress"
+  },
+  {
+   "title": "Galata Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata_Tower"
+  },
+  {
+   "title": "Anadoluhisarı — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Anadoluhisar%C4%B1"
+  },
+  {
+   "title": "Rumelihisarı — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rumelihisar%C4%B1"
+  },
+  {
+   "title": "Topkapı Palace — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace"
+  },
+  {
+   "title": "Grand Bazaar, Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul"
+  },
+  {
+   "title": "Fatih Mosque, Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatih_Mosque,_Istanbul"
+  },
+  {
+   "title": "Eyüp Sultan Mosque — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ey%C3%BCp_Sultan_Mosque"
+  },
+  {
+   "title": "1509 Constantinople earthquake — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1509_Constantinople_earthquake"
+  },
+  {
+   "title": "Süleymaniye Mosque — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque"
+  },
+  {
+   "title": "Blue Mosque, Istanbul — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Blue_Mosque,_Istanbul"
+  },
+  {
+   "title": "Great Fire of 1660 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_1660"
+  },
+  {
+   "title": "Galata Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Galata_Bridge"
+  },
+  {
+   "title": "Atatürk Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Atat%C3%BCrk_Bridge"
+  },
+  {
+   "title": "Dolmabahçe Palace — Republic of Türkiye Ministry of Culture and Tourism",
+   "url": "https://www.ktb.gov.tr/EN-113763/dolmabahce-palace.html"
+  },
+  {
+   "title": "Dolmabahçe Sarayı — Kültür Envanteri",
+   "url": "https://kulturenvanteri.com/en/yer/dolmabahce-sarayi/"
+  },
+  {
+   "title": "Sirkeci railway station — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sirkeci_railway_station"
+  },
+  {
+   "title": "Kadıköy — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kad%C4%B1k%C3%B6y"
+  },
+  {
+   "title": "Ayvansaray — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ayvansaray"
+  },
+  {
+   "title": "Bosphorus Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge"
+  },
+  {
+   "title": "List of bridges spanning the Bosphorus Strait — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_bridges_spanning_the_Bosphorus_Strait"
+  },
+  {
+   "title": "Fatih Sultan Mehmet Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fatih_Sultan_Mehmet_Bridge"
+  },
+  {
+   "title": "Yavuz Sultan Selim Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Yavuz_Sultan_Selim_Bridge"
+  },
+  {
+   "title": "Marmaray — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Marmaray"
+  },
+  {
+   "title": "Istanbul Airport — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Istanbul_Airport"
+  }
+ ]
+}
