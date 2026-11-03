@@ -36,6 +36,11 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    Hook line 1 ≤ 22 characters, facts in titles/descriptions only from research.md. Only as many as fit before the
    next long episode are rendered (Fri episode → Sat/Sun/Mon = 3, Tue episode → Wed/Thu = 2), in this order.
    Check with `python3 tools/shorts.py info <slug>`.
+   Channel review (3 Nov 2026): the Shorts bring the views (1,000+ each), the long episode far less, and almost nobody
+   subscribes. So: build every Short around **one turning point** (a fire, a siege, a boom) with a clear time promise in
+   the title ("… in 50 Seconds", "From X to Y"); the `description` must stay factual (it follows the link line, which
+   `tools/shorts.py` now puts first, plus a "which city next?" question). Do not renumber old titles; do not rework the
+   long episode's opening until a couple of weeks of data exist.
 4. `python3 tools/validate.py <slug>` until it prints OK. Fix every WARN you can.
 5. Commit + push (`episode: <slug> draft`). The **Preview** action builds the real map and commits 10 stills per
    language to `cities/<slug>/preview/` (~10–20 min). Poll: every 60 s `git pull -q`, until

@@ -125,9 +125,11 @@ def T(o, lang):
 
 def describe(city, sh, lang, long_link):
     yt = city.get('youtube', {})
-    lines = [T(sh.get('description', ''), lang).strip()]
-    if long_link:
-        lines += ['', ('▶ Full episode: ' if lang == 'en' else '▶ Tam bölüm: ') + long_link]
+    lines = []
+    if long_link:   # the link goes first: only the first lines show before "more", and it is the way from a Short to the long episode
+        lines += [('▶ Full episode: ' if lang == 'en' else '▶ Tam bölüm: ') + long_link, '']
+    lines += [T(sh.get('description', ''), lang).strip(), '',
+              {'en': 'Which city should I build next? Tell me in the comments.', 'tr': 'Sıradaki şehir hangisi olsun? Yorumlarda yaz.'}[lang]]
     lines += ['', {'en': 'Buildings are simplified symbols placed from historical maps and research; population figures before '
                          'modern censuses are scholarly estimates. Terrain: AWS Terrain Tiles; water: © OpenStreetMap contributors. Music: original.',
                    'tr': 'Binalar tarihî harita ve araştırmalara göre yerleştirilmiş sade sembollerdir; modern sayımlardan önceki nüfuslar '
