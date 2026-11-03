@@ -1,0 +1,9 @@
+osm rivers: kept 50, skipped 0 -> 56 outer / 0 inner rings
+osm lakes: 40 lakes >= 0.02 km2
+grid 631x481 @ 120 m
+elevation: zoom 11, tiles 6x5
+grid 561x481 @ 30 m
+elevation: zoom 13, tiles 5x5
+core layer 561 x 481
+wrote geo.json 631 x 481
+maps written to cities/istanbul/preview
