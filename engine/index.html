@@ -70,6 +70,7 @@
   html.short #br .sub{font-size:24px;line-height:1.25}
   html.short #endc{display:block;position:absolute;left:40px;right:40px;bottom:318px;text-align:center;font-family:Cinzel;font-weight:700;font-size:30px;letter-spacing:.06em;line-height:1.2}
   html.short #endc .s{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:26px;color:#f3c96b;letter-spacing:0;margin-top:6px}
+  html.short #endc .c{font-family:Cinzel;font-weight:700;font-size:21px;letter-spacing:.14em;color:#fff;opacity:.92;margin-top:16px}
   html.short .lab.place{font-size:13px}
   html.short .lab.water{font-size:19px}
   html.short .lab.region{font-size:14px}
@@ -92,7 +93,7 @@
   <div id="br" class="shadow"><div class="title"></div><div class="sub"></div></div>
   <div id="wm" class="shadow">DUST TO DOWNTOWN</div>
   <div id="hook" class="shadow"><div class="h1"></div><div class="h2"></div></div>
-  <div id="endc" class="shadow"><div class="m"></div><div class="s"></div></div>
+  <div id="endc" class="shadow"><div class="m"></div><div class="s"></div><div class="c"></div></div>
   <div id="thumb" class="shadow"><div class="shade"></div><div class="txt"><div class="l1"></div><div class="l2"></div><div class="l3"></div></div></div>
   <div id="intro" class="shadow"><div class="bg"></div><div class="name"></div><div class="line"></div><div class="tag"></div></div>
 </div>
@@ -242,6 +243,7 @@ function setupOverlay() {
     document.querySelector('#hook .h2').textContent = T(SHORT.hook?.line2 ?? '');
     document.querySelector('#endc .m').textContent = T(SHORT.end?.line1 ?? { en: 'FULL EPISODE ON THE CHANNEL', tr: 'TAM BÖLÜM KANALDA' }).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
     document.querySelector('#endc .s').textContent = T(SHORT.end?.line2 ?? '');
+    document.querySelector('#endc .c').textContent = T(SHORT.end?.line3 ?? { en: 'SUBSCRIBE FOR THE NEXT CITY', tr: 'SIRADAKİ ŞEHİR İÇİN ABONE OL' }).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
   }
   document.querySelector('#tr .popl').textContent = L.pop;
   document.querySelector('#intro .name').textContent = T(city.name).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
