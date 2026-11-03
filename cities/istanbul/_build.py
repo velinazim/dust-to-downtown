@@ -102,8 +102,11 @@ THEODOSIAN = [(40.9912, 28.9212), (40.99335, 28.92309), (40.9990, 28.9218), (41.
               (41.0412, 28.9433)]
 SEA_GH = [(41.0412, 28.9433), (41.0352, 28.9468), (41.0303, 28.9500), (41.0262, 28.9550), (41.0226, 28.9610),
           (41.0178, 28.9705), (41.0170, 28.9790), (41.0162, 28.9858)]
-SEA_MARMARA = [(41.0162, 28.9858), (41.0120, 28.9872), (41.0040, 28.9822), (41.0026, 28.9700), (41.0020, 28.9640),
-               (41.0010, 28.9500), (40.9985, 28.9380), (40.9945, 28.9290), (40.9912, 28.9212)]
+SEA_MARMARA = [(41.0162, 28.9858), (41.0120, 28.9872), (41.0040, 28.9822), (41.0026, 28.9700), (41.0020, 28.9640)]
+# Yenikapı: the modern shore is a 2010s landfill, so the wall keeps a hand trace along the old shore (≈) here
+SEA_YENIKAPI = [(41.0020, 28.9640), (41.0030, 28.9580), (41.0032, 28.9520), (41.0022, 28.9470), (41.0005, 28.9420), (40.9992, 28.9340)]
+SEA_MARMARA_W = [(40.9992, 28.9340), (40.9945, 28.9290), (40.9912, 28.9212)]
+YENIKAPI_FILL = [(41.0028, 28.9425), (41.0040, 28.9650), (40.9950, 28.9650), (40.9950, 28.9425)]
 GALATA_WALL = [(41.0228, 28.9670), (41.0248, 28.9705), (41.02566, 28.97416), (41.0262, 28.9775), (41.0252, 28.9805),
                (41.0240, 28.9815)]
 
@@ -112,13 +115,13 @@ walls = [
   "towers_m": 110, "draw_s": 3.0},
  {"name": "Severan wall (≈ course)", "path": L(land_wall(SEVERAN)), "built": 203, "removed": 400, "height": "mid", "towers_m": 120,
   "draw_s": 3.0},
- {"name": "Constantinian wall (≈ course)", "path": L(land_wall(CONSTANTINIAN)), "built": 324.5, "removed": 900, "height": "mid",
+ {"name": "Constantinian wall (≈ course)", "path": L(land_wall(CONSTANTINIAN)[:-1] + [(41.0020, 28.9452)]), "built": 324.5, "removed": 900, "height": "mid",
   "towers_m": 130, "draw_s": 4.0},
  {"name": "Theodosian land walls", "path": L(land_wall(THEODOSIAN)), "built": 412.8, "height": "high", "towers_m": 60,
-  "double": True, "double_side": -1, "moat": True, "draw_s": 6.0},
+  "double": True, "double_side": 1, "moat": True, "draw_s": 6.0},
  {"name": "Sea walls, Golden Horn (≈ shore)", "path": L(shore_path(SEA_GH) if GEO else SEA_GH), "built": 439, "height": "low",
   "towers_m": 55, "draw_s": 5.0},
- {"name": "Sea walls, Marmara (≈ shore)", "path": L(shore_path(SEA_MARMARA) if GEO else SEA_MARMARA), "built": 439, "height": "low",
+ {"name": "Sea walls, Marmara (≈ shore)", "path": L((shore_path(SEA_MARMARA)[:-1] + SEA_YENIKAPI + shore_path(SEA_MARMARA_W)[1:]) if GEO else SEA_MARMARA + SEA_YENIKAPI[1:] + SEA_MARMARA_W[1:]), "built": 439, "height": "low",
   "towers_m": 50, "draw_s": 5.0},
  {"name": "Genoese walls of Galata (≈ course)", "path": L(land_wall(GALATA_WALL)), "built": 1300, "removed": 1870, "height": "mid",
   "towers_m": 80, "draw_s": 3.0},
@@ -164,6 +167,36 @@ METRO = [(41.2000, 28.6000), (41.1700, 28.8000), (41.2000, 28.9500), (41.1800, 2
          (40.9600, 29.0900), (40.9800, 28.8500), (40.9700, 28.6500), (41.0100, 28.5800)]
 
 
+def yenikapi_fill():
+    """Yenikapı landfill (≈ outline, 2010s): water until 2013, then land; clipped to the modern land of geo.json."""
+    if not GEO:
+        return []
+    from shapely.geometry import Polygon, box
+    from shapely.ops import unary_union
+    c, sd = _layers[0]
+    old_shore = [(a - 0.0002, b) for a, b in SEA_YENIKAPI]
+    zone = Polygon([(b, a) for a, b in old_shore + [(40.9930, 28.9330), (40.9950, 28.9640)][::-1]]).buffer(0)
+    mnx, mny, mxx, mxy = zone.bounds
+    i0, j1 = _cell(c, mny, mnx); i1, j0 = _cell(c, mxy, mxx)
+    boxes = []
+    for j in range(max(0, j0 - 1), min(c['nz'], j1 + 2)):
+        for i in range(max(0, i0 - 1), min(c['nx'], i1 + 2)):
+            if sd[j, i] > 0:
+                x = c['x0'] + i * c['cell_km']; z = c['z0'] + j * c['cell_km']; h = c['cell_km'] / 2
+                boxes.append(box(_lon0 + (x - h) / _k, _lat0 - (z + h) / KZ, _lon0 + (x + h) / _k, _lat0 - (z - h) / KZ))
+    if not boxes:
+        return []
+    g = unary_union(boxes).intersection(zone).buffer(0.0002).buffer(-0.0002).simplify(0.00005)
+    parts = [g] if g.geom_type == 'Polygon' else list(getattr(g, 'geoms', []))
+    out = []
+    for n, p in enumerate(parts):
+        if p.geom_type != 'Polygon' or p.area < 2e-7:
+            continue
+        ring = [(y, x) for x, y in p.exterior.coords][:-1]
+        out.append({"name": f"Yenikapı landfill (≈, 2010s) #{n + 1}", "fill": True, "from": -700, "to": 2013, "poly": L(ring)})
+    return out
+
+
 def D(name, style, poly, frm, to, dens, grain, grow, **kw):
     d = {"name": name, "style": style, "poly": L(poly), "from": frm, "to": to, "density": dens, "grain_m": grain, "grow_from": list(grow)}
     d.update(kw); return d
@@ -188,9 +221,9 @@ districts = [
  D("Pera rebuilt after 1870 (≈)", "victorian", PERA, 1871, 1900, 0.8, 50, (41.0330, 28.9780)),
  D("Kadıköy and Moda (≈)", "victorian", KADIKOY_19, 1860, 1920, 0.55, 60, (40.9900, 29.0300)),
  D("Şişli and Nişantaşı (≈)", "georgian", SISLI, 1880, 1950, 0.6, 60, (41.0480, 28.9870)),
- D("Western shore suburbs (≈)", "modern", WEST_SHORE, 1950, 1975, 0.5, 100, (41.0000, 28.8800)),
- D("Asian shore suburbs (≈)", "modern", ASIA_SHORE, 1955, 1990, 0.45, 110, (40.9800, 29.0700)),
- D("Greater Istanbul (≈)", "suburb", METRO, 1960, 2015, 0.35, 230, (41.0300, 28.9800), holes=MODERN_HOLES + [L(WEST_SHORE), L(ASIA_SHORE)]),
+ D("Western shore suburbs (≈)", "modern", WEST_SHORE, 1950, 1975, 0.5, 80, (41.0000, 28.8800)),
+ D("Asian shore suburbs (≈)", "modern", ASIA_SHORE, 1955, 1990, 0.45, 85, (40.9800, 29.0700)),
+ D("Greater Istanbul (≈)", "suburb", METRO, 1960, 2015, 0.35, 160, (41.0300, 28.9800), holes=MODERN_HOLES + [L(WEST_SHORE), L(ASIA_SHORE)]),
  D("Levent and Maslak (≈)", "highrise", LEVENT, 1990, 2020, 0.5, 110, (41.0800, 29.0100)),
  D("Ataşehir (≈)", "highrise", ATASEHIR, 2005, 2022, 0.45, 110, (40.9880, 29.1200)),
 ]
@@ -240,26 +273,46 @@ landmarks = [
   "size_m": [110, 30, 18], "rot_deg": 0, "colors": {"wall": "#d7c3a5", "roof": "#59656a"}},
 ]
 
+def span(c, bearing_deg, fallback):
+    """Bridge ends: walk from the published centre along the bridge direction to the first land >= 30 m from shore."""
+    if not GEO:
+        return fallback
+    k = 111.32 * math.cos(math.radians(c[0]))
+    ends = []
+    for sgn in (-1, 1):
+        dx, dz = math.sin(math.radians(bearing_deg)) * sgn, math.cos(math.radians(bearing_deg)) * sgn
+        p = None
+        for st in range(1, 400):
+            d = st * 0.01
+            lat, lon = c[0] + dz * d / KZ, c[1] + dx * d / k
+            v = sd_at(lat, lon)
+            if v is not None and v >= 30:
+                p = [round(lat, 5), round(lon, 5)]; break
+        ends.append(p)
+    return ends if all(ends) else fallback
+
+
 bridges = [
- {"name": "Hayratiye Bridge (pontoon, ≈ ends)", "path": [[41.0218, 28.9625], [41.0262, 28.9682]], "built": 1836.67, "removed": 1936,
+ {"name": "Hayratiye Bridge (pontoon, ≈ ends)", "path": span((41.024194, 28.965306), 40, [[41.0218, 28.9625], [41.0262, 28.9682]]), "built": 1836.67, "removed": 1936,
   "style": "wood", "width_m": 14},
- {"name": "Atatürk Bridge (≈ ends)", "path": [[41.0218, 28.9625], [41.0262, 28.9682]], "built": 1940, "style": "iron", "width_m": 25},
- {"name": "Galata Bridge, wooden (≈ ends)", "path": [[41.0172, 28.9724], [41.0228, 28.9742]], "built": 1845, "removed": 1875,
+ {"name": "Atatürk Bridge (≈ ends)", "path": span((41.024194, 28.965306), 40, [[41.0218, 28.9625], [41.0262, 28.9682]]), "built": 1940, "style": "iron", "width_m": 25},
+ {"name": "Galata Bridge, wooden (≈ ends)", "path": span((41.02000, 28.97306), 12, [[41.0172, 28.9724], [41.0228, 28.9742]]), "built": 1845, "removed": 1875,
   "style": "wood", "width_m": 14},
- {"name": "Galata Bridge, 1875 and 1912 (≈ ends)", "path": [[41.0172, 28.9724], [41.0228, 28.9742]], "built": 1875, "removed": 1992,
+ {"name": "Galata Bridge, 1875 and 1912 (≈ ends)", "path": span((41.02000, 28.97306), 12, [[41.0172, 28.9724], [41.0228, 28.9742]]), "built": 1875, "removed": 1992,
   "style": "iron", "width_m": 25},
- {"name": "Galata Bridge, 1994 (≈ ends)", "path": [[41.0172, 28.9724], [41.0228, 28.9742]], "built": 1994, "style": "modern", "width_m": 42},
- {"name": "Bosphorus Bridge (≈ ends from centre)", "path": [[41.0478, 29.0262], [41.0428, 29.0428]], "built": 1973.6, "style": "modern",
+ {"name": "Galata Bridge, 1994 (≈ ends)", "path": span((41.02000, 28.97306), 12, [[41.0172, 28.9724], [41.0228, 28.9742]]), "built": 1994, "style": "modern", "width_m": 42},
+ {"name": "Bosphorus Bridge (≈ ends from centre)", "path": span((41.04528, 29.03444), 112, [[41.0478, 29.0262], [41.0428, 29.0428]]), "built": 1973.6, "style": "modern",
   "width_m": 40},
- {"name": "Fatih Sultan Mehmet Bridge (≈ ends from centre)", "path": [[41.0920, 29.0540], [41.0905, 29.0700]], "built": 1988.4,
+ {"name": "Fatih Sultan Mehmet Bridge (≈ ends from centre)", "path": span((41.0913, 29.062), 97, [[41.0920, 29.0540], [41.0905, 29.0700]]), "built": 1988.4,
   "style": "modern", "width_m": 40},
- {"name": "Yavuz Sultan Selim Bridge (≈ ends from centre)", "path": [[41.2040, 29.0980], [41.2022, 29.1255]], "built": 2016.6,
+ {"name": "Yavuz Sultan Selim Bridge (≈ ends from centre)", "path": span((41.2031, 29.1117), 95, [[41.2040, 29.0980], [41.2022, 29.1255]]), "built": 2016.6,
   "style": "modern", "width_m": 58},
 ]
 
 roads = [
- {"name": "Mese (≈)", "path": L([(41.0080, 28.9782), (41.00861, 28.97111), (41.0098, 28.9640), (41.0085, 28.9550), (41.0060, 28.9460),
-                                 (41.0010, 28.9330), (40.99400, 28.9240)]), "from": 203, "kind": "roman", "width_m": 22},
+ {"name": "Mese, Severan town (≈)", "path": L([(41.0080, 28.9782), (41.00861, 28.97111)]), "from": 203, "kind": "roman", "width_m": 22},
+ {"name": "Mese to the Golden Gate (≈)", "path": L([(41.00861, 28.97111), (41.0098, 28.9640), (41.0085, 28.9550), (41.0060, 28.9460),
+                                 (41.0010, 28.9330), (40.99400, 28.9240)]), "from": 330, "kind": "roman", "width_m": 22},
  {"name": "Mese, northern branch (≈)", "path": L([(41.0085, 28.9550), (41.0140, 28.9480), (41.0200, 28.9420), (41.0260, 28.9370),
                                                   (41.0297, 28.9343)]), "from": 413, "kind": "roman", "width_m": 18},
  {"name": "Railway along the Marmara (≈)", "path": L([(41.0150, 28.9772), (41.0160, 28.9840), (41.0110, 28.9862), (41.0042, 28.9815),
@@ -436,8 +489,8 @@ S = [
        "1550–1557: Mimar Sinan, kubbesi 53 m yüksekliğindeki Süleymaniye Camii'ni inşa eder"),
      pop=PI(1550, 1608), cam=(41.0145, 28.9640, 2.4)),
  seg(1609, 1659, 16, OT, IST, T("The Blue Mosque", "Sultanahmet Camii"),
-     T("1609–1617: the Sultan Ahmed Mosque rises beside the Hippodrome with six minarets",
-       "1609–1617: Sultanahmet Camii altı minaresiyle Hipodrom'un yanında yükselir"),
+     T("1609–1617: the Sultan Ahmed Mosque rises by the old Hippodrome with six minarets",
+       "1609–1617: Sultanahmet Camii altı minaresiyle eski Hipodrom'un yanında yükselir"),
      pop=PI(1609, 1659), cam=(41.0060, 28.9770, 2.0)),
  seg(1660, 1662, 16, OT, IST, T("The Great Fire of 1660", "1660 Büyük Yangını"),
      T("24 July 1660: a fire burns for about two days and destroys some two thirds of the city",
@@ -592,6 +645,7 @@ city = {
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 2.2},
  "segments": S,
+ "timed_water": yenikapi_fill(),
  "districts": districts,
  "walls": walls, "bridges": bridges, "roads": roads, "landmarks": landmarks,
  "fires": fires, "camps": camps, "smoke": smoke,
