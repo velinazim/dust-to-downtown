@@ -1,2 +1,2 @@
-duration 886s (14.8 min), segments 54, ≈30796 buildings
+duration 886s (14.8 min), segments 54, ≈30988 buildings
 OK

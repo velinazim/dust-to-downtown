@@ -223,7 +223,7 @@ districts = [
  D("Şişli and Nişantaşı (≈)", "georgian", SISLI, 1880, 1950, 0.6, 60, (41.0480, 28.9870)),
  D("Western shore suburbs (≈)", "modern", WEST_SHORE, 1950, 1975, 0.5, 80, (41.0000, 28.8800)),
  D("Asian shore suburbs (≈)", "modern", ASIA_SHORE, 1955, 1990, 0.45, 85, (40.9800, 29.0700)),
- D("Greater Istanbul (≈)", "suburb", METRO, 1960, 2015, 0.35, 160, (41.0300, 28.9800), holes=MODERN_HOLES + [L(WEST_SHORE), L(ASIA_SHORE)]),
+ D("Greater Istanbul (≈)", "suburb", METRO, 1960, 2015, 0.5, 190, (41.0300, 28.9800), holes=MODERN_HOLES + [L(WEST_SHORE), L(ASIA_SHORE)]),
  D("Levent and Maslak (≈)", "highrise", LEVENT, 1990, 2020, 0.5, 110, (41.0800, 29.0100)),
  D("Ataşehir (≈)", "highrise", ATASEHIR, 2005, 2022, 0.45, 110, (40.9880, 29.1200)),
 ]
@@ -305,7 +305,7 @@ bridges = [
   "width_m": 40},
  {"name": "Fatih Sultan Mehmet Bridge (≈ ends from centre)", "path": span((41.0913, 29.062), 97, [[41.0920, 29.0540], [41.0905, 29.0700]]), "built": 1988.4,
   "style": "modern", "width_m": 40},
- {"name": "Yavuz Sultan Selim Bridge (≈ ends from centre)", "path": span((41.2031, 29.1117), 95, [[41.2040, 29.0980], [41.2022, 29.1255]]), "built": 2016.6,
+ {"name": "Yavuz Sultan Selim Bridge (≈ ends from centre)", "path": span((41.2031, 29.1117), 95, [[41.2040, 29.0980], [41.2022, 29.1255]]), "built": 2016.05,
   "style": "modern", "width_m": 58},
 ]
 
@@ -540,7 +540,7 @@ S = [
  seg(1973, 1987, 16, REP, IST, T("The Bosphorus Bridge", "Boğaziçi Köprüsü"),
      T("30 October 1973: the first bridge across the Bosphorus joins Europe and Asia",
        "30 Ekim 1973: Boğaz'ın ilk köprüsü Avrupa ile Asya'yı birleştirir"),
-     pop=PI(1973, 1987), cam=(41.0400, 29.0300, 4.4), chapter=T("Modern Istanbul", "Modern İstanbul")),
+     pop=PI(1973, 1987), cam=(41.0400, 29.0330, 5.5), chapter=T("Modern Istanbul", "Modern İstanbul")),
  seg(1988, 1999, 15, REP, IST, T("The Second Bridge", "İkinci Köprü"),
      T("3 July 1988: the Fatih Sultan Mehmet Bridge opens beside Rumelihisarı",
        "3 Temmuz 1988: Fatih Sultan Mehmet Köprüsü Rumelihisarı'nın yanında açılır"),
@@ -556,7 +556,7 @@ S = [
  seg(2016, 2017, 15, TODAY, IST, T("The Third Bridge", "Üçüncü Köprü"),
      T("26 August 2016: the Yavuz Sultan Selim Bridge opens near the Black Sea",
        "26 Ağustos 2016: Yavuz Sultan Selim Köprüsü Karadeniz'e yakın açılır"),
-     pop=PI(2016, 2017), cam=(41.1800, 29.0900, 9.0)),
+     pop=PI(2016, 2017), cam=(41.1980, 29.1110, 6.0)),
  seg(2018, 2024, 15, TODAY, IST, T("Istanbul Airport", "İstanbul Havalimanı"),
      T("29 October 2018: a new airport opens near Lake Terkos, on the Black Sea coast",
        "29 Ekim 2018: Terkos Gölü yakınında, Karadeniz kıyısında yeni bir havalimanı açılır"),

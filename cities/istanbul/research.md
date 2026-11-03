@@ -142,3 +142,9 @@ the 18th c., Demographics (WP, Chandler) 500,000 in 1815 → middle value); 1860
   focus on how the city grew; dates are in the sources if wanted later.
 - Land reclamation at Yenikapı (2010s) and the airport's site are shown as today's land throughout.
 - Population of the Ottoman 16th–18th centuries is very uncertain (200,000–700,000); see anchors above.
+- Yenikapı: the modern shore there is a 2010s landfill. It is drawn as water until 2013 (timed_water fill, outline ≈ =
+  today's land south of the old shore trace; the year is a visual approximation tied to the Marmaray segment, never on
+  screen), and the Marmara sea wall follows a hand trace of the old shore (≈) there instead of the modern one.
+- Bridge ends are found by walking from each bridge's published centre along its direction (≈ bearing) to the first
+  land ≥ 30 m from the shore in geo.json. The YSS bridge is shown from the start of 2016 (opened 26 Aug 2016).
+- Lakes and reservoirs come from OpenStreetMap and are shown from the start (several are modern reservoirs).

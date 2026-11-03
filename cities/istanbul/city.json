@@ -1535,9 +1535,9 @@
    "camera": {
     "center": [
      41.04,
-     29.03
+     29.033
     ],
-    "dist_km": 4.4
+    "dist_km": 5.5
    },
    "chapter": {
     "en": "Modern Istanbul",
@@ -1666,10 +1666,10 @@
    ],
    "camera": {
     "center": [
-     41.18,
-     29.09
+     41.198,
+     29.111
     ],
-    "dist_km": 9.0
+    "dist_km": 6.0
    }
   },
   {
@@ -2915,8 +2915,8 @@
    ],
    "from": 1960,
    "to": 2015,
-   "density": 0.35,
-   "grain_m": 160,
+   "density": 0.5,
+   "grain_m": 190,
    "grow_from": [
     41.03,
     28.98
@@ -3937,7 +3937,7 @@
      29.12455
     ]
    ],
-   "built": 2016.6,
+   "built": 2016.05,
    "style": "modern",
    "width_m": 58
   }
