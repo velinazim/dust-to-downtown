@@ -279,5 +279,41 @@
   "uploaded": "2026-11-04T10:58:08Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "vienna:short:whole",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "KnI_yi_K5LU",
+  "link": "https://youtube.com/shorts/KnI_yi_K5LU",
+  "title": "Vienna: 1,900 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-21T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:04Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "vienna:short:siege-1683",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "tWHsgXSIKMo",
+  "link": "https://youtube.com/shorts/tWHsgXSIKMo",
+  "title": "The Siege of Vienna, 1683 — in 50 Seconds #shorts",
+  "publish_at": "2026-11-22T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:10Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "vienna:short:ringstrasse",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "G4QTfESVhuY",
+  "link": "https://youtube.com/shorts/G4QTfESVhuY",
+  "title": "Vienna: From 551,300 to 2 Million People #shorts",
+  "publish_at": "2026-11-23T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:14Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
