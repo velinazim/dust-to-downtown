@@ -112,7 +112,12 @@ the Donauinselfest start (1983 in TV, 1984 in Donauinsel WP).
   throughout (it was the main stream before 1875). The main Danube is drawn in its modern straightened bed for the whole
   film — before 1870–1875 the river ran in many arms across the plain; this is a simplification and is not stated on screen
   except in the regulation segment. The New Danube channel is to be flooded only from 1988 (timed_water, traced from the
-  real shoreline after the first preview); until then the 450 m floodplain/Danube Island strip is open land (open space).
+  real shoreline after the first preview by `_danube.py`: the eastern of the two parallel channels in geo.json, ±40 m); it is
+  flooded from 1985, inside the "A New Island" segment (works ran 1972–1988). The floodplain/Danube Island strip between the
+  main river and the New Danube's east bank is open land (open space) for the whole film.
+- **Danube outside the city:** the OSM Danube relation does not close inside the bbox, so above Klosterneuburg (to Tulln)
+  and below the Lobau (to Fischamend) the river is drawn as a 350 m-wide line along a hand-traced ≈ course (only seen in the
+  widest shots).
 - **Vindobona:** ≈20 ha rectangle between Tiefer Graben, Graben, Rotenturmstraße and the Salzgries terrace (VIN names
   these streets). Canabae south/west of the camp and the civil town in the 3rd district (VIN) are simplified areas.
 - **Walls:** medieval wall ≈ just inside today's Ring, closed along the Danube Canal; the 1548 bastion fortress is the same

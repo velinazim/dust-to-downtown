@@ -3,7 +3,8 @@ Run: python3 cities/vienna/_build.py
 Wall courses, district outlines, camps and the Danube Island strip are simplified traces (marked ≈ in research.md).
 The Danube is drawn in its modern, straightened bed for the whole film (simplification: before 1870–1875 it ran in
 many shifting arms); the New Danube channel is flooded only from 1988 (timed_water), the year Danube Island was finished."""
-import json, math, os
+import json, math, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 T = lambda en, tr: {"en": en, "tr": tr}
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -27,7 +28,7 @@ CIVIL_TOWN = [(48.2005, 16.3800), (48.1990, 16.3870), (48.1960, 16.3880), (48.19
 # Medieval wall (c. 1200) and the later bastioned fortress: just inside today's Ring, closed along the Danube Canal
 WALL = [(48.2155, 16.3690), (48.2140, 16.3640), (48.2128, 16.3618), (48.2100, 16.3618), (48.2075, 16.3628), (48.2050, 16.3645),
         (48.2038, 16.3672), (48.2036, 16.3705), (48.2042, 16.3745), (48.2058, 16.3780), (48.2085, 16.3800), (48.2108, 16.3800),
-        (48.2118, 16.3778), (48.2130, 16.3745), (48.2143, 16.3715)]
+        (48.2110, 16.3776), (48.2128, 16.3745), (48.2143, 16.3715)]
 WALL_RING = WALL + [WALL[0]]
 CORE_C = (48.2092, 16.3712)
 FORT = scale(WALL, CORE_C, 1.06)
@@ -41,11 +42,11 @@ RING_ROAD = [(48.2172, 16.3700), (48.2150, 16.3615), (48.2120, 16.3590), (48.208
              (48.2022, 16.3700), (48.2020, 16.3750), (48.2040, 16.3790), (48.2075, 16.3815), (48.2110, 16.3838)]
 # Danube Canal, south/west bank (≈), Spittelau → Rossau → Urania → St Marx
 CANAL_N = [(48.2335, 16.3595), (48.2300, 16.3620), (48.2240, 16.3650), (48.2185, 16.3690)]
-CANAL_S = [(48.2112, 16.3850), (48.2095, 16.3920), (48.2060, 16.3975), (48.2005, 16.4030), (48.1935, 16.4100)]
+CANAL_S = [(48.2112, 16.3850), (48.2095, 16.3920), (48.2060, 16.3975), (48.2005, 16.4030), (48.1945, 16.4122)]
 # Linienwall (1704), 13.5 km from the canal at St Marx to Lichtental, just inside today's Gürtel
-LINIEN = [(48.1935, 16.4100), (48.1880, 16.4000), (48.1858, 16.3900), (48.1865, 16.3790), (48.1840, 16.3680), (48.1815, 16.3570),
+LINIEN = [(48.1945, 16.4122), (48.1880, 16.4000), (48.1858, 16.3900), (48.1865, 16.3790), (48.1840, 16.3680), (48.1815, 16.3570),
           (48.1850, 16.3460), (48.1905, 16.3400), (48.1965, 16.3378), (48.2040, 16.3385), (48.2110, 16.3418), (48.2180, 16.3442),
-          (48.2245, 16.3492), (48.2295, 16.3545), (48.2335, 16.3595)]
+          (48.2245, 16.3492), (48.2295, 16.3545), (48.2340, 16.3601)]
 LINIEN_POLY = LINIEN + CANAL_N[1:] + CANAL_S       # suburbs between the glacis and the Linienwall (holes: RING_OUT)
 GUERTEL = [(p[0] + (p[0] - CORE_C[0]) * 0.025, p[1] + (p[1] - CORE_C[1]) * 0.025) for p in LINIEN]
 EARLY_SUB = scale(RING_OUT, CORE_C, 1.55)           # suburbs before 1683 (≈, a belt ~600 m beyond the glacis)
@@ -83,7 +84,9 @@ def side_band(line, d0_m, d1_m):
     return out0 + list(reversed(out1))
 
 
-DONAUINSEL = side_band(DANUBE[1:], 120, 700)       # floodplain (1875), later Danube Island + New Danube
+from _danube import trace
+NEW_DANUBE, ISLAND = trace(os.path.join(HERE, 'geo.json'))
+DONAUINSEL = ISLAND or side_band(DANUBE[1:], 120, 700)   # floodplain (1875), later Danube Island + New Danube
 OUTER = [(48.3000, 16.3450), (48.3000, 16.4300), (48.2750, 16.4900), (48.2450, 16.5400), (48.2100, 16.5400), (48.2000, 16.4950),
          (48.1750, 16.4750), (48.1450, 16.4300), (48.1330, 16.3600), (48.1300, 16.2800), (48.1480, 16.2500), (48.1750, 16.2600),
          (48.1950, 16.2650), (48.2200, 16.2850), (48.2500, 16.3050), (48.2700, 16.3300)]
@@ -92,6 +95,15 @@ LOBAU = [(48.2000, 16.4700), (48.1950, 16.5300), (48.1700, 16.5500), (48.1600, 1
 DONAU_CITY = rect(48.2300, 16.4085, 48.2365, 16.4170)
 SEESTADT = rect(48.2200, 16.4950, 48.2310, 16.5150)
 HBF_Q = rect(48.1840, 16.3790, 48.1890, 16.3880)
+
+# Danube upstream (Klosterneuburg → Tulln) and downstream (→ Fischamend): the OSM river relation does not close inside the
+# bbox, so these stretches are drawn as river lines (≈ course, 350 m wide)
+GEO_EDITS = [
+ {"op": "river", "path": L([(48.3060, 16.3388), (48.3150, 16.3290), (48.3300, 16.3080), (48.3460, 16.2850), (48.3520, 16.2550),
+                            (48.3450, 16.2200), (48.3380, 16.1700), (48.3350, 16.1100), (48.3330, 16.0400)]), "width_m": 350},
+ {"op": "river", "path": L([(48.1570, 16.5220), (48.1450, 16.5600), (48.1320, 16.6000), (48.1290, 16.6400), (48.1350, 16.6800),
+                            (48.1400, 16.7300)]), "width_m": 350},
+]
 
 # ------------------------------------------------------------------ population (research.md): sourced anchors, log-interpolated
 ANCH = [(1500, 22500), (1637, 60000), (1683, 90000), (1710, 113800), (1754, 175460), (1783, 247753), (1793, 271800), (1830, 401200),
@@ -409,10 +421,10 @@ walls = [
 ]
 
 bridges = [
- {"name": "Reichsbrücke I (Kronprinz-Rudolf-Brücke)", "path": [[48.2262, 16.4062], [48.2302, 16.4128]], "built": 1876.6, "removed": 1934.5,
+ {"name": "Reichsbrücke I (Kronprinz-Rudolf-Brücke)", "path": [[48.2254, 16.40488], [48.2306, 16.41346]], "built": 1876.6, "removed": 1934.5,
   "style": "iron", "width_m": 22},
- {"name": "Reichsbrücke II", "path": [[48.2262, 16.4062], [48.2302, 16.4128]], "built": 1937.77, "removed": 1976.58, "style": "tower", "width_m": 26},
- {"name": "Reichsbrücke III", "path": [[48.2262, 16.4062], [48.2302, 16.4128]], "built": 1980.85, "style": "modern", "width_m": 30},
+ {"name": "Reichsbrücke II", "path": [[48.2254, 16.40488], [48.2306, 16.41346]], "built": 1937.77, "removed": 1976.58, "style": "tower", "width_m": 26},
+ {"name": "Reichsbrücke III", "path": [[48.2254, 16.40488], [48.2306, 16.41346]], "built": 1980.85, "style": "modern", "width_m": 30},
 ]
 
 roads = [
@@ -430,13 +442,13 @@ landmarks = [
  {"type": "church", "name": T("First St Stephen's", "İlk Aziz Stephan"), "at": list(STEPHANSDOM), "built": 1137, "removed": 1339.5, "rise_s": 6,
   "size_m": [60, 24, 18], "rot_deg": -8, "colors": {"wall": "#ddd3bd", "roof": "#6a5f55"}},
  {"type": "cathedral", "name": T("St Stephen's Cathedral", "Aziz Stephan Katedrali"), "at": list(STEPHANSDOM), "built": 1340, "removed": 1945.28,
-  "rise_s": 30, "size_m": [107, 40, 36], "rot_deg": -8, "colors": {"wall": "#d9cfb8", "roof": "#3f6d5c", "spire": False}},
+  "rise_s": 30, "size_m": [107, 40, 36], "rot_deg": -8, "scale": 1.4, "colors": {"wall": "#d9cfb8", "roof": "#3f6d5c", "spire": False}},
  {"type": "cathedral", "name": T("St Stephen's (roof burnt)", "Aziz Stephan (çatısı yanmış)"), "at": list(STEPHANSDOM), "built": 1945.29, "removed": 1952.3,
-  "rise_s": 0.2, "size_m": [107, 40, 36], "rot_deg": -8, "colors": {"wall": "#b9b2a3", "roof": "#3b3b3b", "spire": False}},
+  "rise_s": 0.2, "size_m": [107, 40, 36], "rot_deg": -8, "scale": 1.4, "colors": {"wall": "#b9b2a3", "roof": "#3b3b3b", "spire": False}},
  {"type": "cathedral", "name": T("St Stephen's (restored)", "Aziz Stephan (onarılmış)"), "at": list(STEPHANSDOM), "built": 1952.31, "rise_s": 1.5,
-  "size_m": [107, 40, 36], "rot_deg": -8, "colors": {"wall": "#d9cfb8", "roof": "#3f6d5c", "spire": False}},
- {"type": "tower", "name": T("South tower", "Güney kulesi"), "at": [48.20835, 16.37325], "built": 1359.3, "rise_s": 40, "size_m": [22, 22, 97],
-  "colors": {"wall": "#cfc4ab", "roof": "#bfb39b"}},
+  "size_m": [107, 40, 36], "rot_deg": -8, "scale": 1.4, "colors": {"wall": "#d9cfb8", "roof": "#3f6d5c", "spire": False}},
+ {"type": "tower", "name": T("South tower", "Güney kulesi"), "at": [48.20835, 16.37325], "built": 1359.3, "rise_s": 40, "size_m": [26, 26, 97], "scale": 1.4,
+  "colors": {"wall": "#8f8878", "roof": "#6f6a60"}},
  {"type": "church", "name": T("Scots Abbey", "İskoç Manastırı"), "at": [48.2125, 16.3652], "built": 1155, "rise_s": 4, "size_m": [55, 22, 20],
   "colors": {"wall": "#e4dccb", "roof": "#6a6f75"}},
  {"type": "castle", "name": T("Hofburg castle", "Hofburg kalesi"), "at": [48.20639, 16.36528], "built": 1275, "removed": 1660, "rise_s": 4,
@@ -445,25 +457,25 @@ landmarks = [
   "colors": {"wall": "#e8e0cc", "roof": "#6f8f7c"}},
  {"type": "palace", "name": T("Neue Burg", "Neue Burg"), "at": [48.2050, 16.3640], "built": 1881, "rise_s": 20, "size_m": [180, 60, 26],
   "rot_deg": 35, "colors": {"wall": "#ece4d0", "roof": "#6f8f7c"}},
- {"type": "palace", "name": T("Schönbrunn Palace", "Schönbrunn Sarayı"), "at": [48.184516, 16.311865], "built": 1696, "rise_s": 8, "size_m": [180, 110, 24],
+ {"type": "palace", "name": T("Schönbrunn Palace", "Schönbrunn Sarayı"), "at": [48.184516, 16.311865], "built": 1696, "rise_s": 8, "size_m": [180, 110, 24], "scale": 1.3,
   "colors": {"wall": "#e8c25a", "roof": "#8a6f55"}},
  {"type": "box", "name": T("Gloriette (≈)", "Gloriette (≈)"), "at": [48.1782, 16.3089], "built": 1775, "rise_s": 3, "size_m": [90, 18, 20],
   "colors": {"wall": "#ece6d6"}},
  {"type": "palace", "name": T("Upper Belvedere", "Yukarı Belvedere"), "at": [48.19417, 16.38028], "built": 1717, "rise_s": 8, "size_m": [150, 50, 22],
   "colors": {"wall": "#efe9dc", "roof": "#5f8c7a"}},
- {"type": "domechurch", "name": T("Karlskirche", "Karlskirche"), "at": [48.19828, 16.37190], "built": 1716, "rise_s": 24, "size_m": [55, 40, 34],
+ {"type": "domechurch", "name": T("Karlskirche", "Karlskirche"), "at": [48.19828, 16.37190], "built": 1716, "rise_s": 24, "size_m": [55, 40, 34], "scale": 1.4,
   "colors": {"wall": "#ece4d0", "dome": "#6f9c8a", "lantern": True}},
  {"type": "column", "name": T("Karlskirche column", "Karlskirche sütunu"), "at": [48.19828, 16.37130], "built": 1716, "rise_s": 20, "size_m": [8, 8, 40],
   "colors": {"wall": "#e8e1cf", "top": "#c9a94a"}},
- {"type": "cathedral", "name": T("Votivkirche", "Votivkirche"), "at": [48.21528, 16.35861], "built": 1856, "rise_s": 24, "size_m": [90, 40, 32],
+ {"type": "cathedral", "name": T("Votivkirche", "Votivkirche"), "at": [48.21528, 16.35861], "built": 1856, "rise_s": 24, "size_m": [90, 40, 32], "scale": 1.3,
   "rot_deg": -60, "colors": {"wall": "#e6e0d2", "roof": "#5f666f"}},
- {"type": "box", "name": T("Court Opera", "Saray Operası"), "at": [48.20306, 16.36889], "built": 1861, "rise_s": 8, "size_m": [140, 100, 30],
+ {"type": "box", "name": T("Court Opera", "Saray Operası"), "at": [48.20306, 16.36889], "built": 1861, "rise_s": 8, "size_m": [140, 100, 30], "scale": 1.3,
   "rot_deg": 35, "colors": {"wall": "#e8dcc0", "roof": "#59656a"}},
- {"type": "parliament", "name": T("City Hall", "Belediye Sarayı"), "at": [48.21083, 16.35722], "built": 1872.4, "rise_s": 12, "size_m": [152, 110, 26],
+ {"type": "parliament", "name": T("City Hall", "Belediye Sarayı"), "at": [48.21083, 16.35722], "built": 1872.4, "rise_s": 12, "size_m": [152, 110, 26], "scale": 1.3,
   "rot_deg": 90, "colors": {"wall": "#ddd3bb", "roof": "#59656a"}},
  {"type": "palace", "name": T("Parliament (≈)", "Parlamento (≈)"), "at": [48.2082, 16.3583], "built": 1874.5, "rise_s": 10, "size_m": [150, 120, 24],
   "rot_deg": 35, "colors": {"wall": "#ece6d6", "roof": "#5c6a70"}},
- {"type": "wheel", "name": T("Riesenrad", "Riesenrad"), "at": [48.2166505, 16.3959494], "built": 1897, "rise_s": 3, "size_m": [30],
+ {"type": "wheel", "name": T("Riesenrad", "Riesenrad"), "at": [48.2166505, 16.3959494], "built": 1897, "rise_s": 3, "size_m": [30], "scale": 1.5,
   "colors": {"wall": "#b23a2e"}},
  {"type": "station", "name": T("Northern Railway station (≈)", "Kuzey Demiryolu istasyonu (≈)"), "at": [48.2190, 16.3925], "built": 1838, "rise_s": 3,
   "size_m": [200, 70, 22], "rot_deg": 45},
@@ -485,7 +497,7 @@ landmarks = [
   "rot_deg": 5, "colors": {"wall": "#d9d9d9", "roof": "#8a949b"}},
 ]
 
-timed_water = []    # New Danube channel from 1988 — added after the first preview from the real shoreline (see research.md)
+timed_water = [{"name": "New Danube", "poly": L(NEW_DANUBE), "from": 1985}] if NEW_DANUBE else []
 
 camps = [
  {"poly": L(rect(48.1880, 16.3350, 48.2000, 16.3550)), "from": 1529.74, "to": 1529.8, "count": 140},
@@ -560,6 +572,7 @@ city = {
  "name": T("Vienna", "Viyana"), "intro": T("1,900 Years in 15 Minutes", "15 Dakikada 1.900 Yıl"), "intro_seconds": 4.5,
  "geo": {"bbox": [48.02, 16.05, 48.42, 16.72], "cell_m": 100, "core_bbox": [48.170, 16.290, 48.265, 16.445], "core_cell_m": 30,
          "rivers_keep": ["Donau"]},
+ "geo_edits": GEO_EDITS,
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 1.8},
  "segments": S,
