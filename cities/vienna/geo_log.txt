@@ -1,0 +1,14 @@
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 502
+  rivers: overpass.private.coffee -> 504
+osm rivers: kept 7, skipped 155 -> 7 outer / 42 inner rings
+  lakes: overpass-api.de -> 502
+  lakes: overpass.kumi.systems -> 502
+osm lakes: 21 lakes >= 0.02 km2
+grid 498x444 @ 100 m
+elevation: zoom 11, tiles 5x4
+grid 385x352 @ 30 m
+elevation: zoom 13, tiles 5x4
+core layer 385 x 352
+wrote geo.json 498 x 444
+maps written to cities/vienna/preview
