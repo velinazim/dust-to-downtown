@@ -76,6 +76,12 @@ jobs:
         with: {pattern: 'chunk-*', path: chunks, merge-multiple: true}
       - name: Assemble
         run: python3 tools/assemble.py ${{ needs.plan.outputs.slug }} chunks out
+      - name: Final-video QA (frames)
+        run: |
+          pip install -q pillow
+          S=${{ needs.plan.outputs.slug }}
+          python3 tools/video_qa.py out/en/video.mp4 --silent --frames 16 --out out/qa 2>&1 | tee qa.log || true
+          cp out/qa/qa_sheet.jpg "cities/$S/qa_sheet.jpg" 2>/dev/null || true
       - uses: actions/upload-artifact@v4
         with:
           name: episode-${{ needs.plan.outputs.slug }}
@@ -102,10 +108,14 @@ jobs:
           st['rendered'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
           st['run'] = '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
           st['upload_log'] = open('upload.log').read()[-1500:] if os.path.exists('upload.log') else None
+          if os.path.exists('qa.log'):
+              q = [l for l in open('qa.log').read().splitlines() if l.startswith(('QA ', 'FRAME PROBLEM'))]
+              st['qa'] = ' | '.join(q)[:300] or None
+          st['qa_checked'] = False
           json.dump(st, open(p, 'w'), indent=1)
           EOF
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
-          for f in uploads.json cities/$S/status.json; do [ -e "$f" ] && git add "$f"; done; true
+          for f in uploads.json cities/$S/status.json cities/$S/qa_sheet.jpg; do [ -e "$f" ] && git add "$f"; done; true
           git diff --cached --quiet && exit 0
           git commit -qm "rendered: $S"
           for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 8; done

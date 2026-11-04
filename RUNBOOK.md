@@ -13,6 +13,17 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
 
 ## A. Make the next episode (scheduled run, or owner says "yeni bölüm", "sıradaki şehri yap")
 
+0. **Final-video QA of the last finished episode (every run, before anything else).** After `git pull`, find cities whose
+   `status.json` has `"qa_checked": false` (the Render action set it) and a `cities/<slug>/qa_sheet.jpg`: 16 evenly spaced
+   frames of the FINISHED English video. Read the sheet and look at every tile: city/land/water right, walls and
+   landmarks where they belong, labels readable and not overlapping or cut off, no black/blank/stuck frame, the era
+   captions and dates sensible (the video is silent, so there is no speech to compare; `status.json` `qa` also lists any
+   blank frames the script found). If something is really wrong, fix `city.json`, and re-run the **Render episode** action
+   for that slug (it is private + scheduled, so there is time before it goes live); if you are unsure how to replace
+   the uploaded video safely, tell the owner exactly what is wrong instead of guessing. When clean (or fixed),
+   set `"qa_checked": true` in that status.json (commit + push). Add ONE line to the report in Turkish, e.g.
+   "Video kontrolü: <şehir> — 16 kare incelendi, <bulunan/düzeltilen> " or "…sorun yok." Never say an episode is done
+   before this check.
 1. `git pull`. **Stock check:** count long videos in `uploads.json` whose `publish_at` is in the future, plus cities
    whose `render.json` exists but are not yet in `uploads.json`. If that is 8 or more (4 weeks of stock), make nothing:
    just report to the owner "stok dolu (N bölüm hazır, son yayın <tarih>)" and stop.
