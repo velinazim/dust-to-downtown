@@ -52,6 +52,9 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    the title ("… in 50 Seconds", "From X to Y"); the `description` must stay factual (it follows the link line, which
    `tools/shorts.py` now puts first, plus a "which city next?" question). Do not renumber old titles; do not rework the
    long episode's opening until a couple of weeks of data exist.
+   **Tell the owner after every upload** (Turkish; PushNotification in unattended runs): one line per Short —
+   `<Short başlığı> (<link>) → ilgili video: <uzun video başlığı> (<link>). Studio'da "İlgili video" olarak bunu seç;
+   uzun videoda sabit yorum yap.` The API cannot set either.
 4. `python3 tools/validate.py <slug>` until it prints OK. Fix every WARN you can.
 5. Commit + push (`episode: <slug> draft`). The **Preview** action builds the real map and commits 10 stills per
    language to `cities/<slug>/preview/` (~10–20 min). Poll: every 60 s `git pull -q`, until
