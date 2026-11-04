@@ -1,0 +1,6333 @@
+{
+ "slug": "vienna",
+ "seed": 97,
+ "long_ok": true,
+ "name": {
+  "en": "Vienna",
+  "tr": "Viyana"
+ },
+ "intro": {
+  "en": "1,900 Years in 15 Minutes",
+  "tr": "15 Dakikada 1.900 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   48.02,
+   16.05,
+   48.42,
+   16.72
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   48.17,
+   16.29,
+   48.265,
+   16.445
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Donau"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 1.8
+ },
+ "segments": [
+  {
+   "from": 97,
+   "to": 113,
+   "seconds": 18,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vindobona",
+    "tr": "Vindobona"
+   },
+   "title": {
+    "en": "A Fortress on the Danube",
+    "tr": "Tuna'da Bir Kale"
+   },
+   "sub": {
+    "en": "c. AD 97–103: Roman legionaries build a 20-hectare fortress above the Danube",
+    "tr": "MS ~97–103: Romalı lejyonerler Tuna'ya bakan 20 hektarlık bir kale kurar"
+   },
+   "population": 6000,
+   "camera": {
+    "center": [
+     48.2105,
+     16.3715
+    ],
+    "dist_km": 2.2
+   },
+   "chapter": {
+    "en": "Roman Vindobona",
+    "tr": "Roma Vindobona'sı"
+   }
+  },
+  {
+   "from": 114,
+   "to": 179,
+   "seconds": 16,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vindobona",
+    "tr": "Vindobona"
+   },
+   "title": {
+    "en": "The Tenth Legion",
+    "tr": "Onuncu Lejyon"
+   },
+   "sub": {
+    "en": "AD 114: Legio X Gemina arrives and will stay for 300 years; a town grows outside the walls",
+    "tr": "MS 114: X. Gemina lejyonu gelir ve 300 yıl kalır; surların dışında bir kasaba büyür"
+   },
+   "population": [
+    6000,
+    15000
+   ],
+   "camera": {
+    "center": [
+     48.2095,
+     16.372
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 180,
+   "to": 211,
+   "seconds": 16,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vindobona",
+    "tr": "Vindobona"
+   },
+   "title": {
+    "en": "Death of an Emperor",
+    "tr": "Bir İmparatorun Ölümü"
+   },
+   "sub": {
+    "en": "17 March 180: Marcus Aurelius is said to die at Vindobona during a war on the Danube",
+    "tr": "17 Mart 180: Marcus Aurelius'un Tuna'daki bir savaş sırasında Vindobona'da öldüğü söylenir"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     48.209,
+     16.373
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 212,
+   "to": 399,
+   "seconds": 15,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vindobona",
+    "tr": "Vindobona"
+   },
+   "title": {
+    "en": "A Roman Town",
+    "tr": "Bir Roma Kasabası"
+   },
+   "sub": {
+    "en": "By 212 the civilian town is a municipium; some 15,000 people live around the fortress",
+    "tr": "212'ye gelindiğinde sivil kasaba bir municipium olur; kalenin çevresinde ~15.000 kişi yaşar"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     48.207,
+     16.376
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 400,
+   "to": 500,
+   "seconds": 15,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vindobona",
+    "tr": "Vindobona"
+   },
+   "title": {
+    "en": "Rome Withdraws",
+    "tr": "Roma Çekiliyor"
+   },
+   "sub": {
+    "en": "After the Huns reach Pannonia in the 430s, the people leave and the fortress falls quiet",
+    "tr": "430'larda Hunlar Pannonia'ya ulaşınca halk ayrılır ve kale sessizliğe gömülür"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     48.21,
+     16.372
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 501,
+   "to": 795,
+   "seconds": 6,
+   "era": {
+    "en": "Early Middle Ages",
+    "tr": "Erken Orta Çağ"
+   },
+   "city_name": {
+    "en": "Banks of the Danube",
+    "tr": "Tuna kıyısı"
+   },
+   "camera": {
+    "center": [
+     48.2105,
+     16.3725
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Early Middle Ages",
+    "tr": "Erken Orta Çağ"
+   }
+  },
+  {
+   "from": 796,
+   "to": 880,
+   "seconds": 15,
+   "era": {
+    "en": "Early Middle Ages",
+    "tr": "Erken Orta Çağ"
+   },
+   "city_name": {
+    "en": "Banks of the Danube",
+    "tr": "Tuna kıyısı"
+   },
+   "title": {
+    "en": "St Rupert's Church",
+    "tr": "Aziz Rupert Kilisesi"
+   },
+   "sub": {
+    "en": "Vienna's oldest church, St Rupert's, was probably founded between 796 and 829",
+    "tr": "Viyana'nın en eski kilisesi Aziz Rupert büyük olasılıkla 796–829 arasında kuruldu"
+   },
+   "camera": {
+    "center": [
+     48.2112,
+     16.3735
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 881,
+   "to": 975,
+   "seconds": 15,
+   "era": {
+    "en": "Early Middle Ages",
+    "tr": "Erken Orta Çağ"
+   },
+   "city_name": {
+    "en": "Wenia",
+    "tr": "Wenia"
+   },
+   "title": {
+    "en": "Wenia",
+    "tr": "Wenia"
+   },
+   "sub": {
+    "en": "881: the Salzburg Annals record a battle 'at Wenia', the first mention of Vienna",
+    "tr": "881: Salzburg Yıllıkları 'Wenia'da' bir savaştan söz eder; Viyana'nın ilk anılışı"
+   },
+   "camera": {
+    "center": [
+     48.21,
+     16.3725
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 976,
+   "to": 1136,
+   "seconds": 15,
+   "era": {
+    "en": "Babenberg Austria",
+    "tr": "Babenberg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Babenbergs",
+    "tr": "Babenbergler"
+   },
+   "sub": {
+    "en": "976: the Babenberg family takes over the march; by the 11th century Vienna is a trading town",
+    "tr": "976: Babenberg ailesi bölgeyi devralır; 11. yüzyılda Viyana bir ticaret kasabasıdır"
+   },
+   "camera": {
+    "center": [
+     48.2095,
+     16.372
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Babenberg Vienna",
+    "tr": "Babenberg Viyanası"
+   }
+  },
+  {
+   "from": 1137,
+   "to": 1154,
+   "seconds": 16,
+   "era": {
+    "en": "Babenberg Austria",
+    "tr": "Babenberg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The First St Stephen's",
+    "tr": "İlk Aziz Stephan"
+   },
+   "sub": {
+    "en": "1137: Vienna is first called a city; in 1147 the first St Stephen's Church is consecrated",
+    "tr": "1137: Viyana ilk kez şehir olarak anılır; 1147'de ilk Aziz Stephan Kilisesi kutsanır"
+   },
+   "camera": {
+    "center": [
+     48.209,
+     16.3725
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1155,
+   "to": 1191,
+   "seconds": 16,
+   "era": {
+    "en": "Babenberg Austria",
+    "tr": "Babenberg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Capital of a Duchy",
+    "tr": "Bir Dükalığın Başkenti"
+   },
+   "sub": {
+    "en": "1155: Henry II makes Vienna his capital and founds the Scots Abbey; in 1156 Austria is a duchy",
+    "tr": "1155: II. Heinrich Viyana'yı başkent yapar, İskoç Manastırı'nı kurar; 1156'da dükalık gelir"
+   },
+   "camera": {
+    "center": [
+     48.21,
+     16.37
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1192,
+   "to": 1220,
+   "seconds": 18,
+   "era": {
+    "en": "Babenberg Austria",
+    "tr": "Babenberg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A King's Ransom",
+    "tr": "Bir Kralın Fidyesi"
+   },
+   "sub": {
+    "en": "1192: Richard the Lionheart is seized in Erdberg; his ransom helps pay for new city walls",
+    "tr": "1192: Aslan Yürekli Richard Erdberg'de yakalanır; fidyesi yeni surların yapımına yardım eder"
+   },
+   "camera": {
+    "center": [
+     48.2085,
+     16.373
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1221,
+   "to": 1277,
+   "seconds": 15,
+   "era": {
+    "en": "Babenberg Austria",
+    "tr": "Babenberg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "City Rights",
+    "tr": "Şehir Hakları"
+   },
+   "sub": {
+    "en": "1221: Vienna gets city rights and the staple right: passing merchants must sell goods here",
+    "tr": "1221: Viyana şehir haklarını ve istif hakkını alır: geçen tüccarlar malını burada satmalıdır"
+   },
+   "camera": {
+    "center": [
+     48.209,
+     16.372
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1278,
+   "to": 1338,
+   "seconds": 15,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Habsburgs Arrive",
+    "tr": "Habsburglar Geliyor"
+   },
+   "sub": {
+    "en": "1278: Rudolf I defeats Ottokar II; Habsburg rule begins and will last over 600 years",
+    "tr": "1278: I. Rudolf, II. Ottokar'ı yener; Habsburg yönetimi başlar ve 600 yılı aşkın sürer"
+   },
+   "camera": {
+    "center": [
+     48.208,
+     16.37
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Gothic Vienna",
+    "tr": "Gotik Viyana"
+   }
+  },
+  {
+   "from": 1339,
+   "to": 1364,
+   "seconds": 16,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A Gothic Cathedral",
+    "tr": "Gotik Bir Katedral"
+   },
+   "sub": {
+    "en": "1340: St Stephen's Gothic choir is consecrated; on 7 April 1359 Rudolf IV lays a new stone",
+    "tr": "1340: Aziz Stephan'ın Gotik koro bölümü kutsanır; 7 Nisan 1359'da IV. Rudolf yeni taşı koyar"
+   },
+   "camera": {
+    "center": [
+     48.2085,
+     16.373
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1365,
+   "to": 1432,
+   "seconds": 15,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The University",
+    "tr": "Üniversite"
+   },
+   "sub": {
+    "en": "1365: Rudolf IV founds the University of Vienna",
+    "tr": "1365: IV. Rudolf Viyana Üniversitesi'ni kurar"
+   },
+   "camera": {
+    "center": [
+     48.209,
+     16.372
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1433,
+   "to": 1484,
+   "seconds": 16,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The South Tower",
+    "tr": "Güney Kulesi"
+   },
+   "sub": {
+    "en": "1433: St Stephen's south tower is finished, about 136 m tall",
+    "tr": "1433: Aziz Stephan'ın yaklaşık 136 m'lik güney kulesi tamamlanır"
+   },
+   "camera": {
+    "center": [
+     48.2085,
+     16.373
+    ],
+    "dist_km": 1.9
+   }
+  },
+  {
+   "from": 1485,
+   "to": 1528,
+   "seconds": 15,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Hungarian Vienna",
+    "tr": "Macar Viyanası"
+   },
+   "sub": {
+    "en": "1485: Matthias Corvinus of Hungary takes Vienna; it is his capital until 1490",
+    "tr": "1485: Macar kralı Matthias Corvinus Viyana'yı alır; şehir 1490'a dek onun başkentidir"
+   },
+   "population": 22500,
+   "camera": {
+    "center": [
+     48.209,
+     16.371
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1529,
+   "to": 1529.9,
+   "seconds": 19,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The First Siege",
+    "tr": "Birinci Kuşatma"
+   },
+   "sub": {
+    "en": "27 Sept – 15 Oct 1529: Suleiman's army, over 100,000 strong, fails to take Vienna",
+    "tr": "27 Eylül – 15 Ekim 1529: 100.000'i aşkın Kanuni ordusu Viyana'yı alamaz"
+   },
+   "population": 28000,
+   "camera": {
+    "center": [
+     48.206,
+     16.36
+    ],
+    "dist_km": 6.5
+   },
+   "chapter": {
+    "en": "The Ottoman Sieges",
+    "tr": "Osmanlı Kuşatmaları"
+   }
+  },
+  {
+   "from": 1530,
+   "to": 1555,
+   "seconds": 16,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A Bastion Fortress",
+    "tr": "Tabyalı Bir Kale"
+   },
+   "sub": {
+    "en": "1548: Vienna becomes a fortress with eleven bastions and a moat",
+    "tr": "1548: Viyana on bir tabyası ve hendeğiyle bir kaleye dönüşür"
+   },
+   "population": [
+    28000,
+    33000
+   ],
+   "camera": {
+    "center": [
+     48.2085,
+     16.37
+    ],
+    "dist_km": 3.8
+   }
+  },
+  {
+   "from": 1556,
+   "to": 1678,
+   "seconds": 15,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Seat of the Emperor",
+    "tr": "İmparatorun Merkezi"
+   },
+   "sub": {
+    "en": "1556: Vienna becomes the seat of the Holy Roman Emperor; by 1637 it has about 60,000 people",
+    "tr": "1556: Viyana Kutsal Roma İmparatoru'nun merkezi olur; 1637'de nüfusu ~60.000'dir"
+   },
+   "population": [
+    34000,
+    86000
+   ],
+   "camera": {
+    "center": [
+     48.2085,
+     16.369
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1679,
+   "to": 1682,
+   "seconds": 15,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Great Plague",
+    "tr": "Büyük Veba"
+   },
+   "sub": {
+    "en": "1679: plague kills nearly a third of Vienna's people",
+    "tr": "1679: veba Viyana halkının neredeyse üçte birini öldürür"
+   },
+   "population": 87000,
+   "camera": {
+    "center": [
+     48.2088,
+     16.3705
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1683.0,
+   "to": 1683.69,
+   "seconds": 21,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Second Siege",
+    "tr": "İkinci Kuşatma"
+   },
+   "sub": {
+    "en": "14 July 1683: Kara Mustafa's army surrounds Vienna; the defenders hold out for two months",
+    "tr": "14 Temmuz 1683: Kara Mustafa'nın ordusu Viyana'yı kuşatır; savunucular iki ay direnir"
+   },
+   "population": 90000,
+   "camera": {
+    "center": [
+     48.207,
+     16.358
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1683.7,
+   "to": 1695,
+   "seconds": 18,
+   "era": {
+    "en": "Habsburg Austria",
+    "tr": "Habsburg Avusturyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Battle of the Kahlenberg",
+    "tr": "Kahlenberg Muharebesi"
+   },
+   "sub": {
+    "en": "12 Sept 1683: a relief army under Jan Sobieski attacks from the Kahlenberg and ends the siege",
+    "tr": "12 Eylül 1683: Jan Sobieski komutasındaki yardım ordusu Kahlenberg'den saldırır, kuşatma biter"
+   },
+   "population": [
+    91000,
+    100000
+   ],
+   "camera": {
+    "center": [
+     48.235,
+     16.35
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1696,
+   "to": 1703,
+   "seconds": 16,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Schönbrunn",
+    "tr": "Schönbrunn"
+   },
+   "sub": {
+    "en": "1696: work starts on a new palace at Schönbrunn; its central block is ready in 1700",
+    "tr": "1696: Schönbrunn'da yeni bir sarayın yapımı başlar; orta bölümü 1700'de hazırdır"
+   },
+   "population": [
+    101000,
+    107000
+   ],
+   "camera": {
+    "center": [
+     48.188,
+     16.325
+    ],
+    "dist_km": 4.6
+   },
+   "chapter": {
+    "en": "Baroque Vienna",
+    "tr": "Barok Viyana"
+   }
+  },
+  {
+   "from": 1704,
+   "to": 1711,
+   "seconds": 16,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Linienwall",
+    "tr": "Linienwall"
+   },
+   "sub": {
+    "en": "1704: a 13.5 km earthwork, the Linienwall, rings the suburbs against raids",
+    "tr": "1704: 13,5 km'lik toprak bir set, Linienwall, banliyöleri akınlara karşı kuşatır"
+   },
+   "population": [
+    108000,
+    115000
+   ],
+   "camera": {
+    "center": [
+     48.206,
+     16.37
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1712,
+   "to": 1715,
+   "seconds": 15,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Belvedere",
+    "tr": "Belvedere"
+   },
+   "sub": {
+    "en": "From 1712 Prince Eugene builds the Belvedere; the Upper Belvedere is finished in 1723",
+    "tr": "1712'den itibaren Prens Eugen Belvedere'yi yaptırır; Yukarı Belvedere 1723'te tamamlanır"
+   },
+   "population": [
+    116000,
+    120000
+   ],
+   "camera": {
+    "center": [
+     48.196,
+     16.378
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1716,
+   "to": 1739,
+   "seconds": 16,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Karlskirche",
+    "tr": "Karlskirche"
+   },
+   "sub": {
+    "en": "1716–1737: after the plague of 1713 the emperor builds the Karlskirche; its dome is 70 m high",
+    "tr": "1716–1737: 1713 vebasından sonra imparator Karlskirche'yi yaptırır; kubbesi 70 m'dir"
+   },
+   "population": [
+    121000,
+    151000
+   ],
+   "camera": {
+    "center": [
+     48.201,
+     16.3715
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1740,
+   "to": 1765,
+   "seconds": 15,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Maria Theresa's Palace",
+    "tr": "Maria Theresia'nın Sarayı"
+   },
+   "sub": {
+    "en": "1740s–1750s: Maria Theresa rebuilds Schönbrunn; by 1754 Vienna has 175,460 people",
+    "tr": "1740'lar–1750'ler: Maria Theresia Schönbrunn'u yeniden yaptırır; 1754'te nüfus 175.460'tır"
+   },
+   "population": [
+    153000,
+    200000
+   ],
+   "camera": {
+    "center": [
+     48.188,
+     16.325
+    ],
+    "dist_km": 4.2
+   }
+  },
+  {
+   "from": 1766,
+   "to": 1804,
+   "seconds": 16,
+   "era": {
+    "en": "Baroque Era",
+    "tr": "Barok Dönem"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Prater Opens",
+    "tr": "Prater Halka Açılıyor"
+   },
+   "sub": {
+    "en": "1766: Joseph II opens the Prater, the imperial hunting ground, to the public",
+    "tr": "1766: II. Joseph imparatorluk av alanı Prater'i halka açar"
+   },
+   "population": [
+    202000,
+    305000
+   ],
+   "camera": {
+    "center": [
+     48.212,
+     16.395
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1805,
+   "to": 1813,
+   "seconds": 15,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Napoleon in Vienna",
+    "tr": "Viyana'da Napolyon"
+   },
+   "sub": {
+    "en": "1805 and 1809: French troops occupy Vienna twice",
+    "tr": "1805 ve 1809: Fransız askerleri Viyana'yı iki kez işgal eder"
+   },
+   "population": [
+    308000,
+    335000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.37
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "Empire and Revolution",
+    "tr": "İmparatorluk ve Devrim"
+   }
+  },
+  {
+   "from": 1814,
+   "to": 1836,
+   "seconds": 16,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Congress of Vienna",
+    "tr": "Viyana Kongresi"
+   },
+   "sub": {
+    "en": "1814–1815: Europe's rulers meet in Vienna to redraw the map after Napoleon",
+    "tr": "1814–1815: Avrupa'nın liderleri Napolyon sonrası haritayı yeniden çizmek için Viyana'da buluşur"
+   },
+   "population": [
+    339000,
+    441000
+   ],
+   "camera": {
+    "center": [
+     48.207,
+     16.366
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1837,
+   "to": 1847,
+   "seconds": 15,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Railway Arrives",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "1837: the Northern Railway opens beyond the Danube; in 1838 it reaches Vienna",
+    "tr": "1837: Kuzey Demiryolu Tuna'nın ötesinde açılır; 1838'de Viyana'ya ulaşır"
+   },
+   "population": [
+    448000,
+    525000
+   ],
+   "camera": {
+    "center": [
+     48.228,
+     16.395
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1848,
+   "to": 1849,
+   "seconds": 14,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   },
+   "sub": {
+    "en": "13 March 1848: revolution forces Metternich to resign; an October rising is crushed",
+    "tr": "13 Mart 1848: devrim Metternich'i istifaya zorlar; ekim ayaklanması bastırılır"
+   },
+   "population": [
+    534000,
+    543000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.368
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1850,
+   "to": 1856,
+   "seconds": 14,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Suburbs Join",
+    "tr": "Banliyöler Katılıyor"
+   },
+   "sub": {
+    "en": "1850: the suburbs inside the Linienwall become part of Vienna; it has 551,300 people",
+    "tr": "1850: Linienwall içindeki banliyöler Viyana'ya katılır; nüfus 551.300'dür"
+   },
+   "population": [
+    551300,
+    662000
+   ],
+   "camera": {
+    "center": [
+     48.205,
+     16.37
+    ],
+    "dist_km": 9.5
+   }
+  },
+  {
+   "from": 1857,
+   "to": 1868,
+   "seconds": 20,
+   "era": {
+    "en": "Austrian Empire",
+    "tr": "Avusturya İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Down Come the Walls",
+    "tr": "Surlar Yıkılıyor"
+   },
+   "sub": {
+    "en": "1857: Franz Joseph orders the walls torn down; the 5.3 km Ringstrasse takes their place",
+    "tr": "1857: Franz Joseph surların yıkılmasını emreder; yerini 5,3 km'lik Ringstraße alır"
+   },
+   "population": [
+    683000,
+    880000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.37
+    ],
+    "dist_km": 4.6
+   },
+   "chapter": {
+    "en": "The Ringstrasse",
+    "tr": "Ringstraße"
+   }
+  },
+  {
+   "from": 1869,
+   "to": 1869.9,
+   "seconds": 15,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Opera",
+    "tr": "Opera"
+   },
+   "sub": {
+    "en": "25 May 1869: the Court Opera opens on the Ring with Mozart's Don Giovanni",
+    "tr": "25 Mayıs 1869: Saray Operası Ring üzerinde Mozart'ın Don Giovanni'siyle açılır"
+   },
+   "population": [
+    900998,
+    920000
+   ],
+   "camera": {
+    "center": [
+     48.204,
+     16.369
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1870,
+   "to": 1872,
+   "seconds": 17,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Taming the Danube",
+    "tr": "Tuna'yı Evcilleştirmek"
+   },
+   "sub": {
+    "en": "1870–1875: the Danube gets a straight new bed, 280 m wide; the old bed becomes the Alte Donau",
+    "tr": "1870–1875: Tuna'ya 280 m genişliğinde düz bir yatak açılır; eski yatak Alte Donau olur"
+   },
+   "population": [
+    922000,
+    966000
+   ],
+   "camera": {
+    "center": [
+     48.225,
+     16.41
+    ],
+    "dist_km": 11.0
+   }
+  },
+  {
+   "from": 1873,
+   "to": 1875,
+   "seconds": 15,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The World's Fair",
+    "tr": "Dünya Fuarı"
+   },
+   "sub": {
+    "en": "1 May 1873: a World's Fair opens in the Prater; that year the stock market crashes",
+    "tr": "1 Mayıs 1873: Prater'de bir Dünya Fuarı açılır; aynı yıl borsa çöker"
+   },
+   "population": [
+    989000,
+    1035000
+   ],
+   "camera": {
+    "center": [
+     48.215,
+     16.4
+    ],
+    "dist_km": 5.5
+   }
+  },
+  {
+   "from": 1876,
+   "to": 1882,
+   "seconds": 15,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A Bridge Across",
+    "tr": "Karşıya Bir Köprü"
+   },
+   "sub": {
+    "en": "21 August 1876: the first Reichsbrücke opens across the new Danube bed",
+    "tr": "21 Ağustos 1876: ilk Reichsbrücke yeni Tuna yatağının üzerinde açılır"
+   },
+   "population": [
+    1060000,
+    1212000
+   ],
+   "camera": {
+    "center": [
+     48.226,
+     16.405
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 1883,
+   "to": 1889,
+   "seconds": 18,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "City Hall and Parliament",
+    "tr": "Belediye Sarayı ve Parlamento"
+   },
+   "sub": {
+    "en": "1883: the City Hall, its tower 98 m high, and Hansen's Parliament are finished on the Ring",
+    "tr": "1883: kulesi 98 m'lik Belediye Sarayı ve Hansen'in Parlamentosu Ring üzerinde tamamlanır"
+   },
+   "population": [
+    1237000,
+    1401000
+   ],
+   "camera": {
+    "center": [
+     48.21,
+     16.36
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1890,
+   "to": 1896,
+   "seconds": 16,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Greater Vienna",
+    "tr": "Büyük Viyana"
+   },
+   "sub": {
+    "en": "1890–1892: the villages beyond the Gürtel join the city; it counts 1.43 million people",
+    "tr": "1890–1892: Gürtel'in ötesindeki köyler şehre katılır; nüfus 1,43 milyondur"
+   },
+   "population": [
+    1430213,
+    1625000
+   ],
+   "camera": {
+    "center": [
+     48.205,
+     16.36
+    ],
+    "dist_km": 15.0
+   }
+  },
+  {
+   "from": 1897,
+   "to": 1909,
+   "seconds": 16,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Giant Wheel",
+    "tr": "Dev Dönme Dolap"
+   },
+   "sub": {
+    "en": "1897: the Riesenrad, 64.75 m tall, rises in the Prater for the emperor's jubilee",
+    "tr": "1897: 64,75 m'lik Riesenrad, imparatorun jübilesi için Prater'de yükselir"
+   },
+   "population": [
+    1660000,
+    2050000
+   ],
+   "camera": {
+    "center": [
+     48.216,
+     16.392
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1910,
+   "to": 1917,
+   "seconds": 15,
+   "era": {
+    "en": "Austria-Hungary",
+    "tr": "Avusturya-Macaristan"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Two Million",
+    "tr": "İki Milyon"
+   },
+   "sub": {
+    "en": "1910: the census counts 2,083,630 people; the city is now larger than ever",
+    "tr": "1910: sayım 2.083.630 kişi sayar; şehir hiç olmadığı kadar büyüktür"
+   },
+   "population": [
+    2083630,
+    1993000
+   ],
+   "camera": {
+    "center": [
+     48.205,
+     16.37
+    ],
+    "dist_km": 19.0
+   }
+  },
+  {
+   "from": 1918,
+   "to": 1933,
+   "seconds": 17,
+   "era": {
+    "en": "First Republic",
+    "tr": "Birinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Red Vienna",
+    "tr": "Kızıl Viyana"
+   },
+   "sub": {
+    "en": "1918: the empire ends; the city builds homes like the 1,100 m Karl-Marx-Hof (1927–1930)",
+    "tr": "1918: imparatorluk sona erer; şehir 1.100 m'lik Karl-Marx-Hof (1927–1930) gibi konutlar yapar"
+   },
+   "population": [
+    1981000,
+    1934000
+   ],
+   "camera": {
+    "center": [
+     48.245,
+     16.362
+    ],
+    "dist_km": 4.4
+   },
+   "chapter": {
+    "en": "Red Vienna and War",
+    "tr": "Kızıl Viyana ve Savaş"
+   }
+  },
+  {
+   "from": 1934,
+   "to": 1937,
+   "seconds": 15,
+   "era": {
+    "en": "First Republic",
+    "tr": "Birinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Civil War",
+    "tr": "İç Savaş"
+   },
+   "sub": {
+    "en": "February 1934: in the Austrian Civil War the army shells the Karl-Marx-Hof",
+    "tr": "Şubat 1934: Avusturya İç Savaşı'nda ordu Karl-Marx-Hof'u topa tutar"
+   },
+   "population": [
+    1935881,
+    1835000
+   ],
+   "camera": {
+    "center": [
+     48.25,
+     16.364
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1938,
+   "to": 1944,
+   "seconds": 16,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Anschluss",
+    "tr": "Anschluss"
+   },
+   "sub": {
+    "en": "March 1938: Nazi Germany annexes Austria; more than 100,000 Jews flee Vienna",
+    "tr": "Mart 1938: Nazi Almanyası Avusturya'yı ilhak eder; 100.000'i aşkın Yahudi Viyana'dan kaçar"
+   },
+   "population": [
+    1803000,
+    1705000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.37
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1944.01,
+   "to": 1945.3,
+   "seconds": 18,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The War Comes Home",
+    "tr": "Savaş Şehre Geliyor"
+   },
+   "sub": {
+    "en": "52 air raids kill 8,769 people; on 12 April 1945 the roof of St Stephen's burns",
+    "tr": "52 hava saldırısı 8.769 kişiyi öldürür; 12 Nisan 1945'te Aziz Stephan'ın çatısı yanar"
+   },
+   "population": [
+    1705000,
+    1688000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.371
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1945.31,
+   "to": 1955.3,
+   "seconds": 16,
+   "era": {
+    "en": "Allied Occupation",
+    "tr": "Müttefik İşgali"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Four Powers",
+    "tr": "Dört Güç"
+   },
+   "sub": {
+    "en": "13 April 1945: the Soviet army takes Vienna; for ten years four Allied powers occupy it",
+    "tr": "13 Nisan 1945: Sovyet ordusu Viyana'yı alır; şehir on yıl dört Müttefik gücün işgalinde kalır"
+   },
+   "population": [
+    1688000,
+    1621000
+   ],
+   "camera": {
+    "center": [
+     48.208,
+     16.37
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1955.37,
+   "to": 1963,
+   "seconds": 16,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Free Again",
+    "tr": "Yeniden Özgür"
+   },
+   "sub": {
+    "en": "15 May 1955: the Austrian State Treaty is signed at the Belvedere",
+    "tr": "15 Mayıs 1955: Avusturya Devlet Antlaşması Belvedere'de imzalanır"
+   },
+   "population": [
+    1621000,
+    1626000
+   ],
+   "camera": {
+    "center": [
+     48.196,
+     16.378
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Modern Vienna",
+    "tr": "Modern Viyana"
+   }
+  },
+  {
+   "from": 1964,
+   "to": 1972,
+   "seconds": 15,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Danube Tower",
+    "tr": "Tuna Kulesi"
+   },
+   "sub": {
+    "en": "16 April 1964: the 252 m Danube Tower opens with the international garden show",
+    "tr": "16 Nisan 1964: 252 m'lik Tuna Kulesi uluslararası bahçe fuarıyla açılır"
+   },
+   "population": [
+    1625000,
+    1611000
+   ],
+   "camera": {
+    "center": [
+     48.236,
+     16.405
+    ],
+    "dist_km": 4.6
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1976.5,
+   "seconds": 16,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "UNO City",
+    "tr": "BM Şehri"
+   },
+   "sub": {
+    "en": "1973–1979: the Vienna International Centre rises; Vienna becomes the third seat of the UN",
+    "tr": "1973–1979: Viyana Uluslararası Merkezi yükselir; Viyana BM'nin üçüncü merkezi olur"
+   },
+   "population": [
+    1602000,
+    1571000
+   ],
+   "camera": {
+    "center": [
+     48.233,
+     16.412
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1976.55,
+   "to": 1977.9,
+   "seconds": 14,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The Bridge Falls",
+    "tr": "Köprü Çöküyor"
+   },
+   "sub": {
+    "en": "1 August 1976: shortly before 5 a.m. the Reichsbrücke collapses into the Danube",
+    "tr": "1 Ağustos 1976: sabah 5'ten kısa süre önce Reichsbrücke Tuna'ya çöker"
+   },
+   "population": [
+    1570000,
+    1558000
+   ],
+   "camera": {
+    "center": [
+     48.228,
+     16.409
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1978,
+   "to": 1983,
+   "seconds": 14,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "The U-Bahn",
+    "tr": "Metro"
+   },
+   "sub": {
+    "en": "25 February 1978: the first U-Bahn line, U1, opens from Reumannplatz to Karlsplatz",
+    "tr": "25 Şubat 1978: ilk metro hattı U1, Reumannplatz ile Karlsplatz arasında açılır"
+   },
+   "population": [
+    1557000,
+    1533000
+   ],
+   "camera": {
+    "center": [
+     48.2,
+     16.375
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1984,
+   "to": 1988,
+   "seconds": 16,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A New Island",
+    "tr": "Yeni Bir Ada"
+   },
+   "sub": {
+    "en": "1972–1988: a flood channel, the New Danube, is dug and a 21.1 km island built beside it",
+    "tr": "1972–1988: bir taşkın kanalı, Yeni Tuna, kazılır ve yanına 21,1 km'lik bir ada yapılır"
+   },
+   "population": [
+    1534000,
+    1537000
+   ],
+   "camera": {
+    "center": [
+     48.235,
+     16.405
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1989,
+   "to": 2012,
+   "seconds": 8,
+   "era": {
+    "en": "Second Republic",
+    "tr": "İkinci Cumhuriyet"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "population": [
+    1538000,
+    1734000
+   ],
+   "camera": {
+    "center": [
+     48.22,
+     16.39
+    ],
+    "dist_km": 16.0
+   }
+  },
+  {
+   "from": 2013,
+   "to": 2019,
+   "seconds": 15,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "A New Skyline",
+    "tr": "Yeni Bir Silüet"
+   },
+   "sub": {
+    "en": "2013: DC Tower 1, 220 m to its roof, is finished beside the Danube",
+    "tr": "2013: çatısına kadar 220 m olan DC Tower 1, Tuna'nın kıyısında tamamlanır"
+   },
+   "population": [
+    1755000,
+    1882000
+   ],
+   "camera": {
+    "center": [
+     48.232,
+     16.41
+    ],
+    "dist_km": 4.8
+   },
+   "chapter": {
+    "en": "Vienna Today",
+    "tr": "Bugünün Viyanası"
+   }
+  },
+  {
+   "from": 2020,
+   "to": 2026,
+   "seconds": 22,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "title": {
+    "en": "Vienna Today",
+    "tr": "Bugünün Viyanası"
+   },
+   "sub": {
+    "en": "From a Roman fortress to 2,042,036 people on 1 January 2026",
+    "tr": "Bir Roma kalesinden 1 Ocak 2026'da 2.042.036 kişiye"
+   },
+   "population": [
+    1905000,
+    2042036
+   ],
+   "camera": {
+    "center": [
+     48.215,
+     16.38
+    ],
+    "dist_km": 20.0
+   }
+  }
+ ],
+ "timed_water": [],
+ "districts": [
+  {
+   "name": "Vindobona fortress",
+   "style": "roman",
+   "poly": [
+    [
+     48.2095,
+     16.3684
+    ],
+    [
+     48.2089,
+     16.373
+    ],
+    [
+     48.2122,
+     16.3742
+    ],
+    [
+     48.213,
+     16.3688
+    ]
+   ],
+   "from": 98,
+   "to": 125,
+   "density": 0.75,
+   "grain_m": 45,
+   "grid_deg": 0,
+   "grow_from": [
+    48.211,
+    16.3712
+   ],
+   "fade": [
+    430,
+    450,
+    0.08
+   ]
+  },
+  {
+   "name": "Canabae (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     48.2089,
+     16.3684
+    ],
+    [
+     48.206,
+     16.366
+    ],
+    [
+     48.2048,
+     16.37
+    ],
+    [
+     48.206,
+     16.374
+    ],
+    [
+     48.2085,
+     16.3745
+    ]
+   ],
+   "from": 115,
+   "to": 200,
+   "density": 0.45,
+   "grain_m": 50,
+   "grow_from": [
+    48.208,
+    16.37
+   ],
+   "fade": [
+    430,
+    450,
+    0.0
+   ]
+  },
+  {
+   "name": "Civil town, 3rd district (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     48.2005,
+     16.38
+    ],
+    [
+     48.199,
+     16.387
+    ],
+    [
+     48.196,
+     16.388
+    ],
+    [
+     48.1965,
+     16.38
+    ]
+   ],
+   "from": 130,
+   "to": 212,
+   "density": 0.45,
+   "grain_m": 55,
+   "grow_from": [
+    48.1985,
+    16.384
+   ],
+   "fade": [
+    430,
+    450,
+    0.0
+   ]
+  },
+  {
+   "name": "Early medieval settlement in the old camp (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.2095,
+     16.3684
+    ],
+    [
+     48.2089,
+     16.373
+    ],
+    [
+     48.2122,
+     16.3742
+    ],
+    [
+     48.213,
+     16.3688
+    ]
+   ],
+   "from": 800,
+   "to": 1100,
+   "density": 0.55,
+   "grain_m": 50,
+   "grow_from": [
+    48.2112,
+    16.3735
+   ]
+  },
+  {
+   "name": "Babenberg town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.21393,
+     16.36955
+    ],
+    [
+     48.2128,
+     16.3658
+    ],
+    [
+     48.2119,
+     16.36415
+    ],
+    [
+     48.2098,
+     16.36415
+    ],
+    [
+     48.20793,
+     16.3649
+    ],
+    [
+     48.20605,
+     16.36617
+    ],
+    [
+     48.20515,
+     16.3682
+    ],
+    [
+     48.205,
+     16.37067
+    ],
+    [
+     48.20545,
+     16.37368
+    ],
+    [
+     48.20665,
+     16.3763
+    ],
+    [
+     48.20867,
+     16.3778
+    ],
+    [
+     48.2104,
+     16.3778
+    ],
+    [
+     48.21115,
+     16.37615
+    ],
+    [
+     48.21205,
+     16.37368
+    ],
+    [
+     48.21303,
+     16.37143
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2095,
+      16.3684
+     ],
+     [
+      48.2089,
+      16.373
+     ],
+     [
+      48.2122,
+      16.3742
+     ],
+     [
+      48.213,
+      16.3688
+     ]
+    ]
+   ],
+   "from": 1100,
+   "to": 1190,
+   "density": 0.6,
+   "grow_from": [
+    48.2095,
+    16.372
+   ]
+  },
+  {
+   "name": "Medieval city inside the walls",
+   "style": "medieval",
+   "poly": [
+    [
+     48.2155,
+     16.369
+    ],
+    [
+     48.214,
+     16.364
+    ],
+    [
+     48.2128,
+     16.3618
+    ],
+    [
+     48.21,
+     16.3618
+    ],
+    [
+     48.2075,
+     16.3628
+    ],
+    [
+     48.205,
+     16.3645
+    ],
+    [
+     48.2038,
+     16.3672
+    ],
+    [
+     48.2036,
+     16.3705
+    ],
+    [
+     48.2042,
+     16.3745
+    ],
+    [
+     48.2058,
+     16.378
+    ],
+    [
+     48.2085,
+     16.38
+    ],
+    [
+     48.2108,
+     16.38
+    ],
+    [
+     48.2118,
+     16.3778
+    ],
+    [
+     48.213,
+     16.3745
+    ],
+    [
+     48.2143,
+     16.3715
+    ]
+   ],
+   "from": 1195,
+   "to": 1350,
+   "density": 0.85,
+   "grow_from": [
+    48.209,
+    16.3715
+   ],
+   "grain_m": 45
+  },
+  {
+   "name": "Early suburbs (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     48.22253,
+     16.36934
+    ],
+    [
+     48.21974,
+     16.35353
+    ],
+    [
+     48.21431,
+     16.34655
+    ],
+    [
+     48.20734,
+     16.34764
+    ],
+    [
+     48.20191,
+     16.35105
+    ],
+    [
+     48.1968,
+     16.36004
+    ],
+    [
+     48.19525,
+     16.36779
+    ],
+    [
+     48.19478,
+     16.37786
+    ],
+    [
+     48.19959,
+     16.38639
+    ],
+    [
+     48.20657,
+     16.39027
+    ],
+    [
+     48.21168,
+     16.39259
+    ],
+    [
+     48.21354,
+     16.38484
+    ],
+    [
+     48.2154,
+     16.37864
+    ],
+    [
+     48.21819,
+     16.37399
+    ],
+    [
+     48.22098,
+     16.37058
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2178,
+      16.37
+     ],
+     [
+      48.216,
+      16.3598
+     ],
+     [
+      48.2125,
+      16.3553
+     ],
+     [
+      48.208,
+      16.356
+     ],
+     [
+      48.2045,
+      16.3582
+     ],
+     [
+      48.2012,
+      16.364
+     ],
+     [
+      48.2002,
+      16.369
+     ],
+     [
+      48.1999,
+      16.3755
+     ],
+     [
+      48.203,
+      16.381
+     ],
+     [
+      48.2075,
+      16.3835
+     ],
+     [
+      48.2108,
+      16.385
+     ],
+     [
+      48.212,
+      16.38
+     ],
+     [
+      48.2132,
+      16.376
+     ],
+     [
+      48.215,
+      16.373
+     ],
+     [
+      48.2168,
+      16.3708
+     ]
+    ]
+   ],
+   "from": 1300,
+   "to": 1660,
+   "density": 0.32,
+   "grain_m": 70,
+   "grow_from": [
+    48.209,
+    16.3715
+   ],
+   "fade": [
+    1683.55,
+    1683.66,
+    0.25
+   ]
+  },
+  {
+   "name": "Baroque Innere Stadt",
+   "style": "stone",
+   "poly": [
+    [
+     48.2155,
+     16.369
+    ],
+    [
+     48.214,
+     16.364
+    ],
+    [
+     48.2128,
+     16.3618
+    ],
+    [
+     48.21,
+     16.3618
+    ],
+    [
+     48.2075,
+     16.3628
+    ],
+    [
+     48.205,
+     16.3645
+    ],
+    [
+     48.2038,
+     16.3672
+    ],
+    [
+     48.2036,
+     16.3705
+    ],
+    [
+     48.2042,
+     16.3745
+    ],
+    [
+     48.2058,
+     16.378
+    ],
+    [
+     48.2085,
+     16.38
+    ],
+    [
+     48.2108,
+     16.38
+    ],
+    [
+     48.2118,
+     16.3778
+    ],
+    [
+     48.213,
+     16.3745
+    ],
+    [
+     48.2143,
+     16.3715
+    ]
+   ],
+   "from": 1690,
+   "to": 1760,
+   "density": 0.9,
+   "grain_m": 45,
+   "grow_from": [
+    48.209,
+    16.3715
+   ]
+  },
+  {
+   "name": "Baroque suburbs (inside the Linienwall)",
+   "style": "stone",
+   "poly": [
+    [
+     48.1935,
+     16.41
+    ],
+    [
+     48.188,
+     16.4
+    ],
+    [
+     48.1858,
+     16.39
+    ],
+    [
+     48.1865,
+     16.379
+    ],
+    [
+     48.184,
+     16.368
+    ],
+    [
+     48.1815,
+     16.357
+    ],
+    [
+     48.185,
+     16.346
+    ],
+    [
+     48.1905,
+     16.34
+    ],
+    [
+     48.1965,
+     16.3378
+    ],
+    [
+     48.204,
+     16.3385
+    ],
+    [
+     48.211,
+     16.3418
+    ],
+    [
+     48.218,
+     16.3442
+    ],
+    [
+     48.2245,
+     16.3492
+    ],
+    [
+     48.2295,
+     16.3545
+    ],
+    [
+     48.2335,
+     16.3595
+    ],
+    [
+     48.23,
+     16.362
+    ],
+    [
+     48.224,
+     16.365
+    ],
+    [
+     48.2185,
+     16.369
+    ],
+    [
+     48.2112,
+     16.385
+    ],
+    [
+     48.2095,
+     16.392
+    ],
+    [
+     48.206,
+     16.3975
+    ],
+    [
+     48.2005,
+     16.403
+    ],
+    [
+     48.1935,
+     16.41
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2178,
+      16.37
+     ],
+     [
+      48.216,
+      16.3598
+     ],
+     [
+      48.2125,
+      16.3553
+     ],
+     [
+      48.208,
+      16.356
+     ],
+     [
+      48.2045,
+      16.3582
+     ],
+     [
+      48.2012,
+      16.364
+     ],
+     [
+      48.2002,
+      16.369
+     ],
+     [
+      48.1999,
+      16.3755
+     ],
+     [
+      48.203,
+      16.381
+     ],
+     [
+      48.2075,
+      16.3835
+     ],
+     [
+      48.2108,
+      16.385
+     ],
+     [
+      48.212,
+      16.38
+     ],
+     [
+      48.2132,
+      16.376
+     ],
+     [
+      48.215,
+      16.373
+     ],
+     [
+      48.2168,
+      16.3708
+     ]
+    ],
+    [
+     [
+      48.1935,
+      16.3765
+     ],
+     [
+      48.192,
+      16.382
+     ],
+     [
+      48.1905,
+      16.3815
+     ],
+     [
+      48.1918,
+      16.3758
+     ]
+    ]
+   ],
+   "from": 1690,
+   "to": 1830,
+   "density": 0.55,
+   "grain_m": 60,
+   "grow_from": [
+    48.209,
+    16.3715
+   ]
+  },
+  {
+   "name": "Leopoldstadt (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     48.2125,
+     16.379
+    ],
+    [
+     48.2185,
+     16.372
+    ],
+    [
+     48.226,
+     16.37
+    ],
+    [
+     48.229,
+     16.38
+    ],
+    [
+     48.223,
+     16.39
+    ],
+    [
+     48.218,
+     16.393
+    ],
+    [
+     48.212,
+     16.388
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2235,
+      16.3705
+     ],
+     [
+      48.23,
+      16.3735
+     ],
+     [
+      48.229,
+      16.381
+     ],
+     [
+      48.2225,
+      16.378
+     ]
+    ]
+   ],
+   "from": 1690,
+   "to": 1840,
+   "density": 0.6,
+   "grain_m": 60,
+   "grow_from": [
+    48.214,
+    16.38
+   ]
+  },
+  {
+   "name": "Ringstrasse",
+   "style": "victorian",
+   "poly": [
+    [
+     48.2178,
+     16.37
+    ],
+    [
+     48.216,
+     16.3598
+    ],
+    [
+     48.2125,
+     16.3553
+    ],
+    [
+     48.208,
+     16.356
+    ],
+    [
+     48.2045,
+     16.3582
+    ],
+    [
+     48.2012,
+     16.364
+    ],
+    [
+     48.2002,
+     16.369
+    ],
+    [
+     48.1999,
+     16.3755
+    ],
+    [
+     48.203,
+     16.381
+    ],
+    [
+     48.2075,
+     16.3835
+    ],
+    [
+     48.2108,
+     16.385
+    ],
+    [
+     48.212,
+     16.38
+    ],
+    [
+     48.2132,
+     16.376
+    ],
+    [
+     48.215,
+     16.373
+    ],
+    [
+     48.2168,
+     16.3708
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.21588,
+      16.36887
+     ],
+     [
+      48.21429,
+      16.36357
+     ],
+     [
+      48.21302,
+      16.36124
+     ],
+     [
+      48.21005,
+      16.36124
+     ],
+     [
+      48.2074,
+      16.3623
+     ],
+     [
+      48.20475,
+      16.3641
+     ],
+     [
+      48.20348,
+      16.36696
+     ],
+     [
+      48.20326,
+      16.37046
+     ],
+     [
+      48.2039,
+      16.3747
+     ],
+     [
+      48.2056,
+      16.37841
+     ],
+     [
+      48.20846,
+      16.38053
+     ],
+     [
+      48.2109,
+      16.38053
+     ],
+     [
+      48.21196,
+      16.3782
+     ],
+     [
+      48.21323,
+      16.3747
+     ],
+     [
+      48.21461,
+      16.37152
+     ]
+    ]
+   ],
+   "from": 1860,
+   "to": 1890,
+   "density": 0.75,
+   "grain_m": 55,
+   "grow_from": [
+    48.21,
+    16.36
+   ]
+  },
+  {
+   "name": "Gründerzeit suburbs",
+   "style": "victorian",
+   "poly": [
+    [
+     48.1935,
+     16.41
+    ],
+    [
+     48.188,
+     16.4
+    ],
+    [
+     48.1858,
+     16.39
+    ],
+    [
+     48.1865,
+     16.379
+    ],
+    [
+     48.184,
+     16.368
+    ],
+    [
+     48.1815,
+     16.357
+    ],
+    [
+     48.185,
+     16.346
+    ],
+    [
+     48.1905,
+     16.34
+    ],
+    [
+     48.1965,
+     16.3378
+    ],
+    [
+     48.204,
+     16.3385
+    ],
+    [
+     48.211,
+     16.3418
+    ],
+    [
+     48.218,
+     16.3442
+    ],
+    [
+     48.2245,
+     16.3492
+    ],
+    [
+     48.2295,
+     16.3545
+    ],
+    [
+     48.2335,
+     16.3595
+    ],
+    [
+     48.23,
+     16.362
+    ],
+    [
+     48.224,
+     16.365
+    ],
+    [
+     48.2185,
+     16.369
+    ],
+    [
+     48.2112,
+     16.385
+    ],
+    [
+     48.2095,
+     16.392
+    ],
+    [
+     48.206,
+     16.3975
+    ],
+    [
+     48.2005,
+     16.403
+    ],
+    [
+     48.1935,
+     16.41
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2178,
+      16.37
+     ],
+     [
+      48.216,
+      16.3598
+     ],
+     [
+      48.2125,
+      16.3553
+     ],
+     [
+      48.208,
+      16.356
+     ],
+     [
+      48.2045,
+      16.3582
+     ],
+     [
+      48.2012,
+      16.364
+     ],
+     [
+      48.2002,
+      16.369
+     ],
+     [
+      48.1999,
+      16.3755
+     ],
+     [
+      48.203,
+      16.381
+     ],
+     [
+      48.2075,
+      16.3835
+     ],
+     [
+      48.2108,
+      16.385
+     ],
+     [
+      48.212,
+      16.38
+     ],
+     [
+      48.2132,
+      16.376
+     ],
+     [
+      48.215,
+      16.373
+     ],
+     [
+      48.2168,
+      16.3708
+     ]
+    ],
+    [
+     [
+      48.1935,
+      16.3765
+     ],
+     [
+      48.192,
+      16.382
+     ],
+     [
+      48.1905,
+      16.3815
+     ],
+     [
+      48.1918,
+      16.3758
+     ]
+    ]
+   ],
+   "from": 1860,
+   "to": 1914,
+   "density": 0.85,
+   "grain_m": 55,
+   "grow_from": [
+    48.209,
+    16.3715
+   ]
+  },
+  {
+   "name": "Leopoldstadt and Brigittenau",
+   "style": "victorian",
+   "poly": [
+    [
+     48.212,
+     16.388
+    ],
+    [
+     48.2185,
+     16.372
+    ],
+    [
+     48.23,
+     16.366
+    ],
+    [
+     48.24,
+     16.366
+    ],
+    [
+     48.247,
+     16.37
+    ],
+    [
+     48.244,
+     16.382
+    ],
+    [
+     48.233,
+     16.396
+    ],
+    [
+     48.224,
+     16.402
+    ],
+    [
+     48.217,
+     16.399
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.2235,
+      16.3705
+     ],
+     [
+      48.23,
+      16.3735
+     ],
+     [
+      48.229,
+      16.381
+     ],
+     [
+      48.2225,
+      16.378
+     ]
+    ],
+    [
+     [
+      48.217,
+      16.3985
+     ],
+     [
+      48.2205,
+      16.411
+     ],
+     [
+      48.206,
+      16.433
+     ],
+     [
+      48.192,
+      16.452
+     ],
+     [
+      48.187,
+      16.445
+     ],
+     [
+      48.2,
+      16.42
+     ],
+     [
+      48.209,
+      16.401
+     ]
+    ]
+   ],
+   "from": 1860,
+   "to": 1914,
+   "density": 0.82,
+   "grain_m": 60,
+   "grow_from": [
+    48.215,
+    16.38
+   ],
+   "grid_deg": 40
+  },
+  {
+   "name": "Vororte (joined 1890–1892)",
+   "style": "victorian",
+   "poly": [
+    [
+     48.25,
+     16.365
+    ],
+    [
+     48.256,
+     16.342
+    ],
+    [
+     48.245,
+     16.315
+    ],
+    [
+     48.23,
+     16.3
+    ],
+    [
+     48.215,
+     16.288
+    ],
+    [
+     48.2,
+     16.282
+    ],
+    [
+     48.188,
+     16.28
+    ],
+    [
+     48.178,
+     16.29
+    ],
+    [
+     48.17,
+     16.31
+    ],
+    [
+     48.164,
+     16.34
+    ],
+    [
+     48.162,
+     16.37
+    ],
+    [
+     48.168,
+     16.395
+    ],
+    [
+     48.18,
+     16.41
+    ],
+    [
+     48.19,
+     16.415
+    ],
+    [
+     48.1935,
+     16.41
+    ],
+    [
+     48.2295,
+     16.3545
+    ],
+    [
+     48.2245,
+     16.3492
+    ],
+    [
+     48.218,
+     16.3442
+    ],
+    [
+     48.211,
+     16.3418
+    ],
+    [
+     48.204,
+     16.3385
+    ],
+    [
+     48.1965,
+     16.3378
+    ],
+    [
+     48.1905,
+     16.34
+    ],
+    [
+     48.185,
+     16.346
+    ],
+    [
+     48.1815,
+     16.357
+    ],
+    [
+     48.184,
+     16.368
+    ],
+    [
+     48.1865,
+     16.379
+    ],
+    [
+     48.1858,
+     16.39
+    ],
+    [
+     48.188,
+     16.4
+    ],
+    [
+     48.1935,
+     16.41
+    ],
+    [
+     48.24,
+     16.364
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.1935,
+      16.41
+     ],
+     [
+      48.188,
+      16.4
+     ],
+     [
+      48.1858,
+      16.39
+     ],
+     [
+      48.1865,
+      16.379
+     ],
+     [
+      48.184,
+      16.368
+     ],
+     [
+      48.1815,
+      16.357
+     ],
+     [
+      48.185,
+      16.346
+     ],
+     [
+      48.1905,
+      16.34
+     ],
+     [
+      48.1965,
+      16.3378
+     ],
+     [
+      48.204,
+      16.3385
+     ],
+     [
+      48.211,
+      16.3418
+     ],
+     [
+      48.218,
+      16.3442
+     ],
+     [
+      48.2245,
+      16.3492
+     ],
+     [
+      48.2295,
+      16.3545
+     ],
+     [
+      48.2335,
+      16.3595
+     ],
+     [
+      48.23,
+      16.362
+     ],
+     [
+      48.224,
+      16.365
+     ],
+     [
+      48.2185,
+      16.369
+     ],
+     [
+      48.2112,
+      16.385
+     ],
+     [
+      48.2095,
+      16.392
+     ],
+     [
+      48.206,
+      16.3975
+     ],
+     [
+      48.2005,
+      16.403
+     ],
+     [
+      48.1935,
+      16.41
+     ]
+    ],
+    [
+     [
+      48.186,
+      16.3045
+     ],
+     [
+      48.186,
+      16.3175
+     ],
+     [
+      48.1765,
+      16.3175
+     ],
+     [
+      48.1765,
+      16.3045
+     ]
+    ]
+   ],
+   "from": 1870,
+   "to": 1930,
+   "density": 0.62,
+   "grain_m": 65,
+   "grow_from": [
+    48.205,
+    16.35
+   ]
+  },
+  {
+   "name": "Floridsdorf",
+   "style": "industrial",
+   "poly": [
+    [
+     48.244,
+     16.39
+    ],
+    [
+     48.258,
+     16.376
+    ],
+    [
+     48.28,
+     16.38
+    ],
+    [
+     48.29,
+     16.41
+    ],
+    [
+     48.275,
+     16.44
+    ],
+    [
+     48.255,
+     16.43
+    ],
+    [
+     48.238,
+     16.41
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.26553,
+      16.36941
+     ],
+     [
+      48.24756,
+      16.38438
+     ],
+     [
+      48.2357,
+      16.39624
+     ],
+     [
+      48.22775,
+      16.40917
+     ],
+     [
+      48.21671,
+      16.42322
+     ],
+     [
+      48.20472,
+      16.43922
+     ],
+     [
+      48.19074,
+      16.45719
+     ],
+     [
+      48.17576,
+      16.47915
+     ],
+     [
+      48.17944,
+      16.48473
+     ],
+     [
+      48.1943,
+      16.46293
+     ],
+     [
+      48.20818,
+      16.44509
+     ],
+     [
+      48.22017,
+      16.4291
+     ],
+     [
+      48.23137,
+      16.41483
+     ],
+     [
+      48.23907,
+      16.40223
+     ],
+     [
+      48.25027,
+      16.39108
+     ],
+     [
+      48.26809,
+      16.37624
+     ]
+    ]
+   ],
+   "from": 1880,
+   "to": 1960,
+   "density": 0.6,
+   "grain_m": 85,
+   "grow_from": [
+    48.2565,
+    16.4
+   ]
+  },
+  {
+   "name": "Postwar and modern suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     48.3,
+     16.345
+    ],
+    [
+     48.3,
+     16.43
+    ],
+    [
+     48.275,
+     16.49
+    ],
+    [
+     48.245,
+     16.54
+    ],
+    [
+     48.21,
+     16.54
+    ],
+    [
+     48.2,
+     16.495
+    ],
+    [
+     48.175,
+     16.475
+    ],
+    [
+     48.145,
+     16.43
+    ],
+    [
+     48.133,
+     16.36
+    ],
+    [
+     48.13,
+     16.28
+    ],
+    [
+     48.148,
+     16.25
+    ],
+    [
+     48.175,
+     16.26
+    ],
+    [
+     48.195,
+     16.265
+    ],
+    [
+     48.22,
+     16.285
+    ],
+    [
+     48.25,
+     16.305
+    ],
+    [
+     48.27,
+     16.33
+    ]
+   ],
+   "holes": [
+    [
+     [
+      48.25,
+      16.365
+     ],
+     [
+      48.256,
+      16.342
+     ],
+     [
+      48.245,
+      16.315
+     ],
+     [
+      48.23,
+      16.3
+     ],
+     [
+      48.215,
+      16.288
+     ],
+     [
+      48.2,
+      16.282
+     ],
+     [
+      48.188,
+      16.28
+     ],
+     [
+      48.178,
+      16.29
+     ],
+     [
+      48.17,
+      16.31
+     ],
+     [
+      48.164,
+      16.34
+     ],
+     [
+      48.162,
+      16.37
+     ],
+     [
+      48.168,
+      16.395
+     ],
+     [
+      48.18,
+      16.41
+     ],
+     [
+      48.19,
+      16.415
+     ],
+     [
+      48.1935,
+      16.41
+     ],
+     [
+      48.2295,
+      16.3545
+     ],
+     [
+      48.2245,
+      16.3492
+     ],
+     [
+      48.218,
+      16.3442
+     ],
+     [
+      48.211,
+      16.3418
+     ],
+     [
+      48.204,
+      16.3385
+     ],
+     [
+      48.1965,
+      16.3378
+     ],
+     [
+      48.1905,
+      16.34
+     ],
+     [
+      48.185,
+      16.346
+     ],
+     [
+      48.1815,
+      16.357
+     ],
+     [
+      48.184,
+      16.368
+     ],
+     [
+      48.1865,
+      16.379
+     ],
+     [
+      48.1858,
+      16.39
+     ],
+     [
+      48.188,
+      16.4
+     ],
+     [
+      48.1935,
+      16.41
+     ],
+     [
+      48.24,
+      16.364
+     ]
+    ],
+    [
+     [
+      48.1935,
+      16.41
+     ],
+     [
+      48.188,
+      16.4
+     ],
+     [
+      48.1858,
+      16.39
+     ],
+     [
+      48.1865,
+      16.379
+     ],
+     [
+      48.184,
+      16.368
+     ],
+     [
+      48.1815,
+      16.357
+     ],
+     [
+      48.185,
+      16.346
+     ],
+     [
+      48.1905,
+      16.34
+     ],
+     [
+      48.1965,
+      16.3378
+     ],
+     [
+      48.204,
+      16.3385
+     ],
+     [
+      48.211,
+      16.3418
+     ],
+     [
+      48.218,
+      16.3442
+     ],
+     [
+      48.2245,
+      16.3492
+     ],
+     [
+      48.2295,
+      16.3545
+     ],
+     [
+      48.2335,
+      16.3595
+     ],
+     [
+      48.23,
+      16.362
+     ],
+     [
+      48.224,
+      16.365
+     ],
+     [
+      48.2185,
+      16.369
+     ],
+     [
+      48.2112,
+      16.385
+     ],
+     [
+      48.2095,
+      16.392
+     ],
+     [
+      48.206,
+      16.3975
+     ],
+     [
+      48.2005,
+      16.403
+     ],
+     [
+      48.1935,
+      16.41
+     ]
+    ],
+    [
+     [
+      48.212,
+      16.388
+     ],
+     [
+      48.2185,
+      16.372
+     ],
+     [
+      48.23,
+      16.366
+     ],
+     [
+      48.24,
+      16.366
+     ],
+     [
+      48.247,
+      16.37
+     ],
+     [
+      48.244,
+      16.382
+     ],
+     [
+      48.233,
+      16.396
+     ],
+     [
+      48.224,
+      16.402
+     ],
+     [
+      48.217,
+      16.399
+     ]
+    ],
+    [
+     [
+      48.244,
+      16.39
+     ],
+     [
+      48.258,
+      16.376
+     ],
+     [
+      48.28,
+      16.38
+     ],
+     [
+      48.29,
+      16.41
+     ],
+     [
+      48.275,
+      16.44
+     ],
+     [
+      48.255,
+      16.43
+     ],
+     [
+      48.238,
+      16.41
+     ]
+    ],
+    [
+     [
+      48.217,
+      16.3985
+     ],
+     [
+      48.2205,
+      16.411
+     ],
+     [
+      48.206,
+      16.433
+     ],
+     [
+      48.192,
+      16.452
+     ],
+     [
+      48.187,
+      16.445
+     ],
+     [
+      48.2,
+      16.42
+     ],
+     [
+      48.209,
+      16.401
+     ]
+    ],
+    [
+     [
+      48.26553,
+      16.36941
+     ],
+     [
+      48.24756,
+      16.38438
+     ],
+     [
+      48.2357,
+      16.39624
+     ],
+     [
+      48.22775,
+      16.40917
+     ],
+     [
+      48.21671,
+      16.42322
+     ],
+     [
+      48.20472,
+      16.43922
+     ],
+     [
+      48.19074,
+      16.45719
+     ],
+     [
+      48.17576,
+      16.47915
+     ],
+     [
+      48.17944,
+      16.48473
+     ],
+     [
+      48.1943,
+      16.46293
+     ],
+     [
+      48.20818,
+      16.44509
+     ],
+     [
+      48.22017,
+      16.4291
+     ],
+     [
+      48.23137,
+      16.41483
+     ],
+     [
+      48.23907,
+      16.40223
+     ],
+     [
+      48.25027,
+      16.39108
+     ],
+     [
+      48.26809,
+      16.37624
+     ]
+    ],
+    [
+     [
+      48.2,
+      16.47
+     ],
+     [
+      48.195,
+      16.53
+     ],
+     [
+      48.17,
+      16.55
+     ],
+     [
+      48.16,
+      16.505
+     ],
+     [
+      48.175,
+      16.47
+     ]
+    ],
+    [
+     [
+      48.18,
+      16.22
+     ],
+     [
+      48.182,
+      16.27
+     ],
+     [
+      48.165,
+      16.275
+     ],
+     [
+      48.155,
+      16.245
+     ],
+     [
+      48.162,
+      16.215
+     ]
+    ],
+    [
+     [
+      48.186,
+      16.3045
+     ],
+     [
+      48.186,
+      16.3175
+     ],
+     [
+      48.1765,
+      16.3175
+     ],
+     [
+      48.1765,
+      16.3045
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 2020,
+   "density": 0.5,
+   "grain_m": 100,
+   "grow_from": [
+    48.21,
+    16.38
+   ]
+  },
+  {
+   "name": "Donau City",
+   "style": "highrise",
+   "poly": [
+    [
+     48.23,
+     16.4085
+    ],
+    [
+     48.2365,
+     16.4085
+    ],
+    [
+     48.2365,
+     16.417
+    ],
+    [
+     48.23,
+     16.417
+    ]
+   ],
+   "from": 1995,
+   "to": 2020,
+   "density": 0.55,
+   "grain_m": 75,
+   "grid_deg": 30,
+   "grow_from": [
+    48.233,
+    16.413
+   ]
+  },
+  {
+   "name": "Seestadt Aspern (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     48.22,
+     16.495
+    ],
+    [
+     48.231,
+     16.495
+    ],
+    [
+     48.231,
+     16.515
+    ],
+    [
+     48.22,
+     16.515
+    ]
+   ],
+   "from": 2012,
+   "to": 2025,
+   "density": 0.6,
+   "grain_m": 85,
+   "grow_from": [
+    48.225,
+    16.505
+   ]
+  },
+  {
+   "name": "Hauptbahnhof quarter (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     48.184,
+     16.379
+    ],
+    [
+     48.189,
+     16.379
+    ],
+    [
+     48.189,
+     16.388
+    ],
+    [
+     48.184,
+     16.388
+    ]
+   ],
+   "from": 2012,
+   "to": 2020,
+   "density": 0.7,
+   "grain_m": 70,
+   "grow_from": [
+    48.1865,
+    16.383
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Vindobona fortress wall",
+   "path": [
+    [
+     48.2095,
+     16.3684
+    ],
+    [
+     48.2089,
+     16.373
+    ],
+    [
+     48.2122,
+     16.3742
+    ],
+    [
+     48.213,
+     16.3688
+    ],
+    [
+     48.2095,
+     16.3684
+    ]
+   ],
+   "built": 100,
+   "height": "low",
+   "towers_m": 70,
+   "draw_s": 2.5,
+   "removed": 1200
+  },
+  {
+   "name": "Medieval city wall (c. 1200)",
+   "path": [
+    [
+     48.2155,
+     16.369
+    ],
+    [
+     48.214,
+     16.364
+    ],
+    [
+     48.2128,
+     16.3618
+    ],
+    [
+     48.21,
+     16.3618
+    ],
+    [
+     48.2075,
+     16.3628
+    ],
+    [
+     48.205,
+     16.3645
+    ],
+    [
+     48.2038,
+     16.3672
+    ],
+    [
+     48.2036,
+     16.3705
+    ],
+    [
+     48.2042,
+     16.3745
+    ],
+    [
+     48.2058,
+     16.378
+    ],
+    [
+     48.2085,
+     16.38
+    ],
+    [
+     48.2108,
+     16.38
+    ],
+    [
+     48.2118,
+     16.3778
+    ],
+    [
+     48.213,
+     16.3745
+    ],
+    [
+     48.2143,
+     16.3715
+    ],
+    [
+     48.2155,
+     16.369
+    ]
+   ],
+   "built": 1194,
+   "height": "mid",
+   "towers_m": 80,
+   "draw_s": 4.0,
+   "removed": 1550
+  },
+  {
+   "name": "Bastion fortress (1548)",
+   "path": [
+    [
+     48.21588,
+     16.36887
+    ],
+    [
+     48.21429,
+     16.36357
+    ],
+    [
+     48.21302,
+     16.36124
+    ],
+    [
+     48.21005,
+     16.36124
+    ],
+    [
+     48.2074,
+     16.3623
+    ],
+    [
+     48.20475,
+     16.3641
+    ],
+    [
+     48.20348,
+     16.36696
+    ],
+    [
+     48.20326,
+     16.37046
+    ],
+    [
+     48.2039,
+     16.3747
+    ],
+    [
+     48.2056,
+     16.37841
+    ],
+    [
+     48.20846,
+     16.38053
+    ],
+    [
+     48.2109,
+     16.38053
+    ],
+    [
+     48.21196,
+     16.3782
+    ],
+    [
+     48.21323,
+     16.3747
+    ],
+    [
+     48.21461,
+     16.37152
+    ],
+    [
+     48.21588,
+     16.36887
+    ]
+   ],
+   "built": 1548,
+   "height": "high",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1860,
+   "moat": true,
+   "double_side": -1
+  },
+  {
+   "name": "Linienwall",
+   "path": [
+    [
+     48.1935,
+     16.41
+    ],
+    [
+     48.188,
+     16.4
+    ],
+    [
+     48.1858,
+     16.39
+    ],
+    [
+     48.1865,
+     16.379
+    ],
+    [
+     48.184,
+     16.368
+    ],
+    [
+     48.1815,
+     16.357
+    ],
+    [
+     48.185,
+     16.346
+    ],
+    [
+     48.1905,
+     16.34
+    ],
+    [
+     48.1965,
+     16.3378
+    ],
+    [
+     48.204,
+     16.3385
+    ],
+    [
+     48.211,
+     16.3418
+    ],
+    [
+     48.218,
+     16.3442
+    ],
+    [
+     48.2245,
+     16.3492
+    ],
+    [
+     48.2295,
+     16.3545
+    ],
+    [
+     48.2335,
+     16.3595
+    ]
+   ],
+   "built": 1704,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1894.2
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Reichsbrücke I (Kronprinz-Rudolf-Brücke)",
+   "path": [
+    [
+     48.2262,
+     16.4062
+    ],
+    [
+     48.2302,
+     16.4128
+    ]
+   ],
+   "built": 1876.6,
+   "removed": 1934.5,
+   "style": "iron",
+   "width_m": 22
+  },
+  {
+   "name": "Reichsbrücke II",
+   "path": [
+    [
+     48.2262,
+     16.4062
+    ],
+    [
+     48.2302,
+     16.4128
+    ]
+   ],
+   "built": 1937.77,
+   "removed": 1976.58,
+   "style": "tower",
+   "width_m": 26
+  },
+  {
+   "name": "Reichsbrücke III",
+   "path": [
+    [
+     48.2262,
+     16.4062
+    ],
+    [
+     48.2302,
+     16.4128
+    ]
+   ],
+   "built": 1980.85,
+   "style": "modern",
+   "width_m": 30
+  }
+ ],
+ "roads": [
+  {
+   "name": "Ringstraße",
+   "path": [
+    [
+     48.2172,
+     16.37
+    ],
+    [
+     48.215,
+     16.3615
+    ],
+    [
+     48.212,
+     16.359
+    ],
+    [
+     48.2085,
+     16.3592
+    ],
+    [
+     48.2052,
+     16.3612
+    ],
+    [
+     48.203,
+     16.3655
+    ],
+    [
+     48.2022,
+     16.37
+    ],
+    [
+     48.202,
+     16.375
+    ],
+    [
+     48.204,
+     16.379
+    ],
+    [
+     48.2075,
+     16.3815
+    ],
+    [
+     48.211,
+     16.3838
+    ]
+   ],
+   "from": 1860,
+   "kind": "avenue",
+   "width_m": 40,
+   "draw_s": 4
+  },
+  {
+   "name": "Gürtel",
+   "path": [
+    [
+     48.19311,
+     16.41097
+    ],
+    [
+     48.18747,
+     16.40072
+    ],
+    [
+     48.18521,
+     16.39047
+    ],
+    [
+     48.18593,
+     16.3792
+    ],
+    [
+     48.18337,
+     16.36792
+    ],
+    [
+     48.18081,
+     16.35665
+    ],
+    [
+     48.1844,
+     16.34537
+    ],
+    [
+     48.19003,
+     16.33922
+    ],
+    [
+     48.19618,
+     16.33697
+    ],
+    [
+     48.20387,
+     16.33768
+    ],
+    [
+     48.21104,
+     16.34107
+    ],
+    [
+     48.21822,
+     16.34352
+    ],
+    [
+     48.22488,
+     16.34865
+    ],
+    [
+     48.23001,
+     16.35408
+    ],
+    [
+     48.23411,
+     16.35921
+    ]
+   ],
+   "from": 1873,
+   "kind": "avenue",
+   "width_m": 34,
+   "draw_s": 3
+  },
+  {
+   "name": "Northern Railway (≈)",
+   "path": [
+    [
+     48.219,
+     16.393
+    ],
+    [
+     48.23,
+     16.4
+    ],
+    [
+     48.245,
+     16.402
+    ],
+    [
+     48.257,
+     16.401
+    ],
+    [
+     48.275,
+     16.43
+    ]
+   ],
+   "from": 1838,
+   "kind": "rail",
+   "width_m": 22
+  },
+  {
+   "name": "Southern Railway (≈)",
+   "path": [
+    [
+     48.1865,
+     16.378
+    ],
+    [
+     48.18,
+     16.355
+    ],
+    [
+     48.17,
+     16.333
+    ],
+    [
+     48.145,
+     16.305
+    ],
+    [
+     48.135,
+     16.295
+    ]
+   ],
+   "from": 1842,
+   "kind": "rail",
+   "width_m": 22
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "church",
+   "name": {
+    "en": "St Rupert's",
+    "tr": "Aziz Rupert"
+   },
+   "at": [
+    48.211944,
+    16.374444
+   ],
+   "built": 800,
+   "rise_s": 3,
+   "size_m": [
+    22,
+    10,
+    12
+   ],
+   "colors": {
+    "wall": "#ddd3bd",
+    "roof": "#6a5f55"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "First St Stephen's",
+    "tr": "İlk Aziz Stephan"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "built": 1137,
+   "removed": 1339.5,
+   "rise_s": 6,
+   "size_m": [
+    60,
+    24,
+    18
+   ],
+   "rot_deg": -8,
+   "colors": {
+    "wall": "#ddd3bd",
+    "roof": "#6a5f55"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St Stephen's Cathedral",
+    "tr": "Aziz Stephan Katedrali"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "built": 1340,
+   "removed": 1945.28,
+   "rise_s": 30,
+   "size_m": [
+    107,
+    40,
+    36
+   ],
+   "rot_deg": -8,
+   "colors": {
+    "wall": "#d9cfb8",
+    "roof": "#3f6d5c",
+    "spire": false
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St Stephen's (roof burnt)",
+    "tr": "Aziz Stephan (çatısı yanmış)"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "built": 1945.29,
+   "removed": 1952.3,
+   "rise_s": 0.2,
+   "size_m": [
+    107,
+    40,
+    36
+   ],
+   "rot_deg": -8,
+   "colors": {
+    "wall": "#b9b2a3",
+    "roof": "#3b3b3b",
+    "spire": false
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St Stephen's (restored)",
+    "tr": "Aziz Stephan (onarılmış)"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "built": 1952.31,
+   "rise_s": 1.5,
+   "size_m": [
+    107,
+    40,
+    36
+   ],
+   "rot_deg": -8,
+   "colors": {
+    "wall": "#d9cfb8",
+    "roof": "#3f6d5c",
+    "spire": false
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "South tower",
+    "tr": "Güney kulesi"
+   },
+   "at": [
+    48.20835,
+    16.37325
+   ],
+   "built": 1359.3,
+   "rise_s": 40,
+   "size_m": [
+    22,
+    22,
+    97
+   ],
+   "colors": {
+    "wall": "#cfc4ab",
+    "roof": "#bfb39b"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Scots Abbey",
+    "tr": "İskoç Manastırı"
+   },
+   "at": [
+    48.2125,
+    16.3652
+   ],
+   "built": 1155,
+   "rise_s": 4,
+   "size_m": [
+    55,
+    22,
+    20
+   ],
+   "colors": {
+    "wall": "#e4dccb",
+    "roof": "#6a6f75"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Hofburg castle",
+    "tr": "Hofburg kalesi"
+   },
+   "at": [
+    48.20639,
+    16.36528
+   ],
+   "built": 1275,
+   "removed": 1660,
+   "rise_s": 4,
+   "size_m": [
+    80,
+    70,
+    22
+   ],
+   "colors": {
+    "wall": "#d9cfb6"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Hofburg",
+    "tr": "Hofburg"
+   },
+   "at": [
+    48.20639,
+    16.36528
+   ],
+   "built": 1660,
+   "rise_s": 8,
+   "size_m": [
+    200,
+    150,
+    24
+   ],
+   "colors": {
+    "wall": "#e8e0cc",
+    "roof": "#6f8f7c"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Neue Burg",
+    "tr": "Neue Burg"
+   },
+   "at": [
+    48.205,
+    16.364
+   ],
+   "built": 1881,
+   "rise_s": 20,
+   "size_m": [
+    180,
+    60,
+    26
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "wall": "#ece4d0",
+    "roof": "#6f8f7c"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Schönbrunn Palace",
+    "tr": "Schönbrunn Sarayı"
+   },
+   "at": [
+    48.184516,
+    16.311865
+   ],
+   "built": 1696,
+   "rise_s": 8,
+   "size_m": [
+    180,
+    110,
+    24
+   ],
+   "colors": {
+    "wall": "#e8c25a",
+    "roof": "#8a6f55"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Gloriette (≈)",
+    "tr": "Gloriette (≈)"
+   },
+   "at": [
+    48.1782,
+    16.3089
+   ],
+   "built": 1775,
+   "rise_s": 3,
+   "size_m": [
+    90,
+    18,
+    20
+   ],
+   "colors": {
+    "wall": "#ece6d6"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Upper Belvedere",
+    "tr": "Yukarı Belvedere"
+   },
+   "at": [
+    48.19417,
+    16.38028
+   ],
+   "built": 1717,
+   "rise_s": 8,
+   "size_m": [
+    150,
+    50,
+    22
+   ],
+   "colors": {
+    "wall": "#efe9dc",
+    "roof": "#5f8c7a"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Karlskirche",
+    "tr": "Karlskirche"
+   },
+   "at": [
+    48.19828,
+    16.3719
+   ],
+   "built": 1716,
+   "rise_s": 24,
+   "size_m": [
+    55,
+    40,
+    34
+   ],
+   "colors": {
+    "wall": "#ece4d0",
+    "dome": "#6f9c8a",
+    "lantern": true
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Karlskirche column",
+    "tr": "Karlskirche sütunu"
+   },
+   "at": [
+    48.19828,
+    16.3713
+   ],
+   "built": 1716,
+   "rise_s": 20,
+   "size_m": [
+    8,
+    8,
+    40
+   ],
+   "colors": {
+    "wall": "#e8e1cf",
+    "top": "#c9a94a"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Votivkirche",
+    "tr": "Votivkirche"
+   },
+   "at": [
+    48.21528,
+    16.35861
+   ],
+   "built": 1856,
+   "rise_s": 24,
+   "size_m": [
+    90,
+    40,
+    32
+   ],
+   "rot_deg": -60,
+   "colors": {
+    "wall": "#e6e0d2",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Court Opera",
+    "tr": "Saray Operası"
+   },
+   "at": [
+    48.20306,
+    16.36889
+   ],
+   "built": 1861,
+   "rise_s": 8,
+   "size_m": [
+    140,
+    100,
+    30
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "wall": "#e8dcc0",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "City Hall",
+    "tr": "Belediye Sarayı"
+   },
+   "at": [
+    48.21083,
+    16.35722
+   ],
+   "built": 1872.4,
+   "rise_s": 12,
+   "size_m": [
+    152,
+    110,
+    26
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#ddd3bb",
+    "roof": "#59656a"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Parliament (≈)",
+    "tr": "Parlamento (≈)"
+   },
+   "at": [
+    48.2082,
+    16.3583
+   ],
+   "built": 1874.5,
+   "rise_s": 10,
+   "size_m": [
+    150,
+    120,
+    24
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "wall": "#ece6d6",
+    "roof": "#5c6a70"
+   }
+  },
+  {
+   "type": "wheel",
+   "name": {
+    "en": "Riesenrad",
+    "tr": "Riesenrad"
+   },
+   "at": [
+    48.2166505,
+    16.3959494
+   ],
+   "built": 1897,
+   "rise_s": 3,
+   "size_m": [
+    30
+   ],
+   "colors": {
+    "wall": "#b23a2e"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Northern Railway station (≈)",
+    "tr": "Kuzey Demiryolu istasyonu (≈)"
+   },
+   "at": [
+    48.219,
+    16.3925
+   ],
+   "built": 1838,
+   "rise_s": 3,
+   "size_m": [
+    200,
+    70,
+    22
+   ],
+   "rot_deg": 45
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Karl-Marx-Hof (south)",
+    "tr": "Karl-Marx-Hof (güney)"
+   },
+   "at": [
+    48.2505,
+    16.3653
+   ],
+   "built": 1927,
+   "rise_s": 6,
+   "size_m": [
+    260,
+    30,
+    20
+   ],
+   "rot_deg": 80,
+   "colors": {
+    "wall": "#d9b19a",
+    "roof": "#a1524a"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Karl-Marx-Hof (north)",
+    "tr": "Karl-Marx-Hof (kuzey)"
+   },
+   "at": [
+    48.255,
+    16.3645
+   ],
+   "built": 1928,
+   "rise_s": 6,
+   "size_m": [
+    260,
+    30,
+    20
+   ],
+   "rot_deg": 80,
+   "colors": {
+    "wall": "#d9b19a",
+    "roof": "#a1524a"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Danube Tower",
+    "tr": "Tuna Kulesi"
+   },
+   "at": [
+    48.24,
+    16.41083
+   ],
+   "built": 1962.8,
+   "rise_s": 8,
+   "size_m": [
+    16,
+    16,
+    180
+   ],
+   "colors": {
+    "wall": "#d8d8d4",
+    "roof": "#c9c9c4"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Vienna International Centre",
+    "tr": "Viyana Uluslararası Merkezi"
+   },
+   "at": [
+    48.23472,
+    16.41694
+   ],
+   "built": 1973,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    30,
+    127
+   ],
+   "rot_deg": 30,
+   "colors": {
+    "wall": "#7f8d95"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Vienna International Centre 2",
+    "tr": "Viyana Uluslararası Merkezi 2"
+   },
+   "at": [
+    48.234,
+    16.418
+   ],
+   "built": 1974,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    30,
+    110
+   ],
+   "rot_deg": -40,
+   "colors": {
+    "wall": "#7f8d95"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Millennium Tower",
+    "tr": "Millennium Tower"
+   },
+   "at": [
+    48.24,
+    16.38694
+   ],
+   "built": 1997,
+   "rise_s": 5,
+   "size_m": [
+    36,
+    36,
+    202
+   ],
+   "colors": {
+    "wall": "#8fa6b5"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "DC Tower 1",
+    "tr": "DC Tower 1"
+   },
+   "at": [
+    48.23194,
+    16.41278
+   ],
+   "built": 2011,
+   "rise_s": 8,
+   "size_m": [
+    45,
+    30,
+    220
+   ],
+   "colors": {
+    "wall": "#3d4650"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Hauptbahnhof",
+    "tr": "Hauptbahnhof"
+   },
+   "at": [
+    48.186667,
+    16.38
+   ],
+   "built": 2007.5,
+   "rise_s": 6,
+   "size_m": [
+    260,
+    80,
+    22
+   ],
+   "rot_deg": 5,
+   "colors": {
+    "wall": "#d9d9d9",
+    "roof": "#8a949b"
+   }
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     48.188,
+     16.335
+    ],
+    [
+     48.2,
+     16.335
+    ],
+    [
+     48.2,
+     16.355
+    ],
+    [
+     48.188,
+     16.355
+    ]
+   ],
+   "from": 1529.74,
+   "to": 1529.8,
+   "count": 140
+  },
+  {
+   "poly": [
+    [
+     48.183,
+     16.365
+    ],
+    [
+     48.19,
+     16.365
+    ],
+    [
+     48.19,
+     16.395
+    ],
+    [
+     48.183,
+     16.395
+    ]
+   ],
+   "from": 1529.74,
+   "to": 1529.8,
+   "count": 100
+  },
+  {
+   "poly": [
+    [
+     48.19,
+     16.32
+    ],
+    [
+     48.205,
+     16.32
+    ],
+    [
+     48.205,
+     16.345
+    ],
+    [
+     48.19,
+     16.345
+    ]
+   ],
+   "from": 1683.53,
+   "to": 1683.7,
+   "count": 200
+  },
+  {
+   "poly": [
+    [
+     48.205,
+     16.325
+    ],
+    [
+     48.225,
+     16.325
+    ],
+    [
+     48.225,
+     16.345
+    ],
+    [
+     48.205,
+     16.345
+    ]
+   ],
+   "from": 1683.53,
+   "to": 1683.7,
+   "count": 160
+  },
+  {
+   "poly": [
+    [
+     48.182,
+     16.35
+    ],
+    [
+     48.192,
+     16.35
+    ],
+    [
+     48.192,
+     16.38
+    ],
+    [
+     48.182,
+     16.38
+    ]
+   ],
+   "from": 1683.53,
+   "to": 1683.7,
+   "count": 120
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    48.2068,
+    16.3628
+   ],
+   "from": 1529.76,
+   "to": 1529.79,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    48.2068,
+    16.3628
+   ],
+   "from": 1683.56,
+   "to": 1683.69,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    48.2088,
+    16.3705
+   ],
+   "from": 1945.0,
+   "to": 1945.3,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    48.20306,
+    16.36889
+   ],
+   "from": 1945.19,
+   "to": 1945.25,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "from": 1945.27,
+   "to": 1945.31,
+   "scale": 1.3
+  },
+  {
+   "at": [
+    48.25,
+    16.365
+   ],
+   "from": 1934.1,
+   "to": 1934.14,
+   "scale": 0.8
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Prater",
+   "poly": [
+    [
+     48.217,
+     16.3985
+    ],
+    [
+     48.2205,
+     16.411
+    ],
+    [
+     48.206,
+     16.433
+    ],
+    [
+     48.192,
+     16.452
+    ],
+    [
+     48.187,
+     16.445
+    ],
+    [
+     48.2,
+     16.42
+    ],
+    [
+     48.209,
+     16.401
+    ]
+   ]
+  },
+  {
+   "name": "Augarten",
+   "poly": [
+    [
+     48.2235,
+     16.3705
+    ],
+    [
+     48.23,
+     16.3735
+    ],
+    [
+     48.229,
+     16.381
+    ],
+    [
+     48.2225,
+     16.378
+    ]
+   ]
+  },
+  {
+   "name": "Schönbrunn gardens",
+   "poly": [
+    [
+     48.186,
+     16.3045
+    ],
+    [
+     48.186,
+     16.3175
+    ],
+    [
+     48.1765,
+     16.3175
+    ],
+    [
+     48.1765,
+     16.3045
+    ]
+   ]
+  },
+  {
+   "name": "Belvedere gardens",
+   "poly": [
+    [
+     48.1935,
+     16.3765
+    ],
+    [
+     48.192,
+     16.382
+    ],
+    [
+     48.1905,
+     16.3815
+    ],
+    [
+     48.1918,
+     16.3758
+    ]
+   ]
+  },
+  {
+   "name": "Danube floodplain / Danube Island (≈)",
+   "poly": [
+    [
+     48.26553,
+     16.36941
+    ],
+    [
+     48.24756,
+     16.38438
+    ],
+    [
+     48.2357,
+     16.39624
+    ],
+    [
+     48.22775,
+     16.40917
+    ],
+    [
+     48.21671,
+     16.42322
+    ],
+    [
+     48.20472,
+     16.43922
+    ],
+    [
+     48.19074,
+     16.45719
+    ],
+    [
+     48.17576,
+     16.47915
+    ],
+    [
+     48.17944,
+     16.48473
+    ],
+    [
+     48.1943,
+     16.46293
+    ],
+    [
+     48.20818,
+     16.44509
+    ],
+    [
+     48.22017,
+     16.4291
+    ],
+    [
+     48.23137,
+     16.41483
+    ],
+    [
+     48.23907,
+     16.40223
+    ],
+    [
+     48.25027,
+     16.39108
+    ],
+    [
+     48.26809,
+     16.37624
+    ]
+   ]
+  },
+  {
+   "name": "Lobau",
+   "poly": [
+    [
+     48.2,
+     16.47
+    ],
+    [
+     48.195,
+     16.53
+    ],
+    [
+     48.17,
+     16.55
+    ],
+    [
+     48.16,
+     16.505
+    ],
+    [
+     48.175,
+     16.47
+    ]
+   ]
+  },
+  {
+   "name": "Lainzer Tiergarten",
+   "poly": [
+    [
+     48.18,
+     16.22
+    ],
+    [
+     48.182,
+     16.27
+    ],
+    [
+     48.165,
+     16.275
+    ],
+    [
+     48.155,
+     16.245
+    ],
+    [
+     48.162,
+     16.215
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "DANUBE",
+    "tr": "TUNA"
+   },
+   "at": [
+    48.238,
+    16.393
+   ],
+   "kind": "water",
+   "from": 97,
+   "to": 1960
+  },
+  {
+   "text": {
+    "en": "DANUBE",
+    "tr": "TUNA"
+   },
+   "at": [
+    48.218,
+    16.425
+   ],
+   "kind": "water",
+   "from": 1960
+  },
+  {
+   "text": {
+    "en": "VINDOBONA",
+    "tr": "VINDOBONA"
+   },
+   "at": [
+    48.206,
+    16.372
+   ],
+   "kind": "region",
+   "from": 97,
+   "to": 450
+  },
+  {
+   "text": {
+    "en": "St Rupert's",
+    "tr": "Aziz Rupert"
+   },
+   "at": [
+    48.211944,
+    16.374444
+   ],
+   "from": 800,
+   "to": 880,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "St Stephen's",
+    "tr": "Aziz Stephan"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "from": 1140,
+   "to": 1154,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Scots Abbey",
+    "tr": "İskoç Manastırı"
+   },
+   "at": [
+    48.2125,
+    16.3652
+   ],
+   "from": 1156,
+   "to": 1191,
+   "lift_m": 35
+  },
+  {
+   "text": {
+    "en": "Erdberg",
+    "tr": "Erdberg"
+   },
+   "at": [
+    48.201,
+    16.398
+   ],
+   "kind": "place",
+   "from": 1192,
+   "to": 1220
+  },
+  {
+   "text": {
+    "en": "Hofburg",
+    "tr": "Hofburg"
+   },
+   "at": [
+    48.20639,
+    16.36528
+   ],
+   "from": 1280,
+   "to": 1338,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "St Stephen's",
+    "tr": "Aziz Stephan"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "from": 1340,
+   "to": 1364,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "St Stephen's",
+    "tr": "Aziz Stephan"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "from": 1433,
+   "to": 1484,
+   "lift_m": 150
+  },
+  {
+   "text": {
+    "en": "OTTOMAN CAMP",
+    "tr": "OSMANLI ORDUGAHI"
+   },
+   "at": [
+    48.195,
+    16.345
+   ],
+   "kind": "region",
+   "from": 1529.74,
+   "to": 1529.8
+  },
+  {
+   "text": {
+    "en": "OTTOMAN CAMP",
+    "tr": "OSMANLI ORDUGAHI"
+   },
+   "at": [
+    48.205,
+    16.333
+   ],
+   "kind": "region",
+   "from": 1683.53,
+   "to": 1683.69
+  },
+  {
+   "text": {
+    "en": "Kahlenberg",
+    "tr": "Kahlenberg"
+   },
+   "at": [
+    48.28333,
+    16.33333
+   ],
+   "kind": "place",
+   "from": 1683.7,
+   "to": 1695,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Schönbrunn",
+    "tr": "Schönbrunn"
+   },
+   "at": [
+    48.184516,
+    16.311865
+   ],
+   "from": 1697,
+   "to": 1703,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "LINIENWALL",
+    "tr": "LINIENWALL"
+   },
+   "at": [
+    48.189,
+    16.348
+   ],
+   "kind": "region",
+   "from": 1704,
+   "to": 1711
+  },
+  {
+   "text": {
+    "en": "Belvedere",
+    "tr": "Belvedere"
+   },
+   "at": [
+    48.19417,
+    16.38028
+   ],
+   "from": 1714,
+   "to": 1715,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Karlskirche",
+    "tr": "Karlskirche"
+   },
+   "at": [
+    48.19828,
+    16.3719
+   ],
+   "from": 1720,
+   "to": 1739,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Schönbrunn",
+    "tr": "Schönbrunn"
+   },
+   "at": [
+    48.184516,
+    16.311865
+   ],
+   "from": 1740,
+   "to": 1765,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Prater",
+    "tr": "Prater"
+   },
+   "at": [
+    48.21,
+    16.415
+   ],
+   "kind": "place",
+   "from": 1766,
+   "to": 1804
+  },
+  {
+   "text": {
+    "en": "Hofburg",
+    "tr": "Hofburg"
+   },
+   "at": [
+    48.20639,
+    16.36528
+   ],
+   "from": 1814,
+   "to": 1836,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Northern Railway",
+    "tr": "Kuzey Demiryolu"
+   },
+   "at": [
+    48.219,
+    16.3925
+   ],
+   "from": 1838.2,
+   "to": 1847,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "RINGSTRASSE",
+    "tr": "RINGSTRASSE"
+   },
+   "at": [
+    48.2028,
+    16.37
+   ],
+   "kind": "region",
+   "from": 1860,
+   "to": 1868
+  },
+  {
+   "text": {
+    "en": "Opera",
+    "tr": "Opera"
+   },
+   "at": [
+    48.20306,
+    16.36889
+   ],
+   "from": 1869,
+   "to": 1869.9,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "ALTE DONAU",
+    "tr": "ALTE DONAU"
+   },
+   "at": [
+    48.24,
+    16.43
+   ],
+   "kind": "water",
+   "from": 1871,
+   "to": 1875
+  },
+  {
+   "text": {
+    "en": "Prater",
+    "tr": "Prater"
+   },
+   "at": [
+    48.21,
+    16.415
+   ],
+   "kind": "place",
+   "from": 1873,
+   "to": 1875
+  },
+  {
+   "text": {
+    "en": "Reichsbrücke",
+    "tr": "Reichsbrücke"
+   },
+   "at": [
+    48.2282,
+    16.4095
+   ],
+   "from": 1876.7,
+   "to": 1882,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "City Hall",
+    "tr": "Belediye Sarayı"
+   },
+   "at": [
+    48.21083,
+    16.35722
+   ],
+   "from": 1883,
+   "to": 1889,
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "Parliament",
+    "tr": "Parlamento"
+   },
+   "at": [
+    48.2082,
+    16.3583
+   ],
+   "from": 1883,
+   "to": 1889,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "GÜRTEL",
+    "tr": "GÜRTEL"
+   },
+   "at": [
+    48.195,
+    16.336
+   ],
+   "kind": "region",
+   "from": 1890,
+   "to": 1896
+  },
+  {
+   "text": {
+    "en": "Riesenrad",
+    "tr": "Riesenrad"
+   },
+   "at": [
+    48.2166505,
+    16.3959494
+   ],
+   "from": 1897.2,
+   "to": 1909,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Karl-Marx-Hof",
+    "tr": "Karl-Marx-Hof"
+   },
+   "at": [
+    48.2527,
+    16.365
+   ],
+   "from": 1928,
+   "to": 1937,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "St Stephen's",
+    "tr": "Aziz Stephan"
+   },
+   "at": [
+    48.2085,
+    16.373
+   ],
+   "from": 1944.5,
+   "to": 1945.3,
+   "lift_m": 150
+  },
+  {
+   "text": {
+    "en": "Belvedere",
+    "tr": "Belvedere"
+   },
+   "at": [
+    48.19417,
+    16.38028
+   ],
+   "from": 1955.37,
+   "to": 1963,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Danube Tower",
+    "tr": "Tuna Kulesi"
+   },
+   "at": [
+    48.24,
+    16.41083
+   ],
+   "from": 1964.3,
+   "to": 1972,
+   "lift_m": 270
+  },
+  {
+   "text": {
+    "en": "UNO City",
+    "tr": "BM Şehri"
+   },
+   "at": [
+    48.23472,
+    16.41694
+   ],
+   "from": 1975,
+   "to": 1976.5,
+   "lift_m": 140
+  },
+  {
+   "text": {
+    "en": "Reichsbrücke",
+    "tr": "Reichsbrücke"
+   },
+   "at": [
+    48.2282,
+    16.4095
+   ],
+   "from": 1976.55,
+   "to": 1977.9,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Karlsplatz",
+    "tr": "Karlsplatz"
+   },
+   "at": [
+    48.2005,
+    16.37
+   ],
+   "kind": "place",
+   "from": 1978,
+   "to": 1983
+  },
+  {
+   "text": {
+    "en": "DANUBE ISLAND",
+    "tr": "TUNA ADASI"
+   },
+   "at": [
+    48.242,
+    16.395
+   ],
+   "kind": "region",
+   "from": 1984,
+   "to": 1988
+  },
+  {
+   "text": {
+    "en": "DC Tower 1",
+    "tr": "DC Tower 1"
+   },
+   "at": [
+    48.23194,
+    16.41278
+   ],
+   "from": 2013,
+   "to": 2019,
+   "lift_m": 240
+  },
+  {
+   "text": {
+    "en": "Kahlenberg",
+    "tr": "Kahlenberg"
+   },
+   "at": [
+    48.28333,
+    16.33333
+   ],
+   "kind": "place",
+   "from": 2020,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Schönbrunn",
+    "tr": "Schönbrunn"
+   },
+   "at": [
+    48.184516,
+    16.311865
+   ],
+   "kind": "place",
+   "from": 2020,
+   "lift_m": 40
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Vienna: 1,900 Years in 15 Minutes (3D Timelapse)",
+   "tr": "Viyana: 15 Dakikada 1.900 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Around AD 100 Roman legionaries built a fortress called Vindobona above the Danube. Watch Vienna grow from that camp to a walled medieval capital, survive two Ottoman sieges in 1529 and 1683, spread its Baroque suburbs to the Linienwall, trade its walls for the Ringstrasse, straighten the Danube and become a city of two million: St Stephen's Cathedral, the Hofburg, Schönbrunn, the Belvedere, the Karlskirche, the Opera, the Riesenrad, Red Vienna, the war of 1945, UNO City and the Danube Island, with the year and the population on screen.",
+   "tr": "MS 100 civarında Romalı lejyonerler Tuna'ya bakan Vindobona adlı bir kale kurdu. Viyana'nın bu ordugâhtan surlarla çevrili bir Orta Çağ başkentine büyüyüşünü, 1529 ve 1683'teki iki Osmanlı kuşatmasını atlatmasını, Barok banliyölerini Linienwall'a kadar yaymasını, surlarını Ringstraße'ye bırakmasını, Tuna'yı düzleştirmesini ve iki milyonluk bir şehre dönüşmesini izleyin: Aziz Stephan Katedrali, Hofburg, Schönbrunn, Belvedere, Karlskirche, Opera, Riesenrad, Kızıl Viyana, 1945 savaşı, BM Şehri ve Tuna Adası; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "vienna history",
+   "history of vienna",
+   "vindobona",
+   "siege of vienna",
+   "3d timelapse",
+   "city evolution",
+   "how vienna grew",
+   "vienna timelapse",
+   "ringstrasse",
+   "habsburg",
+   "st stephens cathedral",
+   "austria history",
+   "urban history",
+   "wien geschichte"
+  ],
+  "hashtags": [
+   "#Vienna",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Vienna",
+    "tr": "Viyana"
+   },
+   "line2": {
+    "en": "1,900 YEARS",
+    "tr": "1.900 YIL"
+   },
+   "line3": {
+    "en": "From Roman fort to imperial capital",
+    "tr": "Roma kalesinden imparatorluk başkentine"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=48.2080,16.3700,6.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Vienna"
+  },
+  {
+   "title": "Timeline of Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Vienna"
+  },
+  {
+   "title": "Vienna (demographics table) — Wikipedia via EncycloReader",
+   "url": "https://encycloreader.org/r/wikipedia.php?q=Vienna"
+  },
+  {
+   "title": "Vindobona — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vindobona"
+  },
+  {
+   "title": "Vienna: History — Britannica",
+   "url": "https://www.britannica.com/place/Vienna/History"
+  },
+  {
+   "title": "Vienna: The people — Britannica",
+   "url": "https://www.britannica.com/place/Vienna/The-people"
+  },
+  {
+   "title": "Wien, Geschichte — Austria-Forum (AEIOU)",
+   "url": "https://austria-forum.org/af/AEIOU/Wien/Geschichte"
+  },
+  {
+   "title": "Wien (English) — Austria-Forum (AEIOU)",
+   "url": "https://austria-forum.org/af/AEIOU/Wien/Wien_english"
+  },
+  {
+   "title": "Population on 1 January 2026 (preliminary) — Statistics Austria",
+   "url": "https://www.statistik.at/fileadmin/announcement/2026/02/20260209Bevoelkerung1.1.2026EN.pdf"
+  },
+  {
+   "title": "Wien — population by census — City Population",
+   "url": "https://www.citypopulation.de/en/austria/wien/_/90001__wien/"
+  },
+  {
+   "title": "Siege of Vienna (1529) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Vienna_(1529)"
+  },
+  {
+   "title": "Battle of Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+  },
+  {
+   "title": "The second Turkish siege of Vienna, 1683 — habsburger.net",
+   "url": "https://www.habsburger.net/en/events/second-turkish-siege-vienna-1683"
+  },
+  {
+   "title": "City walls — Visiting Vienna",
+   "url": "https://www.visitingvienna.com/sights/city-walls/"
+  },
+  {
+   "title": "Ringstrasse — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ringstrasse"
+  },
+  {
+   "title": "Linienwall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Linienwall"
+  },
+  {
+   "title": "Vienna Danube regulation — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_Danube_regulation"
+  },
+  {
+   "title": "Donauinsel — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Donauinsel"
+  },
+  {
+   "title": "St. Stephen's Cathedral, Vienna — Wikipedia (IPFS mirror)",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Stephansdom.html"
+  },
+  {
+   "title": "St. Rupert's Church, Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/St._Rupert%27s_Church,_Vienna"
+  },
+  {
+   "title": "Schottenstift — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Schottenstift"
+  },
+  {
+   "title": "Schottenkloster — Wien Geschichte Wiki",
+   "url": "https://www.geschichtewiki.wien.gv.at/Schottenkloster"
+  },
+  {
+   "title": "Henry II, Duke of Austria — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Henry_II,_Duke_of_Austria"
+  },
+  {
+   "title": "Hofburg — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hofburg"
+  },
+  {
+   "title": "Schönbrunn Palace — Wikipedia (Kiwix mirror)",
+   "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Katterburg"
+  },
+  {
+   "title": "Architectural history 17th and early 18th century — Schloss Schönbrunn",
+   "url": "https://schoenbrunn.at/en/about-schoenbrunn/the-palace/history/architectural-history-17th-and-early-18th-century"
+  },
+  {
+   "title": "Belvedere, Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Belvedere,_Vienna"
+  },
+  {
+   "title": "Karlskirche — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Karlskirche"
+  },
+  {
+   "title": "Great Plague of Vienna — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Plague_of_Vienna"
+  },
+  {
+   "title": "Wurstelprater — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wurstelprater"
+  },
+  {
+   "title": "Emperor Ferdinand Northern Railway — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Emperor_Ferdinand_Northern_Railway"
+  },
+  {
+   "title": "Vienna State Opera — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_State_Opera"
+  },
+  {
+   "title": "1873 Vienna World's Fair — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1873_Vienna_World%27s_Fair"
+  },
+  {
+   "title": "Reichsbrücke — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Reichsbr%C3%BCcke"
+  },
+  {
+   "title": "Vienna City Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_City_Hall"
+  },
+  {
+   "title": "Austrian Parliament Building — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Austrian_Parliament_Building"
+  },
+  {
+   "title": "Votivkirche — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/Votive_Church,_Vienna"
+  },
+  {
+   "title": "Wiener Riesenrad — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wiener_Riesenrad"
+  },
+  {
+   "title": "Karl-Marx-Hof — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Karl-Marx-Hof"
+  },
+  {
+   "title": "Vienna offensive — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_offensive"
+  },
+  {
+   "title": "Donauturm — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Donauturm"
+  },
+  {
+   "title": "Vienna International Centre — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_International_Centre"
+  },
+  {
+   "title": "Vienna U-Bahn — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vienna_U-Bahn"
+  },
+  {
+   "title": "Millennium Tower (Vienna) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Millennium_Tower_(Vienna)"
+  },
+  {
+   "title": "DC Towers — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/DC_Towers"
+  },
+  {
+   "title": "Wien Hauptbahnhof — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wien_Hauptbahnhof"
+  },
+  {
+   "title": "Kahlenberg — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kahlenberg"
+  }
+ ]
+}

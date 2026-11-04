@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 97, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Vienna", "tr": "Viyana"}, "line2": {"en": "1,900 years in 50 seconds", "tr": "50 saniyede 1.900 yıl"}},
+   "end": {"line2": {"en": "Vienna: 1,900 Years in 15 Minutes", "tr": "Viyana: 15 Dakikada 1.900 Yıl"}},
+   "title": {"en": "Vienna: 1,900 Years in 50 Seconds #shorts", "tr": "Viyana: 50 Saniyede 1.900 Yıl #shorts"},
+   "description": {"en": "From the Roman fortress of Vindobona around AD 100 to 2,042,036 people on 1 January 2026 — the medieval walls, the Ottoman sieges of 1529 and 1683, the Ringstrasse and the Danube Island. The year and the population stay on screen the whole way.",
+                   "tr": "MS 100 civarındaki Roma kalesi Vindobona'dan 1 Ocak 2026'da 2.042.036 kişiye — Orta Çağ surları, 1529 ve 1683 Osmanlı kuşatmaları, Ringstraße ve Tuna Adası. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["vienna history", "history of vienna", "vindobona", "habsburg", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Vienna", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "siege-1683",
+   "from_year": 1679, "to_year": 1703, "seconds": 48,
+   "hook": {"line1": {"en": "The Siege of 1683", "tr": "1683 Kuşatması"}, "line2": {"en": "Vienna, 1679–1703", "tr": "Viyana, 1679–1703"}},
+   "end": {"line2": {"en": "Vienna: 1,900 Years in 15 Minutes", "tr": "Viyana: 15 Dakikada 1.900 Yıl"}},
+   "title": {"en": "The Siege of Vienna, 1683 — in 50 Seconds #shorts", "tr": "1683 Viyana Kuşatması — 50 Saniyede #shorts"},
+   "description": {"en": "1679: plague kills nearly a third of the city. 14 July 1683: Kara Mustafa's army surrounds Vienna and the defenders hold out for two months. 12 September 1683: a relief army under Jan Sobieski attacks from the Kahlenberg. 1696: work begins on the new Schönbrunn Palace.",
+                   "tr": "1679: veba şehrin neredeyse üçte birini öldürür. 14 Temmuz 1683: Kara Mustafa'nın ordusu Viyana'yı kuşatır, savunucular iki ay direnir. 12 Eylül 1683: Jan Sobieski komutasındaki yardım ordusu Kahlenberg'den saldırır. 1696: yeni Schönbrunn Sarayı'nın yapımı başlar."},
+   "tags": ["siege of vienna", "battle of vienna", "1683", "kahlenberg", "ottoman empire", "vienna history", "shorts"],
+   "hashtags": ["#Vienna", "#Siege1683", "#History", "#Shorts"]
+  },
+  {
+   "id": "ringstrasse",
+   "from_year": 1850, "to_year": 1910, "seconds": 48,
+   "hook": {"line1": {"en": "Walls to Boulevard", "tr": "Surdan Bulvara"}, "line2": {"en": "Vienna, 1850–1910", "tr": "Viyana, 1850–1910"}},
+   "end": {"line2": {"en": "Vienna: 1,900 Years in 15 Minutes", "tr": "Viyana: 15 Dakikada 1.900 Yıl"}},
+   "title": {"en": "Vienna: From 551,300 to 2 Million People #shorts", "tr": "Viyana: 551.300'den 2 Milyona #shorts"},
+   "description": {"en": "1850: the suburbs join the city, now 551,300 people. 1857: Franz Joseph orders the walls torn down for the 5.3 km Ringstrasse. 1869: the Opera opens. 1870–1875: the Danube gets a new bed. 1897: the Riesenrad. 1910: the census counts 2,083,630 people.",
+                   "tr": "1850: banliyöler şehre katılır, nüfus 551.300. 1857: Franz Joseph 5,3 km'lik Ringstraße için surların yıkılmasını emreder. 1869: Opera açılır. 1870–1875: Tuna'ya yeni yatak açılır. 1897: Riesenrad. 1910: sayım 2.083.630 kişi sayar."},
+   "tags": ["ringstrasse", "vienna history", "habsburg vienna", "franz joseph", "vienna opera", "3d timelapse", "shorts"],
+   "hashtags": ["#Vienna", "#Ringstrasse", "#History", "#Shorts"]
+  }
+ ]
+}
