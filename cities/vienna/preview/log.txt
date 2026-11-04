@@ -1,17 +1,17 @@
-stats {'buildings': 25601, 'trees': 13791, 'pieces': 1730, 'tents': 720, 'landmarks': 29, 'duration': 910}
-  scene t=53.53 5.2s
-  scene t=107.06 2.7s
-  scene t=160.59 2.6s
-  scene t=214.12 2.6s
-  scene t=267.65 2.7s
-  scene t=321.18 2.5s
-  scene t=374.71 3.0s
-  scene t=428.24 2.4s
+stats {'buildings': 25621, 'trees': 13637, 'pieces': 1731, 'tents': 720, 'landmarks': 29, 'duration': 910}
+  scene t=53.53 4.8s
+  scene t=107.06 2.5s
+  scene t=160.59 2.7s
+  scene t=214.12 2.7s
+  scene t=267.65 2.9s
+  scene t=321.18 2.9s
+  scene t=374.71 3.7s
+  scene t=428.24 2.6s
   scene t=481.76 2.9s
-  scene t=535.29 3.1s
+  scene t=535.29 3.2s
   scene t=588.82 3.0s
   scene t=642.35 3.0s
   scene t=695.88 2.9s
   scene t=749.41 2.8s
   scene t=802.94 2.6s
-  scene t=856.47 3.1s
+  scene t=856.47 3.2s
