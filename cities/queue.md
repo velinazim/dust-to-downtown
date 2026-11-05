@@ -10,7 +10,7 @@ ancient cities everyone is curious about. Owner can reorder any time.
 - [x] amsterdam — Amsterdam (1270 dam → canal ring → today)
 - [x] istanbul — Istanbul (Byzantion 667 BC → today)
 - [x] vienna — Vienna (Vindobona → Ringstraße → today)
-- [ ] athens — Athens (Bronze Age → today)
+- [x] athens — Athens (Bronze Age → today)
 - [ ] berlin — Berlin (Cölln & Berlin 1237 → wall → today)
 - [ ] philadelphia — Philadelphia (1682 grid → today)
 - [ ] edinburgh — Edinburgh (castle rock → New Town → today)
