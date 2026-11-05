@@ -1,0 +1,20 @@
+stats {'buildings': 26343, 'trees': 14530, 'pieces': 2659, 'tents': 0, 'landmarks': 27, 'duration': 871}
+  scene t=51.24 6.3s
+  scene t=102.47 3.2s
+  scene t=153.71 4.0s
+  scene t=204.94 3.3s
+  scene t=256.18 3.5s
+[console] THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The "position" attribute is likely to have NaN values. ExtrudeGeometry
+  scene t=307.41 3.1s
+  scene t=358.65 3.0s
+  scene t=409.88 3.0s
+  scene t=461.12 3.0s
+  scene t=512.35 3.0s
+  scene t=563.59 3.0s
+  scene t=614.82 3.1s
+  scene t=666.06 3.5s
+[console] THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The "position" attribute is likely to have NaN values. ExtrudeGeometry
+  scene t=717.29 3.5s
+[console] THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The "position" attribute is likely to have NaN values. ExtrudeGeometry
+  scene t=768.53 3.0s
+  scene t=819.76 3.0s

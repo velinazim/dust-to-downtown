@@ -1,0 +1,9 @@
+osm rivers: kept 26, skipped 0 -> 26 outer / 0 inner rings
+osm lakes: 6 lakes >= 0.02 km2
+grid 528x554 @ 100 m
+elevation: zoom 11, tiles 4x4
+grid 440x278 @ 30 m
+elevation: zoom 13, tiles 4x4
+core layer 440 x 278
+wrote geo.json 528 x 554
+maps written to cities/athens/preview
