@@ -1,4 +1,4 @@
-osm rivers: kept 26, skipped 0 -> 26 outer / 0 inner rings
+osm rivers: kept 0, skipped 26 -> 0 outer / 0 inner rings
 osm lakes: 6 lakes >= 0.02 km2
 grid 528x554 @ 100 m
 elevation: zoom 11, tiles 4x4
