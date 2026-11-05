@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": -3000, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Athens", "tr": "Atina"}, "line2": {"en": "5,000 years in 50 seconds", "tr": "50 saniyede 5.000 yıl"}},
+   "end": {"line2": {"en": "Athens: 5,000 Years in 15 Minutes", "tr": "Atina: 15 Dakikada 5.000 Yıl"}},
+   "title": {"en": "Athens: 5,000 Years in 50 Seconds #shorts", "tr": "Atina: 50 Saniyede 5.000 Yıl #shorts"},
+   "description": {"en": "From the first settlers on the slopes of the Acropolis around 3000 BC to 3,041,131 people in the urban area at the 2021 census — the Persian fire of 480 BC, the Long Walls, the Parthenon, the explosion of 1687 and the capital of modern Greece. The year and the population stay on screen the whole way.",
+                   "tr": "MÖ 3000 civarında Akropolis yamaçlarındaki ilk yerleşimcilerden 2021 sayımında kentsel alanda 3.041.131 kişiye — MÖ 480 Pers yangını, Uzun Duvarlar, Parthenon, 1687 patlaması ve modern Yunanistan'ın başkenti. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["athens history", "history of athens", "acropolis", "parthenon", "ancient greece", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Athens", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "golden-age",
+   "from_year": -480, "to_year": -395, "seconds": 48,
+   "hook": {"line1": {"en": "From Ashes to Glory", "tr": "Küllerden Zafere"}, "line2": {"en": "Athens, 480–404 BC", "tr": "Atina, MÖ 480–404"}},
+   "end": {"line2": {"en": "Athens: 5,000 Years in 15 Minutes", "tr": "Atina: 15 Dakikada 5.000 Yıl"}},
+   "title": {"en": "Athens: From Persian Fire to the Parthenon in 50 Seconds #shorts", "tr": "Atina: Pers Yangınından Parthenon'a 50 Saniyede #shorts"},
+   "description": {"en": "480 BC: the Persians take and burn Athens. 479 BC: the city wall is rebuilt in haste. 460s–450s BC: the Long Walls tie Athens to the sea. 447–438 BC: the Parthenon rises. 430 BC: plague. 404 BC: Athens loses the Peloponnesian War and must pull down its Long Walls.",
+                   "tr": "MÖ 480: Persler Atina'yı alıp yakar. MÖ 479: şehir suru aceleyle yeniden yapılır. MÖ 460'lar–450'ler: Uzun Duvarlar Atina'yı denize bağlar. MÖ 447–438: Parthenon yükselir. MÖ 430: veba. MÖ 404: Atina Peloponez Savaşı'nı kaybeder ve Uzun Duvarlarını yıkmak zorunda kalır."},
+   "tags": ["parthenon", "golden age of athens", "pericles", "long walls", "persian wars", "ancient athens", "shorts"],
+   "hashtags": ["#Athens", "#Parthenon", "#History", "#Shorts"]
+  },
+  {
+   "id": "capital",
+   "from_year": 1833, "to_year": 2026, "seconds": 48,
+   "hook": {"line1": {"en": "4,000 to 3 Million", "tr": "4.000'den 3 Milyona"}, "line2": {"en": "Athens, 1833–2026", "tr": "Atina, 1833–2026"}},
+   "end": {"line2": {"en": "Athens: 5,000 Years in 15 Minutes", "tr": "Atina: 15 Dakikada 5.000 Yıl"}},
+   "title": {"en": "Athens: From 4,000 People to 3 Million #shorts", "tr": "Atina: 4.000 Kişiden 3 Milyona #shorts"},
+   "description": {"en": "1833: about 4,000 people live in war-ruined Athens; in 1834 it becomes the capital of Greece. 1836–1843: the Royal Palace. 1869: the railway to Piraeus. 1896: the first modern Olympics. 1922–1923: refugees from Asia Minor. Then the apartment boom, the metro in 2000 and the 2004 Olympics — 3,041,131 people in the urban area at the 2021 census.",
+                   "tr": "1833: savaşta yıkılmış Atina'da ~4.000 kişi yaşar; 1834'te şehir Yunanistan'ın başkenti olur. 1836–1843: Kraliyet Sarayı. 1869: Pire demiryolu. 1896: ilk modern Olimpiyatlar. 1922–1923: Anadolu'dan mülteciler. Ardından apartman patlaması, 2000'de metro ve 2004 Olimpiyatları — 2021 sayımında kentsel alanda 3.041.131 kişi."},
+   "tags": ["athens history", "modern athens", "greece capital", "1896 olympics", "urban growth", "3d timelapse", "shorts"],
+   "hashtags": ["#Athens", "#Greece", "#History", "#Shorts"]
+  }
+ ]
+}

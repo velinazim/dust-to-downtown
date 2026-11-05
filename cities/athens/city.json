@@ -1,0 +1,7916 @@
+{
+ "slug": "athens",
+ "seed": 480,
+ "long_ok": true,
+ "name": {
+  "en": "Athens",
+  "tr": "Atina"
+ },
+ "intro": {
+  "en": "5,000 Years in 15 Minutes",
+  "tr": "15 Dakikada 5.000 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   37.74,
+   23.42,
+   38.24,
+   24.02
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   37.925,
+   23.62,
+   38.0,
+   23.77
+  ],
+  "core_cell_m": 30
+ },
+ "geo_edits": [],
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 1.5
+ },
+ "segments": [
+  {
+   "from": -3000,
+   "to": -1301,
+   "seconds": 17,
+   "era": {
+    "en": "Neolithic and Bronze Age",
+    "tr": "Neolitik ve Tunç Çağı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The First Settlers",
+    "tr": "İlk Yerleşimciler"
+   },
+   "sub": {
+    "en": "By about 3000 BC people live on the slopes of the Acropolis, a steep rock above the plain",
+    "tr": "MÖ 3000 civarında insanlar ovaya bakan dik bir kaya olan Akropolis'in yamaçlarında yaşar"
+   },
+   "camera": {
+    "center": [
+     37.9718,
+     23.7258
+    ],
+    "dist_km": 2.0
+   },
+   "chapter": {
+    "en": "The Bronze Age Rock",
+    "tr": "Tunç Çağı Kayası"
+   }
+  },
+  {
+   "from": -1300,
+   "to": -1101,
+   "seconds": 18,
+   "era": {
+    "en": "Mycenaean Age",
+    "tr": "Miken Çağı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A Mycenaean Citadel",
+    "tr": "Bir Miken Kalesi"
+   },
+   "sub": {
+    "en": "c. 1200 BC: a massive 'Cyclopean' wall rings the palace on top of the Acropolis",
+    "tr": "MÖ ~1200: devasa bir 'Kiklop' duvarı Akropolis'in tepesindeki sarayı çevreler"
+   },
+   "camera": {
+    "center": [
+     37.9718,
+     23.7258
+    ],
+    "dist_km": 1.6
+   }
+  },
+  {
+   "from": -1100,
+   "to": -701,
+   "seconds": 7,
+   "era": {
+    "en": "Early Iron Age",
+    "tr": "Erken Demir Çağı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "camera": {
+    "center": [
+     37.9728,
+     23.725
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": -700,
+   "to": -595,
+   "seconds": 7,
+   "era": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "camera": {
+    "center": [
+     37.973,
+     23.725
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": -594,
+   "to": -567,
+   "seconds": 15,
+   "era": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Solon's Laws",
+    "tr": "Solon'un Yasaları"
+   },
+   "sub": {
+    "en": "594 BC: the statesman Solon reforms the laws of Athens",
+    "tr": "MÖ 594: devlet adamı Solon Atina'nın yasalarını yeniden düzenler"
+   },
+   "camera": {
+    "center": [
+     37.9738,
+     23.724
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   }
+  },
+  {
+   "from": -566,
+   "to": -521,
+   "seconds": 15,
+   "era": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A Festival for Athena",
+    "tr": "Athena İçin Bir Bayram"
+   },
+   "sub": {
+    "en": "566 BC: the Panathenaic Games are reorganised; c. 530 a large temple of Athena rises",
+    "tr": "MÖ 566: Panathenaia oyunları yeniden düzenlenir; ~530'da büyük bir Athena tapınağı yükselir"
+   },
+   "camera": {
+    "center": [
+     37.9718,
+     23.7258
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": -520,
+   "to": -509,
+   "seconds": 15,
+   "era": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A Temple for Zeus",
+    "tr": "Zeus İçin Bir Tapınak"
+   },
+   "sub": {
+    "en": "c. 520 BC: the tyrant's family begins a giant temple of Zeus; it will take 650 years",
+    "tr": "MÖ ~520: tiranın ailesi dev bir Zeus tapınağına başlar; bitmesi 650 yıl sürecek"
+   },
+   "camera": {
+    "center": [
+     37.9705,
+     23.73
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": -508,
+   "to": -481,
+   "seconds": 16,
+   "era": {
+    "en": "Archaic Athens",
+    "tr": "Arkaik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Democracy",
+    "tr": "Demokrasi"
+   },
+   "sub": {
+    "en": "508/507 BC: Cleisthenes' reforms give Athens its democracy",
+    "tr": "MÖ 508/507: Kleisthenes'in reformları Atina'ya demokrasisini verir"
+   },
+   "camera": {
+    "center": [
+     37.9728,
+     23.7225
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": -480,
+   "to": -479.6,
+   "seconds": 18,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Persians Burn Athens",
+    "tr": "Persler Atina'yı Yakıyor"
+   },
+   "sub": {
+    "en": "480 BC: the Persian army takes and burns Athens, then loses the sea battle of Salamis",
+    "tr": "MÖ 480: Pers ordusu Atina'yı alıp yakar, ardından Salamis deniz savaşını kaybeder"
+   },
+   "camera": {
+    "center": [
+     37.96,
+     23.67
+    ],
+    "dist_km": 11.0
+   },
+   "chapter": {
+    "en": "The Golden Age",
+    "tr": "Altın Çağ"
+   }
+  },
+  {
+   "from": -479.5,
+   "to": -462,
+   "seconds": 18,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Themistoclean Wall",
+    "tr": "Themistokles Suru"
+   },
+   "sub": {
+    "en": "479 BC: the Athenians rebuild their city wall in haste; it has at least 13 gates",
+    "tr": "MÖ 479: Atinalılar şehir surunu aceleyle yeniden yapar; surun en az 13 kapısı vardır"
+   },
+   "camera": {
+    "center": [
+     37.9735,
+     23.7245
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": -461,
+   "to": -448,
+   "seconds": 18,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Long Walls",
+    "tr": "Uzun Duvarlar"
+   },
+   "sub": {
+    "en": "460s–450s BC: Long Walls about 6 km long tie Athens to the sea at Piraeus and Phaleron",
+    "tr": "MÖ 460'lar–450'ler: ~6 km'lik Uzun Duvarlar Atina'yı Pire ve Faliron'da denize bağlar"
+   },
+   "camera": {
+    "center": [
+     37.958,
+     23.685
+    ],
+    "dist_km": 10.0
+   }
+  },
+  {
+   "from": -447,
+   "to": -438,
+   "seconds": 20,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Parthenon",
+    "tr": "Parthenon"
+   },
+   "sub": {
+    "en": "447–438 BC: the Parthenon rises on the Acropolis; its sculptures are finished by 432",
+    "tr": "MÖ 447–438: Parthenon Akropolis'te yükselir; heykelleri 432'ye dek tamamlanır"
+   },
+   "camera": {
+    "center": [
+     37.97156,
+     23.72663
+    ],
+    "dist_km": 1.2
+   }
+  },
+  {
+   "from": -437,
+   "to": -431,
+   "seconds": 16,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Propylaia",
+    "tr": "Propylaia"
+   },
+   "sub": {
+    "en": "437–432 BC: the architect Mnesikles builds the great gateway to the Acropolis",
+    "tr": "MÖ 437–432: mimar Mnesikles Akropolis'in görkemli giriş kapısını yapar"
+   },
+   "camera": {
+    "center": [
+     37.97176,
+     23.7256
+    ],
+    "dist_km": 1.3
+   }
+  },
+  {
+   "from": -430,
+   "to": -422,
+   "seconds": 17,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Plague",
+    "tr": "Veba"
+   },
+   "sub": {
+    "en": "430 BC: plague kills a quarter to a third of the people; Pericles dies in 429",
+    "tr": "MÖ 430: veba halkın dörtte biri ile üçte birini öldürür; Perikles 429'da ölür"
+   },
+   "camera": {
+    "center": [
+     37.974,
+     23.724
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": -421,
+   "to": -405,
+   "seconds": 16,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Erechtheion",
+    "tr": "Erektheion"
+   },
+   "sub": {
+    "en": "421–406 BC: in the middle of a long war, the Erechtheion is built on the Acropolis",
+    "tr": "MÖ 421–406: uzun bir savaşın ortasında Akropolis'te Erektheion inşa edilir"
+   },
+   "camera": {
+    "center": [
+     37.97209,
+     23.72641
+    ],
+    "dist_km": 1.2
+   }
+  },
+  {
+   "from": -404,
+   "to": -395,
+   "seconds": 16,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Athens Surrenders",
+    "tr": "Atina Teslim Oluyor"
+   },
+   "sub": {
+    "en": "404 BC: Athens loses the Peloponnesian War and must pull down its Long Walls",
+    "tr": "MÖ 404: Atina Peloponez Savaşı'nı kaybeder ve Uzun Duvarlarını yıkmak zorunda kalır"
+   },
+   "camera": {
+    "center": [
+     37.959,
+     23.685
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": -394,
+   "to": -339,
+   "seconds": 14,
+   "era": {
+    "en": "Classical Athens",
+    "tr": "Klasik Atina"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Walls Rise Again",
+    "tr": "Duvarlar Yeniden Yükseliyor"
+   },
+   "sub": {
+    "en": "394 BC: the admiral Conon rebuilds the walls of Athens and Piraeus",
+    "tr": "MÖ 394: amiral Konon Atina ve Pire'nin surlarını yeniden yaptırır"
+   },
+   "camera": {
+    "center": [
+     37.959,
+     23.685
+    ],
+    "dist_km": 9.5
+   }
+  },
+  {
+   "from": -338,
+   "to": -331,
+   "seconds": 15,
+   "era": {
+    "en": "Hellenistic Age",
+    "tr": "Helenistik Çağ"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Chaeronea",
+    "tr": "Khaironeia"
+   },
+   "sub": {
+    "en": "2 August 338 BC: Philip II of Macedon defeats Athens and Thebes at Chaeronea",
+    "tr": "2 Ağustos MÖ 338: Makedonyalı II. Filip, Atina ve Thebai'yi Khaironeia'da yener"
+   },
+   "camera": {
+    "center": [
+     37.973,
+     23.726
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": -330,
+   "to": -160,
+   "seconds": 16,
+   "era": {
+    "en": "Hellenistic Age",
+    "tr": "Helenistik Çağ"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Built in Stone",
+    "tr": "Taştan Yapılar"
+   },
+   "sub": {
+    "en": "c. 330 BC: under Lycurgus the Theatre of Dionysus and a stadium are built in stone",
+    "tr": "MÖ ~330: Likurgos döneminde Dionysos Tiyatrosu ve bir stadyum taştan yapılır"
+   },
+   "camera": {
+    "center": [
+     37.9698,
+     23.734
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": -159,
+   "to": -88,
+   "seconds": 15,
+   "era": {
+    "en": "Hellenistic Age",
+    "tr": "Helenistik Çağ"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Stoa of Attalos",
+    "tr": "Attalos Stoası"
+   },
+   "sub": {
+    "en": "159–138 BC: King Attalos II of Pergamon gives the Agora a 120 m, two-storey stoa",
+    "tr": "MÖ 159–138: Bergama kralı II. Attalos, Agora'ya 120 m'lik iki katlı bir stoa armağan eder"
+   },
+   "camera": {
+    "center": [
+     37.9752,
+     23.7238
+    ],
+    "dist_km": 1.4
+   }
+  },
+  {
+   "from": -87,
+   "to": -86,
+   "seconds": 18,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Sulla's Siege",
+    "tr": "Sulla'nın Kuşatması"
+   },
+   "sub": {
+    "en": "1 March 86 BC: Sulla's Romans break in at the Kerameikos and sack Athens",
+    "tr": "1 Mart MÖ 86: Sulla'nın Romalıları Kerameikos'tan girer ve Atina'yı yağmalar"
+   },
+   "camera": {
+    "center": [
+     37.97,
+     23.705
+    ],
+    "dist_km": 5.5
+   },
+   "chapter": {
+    "en": "Roman Athens",
+    "tr": "Roma Atinası"
+   }
+  },
+  {
+   "from": -85,
+   "to": -56,
+   "seconds": 7,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "camera": {
+    "center": [
+     37.9735,
+     23.7245
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": -55,
+   "to": 129,
+   "seconds": 16,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Gifts from Rome",
+    "tr": "Roma'dan Armağanlar"
+   },
+   "sub": {
+    "en": "c. 50 BC: the Tower of the Winds; c. 15 BC: Agrippa builds a concert hall in the Agora",
+    "tr": "MÖ ~50: Rüzgârlar Kulesi; MÖ ~15: Agrippa Agora'ya bir konser salonu yaptırır"
+   },
+   "camera": {
+    "center": [
+     37.9748,
+     23.725
+    ],
+    "dist_km": 1.6
+   }
+  },
+  {
+   "from": 130,
+   "to": 160,
+   "seconds": 18,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Hadrian's Athens",
+    "tr": "Hadrianus'un Atinası"
+   },
+   "sub": {
+    "en": "AD 131/132: Hadrian completes the Temple of Olympian Zeus and builds an arch and a library",
+    "tr": "MS 131/132: Hadrianus Olimposlu Zeus Tapınağı'nı bitirir; bir kemer ve kütüphane yaptırır"
+   },
+   "camera": {
+    "center": [
+     37.9715,
+     23.731
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 161,
+   "to": 266,
+   "seconds": 15,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Odeon of Herodes",
+    "tr": "Herodes Odeonu"
+   },
+   "sub": {
+    "en": "AD 161: Herodes Atticus builds a 5,000-seat odeon in memory of his wife Regilla",
+    "tr": "MS 161: Herodes Atticus, eşi Regilla'nın anısına 5.000 kişilik bir odeon yaptırır"
+   },
+   "camera": {
+    "center": [
+     37.97076,
+     23.72444
+    ],
+    "dist_km": 1.4
+   }
+  },
+  {
+   "from": 267,
+   "to": 395,
+   "seconds": 18,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Heruli",
+    "tr": "Heruller"
+   },
+   "sub": {
+    "en": "AD 267: the Heruli sack Athens; the town shrinks behind a small new wall",
+    "tr": "MS 267: Heruller Atina'yı yağmalar; şehir küçük yeni bir surun ardına çekilir"
+   },
+   "camera": {
+    "center": [
+     37.9735,
+     23.726
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 396,
+   "to": 528,
+   "seconds": 7,
+   "era": {
+    "en": "Roman Empire",
+    "tr": "Roma İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "camera": {
+    "center": [
+     37.9738,
+     23.7262
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 529,
+   "to": 1017,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine Empire",
+    "tr": "Bizans İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Schools Close",
+    "tr": "Okullar Kapanıyor"
+   },
+   "sub": {
+    "en": "529: Emperor Justinian closes the schools of philosophy in Athens",
+    "tr": "529: İmparator Justinianus Atina'daki felsefe okullarını kapatır"
+   },
+   "camera": {
+    "center": [
+     37.9735,
+     23.7262
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Byzantines and Crusaders",
+    "tr": "Bizanslılar ve Haçlılar"
+   }
+  },
+  {
+   "from": 1018,
+   "to": 1203,
+   "seconds": 16,
+   "era": {
+    "en": "Byzantine Empire",
+    "tr": "Bizans İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "An Emperor's Pilgrimage",
+    "tr": "Bir İmparatorun Hac Yolculuğu"
+   },
+   "sub": {
+    "en": "1018: Emperor Basil II visits the Parthenon, now a church of the Virgin Mary",
+    "tr": "1018: İmparator II. Basileios, artık bir Meryem Ana kilisesi olan Parthenon'u ziyaret eder"
+   },
+   "camera": {
+    "center": [
+     37.97156,
+     23.72663
+    ],
+    "dist_km": 1.4
+   }
+  },
+  {
+   "from": 1204,
+   "to": 1310,
+   "seconds": 16,
+   "era": {
+    "en": "Duchy of Athens",
+    "tr": "Atina Dükalığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Duchy of Athens",
+    "tr": "Atina Dükalığı"
+   },
+   "sub": {
+    "en": "1204: crusaders take Athens; Otto de la Roche rules it as a Frankish duchy",
+    "tr": "1204: Haçlılar Atina'yı alır; Otto de la Roche burayı bir Frank dükalığı olarak yönetir"
+   },
+   "camera": {
+    "center": [
+     37.974,
+     23.7262
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1311,
+   "to": 1387,
+   "seconds": 15,
+   "era": {
+    "en": "Duchy of Athens",
+    "tr": "Atina Dükalığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Catalans",
+    "tr": "Katalanlar"
+   },
+   "sub": {
+    "en": "15 March 1311: the Catalan Company defeats the duke and takes Athens",
+    "tr": "15 Mart 1311: Katalan Kumpanyası dükü yener ve Atina'yı ele geçirir"
+   },
+   "camera": {
+    "center": [
+     37.974,
+     23.7262
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1388,
+   "to": 1455,
+   "seconds": 14,
+   "era": {
+    "en": "Duchy of Athens",
+    "tr": "Atina Dükalığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Acciaioli",
+    "tr": "Acciaioli Ailesi"
+   },
+   "sub": {
+    "en": "1388: the Florentine Nerio Acciaioli takes Athens; his family rules it until 1458",
+    "tr": "1388: Floransalı Nerio Acciaioli Atina'yı alır; ailesi şehri 1458'e dek yönetir"
+   },
+   "camera": {
+    "center": [
+     37.9718,
+     23.7258
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1456,
+   "to": 1639,
+   "seconds": 17,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Ottoman Athens",
+    "tr": "Osmanlı Atinası"
+   },
+   "sub": {
+    "en": "1456: the Ottomans take the city; in 1458 the Acropolis surrenders and Mehmed II visits",
+    "tr": "1456: Osmanlılar şehri alır; 1458'de Akropolis teslim olur ve II. Mehmed şehri ziyaret eder"
+   },
+   "camera": {
+    "center": [
+     37.9745,
+     23.7262
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Ottoman Athens",
+    "tr": "Osmanlı Atinası"
+   }
+  },
+  {
+   "from": 1640,
+   "to": 1686,
+   "seconds": 7,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "camera": {
+    "center": [
+     37.9745,
+     23.7265
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1687,
+   "to": 1687.99,
+   "seconds": 20,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Parthenon Explodes",
+    "tr": "Parthenon Havaya Uçuyor"
+   },
+   "sub": {
+    "en": "26 September 1687: Venetian guns ignite Ottoman gunpowder stored in the Parthenon",
+    "tr": "26 Eylül 1687: Venedik topları Parthenon'da depolanan Osmanlı barutunu ateşler"
+   },
+   "camera": {
+    "center": [
+     37.97156,
+     23.72663
+    ],
+    "dist_km": 1.6
+   }
+  },
+  {
+   "from": 1688,
+   "to": 1777,
+   "seconds": 16,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Venetians Leave",
+    "tr": "Venedikliler Çekiliyor"
+   },
+   "sub": {
+    "en": "April 1688: the Venetians withdraw, and 4,000–5,000 Athenians leave with them",
+    "tr": "Nisan 1688: Venedikliler çekilir ve 4.000–5.000 Atinalı onlarla birlikte ayrılır"
+   },
+   "camera": {
+    "center": [
+     37.9748,
+     23.7265
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1778,
+   "to": 1800,
+   "seconds": 16,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Haseki Wall",
+    "tr": "Haseki Suru"
+   },
+   "sub": {
+    "en": "1778: the governor Hadji Ali Haseki has a wall with seven gates built around the town",
+    "tr": "1778: vali Hacı Ali Haseki kasabanın çevresine yedi kapılı bir sur yaptırır"
+   },
+   "population": 10000,
+   "camera": {
+    "center": [
+     37.9758,
+     23.727
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1801,
+   "to": 1820,
+   "seconds": 15,
+   "era": {
+    "en": "Ottoman Empire",
+    "tr": "Osmanlı İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Elgin's Marbles",
+    "tr": "Elgin Mermerleri"
+   },
+   "sub": {
+    "en": "1801–1812: agents of Lord Elgin remove sculptures from the Parthenon",
+    "tr": "1801–1812: Lord Elgin'in adamları Parthenon'dan heykelleri söker"
+   },
+   "population": 10000,
+   "camera": {
+    "center": [
+     37.97156,
+     23.72663
+    ],
+    "dist_km": 1.3
+   }
+  },
+  {
+   "from": 1821,
+   "to": 1825,
+   "seconds": 15,
+   "era": {
+    "en": "Greek Revolution",
+    "tr": "Yunan Bağımsızlık Savaşı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   },
+   "sub": {
+    "en": "1821: the Greek War of Independence begins; in June 1822 the Acropolis garrison surrenders",
+    "tr": "1821: Yunan Bağımsızlık Savaşı başlar; Haziran 1822'de Akropolis garnizonu teslim olur"
+   },
+   "population": [
+    10000,
+    9040
+   ],
+   "camera": {
+    "center": [
+     37.9745,
+     23.7265
+    ],
+    "dist_km": 2.8
+   },
+   "chapter": {
+    "en": "Independence",
+    "tr": "Bağımsızlık"
+   }
+  },
+  {
+   "from": 1826,
+   "to": 1832,
+   "seconds": 18,
+   "era": {
+    "en": "Greek Revolution",
+    "tr": "Yunan Bağımsızlık Savaşı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Siege of the Acropolis",
+    "tr": "Akropolis Kuşatması"
+   },
+   "sub": {
+    "en": "1826–1827: Kütahi Pasha besieges the Acropolis for 11 months; the town is left in ruins",
+    "tr": "1826–1827: Kütahi Paşa Akropolis'i 11 ay kuşatır; kasaba harabeye döner"
+   },
+   "population": [
+    9040,
+    4000
+   ],
+   "camera": {
+    "center": [
+     37.974,
+     23.7262
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1833,
+   "to": 1835,
+   "seconds": 18,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Capital of Greece",
+    "tr": "Yunanistan'ın Başkenti"
+   },
+   "sub": {
+    "en": "1833: about 4,000 people live in Athens; in 1834 it becomes the capital of Greece",
+    "tr": "1833: Atina'da yaklaşık 4.000 kişi yaşar; 1834'te şehir Yunanistan'ın başkenti olur"
+   },
+   "population": [
+    4000,
+    8000
+   ],
+   "camera": {
+    "center": [
+     37.9775,
+     23.728
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Capital of Greece",
+    "tr": "Yunanistan'ın Başkenti"
+   }
+  },
+  {
+   "from": 1836,
+   "to": 1842,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A New Town and a Palace",
+    "tr": "Yeni Bir Şehir ve Bir Saray"
+   },
+   "sub": {
+    "en": "1836–1843: King Otto's palace, today the Parliament, rises above the new street plan",
+    "tr": "1836–1843: bugün Parlamento olan Kral Otto'nun sarayı yeni sokak planının üzerinde yükselir"
+   },
+   "population": [
+    10000,
+    28000
+   ],
+   "camera": {
+    "center": [
+     37.9775,
+     23.732
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1843,
+   "to": 1868,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Syntagma",
+    "tr": "Sintagma"
+   },
+   "sub": {
+    "en": "3 September 1843: a night uprising outside the palace wins Greece a constitution",
+    "tr": "3 Eylül 1843: saray önündeki bir gece ayaklanması Yunanistan'a anayasa kazandırır"
+   },
+   "population": [
+    28000,
+    43000
+   ],
+   "camera": {
+    "center": [
+     37.97584,
+     23.73447
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1869,
+   "to": 1895,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Railway to Piraeus",
+    "tr": "Pire Demiryolu"
+   },
+   "sub": {
+    "en": "27 February 1869: the 8.8 km railway from Thiseio to Piraeus opens",
+    "tr": "27 Şubat 1869: Thiseio ile Pire arasındaki 8,8 km'lik demiryolu açılır"
+   },
+   "population": [
+    44000,
+    118000
+   ],
+   "camera": {
+    "center": [
+     37.961,
+     23.682
+    ],
+    "dist_km": 8.5
+   }
+  },
+  {
+   "from": 1896,
+   "to": 1921,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The First Olympics",
+    "tr": "İlk Olimpiyatlar"
+   },
+   "sub": {
+    "en": "6–15 April 1896: the first modern Olympic Games are held in the Panathenaic Stadium",
+    "tr": "6–15 Nisan 1896: ilk modern Olimpiyat Oyunları Panathinaiko Stadı'nda yapılır"
+   },
+   "population": [
+    123000,
+    476000
+   ],
+   "camera": {
+    "center": [
+     37.969,
+     23.7404
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1922,
+   "to": 1940,
+   "seconds": 18,
+   "era": {
+    "en": "Kingdom of Greece",
+    "tr": "Yunanistan Krallığı"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Refugees",
+    "tr": "Mülteciler"
+   },
+   "sub": {
+    "en": "1922–1923: some 75,000 refugee families from Asia Minor settle in and around Athens",
+    "tr": "1922–1923: Anadolu'dan gelen ~75.000 mülteci aile Atina ve çevresine yerleşir"
+   },
+   "population": [
+    513000,
+    1124109
+   ],
+   "camera": {
+    "center": [
+     37.97,
+     23.715
+    ],
+    "dist_km": 11.0
+   },
+   "chapter": {
+    "en": "Twentieth Century",
+    "tr": "Yirminci Yüzyıl"
+   }
+  },
+  {
+   "from": 1941,
+   "to": 1944.8,
+   "seconds": 16,
+   "era": {
+    "en": "Axis Occupation",
+    "tr": "Mihver İşgali"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Occupation and Famine",
+    "tr": "İşgal ve Kıtlık"
+   },
+   "sub": {
+    "en": "27 April 1941: German troops enter Athens; tens of thousands die in the famine of 1941–42",
+    "tr": "27 Nisan 1941: Alman askerleri Atina'ya girer; 1941–42 kıtlığında on binlerce kişi ölür"
+   },
+   "population": [
+    1144000,
+    1225000
+   ],
+   "camera": {
+    "center": [
+     37.976,
+     23.725
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1944.81,
+   "to": 1967,
+   "seconds": 17,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Apartment Boom",
+    "tr": "Apartman Patlaması"
+   },
+   "sub": {
+    "en": "After the war, the polykatoikia apartment block spreads across the whole plain",
+    "tr": "Savaştan sonra polikatikia apartmanları bütün ovaya yayılır"
+   },
+   "population": [
+    1225000,
+    1928000
+   ],
+   "camera": {
+    "center": [
+     37.98,
+     23.72
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1968,
+   "to": 1981,
+   "seconds": 16,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Athens Tower",
+    "tr": "Atina Kulesi"
+   },
+   "sub": {
+    "en": "1968–1971: the 28-floor, 103 m Athens Tower rises above the apartment blocks",
+    "tr": "1968–1971: 28 katlı, 103 m'lik Atina Kulesi apartmanların üzerinde yükselir"
+   },
+   "population": [
+    1970000,
+    2400000
+   ],
+   "camera": {
+    "center": [
+     37.9846,
+     23.7609
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1982,
+   "to": 1999,
+   "seconds": 15,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A New Olympic Stadium",
+    "tr": "Yeni Bir Olimpiyat Stadı"
+   },
+   "sub": {
+    "en": "8 September 1982: the Olympic Stadium in Marousi is inaugurated",
+    "tr": "8 Eylül 1982: Marusi'deki Olimpiyat Stadı açılır"
+   },
+   "population": [
+    2432000,
+    3049000
+   ],
+   "camera": {
+    "center": [
+     38.0361,
+     23.7876
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 2000,
+   "to": 2003,
+   "seconds": 15,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Metro and Airport",
+    "tr": "Metro ve Havalimanı"
+   },
+   "sub": {
+    "en": "28 January 2000: the metro opens; in March 2001 a new airport replaces Ellinikon",
+    "tr": "28 Ocak 2000: metro açılır; Mart 2001'de yeni havalimanı Ellinikon'un yerini alır"
+   },
+   "population": [
+    3089000,
+    3122000
+   ],
+   "camera": {
+    "center": [
+     37.95,
+     23.76
+    ],
+    "dist_km": 18.0
+   },
+   "chapter": {
+    "en": "Modern Athens",
+    "tr": "Modern Atina"
+   }
+  },
+  {
+   "from": 2004,
+   "to": 2008,
+   "seconds": 16,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Olympics Return",
+    "tr": "Olimpiyatlar Geri Dönüyor"
+   },
+   "sub": {
+    "en": "13–29 August 2004: Athens hosts the Summer Olympic Games for the second time",
+    "tr": "13–29 Ağustos 2004: Atina Yaz Olimpiyat Oyunları'na ikinci kez ev sahipliği yapar"
+   },
+   "population": [
+    3117000,
+    3099000
+   ],
+   "camera": {
+    "center": [
+     38.03,
+     23.78
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 2009,
+   "to": 2015,
+   "seconds": 15,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Acropolis Museum",
+    "tr": "Akropolis Müzesi"
+   },
+   "sub": {
+    "en": "20 June 2009: the new Acropolis Museum opens below the rock",
+    "tr": "20 Haziran 2009: yeni Akropolis Müzesi kayanın eteğinde açılır"
+   },
+   "population": [
+    3095000,
+    3068000
+   ],
+   "camera": {
+    "center": [
+     37.97,
+     23.7275
+    ],
+    "dist_km": 1.5
+   }
+  },
+  {
+   "from": 2016,
+   "to": 2020,
+   "seconds": 15,
+   "era": {
+    "en": "Modern Greece",
+    "tr": "Modern Yunanistan"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "A Centre by the Sea",
+    "tr": "Deniz Kıyısında Bir Merkez"
+   },
+   "sub": {
+    "en": "2016: Renzo Piano's Stavros Niarchos cultural centre opens at Faliro",
+    "tr": "2016: Renzo Piano'nun Stavros Niarkos kültür merkezi Faliro'da açılır"
+   },
+   "population": [
+    3063000,
+    3046000
+   ],
+   "camera": {
+    "center": [
+     37.9397,
+     23.6917
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 2021,
+   "to": 2025,
+   "seconds": 16,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "The Ellinikon",
+    "tr": "Ellinikon"
+   },
+   "sub": {
+    "en": "From 2021 the old airport becomes a new district; its 200 m tower reaches full height in 2026",
+    "tr": "2021'den itibaren eski havalimanı yeni bir semte dönüşür; 200 m'lik kulesi 2026'da tamamlanır"
+   },
+   "population": [
+    3041131,
+    3041131
+   ],
+   "camera": {
+    "center": [
+     37.885,
+     23.728
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 2026,
+   "to": 2026,
+   "seconds": 20,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "title": {
+    "en": "Athens Today",
+    "tr": "Bugünün Atinası"
+   },
+   "sub": {
+    "en": "From a hilltop settlement to 3,041,131 people in the urban area (2021 census)",
+    "tr": "Bir tepe yerleşiminden kentsel alanda 3.041.131 kişiye (2021 sayımı)"
+   },
+   "population": [
+    3041131,
+    3041131
+   ],
+   "camera": {
+    "center": [
+     37.975,
+     23.725
+    ],
+    "dist_km": 22.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Early settlement on the slopes (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     37.97126,
+     23.72297
+    ],
+    [
+     37.97234,
+     23.72345
+    ],
+    [
+     37.9733,
+     23.72585
+    ],
+    [
+     37.97318,
+     23.72873
+    ],
+    [
+     37.9721,
+     23.73137
+    ],
+    [
+     37.97054,
+     23.73065
+    ],
+    [
+     37.97018,
+     23.72705
+    ],
+    [
+     37.97054,
+     23.72441
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.9715,
+      23.7248
+     ],
+     [
+      37.97195,
+      23.725
+     ],
+     [
+      37.97235,
+      23.726
+     ],
+     [
+      37.9723,
+      23.7272
+     ],
+     [
+      37.97185,
+      23.7283
+     ],
+     [
+      37.9712,
+      23.728
+     ],
+     [
+      37.97105,
+      23.7265
+     ],
+     [
+      37.9712,
+      23.7254
+     ]
+    ]
+   ],
+   "from": -3000,
+   "to": -2200,
+   "density": 0.22,
+   "grain_m": 70,
+   "grow_from": [
+    37.973,
+    23.7258
+   ]
+  },
+  {
+   "name": "Mycenaean citadel (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     37.9715,
+     23.7248
+    ],
+    [
+     37.97195,
+     23.725
+    ],
+    [
+     37.97235,
+     23.726
+    ],
+    [
+     37.9723,
+     23.7272
+    ],
+    [
+     37.97185,
+     23.7283
+    ],
+    [
+     37.9712,
+     23.728
+    ],
+    [
+     37.97105,
+     23.7265
+    ],
+    [
+     37.9712,
+     23.7254
+    ]
+   ],
+   "from": -1290,
+   "to": -1220,
+   "density": 0.55,
+   "grain_m": 30,
+   "grow_from": [
+    37.972,
+    23.7263
+   ],
+   "fade": [
+    -700,
+    -620,
+    0.0
+   ]
+  },
+  {
+   "name": "Archaic town (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     37.97704,
+     23.72109
+    ],
+    [
+     37.97803,
+     23.72345
+    ],
+    [
+     37.97853,
+     23.7271
+    ],
+    [
+     37.9776,
+     23.72903
+    ],
+    [
+     37.97636,
+     23.72977
+    ],
+    [
+     37.97471,
+     23.72931
+    ],
+    [
+     37.97283,
+     23.72977
+    ],
+    [
+     37.97022,
+     23.7288
+    ],
+    [
+     37.96962,
+     23.72717
+    ],
+    [
+     37.96873,
+     23.7245
+    ],
+    [
+     37.96861,
+     23.72171
+    ],
+    [
+     37.96973,
+     23.71973
+    ],
+    [
+     37.97264,
+     23.71861
+    ],
+    [
+     37.97531,
+     23.71923
+    ],
+    [
+     37.97671,
+     23.72082
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ]
+   ],
+   "from": -1050,
+   "to": -520,
+   "density": 0.55,
+   "grain_m": 55,
+   "grow_from": [
+    37.9745,
+    23.724
+   ]
+  },
+  {
+   "name": "Classical city",
+   "style": "ancient",
+   "poly": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9802,
+     23.7228
+    ],
+    [
+     37.981,
+     23.7287
+    ],
+    [
+     37.9795,
+     23.7318
+    ],
+    [
+     37.9775,
+     23.733
+    ],
+    [
+     37.97484,
+     23.73225
+    ],
+    [
+     37.9718,
+     23.733
+    ],
+    [
+     37.9676,
+     23.73143
+    ],
+    [
+     37.96663,
+     23.7288
+    ],
+    [
+     37.9652,
+     23.7245
+    ],
+    [
+     37.965,
+     23.72
+    ],
+    [
+     37.9668,
+     23.7168
+    ],
+    [
+     37.9715,
+     23.715
+    ],
+    [
+     37.9758,
+     23.716
+    ],
+    [
+     37.97806,
+     23.71856
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ]
+   ],
+   "from": -478,
+   "to": -440,
+   "density": 0.82,
+   "grain_m": 45,
+   "grow_from": [
+    37.9745,
+    23.7235
+   ],
+   "fade": [
+    -86.6,
+    -86.0,
+    0.6
+   ]
+  },
+  {
+   "name": "Piraeus (≈)",
+   "style": "ancient",
+   "poly": [
+    [
+     37.95,
+     23.633
+    ],
+    [
+     37.9505,
+     23.65
+    ],
+    [
+     37.946,
+     23.661
+    ],
+    [
+     37.937,
+     23.664
+    ],
+    [
+     37.933,
+     23.65
+    ],
+    [
+     37.936,
+     23.633
+    ],
+    [
+     37.943,
+     23.629
+    ]
+   ],
+   "from": -478,
+   "to": -445,
+   "density": 0.6,
+   "grain_m": 55,
+   "grow_from": [
+    37.944,
+    23.646
+   ],
+   "fade": [
+    -86.9,
+    -86.4,
+    0.05
+   ]
+  },
+  {
+   "name": "Roman Athens",
+   "style": "roman",
+   "poly": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9802,
+     23.7228
+    ],
+    [
+     37.981,
+     23.7287
+    ],
+    [
+     37.9795,
+     23.7318
+    ],
+    [
+     37.9775,
+     23.733
+    ],
+    [
+     37.97484,
+     23.73225
+    ],
+    [
+     37.9718,
+     23.733
+    ],
+    [
+     37.9676,
+     23.73143
+    ],
+    [
+     37.96663,
+     23.7288
+    ],
+    [
+     37.9652,
+     23.7245
+    ],
+    [
+     37.965,
+     23.72
+    ],
+    [
+     37.9668,
+     23.7168
+    ],
+    [
+     37.9715,
+     23.715
+    ],
+    [
+     37.9758,
+     23.716
+    ],
+    [
+     37.97806,
+     23.71856
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ]
+   ],
+   "from": -40,
+   "to": 150,
+   "density": 0.7,
+   "grain_m": 50,
+   "grow_from": [
+    37.9748,
+    23.7255
+   ],
+   "fade": [
+    267.0,
+    267.3,
+    0.12
+   ]
+  },
+  {
+   "name": "Roman east quarter (≈)",
+   "style": "roman",
+   "poly": [
+    [
+     37.9745,
+     23.7335
+    ],
+    [
+     37.9722,
+     23.7405
+    ],
+    [
+     37.9672,
+     23.7395
+    ],
+    [
+     37.9667,
+     23.733
+    ],
+    [
+     37.969,
+     23.7322
+    ]
+   ],
+   "from": 125,
+   "to": 170,
+   "density": 0.6,
+   "grain_m": 55,
+   "grow_from": [
+    37.9705,
+    23.734
+   ],
+   "fade": [
+    267.0,
+    267.3,
+    0.0
+   ]
+  },
+  {
+   "name": "Late Roman town",
+   "style": "roman",
+   "poly": [
+    [
+     37.97195,
+     23.7247
+    ],
+    [
+     37.9735,
+     23.724
+    ],
+    [
+     37.975,
+     23.7244
+    ],
+    [
+     37.9753,
+     23.7252
+    ],
+    [
+     37.9752,
+     23.7295
+    ],
+    [
+     37.973,
+     23.7296
+    ],
+    [
+     37.9723,
+     23.7276
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ]
+   ],
+   "from": 280,
+   "to": 420,
+   "density": 0.75,
+   "grain_m": 40,
+   "grow_from": [
+    37.9742,
+    23.7265
+   ]
+  },
+  {
+   "name": "Byzantine town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     37.972,
+     23.7251
+    ],
+    [
+     37.97167,
+     23.72752
+    ],
+    [
+     37.97159,
+     23.73057
+    ],
+    [
+     37.97362,
+     23.73256
+    ],
+    [
+     37.97566,
+     23.73232
+    ],
+    [
+     37.97722,
+     23.73018
+    ],
+    [
+     37.97866,
+     23.72766
+    ],
+    [
+     37.98103,
+     23.7237
+    ],
+    [
+     37.97851,
+     23.7219
+    ],
+    [
+     37.97606,
+     23.7219
+    ],
+    [
+     37.9729,
+     23.72406
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ]
+   ],
+   "from": 900,
+   "to": 1180,
+   "density": 0.6,
+   "grain_m": 48,
+   "grow_from": [
+    37.9745,
+    23.7268
+   ]
+  },
+  {
+   "name": "Ottoman town (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     37.97076,
+     23.72444
+    ],
+    [
+     37.9703,
+     23.7278
+    ],
+    [
+     37.97018,
+     23.73203
+    ],
+    [
+     37.973,
+     23.7348
+    ],
+    [
+     37.97584,
+     23.73447
+    ],
+    [
+     37.978,
+     23.7315
+    ],
+    [
+     37.98,
+     23.728
+    ],
+    [
+     37.9833,
+     23.7225
+    ],
+    [
+     37.9798,
+     23.72
+    ],
+    [
+     37.9764,
+     23.72
+    ],
+    [
+     37.972,
+     23.723
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ]
+   ],
+   "from": 1460,
+   "to": 1660,
+   "density": 0.62,
+   "grain_m": 48,
+   "grow_from": [
+    37.9748,
+    23.7268
+   ],
+   "fade": [
+    1688.15,
+    1688.4,
+    0.45
+   ]
+  },
+  {
+   "name": "18th-century town (≈)",
+   "style": "ottoman",
+   "poly": [
+    [
+     37.97076,
+     23.72444
+    ],
+    [
+     37.9703,
+     23.7278
+    ],
+    [
+     37.97018,
+     23.73203
+    ],
+    [
+     37.973,
+     23.7348
+    ],
+    [
+     37.97584,
+     23.73447
+    ],
+    [
+     37.978,
+     23.7315
+    ],
+    [
+     37.98,
+     23.728
+    ],
+    [
+     37.9833,
+     23.7225
+    ],
+    [
+     37.9798,
+     23.72
+    ],
+    [
+     37.9764,
+     23.72
+    ],
+    [
+     37.972,
+     23.723
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ]
+   ],
+   "from": 1700,
+   "to": 1790,
+   "density": 0.62,
+   "grain_m": 48,
+   "grow_from": [
+    37.9748,
+    23.7268
+   ],
+   "fade": [
+    1826.6,
+    1827.4,
+    0.15
+   ]
+  },
+  {
+   "name": "New town of 1833 (Kleanthis–Schaubert)",
+   "style": "stone",
+   "poly": [
+    [
+     37.98417,
+     23.72778
+    ],
+    [
+     37.97584,
+     23.73447
+    ],
+    [
+     37.976,
+     23.726
+    ],
+    [
+     37.977,
+     23.7195
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ]
+   ],
+   "from": 1834,
+   "to": 1865,
+   "density": 0.72,
+   "grain_m": 50,
+   "grow_from": [
+    37.9775,
+    23.73
+   ]
+  },
+  {
+   "name": "Plaka (rebuilt)",
+   "style": "stone",
+   "poly": [
+    [
+     37.9724,
+     23.7279
+    ],
+    [
+     37.9708,
+     23.7302
+    ],
+    [
+     37.9721,
+     23.7326
+    ],
+    [
+     37.9745,
+     23.7315
+    ],
+    [
+     37.975,
+     23.7285
+    ]
+   ],
+   "from": 1834,
+   "to": 1855,
+   "density": 0.8,
+   "grain_m": 40,
+   "grow_from": [
+    37.973,
+    23.73
+   ]
+  },
+  {
+   "name": "19th-century Athens (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     37.995,
+     23.715
+    ],
+    [
+     37.996,
+     23.735
+    ],
+    [
+     37.988,
+     23.75
+    ],
+    [
+     37.976,
+     23.752
+    ],
+    [
+     37.966,
+     23.748
+    ],
+    [
+     37.96,
+     23.733
+    ],
+    [
+     37.96,
+     23.715
+    ],
+    [
+     37.968,
+     23.708
+    ],
+    [
+     37.98,
+     23.705
+    ],
+    [
+     37.99,
+     23.708
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ],
+    [
+     [
+      37.982,
+      23.74879
+     ],
+     [
+      37.98365,
+      23.74831
+     ],
+     [
+      37.98497,
+      23.74698
+     ],
+     [
+      37.9857,
+      23.74507
+     ],
+     [
+      37.9857,
+      23.74293
+     ],
+     [
+      37.98497,
+      23.74102
+     ],
+     [
+      37.98365,
+      23.73969
+     ],
+     [
+      37.982,
+      23.73921
+     ],
+     [
+      37.98035,
+      23.73969
+     ],
+     [
+      37.97903,
+      23.74102
+     ],
+     [
+      37.9783,
+      23.74293
+     ],
+     [
+      37.9783,
+      23.74507
+     ],
+     [
+      37.97903,
+      23.74698
+     ],
+     [
+      37.98035,
+      23.74831
+     ]
+    ],
+    [
+     [
+      37.9765,
+      23.7355
+     ],
+     [
+      37.9765,
+      23.7395
+     ],
+     [
+      37.9718,
+      23.7395
+     ],
+     [
+      37.9718,
+      23.7362
+     ]
+    ],
+    [
+     [
+      37.98417,
+      23.72778
+     ],
+     [
+      37.97584,
+      23.73447
+     ],
+     [
+      37.976,
+      23.726
+     ],
+     [
+      37.977,
+      23.7195
+     ]
+    ],
+    [
+     [
+      37.9724,
+      23.7279
+     ],
+     [
+      37.9708,
+      23.7302
+     ],
+     [
+      37.9721,
+      23.7326
+     ],
+     [
+      37.9745,
+      23.7315
+     ],
+     [
+      37.975,
+      23.7285
+     ]
+    ]
+   ],
+   "from": 1860,
+   "to": 1921,
+   "density": 0.75,
+   "grain_m": 55,
+   "grow_from": [
+    37.978,
+    23.729
+   ]
+  },
+  {
+   "name": "Piraeus (19th century, ≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     37.956,
+     23.63
+    ],
+    [
+     37.957,
+     23.655
+    ],
+    [
+     37.95,
+     23.67
+    ],
+    [
+     37.937,
+     23.668
+    ],
+    [
+     37.931,
+     23.65
+    ],
+    [
+     37.935,
+     23.63
+    ],
+    [
+     37.945,
+     23.623
+    ]
+   ],
+   "from": 1840,
+   "to": 1915,
+   "density": 0.75,
+   "grain_m": 60,
+   "grow_from": [
+    37.945,
+    23.645
+   ]
+  },
+  {
+   "name": "Nea Smyrni (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.948,
+     23.72197
+    ],
+    [
+     37.95075,
+     23.72118
+    ],
+    [
+     37.95295,
+     23.71897
+    ],
+    [
+     37.95417,
+     23.71577
+    ],
+    [
+     37.95417,
+     23.71223
+    ],
+    [
+     37.95295,
+     23.70903
+    ],
+    [
+     37.95075,
+     23.70682
+    ],
+    [
+     37.948,
+     23.70603
+    ],
+    [
+     37.94525,
+     23.70682
+    ],
+    [
+     37.94305,
+     23.70903
+    ],
+    [
+     37.94183,
+     23.71223
+    ],
+    [
+     37.94183,
+     23.71577
+    ],
+    [
+     37.94305,
+     23.71897
+    ],
+    [
+     37.94525,
+     23.72118
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.948,
+    23.721974161734405
+   ]
+  },
+  {
+   "name": "Kallithea (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.957,
+     23.70841
+    ],
+    [
+     37.95955,
+     23.70767
+    ],
+    [
+     37.9616,
+     23.70562
+    ],
+    [
+     37.96273,
+     23.70265
+    ],
+    [
+     37.96273,
+     23.69935
+    ],
+    [
+     37.9616,
+     23.69638
+    ],
+    [
+     37.95955,
+     23.69433
+    ],
+    [
+     37.957,
+     23.69359
+    ],
+    [
+     37.95445,
+     23.69433
+    ],
+    [
+     37.9524,
+     23.69638
+    ],
+    [
+     37.95127,
+     23.69935
+    ],
+    [
+     37.95127,
+     23.70265
+    ],
+    [
+     37.9524,
+     23.70562
+    ],
+    [
+     37.95445,
+     23.70767
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.957,
+    23.708405485977078
+   ]
+  },
+  {
+   "name": "Nea Ionia (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     38.037,
+     23.76298
+    ],
+    [
+     38.03975,
+     23.76219
+    ],
+    [
+     38.04195,
+     23.75998
+    ],
+    [
+     38.04317,
+     23.75678
+    ],
+    [
+     38.04317,
+     23.75322
+    ],
+    [
+     38.04195,
+     23.75002
+    ],
+    [
+     38.03975,
+     23.74781
+    ],
+    [
+     38.037,
+     23.74702
+    ],
+    [
+     38.03425,
+     23.74781
+    ],
+    [
+     38.03205,
+     23.75002
+    ],
+    [
+     38.03083,
+     23.75322
+    ],
+    [
+     38.03083,
+     23.75678
+    ],
+    [
+     38.03205,
+     23.75998
+    ],
+    [
+     38.03425,
+     23.76219
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    38.037,
+    23.76298384247746
+   ]
+  },
+  {
+   "name": "Kaisariani (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.965,
+     23.77113
+    ],
+    [
+     37.96677,
+     23.77062
+    ],
+    [
+     37.96818,
+     23.7692
+    ],
+    [
+     37.96897,
+     23.76714
+    ],
+    [
+     37.96897,
+     23.76486
+    ],
+    [
+     37.96818,
+     23.7628
+    ],
+    [
+     37.96677,
+     23.76138
+    ],
+    [
+     37.965,
+     23.76087
+    ],
+    [
+     37.96323,
+     23.76138
+    ],
+    [
+     37.96182,
+     23.7628
+    ],
+    [
+     37.96103,
+     23.76486
+    ],
+    [
+     37.96103,
+     23.76714
+    ],
+    [
+     37.96182,
+     23.7692
+    ],
+    [
+     37.96323,
+     23.77062
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.965,
+    23.771127433434156
+   ]
+  },
+  {
+   "name": "Vyronas (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.957,
+     23.7597
+    ],
+    [
+     37.95896,
+     23.75913
+    ],
+    [
+     37.96054,
+     23.75755
+    ],
+    [
+     37.96141,
+     23.75527
+    ],
+    [
+     37.96141,
+     23.75273
+    ],
+    [
+     37.96054,
+     23.75045
+    ],
+    [
+     37.95896,
+     23.74887
+    ],
+    [
+     37.957,
+     23.7483
+    ],
+    [
+     37.95504,
+     23.74887
+    ],
+    [
+     37.95346,
+     23.75045
+    ],
+    [
+     37.95259,
+     23.75273
+    ],
+    [
+     37.95259,
+     23.75527
+    ],
+    [
+     37.95346,
+     23.75755
+    ],
+    [
+     37.95504,
+     23.75913
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.957,
+    23.759696527674677
+   ]
+  },
+  {
+   "name": "Nikaia (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.966,
+     23.65298
+    ],
+    [
+     37.96875,
+     23.65219
+    ],
+    [
+     37.97095,
+     23.64997
+    ],
+    [
+     37.97217,
+     23.64677
+    ],
+    [
+     37.97217,
+     23.64323
+    ],
+    [
+     37.97095,
+     23.64003
+    ],
+    [
+     37.96875,
+     23.63781
+    ],
+    [
+     37.966,
+     23.63702
+    ],
+    [
+     37.96325,
+     23.63781
+    ],
+    [
+     37.96105,
+     23.64003
+    ],
+    [
+     37.95983,
+     23.64323
+    ],
+    [
+     37.95983,
+     23.64677
+    ],
+    [
+     37.96105,
+     23.64997
+    ],
+    [
+     37.96325,
+     23.65219
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.966,
+    23.652976116190953
+   ]
+  },
+  {
+   "name": "Aigaleo (refugee settlement, ≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     37.992,
+     23.68741
+    ],
+    [
+     37.99455,
+     23.68668
+    ],
+    [
+     37.9966,
+     23.68462
+    ],
+    [
+     37.99773,
+     23.68165
+    ],
+    [
+     37.99773,
+     23.67835
+    ],
+    [
+     37.9966,
+     23.67538
+    ],
+    [
+     37.99455,
+     23.67332
+    ],
+    [
+     37.992,
+     23.67259
+    ],
+    [
+     37.98945,
+     23.67332
+    ],
+    [
+     37.9874,
+     23.67538
+    ],
+    [
+     37.98627,
+     23.67835
+    ],
+    [
+     37.98627,
+     23.68165
+    ],
+    [
+     37.9874,
+     23.68462
+    ],
+    [
+     37.98945,
+     23.68668
+    ]
+   ],
+   "from": 1923,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    37.992,
+    23.687409017922022
+   ]
+  },
+  {
+   "name": "Interwar Greater Athens (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     38.02,
+     23.7
+    ],
+    [
+     38.025,
+     23.74
+    ],
+    [
+     38.01,
+     23.77
+    ],
+    [
+     37.985,
+     23.775
+    ],
+    [
+     37.955,
+     23.765
+    ],
+    [
+     37.94,
+     23.74
+    ],
+    [
+     37.938,
+     23.71
+    ],
+    [
+     37.945,
+     23.67
+    ],
+    [
+     37.96,
+     23.65
+    ],
+    [
+     37.98,
+     23.665
+    ],
+    [
+     38.005,
+     23.68
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.995,
+      23.715
+     ],
+     [
+      37.996,
+      23.735
+     ],
+     [
+      37.988,
+      23.75
+     ],
+     [
+      37.976,
+      23.752
+     ],
+     [
+      37.966,
+      23.748
+     ],
+     [
+      37.96,
+      23.733
+     ],
+     [
+      37.96,
+      23.715
+     ],
+     [
+      37.968,
+      23.708
+     ],
+     [
+      37.98,
+      23.705
+     ],
+     [
+      37.99,
+      23.708
+     ]
+    ],
+    [
+     [
+      37.956,
+      23.63
+     ],
+     [
+      37.957,
+      23.655
+     ],
+     [
+      37.95,
+      23.67
+     ],
+     [
+      37.937,
+      23.668
+     ],
+     [
+      37.931,
+      23.65
+     ],
+     [
+      37.935,
+      23.63
+     ],
+     [
+      37.945,
+      23.623
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ],
+    [
+     [
+      37.982,
+      23.74879
+     ],
+     [
+      37.98365,
+      23.74831
+     ],
+     [
+      37.98497,
+      23.74698
+     ],
+     [
+      37.9857,
+      23.74507
+     ],
+     [
+      37.9857,
+      23.74293
+     ],
+     [
+      37.98497,
+      23.74102
+     ],
+     [
+      37.98365,
+      23.73969
+     ],
+     [
+      37.982,
+      23.73921
+     ],
+     [
+      37.98035,
+      23.73969
+     ],
+     [
+      37.97903,
+      23.74102
+     ],
+     [
+      37.9783,
+      23.74293
+     ],
+     [
+      37.9783,
+      23.74507
+     ],
+     [
+      37.97903,
+      23.74698
+     ],
+     [
+      37.98035,
+      23.74831
+     ]
+    ],
+    [
+     [
+      38.02,
+      23.77026
+     ],
+     [
+      38.02407,
+      23.76889
+     ],
+     [
+      38.02705,
+      23.76513
+     ],
+     [
+      38.02814,
+      23.76
+     ],
+     [
+      38.02705,
+      23.75487
+     ],
+     [
+      38.02407,
+      23.75111
+     ],
+     [
+      38.02,
+      23.74974
+     ],
+     [
+      38.01593,
+      23.75111
+     ],
+     [
+      38.01295,
+      23.75487
+     ],
+     [
+      38.01186,
+      23.76
+     ],
+     [
+      38.01295,
+      23.76513
+     ],
+     [
+      38.01593,
+      23.76889
+     ]
+    ],
+    [
+     [
+      37.948,
+      23.72197
+     ],
+     [
+      37.95075,
+      23.72118
+     ],
+     [
+      37.95295,
+      23.71897
+     ],
+     [
+      37.95417,
+      23.71577
+     ],
+     [
+      37.95417,
+      23.71223
+     ],
+     [
+      37.95295,
+      23.70903
+     ],
+     [
+      37.95075,
+      23.70682
+     ],
+     [
+      37.948,
+      23.70603
+     ],
+     [
+      37.94525,
+      23.70682
+     ],
+     [
+      37.94305,
+      23.70903
+     ],
+     [
+      37.94183,
+      23.71223
+     ],
+     [
+      37.94183,
+      23.71577
+     ],
+     [
+      37.94305,
+      23.71897
+     ],
+     [
+      37.94525,
+      23.72118
+     ]
+    ],
+    [
+     [
+      37.957,
+      23.70841
+     ],
+     [
+      37.95955,
+      23.70767
+     ],
+     [
+      37.9616,
+      23.70562
+     ],
+     [
+      37.96273,
+      23.70265
+     ],
+     [
+      37.96273,
+      23.69935
+     ],
+     [
+      37.9616,
+      23.69638
+     ],
+     [
+      37.95955,
+      23.69433
+     ],
+     [
+      37.957,
+      23.69359
+     ],
+     [
+      37.95445,
+      23.69433
+     ],
+     [
+      37.9524,
+      23.69638
+     ],
+     [
+      37.95127,
+      23.69935
+     ],
+     [
+      37.95127,
+      23.70265
+     ],
+     [
+      37.9524,
+      23.70562
+     ],
+     [
+      37.95445,
+      23.70767
+     ]
+    ],
+    [
+     [
+      38.037,
+      23.76298
+     ],
+     [
+      38.03975,
+      23.76219
+     ],
+     [
+      38.04195,
+      23.75998
+     ],
+     [
+      38.04317,
+      23.75678
+     ],
+     [
+      38.04317,
+      23.75322
+     ],
+     [
+      38.04195,
+      23.75002
+     ],
+     [
+      38.03975,
+      23.74781
+     ],
+     [
+      38.037,
+      23.74702
+     ],
+     [
+      38.03425,
+      23.74781
+     ],
+     [
+      38.03205,
+      23.75002
+     ],
+     [
+      38.03083,
+      23.75322
+     ],
+     [
+      38.03083,
+      23.75678
+     ],
+     [
+      38.03205,
+      23.75998
+     ],
+     [
+      38.03425,
+      23.76219
+     ]
+    ],
+    [
+     [
+      37.965,
+      23.77113
+     ],
+     [
+      37.96677,
+      23.77062
+     ],
+     [
+      37.96818,
+      23.7692
+     ],
+     [
+      37.96897,
+      23.76714
+     ],
+     [
+      37.96897,
+      23.76486
+     ],
+     [
+      37.96818,
+      23.7628
+     ],
+     [
+      37.96677,
+      23.76138
+     ],
+     [
+      37.965,
+      23.76087
+     ],
+     [
+      37.96323,
+      23.76138
+     ],
+     [
+      37.96182,
+      23.7628
+     ],
+     [
+      37.96103,
+      23.76486
+     ],
+     [
+      37.96103,
+      23.76714
+     ],
+     [
+      37.96182,
+      23.7692
+     ],
+     [
+      37.96323,
+      23.77062
+     ]
+    ],
+    [
+     [
+      37.957,
+      23.7597
+     ],
+     [
+      37.95896,
+      23.75913
+     ],
+     [
+      37.96054,
+      23.75755
+     ],
+     [
+      37.96141,
+      23.75527
+     ],
+     [
+      37.96141,
+      23.75273
+     ],
+     [
+      37.96054,
+      23.75045
+     ],
+     [
+      37.95896,
+      23.74887
+     ],
+     [
+      37.957,
+      23.7483
+     ],
+     [
+      37.95504,
+      23.74887
+     ],
+     [
+      37.95346,
+      23.75045
+     ],
+     [
+      37.95259,
+      23.75273
+     ],
+     [
+      37.95259,
+      23.75527
+     ],
+     [
+      37.95346,
+      23.75755
+     ],
+     [
+      37.95504,
+      23.75913
+     ]
+    ],
+    [
+     [
+      37.966,
+      23.65298
+     ],
+     [
+      37.96875,
+      23.65219
+     ],
+     [
+      37.97095,
+      23.64997
+     ],
+     [
+      37.97217,
+      23.64677
+     ],
+     [
+      37.97217,
+      23.64323
+     ],
+     [
+      37.97095,
+      23.64003
+     ],
+     [
+      37.96875,
+      23.63781
+     ],
+     [
+      37.966,
+      23.63702
+     ],
+     [
+      37.96325,
+      23.63781
+     ],
+     [
+      37.96105,
+      23.64003
+     ],
+     [
+      37.95983,
+      23.64323
+     ],
+     [
+      37.95983,
+      23.64677
+     ],
+     [
+      37.96105,
+      23.64997
+     ],
+     [
+      37.96325,
+      23.65219
+     ]
+    ],
+    [
+     [
+      37.992,
+      23.68741
+     ],
+     [
+      37.99455,
+      23.68668
+     ],
+     [
+      37.9966,
+      23.68462
+     ],
+     [
+      37.99773,
+      23.68165
+     ],
+     [
+      37.99773,
+      23.67835
+     ],
+     [
+      37.9966,
+      23.67538
+     ],
+     [
+      37.99455,
+      23.67332
+     ],
+     [
+      37.992,
+      23.67259
+     ],
+     [
+      37.98945,
+      23.67332
+     ],
+     [
+      37.9874,
+      23.67538
+     ],
+     [
+      37.98627,
+      23.67835
+     ],
+     [
+      37.98627,
+      23.68165
+     ],
+     [
+      37.9874,
+      23.68462
+     ],
+     [
+      37.98945,
+      23.68668
+     ]
+    ]
+   ],
+   "from": 1925,
+   "to": 1950,
+   "density": 0.45,
+   "grain_m": 80,
+   "grow_from": [
+    37.978,
+    23.725
+   ]
+  },
+  {
+   "name": "Post-war apartment city (centre)",
+   "style": "modern",
+   "poly": [
+    [
+     37.995,
+     23.715
+    ],
+    [
+     37.996,
+     23.735
+    ],
+    [
+     37.988,
+     23.75
+    ],
+    [
+     37.976,
+     23.752
+    ],
+    [
+     37.966,
+     23.748
+    ],
+    [
+     37.96,
+     23.733
+    ],
+    [
+     37.96,
+     23.715
+    ],
+    [
+     37.968,
+     23.708
+    ],
+    [
+     37.98,
+     23.705
+    ],
+    [
+     37.99,
+     23.708
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.97141,
+      23.72408
+     ],
+     [
+      37.9721,
+      23.72439
+     ],
+     [
+      37.97272,
+      23.72594
+     ],
+     [
+      37.97265,
+      23.7278
+     ],
+     [
+      37.97195,
+      23.7295
+     ],
+     [
+      37.97094,
+      23.72904
+     ],
+     [
+      37.97071,
+      23.72671
+     ],
+     [
+      37.97094,
+      23.72501
+     ]
+    ],
+    [
+     [
+      37.9764,
+      23.7215
+     ],
+     [
+      37.9763,
+      23.724
+     ],
+     [
+      37.9744,
+      23.7245
+     ],
+     [
+      37.974,
+      23.722
+     ]
+    ],
+    [
+     [
+      37.972,
+      23.7238
+     ],
+     [
+      37.97237,
+      23.72365
+     ],
+     [
+      37.9726,
+      23.72325
+     ],
+     [
+      37.9726,
+      23.72275
+     ],
+     [
+      37.97237,
+      23.72235
+     ],
+     [
+      37.972,
+      23.7222
+     ],
+     [
+      37.97163,
+      23.72235
+     ],
+     [
+      37.9714,
+      23.72275
+     ],
+     [
+      37.9714,
+      23.72325
+     ],
+     [
+      37.97163,
+      23.72365
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ],
+    [
+     [
+      37.982,
+      23.74879
+     ],
+     [
+      37.98365,
+      23.74831
+     ],
+     [
+      37.98497,
+      23.74698
+     ],
+     [
+      37.9857,
+      23.74507
+     ],
+     [
+      37.9857,
+      23.74293
+     ],
+     [
+      37.98497,
+      23.74102
+     ],
+     [
+      37.98365,
+      23.73969
+     ],
+     [
+      37.982,
+      23.73921
+     ],
+     [
+      37.98035,
+      23.73969
+     ],
+     [
+      37.97903,
+      23.74102
+     ],
+     [
+      37.9783,
+      23.74293
+     ],
+     [
+      37.9783,
+      23.74507
+     ],
+     [
+      37.97903,
+      23.74698
+     ],
+     [
+      37.98035,
+      23.74831
+     ]
+    ],
+    [
+     [
+      37.9765,
+      23.7355
+     ],
+     [
+      37.9765,
+      23.7395
+     ],
+     [
+      37.9718,
+      23.7395
+     ],
+     [
+      37.9718,
+      23.7362
+     ]
+    ],
+    [
+     [
+      37.9724,
+      23.7279
+     ],
+     [
+      37.9708,
+      23.7302
+     ],
+     [
+      37.9721,
+      23.7326
+     ],
+     [
+      37.9745,
+      23.7315
+     ],
+     [
+      37.975,
+      23.7285
+     ]
+    ]
+   ],
+   "from": 1952,
+   "to": 1975,
+   "density": 0.85,
+   "grain_m": 55,
+   "grow_from": [
+    37.98,
+    23.73
+   ]
+  },
+  {
+   "name": "Post-war basin (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     37.96,
+     23.575
+    ],
+    [
+     37.975,
+     23.625
+    ],
+    [
+     37.995,
+     23.66
+    ],
+    [
+     38.03,
+     23.675
+    ],
+    [
+     38.07,
+     23.705
+    ],
+    [
+     38.085,
+     23.755
+    ],
+    [
+     38.075,
+     23.81
+    ],
+    [
+     38.045,
+     23.825
+    ],
+    [
+     38.005,
+     23.8
+    ],
+    [
+     37.975,
+     23.785
+    ],
+    [
+     37.94,
+     23.772
+    ],
+    [
+     37.9,
+     23.768
+    ],
+    [
+     37.865,
+     23.768
+    ],
+    [
+     37.85,
+     23.745
+    ],
+    [
+     37.88,
+     23.715
+    ],
+    [
+     37.91,
+     23.695
+    ],
+    [
+     37.93,
+     23.675
+    ],
+    [
+     37.94,
+     23.61
+    ]
+   ],
+   "holes": [
+    [
+     [
+      37.995,
+      23.715
+     ],
+     [
+      37.996,
+      23.735
+     ],
+     [
+      37.988,
+      23.75
+     ],
+     [
+      37.976,
+      23.752
+     ],
+     [
+      37.966,
+      23.748
+     ],
+     [
+      37.96,
+      23.733
+     ],
+     [
+      37.96,
+      23.715
+     ],
+     [
+      37.968,
+      23.708
+     ],
+     [
+      37.98,
+      23.705
+     ],
+     [
+      37.99,
+      23.708
+     ]
+    ],
+    [
+     [
+      38.0,
+      23.795
+     ],
+     [
+      37.99,
+      23.83
+     ],
+     [
+      37.93,
+      23.835
+     ],
+     [
+      37.88,
+      23.805
+     ],
+     [
+      37.9,
+      23.78
+     ],
+     [
+      37.95,
+      23.782
+     ],
+     [
+      37.98,
+      23.788
+     ]
+    ],
+    [
+     [
+      38.07,
+      23.64
+     ],
+     [
+      38.03,
+      23.66
+     ],
+     [
+      38.0,
+      23.655
+     ],
+     [
+      37.985,
+      23.635
+     ],
+     [
+      38.02,
+      23.615
+     ]
+    ],
+    [
+     [
+      38.02,
+      23.77026
+     ],
+     [
+      38.02407,
+      23.76889
+     ],
+     [
+      38.02705,
+      23.76513
+     ],
+     [
+      38.02814,
+      23.76
+     ],
+     [
+      38.02705,
+      23.75487
+     ],
+     [
+      38.02407,
+      23.75111
+     ],
+     [
+      38.02,
+      23.74974
+     ],
+     [
+      38.01593,
+      23.75111
+     ],
+     [
+      38.01295,
+      23.75487
+     ],
+     [
+      38.01186,
+      23.76
+     ],
+     [
+      38.01295,
+      23.76513
+     ],
+     [
+      38.01593,
+      23.76889
+     ]
+    ],
+    [
+     [
+      37.905,
+      23.72
+     ],
+     [
+      37.9,
+      23.745
+     ],
+     [
+      37.882,
+      23.74
+     ],
+     [
+      37.88,
+      23.718
+     ]
+    ],
+    [
+     [
+      37.982,
+      23.74879
+     ],
+     [
+      37.98365,
+      23.74831
+     ],
+     [
+      37.98497,
+      23.74698
+     ],
+     [
+      37.9857,
+      23.74507
+     ],
+     [
+      37.9857,
+      23.74293
+     ],
+     [
+      37.98497,
+      23.74102
+     ],
+     [
+      37.98365,
+      23.73969
+     ],
+     [
+      37.982,
+      23.73921
+     ],
+     [
+      37.98035,
+      23.73969
+     ],
+     [
+      37.97903,
+      23.74102
+     ],
+     [
+      37.9783,
+      23.74293
+     ],
+     [
+      37.9783,
+      23.74507
+     ],
+     [
+      37.97903,
+      23.74698
+     ],
+     [
+      37.98035,
+      23.74831
+     ]
+    ],
+    [
+     [
+      37.9748,
+      23.7168
+     ],
+     [
+      37.9742,
+      23.7198
+     ],
+     [
+      37.9718,
+      23.7212
+     ],
+     [
+      37.9692,
+      23.7232
+     ],
+     [
+      37.9664,
+      23.7232
+     ],
+     [
+      37.9654,
+      23.7203
+     ],
+     [
+      37.9672,
+      23.7172
+     ],
+     [
+      37.9712,
+      23.7158
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 1995,
+   "density": 0.6,
+   "grain_m": 110,
+   "grow_from": [
+    37.98,
+    23.725
+   ]
+  },
+  {
+   "name": "Ellinikon redevelopment (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     37.892,
+     23.718
+    ],
+    [
+     37.89,
+     23.735
+    ],
+    [
+     37.881,
+     23.733
+    ],
+    [
+     37.88,
+     23.72
+    ]
+   ],
+   "from": 2022,
+   "to": 2026,
+   "density": 0.5,
+   "grain_m": 70,
+   "grow_from": [
+    37.885,
+    23.725
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Mycenaean (Cyclopean) wall",
+   "path": [
+    [
+     37.97149,
+     23.72472
+    ],
+    [
+     37.97197,
+     23.72493
+    ],
+    [
+     37.97239,
+     23.72599
+    ],
+    [
+     37.97234,
+     23.72727
+    ],
+    [
+     37.97186,
+     23.72843
+    ],
+    [
+     37.97117,
+     23.72811
+    ],
+    [
+     37.97101,
+     23.72652
+    ],
+    [
+     37.97117,
+     23.72536
+    ],
+    [
+     37.97149,
+     23.72472
+    ]
+   ],
+   "built": -1200,
+   "height": "mid",
+   "towers_m": 0,
+   "draw_s": 3.0,
+   "removed": -467
+  },
+  {
+   "name": "Classical Acropolis wall",
+   "path": [
+    [
+     37.97149,
+     23.72472
+    ],
+    [
+     37.97197,
+     23.72493
+    ],
+    [
+     37.97239,
+     23.72599
+    ],
+    [
+     37.97234,
+     23.72727
+    ],
+    [
+     37.97186,
+     23.72843
+    ],
+    [
+     37.97117,
+     23.72811
+    ],
+    [
+     37.97101,
+     23.72652
+    ],
+    [
+     37.97117,
+     23.72536
+    ],
+    [
+     37.97149,
+     23.72472
+    ]
+   ],
+   "built": -467,
+   "height": "high",
+   "towers_m": 0,
+   "draw_s": 2.0
+  },
+  {
+   "name": "Themistoclean wall",
+   "path": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9802,
+     23.7228
+    ],
+    [
+     37.981,
+     23.7287
+    ],
+    [
+     37.9795,
+     23.7318
+    ],
+    [
+     37.9775,
+     23.733
+    ],
+    [
+     37.97484,
+     23.73225
+    ],
+    [
+     37.9718,
+     23.733
+    ],
+    [
+     37.9676,
+     23.73143
+    ],
+    [
+     37.96663,
+     23.7288
+    ],
+    [
+     37.9652,
+     23.7245
+    ],
+    [
+     37.965,
+     23.72
+    ],
+    [
+     37.9668,
+     23.7168
+    ],
+    [
+     37.9715,
+     23.715
+    ],
+    [
+     37.9758,
+     23.716
+    ],
+    [
+     37.97806,
+     23.71856
+    ],
+    [
+     37.9786,
+     23.719
+    ]
+   ],
+   "built": -479.4,
+   "height": "mid",
+   "towers_m": 70,
+   "draw_s": 4.0,
+   "removed": -86
+  },
+  {
+   "name": "Piraeus walls (≈)",
+   "path": [
+    [
+     37.9478,
+     23.6335
+    ],
+    [
+     37.951,
+     23.642
+    ],
+    [
+     37.9505,
+     23.6505
+    ],
+    [
+     37.9482,
+     23.654
+    ],
+    [
+     37.9452,
+     23.66
+    ],
+    [
+     37.9405,
+     23.662
+    ]
+   ],
+   "built": -479,
+   "height": "mid",
+   "towers_m": 80,
+   "draw_s": 3.0,
+   "removed": -404
+  },
+  {
+   "name": "North Long Wall (≈)",
+   "path": [
+    [
+     37.9742,
+     23.7163
+    ],
+    [
+     37.9645,
+     23.7015
+    ],
+    [
+     37.9572,
+     23.676
+    ],
+    [
+     37.9505,
+     23.6505
+    ]
+   ],
+   "built": -460,
+   "height": "low",
+   "towers_m": 120,
+   "draw_s": 4.0,
+   "removed": -404
+  },
+  {
+   "name": "Phaleric Wall (≈)",
+   "path": [
+    [
+     37.9653,
+     23.7215
+    ],
+    [
+     37.956,
+     23.716
+    ],
+    [
+     37.945,
+     23.7095
+    ],
+    [
+     37.9372,
+     23.7055
+    ]
+   ],
+   "built": -460,
+   "height": "low",
+   "towers_m": 120,
+   "draw_s": 4.0,
+   "removed": -404
+  },
+  {
+   "name": "Middle Long Wall (≈)",
+   "path": [
+    [
+     37.969,
+     23.7158
+    ],
+    [
+     37.96235,
+     23.7026
+    ],
+    [
+     37.9555,
+     23.6775
+    ],
+    [
+     37.9482,
+     23.654
+    ]
+   ],
+   "built": -445,
+   "height": "low",
+   "towers_m": 120,
+   "draw_s": 3.0,
+   "removed": -404
+  },
+  {
+   "name": "Piraeus walls (Conon, ≈)",
+   "path": [
+    [
+     37.9478,
+     23.6335
+    ],
+    [
+     37.951,
+     23.642
+    ],
+    [
+     37.9505,
+     23.6505
+    ],
+    [
+     37.9482,
+     23.654
+    ],
+    [
+     37.9452,
+     23.66
+    ],
+    [
+     37.9405,
+     23.662
+    ]
+   ],
+   "built": -394,
+   "height": "mid",
+   "towers_m": 80,
+   "draw_s": 3.0,
+   "removed": -86
+  },
+  {
+   "name": "North Long Wall (Conon, ≈)",
+   "path": [
+    [
+     37.9742,
+     23.7163
+    ],
+    [
+     37.9645,
+     23.7015
+    ],
+    [
+     37.9572,
+     23.676
+    ],
+    [
+     37.9505,
+     23.6505
+    ]
+   ],
+   "built": -394,
+   "height": "low",
+   "towers_m": 120,
+   "draw_s": 3.0,
+   "removed": -86
+  },
+  {
+   "name": "Middle Long Wall (Conon, ≈)",
+   "path": [
+    [
+     37.969,
+     23.7158
+    ],
+    [
+     37.96235,
+     23.7026
+    ],
+    [
+     37.9555,
+     23.6775
+    ],
+    [
+     37.9482,
+     23.654
+    ]
+   ],
+   "built": -394,
+   "height": "low",
+   "towers_m": 120,
+   "draw_s": 3.0,
+   "removed": -86
+  },
+  {
+   "name": "Valerian wall (≈)",
+   "path": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9802,
+     23.7228
+    ],
+    [
+     37.981,
+     23.7287
+    ],
+    [
+     37.9795,
+     23.7318
+    ],
+    [
+     37.9775,
+     23.733
+    ],
+    [
+     37.97484,
+     23.73225
+    ],
+    [
+     37.9752,
+     23.734
+    ],
+    [
+     37.974,
+     23.7405
+    ],
+    [
+     37.97,
+     23.7415
+    ],
+    [
+     37.9668,
+     23.7395
+    ],
+    [
+     37.9668,
+     23.7335
+    ],
+    [
+     37.9676,
+     23.73143
+    ],
+    [
+     37.96663,
+     23.7288
+    ],
+    [
+     37.9652,
+     23.7245
+    ],
+    [
+     37.965,
+     23.72
+    ],
+    [
+     37.9668,
+     23.7168
+    ],
+    [
+     37.9715,
+     23.715
+    ],
+    [
+     37.9758,
+     23.716
+    ],
+    [
+     37.97806,
+     23.71856
+    ],
+    [
+     37.9786,
+     23.719
+    ]
+   ],
+   "built": 256,
+   "height": "mid",
+   "towers_m": 70,
+   "draw_s": 3.0,
+   "removed": 1100
+  },
+  {
+   "name": "Post-Herulian wall (≈)",
+   "path": [
+    [
+     37.97195,
+     23.7247
+    ],
+    [
+     37.9735,
+     23.724
+    ],
+    [
+     37.975,
+     23.7244
+    ],
+    [
+     37.9753,
+     23.7252
+    ],
+    [
+     37.9752,
+     23.7295
+    ],
+    [
+     37.973,
+     23.7296
+    ],
+    [
+     37.9723,
+     23.7276
+    ],
+    [
+     37.97195,
+     23.7247
+    ]
+   ],
+   "built": 280,
+   "height": "mid",
+   "towers_m": 50,
+   "draw_s": 2.5,
+   "removed": 1778
+  },
+  {
+   "name": "Haseki wall",
+   "path": [
+    [
+     37.97076,
+     23.72444
+    ],
+    [
+     37.9703,
+     23.7278
+    ],
+    [
+     37.97018,
+     23.73203
+    ],
+    [
+     37.973,
+     23.7348
+    ],
+    [
+     37.97584,
+     23.73447
+    ],
+    [
+     37.978,
+     23.7315
+    ],
+    [
+     37.98,
+     23.728
+    ],
+    [
+     37.9833,
+     23.7225
+    ],
+    [
+     37.9798,
+     23.72
+    ],
+    [
+     37.9764,
+     23.72
+    ],
+    [
+     37.972,
+     23.723
+    ],
+    [
+     37.97076,
+     23.72444
+    ]
+   ],
+   "built": 1778.2,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3.5,
+   "removed": 1835
+  }
+ ],
+ "roads": [
+  {
+   "name": "Sacred Way (≈)",
+   "path": [
+    [
+     37.97806,
+     23.71856
+    ],
+    [
+     37.983,
+     23.705
+    ],
+    [
+     37.99,
+     23.69
+    ],
+    [
+     38.005,
+     23.66
+    ],
+    [
+     38.015,
+     23.635
+    ]
+   ],
+   "from": -600,
+   "kind": "road",
+   "width_m": 12
+  },
+  {
+   "name": "Panathenaic Way (≈)",
+   "path": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9768,
+     23.7215
+    ],
+    [
+     37.9745,
+     23.724
+    ],
+    [
+     37.9725,
+     23.7245
+    ]
+   ],
+   "from": -560,
+   "kind": "road",
+   "width_m": 12
+  },
+  {
+   "name": "Athens–Piraeus railway (≈)",
+   "path": [
+    [
+     37.977,
+     23.7185
+    ],
+    [
+     37.97,
+     23.708
+    ],
+    [
+     37.96,
+     23.688
+    ],
+    [
+     37.953,
+     23.665
+    ],
+    [
+     37.948,
+     23.6436
+    ]
+   ],
+   "from": 1869.15,
+   "kind": "rail",
+   "width_m": 20
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "palace",
+   "name": {
+    "en": "Mycenaean palace (≈)",
+    "tr": "Miken sarayı (≈)"
+   },
+   "at": [
+    37.972,
+    23.7263
+   ],
+   "built": -1300,
+   "removed": -1100,
+   "rise_s": 4,
+   "size_m": [
+    45,
+    30,
+    10
+   ],
+   "colors": {
+    "wall": "#cdb99a",
+    "roof": "#8a6f55"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Olympieion platform",
+    "tr": "Olympieion temeli"
+   },
+   "at": [
+    37.9694,
+    23.7337
+   ],
+   "built": -520,
+   "removed": 125,
+   "rise_s": 3,
+   "size_m": [
+    108,
+    41,
+    3
+   ],
+   "colors": {
+    "wall": "#d9d0bd"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Temple of Olympian Zeus",
+    "tr": "Olimposlu Zeus Tapınağı"
+   },
+   "at": [
+    37.9694,
+    23.7337
+   ],
+   "built": 125,
+   "rise_s": 14,
+   "size_m": [
+    108,
+    41,
+    20
+   ],
+   "colors": {
+    "wall": "#ece4d2"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Temple of Hephaestus",
+    "tr": "Hephaistos Tapınağı"
+   },
+   "at": [
+    37.9756167,
+    23.7213917
+   ],
+   "built": -449,
+   "rise_s": 20,
+   "size_m": [
+    32,
+    14,
+    11
+   ],
+   "colors": {
+    "wall": "#e3d8c2"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "built": -447,
+   "removed": 1687.74,
+   "rise_s": 18,
+   "size_m": [
+    70,
+    31,
+    14
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#ece4d0"
+   },
+   "additions": [
+    {
+     "type": "minarets",
+     "year": 1458.6,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Parthenon (ruin)",
+    "tr": "Parthenon (harabe)"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "built": 1687.74,
+   "rise_s": 0.3,
+   "size_m": [
+    70,
+    31,
+    9
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#d6ccb6",
+    "roof": "#d6ccb6"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Propylaia",
+    "tr": "Propylaia"
+   },
+   "at": [
+    37.97176,
+    23.72522
+   ],
+   "built": -437,
+   "rise_s": 12,
+   "size_m": [
+    48,
+    24,
+    12
+   ],
+   "colors": {
+    "wall": "#e6dece",
+    "roof": "#cfc6b4"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Temple of Athena Nike",
+    "tr": "Athena Nike Tapınağı"
+   },
+   "at": [
+    37.97154,
+    23.72487
+   ],
+   "built": -427,
+   "rise_s": 4,
+   "size_m": [
+    9,
+    6,
+    7
+   ],
+   "colors": {
+    "wall": "#ece4d0"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Erechtheion",
+    "tr": "Erektheion"
+   },
+   "at": [
+    37.97209,
+    23.72641
+   ],
+   "built": -421,
+   "rise_s": 14,
+   "size_m": [
+    24,
+    13,
+    11
+   ],
+   "colors": {
+    "wall": "#ece4d0"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Panathenaic Stadium",
+    "tr": "Panathinaiko Stadı"
+   },
+   "at": [
+    37.969,
+    23.7404
+   ],
+   "built": -330,
+   "rise_s": 5,
+   "size_m": [
+    204,
+    83
+   ],
+   "rot_deg": 70,
+   "colors": {
+    "wall": "#e8e2d4"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Stoa of Attalos",
+    "tr": "Attalos Stoası"
+   },
+   "at": [
+    37.975003,
+    23.7242
+   ],
+   "built": -159,
+   "rise_s": 10,
+   "size_m": [
+    116,
+    20,
+    11
+   ],
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#e6dcc8",
+    "roof": "#a0583f"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Tower of the Winds",
+    "tr": "Rüzgârlar Kulesi"
+   },
+   "at": [
+    37.9742,
+    23.72705
+   ],
+   "built": -50,
+   "rise_s": 3,
+   "size_m": [
+    8,
+    8,
+    12
+   ],
+   "colors": {
+    "wall": "#e6dcc8",
+    "roof": "#cfc6b4"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Odeon of Agrippa",
+    "tr": "Agrippa Odeonu"
+   },
+   "at": [
+    37.9751,
+    23.723
+   ],
+   "built": -15,
+   "removed": 267,
+   "rise_s": 4,
+   "size_m": [
+    50,
+    45,
+    20
+   ],
+   "colors": {
+    "wall": "#e3d8c2",
+    "roof": "#a0583f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Arch of Hadrian",
+    "tr": "Hadrianus Kemeri"
+   },
+   "at": [
+    37.97018,
+    23.73203
+   ],
+   "built": 131,
+   "rise_s": 3,
+   "size_m": [
+    14,
+    4,
+    18
+   ],
+   "rot_deg": -40,
+   "colors": {
+    "wall": "#e6dece"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Library of Hadrian",
+    "tr": "Hadrianus Kütüphanesi"
+   },
+   "at": [
+    37.9755,
+    23.7257
+   ],
+   "built": 132,
+   "rise_s": 6,
+   "size_m": [
+    122,
+    82,
+    12
+   ],
+   "colors": {
+    "wall": "#e3d8c2",
+    "roof": "#a0583f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Odeon of Herodes Atticus",
+    "tr": "Herodes Atticus Odeonu"
+   },
+   "at": [
+    37.970756,
+    23.724444
+   ],
+   "built": 161,
+   "removed": 267.05,
+   "rise_s": 5,
+   "size_m": [
+    80,
+    48,
+    22
+   ],
+   "colors": {
+    "wall": "#d9cdb4",
+    "roof": "#8a6f55"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Odeon of Herodes (ruin)",
+    "tr": "Herodes Odeonu (harabe)"
+   },
+   "at": [
+    37.970756,
+    23.724444
+   ],
+   "built": 267.05,
+   "rise_s": 0.3,
+   "size_m": [
+    80,
+    48,
+    12
+   ],
+   "colors": {
+    "wall": "#cfc3aa",
+    "roof": "#cfc3aa"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Kapnikarea",
+    "tr": "Kapnikarea"
+   },
+   "at": [
+    37.9763,
+    23.7285
+   ],
+   "built": 1050,
+   "rise_s": 3,
+   "size_m": [
+    20,
+    12,
+    10
+   ],
+   "colors": {
+    "wall": "#c99f78",
+    "roof": "#8a5a3c"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Little Metropolis",
+    "tr": "Küçük Metropolis"
+   },
+   "at": [
+    37.97504,
+    23.73001
+   ],
+   "built": 1190,
+   "rise_s": 3,
+   "size_m": [
+    16,
+    10,
+    10
+   ],
+   "colors": {
+    "wall": "#e3d8c2",
+    "roof": "#8a5a3c"
+   }
+  },
+  {
+   "type": "mosque",
+   "name": {
+    "en": "Fethiye Mosque",
+    "tr": "Fethiye Camii"
+   },
+   "at": [
+    37.97444,
+    23.72694
+   ],
+   "built": 1668,
+   "rise_s": 4,
+   "size_m": [
+    20,
+    20,
+    14
+   ],
+   "colors": {
+    "minarets": 1
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Royal Palace (Parliament)",
+    "tr": "Kraliyet Sarayı (Parlamento)"
+   },
+   "at": [
+    37.97528,
+    23.73694
+   ],
+   "built": 1836,
+   "rise_s": 14,
+   "size_m": [
+    110,
+    85,
+    22
+   ],
+   "scale": 1.2,
+   "colors": {
+    "wall": "#efe6cf",
+    "roof": "#8f8a80"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Panathenaic Stadium (1896)",
+    "tr": "Panathinaiko Stadı (1896)"
+   },
+   "at": [
+    37.969,
+    23.7404
+   ],
+   "built": 1895.5,
+   "rise_s": 3,
+   "size_m": [
+    204,
+    83
+   ],
+   "rot_deg": 70,
+   "colors": {
+    "wall": "#f2efe6"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Athens Tower",
+    "tr": "Atina Kulesi"
+   },
+   "at": [
+    37.984587,
+    23.760874
+   ],
+   "built": 1968,
+   "rise_s": 10,
+   "size_m": [
+    40,
+    30,
+    103
+   ],
+   "colors": {
+    "wall": "#3f4a52"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    38.03607,
+    23.7876
+   ],
+   "built": 1980,
+   "rise_s": 8,
+   "size_m": [
+    300,
+    240
+   ],
+   "colors": {
+    "wall": "#d9d9d4"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Acropolis Museum",
+    "tr": "Akropolis Müzesi"
+   },
+   "at": [
+    37.969108,
+    23.728299
+   ],
+   "built": 2007,
+   "rise_s": 6,
+   "size_m": [
+    140,
+    110,
+    23
+   ],
+   "colors": {
+    "wall": "#b9c0c4",
+    "roof": "#8f989d"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Stavros Niarchos Centre",
+    "tr": "Stavros Niarkos Merkezi"
+   },
+   "at": [
+    37.93972,
+    23.69167
+   ],
+   "built": 2013,
+   "rise_s": 10,
+   "size_m": [
+    170,
+    70,
+    30
+   ],
+   "rot_deg": -30,
+   "colors": {
+    "wall": "#dfe3e4",
+    "roof": "#c8ccce"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Riviera Tower",
+    "tr": "Riviera Kulesi"
+   },
+   "at": [
+    37.88284,
+    23.72685
+   ],
+   "built": 2023,
+   "rise_s": 30,
+   "size_m": [
+    40,
+    40,
+    200
+   ],
+   "colors": {
+    "wall": "#d9dee0"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": -480,
+   "poly": [
+    [
+     37.97717,
+     23.72092
+    ],
+    [
+     37.97821,
+     23.72339
+    ],
+    [
+     37.97873,
+     23.72723
+    ],
+    [
+     37.97776,
+     23.72925
+    ],
+    [
+     37.97645,
+     23.73003
+    ],
+    [
+     37.97472,
+     23.72955
+    ],
+    [
+     37.97274,
+     23.73003
+    ],
+    [
+     37.97001,
+     23.72901
+    ],
+    [
+     37.96938,
+     23.7273
+    ],
+    [
+     37.96845,
+     23.7245
+    ],
+    [
+     37.96832,
+     23.72157
+    ],
+    [
+     37.96949,
+     23.71949
+    ],
+    [
+     37.97255,
+     23.71832
+    ],
+    [
+     37.97535,
+     23.71897
+    ],
+    [
+     37.97682,
+     23.72063
+    ]
+   ],
+   "duration_s": 7,
+   "plumes": 6
+  },
+  {
+   "year": 267.0,
+   "poly": [
+    [
+     37.9786,
+     23.719
+    ],
+    [
+     37.9802,
+     23.7228
+    ],
+    [
+     37.981,
+     23.7287
+    ],
+    [
+     37.9795,
+     23.7318
+    ],
+    [
+     37.9775,
+     23.733
+    ],
+    [
+     37.97484,
+     23.73225
+    ],
+    [
+     37.9718,
+     23.733
+    ],
+    [
+     37.9676,
+     23.73143
+    ],
+    [
+     37.96663,
+     23.7288
+    ],
+    [
+     37.9652,
+     23.7245
+    ],
+    [
+     37.965,
+     23.72
+    ],
+    [
+     37.9668,
+     23.7168
+    ],
+    [
+     37.9715,
+     23.715
+    ],
+    [
+     37.9758,
+     23.716
+    ],
+    [
+     37.97806,
+     23.71856
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    37.97167,
+    23.72611
+   ],
+   "from": -480,
+   "to": -479.7,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    37.9786,
+    23.719
+   ],
+   "from": -86.5,
+   "to": -86.0,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    37.943,
+    23.645
+   ],
+   "from": -86.9,
+   "to": -86.4,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": 1687.73,
+   "to": 1687.85,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    37.97167,
+    23.72611
+   ],
+   "from": 1826.5,
+   "to": 1827.4,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    37.97167,
+    23.72611
+   ],
+   "from": 1822.3,
+   "to": 1822.45,
+   "scale": 0.8
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Acropolis rock and slopes",
+   "poly": [
+    [
+     37.97141,
+     23.72408
+    ],
+    [
+     37.9721,
+     23.72439
+    ],
+    [
+     37.97272,
+     23.72594
+    ],
+    [
+     37.97265,
+     23.7278
+    ],
+    [
+     37.97195,
+     23.7295
+    ],
+    [
+     37.97094,
+     23.72904
+    ],
+    [
+     37.97071,
+     23.72671
+    ],
+    [
+     37.97094,
+     23.72501
+    ]
+   ]
+  },
+  {
+   "name": "Ancient Agora",
+   "poly": [
+    [
+     37.9764,
+     23.7215
+    ],
+    [
+     37.9763,
+     23.724
+    ],
+    [
+     37.9744,
+     23.7245
+    ],
+    [
+     37.974,
+     23.722
+    ]
+   ]
+  },
+  {
+   "name": "Areopagus",
+   "poly": [
+    [
+     37.972,
+     23.7238
+    ],
+    [
+     37.97237,
+     23.72365
+    ],
+    [
+     37.9726,
+     23.72325
+    ],
+    [
+     37.9726,
+     23.72275
+    ],
+    [
+     37.97237,
+     23.72235
+    ],
+    [
+     37.972,
+     23.7222
+    ],
+    [
+     37.97163,
+     23.72235
+    ],
+    [
+     37.9714,
+     23.72275
+    ],
+    [
+     37.9714,
+     23.72325
+    ],
+    [
+     37.97163,
+     23.72365
+    ]
+   ]
+  },
+  {
+   "name": "Hills of the Nymphs, Pnyx and Muses",
+   "poly": [
+    [
+     37.9748,
+     23.7168
+    ],
+    [
+     37.9742,
+     23.7198
+    ],
+    [
+     37.9718,
+     23.7212
+    ],
+    [
+     37.9692,
+     23.7232
+    ],
+    [
+     37.9664,
+     23.7232
+    ],
+    [
+     37.9654,
+     23.7203
+    ],
+    [
+     37.9672,
+     23.7172
+    ],
+    [
+     37.9712,
+     23.7158
+    ]
+   ]
+  },
+  {
+   "name": "Lycabettus",
+   "poly": [
+    [
+     37.982,
+     23.74879
+    ],
+    [
+     37.98365,
+     23.74831
+    ],
+    [
+     37.98497,
+     23.74698
+    ],
+    [
+     37.9857,
+     23.74507
+    ],
+    [
+     37.9857,
+     23.74293
+    ],
+    [
+     37.98497,
+     23.74102
+    ],
+    [
+     37.98365,
+     23.73969
+    ],
+    [
+     37.982,
+     23.73921
+    ],
+    [
+     37.98035,
+     23.73969
+    ],
+    [
+     37.97903,
+     23.74102
+    ],
+    [
+     37.9783,
+     23.74293
+    ],
+    [
+     37.9783,
+     23.74507
+    ],
+    [
+     37.97903,
+     23.74698
+    ],
+    [
+     37.98035,
+     23.74831
+    ]
+   ]
+  },
+  {
+   "name": "National Garden",
+   "poly": [
+    [
+     37.9765,
+     23.7355
+    ],
+    [
+     37.9765,
+     23.7395
+    ],
+    [
+     37.9718,
+     23.7395
+    ],
+    [
+     37.9718,
+     23.7362
+    ]
+   ]
+  },
+  {
+   "name": "Hymettus",
+   "poly": [
+    [
+     38.0,
+     23.795
+    ],
+    [
+     37.99,
+     23.83
+    ],
+    [
+     37.93,
+     23.835
+    ],
+    [
+     37.88,
+     23.805
+    ],
+    [
+     37.9,
+     23.78
+    ],
+    [
+     37.95,
+     23.782
+    ],
+    [
+     37.98,
+     23.788
+    ]
+   ]
+  },
+  {
+   "name": "Aigaleo",
+   "poly": [
+    [
+     38.07,
+     23.64
+    ],
+    [
+     38.03,
+     23.66
+    ],
+    [
+     38.0,
+     23.655
+    ],
+    [
+     37.985,
+     23.635
+    ],
+    [
+     38.02,
+     23.615
+    ]
+   ]
+  },
+  {
+   "name": "Tourkovounia (≈)",
+   "poly": [
+    [
+     38.02,
+     23.77026
+    ],
+    [
+     38.02407,
+     23.76889
+    ],
+    [
+     38.02705,
+     23.76513
+    ],
+    [
+     38.02814,
+     23.76
+    ],
+    [
+     38.02705,
+     23.75487
+    ],
+    [
+     38.02407,
+     23.75111
+    ],
+    [
+     38.02,
+     23.74974
+    ],
+    [
+     38.01593,
+     23.75111
+    ],
+    [
+     38.01295,
+     23.75487
+    ],
+    [
+     38.01186,
+     23.76
+    ],
+    [
+     38.01295,
+     23.76513
+    ],
+    [
+     38.01593,
+     23.76889
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "ACROPOLIS",
+    "tr": "AKROPOLİS"
+   },
+   "at": [
+    37.97167,
+    23.72611
+   ],
+   "kind": "region",
+   "from": -3000,
+   "to": -1301
+  },
+  {
+   "text": {
+    "en": "SARONIC GULF",
+    "tr": "SARONİK KÖRFEZİ"
+   },
+   "at": [
+    37.905,
+    23.65
+   ],
+   "kind": "water",
+   "from": -3000
+  },
+  {
+   "text": {
+    "en": "Acropolis",
+    "tr": "Akropolis"
+   },
+   "at": [
+    37.972,
+    23.7263
+   ],
+   "from": -1300,
+   "to": -1101,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Pnyx",
+    "tr": "Pnyx"
+   },
+   "at": [
+    37.971667,
+    23.719444
+   ],
+   "kind": "place",
+   "from": -508,
+   "to": -481
+  },
+  {
+   "text": {
+    "en": "Olympieion",
+    "tr": "Olympieion"
+   },
+   "at": [
+    37.9694,
+    23.7337
+   ],
+   "from": -520,
+   "to": -509,
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Salamis",
+    "tr": "Salamis"
+   },
+   "at": [
+    37.95001,
+    23.5397
+   ],
+   "kind": "place",
+   "from": -480,
+   "to": -479.6
+  },
+  {
+   "text": {
+    "en": "Piraeus",
+    "tr": "Pire"
+   },
+   "at": [
+    37.944,
+    23.646
+   ],
+   "kind": "place",
+   "from": -461,
+   "to": -395
+  },
+  {
+   "text": {
+    "en": "Phaleron",
+    "tr": "Faliron"
+   },
+   "at": [
+    37.9373,
+    23.7062
+   ],
+   "kind": "place",
+   "from": -461,
+   "to": -448
+  },
+  {
+   "text": {
+    "en": "LONG WALLS",
+    "tr": "UZUN DUVARLAR"
+   },
+   "at": [
+    37.961,
+    23.688
+   ],
+   "kind": "region",
+   "from": -461,
+   "to": -448
+  },
+  {
+   "text": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": -444,
+   "to": -438,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Propylaia",
+    "tr": "Propylaia"
+   },
+   "at": [
+    37.97176,
+    23.72522
+   ],
+   "from": -435,
+   "to": -431,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Erechtheion",
+    "tr": "Erektheion"
+   },
+   "at": [
+    37.97209,
+    23.72641
+   ],
+   "from": -418,
+   "to": -405,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Kerameikos",
+    "tr": "Kerameikos"
+   },
+   "at": [
+    37.97833,
+    23.71889
+   ],
+   "kind": "place",
+   "from": -479.5,
+   "to": -462
+  },
+  {
+   "text": {
+    "en": "Theatre of Dionysus",
+    "tr": "Dionysos Tiyatrosu"
+   },
+   "at": [
+    37.9703,
+    23.7278
+   ],
+   "kind": "place",
+   "from": -330,
+   "to": -160
+  },
+  {
+   "text": {
+    "en": "Panathenaic Stadium",
+    "tr": "Panathinaiko Stadı"
+   },
+   "at": [
+    37.969,
+    23.7404
+   ],
+   "from": -325,
+   "to": -160,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Stoa of Attalos",
+    "tr": "Attalos Stoası"
+   },
+   "at": [
+    37.975003,
+    23.7242
+   ],
+   "from": -150,
+   "to": -88,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Kerameikos",
+    "tr": "Kerameikos"
+   },
+   "at": [
+    37.97833,
+    23.71889
+   ],
+   "kind": "place",
+   "from": -87,
+   "to": -86
+  },
+  {
+   "text": {
+    "en": "Tower of the Winds",
+    "tr": "Rüzgârlar Kulesi"
+   },
+   "at": [
+    37.9742,
+    23.72705
+   ],
+   "from": -45,
+   "to": 50,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Odeon of Agrippa",
+    "tr": "Agrippa Odeonu"
+   },
+   "at": [
+    37.9751,
+    23.723
+   ],
+   "from": 51,
+   "to": 129,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Temple of Olympian Zeus",
+    "tr": "Olimposlu Zeus Tapınağı"
+   },
+   "at": [
+    37.9694,
+    23.7337
+   ],
+   "from": 131,
+   "to": 160,
+   "lift_m": 35
+  },
+  {
+   "text": {
+    "en": "Odeon of Herodes Atticus",
+    "tr": "Herodes Atticus Odeonu"
+   },
+   "at": [
+    37.970756,
+    23.724444
+   ],
+   "from": 162,
+   "to": 266,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": 1018,
+   "to": 1203,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Acropolis",
+    "tr": "Akropolis"
+   },
+   "at": [
+    37.972,
+    23.7263
+   ],
+   "from": 1388,
+   "to": 1455,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": 1687,
+   "to": 1687.99,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": 1801,
+   "to": 1820,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Royal Palace",
+    "tr": "Kraliyet Sarayı"
+   },
+   "at": [
+    37.97528,
+    23.73694
+   ],
+   "from": 1838,
+   "to": 1842,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Syntagma",
+    "tr": "Sintagma"
+   },
+   "at": [
+    37.975841,
+    23.734465
+   ],
+   "kind": "place",
+   "from": 1843,
+   "to": 1868
+  },
+  {
+   "text": {
+    "en": "Omonia",
+    "tr": "Omonia"
+   },
+   "at": [
+    37.98417,
+    23.72778
+   ],
+   "kind": "place",
+   "from": 1836,
+   "to": 1842
+  },
+  {
+   "text": {
+    "en": "Piraeus",
+    "tr": "Pire"
+   },
+   "at": [
+    37.944,
+    23.646
+   ],
+   "kind": "place",
+   "from": 1869,
+   "to": 1895
+  },
+  {
+   "text": {
+    "en": "Panathenaic Stadium",
+    "tr": "Panathinaiko Stadı"
+   },
+   "at": [
+    37.969,
+    23.7404
+   ],
+   "from": 1896,
+   "to": 1921,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Nea Smyrni",
+    "tr": "Nea Smirni"
+   },
+   "at": [
+    37.948,
+    23.714
+   ],
+   "kind": "place",
+   "from": 1923,
+   "to": 1940
+  },
+  {
+   "text": {
+    "en": "Nea Ionia",
+    "tr": "Nea Ionia"
+   },
+   "at": [
+    38.037,
+    23.755
+   ],
+   "kind": "place",
+   "from": 1923,
+   "to": 1940
+  },
+  {
+   "text": {
+    "en": "Piraeus",
+    "tr": "Pire"
+   },
+   "at": [
+    37.944,
+    23.646
+   ],
+   "kind": "place",
+   "from": 1923,
+   "to": 1940
+  },
+  {
+   "text": {
+    "en": "Lycabettus",
+    "tr": "Likavitos"
+   },
+   "at": [
+    37.982,
+    23.744
+   ],
+   "kind": "place",
+   "from": 1945,
+   "to": 1967,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Athens Tower",
+    "tr": "Atina Kulesi"
+   },
+   "at": [
+    37.984587,
+    23.760874
+   ],
+   "from": 1970,
+   "to": 1981,
+   "lift_m": 120
+  },
+  {
+   "text": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    38.03607,
+    23.7876
+   ],
+   "from": 1982.7,
+   "to": 1999,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Ellinikon",
+    "tr": "Ellinikon"
+   },
+   "at": [
+    37.89833,
+    23.72944
+   ],
+   "kind": "place",
+   "from": 2000,
+   "to": 2003
+  },
+  {
+   "text": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    38.03607,
+    23.7876
+   ],
+   "from": 2004,
+   "to": 2008,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Acropolis Museum",
+    "tr": "Akropolis Müzesi"
+   },
+   "at": [
+    37.969108,
+    23.728299
+   ],
+   "from": 2009,
+   "to": 2015,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Parthenon",
+    "tr": "Parthenon"
+   },
+   "at": [
+    37.97156,
+    23.72663
+   ],
+   "from": 2009,
+   "to": 2015,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Stavros Niarchos Centre",
+    "tr": "Stavros Niarkos Merkezi"
+   },
+   "at": [
+    37.93972,
+    23.69167
+   ],
+   "from": 2016,
+   "to": 2020,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Riviera Tower",
+    "tr": "Riviera Kulesi"
+   },
+   "at": [
+    37.88284,
+    23.72685
+   ],
+   "from": 2023,
+   "to": 2025,
+   "lift_m": 210
+  },
+  {
+   "text": {
+    "en": "Acropolis",
+    "tr": "Akropolis"
+   },
+   "at": [
+    37.972,
+    23.7263
+   ],
+   "kind": "place",
+   "from": 2026
+  },
+  {
+   "text": {
+    "en": "Piraeus",
+    "tr": "Pire"
+   },
+   "at": [
+    37.944,
+    23.646
+   ],
+   "kind": "place",
+   "from": 2026
+  },
+  {
+   "text": {
+    "en": "HYMETTUS",
+    "tr": "HİMETTOS"
+   },
+   "at": [
+    37.945,
+    23.81
+   ],
+   "kind": "region",
+   "from": 2026
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Athens: 5,000 Years in 15 Minutes (3D Timelapse)",
+   "tr": "Atina: 15 Dakikada 5.000 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "By about 3000 BC people were living on the slopes of the Acropolis. Watch Athens grow from that rock to a Mycenaean citadel, burn in the Persian invasion of 480 BC, build its walls, the Long Walls to Piraeus and the Parthenon, survive Sulla, the Heruli, Byzantine, Frankish and Ottoman rule and the explosion of 1687, shrink to a town of about 4,000 people and then become the capital of modern Greece and a city of three million: the Acropolis, the Agora, the Temple of Olympian Zeus, the Panathenaic Stadium, the Royal Palace, the 1896 and 2004 Olympics, the refugee towns of 1922, the apartment boom, the metro and the Ellinikon, with the year and the population on screen.",
+   "tr": "MÖ 3000 civarında insanlar Akropolis'in yamaçlarında yaşıyordu. Atina'nın bu kayadan bir Miken kalesine dönüşmesini, MÖ 480 Pers istilasında yanmasını, surlarını, Pire'ye uzanan Uzun Duvarları ve Parthenon'u yapmasını, Sulla'yı, Herulleri, Bizans, Frank ve Osmanlı yönetimini ve 1687 patlamasını atlatmasını, ~4.000 kişilik bir kasabaya küçülüp modern Yunanistan'ın başkenti ve üç milyonluk bir şehir olmasını izleyin: Akropolis, Agora, Olimposlu Zeus Tapınağı, Panathinaiko Stadı, Kraliyet Sarayı, 1896 ve 2004 Olimpiyatları, 1922 mülteci semtleri, apartman patlaması, metro ve Ellinikon; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "athens history",
+   "history of athens",
+   "ancient athens",
+   "acropolis",
+   "parthenon",
+   "3d timelapse",
+   "city evolution",
+   "how athens grew",
+   "athens timelapse",
+   "long walls",
+   "classical athens",
+   "greece history",
+   "urban history",
+   "ιστορία της αθήνας"
+  ],
+  "hashtags": [
+   "#Athens",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Athens",
+    "tr": "Atina"
+   },
+   "line2": {
+    "en": "5,000 YEARS",
+    "tr": "5.000 YIL"
+   },
+   "line3": {
+    "en": "From the Acropolis to a city of millions",
+    "tr": "Akropolis'ten milyonluk bir şehre"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=37.9730,23.7260,4.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "Athens: History — Britannica",
+   "url": "https://www.britannica.com/place/Athens/History"
+  },
+  {
+   "title": "Athens: The city plan — Britannica",
+   "url": "https://www.britannica.com/place/Athens/The-city-plan"
+  },
+  {
+   "title": "Agora history and timeline — American School of Classical Studies",
+   "url": "https://www.ascsa.edu.gr/excavations/athenian-agora/about-the-excavations/agorahistory"
+  },
+  {
+   "title": "Athens timeline — World History Encyclopedia",
+   "url": "https://www.worldhistory.org/timeline/Athens/"
+  },
+  {
+   "title": "History of Athens — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Athens"
+  },
+  {
+   "title": "Timeline of Athens — Wikipedia (Wikiwand)",
+   "url": "https://www.wikiwand.com/en/articles/Timeline_of_Athens"
+  },
+  {
+   "title": "Acropolis fortification wall — Visit Greece",
+   "url": "https://www.visitgreece.gr/en/experiences/culture/archaeological-sites-monuments/acropolis-fortification-wall"
+  },
+  {
+   "title": "History of the Acropolis — Ancient-Greece.org",
+   "url": "https://ancient-greece.org/history/acropolis.html"
+  },
+  {
+   "title": "Kerameikos city walls — Ancient Athens 3D",
+   "url": "https://ancientathens3d.com/keramikos-tichi/"
+  },
+  {
+   "title": "Athens timeline — Ancient Athens 3D",
+   "url": "https://ancientathens3d.com/athens-timeline/"
+  },
+  {
+   "title": "Classical Acropolis — Ancient Athens 3D",
+   "url": "https://ancientathens3d.com/classical-acropolis/"
+  },
+  {
+   "title": "Olympieion and Arch of Hadrian — Ancient Athens 3D",
+   "url": "https://ancientathens3d.com/olympieion-arch-of-hadrian/"
+  },
+  {
+   "title": "Ottoman Athens 1458–1833 — Ancient Athens 3D",
+   "url": "https://ancientathens3d.com/?p=154"
+  },
+  {
+   "title": "Themistoclean Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Themistoclean_Wall"
+  },
+  {
+   "title": "City walls of Athens — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/City_walls_of_Athens"
+  },
+  {
+   "title": "Athens: the Long Walls — Livius",
+   "url": "https://www.livius.org/articles/place/athens/athens-photos/athens-long-walls"
+  },
+  {
+   "title": "The Long Walls — Athens Attica",
+   "url": "https://athensattica.com/point/the-long-walls/"
+  },
+  {
+   "title": "Parthenon — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Parthenon"
+  },
+  {
+   "title": "Plague of Athens — New World Encyclopedia",
+   "url": "https://www.newworldencyclopedia.org/entry/Plague_of_Athens"
+  },
+  {
+   "title": "Panathenaic Stadium — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/articles/Kallimarmaro"
+  },
+  {
+   "title": "Stoa of Attalos — Athens Attica",
+   "url": "https://athensattica.com/point/stoa-of-attalos/"
+  },
+  {
+   "title": "Siege of Athens and Piraeus (87–86 BC) — Wikipedia (kiwix)",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Siege_of_Athens_and_Piraeus_(87%E2%80%9386_BC)"
+  },
+  {
+   "title": "Population and Economy in Classical Athens (review) — Classics for All",
+   "url": "https://classicsforall.org.uk/reading-room/book-reviews/population-and-economy-classical-athens"
+  },
+  {
+   "title": "Arch of Hadrian (Athens) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arch_of_Hadrian_(Athens)"
+  },
+  {
+   "title": "Library of Hadrian — Encyclopaedia Romana, University of Chicago",
+   "url": "https://penelope.uchicago.edu/encyclopaedia_romana/greece/architecture/library.html"
+  },
+  {
+   "title": "Odeon of Herodes Atticus — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Odeon_of_Herodes_Atticus"
+  },
+  {
+   "title": "Sack of Athens (267) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sack_of_Athens_(267_AD)"
+  },
+  {
+   "title": "Topography of Byzantine and post-Byzantine Athens — EIE Archaeologia",
+   "url": "https://archaeologia.eie.gr/archaeologia/en/chapter_more_6.html"
+  },
+  {
+   "title": "Athens in the 19th century — EIE Archaeologia",
+   "url": "https://archaeologia.eie.gr/archaeologia/en/chapter_more_9.html"
+  },
+  {
+   "title": "Duchy of Athens — World History Encyclopedia",
+   "url": "https://www.worldhistory.org/Duchy_of_Athens/"
+  },
+  {
+   "title": "Siege of the Acropolis (1687) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_the_Acropolis_(1687)"
+  },
+  {
+   "title": "Wall of Haseki — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wall_of_Haseki"
+  },
+  {
+   "title": "Fethiye Mosque (Athens) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fethiye_Mosque_(Athens)"
+  },
+  {
+   "title": "A history of Athens since the early modern period — Brewminate",
+   "url": "https://brewminate.com/a-history-of-athens-since-the-early-modern-period/"
+  },
+  {
+   "title": "Athens Reborn: 19th-century architects — SearchCulture.gr",
+   "url": "https://www.searchculture.gr/aggregator/portal/thematicCollections/architects19c"
+  },
+  {
+   "title": "Athens, capital of the Greek state — Greece 2021",
+   "url": "https://greece2021.gr/en/timeline/2183-athens-capital-greek-state.html"
+  },
+  {
+   "title": "Hellenic Parliament Building — Britannica",
+   "url": "https://www.britannica.com/topic/Hellenic-Parliament-Building"
+  },
+  {
+   "title": "3 September 1843: the uprising — To Vima",
+   "url": "https://www.tovima.com/vima-history/september-3-1843-the-uprising-that-changed-modern-greece/amp/"
+  },
+  {
+   "title": "1869: Greece opens its first railroad line — Transportation History",
+   "url": "https://transportationhistory.org/2020/02/27/1869-greece-opens-its-first-railroad-line"
+  },
+  {
+   "title": "Athens — UrbanRail.net",
+   "url": "https://urbanrail.net/eu/gr/athens/athens.htm"
+  },
+  {
+   "title": "Athens 1896 Olympic Games — Britannica",
+   "url": "https://www.britannica.com/EBchecked/topic/972056/Athens-1896-Olympic-Games"
+  },
+  {
+   "title": "Refugee communities in interwar Athens — Historical Review (EKT)",
+   "url": "https://ejournals.epublishing.ekt.gr/index.php/historicalReview/article/view/43834"
+  },
+  {
+   "title": "Liberating Athens — Neos Kosmos",
+   "url": "https://neoskosmos.com/en/2013/10/14/features/liberating-athens/"
+  },
+  {
+   "title": "The horror of occupied Athens — Proto Thema",
+   "url": "https://origin01-en.protothema.gr/2025/12/10/dead-next-to-the-garbage-the-truth-about-the-horror-of-occupied-athens"
+  },
+  {
+   "title": "The Athenian polykatoikia — Greek News Agenda",
+   "url": "https://www.greeknewsagenda.gr/athenian-polykatoikia/"
+  },
+  {
+   "title": "Athens Tower 1 — CTBUH Skyscraper Center",
+   "url": "https://www.skyscrapercenter.com/building/athens-tower-1/5033"
+  },
+  {
+   "title": "Olympic Stadium (Athens) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Olympic_Stadium_(Athens)"
+  },
+  {
+   "title": "2001: a new international airport for Greece — Transportation History",
+   "url": "https://transportationhistory.org/2025/03/28/2001-the-start-of-operations-for-an-international-airport-in-greece"
+  },
+  {
+   "title": "Athens 2004 Olympic Games — Britannica",
+   "url": "https://www.britannica.com/event/Athens-2004-Olympic-Games"
+  },
+  {
+   "title": "New Acropolis Museum opens — ASCSA",
+   "url": "https://ascsa.edu.gr/news/newsDetails/new-acropolis-museum-opens"
+  },
+  {
+   "title": "SNFCC becomes state-run — GTP",
+   "url": "https://news.gtp.gr/2017/02/24/stavros-niarchos-foundation-cultural-center-state-run/"
+  },
+  {
+   "title": "Ellinikon airport: the story of the transformation — Lamda Development",
+   "url": "https://www.lamdadev.com/en/blog/ellinikon-international-airport-the-story-of-the-transformation-of-greece"
+  },
+  {
+   "title": "Riviera Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Riviera_Tower"
+  },
+  {
+   "title": "Ellinikon skyscraper — Greek City Times",
+   "url": "https://greekcitytimes.com/2026/10/17/ellinikon-skyscraper-athens/"
+  },
+  {
+   "title": "ToposText gazetteer (Athens places and gates)",
+   "url": "https://topostext.org/place/380237SAkr"
+  }
+ ]
+}
