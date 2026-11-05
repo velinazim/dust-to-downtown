@@ -25,7 +25,10 @@
    38.0,
    23.77
   ],
-  "core_cell_m": 30
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "__none__"
+  ]
  },
  "geo_edits": [],
  "view": {
@@ -34,7 +37,7 @@
   "fov": 34
  },
  "render": {
-  "vertical_exaggeration": 1.5
+  "vertical_exaggeration": 2.2
  },
  "segments": [
   {
@@ -5251,8 +5254,8 @@
    ],
    "from": 1950,
    "to": 1995,
-   "density": 0.6,
-   "grain_m": 110,
+   "density": 0.7,
+   "grain_m": 90,
    "grow_from": [
     37.98,
     23.725
@@ -5377,7 +5380,7 @@
     ]
    ],
    "built": -467,
-   "height": "high",
+   "height": "mid",
    "towers_m": 0,
    "draw_s": 2.0
   },
@@ -5459,6 +5462,14 @@
    "name": "Piraeus walls (≈)",
    "path": [
     [
+     37.9418,
+     23.634
+    ],
+    [
+     37.9455,
+     23.6335
+    ],
+    [
      37.9478,
      23.6335
     ],
@@ -5481,6 +5492,10 @@
     [
      37.9405,
      23.662
+    ],
+    [
+     37.9378,
+     23.6633
     ]
    ],
    "built": -479,
@@ -5533,6 +5548,14 @@
     [
      37.9372,
      23.7055
+    ],
+    [
+     37.928,
+     23.702
+    ],
+    [
+     37.9185,
+     23.7
     ]
    ],
    "built": -460,
@@ -5571,6 +5594,14 @@
    "name": "Piraeus walls (Conon, ≈)",
    "path": [
     [
+     37.9418,
+     23.634
+    ],
+    [
+     37.9455,
+     23.6335
+    ],
+    [
      37.9478,
      23.6335
     ],
@@ -5593,6 +5624,10 @@
     [
      37.9405,
      23.662
+    ],
+    [
+     37.9378,
+     23.6633
     ]
    ],
    "built": -394,
@@ -6032,7 +6067,7 @@
     31,
     14
    ],
-   "scale": 1.3,
+   "scale": 1.6,
    "colors": {
     "wall": "#ece4d0"
    },
@@ -6061,7 +6096,7 @@
     31,
     9
    ],
-   "scale": 1.3,
+   "scale": 1.6,
    "colors": {
     "wall": "#d6ccb6",
     "roof": "#d6ccb6"
@@ -6127,12 +6162,13 @@
     13,
     11
    ],
+   "scale": 1.4,
    "colors": {
     "wall": "#ece4d0"
    }
   },
   {
-   "type": "stadium",
+   "type": "circus",
    "name": {
     "en": "Panathenaic Stadium",
     "tr": "Panathinaiko Stadı"
@@ -6398,7 +6434,7 @@
    }
   },
   {
-   "type": "stadium",
+   "type": "circus",
    "name": {
     "en": "Panathenaic Stadium (1896)",
     "tr": "Panathinaiko Stadı (1896)"
@@ -6453,7 +6489,8 @@
    "rise_s": 8,
    "size_m": [
     300,
-    240
+    240,
+    40
    ],
    "colors": {
     "wall": "#d9d9d4"

@@ -58,9 +58,9 @@ BYZ = scale(HASEKI, TOWN_C, 0.72)
 # Long Walls (≈, ~180 m apart; the Middle wall through the excavated point at Tavros)
 N_LONG = [(37.9742, 23.7163), (37.9645, 23.7015), (37.9572, 23.6760), (37.9505, 23.6505)]
 M_LONG = [(37.9690, 23.7158), (37.96235, 23.7026), (37.9555, 23.6775), (37.9482, 23.6540)]
-PHALERIC = [(37.9653, 23.7215), (37.9560, 23.7160), (37.9450, 23.7095), (37.9372, 23.7055)]
-PIR_WALL = [(37.9478, 23.6335), (37.9510, 23.6420), (37.9505, 23.6505), (37.9482, 23.6540), (37.9452, 23.6600),
-            (37.9405, 23.6620)]
+PHALERIC = [(37.9653, 23.7215), (37.9560, 23.7160), (37.9450, 23.7095), (37.9372, 23.7055), (37.9280, 23.7020), (37.9185, 23.7000)]
+PIR_WALL = [(37.9418, 23.6340), (37.9455, 23.6335), (37.9478, 23.6335), (37.9510, 23.6420), (37.9505, 23.6505), (37.9482, 23.6540), (37.9452, 23.6600),
+            (37.9405, 23.6620), (37.9378, 23.6633)]
 PIRAEUS = [(37.9500, 23.6330), (37.9505, 23.6500), (37.9460, 23.6610), (37.9370, 23.6640), (37.9330, 23.6500),
            (37.9360, 23.6330), (37.9430, 23.6290)]
 # new town of 1833 (Kleanthis–Schaubert triangle: Omonia apex, Ermou base)
@@ -342,7 +342,7 @@ def wall(name, path, built, removed=None, height="mid", towers=90, draw=3.0, **k
 ACRO_RING = scale(ACRO, ACRO_C, 1.06)
 walls = [
  wall("Mycenaean (Cyclopean) wall", ACRO_RING + [ACRO_RING[0]], -1200, -467, height="mid", towers=0, draw=3.0),
- wall("Classical Acropolis wall", ACRO_RING + [ACRO_RING[0]], -467, None, height="high", towers=0, draw=2.0),
+ wall("Classical Acropolis wall", ACRO_RING + [ACRO_RING[0]], -467, None, height="mid", towers=0, draw=2.0),
  wall("Themistoclean wall", THEM_RING, -479.4, -86, height="mid", towers=70, draw=4.0),
  wall("Piraeus walls (≈)", PIR_WALL, -479, -404, height="mid", towers=80, draw=3.0),
  wall("North Long Wall (≈)", N_LONG, -460, -404, height="low", towers=120, draw=4.0),
@@ -375,16 +375,16 @@ landmarks = [
  {"type": "temple", "name": T("Temple of Hephaestus", "Hephaistos Tapınağı"), "at": [37.9756167, 23.7213917], "built": -449, "rise_s": 20,
   "size_m": [32, 14, 11], "colors": {"wall": "#e3d8c2"}},
  {"type": "temple", "name": T("Parthenon", "Parthenon"), "at": list(PARTHENON), "built": -447, "removed": 1687.74, "rise_s": 18,
-  "size_m": [70, 31, 14], "scale": 1.3, "colors": {"wall": "#ece4d0"}, "additions": [{"type": "minarets", "year": 1458.6, "count": 1}]},
+  "size_m": [70, 31, 14], "scale": 1.6, "colors": {"wall": "#ece4d0"}, "additions": [{"type": "minarets", "year": 1458.6, "count": 1}]},
  {"type": "temple", "name": T("Parthenon (ruin)", "Parthenon (harabe)"), "at": list(PARTHENON), "built": 1687.74, "rise_s": 0.3,
-  "size_m": [70, 31, 9], "scale": 1.3, "colors": {"wall": "#d6ccb6", "roof": "#d6ccb6"}},
+  "size_m": [70, 31, 9], "scale": 1.6, "colors": {"wall": "#d6ccb6", "roof": "#d6ccb6"}},
  {"type": "box", "name": T("Propylaia", "Propylaia"), "at": [37.97176, 23.72522], "built": -437, "rise_s": 12, "size_m": [48, 24, 12],
   "colors": {"wall": "#e6dece", "roof": "#cfc6b4"}},
  {"type": "temple", "name": T("Temple of Athena Nike", "Athena Nike Tapınağı"), "at": [37.97154, 23.72487], "built": -427, "rise_s": 4,
   "size_m": [9, 6, 7], "colors": {"wall": "#ece4d0"}},
- {"type": "temple", "name": T("Erechtheion", "Erektheion"), "at": [37.97209, 23.72641], "built": -421, "rise_s": 14, "size_m": [24, 13, 11],
+ {"type": "temple", "name": T("Erechtheion", "Erektheion"), "at": [37.97209, 23.72641], "built": -421, "rise_s": 14, "size_m": [24, 13, 11], "scale": 1.4,
   "colors": {"wall": "#ece4d0"}},
- {"type": "stadium", "name": T("Panathenaic Stadium", "Panathinaiko Stadı"), "at": [37.9690, 23.7404], "built": -330, "rise_s": 5,
+ {"type": "circus", "name": T("Panathenaic Stadium", "Panathinaiko Stadı"), "at": [37.9690, 23.7404], "built": -330, "rise_s": 5,
   "size_m": [204, 83], "rot_deg": 70, "colors": {"wall": "#e8e2d4"}},
  {"type": "box", "name": T("Stoa of Attalos", "Attalos Stoası"), "at": [37.975003, 23.7242], "built": -159, "rise_s": 10, "size_m": [116, 20, 11],
   "rot_deg": 90, "colors": {"wall": "#e6dcc8", "roof": "#a0583f"}},
@@ -408,11 +408,11 @@ landmarks = [
   "colors": {"minarets": 1}},
  {"type": "palace", "name": T("Royal Palace (Parliament)", "Kraliyet Sarayı (Parlamento)"), "at": [37.97528, 23.73694], "built": 1836, "rise_s": 14,
   "size_m": [110, 85, 22], "scale": 1.2, "colors": {"wall": "#efe6cf", "roof": "#8f8a80"}},
- {"type": "stadium", "name": T("Panathenaic Stadium (1896)", "Panathinaiko Stadı (1896)"), "at": [37.9690, 23.7404], "built": 1895.5, "rise_s": 3,
+ {"type": "circus", "name": T("Panathenaic Stadium (1896)", "Panathinaiko Stadı (1896)"), "at": [37.9690, 23.7404], "built": 1895.5, "rise_s": 3,
   "size_m": [204, 83], "rot_deg": 70, "colors": {"wall": "#f2efe6"}},
  {"type": "skyscraper", "name": T("Athens Tower", "Atina Kulesi"), "at": [37.984587, 23.760874], "built": 1968, "rise_s": 10, "size_m": [40, 30, 103],
   "colors": {"wall": "#3f4a52"}},
- {"type": "stadium", "name": T("Olympic Stadium", "Olimpiyat Stadı"), "at": [38.03607, 23.7876], "built": 1980, "rise_s": 8, "size_m": [300, 240],
+ {"type": "stadium", "name": T("Olympic Stadium", "Olimpiyat Stadı"), "at": [38.03607, 23.7876], "built": 1980, "rise_s": 8, "size_m": [300, 240, 40],
   "colors": {"wall": "#d9d9d4"}},
  {"type": "box", "name": T("Acropolis Museum", "Akropolis Müzesi"), "at": [37.969108, 23.728299], "built": 2007, "rise_s": 6, "size_m": [140, 110, 23],
   "colors": {"wall": "#b9c0c4", "roof": "#8f989d"}},
@@ -462,7 +462,7 @@ districts += [
  {"name": "Post-war apartment city (centre)", "style": "modern", "poly": L(CITY19), "holes": [L(ACRO_SLOPE), L(AGORA), L(AREO), L(HILLS), L(LYCA), L(NATGARDEN), L(PLAKA)],
   "from": 1952, "to": 1975, "density": 0.85, "grain_m": 55, "grow_from": [37.9800, 23.7300]},
  {"name": "Post-war basin (≈)", "style": "modern", "poly": L(BASIN), "holes": [L(CITY19), L(HYM), L(AIG), L(TOURKO), L(ELLINIKON), L(LYCA), L(HILLS)],
-  "from": 1950, "to": 1995, "density": 0.6, "grain_m": 110, "grow_from": [37.9800, 23.7250]},
+  "from": 1950, "to": 1995, "density": 0.7, "grain_m": 90, "grow_from": [37.9800, 23.7250]},
  {"name": "Ellinikon redevelopment (≈)", "style": "modern", "poly": L(ELL_NEW), "from": 2022, "to": 2026, "density": 0.5, "grain_m": 70,
   "grow_from": [37.8850, 23.7250]},
 ]
@@ -541,10 +541,10 @@ labels = [
 city = {
  "slug": "athens", "seed": 480, "long_ok": True,
  "name": T("Athens", "Atina"), "intro": T("5,000 Years in 15 Minutes", "15 Dakikada 5.000 Yıl"), "intro_seconds": 4.5,
- "geo": {"bbox": [37.74, 23.42, 38.24, 24.02], "cell_m": 100, "core_bbox": [37.925, 23.620, 38.000, 23.770], "core_cell_m": 30},
+ "geo": {"bbox": [37.74, 23.42, 38.24, 24.02], "cell_m": 100, "core_bbox": [37.925, 23.620, 38.000, 23.770], "core_cell_m": 30, "rivers_keep": ["__none__"]},
  "geo_edits": GEO_EDITS,
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
- "render": {"vertical_exaggeration": 1.5},
+ "render": {"vertical_exaggeration": 2.2},
  "segments": S,
  "districts": districts, "walls": walls, "roads": roads, "landmarks": landmarks,
  "fires": fires, "smoke": smoke, "open_spaces": open_spaces, "labels": labels,
