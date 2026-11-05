@@ -427,7 +427,7 @@ districts = [
   "from": -3000, "to": -2200, "density": 0.22, "grain_m": 70, "grow_from": [37.9730, 23.7258]},
  {"name": "Mycenaean citadel (≈)", "style": "ancient", "poly": L(ACRO), "from": -1290, "to": -1220, "density": 0.55, "grain_m": 30,
   "grow_from": [37.9720, 23.7263], "fade": [-700, -620, 0.0]},
- {"name": "Archaic town (≈)", "style": "ancient", "poly": L(ARCHAIC), "holes": [L(ACRO_SLOPE), L(AGORA), L(AREO)], "from": -1050, "to": -520,
+ {"name": "Archaic town (≈)", "style": "ancient", "poly": L(ARCHAIC), "holes": [L(ACRO_SLOPE), L(AGORA), L(AREO)], "from": -1050, "to": -650,
   "density": 0.55, "grain_m": 55, "grow_from": [37.9745, 23.7240]},
  {"name": "Classical city", "style": "ancient", "poly": L(THEM), "holes": [L(ACRO_SLOPE), L(AGORA), L(AREO), L(HILLS)], "from": -478, "to": -440,
   "density": 0.82, "grain_m": 45, "grow_from": [37.9745, 23.7235], "fade": [-86.6, -86.0, 0.6]},
