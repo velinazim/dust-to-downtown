@@ -2,8 +2,8 @@
  "rendered": "2026-11-05T10:28:35Z",
  "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41993779255",
  "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded athens:long https://youtu.be/YmO5CJm1HX8 publish_at=2026-11-24T23:30:00Z thumbnail=ok playlist=added\n",
- "qa": "QA OK: 16 kare, kelime kontrol\u00fc yok (sessiz/k\u0131sa kesit)",
- "qa_checked": false,
+ "qa": "QA OK: 16 kare, kelime kontrolü yok (sessiz/kısa kesit)",
+ "qa_checked": true,
  "shorts_rendered": "2026-11-05T10:55:14Z",
  "shorts_run": "https://github.com/velinazim/dust-to-downtown/actions/runs/42011011111",
  "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded athens:short:whole https://youtube.com/shorts/669xOfGle5Y publish_at=2026-11-25T23:30:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded athens:short:golden-age https://youtube.com/shorts/IMypFmCGyCI publish_at=2026-11-26T23:30:00Z thumbnail=none playlist=added\n"
