@@ -1,0 +1,5683 @@
+{
+ "slug": "berlin",
+ "seed": 1237,
+ "long_ok": true,
+ "name": {
+  "en": "Berlin",
+  "tr": "Berlin"
+ },
+ "intro": {
+  "en": "800 Years in 15 Minutes",
+  "tr": "15 Dakikada 800 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   52.2,
+   12.9,
+   52.82,
+   13.95
+  ],
+  "cell_m": 110,
+  "core_bbox": [
+   52.48,
+   13.32,
+   52.55,
+   13.48
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Spree",
+   "Havel",
+   "Dahme"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": 650,
+   "to": 1156,
+   "seconds": 18,
+   "era": {
+    "en": "Slavic Lands",
+    "tr": "Slav Toprakları"
+   },
+   "city_name": {
+    "en": "Banks of the Spree",
+    "tr": "Spree kıyısı"
+   },
+   "title": {
+    "en": "Slavs on the Spree",
+    "tr": "Spree'de Slavlar"
+   },
+   "sub": {
+    "en": "7th century: Slavic Hevelli and Sprevane settle here; their main forts are Spandau and Köpenick",
+    "tr": "7. yüzyıl: Slav Heveller ve Sprevanlar buraya yerleşir; ana kaleleri Spandau ve Köpenick'tir"
+   },
+   "camera": {
+    "center": [
+     52.495,
+     13.39
+    ],
+    "dist_km": 26.0
+   },
+   "chapter": {
+    "en": "Before Berlin",
+    "tr": "Berlin'den Önce"
+   }
+  },
+  {
+   "from": 1157,
+   "to": 1182,
+   "seconds": 15,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Banks of the Spree",
+    "tr": "Spree kıyısı"
+   },
+   "title": {
+    "en": "The Margraves Arrive",
+    "tr": "Uç Beyleri Geliyor"
+   },
+   "sub": {
+    "en": "1157: Albert the Bear founds the Margraviate of Brandenburg",
+    "tr": "1157: Ayı Albrecht, Brandenburg Uç Beyliği'ni kurar"
+   },
+   "camera": {
+    "center": [
+     52.51,
+     13.4
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1183,
+   "to": 1219,
+   "seconds": 16,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Banks of the Spree",
+    "tr": "Spree kıyısı"
+   },
+   "title": {
+    "en": "A Beam from 1183",
+    "tr": "1183'ten Bir Kiriş"
+   },
+   "sub": {
+    "en": "An oak beam dug up at Petriplatz in 2008 probably dates from 1183",
+    "tr": "2008'de Petriplatz'ta çıkarılan meşe kirişi büyük olasılıkla 1183 yılına ait"
+   },
+   "camera": {
+    "center": [
+     52.515,
+     13.406
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1220,
+   "to": 1236,
+   "seconds": 15,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Banks of the Spree",
+    "tr": "Spree kıyısı"
+   },
+   "title": {
+    "en": "St Nicholas' Church",
+    "tr": "Aziz Nikolaus Kilisesi"
+   },
+   "sub": {
+    "en": "c. 1220–1230: St Nicholas' Church is built on the north-east bank of the Spree",
+    "tr": "~1220–1230: Spree'nin kuzeydoğu kıyısında Aziz Nikolaus Kilisesi yapılır"
+   },
+   "camera": {
+    "center": [
+     52.516,
+     13.407
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1237,
+   "to": 1243,
+   "seconds": 16,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Cölln",
+    "tr": "Cölln"
+   },
+   "title": {
+    "en": "Cölln Is Named",
+    "tr": "Cölln'ün Adı Geçiyor"
+   },
+   "sub": {
+    "en": "28 October 1237: a deed names a priest of Cölln, Berlin's official founding date",
+    "tr": "28 Ekim 1237: bir belge Cölln'lü bir rahibi anar; Berlin'in resmî kuruluş tarihi"
+   },
+   "camera": {
+    "center": [
+     52.5135,
+     13.404
+    ],
+    "dist_km": 2.0
+   },
+   "chapter": {
+    "en": "Twin Towns on the Spree",
+    "tr": "Spree'de İkiz Kasabalar"
+   }
+  },
+  {
+   "from": 1244,
+   "to": 1249,
+   "seconds": 15,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Berlin Appears",
+    "tr": "Berlin Ortaya Çıkıyor"
+   },
+   "sub": {
+    "en": "29 April 1244: Berlin, across the river from Cölln, is first named in a document",
+    "tr": "29 Nisan 1244: Cölln'ün karşı kıyısındaki Berlin ilk kez bir belgede anılır"
+   },
+   "population": 1200,
+   "camera": {
+    "center": [
+     52.5175,
+     13.4085
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1250,
+   "to": 1291,
+   "seconds": 16,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "A Wall of Stone",
+    "tr": "Taştan Bir Sur"
+   },
+   "sub": {
+    "en": "From about 1250 a stone wall rises around the two towns; by 1280 their seal shows two bears",
+    "tr": "~1250'den itibaren iki kasabanın çevresinde taş sur yükselir; 1280'de mühürde iki ayı vardır"
+   },
+   "population": [
+    1200,
+    4300
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.4065
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1292,
+   "to": 1306,
+   "seconds": 14,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "St Mary's Church",
+    "tr": "Aziz Meryem Kilisesi"
+   },
+   "sub": {
+    "en": "By 1292 a second parish church, St Mary's, is on record in Berlin",
+    "tr": "1292'de Berlin'de ikinci bir bölge kilisesi, Aziz Meryem, kayıtlardadır"
+   },
+   "population": [
+    4400,
+    6800
+   ],
+   "camera": {
+    "center": [
+     52.52,
+     13.407
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1307,
+   "to": 1359,
+   "seconds": 16,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Twin Towns Unite",
+    "tr": "İkiz Kasabalar Birleşiyor"
+   },
+   "sub": {
+    "en": "20 March 1307: Berlin and Cölln form a union and share a new town hall",
+    "tr": "20 Mart 1307: Berlin ve Cölln bir birlik kurar ve yeni bir belediye binasını paylaşır"
+   },
+   "population": [
+    7000,
+    7800
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.407
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1360,
+   "to": 1379,
+   "seconds": 15,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "A Hanseatic Town",
+    "tr": "Bir Hansa Kasabası"
+   },
+   "sub": {
+    "en": "1360: Berlin-Cölln joins the Hanseatic League of trading towns",
+    "tr": "1360: Berlin-Cölln, ticaret kentlerinin Hansa Birliği'ne katılır"
+   },
+   "population": [
+    7800,
+    8100
+   ],
+   "camera": {
+    "center": [
+     52.5155,
+     13.406
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1380,
+   "to": 1410,
+   "seconds": 16,
+   "era": {
+    "en": "Margraviate of Brandenburg",
+    "tr": "Brandenburg Uç Beyliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   },
+   "sub": {
+    "en": "1380: fire sweeps the town centre and destroys most of the early records",
+    "tr": "1380: yangın kent merkezini sarar ve ilk kayıtların çoğunu yok eder"
+   },
+   "population": [
+    8200,
+    8700
+   ],
+   "camera": {
+    "center": [
+     52.5165,
+     13.408
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1411,
+   "to": 1442,
+   "seconds": 15,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Hohenzollerns",
+    "tr": "Hohenzollernler"
+   },
+   "sub": {
+    "en": "1411: Frederick of Hohenzollern takes over Brandenburg; in 1415 he becomes elector",
+    "tr": "1411: Hohenzollern'li Friedrich Brandenburg'u devralır; 1415'te prens-seçici olur"
+   },
+   "population": [
+    8700,
+    9200
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.406
+    ],
+    "dist_km": 2.8
+   },
+   "chapter": {
+    "en": "Hohenzollern Residence",
+    "tr": "Hohenzollern Sarayı"
+   }
+  },
+  {
+   "from": 1443,
+   "to": 1447,
+   "seconds": 16,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "A Castle on the Spree",
+    "tr": "Spree'de Bir Kale"
+   },
+   "sub": {
+    "en": "1443: the elector begins a castle in Cölln, the future Berlin Palace",
+    "tr": "1443: prens-seçici Cölln'de bir kale yapmaya başlar; geleceğin Berlin Sarayı"
+   },
+   "population": [
+    9200,
+    9300
+   ],
+   "camera": {
+    "center": [
+     52.517,
+     13.4035
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1448,
+   "to": 1485,
+   "seconds": 15,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Berlin Indignation",
+    "tr": "Berlin Öfkesi"
+   },
+   "sub": {
+    "en": "1448: townspeople rise against the castle and lose their old freedoms",
+    "tr": "1448: kentliler kaleye karşı ayaklanır ve eski özgürlüklerini kaybeder"
+   },
+   "population": [
+    9300,
+    10000
+   ],
+   "camera": {
+    "center": [
+     52.5165,
+     13.405
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1486,
+   "to": 1538,
+   "seconds": 14,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Seat of the Electors",
+    "tr": "Prens-Seçicilerin Merkezi"
+   },
+   "sub": {
+    "en": "11 March 1486: the palace becomes the electors' seat; in 1530 the Tiergarten is a royal hunt",
+    "tr": "11 Mart 1486: saray prens-seçicilerin kalıcı merkezi olur; 1530'da Tiergarten av alanı olur"
+   },
+   "population": [
+    10100,
+    11100
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.396
+    ],
+    "dist_km": 4.2
+   }
+  },
+  {
+   "from": 1539,
+   "to": 1575,
+   "seconds": 13,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Reformation",
+    "tr": "Reform"
+   },
+   "sub": {
+    "en": "1 November 1539: Brandenburg and Berlin turn Lutheran",
+    "tr": "1 Kasım 1539: Brandenburg ve Berlin Lutherci olur"
+   },
+   "population": [
+    11200,
+    12000
+   ],
+   "camera": {
+    "center": [
+     52.5165,
+     13.406
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1576,
+   "to": 1617,
+   "seconds": 15,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Plague",
+    "tr": "Veba"
+   },
+   "sub": {
+    "en": "1576: bubonic plague kills about 6,000 people",
+    "tr": "1576: hıyarcıklı veba yaklaşık 6.000 kişiyi öldürür"
+   },
+   "population": [
+    12000,
+    11800
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.407
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1618,
+   "to": 1646,
+   "seconds": 18,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Thirty Years' War",
+    "tr": "Otuz Yıl Savaşları"
+   },
+   "sub": {
+    "en": "1618–1648: war damages a third of the houses; Berlin loses half its people",
+    "tr": "1618–1648: savaş evlerin üçte birine zarar verir; Berlin halkının yarısını kaybeder"
+   },
+   "population": [
+    12000,
+    6500
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.406
+    ],
+    "dist_km": 2.8
+   },
+   "chapter": {
+    "en": "Fortress and Kingdom",
+    "tr": "Kale ve Krallık"
+   }
+  },
+  {
+   "from": 1647,
+   "to": 1649,
+   "seconds": 14,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Under the Lime Trees",
+    "tr": "Ihlamurların Altında"
+   },
+   "sub": {
+    "en": "1647: the Great Elector lays out the avenue Unter den Linden",
+    "tr": "1647: Büyük Prens-Seçici Unter den Linden caddesini açar"
+   },
+   "population": [
+    6200,
+    6000
+   ],
+   "camera": {
+    "center": [
+     52.517,
+     13.392
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1650,
+   "to": 1673,
+   "seconds": 18,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Fortress Berlin",
+    "tr": "Kale Berlin"
+   },
+   "sub": {
+    "en": "From 1650 a fortress with 13 bastions rings Berlin, Cölln and Friedrichswerder",
+    "tr": "1650'den itibaren 13 tabyalı bir kale Berlin, Cölln ve Friedrichswerder'i çevreler"
+   },
+   "population": [
+    6100,
+    8800
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.404
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1674,
+   "to": 1684,
+   "seconds": 15,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Dorotheenstadt",
+    "tr": "Dorotheenstadt"
+   },
+   "sub": {
+    "en": "1674: Dorotheenstadt, a new town west of the fortress, gets town rights",
+    "tr": "1674: kalenin batısındaki yeni kasaba Dorotheenstadt kasaba hakları alır"
+   },
+   "population": [
+    9000,
+    15600
+   ],
+   "camera": {
+    "center": [
+     52.517,
+     13.392
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1685,
+   "to": 1687,
+   "seconds": 16,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "The Huguenots",
+    "tr": "Huguenotlar"
+   },
+   "sub": {
+    "en": "1685: the Edict of Potsdam; 6,000 French Huguenot refugees settle in Berlin",
+    "tr": "1685: Potsdam Fermanı; 6.000 Fransız Huguenot mülteci Berlin'e yerleşir"
+   },
+   "population": [
+    17500,
+    19000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.398
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1688,
+   "to": 1700,
+   "seconds": 16,
+   "era": {
+    "en": "Electorate of Brandenburg",
+    "tr": "Brandenburg Prensliği"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "Friedrichstadt",
+    "tr": "Friedrichstadt"
+   },
+   "sub": {
+    "en": "From 1688 a new grid town, Friedrichstadt, is laid out; in 1699 Charlottenburg Palace opens",
+    "tr": "1688'den itibaren ızgara planlı Friedrichstadt kurulur; 1699'da Charlottenburg Sarayı açılır"
+   },
+   "population": [
+    19800,
+    29000
+   ],
+   "camera": {
+    "center": [
+     52.512,
+     13.37
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1701,
+   "to": 1709,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin-Cölln",
+    "tr": "Berlin-Cölln"
+   },
+   "title": {
+    "en": "A Royal Capital",
+    "tr": "Bir Kraliyet Başkenti"
+   },
+   "sub": {
+    "en": "18 January 1701: the elector becomes King in Prussia and Berlin his capital",
+    "tr": "18 Ocak 1701: prens-seçici Prusya kralı olur ve Berlin onun başkenti olur"
+   },
+   "population": [
+    31100,
+    55000
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.4
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1710,
+   "to": 1733,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "One City",
+    "tr": "Tek Şehir"
+   },
+   "sub": {
+    "en": "1 January 1710: five towns unite as the royal capital Berlin, with 60,000 people",
+    "tr": "1 Ocak 1710: beş kasaba 60.000 kişilik kraliyet başkenti Berlin olarak birleşir"
+   },
+   "population": [
+    60000,
+    85900
+   ],
+   "camera": {
+    "center": [
+     52.513,
+     13.395
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 1734,
+   "to": 1739,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Customs Wall",
+    "tr": "Gümrük Duvarı"
+   },
+   "sub": {
+    "en": "1734–1737: the fortress is given up; a customs wall with 14 gates rings the growing city",
+    "tr": "1734–1737: kale terk edilir; 14 kapılı bir gümrük duvarı büyüyen şehri çevreler"
+   },
+   "population": [
+    87300,
+    94700
+   ],
+   "camera": {
+    "center": [
+     52.513,
+     13.405
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1740,
+   "to": 1756,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Frederick the Great",
+    "tr": "Büyük Friedrich"
+   },
+   "sub": {
+    "en": "1740: Frederick the Great begins his 46-year reign",
+    "tr": "1740: Büyük Friedrich 46 yıllık saltanatına başlar"
+   },
+   "population": [
+    96300,
+    120000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.395
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 1757,
+   "to": 1787,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Occupied for Four Days",
+    "tr": "Dört Günlük İşgal"
+   },
+   "sub": {
+    "en": "9–12 October 1760: Russian and Austrian troops briefly take the city",
+    "tr": "9–12 Ekim 1760: Rus ve Avusturya birlikleri şehri kısa süreliğine ele geçirir"
+   },
+   "population": [
+    113000,
+    149000
+   ],
+   "camera": {
+    "center": [
+     52.513,
+     13.405
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1788,
+   "to": 1805,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Brandenburg Gate",
+    "tr": "Brandenburg Kapısı"
+   },
+   "sub": {
+    "en": "1788–1791: the Brandenburg Gate is built in the customs wall at the end of Unter den Linden",
+    "tr": "1788–1791: Brandenburg Kapısı, Unter den Linden'in ucunda gümrük duvarına yapılır"
+   },
+   "population": [
+    151000,
+    158000
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.38
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1806,
+   "to": 1809,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Napoleon in Berlin",
+    "tr": "Napolyon Berlin'de"
+   },
+   "sub": {
+    "en": "24 October 1806: the French army marches in and occupies Berlin",
+    "tr": "24 Ekim 1806: Fransız ordusu Berlin'e girer ve şehri işgal eder"
+   },
+   "population": [
+    155000,
+    161000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.385
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "The Industrial City",
+    "tr": "Sanayi Şehri"
+   }
+  },
+  {
+   "from": 1810,
+   "to": 1837,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "A New University",
+    "tr": "Yeni Bir Üniversite"
+   },
+   "sub": {
+    "en": "15 October 1810: the University of Berlin opens, today Humboldt University",
+    "tr": "15 Ekim 1810: Berlin Üniversitesi açılır; bugünkü Humboldt Üniversitesi"
+   },
+   "population": [
+    162971,
+    299000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.395
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1838,
+   "to": 1847,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Railway Age",
+    "tr": "Demiryolu Çağı"
+   },
+   "sub": {
+    "en": "29 October 1838: Prussia's first railway opens, from Berlin to Potsdam",
+    "tr": "29 Ekim 1838: Prusya'nın ilk demiryolu Berlin ile Potsdam arasında açılır"
+   },
+   "population": [
+    307000,
+    395000
+   ],
+   "camera": {
+    "center": [
+     52.48,
+     13.33
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1848,
+   "to": 1859,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Barricades",
+    "tr": "Barikatlar"
+   },
+   "sub": {
+    "en": "18 March 1848: street fighting at the barricades; the king promises reforms",
+    "tr": "18 Mart 1848: barikatlarda sokak çatışmaları; kral reform sözü verir"
+   },
+   "population": [
+    407000,
+    505000
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.4
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1860,
+   "to": 1861.9,
+   "seconds": 14,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Wall Comes Down",
+    "tr": "Duvar Yıkılıyor"
+   },
+   "sub": {
+    "en": "1860: the customs wall loses its purpose; Moabit and Wedding join Berlin in 1861",
+    "tr": "1860: gümrük duvarı işlevini yitirir; Moabit ve Wedding 1861'de Berlin'e katılır"
+   },
+   "population": [
+    515000,
+    547000
+   ],
+   "camera": {
+    "center": [
+     52.52,
+     13.39
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1862,
+   "to": 1870,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Prussia",
+    "tr": "Prusya Krallığı"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Hobrecht Plan",
+    "tr": "Hobrecht Planı"
+   },
+   "sub": {
+    "en": "18 July 1862: the Hobrecht Plan maps ring roads and blocks for 50 years of growth",
+    "tr": "18 Temmuz 1862: Hobrecht Planı 50 yıllık büyüme için çevre yolları ve adaları çizer"
+   },
+   "population": [
+    549000,
+    790000
+   ],
+   "camera": {
+    "center": [
+     52.51,
+     13.39
+    ],
+    "dist_km": 11.0
+   }
+  },
+  {
+   "from": 1871,
+   "to": 1883,
+   "seconds": 18,
+   "era": {
+    "en": "German Empire",
+    "tr": "Alman İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Imperial Capital",
+    "tr": "İmparatorluk Başkenti"
+   },
+   "sub": {
+    "en": "18 January 1871: Berlin becomes capital of the new German Empire",
+    "tr": "18 Ocak 1871: Berlin yeni Alman İmparatorluğu'nun başkenti olur"
+   },
+   "population": [
+    826341,
+    1243000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.37
+    ],
+    "dist_km": 6.0
+   },
+   "chapter": {
+    "en": "Imperial Berlin",
+    "tr": "İmparatorluk Berlini"
+   }
+  },
+  {
+   "from": 1884,
+   "to": 1901,
+   "seconds": 16,
+   "era": {
+    "en": "German Empire",
+    "tr": "Alman İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Reichstag",
+    "tr": "Reichstag"
+   },
+   "sub": {
+    "en": "1884–1894: the Reichstag is built; by 1890 Berlin has 1.5 million people",
+    "tr": "1884–1894: Reichstag inşa edilir; 1890'da Berlin'in nüfusu 1,5 milyonu bulur"
+   },
+   "population": [
+    1286000,
+    1906000
+   ],
+   "camera": {
+    "center": [
+     52.518,
+     13.378
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1902,
+   "to": 1918.8,
+   "seconds": 15,
+   "era": {
+    "en": "German Empire",
+    "tr": "Alman İmparatorluğu"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The U-Bahn",
+    "tr": "Metro"
+   },
+   "sub": {
+    "en": "1902: after six years of work, Berlin's first U-Bahn line starts running",
+    "tr": "1902: altı yıllık çalışmanın ardından Berlin'in ilk metro hattı çalışmaya başlar"
+   },
+   "population": [
+    1924000,
+    1851000
+   ],
+   "camera": {
+    "center": [
+     52.505,
+     13.4
+    ],
+    "dist_km": 10.0
+   }
+  },
+  {
+   "from": 1918.85,
+   "to": 1919.8,
+   "seconds": 15,
+   "era": {
+    "en": "Weimar Republic",
+    "tr": "Weimar Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "A Republic",
+    "tr": "Bir Cumhuriyet"
+   },
+   "sub": {
+    "en": "9 November 1918: a German republic is proclaimed from the Reichstag",
+    "tr": "9 Kasım 1918: Reichstag'dan bir Alman cumhuriyeti ilan edilir"
+   },
+   "population": [
+    1853000,
+    1902509
+   ],
+   "camera": {
+    "center": [
+     52.518,
+     13.38
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1920.75,
+   "to": 1932,
+   "seconds": 20,
+   "era": {
+    "en": "Weimar Republic",
+    "tr": "Weimar Cumhuriyeti"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Greater Berlin",
+    "tr": "Büyük Berlin"
+   },
+   "sub": {
+    "en": "1 October 1920: 8 towns, 59 villages and 27 estates merge into a city of 3.8 million",
+    "tr": "1 Ekim 1920: 8 kasaba, 59 köy ve 27 malikâne 3,8 milyonluk tek bir şehirde birleşir"
+   },
+   "population": [
+    3800000,
+    4215000
+   ],
+   "camera": {
+    "center": [
+     52.5,
+     13.4
+    ],
+    "dist_km": 34.0
+   },
+   "chapter": {
+    "en": "Greater Berlin",
+    "tr": "Büyük Berlin"
+   }
+  },
+  {
+   "from": 1933,
+   "to": 1935,
+   "seconds": 15,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Reichstag Fire",
+    "tr": "Reichstag Yangını"
+   },
+   "sub": {
+    "en": "27 February 1933: the Reichstag burns, weeks after Hitler becomes chancellor",
+    "tr": "27 Şubat 1933: Hitler'in şansölye olmasından haftalar sonra Reichstag yanar"
+   },
+   "population": [
+    4242501,
+    4274000
+   ],
+   "camera": {
+    "center": [
+     52.518,
+     13.378
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1936,
+   "to": 1938.8,
+   "seconds": 15,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The 1936 Olympics",
+    "tr": "1936 Olimpiyatları"
+   },
+   "sub": {
+    "en": "1 August 1936: the Olympic Games open in the new Olympic Stadium",
+    "tr": "1 Ağustos 1936: Olimpiyat Oyunları yeni Olimpiyat Stadı'nda açılır"
+   },
+   "population": [
+    4290000,
+    4336000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.24
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1938.85,
+   "to": 1943.8,
+   "seconds": 15,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Kristallnacht",
+    "tr": "Kristal Gecesi"
+   },
+   "sub": {
+    "en": "November 1938: Nazis attack synagogues and Jewish property in Berlin",
+    "tr": "Kasım 1938: Naziler Berlin'deki sinagoglara ve Yahudi mülklerine saldırır"
+   },
+   "population": [
+    4336000,
+    3143000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.39
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1943.85,
+   "to": 1945.25,
+   "seconds": 18,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Bombs on Berlin",
+    "tr": "Berlin'e Bombalar"
+   },
+   "sub": {
+    "en": "363 air raids hit Berlin; about a third of the city is badly damaged",
+    "tr": "Berlin 363 hava saldırısına uğrar; şehrin yaklaşık üçte biri ağır hasar görür"
+   },
+   "population": [
+    3133000,
+    2861000
+   ],
+   "camera": {
+    "center": [
+     52.51,
+     13.38
+    ],
+    "dist_km": 14.0
+   },
+   "chapter": {
+    "en": "War and Division",
+    "tr": "Savaş ve Bölünme"
+   }
+  },
+  {
+   "from": 1945.29,
+   "to": 1945.4,
+   "seconds": 18,
+   "era": {
+    "en": "Nazi Germany",
+    "tr": "Nazi Almanyası"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Battle of Berlin",
+    "tr": "Berlin Muharebesi"
+   },
+   "sub": {
+    "en": "16 April – 2 May 1945: the Soviet army takes Berlin; about 100,000 civilians die",
+    "tr": "16 Nisan – 2 Mayıs 1945: Sovyet ordusu Berlin'i alır; yaklaşık 100.000 sivil ölür"
+   },
+   "population": [
+    2855000,
+    2838000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.385
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1945.5,
+   "to": 1948.4,
+   "seconds": 15,
+   "era": {
+    "en": "Allied Occupation",
+    "tr": "Müttefik İşgali"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Four Sectors",
+    "tr": "Dört Bölge"
+   },
+   "sub": {
+    "en": "July 1945: the city is split into American, British, French and Soviet sectors",
+    "tr": "Temmuz 1945: şehir Amerikan, İngiliz, Fransız ve Sovyet bölgelerine ayrılır"
+   },
+   "population": [
+    2807405,
+    3252000
+   ],
+   "camera": {
+    "center": [
+     52.5,
+     13.39
+    ],
+    "dist_km": 22.0
+   }
+  },
+  {
+   "from": 1948.48,
+   "to": 1949.4,
+   "seconds": 17,
+   "era": {
+    "en": "Allied Occupation",
+    "tr": "Müttefik İşgali"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Airlift",
+    "tr": "Hava Köprüsü"
+   },
+   "sub": {
+    "en": "24 June 1948 – 12 May 1949: a Soviet blockade; 278,228 flights supply West Berlin",
+    "tr": "24 Haziran 1948 – 12 Mayıs 1949: Sovyet ablukası; 278.228 uçuş Batı Berlin'i besler"
+   },
+   "population": [
+    3257000,
+    3304000
+   ],
+   "camera": {
+    "center": [
+     52.48,
+     13.4
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1949.5,
+   "to": 1953.4,
+   "seconds": 15,
+   "era": {
+    "en": "Divided City",
+    "tr": "Bölünmüş Şehir"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Palace Is Destroyed",
+    "tr": "Saray Yıkılıyor"
+   },
+   "sub": {
+    "en": "1950: East Germany demolishes the war-damaged Berlin Palace",
+    "tr": "1950: Doğu Almanya savaşta hasar gören Berlin Sarayı'nı yıktırır"
+   },
+   "population": [
+    3310000,
+    3315000
+   ],
+   "camera": {
+    "center": [
+     52.517,
+     13.403
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1953.45,
+   "to": 1961.6,
+   "seconds": 14,
+   "era": {
+    "en": "Divided City",
+    "tr": "Bölünmüş Şehir"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Uprising in the East",
+    "tr": "Doğu'da Ayaklanma"
+   },
+   "sub": {
+    "en": "17 June 1953: an uprising in East Berlin is put down",
+    "tr": "17 Haziran 1953: Doğu Berlin'de bir ayaklanma bastırılır"
+   },
+   "population": [
+    3315000,
+    3263000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.41
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1961.62,
+   "to": 1968,
+   "seconds": 20,
+   "era": {
+    "en": "Divided City",
+    "tr": "Bölünmüş Şehir"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Wall",
+    "tr": "Duvar"
+   },
+   "sub": {
+    "en": "13 August 1961: the GDR begins a wall around West Berlin, 155 km long",
+    "tr": "13 Ağustos 1961: Doğu Almanya Batı Berlin'in çevresine 155 km'lik bir duvar örmeye başlar"
+   },
+   "population": [
+    3263000,
+    3222000
+   ],
+   "camera": {
+    "center": [
+     52.495,
+     13.37
+    ],
+    "dist_km": 34.0
+   }
+  },
+  {
+   "from": 1969,
+   "to": 1972,
+   "seconds": 15,
+   "era": {
+    "en": "Divided City",
+    "tr": "Bölünmüş Şehir"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The TV Tower",
+    "tr": "Televizyon Kulesi"
+   },
+   "sub": {
+    "en": "3 October 1969: East Berlin's 365 m TV tower is inaugurated",
+    "tr": "3 Ekim 1969: Doğu Berlin'in 365 m'lik televizyon kulesi açılır"
+   },
+   "population": [
+    3215000,
+    3176000
+   ],
+   "camera": {
+    "center": [
+     52.518,
+     13.405
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1989.8,
+   "seconds": 10,
+   "era": {
+    "en": "Divided City",
+    "tr": "Bölünmüş Şehir"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "population": [
+    3160000,
+    3426000
+   ],
+   "camera": {
+    "center": [
+     52.51,
+     13.39
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1989.85,
+   "to": 1990.7,
+   "seconds": 20,
+   "era": {
+    "en": "Reunified Germany",
+    "tr": "Birleşik Almanya"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "The Wall Falls",
+    "tr": "Duvar Yıkılıyor"
+   },
+   "sub": {
+    "en": "9 November 1989: the border opens; from June 1990 the Wall is torn down",
+    "tr": "9 Kasım 1989: sınır açılır; Haziran 1990'dan itibaren Duvar yıkılır"
+   },
+   "population": [
+    3428000,
+    3430000
+   ],
+   "camera": {
+    "center": [
+     52.516,
+     13.38
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "One City Again",
+    "tr": "Yeniden Tek Şehir"
+   }
+  },
+  {
+   "from": 1990.75,
+   "to": 1997.9,
+   "seconds": 15,
+   "era": {
+    "en": "Reunified Germany",
+    "tr": "Birleşik Almanya"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Capital Again",
+    "tr": "Yeniden Başkent"
+   },
+   "sub": {
+    "en": "3 October 1990: Germany is reunited; in 1991 parliament votes to return to Berlin",
+    "tr": "3 Ekim 1990: Almanya yeniden birleşir; 1991'de meclis Berlin'e dönmeye karar verir"
+   },
+   "population": [
+    3430000,
+    3393000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.39
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1998,
+   "to": 2005,
+   "seconds": 16,
+   "era": {
+    "en": "Reunified Germany",
+    "tr": "Birleşik Almanya"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "A Glass Dome",
+    "tr": "Cam Bir Kubbe"
+   },
+   "sub": {
+    "en": "19 April 1999: the Bundestag meets in the rebuilt Reichstag under its glass dome",
+    "tr": "19 Nisan 1999: Federal Meclis cam kubbesiyle yenilenen Reichstag'da toplanır"
+   },
+   "population": [
+    3392000,
+    3421000
+   ],
+   "camera": {
+    "center": [
+     52.515,
+     13.377
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 2006,
+   "to": 2019,
+   "seconds": 15,
+   "era": {
+    "en": "Reunified Germany",
+    "tr": "Birleşik Almanya"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "A New Main Station",
+    "tr": "Yeni Bir Ana İstasyon"
+   },
+   "sub": {
+    "en": "26 May 2006: the Hauptbahnhof opens; Tempelhof Airport closes in 2008",
+    "tr": "26 Mayıs 2006: Hauptbahnhof açılır; Tempelhof Havalimanı 2008'de kapanır"
+   },
+   "population": [
+    3429000,
+    3666000
+   ],
+   "camera": {
+    "center": [
+     52.51,
+     13.38
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 2020,
+   "to": 2022,
+   "seconds": 14,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "A New Airport",
+    "tr": "Yeni Bir Havalimanı"
+   },
+   "sub": {
+    "en": "31 October 2020: BER airport opens; the palace rises again as the Humboldt Forum",
+    "tr": "31 Ekim 2020: BER havalimanı açılır; saray Humboldt Forum olarak yeniden yükselir"
+   },
+   "population": [
+    3664088,
+    3679000
+   ],
+   "camera": {
+    "center": [
+     52.43,
+     13.45
+    ],
+    "dist_km": 22.0
+   },
+   "chapter": {
+    "en": "Berlin Today",
+    "tr": "Bugünün Berlini"
+   }
+  },
+  {
+   "from": 2023,
+   "to": 2026,
+   "seconds": 22,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "title": {
+    "en": "Berlin Today",
+    "tr": "Bugünün Berlini"
+   },
+   "sub": {
+    "en": "From two riverside towns to 3,700,577 people at the end of 2025",
+    "tr": "İki nehir kıyısı kasabasından 2025 sonunda 3.700.577 kişiye"
+   },
+   "population": [
+    3686000,
+    3700577
+   ],
+   "camera": {
+    "center": [
+     52.505,
+     13.395
+    ],
+    "dist_km": 34.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Spandau (Slavic fort, ≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     52.5375,
+     13.20773
+    ],
+    [
+     52.5392,
+     13.20682
+    ],
+    [
+     52.54025,
+     13.20446
+    ],
+    [
+     52.54025,
+     13.20154
+    ],
+    [
+     52.5392,
+     13.19918
+    ],
+    [
+     52.5375,
+     13.19827
+    ],
+    [
+     52.5358,
+     13.19918
+    ],
+    [
+     52.53475,
+     13.20154
+    ],
+    [
+     52.53475,
+     13.20446
+    ],
+    [
+     52.5358,
+     13.20682
+    ]
+   ],
+   "from": 680,
+   "to": 900,
+   "density": 0.45,
+   "grain_m": 60,
+   "grow_from": [
+    52.5375,
+    13.203
+   ]
+  },
+  {
+   "name": "Köpenick (Slavic fort, ≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     52.445,
+     13.57913
+    ],
+    [
+     52.44649,
+     13.57834
+    ],
+    [
+     52.44741,
+     13.57628
+    ],
+    [
+     52.44741,
+     13.57372
+    ],
+    [
+     52.44649,
+     13.57166
+    ],
+    [
+     52.445,
+     13.57087
+    ],
+    [
+     52.44351,
+     13.57166
+    ],
+    [
+     52.44259,
+     13.57372
+    ],
+    [
+     52.44259,
+     13.57628
+    ],
+    [
+     52.44351,
+     13.57834
+    ]
+   ],
+   "from": 700,
+   "to": 900,
+   "density": 0.45,
+   "grain_m": 60,
+   "grow_from": [
+    52.445,
+    13.575
+   ]
+  },
+  {
+   "name": "Cölln",
+   "style": "medieval",
+   "poly": [
+    [
+     52.51,
+     13.4085
+    ],
+    [
+     52.5112,
+     13.4045
+    ],
+    [
+     52.513,
+     13.4008
+    ],
+    [
+     52.516,
+     13.3993
+    ],
+    [
+     52.5168,
+     13.404
+    ],
+    [
+     52.515,
+     13.4078
+    ],
+    [
+     52.5125,
+     13.4098
+    ]
+   ],
+   "from": 1183,
+   "to": 1300,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    52.512,
+    13.404
+   ],
+   "fade": [
+    1625,
+    1640,
+    0.6
+   ]
+  },
+  {
+   "name": "Alt-Berlin",
+   "style": "medieval",
+   "poly": [
+    [
+     52.515,
+     13.4092
+    ],
+    [
+     52.5175,
+     13.4072
+    ],
+    [
+     52.52,
+     13.404
+    ],
+    [
+     52.5214,
+     13.4018
+    ],
+    [
+     52.5226,
+     13.406
+    ],
+    [
+     52.5224,
+     13.4112
+    ],
+    [
+     52.5195,
+     13.4135
+    ],
+    [
+     52.516,
+     13.414
+    ],
+    [
+     52.5134,
+     13.4118
+    ]
+   ],
+   "from": 1200,
+   "to": 1320,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    52.5168,
+    13.4078
+   ],
+   "fade": [
+    1625,
+    1640,
+    0.6
+   ]
+  },
+  {
+   "name": "Old town rebuilt (17th c.)",
+   "style": "stone",
+   "poly": [
+    [
+     52.5228,
+     13.399
+    ],
+    [
+     52.524,
+     13.406
+    ],
+    [
+     52.5236,
+     13.413
+    ],
+    [
+     52.5205,
+     13.4165
+    ],
+    [
+     52.516,
+     13.417
+    ],
+    [
+     52.51,
+     13.414
+    ],
+    [
+     52.5092,
+     13.404
+    ],
+    [
+     52.5112,
+     13.399
+    ],
+    [
+     52.5132,
+     13.395
+    ],
+    [
+     52.517,
+     13.394
+    ],
+    [
+     52.5198,
+     13.3962
+    ]
+   ],
+   "from": 1650,
+   "to": 1700,
+   "density": 0.85,
+   "grain_m": 45,
+   "grow_from": [
+    52.5165,
+    13.406
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.45
+   ]
+  },
+  {
+   "name": "Friedrichswerder (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.5112,
+     13.399
+    ],
+    [
+     52.5132,
+     13.3952
+    ],
+    [
+     52.5168,
+     13.3944
+    ],
+    [
+     52.5185,
+     13.3955
+    ],
+    [
+     52.5163,
+     13.3992
+    ],
+    [
+     52.513,
+     13.4005
+    ]
+   ],
+   "from": 1658,
+   "to": 1690,
+   "density": 0.75,
+   "grain_m": 45,
+   "grow_from": [
+    52.515,
+    13.3975
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.45
+   ]
+  },
+  {
+   "name": "Dorotheenstadt (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.515,
+     13.379
+    ],
+    [
+     52.5208,
+     13.379
+    ],
+    [
+     52.521,
+     13.393
+    ],
+    [
+     52.517,
+     13.3942
+    ],
+    [
+     52.515,
+     13.3945
+    ]
+   ],
+   "from": 1674,
+   "to": 1710,
+   "density": 0.75,
+   "grain_m": 50,
+   "grid_deg": 0,
+   "grow_from": [
+    52.5175,
+    13.392
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.45
+   ]
+  },
+  {
+   "name": "Friedrichstadt (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.4985,
+     13.383
+    ],
+    [
+     52.515,
+     13.3795
+    ],
+    [
+     52.515,
+     13.3945
+    ],
+    [
+     52.513,
+     13.3955
+    ],
+    [
+     52.51,
+     13.3995
+    ],
+    [
+     52.5,
+     13.4
+    ]
+   ],
+   "from": 1688,
+   "to": 1740,
+   "density": 0.8,
+   "grain_m": 50,
+   "grid_deg": 0,
+   "grow_from": [
+    52.513,
+    13.392
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.45
+   ]
+  },
+  {
+   "name": "Charlottenburg (town, ≈)",
+   "style": "stone",
+   "poly": [
+    [
+     52.513,
+     13.292
+    ],
+    [
+     52.5195,
+     13.292
+    ],
+    [
+     52.5195,
+     13.315
+    ],
+    [
+     52.513,
+     13.315
+    ]
+   ],
+   "from": 1705,
+   "to": 1800,
+   "density": 0.45,
+   "grain_m": 60,
+   "grow_from": [
+    52.518,
+    13.299
+   ]
+  },
+  {
+   "name": "Suburbs inside the customs wall",
+   "style": "georgian",
+   "poly": [
+    [
+     52.5236,
+     13.3755
+    ],
+    [
+     52.527,
+     13.3792
+    ],
+    [
+     52.5276,
+     13.3875
+    ],
+    [
+     52.5297,
+     13.4015
+    ],
+    [
+     52.529,
+     13.4135
+    ],
+    [
+     52.5262,
+     13.4245
+    ],
+    [
+     52.5222,
+     13.429
+    ],
+    [
+     52.5168,
+     13.4385
+    ],
+    [
+     52.512,
+     13.444
+    ],
+    [
+     52.504,
+     13.4448
+    ],
+    [
+     52.5003,
+     13.4425
+    ],
+    [
+     52.499,
+     13.418
+    ],
+    [
+     52.4975,
+     13.3915
+    ],
+    [
+     52.5032,
+     13.3815
+    ],
+    [
+     52.5093,
+     13.377
+    ],
+    [
+     52.5164,
+     13.3772
+    ],
+    [
+     52.5198,
+     13.3768
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.5228,
+      13.399
+     ],
+     [
+      52.524,
+      13.406
+     ],
+     [
+      52.5236,
+      13.413
+     ],
+     [
+      52.5205,
+      13.4165
+     ],
+     [
+      52.516,
+      13.417
+     ],
+     [
+      52.51,
+      13.414
+     ],
+     [
+      52.5092,
+      13.404
+     ],
+     [
+      52.5112,
+      13.399
+     ],
+     [
+      52.5132,
+      13.395
+     ],
+     [
+      52.517,
+      13.394
+     ],
+     [
+      52.5198,
+      13.3962
+     ]
+    ],
+    [
+     [
+      52.515,
+      13.379
+     ],
+     [
+      52.5208,
+      13.379
+     ],
+     [
+      52.521,
+      13.393
+     ],
+     [
+      52.517,
+      13.3942
+     ],
+     [
+      52.515,
+      13.3945
+     ]
+    ],
+    [
+     [
+      52.4985,
+      13.383
+     ],
+     [
+      52.515,
+      13.3795
+     ],
+     [
+      52.515,
+      13.3945
+     ],
+     [
+      52.513,
+      13.3955
+     ],
+     [
+      52.51,
+      13.3995
+     ],
+     [
+      52.5,
+      13.4
+     ]
+    ]
+   ],
+   "from": 1700,
+   "to": 1840,
+   "density": 0.6,
+   "grain_m": 60,
+   "grow_from": [
+    52.5165,
+    13.406
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.5
+   ]
+  },
+  {
+   "name": "Wilhelmine ring (Hobrecht Plan)",
+   "style": "victorian",
+   "poly": [
+    [
+     52.501,
+     13.283
+    ],
+    [
+     52.518,
+     13.285
+    ],
+    [
+     52.53,
+     13.3
+    ],
+    [
+     52.534,
+     13.329
+    ],
+    [
+     52.537,
+     13.344
+    ],
+    [
+     52.543,
+     13.366
+    ],
+    [
+     52.5487,
+     13.3885
+    ],
+    [
+     52.549,
+     13.414
+    ],
+    [
+     52.545,
+     13.427
+    ],
+    [
+     52.54,
+     13.439
+    ],
+    [
+     52.529,
+     13.456
+    ],
+    [
+     52.524,
+     13.465
+    ],
+    [
+     52.514,
+     13.475
+    ],
+    [
+     52.503,
+     13.469
+    ],
+    [
+     52.4935,
+     13.462
+    ],
+    [
+     52.473,
+     13.455
+    ],
+    [
+     52.469,
+     13.442
+    ],
+    [
+     52.4675,
+     13.431
+    ],
+    [
+     52.47,
+     13.385
+    ],
+    [
+     52.475,
+     13.365
+    ],
+    [
+     52.4795,
+     13.352
+    ],
+    [
+     52.4785,
+     13.342
+    ],
+    [
+     52.4775,
+     13.329
+    ],
+    [
+     52.48,
+     13.312
+    ],
+    [
+     52.489,
+     13.3
+    ],
+    [
+     52.496,
+     13.29
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.5236,
+      13.3755
+     ],
+     [
+      52.527,
+      13.3792
+     ],
+     [
+      52.5276,
+      13.3875
+     ],
+     [
+      52.5297,
+      13.4015
+     ],
+     [
+      52.529,
+      13.4135
+     ],
+     [
+      52.5262,
+      13.4245
+     ],
+     [
+      52.5222,
+      13.429
+     ],
+     [
+      52.5168,
+      13.4385
+     ],
+     [
+      52.512,
+      13.444
+     ],
+     [
+      52.504,
+      13.4448
+     ],
+     [
+      52.5003,
+      13.4425
+     ],
+     [
+      52.499,
+      13.418
+     ],
+     [
+      52.4975,
+      13.3915
+     ],
+     [
+      52.5032,
+      13.3815
+     ],
+     [
+      52.5093,
+      13.377
+     ],
+     [
+      52.5164,
+      13.3772
+     ],
+     [
+      52.5198,
+      13.3768
+     ]
+    ],
+    [
+     [
+      52.5085,
+      13.3765
+     ],
+     [
+      52.5195,
+      13.3762
+     ],
+     [
+      52.5205,
+      13.36
+     ],
+     [
+      52.518,
+      13.342
+     ],
+     [
+      52.5115,
+      13.337
+     ],
+     [
+      52.5075,
+      13.345
+     ],
+     [
+      52.507,
+      13.365
+     ]
+    ],
+    [
+     [
+      52.468,
+      13.392
+     ],
+     [
+      52.4815,
+      13.39
+     ],
+     [
+      52.4825,
+      13.415
+     ],
+     [
+      52.469,
+      13.4185
+     ]
+    ],
+    [
+     [
+      52.513,
+      13.292
+     ],
+     [
+      52.5195,
+      13.292
+     ],
+     [
+      52.5195,
+      13.315
+     ],
+     [
+      52.513,
+      13.315
+     ]
+    ]
+   ],
+   "from": 1862,
+   "to": 1914,
+   "density": 0.85,
+   "grain_m": 70,
+   "grow_from": [
+    52.5165,
+    13.406
+   ],
+   "fade": [
+    1944.0,
+    1945.4,
+    0.6
+   ]
+  },
+  {
+   "name": "Greater Berlin suburbs",
+   "style": "suburb",
+   "poly": [
+    [
+     52.66,
+     13.31
+    ],
+    [
+     52.64,
+     13.4
+    ],
+    [
+     52.63,
+     13.49
+    ],
+    [
+     52.59,
+     13.56
+    ],
+    [
+     52.56,
+     13.64
+    ],
+    [
+     52.5,
+     13.67
+    ],
+    [
+     52.45,
+     13.75
+    ],
+    [
+     52.4,
+     13.73
+    ],
+    [
+     52.38,
+     13.64
+    ],
+    [
+     52.39,
+     13.52
+    ],
+    [
+     52.37,
+     13.43
+    ],
+    [
+     52.39,
+     13.34
+    ],
+    [
+     52.4,
+     13.24
+    ],
+    [
+     52.4,
+     13.12
+    ],
+    [
+     52.43,
+     13.11
+    ],
+    [
+     52.49,
+     13.12
+    ],
+    [
+     52.55,
+     13.13
+    ],
+    [
+     52.59,
+     13.18
+    ],
+    [
+     52.63,
+     13.23
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.501,
+      13.283
+     ],
+     [
+      52.518,
+      13.285
+     ],
+     [
+      52.53,
+      13.3
+     ],
+     [
+      52.534,
+      13.329
+     ],
+     [
+      52.537,
+      13.344
+     ],
+     [
+      52.543,
+      13.366
+     ],
+     [
+      52.5487,
+      13.3885
+     ],
+     [
+      52.549,
+      13.414
+     ],
+     [
+      52.545,
+      13.427
+     ],
+     [
+      52.54,
+      13.439
+     ],
+     [
+      52.529,
+      13.456
+     ],
+     [
+      52.524,
+      13.465
+     ],
+     [
+      52.514,
+      13.475
+     ],
+     [
+      52.503,
+      13.469
+     ],
+     [
+      52.4935,
+      13.462
+     ],
+     [
+      52.473,
+      13.455
+     ],
+     [
+      52.469,
+      13.442
+     ],
+     [
+      52.4675,
+      13.431
+     ],
+     [
+      52.47,
+      13.385
+     ],
+     [
+      52.475,
+      13.365
+     ],
+     [
+      52.4795,
+      13.352
+     ],
+     [
+      52.4785,
+      13.342
+     ],
+     [
+      52.4775,
+      13.329
+     ],
+     [
+      52.48,
+      13.312
+     ],
+     [
+      52.489,
+      13.3
+     ],
+     [
+      52.496,
+      13.29
+     ]
+    ],
+    [
+     [
+      52.43,
+      13.19
+     ],
+     [
+      52.5,
+      13.21
+     ],
+     [
+      52.495,
+      13.265
+     ],
+     [
+      52.46,
+      13.27
+     ],
+     [
+      52.43,
+      13.235
+     ]
+    ],
+    [
+     [
+      52.58,
+      13.22
+     ],
+     [
+      52.63,
+      13.23
+     ],
+     [
+      52.625,
+      13.28
+     ],
+     [
+      52.585,
+      13.285
+     ]
+    ],
+    [
+     [
+      52.38,
+      13.6
+     ],
+     [
+      52.44,
+      13.6
+     ],
+     [
+      52.45,
+      13.73
+     ],
+     [
+      52.39,
+      13.72
+     ]
+    ],
+    [
+     [
+      52.468,
+      13.392
+     ],
+     [
+      52.4815,
+      13.39
+     ],
+     [
+      52.4825,
+      13.415
+     ],
+     [
+      52.469,
+      13.4185
+     ]
+    ]
+   ],
+   "from": 1895,
+   "to": 1939,
+   "density": 0.42,
+   "grain_m": 200,
+   "grow_from": [
+    52.5165,
+    13.406
+   ]
+  },
+  {
+   "name": "Postwar rebuilding (centre)",
+   "style": "modern",
+   "poly": [
+    [
+     52.5236,
+     13.3755
+    ],
+    [
+     52.527,
+     13.3792
+    ],
+    [
+     52.5276,
+     13.3875
+    ],
+    [
+     52.5297,
+     13.4015
+    ],
+    [
+     52.529,
+     13.4135
+    ],
+    [
+     52.5262,
+     13.4245
+    ],
+    [
+     52.5222,
+     13.429
+    ],
+    [
+     52.5168,
+     13.4385
+    ],
+    [
+     52.512,
+     13.444
+    ],
+    [
+     52.504,
+     13.4448
+    ],
+    [
+     52.5003,
+     13.4425
+    ],
+    [
+     52.499,
+     13.418
+    ],
+    [
+     52.4975,
+     13.3915
+    ],
+    [
+     52.5032,
+     13.3815
+    ],
+    [
+     52.5093,
+     13.377
+    ],
+    [
+     52.5164,
+     13.3772
+    ],
+    [
+     52.5198,
+     13.3768
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.5085,
+      13.3765
+     ],
+     [
+      52.5195,
+      13.3762
+     ],
+     [
+      52.5205,
+      13.36
+     ],
+     [
+      52.518,
+      13.342
+     ],
+     [
+      52.5115,
+      13.337
+     ],
+     [
+      52.5075,
+      13.345
+     ],
+     [
+      52.507,
+      13.365
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 1975,
+   "density": 0.7,
+   "grain_m": 75,
+   "grow_from": [
+    52.5165,
+    13.406
+   ]
+  },
+  {
+   "name": "Postwar rebuilding (ring)",
+   "style": "modern",
+   "poly": [
+    [
+     52.501,
+     13.283
+    ],
+    [
+     52.518,
+     13.285
+    ],
+    [
+     52.53,
+     13.3
+    ],
+    [
+     52.534,
+     13.329
+    ],
+    [
+     52.537,
+     13.344
+    ],
+    [
+     52.543,
+     13.366
+    ],
+    [
+     52.5487,
+     13.3885
+    ],
+    [
+     52.549,
+     13.414
+    ],
+    [
+     52.545,
+     13.427
+    ],
+    [
+     52.54,
+     13.439
+    ],
+    [
+     52.529,
+     13.456
+    ],
+    [
+     52.524,
+     13.465
+    ],
+    [
+     52.514,
+     13.475
+    ],
+    [
+     52.503,
+     13.469
+    ],
+    [
+     52.4935,
+     13.462
+    ],
+    [
+     52.473,
+     13.455
+    ],
+    [
+     52.469,
+     13.442
+    ],
+    [
+     52.4675,
+     13.431
+    ],
+    [
+     52.47,
+     13.385
+    ],
+    [
+     52.475,
+     13.365
+    ],
+    [
+     52.4795,
+     13.352
+    ],
+    [
+     52.4785,
+     13.342
+    ],
+    [
+     52.4775,
+     13.329
+    ],
+    [
+     52.48,
+     13.312
+    ],
+    [
+     52.489,
+     13.3
+    ],
+    [
+     52.496,
+     13.29
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.5236,
+      13.3755
+     ],
+     [
+      52.527,
+      13.3792
+     ],
+     [
+      52.5276,
+      13.3875
+     ],
+     [
+      52.5297,
+      13.4015
+     ],
+     [
+      52.529,
+      13.4135
+     ],
+     [
+      52.5262,
+      13.4245
+     ],
+     [
+      52.5222,
+      13.429
+     ],
+     [
+      52.5168,
+      13.4385
+     ],
+     [
+      52.512,
+      13.444
+     ],
+     [
+      52.504,
+      13.4448
+     ],
+     [
+      52.5003,
+      13.4425
+     ],
+     [
+      52.499,
+      13.418
+     ],
+     [
+      52.4975,
+      13.3915
+     ],
+     [
+      52.5032,
+      13.3815
+     ],
+     [
+      52.5093,
+      13.377
+     ],
+     [
+      52.5164,
+      13.3772
+     ],
+     [
+      52.5198,
+      13.3768
+     ]
+    ],
+    [
+     [
+      52.5085,
+      13.3765
+     ],
+     [
+      52.5195,
+      13.3762
+     ],
+     [
+      52.5205,
+      13.36
+     ],
+     [
+      52.518,
+      13.342
+     ],
+     [
+      52.5115,
+      13.337
+     ],
+     [
+      52.5075,
+      13.345
+     ],
+     [
+      52.507,
+      13.365
+     ]
+    ],
+    [
+     [
+      52.468,
+      13.392
+     ],
+     [
+      52.4815,
+      13.39
+     ],
+     [
+      52.4825,
+      13.415
+     ],
+     [
+      52.469,
+      13.4185
+     ]
+    ]
+   ],
+   "from": 1950,
+   "to": 1980,
+   "density": 0.75,
+   "grain_m": 95,
+   "grow_from": [
+    52.5165,
+    13.406
+   ]
+  },
+  {
+   "name": "Postwar housing estates (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     52.66,
+     13.31
+    ],
+    [
+     52.64,
+     13.4
+    ],
+    [
+     52.63,
+     13.49
+    ],
+    [
+     52.59,
+     13.56
+    ],
+    [
+     52.56,
+     13.64
+    ],
+    [
+     52.5,
+     13.67
+    ],
+    [
+     52.45,
+     13.75
+    ],
+    [
+     52.4,
+     13.73
+    ],
+    [
+     52.38,
+     13.64
+    ],
+    [
+     52.39,
+     13.52
+    ],
+    [
+     52.37,
+     13.43
+    ],
+    [
+     52.39,
+     13.34
+    ],
+    [
+     52.4,
+     13.24
+    ],
+    [
+     52.4,
+     13.12
+    ],
+    [
+     52.43,
+     13.11
+    ],
+    [
+     52.49,
+     13.12
+    ],
+    [
+     52.55,
+     13.13
+    ],
+    [
+     52.59,
+     13.18
+    ],
+    [
+     52.63,
+     13.23
+    ]
+   ],
+   "holes": [
+    [
+     [
+      52.501,
+      13.283
+     ],
+     [
+      52.518,
+      13.285
+     ],
+     [
+      52.53,
+      13.3
+     ],
+     [
+      52.534,
+      13.329
+     ],
+     [
+      52.537,
+      13.344
+     ],
+     [
+      52.543,
+      13.366
+     ],
+     [
+      52.5487,
+      13.3885
+     ],
+     [
+      52.549,
+      13.414
+     ],
+     [
+      52.545,
+      13.427
+     ],
+     [
+      52.54,
+      13.439
+     ],
+     [
+      52.529,
+      13.456
+     ],
+     [
+      52.524,
+      13.465
+     ],
+     [
+      52.514,
+      13.475
+     ],
+     [
+      52.503,
+      13.469
+     ],
+     [
+      52.4935,
+      13.462
+     ],
+     [
+      52.473,
+      13.455
+     ],
+     [
+      52.469,
+      13.442
+     ],
+     [
+      52.4675,
+      13.431
+     ],
+     [
+      52.47,
+      13.385
+     ],
+     [
+      52.475,
+      13.365
+     ],
+     [
+      52.4795,
+      13.352
+     ],
+     [
+      52.4785,
+      13.342
+     ],
+     [
+      52.4775,
+      13.329
+     ],
+     [
+      52.48,
+      13.312
+     ],
+     [
+      52.489,
+      13.3
+     ],
+     [
+      52.496,
+      13.29
+     ]
+    ],
+    [
+     [
+      52.43,
+      13.19
+     ],
+     [
+      52.5,
+      13.21
+     ],
+     [
+      52.495,
+      13.265
+     ],
+     [
+      52.46,
+      13.27
+     ],
+     [
+      52.43,
+      13.235
+     ]
+    ],
+    [
+     [
+      52.58,
+      13.22
+     ],
+     [
+      52.63,
+      13.23
+     ],
+     [
+      52.625,
+      13.28
+     ],
+     [
+      52.585,
+      13.285
+     ]
+    ],
+    [
+     [
+      52.38,
+      13.6
+     ],
+     [
+      52.44,
+      13.6
+     ],
+     [
+      52.45,
+      13.73
+     ],
+     [
+      52.39,
+      13.72
+     ]
+    ],
+    [
+     [
+      52.468,
+      13.392
+     ],
+     [
+      52.4815,
+      13.39
+     ],
+     [
+      52.4825,
+      13.415
+     ],
+     [
+      52.469,
+      13.4185
+     ]
+    ]
+   ],
+   "from": 1955,
+   "to": 1990,
+   "density": 0.3,
+   "grain_m": 230,
+   "grow_from": [
+    52.5165,
+    13.406
+   ]
+  },
+  {
+   "name": "Potsdamer Platz",
+   "style": "highrise",
+   "poly": [
+    [
+     52.506,
+     13.37
+    ],
+    [
+     52.511,
+     13.37
+    ],
+    [
+     52.5112,
+     13.3785
+    ],
+    [
+     52.5062,
+     13.3785
+    ]
+   ],
+   "from": 1996,
+   "to": 2000,
+   "density": 0.75,
+   "grain_m": 70,
+   "grow_from": [
+    52.50889,
+    13.37639
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Medieval wall (Berlin)",
+   "path": [
+    [
+     52.5214,
+     13.4016
+    ],
+    [
+     52.5226,
+     13.406
+    ],
+    [
+     52.5224,
+     13.4112
+    ],
+    [
+     52.5195,
+     13.4135
+    ],
+    [
+     52.516,
+     13.414
+    ],
+    [
+     52.5133,
+     13.4118
+    ]
+   ],
+   "built": 1250,
+   "height": "mid",
+   "towers_m": 70,
+   "draw_s": 3.0,
+   "removed": 1660
+  },
+  {
+   "name": "Medieval wall (Cölln)",
+   "path": [
+    [
+     52.51,
+     13.4088
+    ],
+    [
+     52.5112,
+     13.4045
+    ],
+    [
+     52.513,
+     13.4006
+    ],
+    [
+     52.5161,
+     13.399
+    ],
+    [
+     52.5167,
+     13.404
+    ],
+    [
+     52.5171,
+     13.4058
+    ]
+   ],
+   "built": 1250,
+   "height": "mid",
+   "towers_m": 70,
+   "draw_s": 3.0,
+   "removed": 1660
+  },
+  {
+   "name": "Fortress (north)",
+   "path": [
+    [
+     52.5228,
+     13.399
+    ],
+    [
+     52.524,
+     13.406
+    ],
+    [
+     52.5236,
+     13.413
+    ],
+    [
+     52.5205,
+     13.4165
+    ],
+    [
+     52.516,
+     13.417
+    ],
+    [
+     52.5126,
+     13.4148
+    ]
+   ],
+   "built": 1658,
+   "height": "high",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1745,
+   "moat": true
+  },
+  {
+   "name": "Fortress (south and Friedrichswerder)",
+   "path": [
+    [
+     52.5092,
+     13.4112
+    ],
+    [
+     52.5094,
+     13.404
+    ],
+    [
+     52.5112,
+     13.399
+    ],
+    [
+     52.5132,
+     13.395
+    ],
+    [
+     52.517,
+     13.394
+    ],
+    [
+     52.5198,
+     13.3962
+    ],
+    [
+     52.5212,
+     13.3985
+    ]
+   ],
+   "built": 1658,
+   "height": "high",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1745,
+   "moat": true
+  },
+  {
+   "name": "Customs wall (north)",
+   "path": [
+    [
+     52.5236,
+     13.3755
+    ],
+    [
+     52.527,
+     13.3792
+    ],
+    [
+     52.5276,
+     13.3875
+    ],
+    [
+     52.5297,
+     13.4015
+    ],
+    [
+     52.529,
+     13.4135
+    ],
+    [
+     52.5262,
+     13.4245
+    ],
+    [
+     52.5222,
+     13.429
+    ],
+    [
+     52.5168,
+     13.4385
+    ],
+    [
+     52.512,
+     13.444
+    ],
+    [
+     52.504,
+     13.4448
+    ]
+   ],
+   "built": 1735,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1868
+  },
+  {
+   "name": "Customs wall (south)",
+   "path": [
+    [
+     52.5003,
+     13.4425
+    ],
+    [
+     52.499,
+     13.418
+    ],
+    [
+     52.4975,
+     13.3915
+    ],
+    [
+     52.5032,
+     13.3815
+    ],
+    [
+     52.5093,
+     13.377
+    ],
+    [
+     52.5164,
+     13.3772
+    ],
+    [
+     52.5198,
+     13.3768
+    ]
+   ],
+   "built": 1735,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 4.0,
+   "removed": 1868
+  },
+  {
+   "name": "Berlin Wall",
+   "path": [
+    [
+     52.5545,
+     13.398
+    ],
+    [
+     52.5355,
+     13.3895
+    ],
+    [
+     52.5262,
+     13.3722
+    ],
+    [
+     52.5222,
+     13.3732
+    ],
+    [
+     52.5182,
+     13.379
+    ],
+    [
+     52.5163,
+     13.3792
+    ],
+    [
+     52.5093,
+     13.3792
+    ],
+    [
+     52.5068,
+     13.3832
+    ],
+    [
+     52.5075,
+     13.3904
+    ],
+    [
+     52.508,
+     13.404
+    ],
+    [
+     52.5066,
+     13.416
+    ],
+    [
+     52.5105,
+     13.427
+    ],
+    [
+     52.5022,
+     13.446
+    ],
+    [
+     52.496,
+     13.461
+    ],
+    [
+     52.473,
+     13.472
+    ],
+    [
+     52.413,
+     13.49
+    ],
+    [
+     52.385,
+     13.41
+    ],
+    [
+     52.395,
+     13.285
+    ],
+    [
+     52.41,
+     13.23
+    ],
+    [
+     52.395,
+     13.125
+    ],
+    [
+     52.4135,
+     13.0905
+    ],
+    [
+     52.43,
+     13.1
+    ],
+    [
+     52.47,
+     13.108
+    ],
+    [
+     52.535,
+     13.125
+    ],
+    [
+     52.62,
+     13.205
+    ],
+    [
+     52.65,
+     13.295
+    ],
+    [
+     52.625,
+     13.36
+    ],
+    [
+     52.59,
+     13.38
+    ],
+    [
+     52.5545,
+     13.398
+    ]
+   ],
+   "built": 1961.62,
+   "height": "low",
+   "towers_m": 900,
+   "draw_s": 5.0,
+   "removed": 1990.6
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Lange Brücke (≈)",
+   "path": [
+    [
+     52.5172,
+     13.4049
+    ],
+    [
+     52.518,
+     13.4068
+    ]
+   ],
+   "built": 1695,
+   "style": "stone",
+   "width_m": 18
+  },
+  {
+   "name": "Oberbaum Bridge (≈)",
+   "path": [
+    [
+     52.5032,
+     13.4462
+    ],
+    [
+     52.5007,
+     13.444
+    ]
+   ],
+   "built": 1896,
+   "style": "stone",
+   "width_m": 26
+  }
+ ],
+ "roads": [
+  {
+   "name": "Unter den Linden",
+   "path": [
+    [
+     52.5172,
+     13.3995
+    ],
+    [
+     52.517,
+     13.39
+    ],
+    [
+     52.5166,
+     13.3795
+    ]
+   ],
+   "from": 1647,
+   "kind": "avenue",
+   "width_m": 40,
+   "draw_s": 3
+  },
+  {
+   "name": "Berlin–Potsdam railway (≈)",
+   "path": [
+    [
+     52.506,
+     13.376
+    ],
+    [
+     52.49,
+     13.36
+    ],
+    [
+     52.46,
+     13.32
+    ],
+    [
+     52.43,
+     13.26
+    ],
+    [
+     52.41,
+     13.18
+    ],
+    [
+     52.395,
+     13.095
+    ]
+   ],
+   "from": 1838.8,
+   "kind": "rail",
+   "width_m": 22
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "church",
+   "name": {
+    "en": "St Nicholas' Church",
+    "tr": "Aziz Nikolaus Kilisesi"
+   },
+   "at": [
+    52.5168,
+    13.40755
+   ],
+   "built": 1225,
+   "rise_s": 6,
+   "size_m": [
+    55,
+    24,
+    22
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d9c7a8",
+    "roof": "#6a5f55"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "St Mary's Church",
+    "tr": "Aziz Meryem Kilisesi"
+   },
+   "at": [
+    52.52056,
+    13.40667
+   ],
+   "built": 1292,
+   "rise_s": 5,
+   "size_m": [
+    60,
+    25,
+    22
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#c98f6a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Elector's castle",
+    "tr": "Prens-seçicinin kalesi"
+   },
+   "at": [
+    52.5175,
+    13.40278
+   ],
+   "built": 1443,
+   "removed": 1689,
+   "rise_s": 6,
+   "size_m": [
+    90,
+    60,
+    22
+   ],
+   "colors": {
+    "wall": "#d9cfb6"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Berlin Palace",
+    "tr": "Berlin Sarayı"
+   },
+   "at": [
+    52.5175,
+    13.40278
+   ],
+   "built": 1689,
+   "removed": 1950.75,
+   "rise_s": 12,
+   "size_m": [
+    190,
+    115,
+    30
+   ],
+   "rot_deg": -30,
+   "colors": {
+    "wall": "#e6dcc4",
+    "roof": "#6f7a7f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Palace of the Republic (≈)",
+    "tr": "Cumhuriyet Sarayı (≈)"
+   },
+   "at": [
+    52.5176,
+    13.4036
+   ],
+   "built": 1973,
+   "removed": 2006.2,
+   "rise_s": 6,
+   "size_m": [
+    180,
+    85,
+    32
+   ],
+   "rot_deg": -30,
+   "colors": {
+    "wall": "#9a7a4a",
+    "roof": "#3f4448"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Humboldt Forum",
+    "tr": "Humboldt Forum"
+   },
+   "at": [
+    52.5175,
+    13.40278
+   ],
+   "built": 2013.45,
+   "rise_s": 30,
+   "size_m": [
+    190,
+    115,
+    30
+   ],
+   "rot_deg": -30,
+   "colors": {
+    "wall": "#e6dcc4",
+    "roof": "#6f7a7f"
+   }
+  },
+  {
+   "type": "domechurch",
+   "name": {
+    "en": "Berlin Cathedral (≈)",
+    "tr": "Berlin Katedrali (≈)"
+   },
+   "at": [
+    52.5191,
+    13.4011
+   ],
+   "built": 1894,
+   "rise_s": 14,
+   "size_m": [
+    114,
+    73,
+    60
+   ],
+   "scale": 1.2,
+   "colors": {
+    "wall": "#cfc6b3",
+    "dome": "#5f8c7a",
+    "lantern": true
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Brandenburg Gate",
+    "tr": "Brandenburg Kapısı"
+   },
+   "at": [
+    52.51639,
+    13.37778
+   ],
+   "built": 1788,
+   "rise_s": 10,
+   "size_m": [
+    63,
+    11,
+    26
+   ],
+   "scale": 1.4,
+   "rot_deg": 90,
+   "colors": {
+    "wall": "#e6dfcf",
+    "roof": "#6f8f6c"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Charlottenburg Palace",
+    "tr": "Charlottenburg Sarayı"
+   },
+   "at": [
+    52.52083,
+    13.29583
+   ],
+   "built": 1695,
+   "rise_s": 10,
+   "size_m": [
+    200,
+    60,
+    24
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#e8d9a8",
+    "roof": "#5f8c7a"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Red Town Hall",
+    "tr": "Kızıl Belediye Binası"
+   },
+   "at": [
+    52.51861,
+    13.40833
+   ],
+   "built": 1861,
+   "rise_s": 12,
+   "size_m": [
+    100,
+    90,
+    30
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#b35a3c",
+    "roof": "#5a4a44"
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Victory Column (Königsplatz)",
+    "tr": "Zafer Sütunu (Königsplatz)"
+   },
+   "at": [
+    52.5186,
+    13.3725
+   ],
+   "built": 1873.67,
+   "removed": 1938.5,
+   "rise_s": 6,
+   "size_m": [
+    8,
+    8,
+    60
+   ],
+   "colors": {
+    "wall": "#d8cfbd",
+    "top": "#c9a94a"
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Victory Column",
+    "tr": "Zafer Sütunu"
+   },
+   "at": [
+    52.51444,
+    13.35
+   ],
+   "built": 1939.3,
+   "rise_s": 3,
+   "size_m": [
+    8,
+    8,
+    67
+   ],
+   "colors": {
+    "wall": "#d8cfbd",
+    "top": "#c9a94a"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Reichstag",
+    "tr": "Reichstag"
+   },
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "built": 1884.45,
+   "rise_s": 20,
+   "size_m": [
+    137,
+    97,
+    40
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#cbc2ad",
+    "roof": "#5c6a70"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Kaiser Wilhelm Memorial Church",
+    "tr": "Kaiser Wilhelm Anıt Kilisesi"
+   },
+   "at": [
+    52.505,
+    13.335
+   ],
+   "built": 1891.2,
+   "removed": 1943.89,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    30,
+    40
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#b8a88e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Memorial church ruin",
+    "tr": "Anıt kilise kalıntısı"
+   },
+   "at": [
+    52.505,
+    13.335
+   ],
+   "built": 1943.9,
+   "rise_s": 0.3,
+   "size_m": [
+    16,
+    16,
+    50
+   ],
+   "colors": {
+    "wall": "#6e675c",
+    "roof": "#4a4540"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Tempelhof terminal",
+    "tr": "Tempelhof terminali"
+   },
+   "at": [
+    52.4825,
+    13.392
+   ],
+   "built": 1936.3,
+   "rise_s": 10,
+   "size_m": [
+    900,
+    50,
+    22
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#cfc5b0",
+    "roof": "#7a7f80"
+   }
+  },
+  {
+   "type": "stadium",
+   "name": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    52.51472,
+    13.23944
+   ],
+   "built": 1934.3,
+   "rise_s": 10,
+   "size_m": [
+    300,
+    230,
+    18
+   ],
+   "scale": 1.2,
+   "colors": {
+    "wall": "#cfc6b3"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "TV tower",
+    "tr": "Televizyon kulesi"
+   },
+   "at": [
+    52.52083,
+    13.40944
+   ],
+   "built": 1965.6,
+   "rise_s": 12,
+   "size_m": [
+    20,
+    20,
+    260
+   ],
+   "colors": {
+    "wall": "#d8d8d4",
+    "roof": "#c9c9c4"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Potsdamer Platz tower",
+    "tr": "Potsdamer Platz kulesi"
+   },
+   "at": [
+    52.5098,
+    13.3762
+   ],
+   "built": 1997,
+   "rise_s": 5,
+   "size_m": [
+    40,
+    30,
+    103
+   ],
+   "colors": {
+    "wall": "#9a5a48"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Sony Center tower (≈)",
+    "tr": "Sony Center kulesi (≈)"
+   },
+   "at": [
+    52.51,
+    13.3735
+   ],
+   "built": 1998.5,
+   "rise_s": 5,
+   "size_m": [
+    40,
+    30,
+    103
+   ],
+   "colors": {
+    "wall": "#7f8d95"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Hauptbahnhof",
+    "tr": "Hauptbahnhof"
+   },
+   "at": [
+    52.525,
+    13.36944
+   ],
+   "built": 2005.5,
+   "rise_s": 8,
+   "size_m": [
+    320,
+    90,
+    30
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d9d9d9",
+    "roof": "#8a949b"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "BER terminal",
+    "tr": "BER terminali"
+   },
+   "at": [
+    52.36667,
+    13.50333
+   ],
+   "built": 2019.5,
+   "rise_s": 6,
+   "size_m": [
+    400,
+    220,
+    26
+   ],
+   "colors": {
+    "wall": "#d6d3cb",
+    "roof": "#8a949b"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1380.3,
+   "poly": [
+    [
+     52.515,
+     13.4092
+    ],
+    [
+     52.5175,
+     13.4072
+    ],
+    [
+     52.52,
+     13.404
+    ],
+    [
+     52.5214,
+     13.4018
+    ],
+    [
+     52.5226,
+     13.406
+    ],
+    [
+     52.5224,
+     13.4112
+    ],
+    [
+     52.516,
+     13.414
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     52.524,
+     13.42
+    ],
+    [
+     52.532,
+     13.42
+    ],
+    [
+     52.532,
+     13.44
+    ],
+    [
+     52.524,
+     13.44
+    ]
+   ],
+   "from": 1945.29,
+   "to": 1945.38,
+   "count": 160
+  },
+  {
+   "poly": [
+    [
+     52.495,
+     13.43
+    ],
+    [
+     52.505,
+     13.43
+    ],
+    [
+     52.505,
+     13.455
+    ],
+    [
+     52.495,
+     13.455
+    ]
+   ],
+   "from": 1945.29,
+   "to": 1945.38,
+   "count": 120
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "from": 1933.15,
+   "to": 1933.3,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    52.515,
+    13.395
+   ],
+   "from": 1943.88,
+   "to": 1945.25,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    52.5,
+    13.42
+   ],
+   "from": 1943.95,
+   "to": 1945.25,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    52.53,
+    13.36
+   ],
+   "from": 1944.1,
+   "to": 1945.25,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    52.517,
+    13.39
+   ],
+   "from": 1945.29,
+   "to": 1945.4,
+   "scale": 1.5
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Tiergarten (≈)",
+   "poly": [
+    [
+     52.5085,
+     13.3765
+    ],
+    [
+     52.5195,
+     13.3762
+    ],
+    [
+     52.5205,
+     13.36
+    ],
+    [
+     52.518,
+     13.342
+    ],
+    [
+     52.5115,
+     13.337
+    ],
+    [
+     52.5075,
+     13.345
+    ],
+    [
+     52.507,
+     13.365
+    ]
+   ]
+  },
+  {
+   "name": "Tempelhofer Feld (≈)",
+   "poly": [
+    [
+     52.468,
+     13.392
+    ],
+    [
+     52.4815,
+     13.39
+    ],
+    [
+     52.4825,
+     13.415
+    ],
+    [
+     52.469,
+     13.4185
+    ]
+   ]
+  },
+  {
+   "name": "Grunewald (≈)",
+   "poly": [
+    [
+     52.43,
+     13.19
+    ],
+    [
+     52.5,
+     13.21
+    ],
+    [
+     52.495,
+     13.265
+    ],
+    [
+     52.46,
+     13.27
+    ],
+    [
+     52.43,
+     13.235
+    ]
+   ]
+  },
+  {
+   "name": "Tegel forest (≈)",
+   "poly": [
+    [
+     52.58,
+     13.22
+    ],
+    [
+     52.63,
+     13.23
+    ],
+    [
+     52.625,
+     13.28
+    ],
+    [
+     52.585,
+     13.285
+    ]
+   ]
+  },
+  {
+   "name": "Köpenick forest (≈)",
+   "poly": [
+    [
+     52.38,
+     13.6
+    ],
+    [
+     52.44,
+     13.6
+    ],
+    [
+     52.45,
+     13.73
+    ],
+    [
+     52.39,
+     13.72
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "SPREE",
+    "tr": "SPREE"
+   },
+   "at": [
+    52.505,
+    13.44
+   ],
+   "kind": "water",
+   "from": 650
+  },
+  {
+   "text": {
+    "en": "HAVEL",
+    "tr": "HAVEL"
+   },
+   "at": [
+    52.47,
+    13.165
+   ],
+   "kind": "water",
+   "from": 650,
+   "to": 1500
+  },
+  {
+   "text": {
+    "en": "Spandau",
+    "tr": "Spandau"
+   },
+   "at": [
+    52.5375,
+    13.203
+   ],
+   "kind": "place",
+   "from": 650,
+   "to": 1156
+  },
+  {
+   "text": {
+    "en": "Köpenick",
+    "tr": "Köpenick"
+   },
+   "at": [
+    52.445,
+    13.575
+   ],
+   "kind": "place",
+   "from": 650,
+   "to": 1156
+  },
+  {
+   "text": {
+    "en": "BRANDENBURG",
+    "tr": "BRANDENBURG"
+   },
+   "at": [
+    52.47,
+    13.35
+   ],
+   "kind": "region",
+   "from": 1157,
+   "to": 1182
+  },
+  {
+   "text": {
+    "en": "Petriplatz",
+    "tr": "Petriplatz"
+   },
+   "at": [
+    52.512,
+    13.4035
+   ],
+   "kind": "place",
+   "from": 1183,
+   "to": 1219
+  },
+  {
+   "text": {
+    "en": "St Nicholas'",
+    "tr": "Aziz Nikolaus"
+   },
+   "at": [
+    52.5168,
+    13.40755
+   ],
+   "from": 1225,
+   "to": 1236,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "CÖLLN",
+    "tr": "CÖLLN"
+   },
+   "at": [
+    52.5125,
+    13.403
+   ],
+   "kind": "region",
+   "from": 1237,
+   "to": 1306
+  },
+  {
+   "text": {
+    "en": "BERLIN",
+    "tr": "BERLIN"
+   },
+   "at": [
+    52.5195,
+    13.41
+   ],
+   "kind": "region",
+   "from": 1244,
+   "to": 1306
+  },
+  {
+   "text": {
+    "en": "St Mary's",
+    "tr": "Aziz Meryem"
+   },
+   "at": [
+    52.52056,
+    13.40667
+   ],
+   "from": 1292,
+   "to": 1306,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Castle",
+    "tr": "Kale"
+   },
+   "at": [
+    52.5175,
+    13.40278
+   ],
+   "from": 1444,
+   "to": 1485,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Tiergarten",
+    "tr": "Tiergarten"
+   },
+   "at": [
+    52.514,
+    13.355
+   ],
+   "kind": "place",
+   "from": 1530,
+   "to": 1538
+  },
+  {
+   "text": {
+    "en": "UNTER DEN LINDEN",
+    "tr": "UNTER DEN LINDEN"
+   },
+   "at": [
+    52.516,
+    13.388
+   ],
+   "kind": "region",
+   "from": 1647,
+   "to": 1649
+  },
+  {
+   "text": {
+    "en": "FRIEDRICHSWERDER",
+    "tr": "FRIEDRICHSWERDER"
+   },
+   "at": [
+    52.515,
+    13.3965
+   ],
+   "kind": "region",
+   "from": 1660,
+   "to": 1673
+  },
+  {
+   "text": {
+    "en": "DOROTHEENSTADT",
+    "tr": "DOROTHEENSTADT"
+   },
+   "at": [
+    52.5185,
+    13.386
+   ],
+   "kind": "region",
+   "from": 1674,
+   "to": 1684
+  },
+  {
+   "text": {
+    "en": "FRIEDRICHSTADT",
+    "tr": "FRIEDRICHSTADT"
+   },
+   "at": [
+    52.507,
+    13.39
+   ],
+   "kind": "region",
+   "from": 1688,
+   "to": 1700
+  },
+  {
+   "text": {
+    "en": "Charlottenburg",
+    "tr": "Charlottenburg"
+   },
+   "at": [
+    52.52083,
+    13.29583
+   ],
+   "from": 1696,
+   "to": 1700,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "CUSTOMS WALL",
+    "tr": "GÜMRÜK DUVARI"
+   },
+   "at": [
+    52.499,
+    13.405
+   ],
+   "kind": "region",
+   "from": 1734,
+   "to": 1739
+  },
+  {
+   "text": {
+    "en": "Brandenburg Gate",
+    "tr": "Brandenburg Kapısı"
+   },
+   "at": [
+    52.51639,
+    13.37778
+   ],
+   "from": 1789,
+   "to": 1809,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Potsdam",
+    "tr": "Potsdam"
+   },
+   "at": [
+    52.395,
+    13.095
+   ],
+   "kind": "place",
+   "from": 1838.8,
+   "to": 1847
+  },
+  {
+   "text": {
+    "en": "Moabit",
+    "tr": "Moabit"
+   },
+   "at": [
+    52.528,
+    13.34
+   ],
+   "kind": "place",
+   "from": 1860,
+   "to": 1861.9
+  },
+  {
+   "text": {
+    "en": "Wedding",
+    "tr": "Wedding"
+   },
+   "at": [
+    52.546,
+    13.362
+   ],
+   "kind": "place",
+   "from": 1860,
+   "to": 1861.9
+  },
+  {
+   "text": {
+    "en": "Red Town Hall",
+    "tr": "Kızıl Belediye"
+   },
+   "at": [
+    52.51861,
+    13.40833
+   ],
+   "from": 1866,
+   "to": 1870,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Victory Column",
+    "tr": "Zafer Sütunu"
+   },
+   "at": [
+    52.5186,
+    13.3725
+   ],
+   "from": 1874,
+   "to": 1883,
+   "lift_m": 80
+  },
+  {
+   "text": {
+    "en": "Reichstag",
+    "tr": "Reichstag"
+   },
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "from": 1888,
+   "to": 1901,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Reichstag",
+    "tr": "Reichstag"
+   },
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "from": 1918.85,
+   "to": 1919.8,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Tempelhof",
+    "tr": "Tempelhof"
+   },
+   "at": [
+    52.47361,
+    13.40167
+   ],
+   "kind": "place",
+   "from": 1923.8,
+   "to": 1932
+  },
+  {
+   "text": {
+    "en": "Spandau",
+    "tr": "Spandau"
+   },
+   "at": [
+    52.5375,
+    13.203
+   ],
+   "kind": "place",
+   "from": 1920.75,
+   "to": 1932
+  },
+  {
+   "text": {
+    "en": "Köpenick",
+    "tr": "Köpenick"
+   },
+   "at": [
+    52.445,
+    13.575
+   ],
+   "kind": "place",
+   "from": 1920.75,
+   "to": 1932
+  },
+  {
+   "text": {
+    "en": "Reichstag",
+    "tr": "Reichstag"
+   },
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "from": 1933,
+   "to": 1935,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Olympic Stadium",
+    "tr": "Olimpiyat Stadı"
+   },
+   "at": [
+    52.51472,
+    13.23944
+   ],
+   "from": 1936.4,
+   "to": 1938.8,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "WEST BERLIN",
+    "tr": "BATI BERLİN"
+   },
+   "at": [
+    52.49,
+    13.27
+   ],
+   "kind": "region",
+   "from": 1948.48,
+   "to": 1990.6
+  },
+  {
+   "text": {
+    "en": "EAST BERLIN",
+    "tr": "DOĞU BERLİN"
+   },
+   "at": [
+    52.53,
+    13.49
+   ],
+   "kind": "region",
+   "from": 1949.8,
+   "to": 1990.6
+  },
+  {
+   "text": {
+    "en": "Tempelhof",
+    "tr": "Tempelhof"
+   },
+   "at": [
+    52.47361,
+    13.40167
+   ],
+   "kind": "place",
+   "from": 1948.48,
+   "to": 1949.4
+  },
+  {
+   "text": {
+    "en": "Palace",
+    "tr": "Saray"
+   },
+   "at": [
+    52.5175,
+    13.40278
+   ],
+   "from": 1949.5,
+   "to": 1950.7,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "TV tower",
+    "tr": "Televizyon kulesi"
+   },
+   "at": [
+    52.52083,
+    13.40944
+   ],
+   "from": 1969.8,
+   "to": 1972,
+   "lift_m": 280
+  },
+  {
+   "text": {
+    "en": "Brandenburg Gate",
+    "tr": "Brandenburg Kapısı"
+   },
+   "at": [
+    52.51639,
+    13.37778
+   ],
+   "from": 1989.85,
+   "to": 1990.7,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Reichstag",
+    "tr": "Reichstag"
+   },
+   "at": [
+    52.51861,
+    13.37611
+   ],
+   "from": 1999.3,
+   "to": 2005,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Potsdamer Platz",
+    "tr": "Potsdamer Platz"
+   },
+   "at": [
+    52.50889,
+    13.37639
+   ],
+   "kind": "place",
+   "from": 1998,
+   "to": 2005
+  },
+  {
+   "text": {
+    "en": "Hauptbahnhof",
+    "tr": "Hauptbahnhof"
+   },
+   "at": [
+    52.525,
+    13.36944
+   ],
+   "from": 2006.4,
+   "to": 2019,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "BER",
+    "tr": "BER"
+   },
+   "at": [
+    52.36667,
+    13.50333
+   ],
+   "kind": "place",
+   "from": 2020.83,
+   "to": 2022
+  },
+  {
+   "text": {
+    "en": "TV tower",
+    "tr": "Televizyon kulesi"
+   },
+   "at": [
+    52.52083,
+    13.40944
+   ],
+   "from": 2023,
+   "lift_m": 280
+  },
+  {
+   "text": {
+    "en": "Tempelhofer Feld",
+    "tr": "Tempelhofer Feld"
+   },
+   "at": [
+    52.47361,
+    13.40167
+   ],
+   "kind": "place",
+   "from": 2023
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
+   "tr": "Berlin: 15 Dakikada 800 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "In 1237 a deed names a priest of Cölln, a small trading town on an island in the Spree; in 1244 its twin, Berlin, appears on the opposite bank. Watch the two towns unite, burn in 1380, become the seat of the Hohenzollerns, lose half their people in the Thirty Years' War, grow into a star fortress, a royal capital and an industrial giant, merge into Greater Berlin in 1920, fall in ruins in 1945, split by the Wall in 1961 and come together again in 1989–1990: the Berlin Palace, St Nicholas', the Brandenburg Gate, the Reichstag, the TV tower and Potsdamer Platz, with the year and the population on screen.",
+   "tr": "1237'de bir belge, Spree'deki bir adada küçük bir ticaret kasabası olan Cölln'den bir rahibi anar; 1244'te ikizi Berlin karşı kıyıda ortaya çıkar. İki kasabanın birleşmesini, 1380'de yanmasını, Hohenzollernlerin merkezi olmasını, Otuz Yıl Savaşları'nda halkının yarısını kaybetmesini, yıldız biçimli bir kaleye, kraliyet başkentine ve sanayi devine dönüşmesini, 1920'de Büyük Berlin'de birleşmesini, 1945'te harabeye dönmesini, 1961'de Duvar'la bölünmesini ve 1989–1990'da yeniden birleşmesini izleyin: Berlin Sarayı, Aziz Nikolaus, Brandenburg Kapısı, Reichstag, televizyon kulesi ve Potsdamer Platz; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "berlin history",
+   "history of berlin",
+   "berlin wall",
+   "brandenburg gate",
+   "3d timelapse",
+   "city evolution",
+   "how berlin grew",
+   "berlin timelapse",
+   "prussia",
+   "cölln",
+   "germany history",
+   "urban history",
+   "berlin geschichte",
+   "cold war berlin"
+  ],
+  "hashtags": [
+   "#Berlin",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "European cities rebuilt in 3D, from the first stone to the skyline.",
+   "tr": "Avrupa şehirleri 3D olarak, ilk taştan siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Berlin",
+    "tr": "Berlin"
+   },
+   "line2": {
+    "en": "800 YEARS",
+    "tr": "800 YIL"
+   },
+   "line3": {
+    "en": "From twin towns to world city",
+    "tr": "İkiz kasabalardan dünya şehrine"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=52.5160,13.3950,6.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Berlin"
+  },
+  {
+   "title": "Timeline of Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin"
+  },
+  {
+   "title": "Cölln — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B6lln"
+  },
+  {
+   "title": "Demographics of Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_Berlin"
+  },
+  {
+   "title": "Berlin population statistics — Cavacopedia (Wikipedia mirror)",
+   "url": "https://cavac.at/cavacopedia/Berlin%20population%20statistics"
+  },
+  {
+   "title": "Bevölkerungsfortschreibung 2025 — Amt für Statistik Berlin-Brandenburg",
+   "url": "https://www.statistik-berlin-brandenburg.de/presse/2026/73-bevoelkerungsfortschreibung-2025-berlin"
+  },
+  {
+   "title": "Berlin: History — Britannica",
+   "url": "https://www.britannica.com/place/Berlin/History"
+  },
+  {
+   "title": "The medieval trading center — berlin.de",
+   "url": "https://www.berlin.de/en/history/8476760-8619314-the-medieval-trading-center.en.html"
+  },
+  {
+   "title": "Greater Berlin Act — berlin.de",
+   "url": "https://www.berlin.de/en/history/8481401-8619314-gross-berlin-gesetz.en.html"
+  },
+  {
+   "title": "Berliner Stadtmauer — DeWiki (de.wikipedia mirror)",
+   "url": "https://dewiki.de/Lexikon/Berliner_Stadtmauer"
+  },
+  {
+   "title": "Stadtmauer — Landesdenkmalamt Berlin",
+   "url": "https://www.berlin.de/landesdenkmalamt/archaeologie/bodendenkmale/berliner-bodendenkmale/stadtmauer-653184.php"
+  },
+  {
+   "title": "Berlin Fortress — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Fortress"
+  },
+  {
+   "title": "Berlin Customs Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Customs_Wall"
+  },
+  {
+   "title": "Hobrecht-Plan — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hobrecht-Plan"
+  },
+  {
+   "title": "Greater Berlin Act — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Greater_Berlin_Act"
+  },
+  {
+   "title": "Bombing of Berlin in World War II — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bombing_of_Berlin_in_World_War_II"
+  },
+  {
+   "title": "Berlin Blockade — Wikiwand",
+   "url": "https://www.wikiwand.com/en/articles/Berlin_Airlift"
+  },
+  {
+   "title": "Berlin Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Wall"
+  },
+  {
+   "title": "Facts and figures — Mauermuseum (Haus am Checkpoint Charlie)",
+   "url": "https://www.mauermuseum.de/en/about-us/press/facts-and-figures/"
+  },
+  {
+   "title": "St. Nicholas Church, Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/St._Nicholas_Church,_Berlin"
+  },
+  {
+   "title": "St. Mary's Church, Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/St._Mary%27s_Church,_Berlin"
+  },
+  {
+   "title": "Berlin Palace — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Palace"
+  },
+  {
+   "title": "Berliner Dom — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berliner_Dom"
+  },
+  {
+   "title": "Brandenburg Gate — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+  },
+  {
+   "title": "Reichstag building — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Reichstag_building"
+  },
+  {
+   "title": "Berlin Victory Column — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Victory_Column"
+  },
+  {
+   "title": "Red Town Hall (Berlin) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Red_Town_Hall_(Berlin)"
+  },
+  {
+   "title": "Schloss Charlottenburg — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Schloss_Charlottenburg"
+  },
+  {
+   "title": "Kaiser Wilhelm Memorial Church — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church"
+  },
+  {
+   "title": "Oberbaum Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Oberbaum_Bridge"
+  },
+  {
+   "title": "Berlin Tempelhof Airport — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Tempelhof_Airport"
+  },
+  {
+   "title": "Olympiastadion (Berlin) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Olympiastadion_(Berlin)"
+  },
+  {
+   "title": "Fernsehturm Berlin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fernsehturm_Berlin"
+  },
+  {
+   "title": "Potsdamer Platz — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Potsdamer_Platz"
+  },
+  {
+   "title": "Berlin Hauptbahnhof — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof"
+  },
+  {
+   "title": "BER takes off — Federal Government of Germany",
+   "url": "https://www.bundesregierung.de/breg-en/news/ber-opens-1806626"
+  },
+  {
+   "title": "Berlin Brandenburg Airport — Wikiwand",
+   "url": "https://wikiwand.com/en/Berlin_Brandenburg_Airport"
+  }
+ ]
+}

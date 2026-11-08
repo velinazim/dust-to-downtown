@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1183, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Berlin", "tr": "Berlin"}, "line2": {"en": "800 years in 50 seconds", "tr": "50 saniyede 800 yıl"}},
+   "end": {"line2": {"en": "Berlin: 800 Years in 15 Minutes", "tr": "Berlin: 15 Dakikada 800 Yıl"}},
+   "title": {"en": "Berlin: 800 Years in 50 Seconds #shorts", "tr": "Berlin: 50 Saniyede 800 Yıl #shorts"},
+   "description": {"en": "From Cölln, first named in 1237, and Berlin, first named in 1244, to 3,700,577 people at the end of 2025 — the Hohenzollern palace, the fortress, the customs wall, Greater Berlin in 1920, the ruins of 1945 and the Wall of 1961–1989. The year and the population stay on screen the whole way.",
+                   "tr": "1237'de ilk kez anılan Cölln ile 1244'te anılan Berlin'den 2025 sonunda 3.700.577 kişiye — Hohenzollern sarayı, kale, gümrük duvarı, 1920'de Büyük Berlin, 1945'in harabeleri ve 1961–1989 Duvarı. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["berlin history", "history of berlin", "berlin wall", "prussia", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Berlin", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "wall",
+   "from_year": 1945.5, "to_year": 1997.9, "seconds": 48,
+   "hook": {"line1": {"en": "The Berlin Wall", "tr": "Berlin Duvarı"}, "line2": {"en": "Berlin, 1945–1997", "tr": "Berlin, 1945–1997"}},
+   "end": {"line2": {"en": "Berlin: 800 Years in 15 Minutes", "tr": "Berlin: 15 Dakikada 800 Yıl"}},
+   "title": {"en": "The Berlin Wall: From Four Sectors to One City #shorts", "tr": "Berlin Duvarı: Dört Bölgeden Tek Şehre #shorts"},
+   "description": {"en": "July 1945: four sectors. 24 June 1948 – 12 May 1949: the Soviet blockade and 278,228 airlift flights. 13 August 1961: the GDR begins a 155 km wall around West Berlin. 9 November 1989: the border opens. 3 October 1990: Germany is reunited.",
+                   "tr": "Temmuz 1945: dört bölge. 24 Haziran 1948 – 12 Mayıs 1949: Sovyet ablukası ve 278.228 hava köprüsü uçuşu. 13 Ağustos 1961: Doğu Almanya Batı Berlin'in çevresine 155 km'lik bir duvar örmeye başlar. 9 Kasım 1989: sınır açılır. 3 Ekim 1990: Almanya yeniden birleşir."},
+   "tags": ["berlin wall", "fall of the berlin wall", "berlin airlift", "cold war", "berlin history", "3d timelapse", "shorts"],
+   "hashtags": ["#Berlin", "#BerlinWall", "#History", "#Shorts"]
+  },
+  {
+   "id": "war-to-crown",
+   "from_year": 1618, "to_year": 1739, "seconds": 48,
+   "hook": {"line1": {"en": "War to Crown", "tr": "Savaştan Taca"}, "line2": {"en": "Berlin, 1618–1739", "tr": "Berlin, 1618–1739"}},
+   "end": {"line2": {"en": "Berlin: 800 Years in 15 Minutes", "tr": "Berlin: 15 Dakikada 800 Yıl"}},
+   "title": {"en": "Berlin: From 6,000 People to a Royal Capital #shorts", "tr": "Berlin: 6.000 Kişiden Kraliyet Başkentine #shorts"},
+   "description": {"en": "The Thirty Years' War leaves Berlin with about 6,000 people in 1648. From 1650 a fortress with 13 bastions rises; 6,000 Huguenots arrive after 1685; in 1701 Berlin becomes the capital of the Kingdom of Prussia; in 1710 five towns unite with 60,000 people.",
+                   "tr": "Otuz Yıl Savaşları 1648'de Berlin'i yaklaşık 6.000 kişiyle bırakır. 1650'den itibaren 13 tabyalı bir kale yükselir; 1685'ten sonra 6.000 Huguenot gelir; 1701'de Berlin Prusya Krallığı'nın başkenti olur; 1710'da beş kasaba 60.000 kişiyle birleşir."},
+   "tags": ["berlin history", "prussia", "thirty years war", "huguenots", "kingdom of prussia", "3d timelapse", "shorts"],
+   "hashtags": ["#Berlin", "#Prussia", "#History", "#Shorts"]
+  }
+ ]
+}
