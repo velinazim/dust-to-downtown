@@ -1,9 +1,2 @@
-osm rivers: kept 186, skipped 0 -> 186 outer / 29 inner rings
-osm lakes: 178 lakes >= 0.02 km2
-grid 648x625 @ 110 m
-elevation: zoom 11, tiles 7x7
-grid 363x260 @ 30 m
-elevation: zoom 13, tiles 4x4
-core layer 363 x 260
-wrote geo.json 648 x 625
+geo.json up to date
 maps written to cities/berlin/preview
