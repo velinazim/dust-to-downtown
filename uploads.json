@@ -351,5 +351,17 @@
   "uploaded": "2026-11-05T10:55:14Z",
   "thumbnail": "none",
   "playlist": "added"
+ },
+ {
+  "key": "berlin:long",
+  "slug": "berlin",
+  "kind": "long",
+  "video_id": "JbHX6ku3YWU",
+  "link": "https://youtu.be/JbHX6ku3YWU",
+  "title": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-27T23:30:00Z",
+  "uploaded": "2026-11-08T11:47:01Z",
+  "thumbnail": "ok",
+  "playlist": "added"
  }
 ]
