@@ -11,7 +11,7 @@ ancient cities everyone is curious about. Owner can reorder any time.
 - [x] istanbul — Istanbul (Byzantion 667 BC → today)
 - [x] vienna — Vienna (Vindobona → Ringstraße → today)
 - [x] athens — Athens (Bronze Age → today)
-- [ ] berlin — Berlin (Cölln & Berlin 1237 → wall → today)
+- [x] berlin — Berlin (Cölln & Berlin 1237 → wall → today)
 - [ ] philadelphia — Philadelphia (1682 grid → today)
 - [ ] edinburgh — Edinburgh (castle rock → New Town → today)
 - [ ] toronto — Toronto (Fort York → today)
