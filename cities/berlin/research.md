@@ -142,7 +142,7 @@ Disagreements: 1709 55,000 (DEM) vs 57,000 (CAV) vs 55,196 (TB); 1755 126,661 (T
 | Hauptbahnhof | 52.52500, 13.36944 | 2006 | Hauptbahnhof (WP) |
 | BER airport | 52.36667, 13.50333 | 2020 | BER (Wikiwand) |
 | Oberbaum Bridge | ≈ 52.5032, 13.4462 ↔ 52.5007, 13.4440 (no coordinates on the page; traced across the Spree, checked on the preview map) | 1896 | Oberbaum Bridge (WP) |
-| Lange Brücke | ≈ 52.5172, 13.4049 ↔ 52.5180, 13.4068 (traced) | 1695 | TB |
+| Lange Brücke | ≈ 52.5163, 13.4033 ↔ 52.5172, 13.4056 (traced across the Spree on the preview map) | 1695 | TB |
 
 ## Traces (≈) and simplifications
 

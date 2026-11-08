@@ -27,13 +27,14 @@ SIEG1 = (52.5186, 13.3725)   # Königsplatz ≈
 # ------------------------------------------------------------------ geography (lat, lon); ≈ traces, see research.md
 CORE_C = (52.5165, 13.4060)
 # Cölln: island between the Spree and the Spreekanal (south part of today's Museum/Fischer island)
-COELLN = [(52.5100, 13.4085), (52.5112, 13.4045), (52.5130, 13.4008), (52.5160, 13.3993), (52.5168, 13.4040), (52.5150, 13.4078),
-          (52.5125, 13.4098)]
+COELLN = [(52.5100, 13.4085), (52.5112, 13.4045), (52.5130, 13.4008), (52.5160, 13.3995), (52.5166, 13.4030), (52.5155, 13.4043),
+          (52.5146, 13.4074), (52.5136, 13.4094), (52.5120, 13.4098)]
 # Alt-Berlin on the north-east bank
-ALTBERLIN = [(52.5150, 13.4092), (52.5175, 13.4072), (52.5200, 13.4040), (52.5214, 13.4018), (52.5226, 13.4060), (52.5224, 13.4112),
+ALTBERLIN = [(52.5150, 13.4095), (52.5160, 13.4072), (52.5170, 13.4052), (52.5182, 13.4040), (52.5196, 13.4026), (52.5210, 13.4012),
+             (52.5219, 13.4006), (52.5226, 13.4060), (52.5224, 13.4112),
              (52.5195, 13.4135), (52.5160, 13.4140), (52.5134, 13.4118)]
-WALL_B = [(52.5214, 13.4016), (52.5226, 13.4060), (52.5224, 13.4112), (52.5195, 13.4135), (52.5160, 13.4140), (52.5133, 13.4118)]
-WALL_C = [(52.5100, 13.4088), (52.5112, 13.4045), (52.5130, 13.4006), (52.5161, 13.3990), (52.5167, 13.4040), (52.5171, 13.4058)]
+WALL_B = [(52.5218, 13.4003), (52.5226, 13.4060), (52.5224, 13.4112), (52.5195, 13.4135), (52.5160, 13.4140), (52.5133, 13.4118)]
+WALL_C = [(52.5100, 13.4088), (52.5112, 13.4045), (52.5130, 13.4006), (52.5161, 13.3990), (52.5164, 13.4024), (52.5168, 13.4033)]
 # Fortress (13 bastions, 1650–1683), a ring outside the old wall incl. Friedrichswerder
 FORT_N = [(52.5228, 13.3990), (52.5240, 13.4060), (52.5236, 13.4130), (52.5205, 13.4165), (52.5160, 13.4170), (52.5126, 13.4148)]
 FORT_S = [(52.5092, 13.4112), (52.5094, 13.4040), (52.5112, 13.3990), (52.5132, 13.3950), (52.5170, 13.3940), (52.5198, 13.3962),
@@ -44,8 +45,8 @@ FRIEDRICH = [(52.4985, 13.3830), (52.5150, 13.3795), (52.5150, 13.3945), (52.513
 # Customs wall 1737–1868, north of the Spree (Unterbaum → Oberbaum) and south (Silesian Gate → Spree near the Reichstag)
 CUST_N = [(52.5236, 13.3755), (52.5270, 13.3792), (52.5276, 13.3875), (52.5297, 13.4015), (52.5290, 13.4135), (52.5262, 13.4245),
           (52.5222, 13.4290), (52.5168, 13.4385), (52.5120, 13.4440), (52.5040, 13.4448)]
-CUST_S = [(52.5003, 13.4425), (52.4990, 13.4180), (52.4975, 13.3915), (52.5032, 13.3815), (52.5093, 13.3770), (52.5164, 13.3772),
-          (52.5198, 13.3768)]
+CUST_S = [(52.5012, 13.4452), (52.5003, 13.4425), (52.4990, 13.4180), (52.4975, 13.3915), (52.5032, 13.3815), (52.5093, 13.3770), (52.5164, 13.3772),
+          (52.5191, 13.3765)]
 INNER = CUST_N + CUST_S           # area inside the customs wall (Spree runs through it)
 INNER_SUB = INNER                 # 18th-century suburbs (holes: old town, new towns)
 OLD_TOWN = [(52.5228, 13.3990), (52.5240, 13.4060), (52.5236, 13.4130), (52.5205, 13.4165), (52.5160, 13.4170), (52.5100, 13.4140),
@@ -376,7 +377,7 @@ districts = [
  {"name": "Wilhelmine ring (Hobrecht Plan)", "style": "victorian", "poly": L(RING), "holes": [L(INNER), L(TIERGARTEN), L(THF_FIELD), L(CHARL_TOWN)],
   "from": 1862, "to": 1914, "density": 0.85, "grain_m": 70, "grow_from": [52.5165, 13.4060], "fade": [1944.0, 1945.4, 0.72]},
  {"name": "Greater Berlin suburbs", "style": "suburb", "poly": L(LIMITS),
-  "holes": [L(RING), L(GRUNEWALD), L(TEGEL_F), L(KOEP_F), L(THF_FIELD)], "from": 1895, "to": 1939, "density": 0.4, "grain_m": 140,
+  "holes": [L(RING), L(GRUNEWALD), L(TEGEL_F), L(KOEP_F), L(THF_FIELD)], "from": 1895, "to": 1939, "density": 0.3, "grain_m": 115,
   "grow_from": [52.5165, 13.4060]},
  {"name": "Postwar rebuilding (centre)", "style": "modern", "poly": L(INNER), "holes": [L(TIERGARTEN)], "from": 1950, "to": 1975, "density": 0.7,
   "grain_m": 75, "grow_from": [52.5165, 13.4060]},
@@ -400,7 +401,7 @@ walls = [
 ]
 
 bridges = [
- {"name": "Lange Brücke (≈)", "path": [[52.5172, 13.4049], [52.5180, 13.4068]], "built": 1695, "style": "stone", "width_m": 18},
+ {"name": "Lange Brücke (≈)", "path": [[52.5163, 13.4033], [52.5172, 13.4056]], "built": 1695, "style": "stone", "width_m": 18},
  {"name": "Oberbaum Bridge (≈)", "path": [[52.5032, 13.4462], [52.5007, 13.4440]], "built": 1896, "style": "stone", "width_m": 26},
 ]
 
@@ -438,7 +439,7 @@ landmarks = [
  {"type": "column", "name": T("Victory Column", "Zafer Sütunu"), "at": list(SIEG2), "built": 1939.3, "rise_s": 3, "size_m": [8, 8, 67],
   "colors": {"wall": "#d8cfbd", "top": "#c9a94a"}},
  {"type": "parliament", "name": T("Reichstag", "Reichstag"), "at": list(REICHSTAG), "built": 1884.45, "rise_s": 20, "size_m": [137, 97, 40],
-  "scale": 1.3, "colors": C_("#cbc2ad", "#5c6a70")},
+  "scale": 1.0, "colors": C_("#cbc2ad", "#5c6a70")},
  {"type": "cathedral", "name": T("Kaiser Wilhelm Memorial Church", "Kaiser Wilhelm Anıt Kilisesi"), "at": list(KWMC), "built": 1891.2,
   "removed": 1943.89, "rise_s": 10, "size_m": [70, 30, 40], "scale": 1.3, "colors": {"wall": "#b8a88e", "roof": "#4f5a60"}},
  {"type": "tower", "name": T("Memorial church ruin", "Anıt kilise kalıntısı"), "at": list(KWMC), "built": 1943.9, "rise_s": 0.3, "size_m": [16, 16, 50],
@@ -510,8 +511,8 @@ labels = [
  {"text": T("Köpenick", "Köpenick"), "at": [52.4450, 13.5750], "kind": "place", "from": 1920.75, "to": 1932},
  {"text": T("Reichstag", "Reichstag"), "at": list(REICHSTAG), "from": 1933, "to": 1935, "lift_m": 70},
  {"text": T("Olympic Stadium", "Olimpiyat Stadı"), "at": list(OLY), "from": 1936.4, "to": 1938.8, "lift_m": 40},
- {"text": T("WEST BERLIN", "BATI BERLİN"), "at": [52.4900, 13.2700], "kind": "region", "from": 1948.48, "to": 1990.6},
- {"text": T("EAST BERLIN", "DOĞU BERLİN"), "at": [52.5300, 13.4900], "kind": "region", "from": 1949.8, "to": 1990.6},
+ {"text": T("WEST BERLIN", "BATI BERLİN"), "at": [52.4950, 13.3100], "kind": "region", "from": 1948.48, "to": 1990.6},
+ {"text": T("EAST BERLIN", "DOĞU BERLİN"), "at": [52.5300, 13.4500], "kind": "region", "from": 1949.8, "to": 1990.6},
  {"text": T("Tempelhof", "Tempelhof"), "at": list(THF), "kind": "place", "from": 1948.48, "to": 1949.4},
  {"text": T("Palace", "Saray"), "at": list(PALACE), "from": 1949.5, "to": 1950.7, "lift_m": 40},
  {"text": T("TV tower", "Televizyon kulesi"), "at": list(TV), "from": 1969.8, "to": 1972, "lift_m": 280},
