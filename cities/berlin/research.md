@@ -165,7 +165,7 @@ Disagreements: 1709 55,000 (DEM) vs 57,000 (CAV) vs 55,196 (TB); 1755 126,661 (T
 - Postwar housing estates are drawn as one generic district 1955–1990 without names on screen (their dates were not
   researched).
 - Spandau and Köpenick: small Slavic-era clusters only (≈ positions of the old towns); no dates beyond "7th/8th c.".
-- Rivers: Spree and Havel from OSM (`rivers_keep`); canals (Landwehrkanal, Spreekanal) are too thin and are left out;
+- Rivers: all area-mapped rivers from OSM (in Berlin many Spree water areas carry no name, so a `rivers_keep` name filter dropped the central Spree); canals (Landwehrkanal, Spreekanal) are too thin and are left out;
   natural lakes (Müggelsee, Tegeler See, Wannsee) are part of the base map from the start.
 
 ## Left out / uncertain
