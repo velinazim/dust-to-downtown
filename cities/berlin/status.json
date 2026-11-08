@@ -3,5 +3,8 @@
  "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/42465878230",
  "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded berlin:long https://youtu.be/JbHX6ku3YWU publish_at=2026-11-27T23:30:00Z thumbnail=ok playlist=added\n",
  "qa": "QA OK: 16 kare, kelime kontrol\u00fc yok (sessiz/k\u0131sa kesit)",
- "qa_checked": false
+ "qa_checked": false,
+ "shorts_rendered": "2026-11-08T12:12:59Z",
+ "shorts_run": "https://github.com/velinazim/dust-to-downtown/actions/runs/42477254125",
+ "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded berlin:short:whole https://youtube.com/shorts/jCAVkEHPQ0c publish_at=2026-11-28T23:30:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded berlin:short:wall https://youtube.com/shorts/bzhi5EIfquY publish_at=2026-11-29T23:30:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded berlin:short:war-to-crown https://youtube.com/shorts/M7C3N8jMaEU publish_at=2026-11-30T23:30:00Z thumbnail=none playlist=added\n"
 }

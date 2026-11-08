@@ -363,5 +363,41 @@
   "uploaded": "2026-11-08T11:47:01Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "berlin:short:whole",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "jCAVkEHPQ0c",
+  "link": "https://youtube.com/shorts/jCAVkEHPQ0c",
+  "title": "Berlin: 800 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-28T23:30:00Z",
+  "uploaded": "2026-11-08T12:12:51Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "berlin:short:wall",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "bzhi5EIfquY",
+  "link": "https://youtube.com/shorts/bzhi5EIfquY",
+  "title": "The Berlin Wall: From Four Sectors to One City #shorts",
+  "publish_at": "2026-11-29T23:30:00Z",
+  "uploaded": "2026-11-08T12:12:55Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "berlin:short:war-to-crown",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "M7C3N8jMaEU",
+  "link": "https://youtube.com/shorts/M7C3N8jMaEU",
+  "title": "Berlin: From 6,000 People to a Royal Capital #shorts",
+  "publish_at": "2026-11-30T23:30:00Z",
+  "uploaded": "2026-11-08T12:12:59Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
