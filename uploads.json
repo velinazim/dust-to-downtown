@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "istanbul:short:conquest-1453",
-  "slug": "istanbul",
-  "kind": "short",
-  "video_id": "eMphm6xLIuQ",
-  "link": "https://youtube.com/shorts/eMphm6xLIuQ",
-  "title": "How Constantinople Fell in 1453 #shorts",
-  "publish_at": "2026-11-19T23:30:00Z",
-  "uploaded": "2026-11-03T10:29:57Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "vienna:long",
   "slug": "vienna",
   "kind": "long",
@@ -568,6 +556,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "PQ5EodVbXoE",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "istanbul:short:conquest-1453:replaced",
+  "slug": "istanbul",
+  "kind": "short",
+  "video_id": "eMphm6xLIuQ",
+  "link": "https://youtube.com/shorts/eMphm6xLIuQ",
+  "title": "How Constantinople Fell in 1453 #shorts",
+  "publish_at": "2026-11-19T23:30:00Z",
+  "uploaded": "2026-11-03T10:29:57Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "epBQSBDm1Ms",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "istanbul:short:conquest-1453",
+  "slug": "istanbul",
+  "kind": "short",
+  "video_id": "epBQSBDm1Ms",
+  "link": "https://youtube.com/shorts/epBQSBDm1Ms",
+  "title": "How Constantinople Fell in 1453 #shorts",
+  "publish_at": "2026-11-19T23:30:00Z",
+  "uploaded": "2026-11-09T00:26:08Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "eMphm6xLIuQ",
   "music": "piano-2026-11-09"
  }
 ]
