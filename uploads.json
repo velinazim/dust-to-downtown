@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "berlin:long",
-  "slug": "berlin",
-  "kind": "long",
-  "video_id": "JbHX6ku3YWU",
-  "link": "https://youtu.be/JbHX6ku3YWU",
-  "title": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-27T23:30:00Z",
-  "uploaded": "2026-11-08T11:47:01Z",
-  "thumbnail": "ok",
-  "playlist": "added"
- },
- {
   "key": "berlin:short:whole",
   "slug": "berlin",
   "kind": "short",
@@ -704,6 +692,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "IMypFmCGyCI",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "berlin:long:replaced",
+  "slug": "berlin",
+  "kind": "long",
+  "video_id": "JbHX6ku3YWU",
+  "link": "https://youtu.be/JbHX6ku3YWU",
+  "title": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-27T23:30:00Z",
+  "uploaded": "2026-11-08T11:47:01Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaced_by": "UBjY9j2oNyA",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "berlin:long",
+  "slug": "berlin",
+  "kind": "long",
+  "video_id": "UBjY9j2oNyA",
+  "link": "https://youtu.be/UBjY9j2oNyA",
+  "title": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-27T23:30:00Z",
+  "uploaded": "2026-11-09T00:32:18Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "JbHX6ku3YWU",
   "music": "piano-2026-11-09"
  }
 ]
