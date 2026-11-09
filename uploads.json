@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "vienna:short:whole",
-  "slug": "vienna",
-  "kind": "short",
-  "video_id": "KnI_yi_K5LU",
-  "link": "https://youtube.com/shorts/KnI_yi_K5LU",
-  "title": "Vienna: 1,900 Years in 50 Seconds #shorts",
-  "publish_at": "2026-11-21T23:30:00Z",
-  "uploaded": "2026-11-04T11:21:04Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "vienna:short:siege-1683",
   "slug": "vienna",
   "kind": "short",
@@ -602,6 +590,35 @@
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "SPQ1nB7s0P8",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "vienna:short:whole:replaced",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "KnI_yi_K5LU",
+  "link": "https://youtube.com/shorts/KnI_yi_K5LU",
+  "title": "Vienna: 1,900 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-21T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:04Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "vk55j5SreJ0",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "vienna:short:whole",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "vk55j5SreJ0",
+  "link": "https://youtube.com/shorts/vk55j5SreJ0",
+  "title": "Vienna: 1,900 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-21T23:30:00Z",
+  "uploaded": "2026-11-09T00:28:11Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "KnI_yi_K5LU",
   "music": "piano-2026-11-09"
  }
 ]

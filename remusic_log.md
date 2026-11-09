@@ -12,3 +12,4 @@
 - 2026-11-18 Istanbul: 2,700 Years in 50 Seconds #shorts → https://youtube.com/shorts/6SYQ1n4myRU (eski PQ5EodVbXoE takvimden alındı, gizli) · ilgili video: Istanbul: 2,700 Years in 15 Minutes (3D Timelapse) (https://youtu.be/NXSgR7YmQLQ)
 - 2026-11-19 How Constantinople Fell in 1453 #shorts → https://youtube.com/shorts/epBQSBDm1Ms (eski eMphm6xLIuQ takvimden alındı, gizli) · ilgili video: Istanbul: 2,700 Years in 15 Minutes (3D Timelapse) (https://youtu.be/NXSgR7YmQLQ)
 - 2026-11-20 Vienna: 1,900 Years in 15 Minutes (3D Timelapse) → https://youtu.be/cEvhQKCf-nU (eski SPQ1nB7s0P8 takvimden alındı, gizli)
+- 2026-11-21 Vienna: 1,900 Years in 50 Seconds #shorts → https://youtube.com/shorts/vk55j5SreJ0 (eski KnI_yi_K5LU takvimden alındı, gizli) · ilgili video: Vienna: 1,900 Years in 15 Minutes (3D Timelapse) (https://youtu.be/cEvhQKCf-nU)
