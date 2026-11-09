@@ -9,3 +9,4 @@
 - 2026-11-15 How Amsterdam Built Its Canal Ring #shorts → https://youtube.com/shorts/fdGMjdhVIfY (eski msyqg5u-S1k takvimden alındı, gizli) · ilgili video: Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse) (https://youtu.be/9HaMl7NMeYY)
 - 2026-11-16 Amsterdam Burns Twice, Then Builds a Wall #shorts → https://youtube.com/shorts/jT6x2-4SXso (eski h8BFvvrqkiI takvimden alındı, gizli) · ilgili video: Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse) (https://youtu.be/9HaMl7NMeYY)
 - 2026-11-17 Istanbul: 2,700 Years in 15 Minutes (3D Timelapse) → https://youtu.be/NXSgR7YmQLQ (eski PiwJb-aKZAQ takvimden alındı, gizli)
+- 2026-11-18 Istanbul: 2,700 Years in 50 Seconds #shorts → https://youtube.com/shorts/6SYQ1n4myRU (eski PQ5EodVbXoE takvimden alındı, gizli) · ilgili video: Istanbul: 2,700 Years in 15 Minutes (3D Timelapse) (https://youtu.be/NXSgR7YmQLQ)
