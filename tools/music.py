@@ -54,11 +54,11 @@ def main(sec, out, seed=7):
         ci = int(tp // clen); deg = prog[ci % len(prog)]
         m = chord(key + deg, deg in (0, 5))[int(rng.integers(0, 4))] + 24
         dur = 3.5; a = int(tp * SR); b = min(n, a + int(dur * SR)); s = np.arange(b - a) / SR
-        pl = (np.sin(2 * np.pi * hz(m) * s) + 0.25 * np.sin(2 * np.pi * hz(m) * 2.01 * s)) * np.exp(-s * 1.6) * 0.045
+        pl = (np.sin(2 * np.pi * hz(m) * s) + 0.25 * np.sin(2 * np.pi * hz(m) * 2.01 * s)) * np.exp(-s * 1.6) * 0.03
         p = float(rng.uniform(0.2, 0.8)); L[a:b] += (pl * (1 - p)).astype(np.float32); R[a:b] += (pl * p).astype(np.float32)
         tp += float(rng.choice([1.6, 2.4, 3.2, 4.8]))
-    # gentle low-pass + reverb
-    bl, al = signal.butter(2, 3200 / (SR / 2))
+    # gentle low-pass (darker, softer top end) + reverb
+    bl, al = signal.butter(2, 2600 / (SR / 2))
     L = signal.lfilter(bl, al, L).astype(np.float32); R = signal.lfilter(bl, al, R).astype(np.float32)
     ir_t = np.arange(int(3.2 * SR)) / SR
     irL = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 2.2)).astype(np.float32); irR = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 2.2)).astype(np.float32)
@@ -67,7 +67,8 @@ def main(sec, out, seed=7):
     L = 0.65 * L + 0.55 * wetL; R = 0.65 * R + 0.55 * wetR
     fade = np.minimum(1, np.minimum(t / 3.0, (sec - t) / 4.0)).clip(0, 1)
     st = np.stack([L * fade, R * fade], 1)
-    st = st / (np.abs(st).max() + 1e-9) * 0.6
+    # softer overall level (owner request 9.11.2026): ~6 dB quieter than before, about -23 LUFS
+    st = st / (np.abs(st).max() + 1e-9) * 0.3
     wavfile.write(out, SR, (st * 32767).astype(np.int16))
 
 
