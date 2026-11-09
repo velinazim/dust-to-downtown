@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "amsterdam:short:whole",
-  "slug": "amsterdam",
-  "kind": "short",
-  "video_id": "A1HrBqmQCcQ",
-  "link": "https://youtube.com/shorts/A1HrBqmQCcQ",
-  "title": "Amsterdam: 1,000 Years in 50 Seconds #shorts",
-  "publish_at": "2026-11-14T23:30:00Z",
-  "uploaded": "2026-11-02T10:06:52Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "amsterdam:short:canal-ring",
   "slug": "amsterdam",
   "kind": "short",
@@ -483,6 +471,35 @@
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "jWpc39QbfEE",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "amsterdam:short:whole:replaced",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "A1HrBqmQCcQ",
+  "link": "https://youtube.com/shorts/A1HrBqmQCcQ",
+  "title": "Amsterdam: 1,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-14T23:30:00Z",
+  "uploaded": "2026-11-02T10:06:52Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "qUdsTpkZW7Y",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "amsterdam:short:whole",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "qUdsTpkZW7Y",
+  "link": "https://youtube.com/shorts/qUdsTpkZW7Y",
+  "title": "Amsterdam: 1,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-14T23:30:00Z",
+  "uploaded": "2026-11-09T00:24:12Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "A1HrBqmQCcQ",
   "music": "piano-2026-11-09"
  }
 ]
