@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "amsterdam:short:fire-and-walls",
-  "slug": "amsterdam",
-  "kind": "short",
-  "video_id": "h8BFvvrqkiI",
-  "link": "https://youtube.com/shorts/h8BFvvrqkiI",
-  "title": "Amsterdam Burns Twice, Then Builds a Wall #shorts",
-  "publish_at": "2026-11-16T23:30:00Z",
-  "uploaded": "2026-11-02T10:06:58Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "istanbul:long",
   "slug": "istanbul",
   "kind": "long",
@@ -517,6 +505,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "msyqg5u-S1k",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "amsterdam:short:fire-and-walls:replaced",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "h8BFvvrqkiI",
+  "link": "https://youtube.com/shorts/h8BFvvrqkiI",
+  "title": "Amsterdam Burns Twice, Then Builds a Wall #shorts",
+  "publish_at": "2026-11-16T23:30:00Z",
+  "uploaded": "2026-11-02T10:06:58Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "jT6x2-4SXso",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "amsterdam:short:fire-and-walls",
+  "slug": "amsterdam",
+  "kind": "short",
+  "video_id": "jT6x2-4SXso",
+  "link": "https://youtube.com/shorts/jT6x2-4SXso",
+  "title": "Amsterdam Burns Twice, Then Builds a Wall #shorts",
+  "publish_at": "2026-11-16T23:30:00Z",
+  "uploaded": "2026-11-09T00:24:27Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "h8BFvvrqkiI",
   "music": "piano-2026-11-09"
  }
 ]
