@@ -105,7 +105,7 @@ def piano(m, dur):
         if fh > 5000:
             break
         x += np.sin(2 * np.pi * fh * s) * (h ** -1.8) * np.exp(-s * (0.9 + 0.9 * h) * (f / 260) ** 0.3)
-    x *= np.minimum(1, s / 0.006) * np.minimum(1, (dur - s) / 0.25).clip(0, 1)
+    x *= np.minimum(1, s / 0.02)   # softer hammer * np.minimum(1, (dur - s) / 0.25).clip(0, 1)
     _cache[key] = x.astype(np.float32)
     return _cache[key]
 
@@ -136,7 +136,7 @@ def main(sec, out, seed=7):
             pat = PATTERNS[int(rng.integers(0, len(PATTERNS)))]
         deg, major = prog[bi % len(prog)]
         root = key + deg
-        tones = [root + 12, root + 12 + (4 if major else 3), root + 19, root + 24]
+        tones = [root + 7, root + 12, root + 12 + (4 if major else 3), root + 19]   # mid register only: no high 'ping' notes (owner, 9.11)
         phase = (bi // 16) % 4                          # every 16 bars: a quieter, sparser section
         sparse = phase == 3
         add(root - 12, t0, bar * 1.1, 0.22, 0.45)       # soft bass
@@ -149,12 +149,13 @@ def main(sec, out, seed=7):
             add(tones[ti], t0 + i * beat / 2 + float(rng.uniform(0, 0.012)), 2.2, vel, 0.35 + 0.1 * ti)
         if phase in (1, 2):                             # simple melody, only in the middle sections
             for b4 in range(4):
-                if rng.random() < 0.35:
-                    m = key + 24 + PENTA[int(rng.integers(0, 5))] + (12 if rng.random() < 0.3 else 0)
+                if rng.random() < 0.22:
+                    m = key + 24 + PENTA[int(rng.integers(0, 5))]
+                    m = m - 12 if m > 76 else m   # keep the melody below ~E5
                     add(m, t0 + b4 * beat, 2.8, 0.07, 0.55)
     L = L[:int(sec * SR)]; R = R[:int(sec * SR)]
     t = np.arange(L.size) / SR
-    bl, al = signal.butter(2, 4500 / (SR / 2))
+    bl, al = signal.butter(2, 3000 / (SR / 2))
     L = signal.lfilter(bl, al, L).astype(np.float32); R = signal.lfilter(bl, al, R).astype(np.float32)
     ir_t = np.arange(int(2.2 * SR)) / SR
     irL = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 3.0)).astype(np.float32); irR = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 3.0)).astype(np.float32)
