@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "boston:long",
-  "slug": "boston",
-  "kind": "long",
-  "video_id": "nspQVa_0wBI",
-  "link": "https://youtu.be/nspQVa_0wBI",
-  "title": "Boston: 400 Years in 14 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-10T15:00:00Z",
-  "uploaded": "2026-11-01T10:30:24Z",
-  "thumbnail": "ok",
-  "playlist": "added"
- },
- {
   "key": "boston:short:whole",
   "slug": "boston",
   "kind": "short",
@@ -415,6 +403,35 @@
   "thumbnail": "none",
   "playlist": "probably added (record recovered by hand)",
   "replaces": "jtv6cxSeVUM",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "boston:long:replaced",
+  "slug": "boston",
+  "kind": "long",
+  "video_id": "nspQVa_0wBI",
+  "link": "https://youtu.be/nspQVa_0wBI",
+  "title": "Boston: 400 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-10T15:00:00Z",
+  "uploaded": "2026-11-01T10:30:24Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaced_by": "kgafyuU_axI",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "boston:long",
+  "slug": "boston",
+  "kind": "long",
+  "video_id": "kgafyuU_axI",
+  "link": "https://youtu.be/kgafyuU_axI",
+  "title": "Boston: 400 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-10T15:00:00Z",
+  "uploaded": "2026-11-09T00:22:19Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "nspQVa_0wBI",
   "music": "piano-2026-11-09"
  }
 ]
