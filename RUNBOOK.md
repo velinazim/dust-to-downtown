@@ -108,3 +108,12 @@ Result appears in `requests/done/` within ~5 minutes.
 - Rendering is CPU-only in the cloud; ~70k buildings is the practical ceiling — raise `grain_m` for modern sprawl.
 - Engine/look changes go in `engine/index.html`; test locally with
   `python3 engine/render.py stills istanbul-test /tmp/st auto --w 1280 --h 720` (hand-made test map, no network needed).
+
+## D. Music swap of scheduled videos (9 Nov 2026)
+
+The owner replaced the soundtrack style (soft major-key piano, `tools/music.py`). Videos uploaded before that with the
+old music are swapped by the **Re-music scheduled videos** action (`remusic.yml`, daily 08:20 UTC, soonest first,
+a few per day because of YouTube's upload quota). Each swap = new private video with the same publish time; the old one
+is taken off the schedule and stays private (owner deletes it in Studio). Progress: `remusic_log.md`. In every report,
+tell the owner the new lines from `remusic_log.md` — for each new Short the line already says which long video to pick
+as "İlgili video" (the owner sets it by hand), and new long videos need their pinned comment again.
