@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "boston:short:made-land",
-  "slug": "boston",
-  "kind": "short",
-  "video_id": "19uMvCRFTCk",
-  "link": "https://youtube.com/shorts/19uMvCRFTCk",
-  "title": "How Boston Turned the Sea Into Land #shorts",
-  "publish_at": "2026-11-12T16:00:00Z",
-  "uploaded": "2026-11-01T10:46:06Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "amsterdam:long",
   "slug": "amsterdam",
   "kind": "long",
@@ -449,6 +437,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "a5CKBuqQRyk",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "boston:short:made-land:replaced",
+  "slug": "boston",
+  "kind": "short",
+  "video_id": "19uMvCRFTCk",
+  "link": "https://youtube.com/shorts/19uMvCRFTCk",
+  "title": "How Boston Turned the Sea Into Land #shorts",
+  "publish_at": "2026-11-12T16:00:00Z",
+  "uploaded": "2026-11-01T10:46:06Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "16tUv1FP1K8",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "boston:short:made-land",
+  "slug": "boston",
+  "kind": "short",
+  "video_id": "16tUv1FP1K8",
+  "link": "https://youtube.com/shorts/16tUv1FP1K8",
+  "title": "How Boston Turned the Sea Into Land #shorts",
+  "publish_at": "2026-11-12T16:00:00Z",
+  "uploaded": "2026-11-09T00:22:38Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "19uMvCRFTCk",
   "music": "piano-2026-11-09"
  }
 ]
