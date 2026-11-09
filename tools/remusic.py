@@ -139,6 +139,15 @@ def save(repo, msg, apply, line):
     return False
 
 
+def log_line(repo, line):
+    p = os.path.join(repo, 'remusic_log.md')
+    new = not os.path.exists(p)
+    with open(p, 'a') as f:
+        if new:
+            f.write('# Müzik değişimi (yeni piyano) — yapılan değişimler\n\n')
+        f.write(line + '\n')
+
+
 def free_artifacts(rest):
     need = {(f'episode-{u["slug"]}' if u['kind'] == 'long' else f'shorts-{u["slug"]}') for u in rest}
     for d in glob.glob(os.path.join(WORK, '*-*')):
@@ -182,6 +191,7 @@ def main(repo, dry=False):
                 print('STOP: YouTube daily limit reached; the next scheduled run continues.')
                 break
             continue
+        print('  uploaded new video', vid, flush=True)
         r = requests.put(f'{yt_api.API}/videos', params={'part': 'status'}, headers=yt_api.H(tok, **{'Content-Type': 'application/json'}),
                          data=json.dumps({'id': u['video_id'], 'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False}}), timeout=30)
         unsched = r.status_code == 200

@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "paris:short:medieval",
-  "slug": "paris",
-  "kind": "short",
-  "video_id": "jtv6cxSeVUM",
-  "link": "https://youtube.com/shorts/jtv6cxSeVUM",
-  "title": "Medieval Paris: Notre-Dame, Walls and Plague #shorts",
-  "publish_at": "2026-11-09T16:00:00Z",
-  "uploaded": "2026-10-31T10:56:10Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "boston:long",
   "slug": "boston",
   "kind": "long",
@@ -399,5 +387,34 @@
   "uploaded": "2026-11-08T12:12:59Z",
   "thumbnail": "none",
   "playlist": "added"
+ },
+ {
+  "key": "paris:short:medieval:replaced",
+  "slug": "paris",
+  "kind": "short",
+  "video_id": "jtv6cxSeVUM",
+  "link": "https://youtube.com/shorts/jtv6cxSeVUM",
+  "title": "Medieval Paris: Notre-Dame, Walls and Plague #shorts",
+  "publish_at": "2026-11-09T16:00:00Z",
+  "uploaded": "2026-10-31T10:56:10Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "7kr7kLpne8A",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "paris:short:medieval",
+  "slug": "paris",
+  "kind": "short",
+  "video_id": "7kr7kLpne8A",
+  "link": "https://youtube.com/shorts/7kr7kLpne8A",
+  "title": "Medieval Paris: Notre-Dame, Walls and Plague #shorts",
+  "publish_at": "2026-11-09T16:00:00Z",
+  "uploaded": "2026-11-09T00:18:49Z",
+  "thumbnail": "none",
+  "playlist": "probably added (record recovered by hand)",
+  "replaces": "jtv6cxSeVUM",
+  "music": "piano-2026-11-09"
  }
 ]
