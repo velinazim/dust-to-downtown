@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "vienna:long",
-  "slug": "vienna",
-  "kind": "long",
-  "video_id": "SPQ1nB7s0P8",
-  "link": "https://youtu.be/SPQ1nB7s0P8",
-  "title": "Vienna: 1,900 Years in 15 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-20T23:30:00Z",
-  "uploaded": "2026-11-04T10:58:08Z",
-  "thumbnail": "ok",
-  "playlist": "added"
- },
- {
   "key": "vienna:short:whole",
   "slug": "vienna",
   "kind": "short",
@@ -585,6 +573,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "eMphm6xLIuQ",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "vienna:long:replaced",
+  "slug": "vienna",
+  "kind": "long",
+  "video_id": "SPQ1nB7s0P8",
+  "link": "https://youtu.be/SPQ1nB7s0P8",
+  "title": "Vienna: 1,900 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-20T23:30:00Z",
+  "uploaded": "2026-11-04T10:58:08Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaced_by": "cEvhQKCf-nU",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "vienna:long",
+  "slug": "vienna",
+  "kind": "long",
+  "video_id": "cEvhQKCf-nU",
+  "link": "https://youtu.be/cEvhQKCf-nU",
+  "title": "Vienna: 1,900 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-20T23:30:00Z",
+  "uploaded": "2026-11-09T00:27:57Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "SPQ1nB7s0P8",
   "music": "piano-2026-11-09"
  }
 ]
