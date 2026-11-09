@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "vienna:short:siege-1683",
-  "slug": "vienna",
-  "kind": "short",
-  "video_id": "tWHsgXSIKMo",
-  "link": "https://youtube.com/shorts/tWHsgXSIKMo",
-  "title": "The Siege of Vienna, 1683 — in 50 Seconds #shorts",
-  "publish_at": "2026-11-22T23:30:00Z",
-  "uploaded": "2026-11-04T11:21:10Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "vienna:short:ringstrasse",
   "slug": "vienna",
   "kind": "short",
@@ -619,6 +607,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "KnI_yi_K5LU",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "vienna:short:siege-1683:replaced",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "tWHsgXSIKMo",
+  "link": "https://youtube.com/shorts/tWHsgXSIKMo",
+  "title": "The Siege of Vienna, 1683 — in 50 Seconds #shorts",
+  "publish_at": "2026-11-22T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:10Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "08mNY4t-YVo",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "vienna:short:siege-1683",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "08mNY4t-YVo",
+  "link": "https://youtube.com/shorts/08mNY4t-YVo",
+  "title": "The Siege of Vienna, 1683 — in 50 Seconds #shorts",
+  "publish_at": "2026-11-22T23:30:00Z",
+  "uploaded": "2026-11-09T00:28:18Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "tWHsgXSIKMo",
   "music": "piano-2026-11-09"
  }
 ]
