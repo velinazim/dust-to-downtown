@@ -169,7 +169,7 @@ S = [
  seg(1777.82, 1778.3, 17, REV, PHL, T("Fort Mifflin Falls", "Mifflin Kalesi Düşüyor"),
      T("16 November 1777: after weeks of siege, the British take Fort Mifflin",
        "16 Kasım 1777: haftalarca süren kuşatmanın ardından İngilizler Mifflin Kalesi'ni alır"),
-     pop=15000, cam=(39.9050, -75.1900, 9.0)),
+     pop=15000, cam=(39.8850, -75.2000, 5.5)),
  seg(1778.3, 1786.9, 16, REV, PHL, T("The British Leave", "İngilizler Gidiyor"),
      T("18 June 1778: the British leave; Congress is back on 2 July",
        "18 Haziran 1778: İngilizler ayrılır; Kongre 2 Temmuz'da geri döner"),
