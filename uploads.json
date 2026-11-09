@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "berlin:short:whole",
-  "slug": "berlin",
-  "kind": "short",
-  "video_id": "jCAVkEHPQ0c",
-  "link": "https://youtube.com/shorts/jCAVkEHPQ0c",
-  "title": "Berlin: 800 Years in 50 Seconds #shorts",
-  "publish_at": "2026-11-28T23:30:00Z",
-  "uploaded": "2026-11-08T12:12:51Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "berlin:short:wall",
   "slug": "berlin",
   "kind": "short",
@@ -721,6 +709,35 @@
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "JbHX6ku3YWU",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "berlin:short:whole:replaced",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "jCAVkEHPQ0c",
+  "link": "https://youtube.com/shorts/jCAVkEHPQ0c",
+  "title": "Berlin: 800 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-28T23:30:00Z",
+  "uploaded": "2026-11-08T12:12:51Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "5RZfOx2txls",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "berlin:short:whole",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "5RZfOx2txls",
+  "link": "https://youtube.com/shorts/5RZfOx2txls",
+  "title": "Berlin: 800 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-28T23:30:00Z",
+  "uploaded": "2026-11-09T00:32:35Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "jCAVkEHPQ0c",
   "music": "piano-2026-11-09"
  }
 ]
