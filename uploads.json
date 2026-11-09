@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "berlin:short:wall",
-  "slug": "berlin",
-  "kind": "short",
-  "video_id": "bzhi5EIfquY",
-  "link": "https://youtube.com/shorts/bzhi5EIfquY",
-  "title": "The Berlin Wall: From Four Sectors to One City #shorts",
-  "publish_at": "2026-11-29T23:30:00Z",
-  "uploaded": "2026-11-08T12:12:55Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "berlin:short:war-to-crown",
   "slug": "berlin",
   "kind": "short",
@@ -738,6 +726,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "jCAVkEHPQ0c",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "berlin:short:wall:replaced",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "bzhi5EIfquY",
+  "link": "https://youtube.com/shorts/bzhi5EIfquY",
+  "title": "The Berlin Wall: From Four Sectors to One City #shorts",
+  "publish_at": "2026-11-29T23:30:00Z",
+  "uploaded": "2026-11-08T12:12:55Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "PSIdpN84zEk",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "berlin:short:wall",
+  "slug": "berlin",
+  "kind": "short",
+  "video_id": "PSIdpN84zEk",
+  "link": "https://youtube.com/shorts/PSIdpN84zEk",
+  "title": "The Berlin Wall: From Four Sectors to One City #shorts",
+  "publish_at": "2026-11-29T23:30:00Z",
+  "uploaded": "2026-11-09T00:32:44Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "bzhi5EIfquY",
   "music": "piano-2026-11-09"
  }
 ]
