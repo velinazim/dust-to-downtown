@@ -1,0 +1,3962 @@
+{
+ "slug": "philadelphia",
+ "seed": 1682,
+ "long_ok": true,
+ "name": {
+  "en": "Philadelphia",
+  "tr": "Philadelphia"
+ },
+ "intro": {
+  "en": "344 Years in 13 Minutes",
+  "tr": "13 Dakikada 344 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   39.7,
+   -75.55,
+   40.25,
+   -74.75
+  ],
+  "cell_m": 110,
+  "core_bbox": [
+   39.9,
+   -75.205,
+   39.99,
+   -75.11
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Delaware",
+   "Schuylkill"
+  ],
+  "lakes_from": 1900
+ },
+ "view": {
+  "azimuth_deg": 270,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 3.0
+ },
+ "segments": [
+  {
+   "from": 1600,
+   "to": 1645,
+   "seconds": 20,
+   "era": {
+    "en": "Lenapehoking",
+    "tr": "Lenape Toprakları"
+   },
+   "city_name": {
+    "en": "Banks of the Delaware",
+    "tr": "Delaware kıyısı"
+   },
+   "title": {
+    "en": "Lenape Land",
+    "tr": "Lenape Toprakları"
+   },
+   "sub": {
+    "en": "Before Europeans: Lenape country; Shackamaxon is a meeting place on the Delaware",
+    "tr": "Avrupalılardan önce: Lenape ülkesi; Shackamaxon, Delaware kıyısında bir buluşma yeri"
+   },
+   "camera": {
+    "center": [
+     39.95,
+     -75.155
+    ],
+    "dist_km": 16.0
+   },
+   "chapter": {
+    "en": "Before Philadelphia",
+    "tr": "Philadelphia'dan Önce"
+   }
+  },
+  {
+   "from": 1646,
+   "to": 1676,
+   "seconds": 16,
+   "era": {
+    "en": "New Sweden",
+    "tr": "Yeni İsveç"
+   },
+   "city_name": {
+    "en": "Banks of the Delaware",
+    "tr": "Delaware kıyısı"
+   },
+   "title": {
+    "en": "Swedish Farmers",
+    "tr": "İsveçli Çiftçiler"
+   },
+   "sub": {
+    "en": "1646: settlers of New Sweden are the first Europeans to settle the area",
+    "tr": "1646: Yeni İsveç'in yerleşimcileri bölgeye yerleşen ilk Avrupalılar olur"
+   },
+   "camera": {
+    "center": [
+     39.942,
+     -75.148
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 1677,
+   "to": 1680.9,
+   "seconds": 15,
+   "era": {
+    "en": "New Sweden",
+    "tr": "Yeni İsveç"
+   },
+   "city_name": {
+    "en": "Banks of the Delaware",
+    "tr": "Delaware kıyısı"
+   },
+   "title": {
+    "en": "A Blockhouse Church",
+    "tr": "Kaleden Bozma Kilise"
+   },
+   "sub": {
+    "en": "1677: Swedes at Wicaco turn a blockhouse into their church",
+    "tr": "1677: Wicaco'daki İsveçliler bir ahşap kaleyi kiliseye çevirir"
+   },
+   "camera": {
+    "center": [
+     39.938,
+     -75.144
+    ],
+    "dist_km": 3.5
+   }
+  },
+  {
+   "from": 1681,
+   "to": 1682.5,
+   "seconds": 15,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Banks of the Delaware",
+    "tr": "Delaware kıyısı"
+   },
+   "title": {
+    "en": "Penn's Charter",
+    "tr": "Penn'in Fermanı"
+   },
+   "sub": {
+    "en": "4 March 1681: King Charles II grants Pennsylvania to William Penn",
+    "tr": "4 Mart 1681: Kral II. Charles, Pennsylvania'yı William Penn'e verir"
+   },
+   "camera": {
+    "center": [
+     39.95,
+     -75.16
+    ],
+    "dist_km": 9.0
+   },
+   "chapter": {
+    "en": "Penn's Grid",
+    "tr": "Penn'in Izgarası"
+   }
+  },
+  {
+   "from": 1682.5,
+   "to": 1682.8,
+   "seconds": 18,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Grid Between Two Rivers",
+    "tr": "İki Nehir Arasında Izgara"
+   },
+   "sub": {
+    "en": "1682: Thomas Holme lays out a grid of 1,200 acres from the Delaware to the Schuylkill",
+    "tr": "1682: Thomas Holme, Delaware'den Schuylkill'e 1.200 akrelik bir ızgara planı çizer"
+   },
+   "camera": {
+    "center": [
+     39.95,
+     -75.161
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1682.8,
+   "to": 1683.9,
+   "seconds": 16,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Treaty Elm",
+    "tr": "Antlaşma Karaağacı"
+   },
+   "sub": {
+    "en": "1682: by tradition, Penn makes a treaty with Tamanend under an elm at Shackamaxon",
+    "tr": "1682: rivayete göre Penn, Shackamaxon'da bir karaağacın altında Tamanend'le antlaşma yapar"
+   },
+   "population": 600,
+   "camera": {
+    "center": [
+     39.959,
+     -75.137
+    ],
+    "dist_km": 3.5
+   }
+  },
+  {
+   "from": 1684,
+   "to": 1699.9,
+   "seconds": 15,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Town on the River",
+    "tr": "Nehir Kıyısında Bir Kasaba"
+   },
+   "sub": {
+    "en": "1683: about 600 people; by 1699 several hundred houses crowd the riverfront",
+    "tr": "1683: yaklaşık 600 kişi; 1699'da birkaç yüz ev nehir kıyısına sıkışır"
+   },
+   "population": [
+    800,
+    4600
+   ],
+   "camera": {
+    "center": [
+     39.9505,
+     -75.146
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1700,
+   "to": 1726,
+   "seconds": 16,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Old Swedes' Church",
+    "tr": "Eski İsveçliler Kilisesi"
+   },
+   "sub": {
+    "en": "2 June 1700: Gloria Dei, the Old Swedes' Church, is consecrated at Wicaco",
+    "tr": "2 Haziran 1700: Eski İsveçliler Kilisesi Gloria Dei, Wicaco'da kutsanır"
+   },
+   "population": [
+    4600,
+    10800
+   ],
+   "camera": {
+    "center": [
+     39.944,
+     -75.145
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1727,
+   "to": 1731.9,
+   "seconds": 15,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Christ Church",
+    "tr": "Christ Kilisesi"
+   },
+   "sub": {
+    "en": "1727: work begins on Christ Church; its main body is finished in 1744",
+    "tr": "1727: Christ Kilisesi'nin inşaatı başlar; ana gövdesi 1744'te biter"
+   },
+   "population": [
+    11000,
+    12400
+   ],
+   "camera": {
+    "center": [
+     39.95083,
+     -75.14589
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1732,
+   "to": 1752.9,
+   "seconds": 17,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The State House",
+    "tr": "Eyalet Binası"
+   },
+   "sub": {
+    "en": "1732–1753: the Pennsylvania State House rises on Chestnut Street",
+    "tr": "1732–1753: Pennsylvania Eyalet Binası Chestnut Caddesi'nde yükselir"
+   },
+   "population": [
+    12400,
+    21000
+   ],
+   "camera": {
+    "center": [
+     39.94889,
+     -75.149
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1753,
+   "to": 1753.9,
+   "seconds": 14,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Bell for the Tower",
+    "tr": "Kuleye Bir Çan"
+   },
+   "sub": {
+    "en": "1753: a bell is hung in the State House tower",
+    "tr": "1753: Eyalet Binası'nın kulesine bir çan asılır"
+   },
+   "population": [
+    21000,
+    21400
+   ],
+   "camera": {
+    "center": [
+     39.94889,
+     -75.149
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1754,
+   "to": 1769.9,
+   "seconds": 16,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "America's Tallest Steeple",
+    "tr": "Amerika'nın En Yüksek Kulesi"
+   },
+   "sub": {
+    "en": "1754: Christ Church's 196 ft (60 m) steeple — the tallest in America until 1810",
+    "tr": "1754: Christ Kilisesi'nin 60 m'lik kulesi — 1810'a dek Amerika'nın en yükseği"
+   },
+   "population": [
+    21400,
+    27900
+   ],
+   "camera": {
+    "center": [
+     39.9505,
+     -75.147
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1770,
+   "to": 1773.9,
+   "seconds": 15,
+   "era": {
+    "en": "Province of Pennsylvania",
+    "tr": "Pennsylvania Eyaleti"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Carpenters' Hall",
+    "tr": "Marangozlar Salonu"
+   },
+   "sub": {
+    "en": "1770–1774: the city's carpenters build their guild hall off Chestnut Street",
+    "tr": "1770–1774: şehrin marangozları Chestnut Caddesi yakınına lonca salonlarını yapar"
+   },
+   "population": [
+    28000,
+    29600
+   ],
+   "camera": {
+    "center": [
+     39.9481,
+     -75.1472
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1774,
+   "to": 1775.9,
+   "seconds": 16,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Continental Congress",
+    "tr": "Kıta Kongresi"
+   },
+   "sub": {
+    "en": "5 September 1774: the First Continental Congress meets in Carpenters' Hall",
+    "tr": "5 Eylül 1774: Birinci Kıta Kongresi Marangozlar Salonu'nda toplanır"
+   },
+   "population": [
+    29600,
+    30000
+   ],
+   "camera": {
+    "center": [
+     39.9481,
+     -75.1472
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   }
+  },
+  {
+   "from": 1776,
+   "to": 1776.95,
+   "seconds": 22,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Independence",
+    "tr": "Bağımsızlık"
+   },
+   "sub": {
+    "en": "4 July 1776: the Declaration of Independence is approved in the State House",
+    "tr": "4 Temmuz 1776: Bağımsızlık Bildirgesi Eyalet Binası'nda kabul edilir"
+   },
+   "population": [
+    30000,
+    30000
+   ],
+   "camera": {
+    "center": [
+     39.94889,
+     -75.15
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1777,
+   "to": 1777.72,
+   "seconds": 15,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Congress Flees",
+    "tr": "Kongre Kaçıyor"
+   },
+   "sub": {
+    "en": "11 September 1777: defeat at Brandywine; Congress flees the city",
+    "tr": "11 Eylül 1777: Brandywine yenilgisi; Kongre şehirden kaçar"
+   },
+   "population": [
+    30000,
+    30000
+   ],
+   "camera": {
+    "center": [
+     39.948,
+     -75.16
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1777.73,
+   "to": 1777.82,
+   "seconds": 15,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The British March In",
+    "tr": "İngilizler Şehre Giriyor"
+   },
+   "sub": {
+    "en": "26 September 1777: British troops occupy Philadelphia",
+    "tr": "26 Eylül 1777: İngiliz birlikleri Philadelphia'yı işgal eder"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     39.953,
+     -75.155
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1777.82,
+   "to": 1778.3,
+   "seconds": 17,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Fort Mifflin Falls",
+    "tr": "Mifflin Kalesi Düşüyor"
+   },
+   "sub": {
+    "en": "16 November 1777: after weeks of siege, the British take Fort Mifflin",
+    "tr": "16 Kasım 1777: haftalarca süren kuşatmanın ardından İngilizler Mifflin Kalesi'ni alır"
+   },
+   "population": 15000,
+   "camera": {
+    "center": [
+     39.905,
+     -75.19
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1778.3,
+   "to": 1786.9,
+   "seconds": 16,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The British Leave",
+    "tr": "İngilizler Gidiyor"
+   },
+   "sub": {
+    "en": "18 June 1778: the British leave; Congress is back on 2 July",
+    "tr": "18 Haziran 1778: İngilizler ayrılır; Kongre 2 Temmuz'da geri döner"
+   },
+   "population": [
+    15000,
+    24900
+   ],
+   "camera": {
+    "center": [
+     39.95,
+     -75.15
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1787,
+   "to": 1789.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Constitution",
+    "tr": "Anayasa"
+   },
+   "sub": {
+    "en": "May–September 1787: the Constitutional Convention meets in the State House",
+    "tr": "Mayıs–Eylül 1787: Anayasa Kurultayı Eyalet Binası'nda toplanır"
+   },
+   "population": [
+    25000,
+    28400
+   ],
+   "camera": {
+    "center": [
+     39.94889,
+     -75.15
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1790,
+   "to": 1792.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Capital of the Nation",
+    "tr": "Ulusun Başkenti"
+   },
+   "sub": {
+    "en": "6 December 1790: Philadelphia becomes the US capital, until 1800",
+    "tr": "6 Aralık 1790: Philadelphia ABD'nin başkenti olur; 1800'e kadar"
+   },
+   "population": [
+    28522,
+    32200
+   ],
+   "camera": {
+    "center": [
+     39.95,
+     -75.152
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Capital of a New Nation",
+    "tr": "Yeni Bir Ulusun Başkenti"
+   }
+  },
+  {
+   "from": 1793,
+   "to": 1793.95,
+   "seconds": 18,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Yellow Fever",
+    "tr": "Sarı Humma"
+   },
+   "sub": {
+    "en": "Aug–Nov 1793: yellow fever kills 5,000 or more; some 20,000 flee",
+    "tr": "Ağustos–Kasım 1793: sarı humma 5.000'den fazla can alır; 20.000 kadar kişi kaçar"
+   },
+   "population": [
+    32300,
+    33500
+   ],
+   "camera": {
+    "center": [
+     39.95,
+     -75.149
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1794,
+   "to": 1811.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Capital Moves On",
+    "tr": "Başkent Taşınıyor"
+   },
+   "sub": {
+    "en": "1800: the federal government leaves for Washington, D.C.",
+    "tr": "1800: federal hükümet Washington'a taşınır"
+   },
+   "population": [
+    33600,
+    56300
+   ],
+   "camera": {
+    "center": [
+     39.951,
+     -75.156
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1812,
+   "to": 1821.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Fairmount Water Works",
+    "tr": "Fairmount Su İşletmesi"
+   },
+   "sub": {
+    "en": "1812–1815: steam pumps at Fairmount lift Schuylkill water for the city",
+    "tr": "1812–1815: Fairmount'taki buhar pompaları şehre Schuylkill suyu basar"
+   },
+   "population": [
+    56400,
+    69600
+   ],
+   "camera": {
+    "center": [
+     39.96,
+     -75.175
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Workshop of the World",
+    "tr": "Dünyanın Atölyesi"
+   }
+  },
+  {
+   "from": 1822,
+   "to": 1828.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Water Wheels",
+    "tr": "Su Çarkları"
+   },
+   "sub": {
+    "en": "1822: Fairmount Dam is complete; water wheels replace the steam engines",
+    "tr": "1822: Fairmount Barajı tamamlanır; su çarkları buhar makinelerinin yerini alır"
+   },
+   "population": [
+    69800,
+    79000
+   ],
+   "camera": {
+    "center": [
+     39.96556,
+     -75.17783
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1829,
+   "to": 1833.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Eastern State Penitentiary",
+    "tr": "Eastern State Cezaevi"
+   },
+   "sub": {
+    "en": "25 October 1829: Eastern State Penitentiary opens on 11 acres",
+    "tr": "25 Ekim 1829: Eastern State Cezaevi 11 akrelik alanda açılır"
+   },
+   "population": [
+    79100,
+    85600
+   ],
+   "camera": {
+    "center": [
+     39.9683,
+     -75.1725
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1834,
+   "to": 1849.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "To the Schuylkill",
+    "tr": "Schuylkill'e Doğru"
+   },
+   "sub": {
+    "en": "1834: a railroad heads west; the built-up city spreads toward the Schuylkill",
+    "tr": "1834: demiryolu batıya uzanır; yerleşim Schuylkill'e doğru yayılır"
+   },
+   "population": [
+    85700,
+    121000
+   ],
+   "camera": {
+    "center": [
+     39.953,
+     -75.16
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1850,
+   "to": 1853.9,
+   "seconds": 8,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "population": 121376,
+   "camera": {
+    "center": [
+     39.96,
+     -75.155
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1854,
+   "to": 1859.9,
+   "seconds": 22,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "One City, One County",
+    "tr": "Tek Şehir, Tek İlçe"
+   },
+   "sub": {
+    "en": "2 February 1854: the city absorbs all of Philadelphia County",
+    "tr": "2 Şubat 1854: şehir, Philadelphia İlçesi'nin tamamını bünyesine katar"
+   },
+   "population": [
+    471000,
+    564000
+   ],
+   "camera": {
+    "center": [
+     39.99,
+     -75.15
+    ],
+    "dist_km": 22.0
+   },
+   "chapter": {
+    "en": "Consolidation",
+    "tr": "Birleşme"
+   }
+  },
+  {
+   "from": 1860,
+   "to": 1870.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Half a Million",
+    "tr": "Yarım Milyon"
+   },
+   "sub": {
+    "en": "1860: the consolidated city counts 565,529 people",
+    "tr": "1860: birleşik şehir 565.529 kişi sayar"
+   },
+   "population": [
+    565529,
+    691000
+   ],
+   "camera": {
+    "center": [
+     39.97,
+     -75.155
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1871,
+   "to": 1875.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Tower at Centre Square",
+    "tr": "Merkez Meydan'da Bir Kule"
+   },
+   "sub": {
+    "en": "1871: work begins on City Hall; the Navy Yard moves to League Island",
+    "tr": "1871: Belediye Binası'nın yapımı başlar; Donanma Tersanesi League Adası'na taşınır"
+   },
+   "population": [
+    693000,
+    784000
+   ],
+   "camera": {
+    "center": [
+     39.93,
+     -75.165
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1876,
+   "to": 1880.9,
+   "seconds": 18,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Centennial",
+    "tr": "Yüzüncü Yıl"
+   },
+   "sub": {
+    "en": "10 May 1876: the Centennial Exhibition opens in Fairmount Park",
+    "tr": "10 Mayıs 1876: Yüzüncü Yıl Sergisi Fairmount Park'ta açılır"
+   },
+   "population": [
+    786000,
+    877000
+   ],
+   "camera": {
+    "center": [
+     39.98,
+     -75.19
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1881,
+   "to": 1893.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Broad Street Station",
+    "tr": "Broad Street İstasyonu"
+   },
+   "sub": {
+    "en": "December 1881: the Pennsylvania Railroad opens Broad Street Station",
+    "tr": "Aralık 1881: Pennsylvania Demiryolu Broad Street İstasyonu'nu açar"
+   },
+   "population": [
+    879000,
+    1143000
+   ],
+   "camera": {
+    "center": [
+     39.953,
+     -75.17
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1894,
+   "to": 1900.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "William Penn on Top",
+    "tr": "Tepede William Penn"
+   },
+   "sub": {
+    "en": "1894: a 37 ft (11 m) statue of William Penn is raised onto City Hall's tower",
+    "tr": "1894: 11 m'lik William Penn heykeli Belediye Binası'nın kulesine çıkarılır"
+   },
+   "population": [
+    1146000,
+    1317000
+   ],
+   "camera": {
+    "center": [
+     39.95239,
+     -75.1636
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1901,
+   "to": 1906.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "City Hall Is Finished",
+    "tr": "Belediye Binası Bitti"
+   },
+   "sub": {
+    "en": "1901: City Hall is complete — 548 ft (167 m) to the top of Penn's hat",
+    "tr": "1901: Belediye Binası tamam — Penn'in şapkasına kadar 167 m"
+   },
+   "population": [
+    1319000,
+    1470000
+   ],
+   "camera": {
+    "center": [
+     39.95239,
+     -75.1636
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1907,
+   "to": 1917.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The El",
+    "tr": "Havai Raylı"
+   },
+   "sub": {
+    "en": "March 1907: the Market Street El opens from 69th Street to City Hall",
+    "tr": "Mart 1907: Market Street havai raylısı 69. Cadde'den Belediye Binası'na açılır"
+   },
+   "population": [
+    1472000,
+    1708000
+   ],
+   "camera": {
+    "center": [
+     39.958,
+     -75.2
+    ],
+    "dist_km": 9.0
+   },
+   "chapter": {
+    "en": "The Big City",
+    "tr": "Büyük Şehir"
+   }
+  },
+  {
+   "from": 1918,
+   "to": 1918.9,
+   "seconds": 14,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The 1918 Flu",
+    "tr": "1918 Gribi"
+   },
+   "sub": {
+    "en": "1918: the Spanish flu kills about 12,000 Philadelphians",
+    "tr": "1918: İspanyol gribi yaklaşık 12.000 Philadelphialının ölümüne yol açar"
+   },
+   "population": [
+    1710000,
+    1728000
+   ],
+   "camera": {
+    "center": [
+     39.97,
+     -75.16
+    ],
+    "dist_km": 13.0
+   }
+  },
+  {
+   "from": 1919,
+   "to": 1926.4,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Temple on the Hill",
+    "tr": "Tepedeki Tapınak"
+   },
+   "sub": {
+    "en": "1919: work starts on the Museum of Art on Fairmount; it opens in 1928",
+    "tr": "1919: Fairmount tepesinde Sanat Müzesi'nin inşaatı başlar; 1928'de açılır"
+   },
+   "population": [
+    1730000,
+    1879000
+   ],
+   "camera": {
+    "center": [
+     39.96,
+     -75.172
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1926.5,
+   "to": 1932.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "A Bridge to Camden",
+    "tr": "Camden'a Bir Köprü"
+   },
+   "sub": {
+    "en": "1 July 1926: the Delaware bridge opens — the world's longest suspension span",
+    "tr": "1 Temmuz 1926: Delaware köprüsü açılır — dünyanın en uzun asma köprü açıklığı"
+   },
+   "population": [
+    1881000,
+    1945000
+   ],
+   "camera": {
+    "center": [
+     39.953,
+     -75.138
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1933,
+   "to": 1949.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "30th Street Station",
+    "tr": "30. Cadde İstasyonu"
+   },
+   "sub": {
+    "en": "1933: 30th Street Station opens on the west bank of the Schuylkill",
+    "tr": "1933: 30. Cadde İstasyonu Schuylkill'in batı kıyısında açılır"
+   },
+   "population": [
+    1945000,
+    2070000
+   ],
+   "camera": {
+    "center": [
+     39.95583,
+     -75.17793999999999
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1950,
+   "to": 1952.2,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Two Million People",
+    "tr": "İki Milyon İnsan"
+   },
+   "sub": {
+    "en": "1950: the census counts 2,071,605 people — the city's all-time peak",
+    "tr": "1950: sayım 2.071.605 kişi sayar — şehrin tüm zamanların zirvesi"
+   },
+   "population": [
+    2071605,
+    2058000
+   ],
+   "camera": {
+    "center": [
+     39.99,
+     -75.14
+    ],
+    "dist_km": 26.0
+   }
+  },
+  {
+   "from": 1952.3,
+   "to": 1956.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Old Station Goes",
+    "tr": "Eski İstasyon Yıkılıyor"
+   },
+   "sub": {
+    "en": "27 April 1952: Broad Street Station closes; it is torn down in 1953",
+    "tr": "27 Nisan 1952: Broad Street İstasyonu kapanır; 1953'te yıkılır"
+   },
+   "population": [
+    2057000,
+    2029000
+   ],
+   "camera": {
+    "center": [
+     39.953,
+     -75.169
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1957,
+   "to": 1970.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Walt Whitman Bridge",
+    "tr": "Walt Whitman Köprüsü"
+   },
+   "sub": {
+    "en": "16 May 1957: the Walt Whitman Bridge opens over the Delaware",
+    "tr": "16 Mayıs 1957: Walt Whitman Köprüsü Delaware üzerinde açılır"
+   },
+   "population": [
+    2029000,
+    1925000
+   ],
+   "camera": {
+    "center": [
+     39.915,
+     -75.145
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1971,
+   "to": 1975.9,
+   "seconds": 14,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Prison Closes",
+    "tr": "Cezaevi Kapanıyor"
+   },
+   "sub": {
+    "en": "1971: Eastern State Penitentiary closes after 142 years",
+    "tr": "1971: Eastern State Cezaevi 142 yıl sonra kapanır"
+   },
+   "population": [
+    1923000,
+    1795000
+   ],
+   "camera": {
+    "center": [
+     39.9683,
+     -75.1725
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1976,
+   "to": 1984.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Bicentennial",
+    "tr": "İki Yüzüncü Yıl"
+   },
+   "sub": {
+    "en": "4 July 1976: the nation marks 200 years where independence was declared",
+    "tr": "4 Temmuz 1976: ulus, bağımsızlığın ilan edildiği yerde 200. yılını kutlar"
+   },
+   "population": [
+    1792000,
+    1638000
+   ],
+   "camera": {
+    "center": [
+     39.94889,
+     -75.15400000000001
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 1985,
+   "to": 1989.9,
+   "seconds": 18,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Above Penn's Hat",
+    "tr": "Penn'in Şapkasının Üstünde"
+   },
+   "sub": {
+    "en": "1987: One Liberty Place, 945 ft, ends the custom of building no higher than Penn",
+    "tr": "1987: 288 m'lik One Liberty Place, Penn'den yükseğe çıkmama geleneğine son verir"
+   },
+   "population": [
+    1637000,
+    1587000
+   ],
+   "camera": {
+    "center": [
+     39.953,
+     -75.168
+    ],
+    "dist_km": 3.6
+   },
+   "chapter": {
+    "en": "A New Skyline",
+    "tr": "Yeni Bir Silüet"
+   }
+  },
+  {
+   "from": 1990,
+   "to": 2006.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Navy Yard Closes",
+    "tr": "Tersane Kapanıyor"
+   },
+   "sub": {
+    "en": "1995: the Navy Yard closes after 124 years on League Island",
+    "tr": "1995: Donanma Tersanesi League Adası'ndaki 124 yılın ardından kapanır"
+   },
+   "population": [
+    1585577,
+    1523000
+   ],
+   "camera": {
+    "center": [
+     39.915,
+     -75.175
+    ],
+    "dist_km": 8.0
+   }
+  },
+  {
+   "from": 2007,
+   "to": 2017.9,
+   "seconds": 15,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "The Comcast Center",
+    "tr": "Comcast Center"
+   },
+   "sub": {
+    "en": "2007: the Comcast Center tops out and takes Pennsylvania's height record",
+    "tr": "2007: Comcast Center tamamlanır ve Pennsylvania'nın yükseklik rekorunu alır"
+   },
+   "population": [
+    1523000,
+    1577000
+   ],
+   "camera": {
+    "center": [
+     39.9545,
+     -75.168
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 2018,
+   "to": 2022.9,
+   "seconds": 16,
+   "era": {
+    "en": "United States",
+    "tr": "Amerika Birleşik Devletleri"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "1,121 Feet",
+    "tr": "342 Metre"
+   },
+   "sub": {
+    "en": "2018: the 1,121 ft (342 m) Comcast Technology Center becomes the tallest in the state",
+    "tr": "2018: 342 m'lik Comcast Technology Center eyaletin en yüksek binası olur"
+   },
+   "population": [
+    1578000,
+    1587000
+   ],
+   "camera": {
+    "center": [
+     39.9549,
+     -75.1684
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Philadelphia Today",
+    "tr": "Bugünün Philadelphia'sı"
+   }
+  },
+  {
+   "from": 2023,
+   "to": 2026,
+   "seconds": 26,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "title": {
+    "en": "Philadelphia Today",
+    "tr": "Bugünün Philadelphia'sı"
+   },
+   "sub": {
+    "en": "From a riverside grid of 1682 to 1,574,281 people in July 2025",
+    "tr": "1682'nin nehir kıyısı ızgarasından Temmuz 2025'te 1.574.281 kişiye"
+   },
+   "population": [
+    1586000,
+    1574281
+   ],
+   "camera": {
+    "center": [
+     39.99,
+     -75.135
+    ],
+    "dist_km": 30.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Swedish farms at Wicaco (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     39.9345,
+     -75.1394
+    ],
+    [
+     39.93653,
+     -75.14036
+    ],
+    [
+     39.93762,
+     -75.14279
+    ],
+    [
+     39.93724,
+     -75.14555
+    ],
+    [
+     39.93558,
+     -75.14735
+    ],
+    [
+     39.93342,
+     -75.14735
+    ],
+    [
+     39.93176,
+     -75.14555
+    ],
+    [
+     39.93138,
+     -75.14279
+    ],
+    [
+     39.93247,
+     -75.14036
+    ]
+   ],
+   "from": 1660,
+   "to": 1700,
+   "density": 0.35,
+   "grain_m": 70,
+   "grow_from": [
+    39.9345,
+    -75.1435
+   ]
+  },
+  {
+   "name": "First houses on the Delaware (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.944,
+     -75.1385
+    ],
+    [
+     39.956,
+     -75.1385
+    ],
+    [
+     39.956,
+     -75.14575
+    ],
+    [
+     39.944,
+     -75.14575
+    ]
+   ],
+   "from": 1682.85,
+   "to": 1700,
+   "density": 0.7,
+   "grain_m": 45,
+   "grid_deg": 0,
+   "grow_from": [
+    39.952,
+    -75.1425
+   ]
+  },
+  {
+   "name": "Colonial city, east of 7th Street (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9415,
+     -75.1385
+    ],
+    [
+     39.9575,
+     -75.1385
+    ],
+    [
+     39.9575,
+     -75.15224
+    ],
+    [
+     39.9415,
+     -75.15224
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.944,
+      -75.1385
+     ],
+     [
+      39.956,
+      -75.1385
+     ],
+     [
+      39.956,
+      -75.14575
+     ],
+     [
+      39.944,
+      -75.14575
+     ]
+    ]
+   ],
+   "from": 1700,
+   "to": 1776,
+   "density": 0.8,
+   "grain_m": 45,
+   "grid_deg": 0,
+   "grow_from": [
+    39.952,
+    -75.1425
+   ]
+  },
+  {
+   "name": "Northern Liberties (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9575,
+     -75.1385
+    ],
+    [
+     39.966,
+     -75.1385
+    ],
+    [
+     39.966,
+     -75.15062
+    ],
+    [
+     39.9575,
+     -75.15062
+    ]
+   ],
+   "from": 1730,
+   "to": 1800,
+   "density": 0.7,
+   "grain_m": 50,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9575,
+    -75.142
+   ]
+  },
+  {
+   "name": "Southwark (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.93,
+     -75.142
+    ],
+    [
+     39.9415,
+     -75.142
+    ],
+    [
+     39.9415,
+     -75.15062
+    ],
+    [
+     39.93,
+     -75.15062
+    ]
+   ],
+   "from": 1730,
+   "to": 1800,
+   "density": 0.7,
+   "grain_m": 50,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9415,
+    -75.144
+   ]
+  },
+  {
+   "name": "West to Centre Square (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9415,
+     -75.15224
+    ],
+    [
+     39.9575,
+     -75.15224
+    ],
+    [
+     39.9575,
+     -75.164
+    ],
+    [
+     39.9415,
+     -75.164
+    ]
+   ],
+   "from": 1790,
+   "to": 1830,
+   "density": 0.75,
+   "grain_m": 50,
+   "grid_deg": 0,
+   "grow_from": [
+    39.952,
+    -75.15223846153846
+   ]
+  },
+  {
+   "name": "Centre Square to the Schuylkill (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9415,
+     -75.164
+    ],
+    [
+     39.9575,
+     -75.164
+    ],
+    [
+     39.9575,
+     -75.18
+    ],
+    [
+     39.9415,
+     -75.18
+    ]
+   ],
+   "from": 1815,
+   "to": 1855,
+   "density": 0.7,
+   "grain_m": 55,
+   "grid_deg": 0,
+   "grow_from": [
+    39.952,
+    -75.1636
+   ]
+  },
+  {
+   "name": "Northern districts (Spring Garden, Kensington ≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9575,
+     -75.172
+    ],
+    [
+     39.975,
+     -75.178
+    ],
+    [
+     39.985,
+     -75.165
+    ],
+    [
+     39.985,
+     -75.115
+    ],
+    [
+     39.97,
+     -75.12
+    ],
+    [
+     39.962,
+     -75.133
+    ],
+    [
+     39.9575,
+     -75.1385
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.9575,
+      -75.1385
+     ],
+     [
+      39.966,
+      -75.1385
+     ],
+     [
+      39.966,
+      -75.15062
+     ],
+     [
+      39.9575,
+      -75.15062
+     ]
+    ]
+   ],
+   "from": 1800,
+   "to": 1853,
+   "density": 0.65,
+   "grain_m": 60,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9575,
+    -75.145
+   ]
+  },
+  {
+   "name": "Southern districts (Moyamensing ≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     39.9415,
+     -75.142
+    ],
+    [
+     39.9415,
+     -75.18
+    ],
+    [
+     39.925,
+     -75.185
+    ],
+    [
+     39.92,
+     -75.165
+    ],
+    [
+     39.925,
+     -75.143
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.93,
+      -75.142
+     ],
+     [
+      39.9415,
+      -75.142
+     ],
+     [
+      39.9415,
+      -75.15062
+     ],
+     [
+      39.93,
+      -75.15062
+     ]
+    ]
+   ],
+   "from": 1800,
+   "to": 1853,
+   "density": 0.6,
+   "grain_m": 60,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9415,
+    -75.15
+   ]
+  },
+  {
+   "name": "Rowhouse city (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     39.92,
+     -75.143
+    ],
+    [
+     39.96,
+     -75.135
+    ],
+    [
+     39.99,
+     -75.1
+    ],
+    [
+     40.015,
+     -75.075
+    ],
+    [
+     40.025,
+     -75.12
+    ],
+    [
+     40.03,
+     -75.17
+    ],
+    [
+     40.005,
+     -75.185
+    ],
+    [
+     39.98,
+     -75.21
+    ],
+    [
+     39.98,
+     -75.245
+    ],
+    [
+     39.935,
+     -75.245
+    ],
+    [
+     39.915,
+     -75.22
+    ],
+    [
+     39.905,
+     -75.19
+    ],
+    [
+     39.905,
+     -75.15
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.9415,
+      -75.1385
+     ],
+     [
+      39.9575,
+      -75.1385
+     ],
+     [
+      39.9575,
+      -75.18
+     ],
+     [
+      39.9415,
+      -75.18
+     ]
+    ],
+    [
+     [
+      39.9575,
+      -75.172
+     ],
+     [
+      39.975,
+      -75.178
+     ],
+     [
+      39.985,
+      -75.165
+     ],
+     [
+      39.985,
+      -75.115
+     ],
+     [
+      39.97,
+      -75.12
+     ],
+     [
+      39.962,
+      -75.133
+     ],
+     [
+      39.9575,
+      -75.1385
+     ]
+    ],
+    [
+     [
+      39.9415,
+      -75.142
+     ],
+     [
+      39.9415,
+      -75.18
+     ],
+     [
+      39.925,
+      -75.185
+     ],
+     [
+      39.92,
+      -75.165
+     ],
+     [
+      39.925,
+      -75.143
+     ]
+    ],
+    [
+     [
+      39.93,
+      -75.142
+     ],
+     [
+      39.9415,
+      -75.142
+     ],
+     [
+      39.9415,
+      -75.15062
+     ],
+     [
+      39.93,
+      -75.15062
+     ]
+    ],
+    [
+     [
+      39.9575,
+      -75.1385
+     ],
+     [
+      39.966,
+      -75.1385
+     ],
+     [
+      39.966,
+      -75.15062
+     ],
+     [
+      39.9575,
+      -75.15062
+     ]
+    ],
+    [
+     [
+      39.968,
+      -75.182
+     ],
+     [
+      39.98,
+      -75.187
+     ],
+     [
+      39.995,
+      -75.195
+     ],
+     [
+      40.01,
+      -75.205
+     ],
+     [
+      40.015,
+      -75.198
+     ],
+     [
+      40.0,
+      -75.185
+     ],
+     [
+      39.985,
+      -75.178
+     ],
+     [
+      39.97,
+      -75.176
+     ]
+    ]
+   ],
+   "from": 1854,
+   "to": 1925,
+   "density": 0.8,
+   "grain_m": 68,
+   "grid_deg": 0,
+   "grow_from": [
+    39.95239,
+    -75.1636
+   ]
+  },
+  {
+   "name": "Navy Yard, League Island (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     39.885,
+     -75.155
+    ],
+    [
+     39.898,
+     -75.155
+    ],
+    [
+     39.898,
+     -75.195
+    ],
+    [
+     39.887,
+     -75.195
+    ]
+   ],
+   "from": 1871,
+   "to": 1900,
+   "density": 0.5,
+   "grain_m": 110,
+   "grow_from": [
+    39.8911,
+    -75.1786
+   ]
+  },
+  {
+   "name": "Camden (≈, across the river)",
+   "style": "victorian",
+   "poly": [
+    [
+     39.96,
+     -75.13
+    ],
+    [
+     39.96,
+     -75.095
+    ],
+    [
+     39.93,
+     -75.09
+    ],
+    [
+     39.92,
+     -75.12
+    ],
+    [
+     39.935,
+     -75.135
+    ]
+   ],
+   "from": 1850,
+   "to": 1930,
+   "density": 0.5,
+   "grain_m": 95,
+   "grow_from": [
+    39.945,
+    -75.122
+   ]
+  },
+  {
+   "name": "Outer neighbourhoods (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     39.88,
+     -75.135
+    ],
+    [
+     39.96,
+     -75.13
+    ],
+    [
+     39.99,
+     -75.085
+    ],
+    [
+     40.03,
+     -75.04
+    ],
+    [
+     40.06,
+     -74.98
+    ],
+    [
+     40.09,
+     -74.965
+    ],
+    [
+     40.135,
+     -75.015
+    ],
+    [
+     40.09,
+     -75.095
+    ],
+    [
+     40.08,
+     -75.205
+    ],
+    [
+     40.06,
+     -75.265
+    ],
+    [
+     39.975,
+     -75.28
+    ],
+    [
+     39.92,
+     -75.26
+    ],
+    [
+     39.89,
+     -75.23
+    ],
+    [
+     39.875,
+     -75.19
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.92,
+      -75.143
+     ],
+     [
+      39.96,
+      -75.135
+     ],
+     [
+      39.99,
+      -75.1
+     ],
+     [
+      40.015,
+      -75.075
+     ],
+     [
+      40.025,
+      -75.12
+     ],
+     [
+      40.03,
+      -75.17
+     ],
+     [
+      40.005,
+      -75.185
+     ],
+     [
+      39.98,
+      -75.21
+     ],
+     [
+      39.98,
+      -75.245
+     ],
+     [
+      39.935,
+      -75.245
+     ],
+     [
+      39.915,
+      -75.22
+     ],
+     [
+      39.905,
+      -75.19
+     ],
+     [
+      39.905,
+      -75.15
+     ]
+    ],
+    [
+     [
+      39.885,
+      -75.155
+     ],
+     [
+      39.898,
+      -75.155
+     ],
+     [
+      39.898,
+      -75.195
+     ],
+     [
+      39.887,
+      -75.195
+     ]
+    ],
+    [
+     [
+      39.968,
+      -75.182
+     ],
+     [
+      39.98,
+      -75.187
+     ],
+     [
+      39.995,
+      -75.195
+     ],
+     [
+      40.01,
+      -75.205
+     ],
+     [
+      40.015,
+      -75.198
+     ],
+     [
+      40.0,
+      -75.185
+     ],
+     [
+      39.985,
+      -75.178
+     ],
+     [
+      39.97,
+      -75.176
+     ]
+    ],
+    [
+     [
+      40.015,
+      -75.205
+     ],
+     [
+      40.04,
+      -75.215
+     ],
+     [
+      40.065,
+      -75.225
+     ],
+     [
+      40.07,
+      -75.215
+     ],
+     [
+      40.045,
+      -75.202
+     ],
+     [
+      40.02,
+      -75.196
+     ]
+    ],
+    [
+     [
+      39.96,
+      -75.13
+     ],
+     [
+      39.96,
+      -75.095
+     ],
+     [
+      39.93,
+      -75.09
+     ],
+     [
+      39.92,
+      -75.12
+     ],
+     [
+      39.935,
+      -75.135
+     ]
+    ]
+   ],
+   "from": 1900,
+   "to": 1975,
+   "density": 0.5,
+   "grain_m": 125,
+   "grow_from": [
+    39.95239,
+    -75.1636
+   ]
+  },
+  {
+   "name": "Penn Center (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     39.9525,
+     -75.17
+    ],
+    [
+     39.9545,
+     -75.17
+    ],
+    [
+     39.9545,
+     -75.1648
+    ],
+    [
+     39.9525,
+     -75.1648
+    ]
+   ],
+   "from": 1953.5,
+   "to": 1970,
+   "density": 0.85,
+   "grain_m": 60,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9535,
+    -75.166
+   ]
+  },
+  {
+   "name": "Center City towers (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     39.95,
+     -75.172
+    ],
+    [
+     39.9565,
+     -75.172
+    ],
+    [
+     39.9565,
+     -75.1646
+    ],
+    [
+     39.95,
+     -75.1646
+    ]
+   ],
+   "holes": [
+    [
+     [
+      39.9525,
+      -75.17
+     ],
+     [
+      39.9545,
+      -75.17
+     ],
+     [
+      39.9545,
+      -75.1648
+     ],
+     [
+      39.9525,
+      -75.1648
+     ]
+    ]
+   ],
+   "from": 1986,
+   "to": 2020,
+   "density": 0.6,
+   "grain_m": 75,
+   "grid_deg": 0,
+   "grow_from": [
+    39.9522,
+    -75.1678
+   ]
+  }
+ ],
+ "walls": [],
+ "bridges": [
+  {
+   "name": "Benjamin Franklin Bridge (≈ ends)",
+   "path": [
+    [
+     39.9548,
+     -75.1408
+    ],
+    [
+     39.9508,
+     -75.1275
+    ]
+   ],
+   "built": 1926.5,
+   "style": "modern",
+   "width_m": 39
+  },
+  {
+   "name": "Walt Whitman Bridge (≈ ends)",
+   "path": [
+    [
+     39.9088,
+     -75.1395
+    ],
+    [
+     39.9018,
+     -75.12
+    ]
+   ],
+   "built": 1957.37,
+   "style": "modern",
+   "width_m": 34
+  }
+ ],
+ "roads": [
+  {
+   "name": "High (Market) Street (≈)",
+   "path": [
+    [
+     39.952,
+     -75.1405
+    ],
+    [
+     39.952,
+     -75.179
+    ]
+   ],
+   "from": 1682.8,
+   "kind": "avenue",
+   "width_m": 30,
+   "draw_s": 4
+  },
+  {
+   "name": "Broad Street (≈)",
+   "path": [
+    [
+     39.915,
+     -75.1596
+    ],
+    [
+     39.9415,
+     -75.1626
+    ],
+    [
+     39.95239,
+     -75.1636
+    ],
+    [
+     39.9575,
+     -75.1639
+    ],
+    [
+     40.03,
+     -75.15
+    ]
+   ],
+   "from": 1682.8,
+   "kind": "avenue",
+   "width_m": 30,
+   "draw_s": 4
+  },
+  {
+   "name": "Pennsylvania Railroad viaduct (≈)",
+   "path": [
+    [
+     39.9533,
+     -75.166
+    ],
+    [
+     39.954,
+     -75.179
+    ]
+   ],
+   "from": 1881.9,
+   "to": 1953.5,
+   "kind": "rail",
+   "width_m": 26
+  },
+  {
+   "name": "Market Street El (≈)",
+   "path": [
+    [
+     39.9553,
+     -75.184
+    ],
+    [
+     39.959,
+     -75.21
+    ],
+    [
+     39.962,
+     -75.245
+    ],
+    [
+     39.962,
+     -75.256
+    ]
+   ],
+   "from": 1907.18,
+   "kind": "rail",
+   "width_m": 20
+  },
+  {
+   "name": "Benjamin Franklin Parkway (≈)",
+   "path": [
+    [
+     39.9545,
+     -75.165
+    ],
+    [
+     39.96,
+     -75.172
+    ],
+    [
+     39.9645,
+     -75.179
+    ]
+   ],
+   "from": 1917,
+   "kind": "avenue",
+   "width_m": 40,
+   "draw_s": 3
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "church",
+   "name": {
+    "en": "Gloria Dei (Old Swedes')",
+    "tr": "Gloria Dei (Eski İsveçliler)"
+   },
+   "at": [
+    39.9345,
+    -75.1435
+   ],
+   "built": 1698,
+   "rise_s": 6,
+   "size_m": [
+    30,
+    14,
+    14
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#5a4a44"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Christ Church",
+    "tr": "Christ Kilisesi"
+   },
+   "at": [
+    39.95083,
+    -75.14389
+   ],
+   "built": 1727,
+   "rise_s": 8,
+   "size_m": [
+    36,
+    18,
+    18
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "Christ Church steeple",
+    "tr": "Christ Kilisesi kulesi"
+   },
+   "at": [
+    39.95083,
+    -75.14417
+   ],
+   "built": 1754,
+   "rise_s": 6,
+   "size_m": [
+    9,
+    9,
+    60
+   ],
+   "colors": {
+    "wall": "#e8e2d4",
+    "roof": "#e8e2d4"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Pennsylvania State House",
+    "tr": "Pennsylvania Eyalet Binası"
+   },
+   "at": [
+    39.94889,
+    -75.15
+   ],
+   "built": 1732,
+   "rise_s": 14,
+   "size_m": [
+    33,
+    14,
+    14
+   ],
+   "scale": 1.4,
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "State House tower",
+    "tr": "Eyalet Binası kulesi"
+   },
+   "at": [
+    39.948769999999996,
+    -75.15
+   ],
+   "built": 1752,
+   "rise_s": 6,
+   "size_m": [
+    9,
+    9,
+    50
+   ],
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#e8e2d4"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Carpenters' Hall",
+    "tr": "Marangozlar Salonu"
+   },
+   "at": [
+    39.9481,
+    -75.1472
+   ],
+   "built": 1770,
+   "rise_s": 8,
+   "size_m": [
+    20,
+    20,
+    12
+   ],
+   "scale": 1.4,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort Mifflin",
+    "tr": "Mifflin Kalesi"
+   },
+   "at": [
+    39.8753,
+    -75.213
+   ],
+   "built": 1771,
+   "rise_s": 6,
+   "size_m": [
+    180,
+    140,
+    8
+   ],
+   "colors": {
+    "wall": "#b9ad94"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Fairmount Water Works",
+    "tr": "Fairmount Su İşletmesi"
+   },
+   "at": [
+    39.96556,
+    -75.18083
+   ],
+   "built": 1812,
+   "rise_s": 8,
+   "size_m": [
+    60,
+    22,
+    10
+   ],
+   "scale": 1.3,
+   "rot_deg": 70,
+   "colors": {
+    "wall": "#e8e2d4",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Eastern State Penitentiary",
+    "tr": "Eastern State Cezaevi"
+   },
+   "at": [
+    39.9683,
+    -75.1725
+   ],
+   "built": 1822,
+   "rise_s": 12,
+   "size_m": [
+    210,
+    210,
+    10
+   ],
+   "colors": {
+    "wall": "#9a8f80"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "City Hall",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    39.95239,
+    -75.1636
+   ],
+   "built": 1871,
+   "rise_s": 30,
+   "size_m": [
+    145,
+    140,
+    34
+   ],
+   "scale": 1.0,
+   "colors": {
+    "wall": "#e3dccb",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "City Hall tower",
+    "tr": "Belediye Binası kulesi"
+   },
+   "at": [
+    39.951840000000004,
+    -75.1636
+   ],
+   "built": 1880,
+   "rise_s": 20,
+   "size_m": [
+    27,
+    27,
+    167
+   ],
+   "colors": {
+    "wall": "#e3dccb",
+    "roof": "#c9a94a"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Broad Street Station (≈)",
+    "tr": "Broad Street İstasyonu (≈)"
+   },
+   "at": [
+    39.9533,
+    -75.1656
+   ],
+   "built": 1881.9,
+   "removed": 1953.5,
+   "rise_s": 8,
+   "size_m": [
+    180,
+    95,
+    28
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Philadelphia Museum of Art",
+    "tr": "Philadelphia Sanat Müzesi"
+   },
+   "at": [
+    39.9661,
+    -75.1811
+   ],
+   "built": 1919,
+   "rise_s": 40,
+   "size_m": [
+    190,
+    150,
+    30
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "wall": "#e6c99a",
+    "roof": "#3f7f87"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "30th Street Station",
+    "tr": "30. Cadde İstasyonu"
+   },
+   "at": [
+    39.95583,
+    -75.18194
+   ],
+   "built": 1927,
+   "rise_s": 30,
+   "size_m": [
+    195,
+    100,
+    30
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#e3dccb",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "One Liberty Place",
+    "tr": "One Liberty Place"
+   },
+   "at": [
+    39.9522,
+    -75.1678
+   ],
+   "built": 1985.4,
+   "rise_s": 10,
+   "size_m": [
+    55,
+    55,
+    288
+   ],
+   "colors": {
+    "wall": "#7f97a8"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Comcast Center (≈ position)",
+    "tr": "Comcast Center (≈ konum)"
+   },
+   "at": [
+    39.9546,
+    -75.1686
+   ],
+   "built": 2005.5,
+   "rise_s": 10,
+   "size_m": [
+    60,
+    45,
+    297
+   ],
+   "colors": {
+    "wall": "#8fa3ae"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Comcast Technology Center",
+    "tr": "Comcast Technology Center"
+   },
+   "at": [
+    39.9549,
+    -75.1704
+   ],
+   "built": 2014.5,
+   "rise_s": 12,
+   "size_m": [
+    55,
+    55,
+    342
+   ],
+   "colors": {
+    "wall": "#a7b6bf"
+   }
+  }
+ ],
+ "fires": [],
+ "camps": [
+  {
+   "poly": [
+    [
+     39.96,
+     -75.17
+    ],
+    [
+     39.97,
+     -75.17
+    ],
+    [
+     39.97,
+     -75.15
+    ],
+    [
+     39.96,
+     -75.15
+    ]
+   ],
+   "from": 1777.74,
+   "to": 1778.46,
+   "count": 180
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    39.8753,
+    -75.213
+   ],
+   "from": 1777.82,
+   "to": 1777.88,
+   "scale": 1.2
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Fairmount Park (≈)",
+   "poly": [
+    [
+     39.968,
+     -75.182
+    ],
+    [
+     39.98,
+     -75.187
+    ],
+    [
+     39.995,
+     -75.195
+    ],
+    [
+     40.01,
+     -75.205
+    ],
+    [
+     40.015,
+     -75.198
+    ],
+    [
+     40.0,
+     -75.185
+    ],
+    [
+     39.985,
+     -75.178
+    ],
+    [
+     39.97,
+     -75.176
+    ]
+   ]
+  },
+  {
+   "name": "Wissahickon (≈)",
+   "poly": [
+    [
+     40.015,
+     -75.205
+    ],
+    [
+     40.04,
+     -75.215
+    ],
+    [
+     40.065,
+     -75.225
+    ],
+    [
+     40.07,
+     -75.215
+    ],
+    [
+     40.045,
+     -75.202
+    ],
+    [
+     40.02,
+     -75.196
+    ]
+   ]
+  },
+  {
+   "name": "Franklin Square (≈)",
+   "poly": [
+    [
+     39.9546,
+     -75.15354
+    ],
+    [
+     39.9564,
+     -75.15354
+    ],
+    [
+     39.9564,
+     -75.15094
+    ],
+    [
+     39.9546,
+     -75.15094
+    ]
+   ]
+  },
+  {
+   "name": "Washington Square (≈)",
+   "poly": [
+    [
+     39.9459,
+     -75.15354
+    ],
+    [
+     39.9477,
+     -75.15354
+    ],
+    [
+     39.9477,
+     -75.15094
+    ],
+    [
+     39.9459,
+     -75.15094
+    ]
+   ]
+  },
+  {
+   "name": "Rittenhouse Square (≈)",
+   "poly": [
+    [
+     39.9484,
+     -75.1731
+    ],
+    [
+     39.9502,
+     -75.1731
+    ],
+    [
+     39.9502,
+     -75.1705
+    ],
+    [
+     39.9484,
+     -75.1705
+    ]
+   ]
+  },
+  {
+   "name": "Logan Square (≈)",
+   "poly": [
+    [
+     39.9564,
+     -75.1718
+    ],
+    [
+     39.9582,
+     -75.1718
+    ],
+    [
+     39.9582,
+     -75.1692
+    ],
+    [
+     39.9564,
+     -75.1692
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "DELAWARE RIVER",
+    "tr": "DELAWARE NEHRİ"
+   },
+   "at": [
+    39.938,
+    -75.133
+   ],
+   "kind": "water",
+   "from": 1600
+  },
+  {
+   "text": {
+    "en": "SCHUYLKILL RIVER",
+    "tr": "SCHUYLKILL NEHRİ"
+   },
+   "at": [
+    39.945,
+    -75.188
+   ],
+   "kind": "water",
+   "from": 1600
+  },
+  {
+   "text": {
+    "en": "Shackamaxon",
+    "tr": "Shackamaxon"
+   },
+   "at": [
+    39.96711,
+    -75.12849
+   ],
+   "kind": "place",
+   "from": 1600,
+   "to": 1645
+  },
+  {
+   "text": {
+    "en": "LENAPE COUNTRY",
+    "tr": "LENAPE ÜLKESİ"
+   },
+   "at": [
+    39.98,
+    -75.18
+   ],
+   "kind": "region",
+   "from": 1600,
+   "to": 1645
+  },
+  {
+   "text": {
+    "en": "Wicaco",
+    "tr": "Wicaco"
+   },
+   "at": [
+    39.9345,
+    -75.1435
+   ],
+   "kind": "place",
+   "from": 1646,
+   "to": 1680.9
+  },
+  {
+   "text": {
+    "en": "PENNSYLVANIA",
+    "tr": "PENNSYLVANIA"
+   },
+   "at": [
+    39.975,
+    -75.18
+   ],
+   "kind": "region",
+   "from": 1681,
+   "to": 1682.5
+  },
+  {
+   "text": {
+    "en": "PHILADELPHIA",
+    "tr": "PHILADELPHIA"
+   },
+   "at": [
+    39.952,
+    -75.16
+   ],
+   "kind": "region",
+   "from": 1682.5,
+   "to": 1682.8
+  },
+  {
+   "text": {
+    "en": "Penn Treaty site",
+    "tr": "Penn Antlaşması yeri"
+   },
+   "at": [
+    39.96711,
+    -75.12849
+   ],
+   "kind": "place",
+   "from": 1682.8,
+   "to": 1683.9
+  },
+  {
+   "text": {
+    "en": "Old Swedes'",
+    "tr": "Eski İsveçliler"
+   },
+   "at": [
+    39.9345,
+    -75.1435
+   ],
+   "from": 1700,
+   "to": 1726,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Christ Church",
+    "tr": "Christ Kilisesi"
+   },
+   "at": [
+    39.95083,
+    -75.14389
+   ],
+   "from": 1727,
+   "to": 1731.9,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "State House",
+    "tr": "Eyalet Binası"
+   },
+   "at": [
+    39.94889,
+    -75.15
+   ],
+   "from": 1732,
+   "to": 1753.9,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "Christ Church",
+    "tr": "Christ Kilisesi"
+   },
+   "at": [
+    39.95083,
+    -75.14389
+   ],
+   "from": 1754,
+   "to": 1769.9,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Carpenters' Hall",
+    "tr": "Marangozlar Salonu"
+   },
+   "at": [
+    39.9481,
+    -75.1472
+   ],
+   "from": 1770,
+   "to": 1775.9,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Independence Hall",
+    "tr": "Bağımsızlık Salonu"
+   },
+   "at": [
+    39.94889,
+    -75.15
+   ],
+   "from": 1776,
+   "to": 1776.95,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "Fort Mifflin",
+    "tr": "Mifflin Kalesi"
+   },
+   "at": [
+    39.8753,
+    -75.213
+   ],
+   "kind": "place",
+   "from": 1777.82,
+   "to": 1778.3
+  },
+  {
+   "text": {
+    "en": "Independence Hall",
+    "tr": "Bağımsızlık Salonu"
+   },
+   "at": [
+    39.94889,
+    -75.15
+   ],
+   "from": 1787,
+   "to": 1789.9,
+   "lift_m": 45
+  },
+  {
+   "text": {
+    "en": "Fairmount",
+    "tr": "Fairmount"
+   },
+   "at": [
+    39.96556,
+    -75.18083
+   ],
+   "kind": "place",
+   "from": 1812,
+   "to": 1828.9
+  },
+  {
+   "text": {
+    "en": "Eastern State",
+    "tr": "Eastern State"
+   },
+   "at": [
+    39.9683,
+    -75.1725
+   ],
+   "kind": "place",
+   "from": 1829,
+   "to": 1833.9
+  },
+  {
+   "text": {
+    "en": "CENTRE SQUARE",
+    "tr": "MERKEZ MEYDAN"
+   },
+   "at": [
+    39.95339,
+    -75.1636
+   ],
+   "kind": "region",
+   "from": 1834,
+   "to": 1849.9
+  },
+  {
+   "text": {
+    "en": "PHILADELPHIA COUNTY",
+    "tr": "PHILADELPHIA İLÇESİ"
+   },
+   "at": [
+    40.03,
+    -75.13
+   ],
+   "kind": "region",
+   "from": 1854,
+   "to": 1859.9
+  },
+  {
+   "text": {
+    "en": "League Island",
+    "tr": "League Adası"
+   },
+   "at": [
+    39.8911,
+    -75.1786
+   ],
+   "kind": "place",
+   "from": 1871,
+   "to": 1875.9
+  },
+  {
+   "text": {
+    "en": "City Hall",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    39.95239,
+    -75.1636
+   ],
+   "kind": "place",
+   "from": 1871,
+   "to": 1875.9
+  },
+  {
+   "text": {
+    "en": "FAIRMOUNT PARK",
+    "tr": "FAIRMOUNT PARK"
+   },
+   "at": [
+    39.988,
+    -75.193
+   ],
+   "kind": "region",
+   "from": 1876,
+   "to": 1880.9
+  },
+  {
+   "text": {
+    "en": "Broad Street Station",
+    "tr": "Broad Street İstasyonu"
+   },
+   "at": [
+    39.9533,
+    -75.1656
+   ],
+   "kind": "place",
+   "from": 1881.9,
+   "to": 1893.9
+  },
+  {
+   "text": {
+    "en": "City Hall",
+    "tr": "Belediye Binası"
+   },
+   "at": [
+    39.95239,
+    -75.1636
+   ],
+   "from": 1894,
+   "to": 1906.9,
+   "lift_m": 190
+  },
+  {
+   "text": {
+    "en": "WEST PHILADELPHIA",
+    "tr": "BATI PHILADELPHIA"
+   },
+   "at": [
+    39.958,
+    -75.22
+   ],
+   "kind": "region",
+   "from": 1907,
+   "to": 1917.9
+  },
+  {
+   "text": {
+    "en": "Museum of Art",
+    "tr": "Sanat Müzesi"
+   },
+   "at": [
+    39.9661,
+    -75.1811
+   ],
+   "kind": "place",
+   "from": 1919,
+   "to": 1926.4
+  },
+  {
+   "text": {
+    "en": "CAMDEN",
+    "tr": "CAMDEN"
+   },
+   "at": [
+    39.942,
+    -75.11
+   ],
+   "kind": "region",
+   "from": 1926.5,
+   "to": 1932.9
+  },
+  {
+   "text": {
+    "en": "30th Street Station",
+    "tr": "30. Cadde İstasyonu"
+   },
+   "at": [
+    39.95583,
+    -75.18194
+   ],
+   "kind": "place",
+   "from": 1933,
+   "to": 1949.9
+  },
+  {
+   "text": {
+    "en": "Penn Center",
+    "tr": "Penn Center"
+   },
+   "at": [
+    39.9535,
+    -75.167
+   ],
+   "kind": "place",
+   "from": 1952.3,
+   "to": 1956.9
+  },
+  {
+   "text": {
+    "en": "Eastern State",
+    "tr": "Eastern State"
+   },
+   "at": [
+    39.9683,
+    -75.1725
+   ],
+   "kind": "place",
+   "from": 1971,
+   "to": 1975.9
+  },
+  {
+   "text": {
+    "en": "Independence Hall",
+    "tr": "Bağımsızlık Salonu"
+   },
+   "at": [
+    39.94889,
+    -75.15
+   ],
+   "kind": "place",
+   "from": 1976,
+   "to": 1984.9
+  },
+  {
+   "text": {
+    "en": "One Liberty Place",
+    "tr": "One Liberty Place"
+   },
+   "at": [
+    39.9522,
+    -75.1678
+   ],
+   "from": 1987,
+   "to": 1989.9,
+   "lift_m": 310
+  },
+  {
+   "text": {
+    "en": "Navy Yard",
+    "tr": "Donanma Tersanesi"
+   },
+   "at": [
+    39.8911,
+    -75.1786
+   ],
+   "kind": "place",
+   "from": 1990,
+   "to": 2006.9
+  },
+  {
+   "text": {
+    "en": "Comcast Technology Center",
+    "tr": "Comcast Technology Center"
+   },
+   "at": [
+    39.9549,
+    -75.1704
+   ],
+   "from": 2018,
+   "to": 2022.9,
+   "lift_m": 360
+  },
+  {
+   "text": {
+    "en": "CAMDEN",
+    "tr": "CAMDEN"
+   },
+   "at": [
+    39.942,
+    -75.11
+   ],
+   "kind": "region",
+   "from": 2023
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Philadelphia: 344 Years in 13 Minutes (3D Timelapse)",
+   "tr": "Philadelphia: 13 Dakikada 344 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "Lenape country on the Delaware, Swedish farmers at Wicaco, and in 1682 William Penn's grid between two rivers. Watch Philadelphia grow from a riverside town into the city where independence was declared in 1776 and the Constitution written in 1787, the nation's capital of the 1790s, the 'Workshop of the World', a consolidated city of more than two million in 1950 and today's skyline: Christ Church, Independence Hall, Carpenters' Hall, Fort Mifflin, the Fairmount Water Works, Eastern State Penitentiary, City Hall, the Museum of Art, the Benjamin Franklin Bridge and the Comcast towers, with the year and the population on screen.",
+   "tr": "Delaware kıyısında Lenape ülkesi, Wicaco'da İsveçli çiftçiler ve 1682'de William Penn'in iki nehir arasındaki ızgarası. Philadelphia'nın nehir kıyısındaki bir kasabadan 1776'da bağımsızlığın ilan edildiği, 1787'de Anayasa'nın yazıldığı şehre, 1790'ların başkentine, 'Dünyanın Atölyesi'ne, 1950'de iki milyonu aşan birleşik bir şehre ve bugünün siluetine büyümesini izleyin: Christ Kilisesi, Bağımsızlık Salonu, Marangozlar Salonu, Mifflin Kalesi, Fairmount Su İşletmesi, Eastern State Cezaevi, Belediye Binası, Sanat Müzesi, Benjamin Franklin Köprüsü ve Comcast kuleleri; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "philadelphia history",
+   "history of philadelphia",
+   "philadelphia",
+   "independence hall",
+   "william penn",
+   "3d timelapse",
+   "city evolution",
+   "how philadelphia grew",
+   "philadelphia timelapse",
+   "american history",
+   "liberty bell",
+   "urban history",
+   "colonial america",
+   "philly"
+  ],
+  "hashtags": [
+   "#Philadelphia",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of North America",
+   "tr": "Kuzey Amerika Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "North American cities rebuilt in 3D, from the first house to the skyline.",
+   "tr": "Kuzey Amerika şehirleri 3D olarak, ilk evden siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Philadelphia",
+    "tr": "Philadelphia"
+   },
+   "line2": {
+    "en": "1682 → TODAY",
+    "tr": "1682 → BUGÜN"
+   },
+   "line3": {
+    "en": "From Penn's grid to skyline",
+    "tr": "Penn'in ızgarasından silüete"
+   },
+   "extra": "&mood=golden&pitch=30&az=270&cam=39.9525,-75.1600,6.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "Philadelphia: History — Britannica",
+   "url": "https://www.britannica.com/place/Philadelphia/History"
+  },
+  {
+   "title": "Timeline of Philadelphia — Wikipedia (Wikiwand)",
+   "url": "https://www.wikiwand.com/en/articles/Timeline_of_Philadelphia"
+  },
+  {
+   "title": "Demographics of Philadelphia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_Philadelphia"
+  },
+  {
+   "title": "Philadelphia population, Census data 2025 — The Philadelphia Inquirer",
+   "url": "https://www.inquirer.com/news/philadelphia/philadelphia-population-census-data-2025-20260326.html"
+  },
+  {
+   "title": "Act of Consolidation, 1854 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Act_of_Consolidation,_1854"
+  },
+  {
+   "title": "William Penn's Philadelphia Plan — The Cultural Landscape Foundation",
+   "url": "https://www.tclf.org/landscapes/william-penn-philadelphia-plan"
+  },
+  {
+   "title": "Treaty of Shackamaxon — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Treaty_of_Shackamaxon"
+  },
+  {
+   "title": "Penn Treaty Park — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Penn_Treaty_Park"
+  },
+  {
+   "title": "Penn Treaty Park marker — HMdb",
+   "url": "https://www.hmdb.org/m.asp?m=83423"
+  },
+  {
+   "title": "Gloria Dei (Old Swedes') Church — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gloria_Dei_(Old_Swedes%27)_Church"
+  },
+  {
+   "title": "1793 Philadelphia yellow fever epidemic — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/1793_Philadelphia_yellow_fever_epidemic"
+  },
+  {
+   "title": "Independence Hall — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Independence_Hall"
+  },
+  {
+   "title": "Christ Church, Philadelphia — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Christ_Church_(Philadelphia)"
+  },
+  {
+   "title": "Carpenters' Hall — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Carpenters'_Hall"
+  },
+  {
+   "title": "British Occupation of Philadelphia — Encyclopedia of Greater Philadelphia",
+   "url": "https://philadelphiaencyclopedia.org/essays/british-occupation-of-philadelphia/"
+  },
+  {
+   "title": "Siege of Fort Mifflin — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Siege_of_Fort_Mifflin"
+  },
+  {
+   "title": "Fort Mifflin — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/EN/Fort_Mifflin"
+  },
+  {
+   "title": "Fairmount Water Works — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fairmount_Water_Works"
+  },
+  {
+   "title": "Eastern State Penitentiary — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Eastern_State_Penitentiary"
+  },
+  {
+   "title": "Center City — Workshop of the World",
+   "url": "https://www.workshopoftheworld.com/center_city/center_city.html"
+  },
+  {
+   "title": "Philadelphia City Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Philadelphia_City_Hall"
+  },
+  {
+   "title": "Broad Street Station (Philadelphia) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Broad_Street_Station_(Philadelphia)"
+  },
+  {
+   "title": "Philadelphia Naval Shipyard — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Philadelphia_Naval_Shipyard"
+  },
+  {
+   "title": "League Island — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/League_Island"
+  },
+  {
+   "title": "L (SEPTA Metro) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/L_(SEPTA_Metro)"
+  },
+  {
+   "title": "Philadelphia Museum of Art — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art"
+  },
+  {
+   "title": "Benjamin Franklin Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Benjamin_Franklin_Bridge"
+  },
+  {
+   "title": "30th Street Station — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/30th_Street_Station"
+  },
+  {
+   "title": "Walt Whitman Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Walt_Whitman_Bridge"
+  },
+  {
+   "title": "Liberty Place — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Liberty_Place"
+  },
+  {
+   "title": "Comcast Technology Center — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Comcast_Technology_Center"
+  }
+ ]
+}

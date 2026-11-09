@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1646, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Philadelphia", "tr": "Philadelphia"}, "line2": {"en": "1682 to today in 50 seconds", "tr": "50 saniyede 1682'den bugüne"}},
+   "end": {"line2": {"en": "Philadelphia: 344 Years in 13 Minutes", "tr": "Philadelphia: 13 Dakikada 344 Yıl"}},
+   "title": {"en": "Philadelphia: From Penn's Grid to Skyline in 50 Seconds #shorts", "tr": "Philadelphia: 50 Saniyede Penn'in Izgarasından Silüete #shorts"},
+   "description": {"en": "In 1682 Thomas Holme lays out William Penn's grid between the Delaware and the Schuylkill. Then independence (1776), the nation's capital (1790–1800), consolidation (1854), City Hall (1901), a peak of 2,071,605 people in 1950 and 1,574,281 in July 2025. The year and the population stay on screen the whole way.",
+                   "tr": "1682'de Thomas Holme, William Penn'in ızgarasını Delaware ile Schuylkill arasına çizer. Ardından bağımsızlık (1776), ulusun başkenti (1790–1800), birleşme (1854), Belediye Binası (1901), 1950'de 2.071.605 kişilik zirve ve Temmuz 2025'te 1.574.281 kişi. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["philadelphia history", "history of philadelphia", "william penn", "independence hall", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Philadelphia", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "revolution",
+   "from_year": 1770, "to_year": 1800, "seconds": 48,
+   "hook": {"line1": {"en": "1776", "tr": "1776"}, "line2": {"en": "Philadelphia, 1770–1800", "tr": "Philadelphia, 1770–1800"}},
+   "end": {"line2": {"en": "Philadelphia: 344 Years in 13 Minutes", "tr": "Philadelphia: 13 Dakikada 344 Yıl"}},
+   "title": {"en": "Philadelphia 1774–1800: From Congress to Capital #shorts", "tr": "Philadelphia 1774–1800: Kongreden Başkente #shorts"},
+   "description": {"en": "5 September 1774: the First Continental Congress meets in Carpenters' Hall. 4 July 1776: independence is declared in the State House. 26 September 1777: British troops occupy the city until June 1778. 1787: the Constitution. 1790–1800: the nation's capital — and in 1793 yellow fever kills 5,000 or more.",
+                   "tr": "5 Eylül 1774: Birinci Kıta Kongresi Marangozlar Salonu'nda toplanır. 4 Temmuz 1776: bağımsızlık Eyalet Binası'nda ilan edilir. 26 Eylül 1777: İngiliz birlikleri şehri Haziran 1778'e dek işgal eder. 1787: Anayasa. 1790–1800: ulusun başkenti — 1793'te sarı humma 5.000'den fazla can alır."},
+   "tags": ["american revolution", "independence hall", "1776", "philadelphia history", "declaration of independence", "3d timelapse", "shorts"],
+   "hashtags": ["#Philadelphia", "#1776", "#History", "#Shorts"]
+  },
+  {
+   "id": "two-million",
+   "from_year": 1850, "to_year": 1952.2, "seconds": 50,
+   "hook": {"line1": {"en": "121,376 → 2 million", "tr": "121.376 → 2 milyon"}, "line2": {"en": "Philadelphia, 1850–1950", "tr": "Philadelphia, 1850–1950"}},
+   "end": {"line2": {"en": "Philadelphia: 344 Years in 13 Minutes", "tr": "Philadelphia: 13 Dakikada 344 Yıl"}},
+   "title": {"en": "How Philadelphia Grew to 2 Million People #shorts", "tr": "Philadelphia 2 Milyon Kişiye Nasıl Ulaştı #shorts"},
+   "description": {"en": "1850: 121,376 people in the old city. 2 February 1854: the city absorbs the whole county. Then City Hall (1871–1901), the Centennial (1876), the El (1907), the Benjamin Franklin Bridge (1926) and 30th Street Station (1933) — 2,071,605 people by 1950.",
+                   "tr": "1850: eski şehirde 121.376 kişi. 2 Şubat 1854: şehir bütün ilçeyi bünyesine katar. Ardından Belediye Binası (1871–1901), Yüzüncü Yıl Sergisi (1876), havai raylı (1907), Benjamin Franklin Köprüsü (1926) ve 30. Cadde İstasyonu (1933) — 1950'de 2.071.605 kişi."},
+   "tags": ["philadelphia history", "philadelphia city hall", "benjamin franklin bridge", "workshop of the world", "3d timelapse", "shorts"],
+   "hashtags": ["#Philadelphia", "#History", "#Timelapse", "#Shorts"]
+  }
+ ]
+}
