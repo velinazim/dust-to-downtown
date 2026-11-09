@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "athens:short:golden-age",
-  "slug": "athens",
-  "kind": "short",
-  "video_id": "IMypFmCGyCI",
-  "link": "https://youtube.com/shorts/IMypFmCGyCI",
-  "title": "Athens: From Persian Fire to the Parthenon in 50 Seconds #shorts",
-  "publish_at": "2026-11-26T23:30:00Z",
-  "uploaded": "2026-11-05T10:55:14Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "berlin:long",
   "slug": "berlin",
   "kind": "long",
@@ -687,6 +675,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "669xOfGle5Y",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "athens:short:golden-age:replaced",
+  "slug": "athens",
+  "kind": "short",
+  "video_id": "IMypFmCGyCI",
+  "link": "https://youtube.com/shorts/IMypFmCGyCI",
+  "title": "Athens: From Persian Fire to the Parthenon in 50 Seconds #shorts",
+  "publish_at": "2026-11-26T23:30:00Z",
+  "uploaded": "2026-11-05T10:55:14Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "wb4TLZylrSk",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "athens:short:golden-age",
+  "slug": "athens",
+  "kind": "short",
+  "video_id": "wb4TLZylrSk",
+  "link": "https://youtube.com/shorts/wb4TLZylrSk",
+  "title": "Athens: From Persian Fire to the Parthenon in 50 Seconds #shorts",
+  "publish_at": "2026-11-26T23:30:00Z",
+  "uploaded": "2026-11-09T00:30:09Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "IMypFmCGyCI",
   "music": "piano-2026-11-09"
  }
 ]
