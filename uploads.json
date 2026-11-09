@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "athens:short:whole",
-  "slug": "athens",
-  "kind": "short",
-  "video_id": "669xOfGle5Y",
-  "link": "https://youtube.com/shorts/669xOfGle5Y",
-  "title": "Athens: 5,000 Years in 50 Seconds #shorts",
-  "publish_at": "2026-11-25T23:30:00Z",
-  "uploaded": "2026-11-05T10:55:08Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "athens:short:golden-age",
   "slug": "athens",
   "kind": "short",
@@ -670,6 +658,35 @@
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "YmO5CJm1HX8",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "athens:short:whole:replaced",
+  "slug": "athens",
+  "kind": "short",
+  "video_id": "669xOfGle5Y",
+  "link": "https://youtube.com/shorts/669xOfGle5Y",
+  "title": "Athens: 5,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-25T23:30:00Z",
+  "uploaded": "2026-11-05T10:55:08Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "HUN02zRw9TI",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "athens:short:whole",
+  "slug": "athens",
+  "kind": "short",
+  "video_id": "HUN02zRw9TI",
+  "link": "https://youtube.com/shorts/HUN02zRw9TI",
+  "title": "Athens: 5,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-11-25T23:30:00Z",
+  "uploaded": "2026-11-09T00:30:01Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "669xOfGle5Y",
   "music": "piano-2026-11-09"
  }
 ]
