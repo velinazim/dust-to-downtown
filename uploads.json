@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "amsterdam:long",
-  "slug": "amsterdam",
-  "kind": "long",
-  "video_id": "jWpc39QbfEE",
-  "link": "https://youtu.be/jWpc39QbfEE",
-  "title": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-13T23:30:00Z",
-  "uploaded": "2026-11-02T09:51:23Z",
-  "thumbnail": "ok",
-  "playlist": "added"
- },
- {
   "key": "amsterdam:short:whole",
   "slug": "amsterdam",
   "kind": "short",
@@ -466,6 +454,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "19uMvCRFTCk",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "amsterdam:long:replaced",
+  "slug": "amsterdam",
+  "kind": "long",
+  "video_id": "jWpc39QbfEE",
+  "link": "https://youtu.be/jWpc39QbfEE",
+  "title": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-13T23:30:00Z",
+  "uploaded": "2026-11-02T09:51:23Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaced_by": "9HaMl7NMeYY",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "amsterdam:long",
+  "slug": "amsterdam",
+  "kind": "long",
+  "video_id": "9HaMl7NMeYY",
+  "link": "https://youtu.be/9HaMl7NMeYY",
+  "title": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-13T23:30:00Z",
+  "uploaded": "2026-11-09T00:24:01Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "jWpc39QbfEE",
   "music": "piano-2026-11-09"
  }
 ]
