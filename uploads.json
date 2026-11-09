@@ -137,18 +137,6 @@
   "playlist": "added"
  },
  {
-  "key": "vienna:short:ringstrasse",
-  "slug": "vienna",
-  "kind": "short",
-  "video_id": "G4QTfESVhuY",
-  "link": "https://youtube.com/shorts/G4QTfESVhuY",
-  "title": "Vienna: From 551,300 to 2 Million People #shorts",
-  "publish_at": "2026-11-23T23:30:00Z",
-  "uploaded": "2026-11-04T11:21:14Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "athens:long",
   "slug": "athens",
   "kind": "long",
@@ -636,6 +624,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "tWHsgXSIKMo",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "vienna:short:ringstrasse:replaced",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "G4QTfESVhuY",
+  "link": "https://youtube.com/shorts/G4QTfESVhuY",
+  "title": "Vienna: From 551,300 to 2 Million People #shorts",
+  "publish_at": "2026-11-23T23:30:00Z",
+  "uploaded": "2026-11-04T11:21:14Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "udpTz9JU0iQ",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "vienna:short:ringstrasse",
+  "slug": "vienna",
+  "kind": "short",
+  "video_id": "udpTz9JU0iQ",
+  "link": "https://youtube.com/shorts/udpTz9JU0iQ",
+  "title": "Vienna: From 551,300 to 2 Million People #shorts",
+  "publish_at": "2026-11-23T23:30:00Z",
+  "uploaded": "2026-11-09T00:28:27Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "G4QTfESVhuY",
   "music": "piano-2026-11-09"
  }
 ]
