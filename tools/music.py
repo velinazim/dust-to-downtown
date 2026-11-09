@@ -4,10 +4,11 @@
 
 If music/library/ holds audio files (tracks downloaded by the owner from the YouTube Audio Library,
 "no attribution required" only), the seed shuffles them and they are joined with crossfades until the
-video is covered, then levelled to a soft background loudness. Otherwise the generator below is used:
+video is covered, then levelled to a soft background loudness. Otherwise the generator below is used.
 
-Slow minor-key chord progression on warm, nearly pure sine pads, a low drone, rare soft mid-register notes,
-and a dark reverb. Tuned 9.11.2026 to be easy on the ears for 15 minutes (owner found the old one grating). Each seed gives a different key/progression so episodes don't sound identical.
+Style (9.11.2026 — owner found the old drone/pad ambience oppressive): a calm, warm documentary piano in a
+major key: gentle arpeggiated chords over a soft bass, an occasional pentatonic melody note, ~70 BPM, no
+sustained drones. Each seed picks a different key, progression, tempo and arpeggio patterns.
 """
 import json, os, subprocess, sys, tempfile
 import numpy as np
@@ -15,7 +16,6 @@ from scipy import signal
 from scipy.io import wavfile
 
 SR = 32000
-PROGS = [[0, 8, 3, 10], [0, 5, 8, 7], [0, 3, 8, 10, 5, 7], [0, 10, 8, 7], [0, 8, 5, 10]]
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -78,9 +78,36 @@ def from_library(sec, out, seed, files):
     wavfile.write(out, SR, (st * 32767).astype(np.int16))
     print(f'music: library ({len(files)} tracks, {k} used), {li:.1f} -> ~{TARGET_LUFS} LUFS')
 
+# progressions as (semitones above the key, major?) — bright, consonant pop/documentary changes
+PROGS = [[(0, 1), (7, 1), (9, 0), (5, 1)],      # I  V  vi IV
+         [(0, 1), (9, 0), (5, 1), (7, 1)],      # I  vi IV V
+         [(9, 0), (5, 1), (0, 1), (7, 1)],      # vi IV I  V
+         [(0, 1), (5, 1), (9, 0), (7, 1)],      # I  IV vi V
+         [(0, 1), (4, 0), (5, 1), (7, 1)]]      # I  iii IV V
+PATTERNS = [[0, 1, 2, 3, 2, 1, 2, 1], [0, 2, 1, 2, 3, 2, 1, 2], [0, 1, 2, 1, 3, 1, 2, 1], [0, 2, 3, 2, 1, 2, 3, 2]]
+PENTA = [0, 2, 4, 7, 9]
+_cache = {}
 
-def chord(root, minor_shape):
-    return [root, root + (3 if minor_shape else 4), root + 7, root + 12]
+
+def hz(m):
+    return 440 * 2 ** ((m - 69) / 12)
+
+
+def piano(m, dur):
+    """Soft felt-piano tone: few harmonics, upper ones dying faster, gentle attack, slight inharmonicity."""
+    key = (m, round(dur, 2))
+    if key in _cache:
+        return _cache[key]
+    s = np.arange(int(dur * SR)) / SR
+    f = hz(m); x = np.zeros_like(s)
+    for h in range(1, 6):
+        fh = f * h * np.sqrt(1 + 0.0003 * h * h)
+        if fh > 5000:
+            break
+        x += np.sin(2 * np.pi * fh * s) * (h ** -1.8) * np.exp(-s * (0.9 + 0.9 * h) * (f / 260) ** 0.3)
+    x *= np.minimum(1, s / 0.006) * np.minimum(1, (dur - s) / 0.25).clip(0, 1)
+    _cache[key] = x.astype(np.float32)
+    return _cache[key]
 
 
 def main(sec, out, seed=7):
@@ -88,57 +115,58 @@ def main(sec, out, seed=7):
     if files:
         return from_library(sec, out, seed, files)
     rng = np.random.default_rng(seed)
-    n = int(sec * SR)
-    t = np.arange(n) / SR
-    key = 45 + int(rng.integers(0, 7))          # A2..D#3
-    prog = PROGS[int(rng.integers(0, len(PROGS)))]
-    clen = float(rng.choice([14.0, 16.0, 18.0]))   # slow, unhurried chord changes
+    n = int(sec * SR) + SR * 4
     L = np.zeros(n, np.float32); R = np.zeros(n, np.float32)
-    hz = lambda m: 440 * 2 ** ((m - 69) / 12)
-    nch = int(np.ceil(sec / clen)) + 1
-    for ci in range(nch):
-        deg = prog[ci % len(prog)]
-        minor = deg in (0, 5)
-        notes = chord(key + deg, minor)
-        a = int(max(0, (ci * clen - 4.0)) * SR); b = int(min(sec, (ci + 1) * clen + 4.0) * SR)
-        if a >= n:
+    key = 48 + int(rng.integers(0, 7))                  # C3..F#3
+    prog = PROGS[int(rng.integers(0, len(PROGS)))]
+    beat = 60.0 / float(rng.choice([66, 70, 74]))
+    bar = 4 * beat
+
+    def add(m, t0, dur, vel, pan):
+        a = int(t0 * SR); w = piano(m, dur) * vel; b = min(n, a + w.size)
+        L[a:b] += w[:b - a] * (1 - pan); R[a:b] += w[:b - a] * pan
+
+    nb = int(np.ceil(sec / bar)) + 1
+    pat = PATTERNS[int(rng.integers(0, len(PATTERNS)))]
+    for bi in range(nb):
+        t0 = bi * bar
+        if t0 > sec:
             break
-        seg = np.arange(a, b) / SR
-        env = np.clip((seg - ci * clen + 4.0) / 4.0, 0, 1) * np.clip(((ci + 1) * clen + 4.0 - seg) / 4.0, 0, 1)
-        env = env * env * (3 - 2 * env)
-        for k, m in enumerate(notes):
-            f = hz(m)                      # no high doubled voice: it was the piercing part
-            vib = 1 + 0.0010 * np.sin(2 * np.pi * (0.13 + 0.03 * k) * seg + k)
-            ph = 2 * np.pi * f * seg * vib
-            tone = (np.sin(ph) + 0.12 * np.sin(2 * ph + 0.3)) * (0.11 if k < 3 else 0.04)   # nearly pure, warm sine pads
-            pan = 0.3 + 0.4 * (k / 3)
-            L[a:b] += (tone * env * (1 - pan)).astype(np.float32); R[a:b] += (tone * env * pan).astype(np.float32)
-    # drone on the tonic, breathing slowly
-    dr = 0.07 * np.sin(2 * np.pi * hz(key - 12) * t) * (0.7 + 0.3 * np.sin(2 * np.pi * t / 23))
-    L += dr.astype(np.float32); R += dr.astype(np.float32)
-    # sparse bell plucks from the current chord
-    tp = 3.0
-    while tp < sec - 3:
-        ci = int(tp // clen); deg = prog[ci % len(prog)]
-        m = chord(key + deg, deg in (0, 5))[int(rng.integers(0, 3))] + 12   # mid-register, not tinkly
-        dur = 5.0; a = int(tp * SR); b = min(n, a + int(dur * SR)); s = np.arange(b - a) / SR
-        pl = np.sin(2 * np.pi * hz(m) * s) * np.minimum(1, s / 0.12) * np.exp(-s * 0.9) * 0.025   # soft attack, no metallic partial
-        p = float(rng.uniform(0.2, 0.8)); L[a:b] += (pl * (1 - p)).astype(np.float32); R[a:b] += (pl * p).astype(np.float32)
-        tp += float(rng.choice([4.8, 6.4, 8.0, 9.6]))   # sparse notes
-    # gentle low-pass (darker, softer top end) + reverb
-    bl, al = signal.butter(2, 1500 / (SR / 2))
+        if bi % 8 == 0 and bi:
+            pat = PATTERNS[int(rng.integers(0, len(PATTERNS)))]
+        deg, major = prog[bi % len(prog)]
+        root = key + deg
+        tones = [root + 12, root + 12 + (4 if major else 3), root + 19, root + 24]
+        phase = (bi // 16) % 4                          # every 16 bars: a quieter, sparser section
+        sparse = phase == 3
+        add(root - 12, t0, bar * 1.1, 0.22, 0.45)       # soft bass
+        if not sparse:
+            add(root - 12 + 7, t0 + 2 * beat, bar * 0.6, 0.12, 0.45)
+        for i, ti in enumerate(pat):
+            if sparse and i % 2:
+                continue
+            vel = (0.09 if i % 2 == 0 else 0.065) * float(rng.uniform(0.85, 1.1))
+            add(tones[ti], t0 + i * beat / 2 + float(rng.uniform(0, 0.012)), 2.2, vel, 0.35 + 0.1 * ti)
+        if phase in (1, 2):                             # simple melody, only in the middle sections
+            for b4 in range(4):
+                if rng.random() < 0.35:
+                    m = key + 24 + PENTA[int(rng.integers(0, 5))] + (12 if rng.random() < 0.3 else 0)
+                    add(m, t0 + b4 * beat, 2.8, 0.07, 0.55)
+    L = L[:int(sec * SR)]; R = R[:int(sec * SR)]
+    t = np.arange(L.size) / SR
+    bl, al = signal.butter(2, 4500 / (SR / 2))
     L = signal.lfilter(bl, al, L).astype(np.float32); R = signal.lfilter(bl, al, R).astype(np.float32)
-    ir_t = np.arange(int(3.2 * SR)) / SR
-    irL = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 2.2)).astype(np.float32); irR = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 2.2)).astype(np.float32)
-    bi, ai = signal.butter(1, 1800 / (SR / 2)); irL = signal.lfilter(bi, ai, irL).astype(np.float32); irR = signal.lfilter(bi, ai, irR).astype(np.float32)   # dark reverb tail
+    ir_t = np.arange(int(2.2 * SR)) / SR
+    irL = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 3.0)).astype(np.float32); irR = (rng.standard_normal(ir_t.size) * np.exp(-ir_t * 3.0)).astype(np.float32)
+    bi_, ai_ = signal.butter(1, 3000 / (SR / 2)); irL = signal.lfilter(bi_, ai_, irL); irR = signal.lfilter(bi_, ai_, irR)
     irL /= np.sqrt((irL ** 2).sum()); irR /= np.sqrt((irR ** 2).sum())
-    wetL = signal.oaconvolve(L, irL)[:n]; wetR = signal.oaconvolve(R, irR)[:n]
-    L = 0.65 * L + 0.55 * wetL; R = 0.65 * R + 0.55 * wetR
-    fade = np.minimum(1, np.minimum(t / 3.0, (sec - t) / 4.0)).clip(0, 1)
+    wetL = signal.oaconvolve(L, irL)[:L.size]; wetR = signal.oaconvolve(R, irR)[:R.size]
+    L = 0.8 * L + 0.35 * wetL; R = 0.8 * R + 0.35 * wetR
+    fade = np.minimum(1, np.minimum(t / 3.0, (sec - t) / 5.0)).clip(0, 1)
     st = np.stack([L * fade, R * fade], 1)
-    # softer overall level (owner request 9.11.2026): ~6 dB quieter than before, about -23 LUFS
-    st = st / (np.abs(st).max() + 1e-9) * 0.3
-    wavfile.write(out, SR, (st * 32767).astype(np.int16))
+    li, tp = loudness(st)
+    gain = min(10 ** ((TARGET_LUFS - li) / 20), 10 ** ((-2.0 - tp) / 20))
+    wavfile.write(out, SR, (np.clip(st * gain, -1, 1) * 32767).astype(np.int16))
 
 
 if __name__ == '__main__':
