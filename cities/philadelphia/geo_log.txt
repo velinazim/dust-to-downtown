@@ -1,12 +1,2 @@
-  rivers: overpass-api.de -> 504
-  rivers: overpass.kumi.systems -> 504
-  rivers: overpass.private.coffee -> 502
-osm rivers: kept 4, skipped 89 -> 4 outer / 67 inner rings
-osm lakes: 75 lakes >= 0.02 km2
-grid 622x554 @ 110 m
-elevation: zoom 11, tiles 5x5
-grid 272x333 @ 30 m
-elevation: zoom 13, tiles 3x4
-core layer 272 x 333
-wrote geo.json 622 x 554
+geo.json up to date
 maps written to cities/philadelphia/preview
