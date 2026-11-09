@@ -124,3 +124,7 @@ counter is ~35,000 then); the subtitle avoids that figure. Jump at 1854 = consol
 - British camps 1777–1778 drawn north of Vine St (exact positions not in the opened sources).
 - The five squares are placed from the grid (≈ size).
 - Markets St El route west of the Schuylkill ≈ along Market St; PRR viaduct ("Chinese Wall") 1881–1953 ≈ along Market–Filbert.
+- Wicaco blockhouse: the source says an "existing blockhouse" was turned into a church in 1677; when it was built is
+  not given → drawn from 1660 (≈, never dated on screen), removed when the present church is built (1698).
+- Schuylkill above Fairmount Dam: OSM maps the pool as a reservoir; added as permanent water (geo_edits, polygon taken
+  from the OSM lake in geo.json) so the river does not stop at Fairmount.

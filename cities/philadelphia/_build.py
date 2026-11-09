@@ -296,7 +296,7 @@ S = [
 ]
 
 districts = [
- {"name": "Swedish farms at Wicaco (≈)", "style": "celtic", "poly": L(WICACO), "from": 1660, "to": 1700, "density": 0.35, "grain_m": 70,
+ {"name": "Swedish farms at Wicaco (≈)", "style": "medieval", "poly": L(WICACO), "from": 1650, "to": 1676, "density": 0.4, "grain_m": 60,
   "grow_from": list(GLORIA)},
  {"name": "First houses on the Delaware (≈)", "style": "georgian", "poly": L(EARLY), "from": 1682.85, "to": 1700, "density": 0.7,
   "grain_m": 45, "grid_deg": 0, "grow_from": [MARKET, FRONT]},
@@ -356,14 +356,16 @@ roads = [
 C_ = lambda w, r: {"wall": w, "roof": r}
 BRICK = "#a8573e"
 landmarks = [
+ {"type": "box", "name": T("Wicaco blockhouse (≈)", "Wicaco ahşap kalesi (≈)"), "at": [GLORIA[0] + 0.0004, GLORIA[1] - 0.0004], "built": 1660,
+  "removed": 1698, "rise_s": 4, "size_m": [14, 14, 8], "scale": 1.4, "colors": C_("#8a6a48", "#5a4a3a")},
  {"type": "church", "name": T("Gloria Dei (Old Swedes')", "Gloria Dei (Eski İsveçliler)"), "at": list(GLORIA), "built": 1698, "rise_s": 6,
   "size_m": [30, 14, 14], "rot_deg": 0, "colors": C_(BRICK, "#5a4a44")},
  {"type": "church", "name": T("Christ Church", "Christ Kilisesi"), "at": list(CHRIST), "built": 1727, "rise_s": 8,
   "size_m": [36, 18, 18], "rot_deg": 0, "colors": C_(BRICK, "#4f5a60")},
  {"type": "spire_tower", "name": T("Christ Church steeple", "Christ Kilisesi kulesi"), "at": [CHRIST[0], CHRIST[1] - 0.00028], "built": 1754, "rise_s": 6,
   "size_m": [9, 9, 60], "colors": C_("#e8e2d4", "#e8e2d4")},
- {"type": "parliament", "name": T("Pennsylvania State House", "Pennsylvania Eyalet Binası"), "at": list(INDEP), "built": 1732, "rise_s": 14,
-  "size_m": [33, 14, 14], "scale": 1.4, "rot_deg": 0, "colors": C_(BRICK, "#4f5a60")},
+ {"type": "box", "name": T("Pennsylvania State House", "Pennsylvania Eyalet Binası"), "at": list(INDEP), "built": 1732, "rise_s": 14,
+  "size_m": [33, 14, 13], "scale": 1.4, "rot_deg": 0, "colors": C_(BRICK, "#4f5a60")},
  {"type": "clocktower", "name": T("State House tower", "Eyalet Binası kulesi"), "at": [INDEP[0] - 0.00012, INDEP[1]], "built": 1752, "rise_s": 6,
   "size_m": [9, 9, 50], "colors": C_(BRICK, "#e8e2d4")},
  {"type": "box", "name": T("Carpenters' Hall", "Marangozlar Salonu"), "at": list(CARP), "built": 1770, "rise_s": 8, "size_m": [20, 20, 12],
@@ -374,10 +376,10 @@ landmarks = [
   "size_m": [60, 22, 10], "scale": 1.3, "rot_deg": 70, "colors": C_("#e8e2d4", "#5f666f")},
  {"type": "fort", "name": T("Eastern State Penitentiary", "Eastern State Cezaevi"), "at": list(ESP), "built": 1822, "rise_s": 12,
   "size_m": [210, 210, 10], "colors": {"wall": "#9a8f80"}},
- {"type": "parliament", "name": T("City Hall", "Belediye Binası"), "at": list(CITYHALL), "built": 1871, "rise_s": 30,
-  "size_m": [145, 140, 34], "scale": 1.0, "colors": C_("#e3dccb", "#4f5a60")},
- {"type": "clocktower", "name": T("City Hall tower", "Belediye Binası kulesi"), "at": [CITYHALL[0] - 0.00055, CITYHALL[1]], "built": 1880,
-  "rise_s": 20, "size_m": [27, 27, 167], "colors": C_("#e3dccb", "#c9a94a")},
+ {"type": "box", "name": T("City Hall", "Belediye Binası"), "at": list(CITYHALL), "built": 1871, "rise_s": 30,
+  "size_m": [145, 140, 34], "scale": 1.1, "colors": C_("#e8e1d0", "#8a8f8e")},
+ {"type": "clocktower", "name": T("City Hall tower", "Belediye Binası kulesi"), "at": [CITYHALL[0] + 0.00055, CITYHALL[1]], "built": 1880,
+  "rise_s": 20, "size_m": [27, 27, 167], "scale": 1.2, "colors": C_("#ece5d4", "#c9a94a")},
  {"type": "station", "name": T("Broad Street Station (≈)", "Broad Street İstasyonu (≈)"), "at": [39.95330, -75.16560], "built": 1881.9,
   "removed": 1953.5, "rise_s": 8, "size_m": [180, 95, 28], "rot_deg": 0, "colors": C_(BRICK, "#5f666f")},
  {"type": "temple", "name": T("Philadelphia Museum of Art", "Philadelphia Sanat Müzesi"), "at": list(PMA), "built": 1919, "rise_s": 40,
@@ -409,8 +411,8 @@ open_spaces = [
 ]
 
 labels = [
- {"text": T("DELAWARE RIVER", "DELAWARE NEHRİ"), "at": [39.9380, -75.1330], "kind": "water", "from": 1600},
- {"text": T("SCHUYLKILL RIVER", "SCHUYLKILL NEHRİ"), "at": [39.9450, -75.1880], "kind": "water", "from": 1600},
+ {"text": T("DELAWARE RIVER", "DELAWARE NEHRİ"), "at": [39.9250, -75.1360], "kind": "water", "from": 1600},
+ {"text": T("SCHUYLKILL RIVER", "SCHUYLKILL NEHRİ"), "at": [39.9400, -75.1940], "kind": "water", "from": 1600},
  {"text": T("Shackamaxon", "Shackamaxon"), "at": list(TREATY), "kind": "place", "from": 1600, "to": 1645},
  {"text": T("LENAPE COUNTRY", "LENAPE ÜLKESİ"), "at": [39.9800, -75.1800], "kind": "region", "from": 1600, "to": 1645},
  {"text": T("Wicaco", "Wicaco"), "at": list(GLORIA), "kind": "place", "from": 1646, "to": 1680.9},
@@ -447,11 +449,22 @@ labels = [
  {"text": T("CAMDEN", "CAMDEN"), "at": [39.9420, -75.1100], "kind": "region", "from": 2023},
 ]
 
+# Schuylkill above Fairmount Dam: OSM maps it as a reservoir (it would only appear with the lakes); keep it as
+# permanent river water from the start (polygon taken from the OSM lakes in geo.json).
+GEO_EDITS = []
+_gp = os.path.join(HERE, "geo.json")
+if os.path.exists(_gp):
+    for _l in json.load(open(_gp)).get("lakes", []):
+        _la = [q[0] for q in _l]; _lo = [q[1] for q in _l]
+        if min(_la) < 39.968 and max(_la) > 40.02 and min(_lo) < -75.21 and max(_lo) > -75.19:
+            GEO_EDITS.append({"op": "water", "poly": L([tuple(q) for q in _l])})
+
 city = {
  "slug": "philadelphia", "seed": 1682, "long_ok": True,
  "name": T("Philadelphia", "Philadelphia"), "intro": T("From 1682 to Today", "1682'den Bugüne"), "intro_seconds": 4.5,
  "geo": {"bbox": [39.70, -75.55, 40.25, -74.75], "cell_m": 110, "core_bbox": [39.900, -75.205, 39.990, -75.110], "core_cell_m": 30,
          "rivers_keep": ["Delaware", "Schuylkill"], "lakes_from": 1900},
+ "geo_edits": GEO_EDITS,
  "view": {"azimuth_deg": 270, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 3.0},
  "segments": S,
