@@ -1,11 +1,15 @@
-"""Generative ambient soundtrack (original, no third-party audio → no copyright claims).
+"""Episode soundtrack.
 
   python3 tools/music.py <seconds> <out.wav> [seed]
+
+If music/library/ holds audio files (tracks downloaded by the owner from the YouTube Audio Library,
+"no attribution required" only), the seed shuffles them and they are joined with crossfades until the
+video is covered, then levelled to a soft background loudness. Otherwise the generator below is used:
 
 Slow minor-key chord progression on soft additive pads, a low drone, sparse bell plucks,
 and a synthetic reverb. Each seed gives a different key/progression so episodes don't sound identical.
 """
-import sys
+import json, os, subprocess, sys, tempfile
 import numpy as np
 from scipy import signal
 from scipy.io import wavfile
@@ -14,11 +18,75 @@ SR = 32000
 PROGS = [[0, 8, 3, 10], [0, 5, 8, 7], [0, 3, 8, 10, 5, 7], [0, 10, 8, 7], [0, 8, 5, 10]]
 
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LIB = os.path.join(ROOT, 'music', 'library')
+EXTS = ('.mp3', '.wav', '.m4a', '.ogg', '.flac', '.aac')
+TARGET_LUFS = -23.0      # soft background level (owner request 9.11.2026)
+XFADE = 4.0
+
+
+def library():
+    if not os.path.isdir(LIB):
+        return []
+    return sorted(os.path.join(LIB, f) for f in os.listdir(LIB) if f.lower().endswith(EXTS))
+
+
+def credit(lang):
+    """Music credit line for video descriptions."""
+    if library():
+        return {'en': 'Music: YouTube Audio Library.', 'tr': 'Müzik: YouTube Ses Kitaplığı.'}[lang]
+    return {'en': 'Music: original.', 'tr': 'Müzik: özgün.'}[lang]
+
+
+def decode(path):
+    raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', path, '-f', 's16le', '-ac', '2', '-ar', str(SR), '-'],
+                         check=True, capture_output=True).stdout
+    return (np.frombuffer(raw, np.int16).reshape(-1, 2).astype(np.float32) / 32768)
+
+
+def loudness(st):
+    with tempfile.NamedTemporaryFile(suffix='.wav') as f:
+        wavfile.write(f.name, SR, (np.clip(st, -1, 1) * 32767).astype(np.int16))
+        err = subprocess.run(['ffmpeg', '-hide_banner', '-i', f.name, '-af', 'loudnorm=print_format=json', '-f', 'null', '-'],
+                             capture_output=True, text=True).stderr
+    js = json.loads(err[err.rindex('{'):err.rindex('}') + 1])
+    return float(js['input_i']), float(js['input_tp'])
+
+
+def from_library(sec, out, seed, files):
+    rng = np.random.default_rng(seed)
+    order = list(rng.permutation(len(files)))
+    n = int(sec * SR); xf = int(XFADE * SR)
+    st = np.zeros((0, 2), np.float32); k = 0
+    while st.shape[0] < n:
+        tr = decode(files[order[k % len(order)]]); k += 1
+        if k % len(order) == 0:          # whole library used: reshuffle for the next pass
+            order = list(rng.permutation(len(files)))
+        if st.shape[0] >= xf and tr.shape[0] > 2 * xf:
+            ramp = np.linspace(0, 1, xf, dtype=np.float32)[:, None]
+            st[-xf:] = st[-xf:] * (1 - ramp) + tr[:xf] * ramp
+            tr = tr[xf:]
+        st = np.concatenate([st, tr])
+    st = st[:n]
+    t = np.arange(n) / SR
+    fade = np.minimum(1, np.minimum(t / 3.0, (sec - t) / 4.0)).clip(0, 1).astype(np.float32)[:, None]
+    st = st * fade
+    li, tp = loudness(st)
+    gain = 10 ** ((TARGET_LUFS - li) / 20)
+    gain = min(gain, 10 ** ((-2.0 - tp) / 20))     # keep true peak under -2 dBFS
+    st = np.clip(st * gain, -1, 1)
+    wavfile.write(out, SR, (st * 32767).astype(np.int16))
+    print(f'music: library ({len(files)} tracks, {k} used), {li:.1f} -> ~{TARGET_LUFS} LUFS')
+
+
 def chord(root, minor_shape):
     return [root, root + (3 if minor_shape else 4), root + 7, root + 12]
 
 
 def main(sec, out, seed=7):
+    files = library()
+    if files:
+        return from_library(sec, out, seed, files)
     rng = np.random.default_rng(seed)
     n = int(sec * SR)
     t = np.arange(n) / SR

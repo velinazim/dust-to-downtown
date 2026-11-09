@@ -5,6 +5,8 @@
 out_dir/<lang>/video.mp4, thumb.jpg (if present in chunks_dir as thumb_<lang>.jpg), meta.json
 """
 import glob, json, os, shutil, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from music import credit as music_credit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -34,9 +36,9 @@ def describe(city, lang, dur):
     if src:
         lines += ['', 'Sources:' if lang == 'en' else 'Kaynaklar:'] + [f'• {s["title"]}' + (f' — {s["url"]}' if s.get('url') else '') for s in src[:15]]
     note = {'en': 'Reconstruction note: buildings are simplified symbols placed from historical maps and research; '
-                  'population figures before modern censuses are scholarly estimates.\nTerrain: AWS Terrain Tiles; water: © OpenStreetMap contributors. Music: original.',
+                  'population figures before modern censuses are scholarly estimates.\nTerrain: AWS Terrain Tiles; water: © OpenStreetMap contributors. ' + music_credit('en'),
             'tr': 'Not: Binalar tarihî harita ve araştırmalara göre yerleştirilmiş sade sembollerdir; modern nüfus sayımlarından önceki rakamlar '
-                  'akademik tahminlerdir.\nArazi: AWS Terrain Tiles; su: © OpenStreetMap katkıcıları. Müzik: özgün.'}[lang]
+                  'akademik tahminlerdir.\nArazi: AWS Terrain Tiles; su: © OpenStreetMap katkıcıları. ' + music_credit('tr')}[lang]
     lines += ['', note, '', ' '.join(yt.get('hashtags', ['#history', '#timelapse', '#cities']))]
     return '\n'.join(lines)[:4900]
 

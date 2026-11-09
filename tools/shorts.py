@@ -19,6 +19,8 @@ default 2.5 — the end card "full episode on the channel" shows there), "fov" (
   python3 tools/shorts.py assemble <slug> <chunks_dir> <out_dir>   # out_dir/<id>/<lang>/video.mp4 + meta.json
 """
 import datetime as dt, glob, json, math, os, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from music import credit as music_credit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
@@ -131,9 +133,9 @@ def describe(city, sh, lang, long_link):
     lines += [T(sh.get('description', ''), lang).strip(), '',
               {'en': 'Which city should I build next? Tell me in the comments.', 'tr': 'Sıradaki şehir hangisi olsun? Yorumlarda yaz.'}[lang]]
     lines += ['', {'en': 'Buildings are simplified symbols placed from historical maps and research; population figures before '
-                         'modern censuses are scholarly estimates. Terrain: AWS Terrain Tiles; water: © OpenStreetMap contributors. Music: original.',
+                         'modern censuses are scholarly estimates. Terrain: AWS Terrain Tiles; water: © OpenStreetMap contributors. ' + music_credit('en'),
                    'tr': 'Binalar tarihî harita ve araştırmalara göre yerleştirilmiş sade sembollerdir; modern sayımlardan önceki nüfuslar '
-                         'akademik tahminlerdir. Arazi: AWS Terrain Tiles; su: © OpenStreetMap katkıcıları. Müzik: özgün.'}[lang]]
+                         'akademik tahminlerdir. Arazi: AWS Terrain Tiles; su: © OpenStreetMap katkıcıları. ' + music_credit('tr')}[lang]]
     tags = sh.get('hashtags') or (yt.get('hashtags', []) + ['#Shorts'])
     lines += ['', ' '.join(tags)]
     return '\n'.join(lines)[:4900]
