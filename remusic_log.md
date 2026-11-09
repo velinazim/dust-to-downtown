@@ -6,3 +6,4 @@
 - 2026-11-12 How Boston Turned the Sea Into Land #shorts → https://youtube.com/shorts/16tUv1FP1K8 (eski 19uMvCRFTCk takvimden alındı, gizli) · ilgili video: Boston: 400 Years in 14 Minutes (3D Timelapse) (https://youtu.be/kgafyuU_axI)
 - 2026-11-13 Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse) → https://youtu.be/9HaMl7NMeYY (eski jWpc39QbfEE takvimden alındı, gizli)
 - 2026-11-14 Amsterdam: 1,000 Years in 50 Seconds #shorts → https://youtube.com/shorts/qUdsTpkZW7Y (eski A1HrBqmQCcQ takvimden alındı, gizli) · ilgili video: Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse) (https://youtu.be/9HaMl7NMeYY)
+- 2026-11-15 How Amsterdam Built Its Canal Ring #shorts → https://youtube.com/shorts/fdGMjdhVIfY (eski msyqg5u-S1k takvimden alındı, gizli) · ilgili video: Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse) (https://youtu.be/9HaMl7NMeYY)
