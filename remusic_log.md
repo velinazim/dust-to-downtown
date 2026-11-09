@@ -22,3 +22,4 @@
 - 2026-11-28 Berlin: 800 Years in 50 Seconds #shorts → https://youtube.com/shorts/5RZfOx2txls (eski jCAVkEHPQ0c takvimden alındı, gizli) · ilgili video: Berlin: 800 Years in 15 Minutes (3D Timelapse) (https://youtu.be/UBjY9j2oNyA)
 - 2026-11-29 The Berlin Wall: From Four Sectors to One City #shorts → https://youtube.com/shorts/PSIdpN84zEk (eski bzhi5EIfquY takvimden alındı, gizli) · ilgili video: Berlin: 800 Years in 15 Minutes (3D Timelapse) (https://youtu.be/UBjY9j2oNyA)
 - 2026-11-30 Berlin: From 6,000 People to a Royal Capital #shorts → https://youtube.com/shorts/TpDuWV9dEU8 (eski M7C3N8jMaEU takvimden alındı, gizli) · ilgili video: Berlin: 800 Years in 15 Minutes (3D Timelapse) (https://youtu.be/UBjY9j2oNyA)
+- 2026-12-01 Philadelphia: 344 Years in 13 Minutes (3D Timelapse) → https://youtu.be/LZYyFW5geNs (eski EilZM9Mqacs takvimden alındı, gizli)

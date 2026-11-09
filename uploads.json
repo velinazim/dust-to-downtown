@@ -775,7 +775,7 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "philadelphia:long",
+  "key": "philadelphia:long:replaced",
   "slug": "philadelphia",
   "kind": "long",
   "video_id": "EilZM9Mqacs",
@@ -784,6 +784,23 @@
   "publish_at": "2026-12-01T23:30:00Z",
   "uploaded": "2026-11-09T10:27:01Z",
   "thumbnail": "ok",
-  "playlist": "added"
+  "playlist": "added",
+  "replaced_by": "LZYyFW5geNs",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "philadelphia:long",
+  "slug": "philadelphia",
+  "kind": "long",
+  "video_id": "LZYyFW5geNs",
+  "link": "https://youtu.be/LZYyFW5geNs",
+  "title": "Philadelphia: 344 Years in 13 Minutes (3D Timelapse)",
+  "publish_at": "2026-12-01T23:30:00Z",
+  "uploaded": "2026-11-09T19:00:21Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "EilZM9Mqacs",
+  "music": "piano-2026-11-09"
  }
 ]
