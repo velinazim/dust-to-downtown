@@ -137,5 +137,6 @@ Conflicts: 1811 102,987 (WP) vs 103,143 (EdinPhoto); 1831 161,909 vs 162,403 →
 - Base map: the terrain tiles put gently sloping "land" 1–1.5 km out into the Forth (elevations 1–5 m north of Leith, where the
   shore is). `geo.sea_level_m` = 6 puts the coast at Leith/Newhaven/Seafield/Portobello where the city actually meets the sea
   (checked against the Leith and Duddingston/Lochend lakes positions in the map). The Water of Leith is NOT drawn (as a geo_edits river it rendered as a wide sand ribbon).
-  Land north of the old shore at Leith/Newhaven (modern dock and harbour reclamation, ≈ outline, undated) is kept as sea.
+  Land north of the old shore at Leith/Newhaven (modern dock and harbour reclamation, ≈ outline, undated) is kept as sea; a strip
+  well inside the shore is forced to land so the 6 m threshold leaves no ponds behind the beach (≈).
 - Elevation tiles are smoothed (Castle Rock and Arthur's Seat lower than real); vertical exaggeration 3 as in other episodes.
