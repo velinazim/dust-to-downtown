@@ -1,0 +1,4878 @@
+{
+ "slug": "edinburgh",
+ "seed": 1124,
+ "long_ok": true,
+ "name": {
+  "en": "Edinburgh",
+  "tr": "Edinburgh"
+ },
+ "intro": {
+  "en": "3,000 Years in 14 Minutes",
+  "tr": "14 Dakikada 3.000 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   55.78,
+   -3.52,
+   56.12,
+   -2.86
+  ],
+  "cell_m": 90,
+  "core_bbox": [
+   55.925,
+   -3.245,
+   55.99,
+   -3.14
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Forth"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 2.0
+ },
+ "segments": [
+  {
+   "from": -1000,
+   "to": -501,
+   "seconds": 22,
+   "era": {
+    "en": "Prehistory",
+    "tr": "Tarih Öncesi"
+   },
+   "city_name": {
+    "en": "Castle Rock",
+    "tr": "Kale Kayası"
+   },
+   "title": {
+    "en": "A Volcanic Rock",
+    "tr": "Volkanik Bir Kaya"
+   },
+   "sub": {
+    "en": "c. 1000 BC: people are already living on the Castle Rock",
+    "tr": "MÖ ~1000: Kale Kayası'nda insanlar yaşamaktadır"
+   },
+   "camera": {
+    "center": [
+     55.94961,
+     -3.19683
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "The Rock",
+    "tr": "Kaya"
+   }
+  },
+  {
+   "from": -500,
+   "to": 499,
+   "seconds": 18,
+   "era": {
+    "en": "Iron Age",
+    "tr": "Demir Çağı"
+   },
+   "city_name": {
+    "en": "Castle Rock",
+    "tr": "Kale Kayası"
+   },
+   "title": {
+    "en": "Hill Forts",
+    "tr": "Tepe Kaleleri"
+   },
+   "sub": {
+    "en": "Iron Age: hill forts crown Arthur's Seat and the hills around it",
+    "tr": "Demir Çağı: Arthur's Seat ve çevresindeki tepelerde kaleler yükselir"
+   },
+   "camera": {
+    "center": [
+     55.947,
+     -3.182
+    ],
+    "dist_km": 5.5
+   }
+  },
+  {
+   "from": 500,
+   "to": 649,
+   "seconds": 20,
+   "era": {
+    "en": "Gododdin",
+    "tr": "Gododdin"
+   },
+   "city_name": {
+    "en": "Din Eidyn",
+    "tr": "Din Eidyn"
+   },
+   "title": {
+    "en": "Din Eidyn",
+    "tr": "Din Eidyn"
+   },
+   "sub": {
+    "en": "c. AD 600: a Welsh poem names Din Eidyn, the Gododdin's fort on the rock",
+    "tr": "MS ~600: Galce bir şiir, Gododdin'lerin kayadaki kalesi Din Eidyn'i anar"
+   },
+   "camera": {
+    "center": [
+     55.94961,
+     -3.1978299999999997
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 650,
+   "to": 853,
+   "seconds": 16,
+   "era": {
+    "en": "Northumbria",
+    "tr": "Northumbria"
+   },
+   "city_name": {
+    "en": "Din Eidyn",
+    "tr": "Din Eidyn"
+   },
+   "title": {
+    "en": "Northumbria",
+    "tr": "Northumbria"
+   },
+   "sub": {
+    "en": "7th–10th centuries: the rock is part of the Anglian kingdom of Northumbria",
+    "tr": "7.–10. yüzyıllar: kaya, Anglo kökenli Northumbria krallığının parçasıdır"
+   },
+   "camera": {
+    "center": [
+     55.94961,
+     -3.19583
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 854,
+   "to": 1057,
+   "seconds": 14,
+   "era": {
+    "en": "Northumbria",
+    "tr": "Northumbria"
+   },
+   "city_name": {
+    "en": "Edwinesburh",
+    "tr": "Edwinesburh"
+   },
+   "title": {
+    "en": "A New Name",
+    "tr": "Yeni Bir Ad"
+   },
+   "sub": {
+    "en": "By AD 854 the name Din Eidyn has become Edwinesburh",
+    "tr": "MS 854'e gelindiğinde Din Eidyn adı Edwinesburh olmuştur"
+   },
+   "camera": {
+    "center": [
+     55.94961,
+     -3.19583
+    ],
+    "dist_km": 3.5
+   }
+  },
+  {
+   "from": 1058,
+   "to": 1093,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Malcolm's Castle",
+    "tr": "Malcolm'un Kalesi"
+   },
+   "sub": {
+    "en": "1058–93: Malcolm III is the first king known to live on the Castle Rock",
+    "tr": "1058–93: III. Malcolm, Kale Kayası'nda yaşadığı bilinen ilk kraldır"
+   },
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.19883
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Royal Burgh",
+    "tr": "Kraliyet Kasabası"
+   }
+  },
+  {
+   "from": 1094,
+   "to": 1127,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A King's Burgh",
+    "tr": "Bir Kral Kasabası"
+   },
+   "sub": {
+    "en": "1124: David I founds St Giles'; by 1127 Edinburgh is a royal burgh",
+    "tr": "1124: I. David St Giles'ı kurar; 1127'ye dek Edinburgh bir kraliyet kasabası olur"
+   },
+   "camera": {
+    "center": [
+     55.94947,
+     -3.1925
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1128,
+   "to": 1129.9,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Holyrood Abbey",
+    "tr": "Holyrood Manastırı"
+   },
+   "sub": {
+    "en": "1128: David I founds Holyrood Abbey; its charter is the first record of Leith",
+    "tr": "1128: I. David Holyrood Manastırı'nı kurar; fermanı Leith'in ilk kaydıdır"
+   },
+   "camera": {
+    "center": [
+     55.952,
+     -3.177
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1130,
+   "to": 1140,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "St Margaret's Chapel",
+    "tr": "Aziz Margaret Şapeli"
+   },
+   "sub": {
+    "en": "c. 1130–40: St Margaret's Chapel, now the castle's oldest building, is built",
+    "tr": "~1130–40: bugün kalenin en eski yapısı olan Aziz Margaret Şapeli inşa edilir"
+   },
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.19983
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1141,
+   "to": 1295,
+   "seconds": 12,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "camera": {
+    "center": [
+     55.9498,
+     -3.188
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1296,
+   "to": 1313,
+   "seconds": 17,
+   "era": {
+    "en": "Wars of Independence",
+    "tr": "Bağımsızlık Savaşları"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Edward I Takes the Castle",
+    "tr": "I. Edward Kaleyi Alıyor"
+   },
+   "sub": {
+    "en": "March 1296: the castle surrenders to Edward I after a three-day bombardment",
+    "tr": "Mart 1296: kale, üç günlük bombardımanın ardından I. Edward'a teslim olur"
+   },
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.1978299999999997
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Wars and Walls",
+    "tr": "Savaşlar ve Surlar"
+   }
+  },
+  {
+   "from": 1314,
+   "to": 1328,
+   "seconds": 16,
+   "era": {
+    "en": "Wars of Independence",
+    "tr": "Bağımsızlık Savaşları"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Night Attack",
+    "tr": "Gece Baskını"
+   },
+   "sub": {
+    "en": "14 March 1314: Thomas Randolph retakes the castle; Bruce has it slighted",
+    "tr": "14 Mart 1314: Thomas Randolph kaleyi geri alır; Bruce surlarını yıktırır"
+   },
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.19883
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1329,
+   "to": 1366,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Harbour at Leith",
+    "tr": "Leith'te Bir Liman"
+   },
+   "sub": {
+    "en": "1329: Robert the Bruce gives his harbour at Leith to Edinburgh",
+    "tr": "1329: Robert the Bruce, Leith'teki limanını Edinburgh'a verir"
+   },
+   "camera": {
+    "center": [
+     55.963,
+     -3.178
+    ],
+    "dist_km": 6.5
+   }
+  },
+  {
+   "from": 1367,
+   "to": 1384,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "David's Tower",
+    "tr": "David Kulesi"
+   },
+   "sub": {
+    "en": "c. 1367: David II begins a great tower; Edinburgh is now called the capital",
+    "tr": "~1367: II. David büyük bir kule başlatır; Edinburgh artık başkent diye anılır"
+   },
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.19833
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1385,
+   "to": 1449,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "St Giles' Burns",
+    "tr": "St Giles Yanıyor"
+   },
+   "sub": {
+    "en": "1385: an English army raids the town and St Giles' is damaged by fire",
+    "tr": "1385: bir İngiliz ordusu kasabaya saldırır, St Giles yangından zarar görür"
+   },
+   "camera": {
+    "center": [
+     55.94947,
+     -3.191
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1450,
+   "to": 1494,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The King's Wall",
+    "tr": "Kral Suru"
+   },
+   "sub": {
+    "en": "1450: James II lets the burgesses defend the town — the King's Wall",
+    "tr": "1450: II. James kasabalılara şehri savunma izni verir — Kral Suru"
+   },
+   "camera": {
+    "center": [
+     55.9498,
+     -3.189
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1495,
+   "to": 1497.9,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Crown Spire",
+    "tr": "Taç Kule"
+   },
+   "sub": {
+    "en": "1495: St Giles' raises its stone crown spire over the High Street",
+    "tr": "1495: St Giles, High Street'in üzerinde taştan taç kulesini yükseltir"
+   },
+   "camera": {
+    "center": [
+     55.94947,
+     -3.1915
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1498,
+   "to": 1512,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Palace at Holyrood",
+    "tr": "Holyrood'da Bir Saray"
+   },
+   "sub": {
+    "en": "1498–1501: James IV builds a royal palace beside Holyrood Abbey",
+    "tr": "1498–1501: IV. James, Holyrood Manastırı'nın yanına bir kraliyet sarayı yaptırır"
+   },
+   "camera": {
+    "center": [
+     55.9525,
+     -3.1734999999999998
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1513,
+   "to": 1543,
+   "seconds": 18,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Flodden Wall",
+    "tr": "Flodden Suru"
+   },
+   "sub": {
+    "en": "After defeat at Flodden in 1513, the town begins a new wall in 1514",
+    "tr": "1513'teki Flodden yenilgisinin ardından kasaba 1514'te yeni bir sura başlar"
+   },
+   "camera": {
+    "center": [
+     55.9485,
+     -3.19
+    ],
+    "dist_km": 2.8
+   },
+   "chapter": {
+    "en": "Flodden to Union",
+    "tr": "Flodden'dan Birliğe"
+   }
+  },
+  {
+   "from": 1544,
+   "to": 1547.9,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The English Land at Leith",
+    "tr": "İngilizler Leith'e Çıkıyor"
+   },
+   "sub": {
+    "en": "May 1544: English troops land guns at Leith; the castle holds out",
+    "tr": "Mayıs 1544: İngiliz birlikleri Leith'e top çıkarır; kale direnir"
+   },
+   "camera": {
+    "center": [
+     55.962,
+     -3.18
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1548,
+   "to": 1559.9,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Fortified Leith",
+    "tr": "Tahkimli Leith"
+   },
+   "sub": {
+    "en": "1548: Mary of Guise begins walling Leith with Italian-style bastions",
+    "tr": "1548: Guise'li Mary, Leith'i İtalyan tarzı burçlarla surlamaya başlar"
+   },
+   "camera": {
+    "center": [
+     55.974399999999996,
+     -3.17
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1560,
+   "to": 1560.9,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Siege of Leith",
+    "tr": "Leith Kuşatması"
+   },
+   "sub": {
+    "en": "1560: English and Scots besiege the French in Leith; they sail home in June",
+    "tr": "1560: İngilizler ve İskoçlar Leith'teki Fransızları kuşatır; Haziran'da geri dönerler"
+   },
+   "population": 10000,
+   "camera": {
+    "center": [
+     55.9724,
+     -3.1719999999999997
+    ],
+    "dist_km": 3.8
+   }
+  },
+  {
+   "from": 1561,
+   "to": 1570,
+   "seconds": 16,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Walled Town",
+    "tr": "Surlu Bir Kasaba"
+   },
+   "sub": {
+    "en": "1560: the Flodden Wall is complete, enclosing about 10,000 people",
+    "tr": "1560: Flodden Suru tamamlanır; içinde yaklaşık 10.000 kişi yaşar"
+   },
+   "population": [
+    10200,
+    12400
+   ],
+   "camera": {
+    "center": [
+     55.949,
+     -3.19
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1571,
+   "to": 1627,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Lang Siege",
+    "tr": "Uzun Kuşatma"
+   },
+   "sub": {
+    "en": "1571–73: the Lang Siege wrecks David's Tower; the Half Moon Battery follows",
+    "tr": "1571–73: Uzun Kuşatma David Kulesi'ni yıkar; ardından Yarım Ay Tabyası yapılır"
+   },
+   "population": [
+    12700,
+    26200
+   ],
+   "camera": {
+    "center": [
+     55.949110000000005,
+     -3.1978299999999997
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1628,
+   "to": 1644,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Telfer Wall",
+    "tr": "Telfer Suru"
+   },
+   "sub": {
+    "en": "1628–36: the Telfer Wall encloses new ground west of Greyfriars",
+    "tr": "1628–36: Telfer Suru, Greyfriars'ın batısındaki yeni araziyi çevreler"
+   },
+   "population": [
+    26500,
+    30300
+   ],
+   "camera": {
+    "center": [
+     55.9465,
+     -3.193
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1645,
+   "to": 1649.9,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Plague",
+    "tr": "Veba"
+   },
+   "sub": {
+    "en": "1645: plague kills over 2,700 people in the parish of South Leith alone",
+    "tr": "1645: veba yalnızca Güney Leith cemaatinde 2.700'den fazla can alır"
+   },
+   "population": [
+    30600,
+    31800
+   ],
+   "camera": {
+    "center": [
+     55.965,
+     -3.178
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1650,
+   "to": 1670.9,
+   "seconds": 17,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Cromwell",
+    "tr": "Cromwell"
+   },
+   "sub": {
+    "en": "1650: Cromwell's army takes the castle; a fire guts Holyrood Palace",
+    "tr": "1650: Cromwell'in ordusu kaleyi alır; bir yangın Holyrood Sarayı'nı harap eder"
+   },
+   "population": [
+    31800,
+    36800
+   ],
+   "camera": {
+    "center": [
+     55.95,
+     -3.186
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1671,
+   "to": 1706.9,
+   "seconds": 15,
+   "era": {
+    "en": "Kingdom of Scotland",
+    "tr": "İskoçya Krallığı"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A New Holyroodhouse",
+    "tr": "Yeni Holyroodhouse"
+   },
+   "sub": {
+    "en": "1671–79: Holyrood Palace is rebuilt, much as it stands today",
+    "tr": "1671–79: Holyrood Sarayı yeniden yapılır; bugünkü hâline büyük ölçüde o zaman kavuşur"
+   },
+   "population": [
+    36900,
+    45600
+   ],
+   "camera": {
+    "center": [
+     55.9525,
+     -3.1734999999999998
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1707,
+   "to": 1744.9,
+   "seconds": 15,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Last Parliament",
+    "tr": "Son Parlamento"
+   },
+   "sub": {
+    "en": "1707: Scotland's Parliament, in Parliament House since the 1630s, comes to an end",
+    "tr": "1707: 1630'lardan beri Parlamento Binası'nda toplanan İskoç Parlamentosu sona erer"
+   },
+   "population": [
+    45600,
+    54800
+   ],
+   "camera": {
+    "center": [
+     55.94947,
+     -3.191
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1745,
+   "to": 1754.9,
+   "seconds": 15,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Jacobites",
+    "tr": "Jakobitler"
+   },
+   "sub": {
+    "en": "1745: a Jacobite army holds the town, but the castle never falls",
+    "tr": "1745: Jakobit ordusu kasabayı tutar, ama kale hiç düşmez"
+   },
+   "population": [
+    54800,
+    57200
+   ],
+   "camera": {
+    "center": [
+     55.9495,
+     -3.191
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1755,
+   "to": 1762.9,
+   "seconds": 15,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Crowded Ridge",
+    "tr": "Kalabalık Sırt"
+   },
+   "sub": {
+    "en": "1755: Edinburgh and Leith count 57,195 people",
+    "tr": "1755: Edinburgh ve Leith'te 57.195 kişi yaşar"
+   },
+   "population": [
+    57195,
+    62600
+   ],
+   "camera": {
+    "center": [
+     55.956,
+     -3.185
+    ],
+    "dist_km": 6.0
+   },
+   "chapter": {
+    "en": "The New Town",
+    "tr": "Yeni Şehir"
+   }
+  },
+  {
+   "from": 1763,
+   "to": 1765.9,
+   "seconds": 17,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Draining the Nor Loch",
+    "tr": "Nor Gölü Kurutuluyor"
+   },
+   "sub": {
+    "en": "21 October 1763: first stone of the North Bridge as the Nor Loch is drained",
+    "tr": "21 Ekim 1763: Nor Gölü kurutulurken Kuzey Köprüsü'nün ilk taşı konur"
+   },
+   "population": [
+    62700,
+    64700
+   ],
+   "camera": {
+    "center": [
+     55.9515,
+     -3.193
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1766,
+   "to": 1768.8,
+   "seconds": 18,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "James Craig's Plan",
+    "tr": "James Craig'in Planı"
+   },
+   "sub": {
+    "en": "1766: James Craig, aged 26, wins the contest to plan a New Town; building starts 1767",
+    "tr": "1766: 26 yaşındaki James Craig Yeni Şehir yarışmasını kazanır; inşaat 1767'de başlar"
+   },
+   "population": [
+    64700,
+    66700
+   ],
+   "camera": {
+    "center": [
+     55.954,
+     -3.199
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1768.9,
+   "to": 1769.5,
+   "seconds": 14,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Abbey Falls",
+    "tr": "Manastır Çöküyor"
+   },
+   "sub": {
+    "en": "2 December 1768: Holyrood Abbey's roof collapses, leaving a ruin",
+    "tr": "2 Aralık 1768: Holyrood Manastırı'nın çatısı çöker; geriye bir harabe kalır"
+   },
+   "population": [
+    66700,
+    67100
+   ],
+   "camera": {
+    "center": [
+     55.95285,
+     -3.1732
+    ],
+    "dist_km": 1.6
+   }
+  },
+  {
+   "from": 1769.6,
+   "to": 1772.9,
+   "seconds": 16,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The North Bridge",
+    "tr": "Kuzey Köprüsü"
+   },
+   "sub": {
+    "en": "1769: the unfinished bridge collapses, killing five; it finally opens in 1772",
+    "tr": "1769: bitmemiş köprü çöker, beş kişi ölür; köprü sonunda 1772'de açılır"
+   },
+   "population": [
+    67200,
+    69500
+   ],
+   "camera": {
+    "center": [
+     55.95187,
+     -3.1884
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1773,
+   "to": 1784.9,
+   "seconds": 10,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "population": [
+    69500,
+    77700
+   ],
+   "camera": {
+    "center": [
+     55.953,
+     -3.195
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1785,
+   "to": 1788.9,
+   "seconds": 16,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The South Bridge",
+    "tr": "Güney Köprüsü"
+   },
+   "sub": {
+    "en": "1785–88: the South Bridge carries a street over the Cowgate on 19 arches",
+    "tr": "1785–88: Güney Köprüsü, bir caddeyi 19 kemerle Cowgate'in üzerinden geçirir"
+   },
+   "population": [
+    77800,
+    80400
+   ],
+   "camera": {
+    "center": [
+     55.94874,
+     -3.18683
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1789,
+   "to": 1805.9,
+   "seconds": 16,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Old College",
+    "tr": "Eski Kolej"
+   },
+   "sub": {
+    "en": "6 November 1789: the first stone of Robert Adam's Old College is laid",
+    "tr": "6 Kasım 1789: Robert Adam'ın Eski Kolej binasının ilk taşı konur"
+   },
+   "population": [
+    80500,
+    92600
+   ],
+   "camera": {
+    "center": [
+     55.9474,
+     -3.1873
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1806,
+   "to": 1816.9,
+   "seconds": 16,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Leith's Wet Docks",
+    "tr": "Leith'in Islak Havuzları"
+   },
+   "sub": {
+    "en": "20 May 1806: Leith opens the first wet dock in Scotland",
+    "tr": "20 Mayıs 1806: Leith, İskoçya'nın ilk ıslak havuzunu açar"
+   },
+   "population": [
+    92800,
+    124000
+   ],
+   "camera": {
+    "center": [
+     55.975899999999996,
+     -3.169
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1817,
+   "to": 1823.9,
+   "seconds": 17,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Monuments on Calton Hill",
+    "tr": "Calton Tepesi'nde Anıtlar"
+   },
+   "sub": {
+    "en": "1822: the National Monument is begun beside Nelson's tower on Calton Hill",
+    "tr": "1822: Calton Tepesi'nde Nelson kulesinin yanında Ulusal Anıt'a başlanır"
+   },
+   "population": [
+    124000,
+    145000
+   ],
+   "camera": {
+    "center": [
+     55.95433,
+     -3.18358
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1824,
+   "to": 1824.95,
+   "seconds": 17,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   },
+   "sub": {
+    "en": "15 November 1824: fire sweeps the High Street for days; 13 people die",
+    "tr": "15 Kasım 1824: yangın günlerce High Street'i kasıp kavurur; 13 kişi ölür"
+   },
+   "population": [
+    145000,
+    148000
+   ],
+   "camera": {
+    "center": [
+     55.94947,
+     -3.1905
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1825,
+   "to": 1839.9,
+   "seconds": 15,
+   "era": {
+    "en": "Great Britain",
+    "tr": "Büyük Britanya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The New Towns Grow",
+    "tr": "Yeni Şehirler Büyüyor"
+   },
+   "sub": {
+    "en": "By 1820 Charlotte Square ends the first New Town; more follow to the 1830s",
+    "tr": "1820'de Charlotte Meydanı ilk Yeni Şehri tamamlar; 1830'lara dek yenileri eklenir"
+   },
+   "population": [
+    148000,
+    166000
+   ],
+   "camera": {
+    "center": [
+     55.955,
+     -3.2
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1840,
+   "to": 1845.9,
+   "seconds": 17,
+   "era": {
+    "en": "Victorian Era",
+    "tr": "Viktorya Dönemi"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Scott Monument",
+    "tr": "Scott Anıtı"
+   },
+   "sub": {
+    "en": "1840–46: the 61 m Scott Monument rises in the gardens of the drained loch",
+    "tr": "1840–46: 61 m'lik Scott Anıtı, kurutulan gölün bahçelerinde yükselir"
+   },
+   "population": [
+    166000,
+    180000
+   ],
+   "camera": {
+    "center": [
+     55.95238,
+     -3.19326
+    ],
+    "dist_km": 1.8
+   },
+   "chapter": {
+    "en": "Victorian City",
+    "tr": "Viktorya Dönemi Şehri"
+   }
+  },
+  {
+   "from": 1846,
+   "to": 1865.9,
+   "seconds": 16,
+   "era": {
+    "en": "Victorian Era",
+    "tr": "Viktorya Dönemi"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "The Railway Arrives",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "22 June 1846: North Bridge station opens in the valley below the Old Town",
+    "tr": "22 Haziran 1846: Kuzey Köprüsü istasyonu Eski Şehir'in altındaki vadide açılır"
+   },
+   "population": [
+    180000,
+    227000
+   ],
+   "camera": {
+    "center": [
+     55.9521,
+     -3.1902999999999997
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1866,
+   "to": 1891.9,
+   "seconds": 15,
+   "era": {
+    "en": "Victorian Era",
+    "tr": "Viktorya Dönemi"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Waverley",
+    "tr": "Waverley"
+   },
+   "sub": {
+    "en": "1866–68: the North British Railway merges three stations into Waverley",
+    "tr": "1866–68: North British Demiryolu üç istasyonu Waverley'de birleştirir"
+   },
+   "population": [
+    227000,
+    284000
+   ],
+   "camera": {
+    "center": [
+     55.953,
+     -3.188
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1892,
+   "to": 1900.9,
+   "seconds": 16,
+   "era": {
+    "en": "Victorian Era",
+    "tr": "Viktorya Dönemi"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Britain's Largest Station",
+    "tr": "Britanya'nın En Büyük İstasyonu"
+   },
+   "sub": {
+    "en": "From 1892: Waverley is rebuilt on 23 acres — the largest station in Britain",
+    "tr": "1892'den itibaren: Waverley 23 akre üzerinde yeniden yapılır — Britanya'nın en büyüğü"
+   },
+   "population": [
+    284000,
+    303000
+   ],
+   "camera": {
+    "center": [
+     55.9521,
+     -3.1893
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1901,
+   "to": 1919.9,
+   "seconds": 15,
+   "era": {
+    "en": "Victorian Era",
+    "tr": "Viktorya Dönemi"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A City of 300,000",
+    "tr": "300.000'lik Şehir"
+   },
+   "sub": {
+    "en": "1901: 303,638 people; tenements and villas spread south and west",
+    "tr": "1901: 303.638 kişi; apartmanlar ve villalar güneye ve batıya yayılır"
+   },
+   "population": [
+    303638,
+    409000
+   ],
+   "camera": {
+    "center": [
+     55.948,
+     -3.195
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1920,
+   "to": 1921.9,
+   "seconds": 18,
+   "era": {
+    "en": "Modern Era",
+    "tr": "Modern Çağ"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Leith Joins Edinburgh",
+    "tr": "Leith Edinburgh'a Katılıyor"
+   },
+   "sub": {
+    "en": "1 November 1920: Leith is merged with Edinburgh, though it voted 26,810 to 4,340 against",
+    "tr": "1 Kasım 1920: Leith, 26.810'a 4.340 oyla karşı çıksa da Edinburgh'a katılır"
+   },
+   "population": [
+    410000,
+    422000
+   ],
+   "camera": {
+    "center": [
+     55.962,
+     -3.18
+    ],
+    "dist_km": 9.0
+   },
+   "chapter": {
+    "en": "Modern Capital",
+    "tr": "Modern Başkent"
+   }
+  },
+  {
+   "from": 1922,
+   "to": 1950.9,
+   "seconds": 12,
+   "era": {
+    "en": "Modern Era",
+    "tr": "Modern Çağ"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "population": [
+    422000,
+    467000
+   ],
+   "camera": {
+    "center": [
+     55.945,
+     -3.2
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1951,
+   "to": 1994.9,
+   "seconds": 15,
+   "era": {
+    "en": "Modern Era",
+    "tr": "Modern Çağ"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Suburbs",
+    "tr": "Banliyöler"
+   },
+   "sub": {
+    "en": "1951: 466,761 people; new estates fill the land toward the hills",
+    "tr": "1951: 466.761 kişi; yeni yerleşimler tepelere doğru araziyi doldurur"
+   },
+   "population": [
+    466761,
+    451000
+   ],
+   "camera": {
+    "center": [
+     55.935,
+     -3.2
+    ],
+    "dist_km": 17.0
+   }
+  },
+  {
+   "from": 1995,
+   "to": 1998.9,
+   "seconds": 16,
+   "era": {
+    "en": "Modern Era",
+    "tr": "Modern Çağ"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "World Heritage",
+    "tr": "Dünya Mirası"
+   },
+   "sub": {
+    "en": "1995: the Old and New Towns become a UNESCO World Heritage Site",
+    "tr": "1995: Eski ve Yeni Şehir UNESCO Dünya Mirası olur"
+   },
+   "population": [
+    451000,
+    449000
+   ],
+   "camera": {
+    "center": [
+     55.952,
+     -3.195
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1999,
+   "to": 2004.7,
+   "seconds": 18,
+   "era": {
+    "en": "Devolved Scotland",
+    "tr": "Özerk İskoçya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "A Parliament Returns",
+    "tr": "Parlamento Geri Dönüyor"
+   },
+   "sub": {
+    "en": "1999: a Scottish Parliament sits again, at first in the Assembly Hall on the Mound",
+    "tr": "1999: İskoç Parlamentosu yeniden toplanır; önce Mound'daki Kurul Salonu'nda"
+   },
+   "population": [
+    449000,
+    459000
+   ],
+   "camera": {
+    "center": [
+     55.951,
+     -3.185
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "Holyrood",
+    "tr": "Holyrood"
+   }
+  },
+  {
+   "from": 2004.77,
+   "to": 2022.9,
+   "seconds": 18,
+   "era": {
+    "en": "Devolved Scotland",
+    "tr": "Özerk İskoçya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Holyrood",
+    "tr": "Holyrood"
+   },
+   "sub": {
+    "en": "9 October 2004: the Queen opens the new Parliament building at Holyrood",
+    "tr": "9 Ekim 2004: Kraliçe, Holyrood'daki yeni Parlamento binasını açar"
+   },
+   "population": [
+    459000,
+    520000
+   ],
+   "camera": {
+    "center": [
+     55.9522,
+     -3.1752000000000002
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 2023,
+   "to": 2026,
+   "seconds": 22,
+   "era": {
+    "en": "Devolved Scotland",
+    "tr": "Özerk İskoçya"
+   },
+   "city_name": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "title": {
+    "en": "Edinburgh Today",
+    "tr": "Bugünkü Edinburgh"
+   },
+   "sub": {
+    "en": "2023: trams reach Leith; mid-2024: about 530,680 people live in the city",
+    "tr": "2023: tramvay Leith'e ulaşır; 2024 ortası: şehirde yaklaşık 530.680 kişi yaşar"
+   },
+   "population": [
+    521000,
+    530680
+   ],
+   "camera": {
+    "center": [
+     55.945,
+     -3.19
+    ],
+    "dist_km": 16.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Huts on the Castle Rock (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     55.94901,
+     -3.19426
+    ],
+    [
+     55.94986,
+     -3.19475
+    ],
+    [
+     55.95039,
+     -3.19604
+    ],
+    [
+     55.95039,
+     -3.19762
+    ],
+    [
+     55.94986,
+     -3.19891
+    ],
+    [
+     55.94901,
+     -3.1994
+    ],
+    [
+     55.94816,
+     -3.19891
+    ],
+    [
+     55.94763,
+     -3.19762
+    ],
+    [
+     55.94763,
+     -3.19604
+    ],
+    [
+     55.94816,
+     -3.19475
+    ]
+   ],
+   "from": -950,
+   "to": -500,
+   "density": 0.35,
+   "grow_from": [
+    55.94901,
+    -3.19683
+   ],
+   "fade": [
+    1090,
+    1140,
+    0.0
+   ]
+  },
+  {
+   "name": "Hill fort settlement, Arthur's Seat (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     55.946,
+     -3.15347
+    ],
+    [
+     55.94717,
+     -3.15414
+    ],
+    [
+     55.94789,
+     -3.15591
+    ],
+    [
+     55.94789,
+     -3.15809
+    ],
+    [
+     55.94717,
+     -3.15986
+    ],
+    [
+     55.946,
+     -3.16053
+    ],
+    [
+     55.94483,
+     -3.15986
+    ],
+    [
+     55.94411,
+     -3.15809
+    ],
+    [
+     55.94411,
+     -3.15591
+    ],
+    [
+     55.94483,
+     -3.15414
+    ]
+   ],
+   "from": -450,
+   "to": -100,
+   "density": 0.3,
+   "grow_from": [
+    55.946,
+    -3.157
+   ],
+   "fade": [
+    700,
+    900,
+    0.0
+   ]
+  },
+  {
+   "name": "Burgh on the ridge (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     55.94974,
+     -3.19749
+    ],
+    [
+     55.95008,
+     -3.19438
+    ],
+    [
+     55.95056,
+     -3.19182
+    ],
+    [
+     55.95082,
+     -3.18834
+    ],
+    [
+     55.95147,
+     -3.18477
+    ],
+    [
+     55.94983,
+     -3.18383
+    ],
+    [
+     55.94914,
+     -3.18766
+    ],
+    [
+     55.94888,
+     -3.19118
+    ],
+    [
+     55.94842,
+     -3.19362
+    ],
+    [
+     55.94806,
+     -3.19691
+    ]
+   ],
+   "from": 1094,
+   "to": 1440,
+   "density": 0.75,
+   "grow_from": [
+    55.94947,
+    -3.1915
+   ],
+   "grain_m": 50
+  },
+  {
+   "name": "Canongate (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     55.95139,
+     -3.18464
+    ],
+    [
+     55.95194,
+     -3.18087
+    ],
+    [
+     55.95253,
+     -3.17742
+    ],
+    [
+     55.95308,
+     -3.17465
+    ],
+    [
+     55.95162,
+     -3.17375
+    ],
+    [
+     55.95107,
+     -3.17658
+    ],
+    [
+     55.95046,
+     -3.18013
+    ],
+    [
+     55.94991,
+     -3.18396
+    ]
+   ],
+   "from": 1128,
+   "to": 1500,
+   "density": 0.6,
+   "grow_from": [
+    55.95065,
+    -3.1843
+   ],
+   "grain_m": 55
+  },
+  {
+   "name": "Leith harbour town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     55.9749,
+     -3.1634
+    ],
+    [
+     55.97662,
+     -3.16422
+    ],
+    [
+     55.97788,
+     -3.16645
+    ],
+    [
+     55.97834,
+     -3.1695
+    ],
+    [
+     55.97788,
+     -3.17255
+    ],
+    [
+     55.97662,
+     -3.17478
+    ],
+    [
+     55.9749,
+     -3.1756
+    ],
+    [
+     55.97318,
+     -3.17478
+    ],
+    [
+     55.97192,
+     -3.17255
+    ],
+    [
+     55.97146,
+     -3.1695
+    ],
+    [
+     55.97192,
+     -3.16645
+    ],
+    [
+     55.97318,
+     -3.16422
+    ]
+   ],
+   "from": 1200,
+   "to": 1550,
+   "density": 0.6,
+   "grow_from": [
+    55.9764,
+    -3.17
+   ],
+   "grain_m": 55
+  },
+  {
+   "name": "Cowgate and Grassmarket (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     55.94784,
+     -3.19859
+    ],
+    [
+     55.94808,
+     -3.19367
+    ],
+    [
+     55.94872,
+     -3.18976
+    ],
+    [
+     55.94932,
+     -3.18578
+    ],
+    [
+     55.94981,
+     -3.18332
+    ],
+    [
+     55.94879,
+     -3.18268
+    ],
+    [
+     55.94828,
+     -3.18522
+    ],
+    [
+     55.94768,
+     -3.18924
+    ],
+    [
+     55.94702,
+     -3.19333
+    ],
+    [
+     55.94676,
+     -3.19841
+    ]
+   ],
+   "from": 1450,
+   "to": 1560,
+   "density": 0.75,
+   "grow_from": [
+    55.948,
+    -3.19
+   ],
+   "grain_m": 50
+  },
+  {
+   "name": "Old Town tenements (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     55.948,
+     -3.199
+    ],
+    [
+     55.9475,
+     -3.19798
+    ],
+    [
+     55.9469,
+     -3.1985
+    ],
+    [
+     55.94622,
+     -3.19698
+    ],
+    [
+     55.9466,
+     -3.19332
+    ],
+    [
+     55.94643,
+     -3.19111
+    ],
+    [
+     55.9466,
+     -3.188
+    ],
+    [
+     55.94841,
+     -3.18236
+    ],
+    [
+     55.9496,
+     -3.1825
+    ],
+    [
+     55.95065,
+     -3.1842
+    ],
+    [
+     55.9515,
+     -3.1838
+    ],
+    [
+     55.9515,
+     -3.1885
+    ],
+    [
+     55.9509,
+     -3.193
+    ],
+    [
+     55.9502,
+     -3.1975
+    ],
+    [
+     55.9496,
+     -3.1995
+    ]
+   ],
+   "from": 1560,
+   "to": 1750,
+   "density": 0.8,
+   "grow_from": [
+    55.94947,
+    -3.1915
+   ],
+   "grain_m": 50,
+   "holes": [
+    [
+     [
+      55.94861,
+      -3.19778
+     ],
+     [
+      55.94936,
+      -3.19808
+     ],
+     [
+      55.94995,
+      -3.19893
+     ],
+     [
+      55.95029,
+      -3.20015
+     ],
+     [
+      55.95029,
+      -3.20151
+     ],
+     [
+      55.94995,
+      -3.20273
+     ],
+     [
+      55.94936,
+      -3.20358
+     ],
+     [
+      55.94861,
+      -3.20388
+     ],
+     [
+      55.94786,
+      -3.20358
+     ],
+     [
+      55.94727,
+      -3.20273
+     ],
+     [
+      55.94693,
+      -3.20151
+     ],
+     [
+      55.94693,
+      -3.20015
+     ],
+     [
+      55.94727,
+      -3.19893
+     ],
+     [
+      55.94786,
+      -3.19808
+     ]
+    ],
+    [
+     [
+      55.9499,
+      -3.2055
+     ],
+     [
+      55.9512,
+      -3.2062
+     ],
+     [
+      55.952,
+      -3.199
+     ],
+     [
+      55.9526,
+      -3.19
+     ],
+     [
+      55.9518,
+      -3.1885
+     ],
+     [
+      55.9509,
+      -3.1905
+     ],
+     [
+      55.9503,
+      -3.199
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Southside (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.9464,
+     -3.197
+    ],
+    [
+     55.9464,
+     -3.182
+    ],
+    [
+     55.9484,
+     -3.181
+    ],
+    [
+     55.946,
+     -3.178
+    ],
+    [
+     55.9433,
+     -3.1795
+    ],
+    [
+     55.943,
+     -3.1975
+    ]
+   ],
+   "from": 1760,
+   "to": 1830,
+   "density": 0.65,
+   "grow_from": [
+    55.946,
+    -3.188
+   ],
+   "grain_m": 55
+  },
+  {
+   "name": "Leith (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.979,
+     -3.195
+    ],
+    [
+     55.9795,
+     -3.155
+    ],
+    [
+     55.97,
+     -3.15
+    ],
+    [
+     55.964,
+     -3.165
+    ],
+    [
+     55.965,
+     -3.185
+    ]
+   ],
+   "from": 1700,
+   "to": 1840,
+   "density": 0.6,
+   "grow_from": [
+    55.9764,
+    -3.17
+   ],
+   "grain_m": 60,
+   "holes": [
+    [
+     [
+      55.9749,
+      -3.1634
+     ],
+     [
+      55.97662,
+      -3.16422
+     ],
+     [
+      55.97788,
+      -3.16645
+     ],
+     [
+      55.97834,
+      -3.1695
+     ],
+     [
+      55.97788,
+      -3.17255
+     ],
+     [
+      55.97662,
+      -3.17478
+     ],
+     [
+      55.9749,
+      -3.1756
+     ],
+     [
+      55.97318,
+      -3.17478
+     ],
+     [
+      55.97192,
+      -3.17255
+     ],
+     [
+      55.97146,
+      -3.1695
+     ],
+     [
+      55.97192,
+      -3.16645
+     ],
+     [
+      55.97318,
+      -3.16422
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "First New Town (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.9504,
+     -3.2075
+    ],
+    [
+     55.9533,
+     -3.1905
+    ],
+    [
+     55.9572,
+     -3.1923
+    ],
+    [
+     55.9544,
+     -3.209
+    ]
+   ],
+   "from": 1767,
+   "to": 1820,
+   "density": 0.85,
+   "grow_from": [
+    55.9545,
+    -3.193
+   ],
+   "grain_m": 50,
+   "grid_deg": 20
+  },
+  {
+   "name": "Second New Town (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.9548,
+     -3.205
+    ],
+    [
+     55.9572,
+     -3.1923
+    ],
+    [
+     55.9615,
+     -3.1935
+    ],
+    [
+     55.9598,
+     -3.2065
+    ]
+   ],
+   "from": 1800,
+   "to": 1830,
+   "density": 0.8,
+   "grow_from": [
+    55.957,
+    -3.197
+   ],
+   "grain_m": 52,
+   "grid_deg": 20
+  },
+  {
+   "name": "West End (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.9485,
+     -3.219
+    ],
+    [
+     55.9504,
+     -3.2075
+    ],
+    [
+     55.9544,
+     -3.209
+    ],
+    [
+     55.9552,
+     -3.2135
+    ],
+    [
+     55.951,
+     -3.222
+    ]
+   ],
+   "from": 1805,
+   "to": 1850,
+   "density": 0.7,
+   "grow_from": [
+    55.9504,
+    -3.2075
+   ],
+   "grain_m": 55,
+   "grid_deg": 20
+  },
+  {
+   "name": "Calton terraces (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.955,
+     -3.1865
+    ],
+    [
+     55.957,
+     -3.181
+    ],
+    [
+     55.957,
+     -3.174
+    ],
+    [
+     55.9556,
+     -3.1755
+    ],
+    [
+     55.9542,
+     -3.182
+    ]
+   ],
+   "from": 1819,
+   "to": 1835,
+   "density": 0.6,
+   "grow_from": [
+    55.9555,
+    -3.182
+   ],
+   "grain_m": 55
+  },
+  {
+   "name": "Moray estate (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     55.9544,
+     -3.209
+    ],
+    [
+     55.956,
+     -3.207
+    ],
+    [
+     55.957,
+     -3.2125
+    ],
+    [
+     55.9552,
+     -3.2135
+    ]
+   ],
+   "from": 1822,
+   "to": 1835,
+   "density": 0.8,
+   "grow_from": [
+    55.9555,
+    -3.209
+   ],
+   "grain_m": 50
+  },
+  {
+   "name": "Victorian tenements and villas (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     55.932,
+     -3.23
+    ],
+    [
+     55.932,
+     -3.178
+    ],
+    [
+     55.94,
+     -3.176
+    ],
+    [
+     55.953,
+     -3.16
+    ],
+    [
+     55.962,
+     -3.152
+    ],
+    [
+     55.972,
+     -3.146
+    ],
+    [
+     55.979,
+     -3.205
+    ],
+    [
+     55.965,
+     -3.235
+    ],
+    [
+     55.945,
+     -3.24
+    ]
+   ],
+   "from": 1840,
+   "to": 1914,
+   "density": 0.8,
+   "grow_from": [
+    55.9498,
+    -3.19
+   ],
+   "grain_m": 62,
+   "holes": [
+    [
+     [
+      55.948,
+      -3.199
+     ],
+     [
+      55.9475,
+      -3.19798
+     ],
+     [
+      55.9469,
+      -3.1985
+     ],
+     [
+      55.94622,
+      -3.19698
+     ],
+     [
+      55.9466,
+      -3.19332
+     ],
+     [
+      55.94643,
+      -3.19111
+     ],
+     [
+      55.9466,
+      -3.188
+     ],
+     [
+      55.94841,
+      -3.18236
+     ],
+     [
+      55.9496,
+      -3.1825
+     ],
+     [
+      55.95065,
+      -3.1842
+     ],
+     [
+      55.9515,
+      -3.1838
+     ],
+     [
+      55.9515,
+      -3.1885
+     ],
+     [
+      55.9509,
+      -3.193
+     ],
+     [
+      55.9502,
+      -3.1975
+     ],
+     [
+      55.9496,
+      -3.1995
+     ]
+    ],
+    [
+     [
+      55.95139,
+      -3.18464
+     ],
+     [
+      55.95194,
+      -3.18087
+     ],
+     [
+      55.95253,
+      -3.17742
+     ],
+     [
+      55.95308,
+      -3.17465
+     ],
+     [
+      55.95162,
+      -3.17375
+     ],
+     [
+      55.95107,
+      -3.17658
+     ],
+     [
+      55.95046,
+      -3.18013
+     ],
+     [
+      55.94991,
+      -3.18396
+     ]
+    ],
+    [
+     [
+      55.9504,
+      -3.2075
+     ],
+     [
+      55.9533,
+      -3.1905
+     ],
+     [
+      55.9572,
+      -3.1923
+     ],
+     [
+      55.9544,
+      -3.209
+     ]
+    ],
+    [
+     [
+      55.9548,
+      -3.205
+     ],
+     [
+      55.9572,
+      -3.1923
+     ],
+     [
+      55.9615,
+      -3.1935
+     ],
+     [
+      55.9598,
+      -3.2065
+     ]
+    ],
+    [
+     [
+      55.9544,
+      -3.209
+     ],
+     [
+      55.956,
+      -3.207
+     ],
+     [
+      55.957,
+      -3.2125
+     ],
+     [
+      55.9552,
+      -3.2135
+     ]
+    ],
+    [
+     [
+      55.9485,
+      -3.219
+     ],
+     [
+      55.9504,
+      -3.2075
+     ],
+     [
+      55.9544,
+      -3.209
+     ],
+     [
+      55.9552,
+      -3.2135
+     ],
+     [
+      55.951,
+      -3.222
+     ]
+    ],
+    [
+     [
+      55.955,
+      -3.1865
+     ],
+     [
+      55.957,
+      -3.181
+     ],
+     [
+      55.957,
+      -3.174
+     ],
+     [
+      55.9556,
+      -3.1755
+     ],
+     [
+      55.9542,
+      -3.182
+     ]
+    ],
+    [
+     [
+      55.9538,
+      -3.1845
+     ],
+     [
+      55.9556,
+      -3.185
+     ],
+     [
+      55.9562,
+      -3.1805
+     ],
+     [
+      55.9548,
+      -3.178
+     ],
+     [
+      55.9536,
+      -3.181
+     ]
+    ],
+    [
+     [
+      55.9518,
+      -3.1715
+     ],
+     [
+      55.9508,
+      -3.162
+     ],
+     [
+      55.945,
+      -3.149
+     ],
+     [
+      55.938,
+      -3.153
+     ],
+     [
+      55.936,
+      -3.165
+     ],
+     [
+      55.94,
+      -3.172
+     ],
+     [
+      55.946,
+      -3.1755
+     ],
+     [
+      55.95,
+      -3.174
+     ]
+    ],
+    [
+     [
+      55.943,
+      -3.2
+     ],
+     [
+      55.943,
+      -3.183
+     ],
+     [
+      55.9395,
+      -3.184
+     ],
+     [
+      55.939,
+      -3.199
+     ]
+    ],
+    [
+     [
+      55.9499,
+      -3.2055
+     ],
+     [
+      55.9512,
+      -3.2062
+     ],
+     [
+      55.952,
+      -3.199
+     ],
+     [
+      55.9526,
+      -3.19
+     ],
+     [
+      55.9518,
+      -3.1885
+     ],
+     [
+      55.9509,
+      -3.1905
+     ],
+     [
+      55.9503,
+      -3.199
+     ]
+    ],
+    [
+     [
+      55.9464,
+      -3.197
+     ],
+     [
+      55.9464,
+      -3.182
+     ],
+     [
+      55.9484,
+      -3.181
+     ],
+     [
+      55.946,
+      -3.178
+     ],
+     [
+      55.9433,
+      -3.1795
+     ],
+     [
+      55.943,
+      -3.1975
+     ]
+    ],
+    [
+     [
+      55.979,
+      -3.195
+     ],
+     [
+      55.9795,
+      -3.155
+     ],
+     [
+      55.97,
+      -3.15
+     ],
+     [
+      55.964,
+      -3.165
+     ],
+     [
+      55.965,
+      -3.185
+     ]
+    ],
+    [
+     [
+      55.94861,
+      -3.19778
+     ],
+     [
+      55.94936,
+      -3.19808
+     ],
+     [
+      55.94995,
+      -3.19893
+     ],
+     [
+      55.95029,
+      -3.20015
+     ],
+     [
+      55.95029,
+      -3.20151
+     ],
+     [
+      55.94995,
+      -3.20273
+     ],
+     [
+      55.94936,
+      -3.20358
+     ],
+     [
+      55.94861,
+      -3.20388
+     ],
+     [
+      55.94786,
+      -3.20358
+     ],
+     [
+      55.94727,
+      -3.20273
+     ],
+     [
+      55.94693,
+      -3.20151
+     ],
+     [
+      55.94693,
+      -3.20015
+     ],
+     [
+      55.94727,
+      -3.19893
+     ],
+     [
+      55.94786,
+      -3.19808
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Leith docks quarter (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     55.977,
+     -3.18
+    ],
+    [
+     55.98,
+     -3.165
+    ],
+    [
+     55.977,
+     -3.155
+    ],
+    [
+     55.973,
+     -3.162
+    ]
+   ],
+   "from": 1850,
+   "to": 1910,
+   "density": 0.45,
+   "grow_from": [
+    55.976,
+    -3.168
+   ],
+   "grain_m": 100
+  },
+  {
+   "name": "20th-century suburbs (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     55.89,
+     -3.33
+    ],
+    [
+     55.885,
+     -3.12
+    ],
+    [
+     55.92,
+     -3.08
+    ],
+    [
+     55.95,
+     -3.09
+    ],
+    [
+     55.975,
+     -3.13
+    ],
+    [
+     55.982,
+     -3.23
+    ],
+    [
+     55.97,
+     -3.3
+    ],
+    [
+     55.94,
+     -3.34
+    ]
+   ],
+   "from": 1920,
+   "to": 1975,
+   "density": 0.55,
+   "grow_from": [
+    55.9498,
+    -3.19
+   ],
+   "grain_m": 130,
+   "holes": [
+    [
+     [
+      55.932,
+      -3.23
+     ],
+     [
+      55.932,
+      -3.178
+     ],
+     [
+      55.94,
+      -3.176
+     ],
+     [
+      55.953,
+      -3.16
+     ],
+     [
+      55.962,
+      -3.152
+     ],
+     [
+      55.972,
+      -3.146
+     ],
+     [
+      55.979,
+      -3.205
+     ],
+     [
+      55.965,
+      -3.235
+     ],
+     [
+      55.945,
+      -3.24
+     ]
+    ],
+    [
+     [
+      55.9518,
+      -3.1715
+     ],
+     [
+      55.9508,
+      -3.162
+     ],
+     [
+      55.945,
+      -3.149
+     ],
+     [
+      55.938,
+      -3.153
+     ],
+     [
+      55.936,
+      -3.165
+     ],
+     [
+      55.94,
+      -3.172
+     ],
+     [
+      55.946,
+      -3.1755
+     ],
+     [
+      55.95,
+      -3.174
+     ]
+    ],
+    [
+     [
+      55.979,
+      -3.195
+     ],
+     [
+      55.9795,
+      -3.155
+     ],
+     [
+      55.97,
+      -3.15
+     ],
+     [
+      55.964,
+      -3.165
+     ],
+     [
+      55.965,
+      -3.185
+     ]
+    ]
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "King's Wall (≈)",
+   "path": [
+    [
+     55.9484,
+     -3.1972
+    ],
+    [
+     55.9486,
+     -3.193
+    ],
+    [
+     55.9488,
+     -3.189
+    ],
+    [
+     55.9496,
+     -3.186
+    ],
+    [
+     55.95021,
+     -3.18455
+    ],
+    [
+     55.9511,
+     -3.1847
+    ]
+   ],
+   "built": 1450,
+   "removed": 1560,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3
+  },
+  {
+   "name": "Flodden Wall (≈ between sourced points)",
+   "path": [
+    [
+     55.948,
+     -3.199
+    ],
+    [
+     55.9475,
+     -3.19798
+    ],
+    [
+     55.9469,
+     -3.1985
+    ],
+    [
+     55.94622,
+     -3.19698
+    ],
+    [
+     55.9466,
+     -3.19332
+    ],
+    [
+     55.94643,
+     -3.19111
+    ],
+    [
+     55.9466,
+     -3.188
+    ],
+    [
+     55.94841,
+     -3.18236
+    ],
+    [
+     55.9496,
+     -3.1825
+    ],
+    [
+     55.95065,
+     -3.1842
+    ],
+    [
+     55.9515,
+     -3.1838
+    ],
+    [
+     55.9515,
+     -3.1885
+    ]
+   ],
+   "built": 1514,
+   "removed": 1785,
+   "height": "mid",
+   "towers_m": 120,
+   "draw_s": 5
+  },
+  {
+   "name": "Leith fortifications (≈ shape)",
+   "path": [
+    [
+     55.9744,
+     -3.16066
+    ],
+    [
+     55.97742,
+     -3.16261
+    ],
+    [
+     55.97903,
+     -3.16755
+    ],
+    [
+     55.97847,
+     -3.17317
+    ],
+    [
+     55.97601,
+     -3.17684
+    ],
+    [
+     55.97279,
+     -3.17684
+    ],
+    [
+     55.97033,
+     -3.17317
+    ],
+    [
+     55.96977,
+     -3.16755
+    ],
+    [
+     55.97138,
+     -3.16261
+    ],
+    [
+     55.9744,
+     -3.16066
+    ]
+   ],
+   "built": 1548,
+   "removed": 1561,
+   "height": "mid",
+   "towers_m": 140,
+   "draw_s": 4
+  },
+  {
+   "name": "Telfer Wall (≈)",
+   "path": [
+    [
+     55.94622,
+     -3.19698
+    ],
+    [
+     55.94571,
+     -3.19602
+    ],
+    [
+     55.9452,
+     -3.1945
+    ],
+    [
+     55.94531,
+     -3.19191
+    ],
+    [
+     55.9453,
+     -3.189
+    ],
+    [
+     55.9464,
+     -3.1885
+    ]
+   ],
+   "built": 1628,
+   "removed": 1762,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3
+  }
+ ],
+ "bridges": [
+  {
+   "name": "North Bridge (first)",
+   "path": [
+    [
+     55.9505,
+     -3.1871
+    ],
+    [
+     55.9532,
+     -3.1896
+    ]
+   ],
+   "built": 1772,
+   "removed": 1896,
+   "style": "stone",
+   "width_m": 16
+  },
+  {
+   "name": "North Bridge (1897)",
+   "path": [
+    [
+     55.9505,
+     -3.1871
+    ],
+    [
+     55.9532,
+     -3.1896
+    ]
+   ],
+   "built": 1897,
+   "style": "iron",
+   "width_m": 23
+  },
+  {
+   "name": "South Bridge",
+   "path": [
+    [
+     55.9493,
+     -3.1872
+    ],
+    [
+     55.9482,
+     -3.1865
+    ]
+   ],
+   "built": 1788,
+   "style": "stone",
+   "width_m": 16
+  }
+ ],
+ "roads": [
+  {
+   "name": "Royal Mile (≈)",
+   "path": [
+    [
+     55.9489,
+     -3.1972
+    ],
+    [
+     55.94925,
+     -3.194
+    ],
+    [
+     55.94972,
+     -3.1915
+    ],
+    [
+     55.94998,
+     -3.188
+    ],
+    [
+     55.95065,
+     -3.1843
+    ],
+    [
+     55.9512,
+     -3.1805
+    ],
+    [
+     55.9518,
+     -3.177
+    ],
+    [
+     55.95235,
+     -3.1742
+    ]
+   ],
+   "from": 1094,
+   "kind": "road",
+   "width_m": 14,
+   "draw_s": 3
+  },
+  {
+   "name": "Leith Walk (≈)",
+   "path": [
+    [
+     55.9558,
+     -3.186
+    ],
+    [
+     55.961,
+     -3.1805
+    ],
+    [
+     55.967,
+     -3.176
+    ],
+    [
+     55.9715,
+     -3.173
+    ]
+   ],
+   "from": 1650,
+   "kind": "road",
+   "width_m": 16,
+   "draw_s": 3
+  },
+  {
+   "name": "Princes Street (≈)",
+   "path": [
+    [
+     55.9498,
+     -3.209
+    ],
+    [
+     55.9534,
+     -3.1895
+    ]
+   ],
+   "from": 1767,
+   "kind": "avenue",
+   "width_m": 26,
+   "draw_s": 3
+  },
+  {
+   "name": "George Street (≈)",
+   "path": [
+    [
+     55.9519,
+     -3.2085
+    ],
+    [
+     55.955,
+     -3.1925
+    ]
+   ],
+   "from": 1767,
+   "kind": "avenue",
+   "width_m": 26
+  },
+  {
+   "name": "The Mound (≈)",
+   "path": [
+    [
+     55.9527,
+     -3.1965
+    ],
+    [
+     55.9502,
+     -3.195
+    ]
+   ],
+   "from": 1790,
+   "kind": "road",
+   "width_m": 20
+  },
+  {
+   "name": "Railway west (≈)",
+   "path": [
+    [
+     55.9458,
+     -3.2185
+    ],
+    [
+     55.9495,
+     -3.209
+    ],
+    [
+     55.951,
+     -3.2
+    ],
+    [
+     55.952,
+     -3.191
+    ]
+   ],
+   "from": 1846.5,
+   "kind": "rail",
+   "width_m": 22
+  },
+  {
+   "name": "Railway east (≈)",
+   "path": [
+    [
+     55.9522,
+     -3.187
+    ],
+    [
+     55.9542,
+     -3.179
+    ],
+    [
+     55.956,
+     -3.165
+    ],
+    [
+     55.954,
+     -3.14
+    ]
+   ],
+   "from": 1846.5,
+   "kind": "rail",
+   "width_m": 22
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "fort",
+   "name": {
+    "en": "Din Eidyn hill fort (≈)",
+    "tr": "Din Eidyn tepe kalesi (≈)"
+   },
+   "at": [
+    55.94861,
+    -3.20083
+   ],
+   "built": 500,
+   "removed": 1058,
+   "rise_s": 6,
+   "size_m": [
+    140,
+    80,
+    4
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#8a7a60"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Edinburgh Castle",
+    "tr": "Edinburgh Kalesi"
+   },
+   "at": [
+    55.94861,
+    -3.20083
+   ],
+   "built": 1058,
+   "rise_s": 10,
+   "size_m": [
+    200,
+    100,
+    22
+   ],
+   "rot_deg": 10,
+   "colors": {
+    "wall": "#9c958a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "St Margaret's Chapel",
+    "tr": "Aziz Margaret Şapeli"
+   },
+   "at": [
+    55.948710000000005,
+    -3.20113
+   ],
+   "built": 1130,
+   "rise_s": 6,
+   "size_m": [
+    16,
+    7,
+    8
+   ],
+   "scale": 1.6,
+   "colors": {
+    "wall": "#9c958a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "David's Tower (≈ position)",
+    "tr": "David Kulesi (≈ konum)"
+   },
+   "at": [
+    55.94851,
+    -3.20003
+   ],
+   "built": 1367,
+   "removed": 1572,
+   "rise_s": 6,
+   "size_m": [
+    16,
+    16,
+    30
+   ],
+   "colors": {
+    "wall": "#9c958a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "St Giles'",
+    "tr": "St Giles"
+   },
+   "at": [
+    55.94947,
+    -3.1915
+   ],
+   "built": 1124,
+   "rise_s": 10,
+   "size_m": [
+    60,
+    35,
+    20
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#8f8a80",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "St Giles' crown spire",
+    "tr": "St Giles taç kulesi"
+   },
+   "at": [
+    55.94947,
+    -3.1914
+   ],
+   "built": 1495,
+   "rise_s": 6,
+   "size_m": [
+    10,
+    10,
+    49
+   ],
+   "colors": {
+    "wall": "#8f8a80",
+    "roof": "#8f8a80"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Holyrood Abbey",
+    "tr": "Holyrood Manastırı"
+   },
+   "at": [
+    55.95285,
+    -3.1722
+   ],
+   "built": 1128,
+   "removed": 1768.92,
+   "rise_s": 12,
+   "size_m": [
+    80,
+    25,
+    20
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#a8998a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Palace of Holyroodhouse",
+    "tr": "Holyroodhouse Sarayı"
+   },
+   "at": [
+    55.9525,
+    -3.1725
+   ],
+   "built": 1498,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    70,
+    18
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#b3a998",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Netherbow Port",
+    "tr": "Netherbow Kapısı"
+   },
+   "at": [
+    55.95065,
+    -3.1843
+   ],
+   "built": 1514,
+   "removed": 1764,
+   "rise_s": 4,
+   "size_m": [
+    14,
+    10,
+    18
+   ],
+   "colors": {
+    "wall": "#9c958a",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Old College",
+    "tr": "Eski Kolej"
+   },
+   "at": [
+    55.9474,
+    -3.1873
+   ],
+   "built": 1789.85,
+   "rise_s": 20,
+   "size_m": [
+    110,
+    80,
+    20
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#b8ad96",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Nelson Monument",
+    "tr": "Nelson Anıtı"
+   },
+   "at": [
+    55.95433,
+    -3.18258
+   ],
+   "built": 1807,
+   "rise_s": 8,
+   "size_m": [
+    12,
+    12,
+    32
+   ],
+   "scale": 1.5,
+   "colors": {
+    "wall": "#b8ad96",
+    "roof": "#b8ad96"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "National Monument (≈ position)",
+    "tr": "Ulusal Anıt (≈ konum)"
+   },
+   "at": [
+    55.9551,
+    -3.1817
+   ],
+   "built": 1826,
+   "rise_s": 8,
+   "size_m": [
+    70,
+    20,
+    13
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#c8bfa8",
+    "roof": "#c8bfa8"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "Scott Monument",
+    "tr": "Scott Anıtı"
+   },
+   "at": [
+    55.95238,
+    -3.19326
+   ],
+   "built": 1840.62,
+   "rise_s": 10,
+   "size_m": [
+    16,
+    16,
+    61
+   ],
+   "colors": {
+    "wall": "#6e665c",
+    "roof": "#6e665c"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "North Bridge station",
+    "tr": "Kuzey Köprüsü istasyonu"
+   },
+   "at": [
+    55.9521,
+    -3.1885
+   ],
+   "built": 1846.47,
+   "removed": 1866,
+   "rise_s": 6,
+   "size_m": [
+    140,
+    50,
+    10
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#a49a88",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Waverley station",
+    "tr": "Waverley istasyonu"
+   },
+   "at": [
+    55.9521,
+    -3.1893
+   ],
+   "built": 1866,
+   "removed": 1892,
+   "rise_s": 8,
+   "size_m": [
+    260,
+    90,
+    12
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#a49a88",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Waverley station (1890s)",
+    "tr": "Waverley istasyonu (1890'lar)"
+   },
+   "at": [
+    55.9521,
+    -3.1893
+   ],
+   "built": 1892,
+   "rise_s": 20,
+   "size_m": [
+    380,
+    150,
+    14
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#a49a88",
+    "roof": "#7d8a8f"
+   }
+  },
+  {
+   "type": "harbor",
+   "name": {
+    "en": "Leith harbour (≈)",
+    "tr": "Leith limanı (≈)"
+   },
+   "at": [
+    55.9764,
+    -3.17
+   ],
+   "built": 1329,
+   "rise_s": 6,
+   "size_m": [
+    120,
+    60,
+    6
+   ],
+   "colors": {
+    "wall": "#8a7a60"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Scottish Parliament",
+    "tr": "İskoç Parlamentosu"
+   },
+   "at": [
+    55.9522,
+    -3.1747
+   ],
+   "built": 1999.45,
+   "rise_s": 20,
+   "size_m": [
+    190,
+    110,
+    16
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#c9c2b2",
+    "roof": "#6d7a70"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1824.875,
+   "poly": [
+    [
+     55.9492,
+     -3.191
+    ],
+    [
+     55.95,
+     -3.1887
+    ],
+    [
+     55.9495,
+     -3.1883
+    ],
+    [
+     55.94875,
+     -3.1906
+    ]
+   ],
+   "duration_s": 7,
+   "plumes": 5
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     55.9665,
+     -3.187
+    ],
+    [
+     55.969,
+     -3.188
+    ],
+    [
+     55.97,
+     -3.173
+    ],
+    [
+     55.9675,
+     -3.172
+    ]
+   ],
+   "from": 1560.2,
+   "to": 1560.5,
+   "count": 160
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    55.94861,
+    -3.2003299999999997
+   ],
+   "from": 1296.1,
+   "to": 1296.3,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    55.94947,
+    -3.1915
+   ],
+   "from": 1385.1,
+   "to": 1385.8,
+   "scale": 0.9
+  },
+  {
+   "at": [
+    55.974399999999996,
+    -3.17
+   ],
+   "from": 1560.2,
+   "to": 1560.5,
+   "scale": 1.2
+  },
+  {
+   "at": [
+    55.94861,
+    -3.2003299999999997
+   ],
+   "from": 1571.3,
+   "to": 1573.4,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    55.9525,
+    -3.1725
+   ],
+   "from": 1650.85,
+   "to": 1650.95,
+   "scale": 1.0
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Castle Rock",
+   "poly": [
+    [
+     55.94861,
+     -3.19778
+    ],
+    [
+     55.94936,
+     -3.19808
+    ],
+    [
+     55.94995,
+     -3.19893
+    ],
+    [
+     55.95029,
+     -3.20015
+    ],
+    [
+     55.95029,
+     -3.20151
+    ],
+    [
+     55.94995,
+     -3.20273
+    ],
+    [
+     55.94936,
+     -3.20358
+    ],
+    [
+     55.94861,
+     -3.20388
+    ],
+    [
+     55.94786,
+     -3.20358
+    ],
+    [
+     55.94727,
+     -3.20273
+    ],
+    [
+     55.94693,
+     -3.20151
+    ],
+    [
+     55.94693,
+     -3.20015
+    ],
+    [
+     55.94727,
+     -3.19893
+    ],
+    [
+     55.94786,
+     -3.19808
+    ]
+   ]
+  },
+  {
+   "name": "Holyrood Park (≈)",
+   "poly": [
+    [
+     55.9518,
+     -3.1715
+    ],
+    [
+     55.9508,
+     -3.162
+    ],
+    [
+     55.945,
+     -3.149
+    ],
+    [
+     55.938,
+     -3.153
+    ],
+    [
+     55.936,
+     -3.165
+    ],
+    [
+     55.94,
+     -3.172
+    ],
+    [
+     55.946,
+     -3.1755
+    ],
+    [
+     55.95,
+     -3.174
+    ]
+   ]
+  },
+  {
+   "name": "Calton Hill (≈)",
+   "poly": [
+    [
+     55.9538,
+     -3.1845
+    ],
+    [
+     55.9556,
+     -3.185
+    ],
+    [
+     55.9562,
+     -3.1805
+    ],
+    [
+     55.9548,
+     -3.178
+    ],
+    [
+     55.9536,
+     -3.181
+    ]
+   ]
+  },
+  {
+   "name": "The Meadows (≈)",
+   "poly": [
+    [
+     55.943,
+     -3.2
+    ],
+    [
+     55.943,
+     -3.183
+    ],
+    [
+     55.9395,
+     -3.184
+    ],
+    [
+     55.939,
+     -3.199
+    ]
+   ]
+  },
+  {
+   "name": "Princes Street Gardens (≈, former Nor Loch)",
+   "poly": [
+    [
+     55.9499,
+     -3.2055
+    ],
+    [
+     55.9512,
+     -3.2062
+    ],
+    [
+     55.952,
+     -3.199
+    ],
+    [
+     55.9526,
+     -3.19
+    ],
+    [
+     55.9518,
+     -3.1885
+    ],
+    [
+     55.9509,
+     -3.1905
+    ],
+    [
+     55.9503,
+     -3.199
+    ]
+   ]
+  }
+ ],
+ "timed_water": [
+  {
+   "name": "Nor Loch (≈)",
+   "poly": [
+    [
+     55.9499,
+     -3.2055
+    ],
+    [
+     55.9512,
+     -3.2062
+    ],
+    [
+     55.952,
+     -3.199
+    ],
+    [
+     55.9526,
+     -3.19
+    ],
+    [
+     55.9518,
+     -3.1885
+    ],
+    [
+     55.9509,
+     -3.1905
+    ],
+    [
+     55.9503,
+     -3.199
+    ]
+   ],
+   "from": 1420,
+   "to": 1765
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "FIRTH OF FORTH",
+    "tr": "FORTH KÖRFEZİ"
+   },
+   "at": [
+    55.995,
+    -3.21
+   ],
+   "kind": "water",
+   "from": -1000
+  },
+  {
+   "text": {
+    "en": "Castle Rock",
+    "tr": "Kale Kayası"
+   },
+   "at": [
+    55.94861,
+    -3.20083
+   ],
+   "kind": "place",
+   "from": -1000,
+   "to": -501
+  },
+  {
+   "text": {
+    "en": "Arthur's Seat",
+    "tr": "Arthur's Seat"
+   },
+   "at": [
+    55.94417,
+    -3.16194
+   ],
+   "kind": "place",
+   "from": -500,
+   "to": 499
+  },
+  {
+   "text": {
+    "en": "Din Eidyn",
+    "tr": "Din Eidyn"
+   },
+   "at": [
+    55.94861,
+    -3.20083
+   ],
+   "kind": "place",
+   "from": 500,
+   "to": 853
+  },
+  {
+   "text": {
+    "en": "NORTHUMBRIA",
+    "tr": "NORTHUMBRIA"
+   },
+   "at": [
+    55.935,
+    -3.17
+   ],
+   "kind": "region",
+   "from": 650,
+   "to": 853
+  },
+  {
+   "text": {
+    "en": "St Giles'",
+    "tr": "St Giles"
+   },
+   "at": [
+    55.94947,
+    -3.1915
+   ],
+   "kind": "place",
+   "from": 1094,
+   "to": 1127
+  },
+  {
+   "text": {
+    "en": "Holyrood",
+    "tr": "Holyrood"
+   },
+   "at": [
+    55.95285,
+    -3.1722
+   ],
+   "kind": "place",
+   "from": 1128,
+   "to": 1129.9
+  },
+  {
+   "text": {
+    "en": "Leith",
+    "tr": "Leith"
+   },
+   "at": [
+    55.9764,
+    -3.17
+   ],
+   "kind": "place",
+   "from": 1329,
+   "to": 1366
+  },
+  {
+   "text": {
+    "en": "St Giles'",
+    "tr": "St Giles"
+   },
+   "at": [
+    55.94947,
+    -3.1915
+   ],
+   "from": 1385,
+   "to": 1497.9,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Holyroodhouse",
+    "tr": "Holyroodhouse"
+   },
+   "at": [
+    55.9525,
+    -3.1725
+   ],
+   "kind": "place",
+   "from": 1498,
+   "to": 1512
+  },
+  {
+   "text": {
+    "en": "Leith",
+    "tr": "Leith"
+   },
+   "at": [
+    55.9764,
+    -3.17
+   ],
+   "kind": "place",
+   "from": 1544,
+   "to": 1560.9
+  },
+  {
+   "text": {
+    "en": "OLD TOWN",
+    "tr": "ESKİ ŞEHİR"
+   },
+   "at": [
+    55.948,
+    -3.19
+   ],
+   "kind": "region",
+   "from": 1561,
+   "to": 1570
+  },
+  {
+   "text": {
+    "en": "Greyfriars",
+    "tr": "Greyfriars"
+   },
+   "at": [
+    55.9466,
+    -3.1925
+   ],
+   "kind": "place",
+   "from": 1628,
+   "to": 1644
+  },
+  {
+   "text": {
+    "en": "South Leith",
+    "tr": "Güney Leith"
+   },
+   "at": [
+    55.9734,
+    -3.169
+   ],
+   "kind": "place",
+   "from": 1645,
+   "to": 1649.9
+  },
+  {
+   "text": {
+    "en": "Holyroodhouse",
+    "tr": "Holyroodhouse"
+   },
+   "at": [
+    55.9525,
+    -3.1725
+   ],
+   "kind": "place",
+   "from": 1650,
+   "to": 1706.9
+  },
+  {
+   "text": {
+    "en": "Parliament House",
+    "tr": "Parlamento Binası"
+   },
+   "at": [
+    55.949,
+    -3.1913
+   ],
+   "kind": "place",
+   "from": 1707,
+   "to": 1744.9
+  },
+  {
+   "text": {
+    "en": "LEITH",
+    "tr": "LEITH"
+   },
+   "at": [
+    55.974399999999996,
+    -3.17
+   ],
+   "kind": "region",
+   "from": 1755,
+   "to": 1762.9
+  },
+  {
+   "text": {
+    "en": "Nor Loch",
+    "tr": "Nor Gölü"
+   },
+   "at": [
+    55.9513,
+    -3.197
+   ],
+   "kind": "water",
+   "from": 1755,
+   "to": 1765.9
+  },
+  {
+   "text": {
+    "en": "NEW TOWN",
+    "tr": "YENİ ŞEHİR"
+   },
+   "at": [
+    55.955,
+    -3.199
+   ],
+   "kind": "region",
+   "from": 1766,
+   "to": 1768.8
+  },
+  {
+   "text": {
+    "en": "North Bridge",
+    "tr": "Kuzey Köprüsü"
+   },
+   "at": [
+    55.95187,
+    -3.1884
+   ],
+   "kind": "place",
+   "from": 1769.6,
+   "to": 1772.9
+  },
+  {
+   "text": {
+    "en": "Cowgate",
+    "tr": "Cowgate"
+   },
+   "at": [
+    55.9485,
+    -3.188
+   ],
+   "kind": "place",
+   "from": 1785,
+   "to": 1788.9
+  },
+  {
+   "text": {
+    "en": "Old College",
+    "tr": "Eski Kolej"
+   },
+   "at": [
+    55.9474,
+    -3.1873
+   ],
+   "from": 1789,
+   "to": 1805.9,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Leith Docks",
+    "tr": "Leith Havuzları"
+   },
+   "at": [
+    55.9784,
+    -3.167
+   ],
+   "kind": "place",
+   "from": 1806,
+   "to": 1816.9
+  },
+  {
+   "text": {
+    "en": "Calton Hill",
+    "tr": "Calton Tepesi"
+   },
+   "at": [
+    55.95433,
+    -3.18258
+   ],
+   "kind": "place",
+   "from": 1817,
+   "to": 1823.9
+  },
+  {
+   "text": {
+    "en": "High Street",
+    "tr": "High Street"
+   },
+   "at": [
+    55.9499,
+    -3.1895
+   ],
+   "kind": "place",
+   "from": 1824,
+   "to": 1824.95
+  },
+  {
+   "text": {
+    "en": "NEW TOWN",
+    "tr": "YENİ ŞEHİR"
+   },
+   "at": [
+    55.956,
+    -3.199
+   ],
+   "kind": "region",
+   "from": 1825,
+   "to": 1839.9
+  },
+  {
+   "text": {
+    "en": "Scott Monument",
+    "tr": "Scott Anıtı"
+   },
+   "at": [
+    55.95238,
+    -3.19326
+   ],
+   "from": 1844,
+   "to": 1845.9,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Waverley",
+    "tr": "Waverley"
+   },
+   "at": [
+    55.9521,
+    -3.1893
+   ],
+   "kind": "place",
+   "from": 1866,
+   "to": 1900.9
+  },
+  {
+   "text": {
+    "en": "LEITH",
+    "tr": "LEITH"
+   },
+   "at": [
+    55.9734,
+    -3.17
+   ],
+   "kind": "region",
+   "from": 1920,
+   "to": 1921.9
+  },
+  {
+   "text": {
+    "en": "Arthur's Seat",
+    "tr": "Arthur's Seat"
+   },
+   "at": [
+    55.94417,
+    -3.16194
+   ],
+   "kind": "place",
+   "from": 1951,
+   "to": 1994.9
+  },
+  {
+   "text": {
+    "en": "OLD TOWN",
+    "tr": "ESKİ ŞEHİR"
+   },
+   "at": [
+    55.9485,
+    -3.19
+   ],
+   "kind": "region",
+   "from": 1995,
+   "to": 1998.9
+  },
+  {
+   "text": {
+    "en": "NEW TOWN",
+    "tr": "YENİ ŞEHİR"
+   },
+   "at": [
+    55.9555,
+    -3.199
+   ],
+   "kind": "region",
+   "from": 1995,
+   "to": 1998.9
+  },
+  {
+   "text": {
+    "en": "The Mound",
+    "tr": "The Mound"
+   },
+   "at": [
+    55.9515,
+    -3.1957
+   ],
+   "kind": "place",
+   "from": 1999,
+   "to": 2004.7
+  },
+  {
+   "text": {
+    "en": "Scottish Parliament",
+    "tr": "İskoç Parlamentosu"
+   },
+   "at": [
+    55.9522,
+    -3.1747
+   ],
+   "from": 2004.77,
+   "to": 2022.9,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "LEITH",
+    "tr": "LEITH"
+   },
+   "at": [
+    55.974399999999996,
+    -3.17
+   ],
+   "kind": "region",
+   "from": 2023
+  }
+ ],
+ "youtube": {
+  "description": {
+   "en": "A volcanic rock lived on since about 1000 BC, the Gododdin fort of Din Eidyn, and a royal burgh along one ridge. Watch Edinburgh grow from the Castle Rock to Holyrood: the King's, Flodden and Telfer walls, the sieges of 1296, 1314, 1560 and 1571–73, the draining of the Nor Loch and James Craig's New Town, the North and South Bridges, the Great Fire of 1824, the Scott Monument and Waverley station, Leith's merger in 1920 and the new Scottish Parliament of 2004 — with the year and the population on screen.",
+   "tr": "MÖ ~1000'den beri yaşanan volkanik bir kaya, Gododdin'lerin Din Eidyn kalesi ve tek bir sırt boyunca uzanan bir kraliyet kasabası. Edinburgh'un Kale Kayası'ndan Holyrood'a büyümesini izleyin: Kral, Flodden ve Telfer surları; 1296, 1314, 1560 ve 1571–73 kuşatmaları; Nor Gölü'nün kurutulması ve James Craig'in Yeni Şehri; Kuzey ve Güney köprüleri; 1824 Büyük Yangını; Scott Anıtı ve Waverley istasyonu; 1920'de Leith'in katılması ve 2004'teki yeni İskoç Parlamentosu — yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "edinburgh history",
+   "history of edinburgh",
+   "edinburgh",
+   "edinburgh castle",
+   "royal mile",
+   "new town edinburgh",
+   "scotland history",
+   "3d timelapse",
+   "city evolution",
+   "how edinburgh grew",
+   "edinburgh timelapse",
+   "old town edinburgh",
+   "holyrood",
+   "leith",
+   "urban history"
+  ],
+  "hashtags": [
+   "#Edinburgh",
+   "#Scotland",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "thumb": {
+   "line1": {
+    "en": "Edinburgh",
+    "tr": "Edinburgh"
+   },
+   "line2": {
+    "en": "3,000 YEARS",
+    "tr": "3.000 YIL"
+   },
+   "line3": {
+    "en": "From castle rock to capital",
+    "tr": "Kale kayasından başkente"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=55.9500,-3.1900,5.0"
+  },
+  "title": {
+   "en": "Edinburgh: 3,000 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Edinburgh: 14 Dakikada 3.000 Yıl (3D Timelapse)"
+  }
+ },
+ "sources": [
+  {
+   "title": "Edinburgh: History — Britannica",
+   "url": "https://britannica.com/place/Edinburgh-Scotland/History"
+  },
+  {
+   "title": "Edinburgh Castle — Britannica",
+   "url": "https://www.britannica.com/print/article/179183"
+  },
+  {
+   "title": "Castle beginnings: early history — Edinburgh Castle (Historic Environment Scotland)",
+   "url": "https://blog.edinburghcastle.scot/castle-beginnings-early-history/"
+  },
+  {
+   "title": "Edinburgh Castle — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh_Castle"
+  },
+  {
+   "title": "History of Edinburgh — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/History_of_Edinburgh"
+  },
+  {
+   "title": "Edinburgh town walls — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh_town_walls"
+  },
+  {
+   "title": "Edinburgh Town Wall, Flodden Wall and Telfer Wall (scheduled monument SM2901)",
+   "url": "https://ancientmonuments.uk/122897-edinburgh-town-wall-flodden-wall-and-telfer-wall-heriot-place-city-centre-ward"
+  },
+  {
+   "title": "St Giles' Cathedral: 900 years of history",
+   "url": "https://www.stgilescathedral.org.uk/history"
+  },
+  {
+   "title": "Crown steeple — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Crown_steeple"
+  },
+  {
+   "title": "St Giles' Cathedral — Waymarking (coordinates)",
+   "url": "https://www.waymarking.com/waymarks/wmMCB1_St_Giles_Cathedral_Edinburgh_Scotland"
+  },
+  {
+   "title": "Holyrood Abbey — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Holyrood_Abbey"
+  },
+  {
+   "title": "Who built the Palace of Holyroodhouse? — Royal Collection Trust",
+   "url": "https://www.rct.uk/visit/palace-of-holyroodhouse/who-built-the-palace-of-holyroodhouse"
+  },
+  {
+   "title": "Holyrood Palace — Wikipedia (Kiwix mirror)",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Holyrood_Palace"
+  },
+  {
+   "title": "Leith — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Leith"
+  },
+  {
+   "title": "Leith timeline — Leith Local History Society",
+   "url": "https://leithlocalhistorysociety.org.uk/timeline/timeline.htm"
+  },
+  {
+   "title": "Old Leith Docks: Timeline — Roy Thompson, University of Edinburgh",
+   "url": "https://blogs.ed.ac.uk/roythompson/wp-content/uploads/sites/566/2024/02/OldLeithDocks_Timeline.pdf"
+  },
+  {
+   "title": "The Shore, Leith — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/The_Shore,_Leith"
+  },
+  {
+   "title": "New Town, Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/New_Town,_Edinburgh"
+  },
+  {
+   "title": "North Bridge, Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/North_Bridge,_Edinburgh"
+  },
+  {
+   "title": "South Bridge, Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/South_Bridge,_Edinburgh"
+  },
+  {
+   "title": "Old College, University of Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_College,_University_of_Edinburgh"
+  },
+  {
+   "title": "Nelson Monument, Edinburgh — Wikipedia (Wikiwand)",
+   "url": "https://www.wikiwand.com/en/Nelson_Monument,_Edinburgh"
+  },
+  {
+   "title": "Nelson Monument, Edinburgh — Wikipedia (IPFS copy, coordinates)",
+   "url": "https://ipfs.aleph.im/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Nelson_Monument%2C_Edinburgh.html"
+  },
+  {
+   "title": "National Monument of Scotland — Wikipedia (Wikiwand)",
+   "url": "https://www.wikiwand.com/en/National_Monument,_Edinburgh"
+  },
+  {
+   "title": "Calton Hill — Edinburgh World Heritage",
+   "url": "https://ewh.org.uk/calton-hill/"
+  },
+  {
+   "title": "Great Fire of Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Edinburgh"
+  },
+  {
+   "title": "Scott Monument — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/articles/Scott_Monument"
+  },
+  {
+   "title": "Scott Monument — British Listed Buildings (LB27829)",
+   "url": "https://www.britishlistedbuildings.co.uk/200365167-east-princes-street-gardens-scott-monument-with-retaining-wall-and-steps-edinburgh"
+  },
+  {
+   "title": "Edinburgh Waverley railway station — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Edinburgh_Waverley_railway_station"
+  },
+  {
+   "title": "The history of Edinburgh Waverley station — Network Rail",
+   "url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-edinburgh-waverley-station/"
+  },
+  {
+   "title": "Arthur's Seat — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Arthur%27s_Seat"
+  },
+  {
+   "title": "Scottish Parliament Building — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Scottish_Parliament_Building"
+  },
+  {
+   "title": "Demographics of Edinburgh — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_Edinburgh"
+  },
+  {
+   "title": "Edinburgh history: dates and population — EdinPhoto",
+   "url": "https://edinphoto.org.uk/1_edin/1_edinburgh_history_-_dates_population.htm"
+  },
+  {
+   "title": "Mid-year population estimates for Scotland in 2022 — National Records of Scotland",
+   "url": "https://nrscotland.gov.uk/news/2024/mid-year-population-estimates-for-scotland-in-2022"
+  },
+  {
+   "title": "Edinburgh by Numbers 2025 — City of Edinburgh Council",
+   "url": "https://www.edinburgh.gov.uk/downloads/file/30669/edinburgh-by-numbers-2025"
+  }
+ ]
+}

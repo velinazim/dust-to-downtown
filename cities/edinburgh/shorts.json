@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": -1000, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Edinburgh", "tr": "Edinburgh"}, "line2": {"en": "3,000 years in 50 seconds", "tr": "50 saniyede 3.000 yıl"}},
+   "end": {"line2": {"en": "Edinburgh: 3,000 Years in 14 Minutes", "tr": "Edinburgh: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "Edinburgh: 3,000 Years in 50 Seconds #shorts", "tr": "Edinburgh: 50 Saniyede 3.000 Yıl #shorts"},
+   "description": {"en": "People lived on the Castle Rock by about 1000 BC. Then Din Eidyn, a royal burgh under David I, the Flodden Wall (1514–1560), James Craig's New Town (1767), Leith's merger (1920) and about 530,680 people in mid-2024. The year and the population stay on screen the whole way.",
+                   "tr": "Kale Kayası'nda MÖ ~1000'de insanlar yaşıyordu. Ardından Din Eidyn, I. David döneminde bir kraliyet kasabası, Flodden Suru (1514–1560), James Craig'in Yeni Şehri (1767), Leith'in katılması (1920) ve 2024 ortasında yaklaşık 530.680 kişi. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["edinburgh history", "history of edinburgh", "edinburgh castle", "scotland history", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Edinburgh", "#Scotland", "#History", "#Shorts"]
+  },
+  {
+   "id": "new-town",
+   "from_year": 1755, "to_year": 1846, "seconds": 48,
+   "hook": {"line1": {"en": "Drain the loch", "tr": "Gölü kurut"}, "line2": {"en": "Edinburgh, 1755–1846", "tr": "Edinburgh, 1755–1846"}},
+   "end": {"line2": {"en": "Edinburgh: 3,000 Years in 14 Minutes", "tr": "Edinburgh: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "How Edinburgh Built a New Town in 50 Seconds #shorts", "tr": "Edinburgh 50 Saniyede Yeni Şehrini Nasıl Kurdu #shorts"},
+   "description": {"en": "1755: 57,195 people in Edinburgh and Leith. 1763: the Nor Loch is drained and the North Bridge begun. 1766: James Craig, aged 26, wins the New Town contest. Then the South Bridge (1785–88), the Great Fire of 1824 and the Scott Monument (1840–46).",
+                   "tr": "1755: Edinburgh ve Leith'te 57.195 kişi. 1763: Nor Gölü kurutulur, Kuzey Köprüsü'ne başlanır. 1766: 26 yaşındaki James Craig Yeni Şehir yarışmasını kazanır. Ardından Güney Köprüsü (1785–88), 1824 Büyük Yangını ve Scott Anıtı (1840–46)."},
+   "tags": ["edinburgh new town", "james craig", "nor loch", "edinburgh history", "georgian edinburgh", "3d timelapse", "shorts"],
+   "hashtags": ["#Edinburgh", "#NewTown", "#History", "#Shorts"]
+  },
+  {
+   "id": "walls-and-sieges",
+   "from_year": 1450, "to_year": 1650.9, "seconds": 48,
+   "hook": {"line1": {"en": "Walls and sieges", "tr": "Surlar, kuşatmalar"}, "line2": {"en": "Edinburgh, 1450–1650", "tr": "Edinburgh, 1450–1650"}},
+   "end": {"line2": {"en": "Edinburgh: 3,000 Years in 14 Minutes", "tr": "Edinburgh: 14 Dakikada 3.000 Yıl"}},
+   "title": {"en": "Edinburgh's Walls and Sieges, 1450–1650 #shorts", "tr": "Edinburgh'un Surları ve Kuşatmaları, 1450–1650 #shorts"},
+   "description": {"en": "1450: the King's Wall. 1514: the Flodden Wall, finished in 1560 around about 10,000 people. 1560: the Siege of Leith. 1571–73: the Lang Siege of the castle. 1628–36: the Telfer Wall. 1650: Cromwell's army takes the castle.",
+                   "tr": "1450: Kral Suru. 1514: 1560'ta yaklaşık 10.000 kişiyi çevreleyerek tamamlanan Flodden Suru. 1560: Leith Kuşatması. 1571–73: kalenin Uzun Kuşatması. 1628–36: Telfer Suru. 1650: Cromwell'in ordusu kaleyi alır."},
+   "tags": ["edinburgh castle", "flodden wall", "siege of leith", "lang siege", "scottish history", "edinburgh history", "3d timelapse", "shorts"],
+   "hashtags": ["#Edinburgh", "#Scotland", "#History", "#Shorts"]
+  }
+ ]
+}
