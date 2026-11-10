@@ -1,3 +1,5 @@
+  rivers: overpass-api.de -> 502
+  rivers: overpass.kumi.systems -> 504
 osm rivers: kept 0, skipped 58 -> 0 outer / 0 inner rings
 osm lakes: 28 lakes >= 0.02 km2
 grid 459x419 @ 90 m
