@@ -1,0 +1,9 @@
+osm rivers: kept 0, skipped 58 -> 0 outer / 0 inner rings
+osm lakes: 28 lakes >= 0.02 km2
+grid 459x419 @ 90 m
+elevation: zoom 11, tiles 5x4
+grid 220x241 @ 30 m
+elevation: zoom 13, tiles 3x3
+core layer 220 x 241
+wrote geo.json 459 x 419
+maps written to cities/edinburgh/preview
