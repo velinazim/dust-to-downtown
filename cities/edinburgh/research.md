@@ -134,3 +134,8 @@ Conflicts: 1811 102,987 (WP) vs 103,143 (EdinPhoto); 1831 161,909 vs 162,403 →
   Moray estate, west end and Calton terraces ≈. Victorian ring and 20th-century suburbs ≈ (council area outline simplified).
 - Great Fire area 1824 ≈ (High Street south side, Old Assembly Close to Parliament Close).
 - Railway lines through the valley ≈.
+- Base map: the terrain tiles put gently sloping "land" 1–1.5 km out into the Forth (elevations 1–5 m north of Leith, where the
+  shore is). `geo.sea_level_m` = 6 puts the coast at Leith/Newhaven/Seafield/Portobello where the city actually meets the sea
+  (checked against the Leith and Duddingston/Lochend lakes positions in the map). Water of Leith drawn as a thin river
+  (geo_edits, ≈ course Dean → Stockbridge → Canonmills → Bonnington → the Shore) — not named on screen.
+- Elevation tiles are smoothed (Castle Rock and Arthur's Seat lower than real); vertical exaggeration 3 as in other episodes.

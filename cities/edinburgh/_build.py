@@ -69,8 +69,10 @@ MEADOWS = [(55.94300, -3.20000), (55.94300, -3.18300), (55.93950, -3.18400), (55
 
 # ------------------------------------------------------------------ Leith (≈)
 LEITH_OLD = circle((SHORE[0] - 0.0015, SHORE[1] + 0.0005), 380, 12)
-LEITH_FORT = circle((SHORE[0] - 0.0020, SHORE[1] + 0.0010), 520, 9)
+LEITH_FORT = circle((SHORE[0] - 0.0030, SHORE[1] + 0.0010), 430, 9)
 LEITH_GEO = [(55.97900, -3.19500), (55.97950, -3.15500), (55.97000, -3.15000), (55.96400, -3.16500), (55.96500, -3.18500)]
+WATER_OF_LEITH = [(55.95300, -3.21800), (55.95850, -3.20800), (55.96200, -3.19600), (55.96700, -3.18800), (55.97000, -3.18300),
+                  (55.97350, -3.17600), (55.97640, -3.17050), (55.97950, -3.16950)]
 LEITH_WALK = [(55.95580, -3.18600), (55.96100, -3.18050), (55.96700, -3.17600), (55.97150, -3.17300)]
 
 # ------------------------------------------------------------------ the later city (≈)
@@ -378,9 +380,9 @@ C_ = lambda w, r: {"wall": w, "roof": r}
 STONE = "#9c958a"; SAND = "#c9b896"
 landmarks = [
  {"type": "fort", "name": T("Din Eidyn hill fort (≈)", "Din Eidyn tepe kalesi (≈)"), "at": list(CASTLE), "built": 500, "removed": 1058,
-  "rise_s": 6, "size_m": [140, 80, 4], "rot_deg": 0, "colors": {"wall": "#8a7a60"}},
+  "rise_s": 6, "size_m": [140, 80, 4], "rot_deg": 0, "scale": 1.5, "colors": {"wall": "#8a7a60"}},
  {"type": "castle", "name": T("Edinburgh Castle", "Edinburgh Kalesi"), "at": list(CASTLE), "built": 1058, "rise_s": 10,
-  "size_m": [200, 100, 22], "rot_deg": 10, "colors": C_(STONE, "#5f666f")},
+  "size_m": [200, 100, 22], "rot_deg": 10, "scale": 1.5, "colors": C_(STONE, "#5f666f")},
  {"type": "church", "name": T("St Margaret's Chapel", "Aziz Margaret Şapeli"), "at": [CASTLE[0] + 0.0001, CASTLE[1] - 0.0003], "built": 1130,
   "rise_s": 6, "size_m": [16, 7, 8], "scale": 1.6, "colors": C_(STONE, "#5f666f")},
  {"type": "tower", "name": T("David's Tower (≈ position)", "David Kulesi (≈ konum)"), "at": [CASTLE[0] - 0.0001, CASTLE[1] + 0.0008], "built": 1367,
@@ -457,7 +459,7 @@ labels = [
  {"text": T("Holyroodhouse", "Holyroodhouse"), "at": list(PALACE), "kind": "place", "from": 1650, "to": 1706.9},
  {"text": T("Parliament House", "Parlamento Binası"), "at": [55.94900, -3.19130], "kind": "place", "from": 1707, "to": 1744.9},
  {"text": T("LEITH", "LEITH"), "at": [SHORE[0] - 0.0020, SHORE[1]], "kind": "region", "from": 1755, "to": 1762.9},
- {"text": T("Nor Loch", "Nor Gölü"), "at": [55.95130, -3.19700], "kind": "water", "from": 1755, "to": 1765.9},
+ {"text": T("Nor Loch", "Nor Gölü"), "at": [55.95200, -3.19850], "kind": "water", "from": 1755, "to": 1765.9},
  {"text": T("NEW TOWN", "YENİ ŞEHİR"), "at": [55.95500, -3.19900], "kind": "region", "from": 1766, "to": 1768.8},
  {"text": T("North Bridge", "Kuzey Köprüsü"), "at": list(NBRIDGE), "kind": "place", "from": 1769.6, "to": 1772.9},
  {"text": T("Cowgate", "Cowgate"), "at": [55.94850, -3.18800], "kind": "place", "from": 1785, "to": 1788.9},
@@ -481,9 +483,10 @@ city = {
  "slug": "edinburgh", "seed": 1124, "long_ok": True,
  "name": T("Edinburgh", "Edinburgh"), "intro": T("3,000 Years", "3.000 Yıl"), "intro_seconds": 4.5,
  "geo": {"bbox": [55.78, -3.52, 56.12, -2.86], "cell_m": 90, "core_bbox": [55.925, -3.245, 55.990, -3.140], "core_cell_m": 30,
-         "rivers_keep": ["Forth"]},
+         "rivers_keep": ["Forth"], "sea_level_m": 6.0},
+ "geo_edits": [{"op": "river", "path": L(WATER_OF_LEITH), "width_m": 35}],
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
- "render": {"vertical_exaggeration": 2.0},
+ "render": {"vertical_exaggeration": 3.0},
  "segments": S,
  "districts": districts, "walls": walls, "bridges": bridges, "roads": roads, "landmarks": landmarks,
  "fires": fires, "camps": camps, "smoke": smoke, "open_spaces": open_spaces, "timed_water": timed_water, "labels": labels,
