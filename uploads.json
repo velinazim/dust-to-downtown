@@ -804,7 +804,7 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "edinburgh:long",
+  "key": "edinburgh:long:replaced",
   "slug": "edinburgh",
   "kind": "long",
   "video_id": "wlCtiYImFOs",
@@ -813,6 +813,23 @@
   "publish_at": "2026-12-04T23:30:00Z",
   "uploaded": "2026-11-10T09:50:13Z",
   "thumbnail": "ok",
-  "playlist": "added"
+  "playlist": "added",
+  "replaced_by": "EWilv9QOQys",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "edinburgh:long",
+  "slug": "edinburgh",
+  "kind": "long",
+  "video_id": "EWilv9QOQys",
+  "link": "https://youtu.be/EWilv9QOQys",
+  "title": "Edinburgh: 3,000 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-12-04T23:30:00Z",
+  "uploaded": "2026-11-10T16:31:42Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "wlCtiYImFOs",
+  "music": "piano-2026-11-09"
  }
 ]
