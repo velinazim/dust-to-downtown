@@ -73,6 +73,9 @@ LEITH_FORT = circle((SHORE[0] - 0.0030, SHORE[1] + 0.0010), 430, 9)
 LEITH_GEO = [(55.97900, -3.19500), (55.97950, -3.15500), (55.97000, -3.15000), (55.96400, -3.16500), (55.96500, -3.18500)]
 WATER_OF_LEITH = [(55.95300, -3.21800), (55.95850, -3.20800), (55.96200, -3.19600), (55.96700, -3.18800), (55.97000, -3.18300),
                   (55.97350, -3.17600), (55.97640, -3.17050), (55.97950, -3.16950)]
+# modern dock/harbour reclamation north of the old shore (≈): kept as sea so Leith sits on the shore in every era
+OUTER_FORTH = [(55.98100, -3.23500), (55.98150, -3.20000), (55.98000, -3.18000), (55.97900, -3.16800), (55.97600, -3.15800),
+               (55.97350, -3.15000), (55.97250, -3.14000), (55.99900, -3.14000), (55.99900, -3.23500)]
 LEITH_WALK = [(55.95580, -3.18600), (55.96100, -3.18050), (55.96700, -3.17600), (55.97150, -3.17300)]
 
 # ------------------------------------------------------------------ the later city (≈)
@@ -484,7 +487,7 @@ city = {
  "name": T("Edinburgh", "Edinburgh"), "intro": T("3,000 Years", "3.000 Yıl"), "intro_seconds": 4.5,
  "geo": {"bbox": [55.78, -3.52, 56.12, -2.86], "cell_m": 90, "core_bbox": [55.925, -3.245, 55.990, -3.140], "core_cell_m": 30,
          "rivers_keep": ["Forth"], "sea_level_m": 6.0},
- "geo_edits": [{"op": "river", "path": L(WATER_OF_LEITH), "width_m": 35}],
+ "geo_edits": [{"op": "water", "poly": L(OUTER_FORTH)}],
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 3.0},
  "segments": S,
