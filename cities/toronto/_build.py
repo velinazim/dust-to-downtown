@@ -423,7 +423,7 @@ districts = [
   "grid_deg": 0, "grow_from": [43.6480, -79.3500]},
  {"name": "Postwar suburbs of Metro (≈)", "style": "suburb", "poly": L(CITYLIMIT),
   "holes": [L(INNER), L(DON_VALLEY), L(HUMBER_V), L(ISLAND_PARK), L(SPIT_PARK)], "from": 1946, "to": 1990,
-  "density": 0.75, "grain_m": 145, "grid_deg": 16, "grow_from": list(G(0, 5000))},
+  "density": 0.75, "grain_m": 150, "grid_deg": 16, "grow_from": list(G(0, 5000))},
  {"name": "Financial district towers (≈)", "style": "highrise", "poly": L(FIN), "from": 1962, "to": 2020, "density": 0.6, "grain_m": 70,
   "grid_deg": 16, "grow_from": list(G(-200, 0))},
  {"name": "Railway lands condos (≈)", "style": "highrise", "poly": L(CONDO), "from": 1995, "to": 2022, "density": 0.55, "grain_m": 80,

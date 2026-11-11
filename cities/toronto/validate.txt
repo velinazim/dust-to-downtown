@@ -1,3 +1,2 @@
-duration 843s (14.1 min), segments 53, ≈22170 buildings
-WARN  districts[10] "Postwar suburbs of Metro (≈)" ≈15276 buildings; raise grain_m
+duration 843s (14.1 min), segments 53, ≈21169 buildings
 OK

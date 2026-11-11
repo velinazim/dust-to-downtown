@@ -14,7 +14,7 @@ ancient cities everyone is curious about. Owner can reorder any time.
 - [x] berlin — Berlin (Cölln & Berlin 1237 → wall → today)
 - [x] philadelphia — Philadelphia (1682 grid → today)
 - [x] edinburgh — Edinburgh (castle rock → New Town → today)
-- [ ] toronto — Toronto (Fort York → today)
+- [x] toronto — Toronto (Fort York → today)
 - [ ] sydney — Sydney (1788 → today)
 - [ ] prague — Prague (castle → Charles Bridge → today)
 - [ ] barcelona — Barcelona (Barcino → Eixample → today)
