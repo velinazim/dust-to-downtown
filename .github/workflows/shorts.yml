@@ -21,6 +21,10 @@ jobs:
       any: ${{ steps.p.outputs.any }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      # tools/shorts.py imports tools/music.py (numpy, scipy) since 9 Nov 2026
+      - run: pip install -q numpy scipy
       - id: p
         run: |
           S="${{ github.event.inputs.slug }}"
