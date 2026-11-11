@@ -1,0 +1,10 @@
+osm rivers: kept 15, skipped 168 -> 15 outer / 6 inner rings
+  lakes: overpass-api.de -> 502
+osm lakes: 16 lakes >= 0.02 km2
+grid 514x424 @ 110 m
+elevation: zoom 11, tiles 5x4
+grid 377x333 @ 30 m
+elevation: zoom 13, tiles 4x4
+core layer 377 x 333
+wrote geo.json 514 x 424
+maps written to cities/toronto/preview
