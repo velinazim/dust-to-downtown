@@ -103,7 +103,7 @@ def ring_area_km2(ring):
 def osm_water(bbox, rivers_keep=None):
     """Area-mapped rivers (optionally only those named in rivers_keep, plus anything tidal) and lakes/reservoirs.
     Docks, basins and canals are left out: docks are drawn as timed_water at their real opening year, and canals and
-    small streams are too thin for this scale. Returns (river_outer, river_inner, lakes)."""
+    small streams are too thin for this scale. Returns (river_outer, river_inner, lakes, islands), islands = [(lake index, ring)] of lake multipolygons."""
     s, w, n, e = bbox
     b = f'({s},{w},{n},{e})'
     q_rivers = (f'[out:json][timeout:300];(way["natural"="water"]["water"~"^(river|tidal|oxbow)$"]{b};'
@@ -137,14 +137,17 @@ def osm_water(bbox, rivers_keep=None):
     data = overpass(q_lakes, 'lakes')
     if data is None:
         raise SystemExit('Overpass failed for lakes; try again later (map not written).')
-    lakes = []
+    lakes, islands = [], []   # islands: (index of its lake in lakes, island ring)
     for el in data.get('elements', []):
-        o, _ = rings(el)
+        o, i = rings(el)
+        start = len(lakes)
         for r in o:
             if ring_area_km2(r) >= 0.02:
                 lakes.append([[round(a, 5), round(c, 5)] for a, c in rdp(r, 0.00008)])
-    print(f'osm lakes: {len(lakes)} lakes >= 0.02 km2')
-    return r_out, r_in, lakes
+        if len(lakes) > start:   # islands in a lake (e.g. the Toronto Islands in Lake Ontario's multipolygon) stay land
+            islands += [(start, [[round(a, 5), round(c, 5)] for a, c in rdp(r, 0.00008)]) for r in i if ring_area_km2(r) >= 0.005]
+    print(f'osm lakes: {len(lakes)} lakes >= 0.02 km2, {len(islands)} islands in them')
+    return r_out, r_in, lakes, islands
 
 
 def stitch(segs):
@@ -192,10 +195,15 @@ def build_layer(city, bbox, origin, cell_km, water_rings):
     elev = elevation(grid, cell_km, origin[0])
     land = elev > g.get('sea_level_m', 0.0)
     if water_rings is not None:
-        outer, inner, lakes = water_rings
+        outer, inner, lakes = water_rings[:3]
+        islands = water_rings[3] if len(water_rings) > 3 else []
         land &= ~(rasterize(outer, grid, origin) & ~rasterize(inner, grid, origin))
         if g.get('lakes_from') is None and lakes:
-            land &= ~rasterize(lakes, grid, origin)
+            # each lake minus its own islands; other lakes (e.g. a pond on such an island) stay water
+            hosts = sorted({k for k, _ in islands})
+            water = rasterize([lakes[k] for k in hosts], grid, origin) & ~rasterize([r for _, r in islands], grid, origin)
+            water |= rasterize([r for k, r in enumerate(lakes) if k not in hosts], grid, origin)
+            land &= ~water
     for ed in city.get('geo_edits', []):
         if ed['op'] == 'river':
             land &= ~river_mask(ed['path'], ed.get('width_m', 200), grid, origin)
