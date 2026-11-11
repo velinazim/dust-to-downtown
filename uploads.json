@@ -896,5 +896,17 @@
   "thumbnail": "none",
   "playlist": "added",
   "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+ },
+ {
+  "key": "toronto:long",
+  "slug": "toronto",
+  "kind": "long",
+  "video_id": "Wu18Xu6NCmc",
+  "link": "https://youtu.be/Wu18Xu6NCmc",
+  "title": "Toronto: 233 Years in 14 Minutes (3D Timelapse)",
+  "publish_at": "2026-12-08T23:30:00Z",
+  "uploaded": "2026-11-11T10:24:02Z",
+  "thumbnail": "ok",
+  "playlist": "added"
  }
 ]
