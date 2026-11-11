@@ -831,5 +831,70 @@
   "playlist": "added",
   "replaces": "wlCtiYImFOs",
   "music": "piano-2026-11-09"
+ },
+ {
+  "key": "philadelphia:short:whole",
+  "slug": "philadelphia",
+  "kind": "short",
+  "video_id": "Rhycdb1tYOo",
+  "link": "https://youtube.com/shorts/Rhycdb1tYOo",
+  "title": "Philadelphia: From Penn's Grid to Skyline in 50 Seconds #shorts",
+  "publish_at": "2026-12-02T23:30:00Z",
+  "uploaded": "2026-11-11T06:35:34Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+ },
+ {
+  "key": "philadelphia:short:revolution",
+  "slug": "philadelphia",
+  "kind": "short",
+  "video_id": "94bHadOAnxY",
+  "link": "https://youtube.com/shorts/94bHadOAnxY",
+  "title": "Philadelphia 1774–1800: From Congress to Capital #shorts",
+  "publish_at": "2026-12-03T23:30:00Z",
+  "uploaded": "2026-11-11T06:35:37Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+ },
+ {
+  "key": "edinburgh:short:whole",
+  "slug": "edinburgh",
+  "kind": "short",
+  "video_id": "ZH7H2_03O7A",
+  "link": "https://youtube.com/shorts/ZH7H2_03O7A",
+  "title": "Edinburgh: 3,000 Years in 50 Seconds #shorts",
+  "publish_at": "2026-12-05T23:30:00Z",
+  "uploaded": "2026-11-11T06:17:23Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+ },
+ {
+  "key": "edinburgh:short:new-town",
+  "slug": "edinburgh",
+  "kind": "short",
+  "video_id": "qtJI7FFFQLo",
+  "link": "https://youtube.com/shorts/qtJI7FFFQLo",
+  "title": "How Edinburgh Built a New Town in 50 Seconds #shorts",
+  "publish_at": "2026-12-06T23:30:00Z",
+  "uploaded": "2026-11-11T06:17:28Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+ },
+ {
+  "key": "edinburgh:short:walls-and-sieges",
+  "slug": "edinburgh",
+  "kind": "short",
+  "video_id": "GhnGqdyx_mw",
+  "link": "https://youtube.com/shorts/GhnGqdyx_mw",
+  "title": "Edinburgh's Walls and Sieges, 1450–1650 #shorts",
+  "publish_at": "2026-12-07T23:30:00Z",
+  "uploaded": "2026-11-11T06:17:32Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
  }
 ]
