@@ -69,8 +69,8 @@ ZONES = [
  ("Harbour Commission fill, central (≈)", 1925, rect(43.6345, -79.4150, 43.6560, -79.3560)),
  ("Harbour Commission fill, west (≈)", 1925, rect(43.6200, -79.4800, 43.6420, -79.4150)),
  ("Ashbridge's Bay fill, west (≈)", 1922, rect(43.6380, -79.3560, 43.6600, -79.3380)),
- ("Ashbridge's Bay fill, east (≈)", 1929, rect(43.6390, -79.3380, 43.6650, -79.3050)),
- ("Leslie Street Spit (≈)", 1972, [(43.6400, -79.3500), (43.6420, -79.3150), (43.6100, -79.3150), (43.6000, -79.3400), (43.6200, -79.3500)]),
+ ("Ashbridge's Bay fill, east (≈)", 1929, rect(43.6390, -79.3380, 43.6650, -79.3220)),
+ ("Leslie Street Spit (≈)", 1972, [(43.6400, -79.3450), (43.6420, -79.3150), (43.6100, -79.3150), (43.6000, -79.3400), (43.6200, -79.3450)]),
 ]
 
 
@@ -460,7 +460,7 @@ BRICK = "#a8573e"
 p = lambda pt: [round(pt[0], 5), round(pt[1], 5)]
 landmarks = [
  {"type": "fort", "name": T("Fort Rouillé", "Rouillé Kalesi"), "at": p(ROUILLE), "built": 1750.6, "removed": 1759.6, "rise_s": 6,
-  "size_m": [55, 55, 6], "scale": 1.5, "colors": {"wall": "#8a6a48"}},
+  "size_m": [55, 55, 6], "scale": 2.2, "colors": {"wall": "#8a6a48"}},
  {"type": "fort", "name": T("Fort York (1793)", "York Kalesi (1793)"), "at": p(FORTYORK), "built": 1793.56, "removed": 1813.32, "rise_s": 6,
   "size_m": [160, 110, 7], "scale": 1.4, "rot_deg": -16, "colors": {"wall": "#8a6a48"}},
  {"type": "fort", "name": T("Fort York", "York Kalesi"), "at": p(FORTYORK), "built": 1813.65, "rise_s": 8,
@@ -533,9 +533,7 @@ open_spaces = [
  {"name": "Humber Valley (≈)", "poly": L(HUMBER_V)},
  {"name": "Exhibition grounds / Fort Rouillé site (≈)", "poly": L(EXHIB)},
 ]
-timed_water = [
- {"name": "Eastern Gap (cut by the 1858 storm)", "poly": L(EASTERN_GAP), "from": 1858.28, "to": None},
-] + FILL
+timed_water = FILL
 
 labels = [
  {"text": T("LAKE ONTARIO", "ONTARIO GÖLÜ"), "at": [43.5900, -79.3900], "kind": "water", "from": 1650},
@@ -543,7 +541,6 @@ labels = [
  {"text": T("TORONTO CARRYING-PLACE", "TORONTO TAŞIMA YOLU"), "at": [43.6900, -79.5000], "kind": "region", "from": 1650, "to": 1719.9},
  {"text": T("MISSISSAUGA COUNTRY", "MISSISSAUGA TOPRAKLARI"), "at": [43.6800, -79.4200], "kind": "region", "from": 1687, "to": 1719.9},
  {"text": T("Fort Rouillé", "Rouillé Kalesi"), "at": p(ROUILLE), "kind": "place", "from": 1750, "to": 1759.9},
- {"text": T("THE PENINSULA", "YARIMADA"), "at": [43.6230, -79.3700], "kind": "region", "from": 1760, "to": 1857.9},
  {"text": T("TORONTO HARBOUR", "TORONTO LİMANI"), "at": [43.6365, -79.3780], "kind": "water", "from": 1787, "to": 1925},
  {"text": T("Fort York", "York Kalesi"), "at": p(FORTYORK), "kind": "place", "from": 1793, "to": 1793.6},
  {"text": T("YORK", "YORK"), "at": p(G(1050, 250)), "kind": "region", "from": 1793.65, "to": 1796.99},
