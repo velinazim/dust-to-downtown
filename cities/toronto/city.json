@@ -1,0 +1,4251 @@
+{
+ "slug": "toronto",
+ "seed": 1793,
+ "long_ok": true,
+ "name": {
+  "en": "Toronto",
+  "tr": "Toronto"
+ },
+ "intro": {
+  "en": "233 Years in 14 Minutes",
+  "tr": "14 Dakikada 233 Yıl"
+ },
+ "intro_seconds": 4.5,
+ "geo": {
+  "bbox": [
+   43.5,
+   -79.72,
+   43.92,
+   -79.02
+  ],
+  "cell_m": 110,
+  "core_bbox": [
+   43.6,
+   -79.44,
+   43.69,
+   -79.3
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Don River",
+   "Humber River"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 1.6
+ },
+ "segments": [
+  {
+   "from": 1650,
+   "to": 1686.9,
+   "seconds": 20,
+   "era": {
+    "en": "Indigenous Lands",
+    "tr": "Yerli Toprakları"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "title": {
+    "en": "The Carrying-Place",
+    "tr": "Taşıma Yolu"
+   },
+   "sub": {
+    "en": "17th century: the Seneca village of Teiaiagon, some 2,000 people, guards the Humber trail",
+    "tr": "17. yüzyıl: yaklaşık 2.000 kişilik Seneca köyü Teiaiagon, Humber patikasını korur"
+   },
+   "camera": {
+    "center": [
+     43.655,
+     -79.475
+    ],
+    "dist_km": 12.0
+   },
+   "chapter": {
+    "en": "Before Toronto",
+    "tr": "Toronto'dan Önce"
+   }
+  },
+  {
+   "from": 1687,
+   "to": 1719.9,
+   "seconds": 14,
+   "era": {
+    "en": "Indigenous Lands",
+    "tr": "Yerli Toprakları"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "title": {
+    "en": "Mississauga Country",
+    "tr": "Mississauga Toprakları"
+   },
+   "sub": {
+    "en": "By 1687 the Seneca villages are abandoned; Mississaugas move onto the shore",
+    "tr": "1687'ye gelindiğinde Seneca köyleri terk edilmiştir; kıyıya Mississaugalar yerleşir"
+   },
+   "camera": {
+    "center": [
+     43.645,
+     -79.43
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1720,
+   "to": 1749.9,
+   "seconds": 15,
+   "era": {
+    "en": "New France",
+    "tr": "Yeni Fransa"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "title": {
+    "en": "A French Post on the Humber",
+    "tr": "Humber'da Bir Fransız Karakolu"
+   },
+   "sub": {
+    "en": "1720: the French build a small trading post on the Humber, the Magasin Royal",
+    "tr": "1720: Fransızlar Humber kıyısına küçük bir ticaret karakolu, Magasin Royal'i kurar"
+   },
+   "camera": {
+    "center": [
+     43.655,
+     -79.475
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1750,
+   "to": 1758.9,
+   "seconds": 17,
+   "era": {
+    "en": "New France",
+    "tr": "Yeni Fransa"
+   },
+   "city_name": {
+    "en": "Fort Rouillé",
+    "tr": "Rouillé Kalesi"
+   },
+   "title": {
+    "en": "Fort Rouillé",
+    "tr": "Rouillé Kalesi"
+   },
+   "sub": {
+    "en": "1750–51: the French build Fort Rouillé, a 55 m square palisade on the lake",
+    "tr": "1750–51: Fransızlar göl kıyısına 55 metrelik kare bir şarampol, Rouillé Kalesi'ni kurar"
+   },
+   "camera": {
+    "center": [
+     43.63462,
+     -79.42356
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "A French Fort",
+    "tr": "Bir Fransız Kalesi"
+   }
+  },
+  {
+   "from": 1759,
+   "to": 1759.9,
+   "seconds": 15,
+   "era": {
+    "en": "New France",
+    "tr": "Yeni Fransa"
+   },
+   "city_name": {
+    "en": "Fort Rouillé",
+    "tr": "Rouillé Kalesi"
+   },
+   "title": {
+    "en": "The French Burn Their Fort",
+    "tr": "Fransızlar Kalelerini Yakıyor"
+   },
+   "sub": {
+    "en": "July 1759: after Fort Niagara falls, the garrison burns Fort Rouillé and leaves",
+    "tr": "Temmuz 1759: Niagara Kalesi düşünce garnizon Rouillé Kalesi'ni yakıp çekilir"
+   },
+   "camera": {
+    "center": [
+     43.63462,
+     -79.42356
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1760,
+   "to": 1786.9,
+   "seconds": 8,
+   "era": {
+    "en": "British North America",
+    "tr": "İngiliz Kuzey Amerikası"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "camera": {
+    "center": [
+     43.645,
+     -79.39
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1787,
+   "to": 1792.9,
+   "seconds": 16,
+   "era": {
+    "en": "British North America",
+    "tr": "İngiliz Kuzey Amerikası"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "title": {
+    "en": "The Toronto Purchase",
+    "tr": "Toronto Satın Alımı"
+   },
+   "sub": {
+    "en": "23 September 1787: the Crown buys land from the Mississaugas; the deal is disputed",
+    "tr": "23 Eylül 1787: Taç, Mississaugalardan toprak satın alır; anlaşma tartışmalıdır"
+   },
+   "camera": {
+    "center": [
+     43.655,
+     -79.39
+    ],
+    "dist_km": 14.0
+   },
+   "chapter": {
+    "en": "The Town of York",
+    "tr": "York Kasabası"
+   }
+  },
+  {
+   "from": 1793,
+   "to": 1793.6,
+   "seconds": 16,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "Lake Ontario shore",
+    "tr": "Ontario Gölü kıyısı"
+   },
+   "title": {
+    "en": "The Queen's Rangers Land",
+    "tr": "Korucular Karaya Çıkıyor"
+   },
+   "sub": {
+    "en": "20 July 1793: 100 soldiers land by Garrison Creek and begin Fort York",
+    "tr": "20 Temmuz 1793: 100 asker Garrison Deresi'nin yanında karaya çıkar ve York Kalesi'ni kurar"
+   },
+   "camera": {
+    "center": [
+     43.64289,
+     -79.40361
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1793.65,
+   "to": 1795.9,
+   "seconds": 18,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "The Town of York",
+    "tr": "York Kasabası"
+   },
+   "sub": {
+    "en": "27 August 1793: Simcoe founds York — ten blocks between Front and Adelaide",
+    "tr": "27 Ağustos 1793: Simcoe, Front ile Adelaide arasında on bloktan oluşan York'u kurar"
+   },
+   "camera": {
+    "center": [
+     43.65328,
+     -79.37194
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1796,
+   "to": 1796.99,
+   "seconds": 15,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "Capital of Upper Canada",
+    "tr": "Yukarı Kanada'nın Başkenti"
+   },
+   "sub": {
+    "en": "1 February 1796: York becomes the permanent capital of Upper Canada",
+    "tr": "1 Şubat 1796: York, Yukarı Kanada'nın kalıcı başkenti olur"
+   },
+   "population": 600,
+   "camera": {
+    "center": [
+     43.65328,
+     -79.37194
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1797,
+   "to": 1806.9,
+   "seconds": 16,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "Parliament on Front Street",
+    "tr": "Front Caddesi'nde Meclis"
+   },
+   "sub": {
+    "en": "1797: parliament meets in brick buildings at Front and Parliament; the town grows west",
+    "tr": "1797: meclis Front ve Parliament köşesindeki tuğla binalarda toplanır; kasaba batıya büyür"
+   },
+   "population": [
+    650,
+    1190
+   ],
+   "camera": {
+    "center": [
+     43.65288,
+     -79.3692
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1807,
+   "to": 1812.9,
+   "seconds": 14,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "The First Church",
+    "tr": "İlk Kilise"
+   },
+   "sub": {
+    "en": "1807: a wooden church rises on King Street — the first St. James'",
+    "tr": "1807: King Caddesi'nde ahşap bir kilise yükselir — ilk St. James"
+   },
+   "population": [
+    1190,
+    1460
+   ],
+   "camera": {
+    "center": [
+     43.65228,
+     -79.37389
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1813,
+   "to": 1813.33,
+   "seconds": 22,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "The Battle of York",
+    "tr": "York Muharebesi"
+   },
+   "sub": {
+    "en": "27 April 1813: US troops land; retreating British blow up the fort's magazine",
+    "tr": "27 Nisan 1813: ABD askerleri karaya çıkar; çekilen İngilizler kalenin cephaneliğini patlatır"
+   },
+   "population": [
+    1460,
+    1460
+   ],
+   "camera": {
+    "center": [
+     43.64289,
+     -79.40361
+    ],
+    "dist_km": 3.4
+   },
+   "chapter": {
+    "en": "The War of 1812",
+    "tr": "1812 Savaşı"
+   }
+  },
+  {
+   "from": 1813.33,
+   "to": 1813.6,
+   "seconds": 17,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "York Occupied",
+    "tr": "York İşgal Altında"
+   },
+   "sub": {
+    "en": "Until 8 May 1813: the invaders hold the town and burn the parliament buildings",
+    "tr": "8 Mayıs 1813'e dek: işgalciler kasabayı tutar ve meclis binalarını yakar"
+   },
+   "population": [
+    1460,
+    720
+   ],
+   "camera": {
+    "center": [
+     43.65288,
+     -79.3692
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1813.6,
+   "to": 1819.9,
+   "seconds": 15,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "Fort York Rebuilt",
+    "tr": "York Kalesi Yeniden Kuruluyor"
+   },
+   "sub": {
+    "en": "By 1816 the rebuilt fort has eighteen buildings for 650 soldiers",
+    "tr": "1816'ya gelindiğinde yeniden kurulan kalede 650 asker için on sekiz bina vardır"
+   },
+   "population": [
+    740,
+    1210
+   ],
+   "camera": {
+    "center": [
+     43.64289,
+     -79.40361
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1820,
+   "to": 1831.9,
+   "seconds": 15,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "Parliament Burns Again",
+    "tr": "Meclis Yine Yanıyor"
+   },
+   "sub": {
+    "en": "1824: an overheated chimney flue burns the second parliament building",
+    "tr": "1824: aşırı ısınan bir baca, ikinci meclis binasını yakar"
+   },
+   "population": [
+    1220,
+    5370
+   ],
+   "camera": {
+    "center": [
+     43.65312,
+     -79.36801
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1832,
+   "to": 1833.99,
+   "seconds": 15,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "York",
+    "tr": "York"
+   },
+   "title": {
+    "en": "Cholera",
+    "tr": "Kolera"
+   },
+   "sub": {
+    "en": "1832 and 1834: cholera outbreaks kill about 1,000 people in York",
+    "tr": "1832 ve 1834: kolera salgınları York'ta yaklaşık 1.000 kişinin canını alır"
+   },
+   "population": [
+    5500,
+    9230
+   ],
+   "camera": {
+    "center": [
+     43.65428,
+     -79.37194
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1834,
+   "to": 1836.9,
+   "seconds": 18,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The City of Toronto",
+    "tr": "Toronto Şehri"
+   },
+   "sub": {
+    "en": "6 March 1834: York is incorporated as the City of Toronto — 9,252 people",
+    "tr": "6 Mart 1834: York, Toronto Şehri olur — 9.252 kişi"
+   },
+   "population": [
+    9252,
+    12800
+   ],
+   "camera": {
+    "center": [
+     43.6555,
+     -79.37551
+    ],
+    "dist_km": 4.5
+   },
+   "chapter": {
+    "en": "City of Toronto",
+    "tr": "Toronto Şehri"
+   }
+  },
+  {
+   "from": 1837,
+   "to": 1840.9,
+   "seconds": 15,
+   "era": {
+    "en": "Upper Canada",
+    "tr": "Yukarı Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Rebellion on Yonge Street",
+    "tr": "Yonge Caddesi'nde İsyan"
+   },
+   "sub": {
+    "en": "1837: the Upper Canada Rebellion is crushed at Montgomery's Tavern on Yonge Street",
+    "tr": "1837: Yukarı Kanada İsyanı, Yonge Caddesi'ndeki Montgomery Meyhanesi'nde bastırılır"
+   },
+   "population": [
+    12900,
+    17700
+   ],
+   "camera": {
+    "center": [
+     43.665,
+     -79.39
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1841,
+   "to": 1846.9,
+   "seconds": 8,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "population": [
+    17800,
+    25000
+   ],
+   "camera": {
+    "center": [
+     43.65761,
+     -79.37893
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1847,
+   "to": 1848.99,
+   "seconds": 14,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Typhus",
+    "tr": "Tifüs"
+   },
+   "sub": {
+    "en": "1847: a typhus epidemic kills 863 Irish immigrants",
+    "tr": "1847: bir tifüs salgını 863 İrlandalı göçmenin canını alır"
+   },
+   "population": [
+    25100,
+    27500
+   ],
+   "camera": {
+    "center": [
+     43.655,
+     -79.3779
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 1849,
+   "to": 1849.5,
+   "seconds": 20,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Cathedral Fire",
+    "tr": "Katedral Yangını"
+   },
+   "sub": {
+    "en": "7 April 1849: fire destroys the Market Block and St. James' Church",
+    "tr": "7 Nisan 1849: yangın Pazar Bloğu'nu ve St. James Kilisesi'ni yok eder"
+   },
+   "population": [
+    27600,
+    28200
+   ],
+   "camera": {
+    "center": [
+     43.65228,
+     -79.37389
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1849.5,
+   "to": 1852.9,
+   "seconds": 15,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "St. Lawrence Hall",
+    "tr": "St. Lawrence Salonu"
+   },
+   "sub": {
+    "en": "1851: St. Lawrence Hall and a new market rise from the ashes",
+    "tr": "1851: St. Lawrence Salonu ve yeni bir pazar küllerden yükselir"
+   },
+   "population": [
+    28200,
+    32500
+   ],
+   "camera": {
+    "center": [
+     43.65276,
+     -79.37084
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1853,
+   "to": 1857.9,
+   "seconds": 16,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Railway Arrives",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "1853: the Ontario, Simcoe and Huron Railroad reaches the harbour",
+    "tr": "1853: Ontario, Simcoe ve Huron Demiryolu limana ulaşır"
+   },
+   "population": [
+    32600,
+    39000
+   ],
+   "camera": {
+    "center": [
+     43.644,
+     -79.38
+    ],
+    "dist_km": 5.5
+   },
+   "chapter": {
+    "en": "Railways and the Waterfront",
+    "tr": "Demiryolları ve Kıyı"
+   }
+  },
+  {
+   "from": 1858,
+   "to": 1858.6,
+   "seconds": 18,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "An Island Is Born",
+    "tr": "Bir Ada Doğuyor"
+   },
+   "sub": {
+    "en": "13 April 1858: a storm cuts through the peninsula — it becomes Toronto Island",
+    "tr": "13 Nisan 1858: bir fırtına yarımadayı ikiye böler — Toronto Adası doğar"
+   },
+   "population": [
+    39100,
+    39900
+   ],
+   "camera": {
+    "center": [
+     43.634,
+     -79.355
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1858.6,
+   "to": 1866.99,
+   "seconds": 16,
+   "era": {
+    "en": "Province of Canada",
+    "tr": "Kanada Eyaleti"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Making Land",
+    "tr": "Toprak Yapmak"
+   },
+   "sub": {
+    "en": "By 1865 the Esplanade is built on new land along the shore, with railways on it",
+    "tr": "1865'e gelindiğinde kıyı boyunca yeni toprak üzerine Esplanade ve demiryolları kurulur"
+   },
+   "population": [
+    39900,
+    50900
+   ],
+   "camera": {
+    "center": [
+     43.645,
+     -79.372
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1867,
+   "to": 1872.9,
+   "seconds": 8,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "population": [
+    50900,
+    61900
+   ],
+   "camera": {
+    "center": [
+     43.648,
+     -79.38
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1873,
+   "to": 1882.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "St. James' Spire",
+    "tr": "St. James'in Kulesi"
+   },
+   "sub": {
+    "en": "1873–74: the cathedral's spire rises to 92.9 metres over King Street",
+    "tr": "1873–74: katedralin kulesi King Caddesi üzerinde 92,9 metreye yükselir"
+   },
+   "population": [
+    62200,
+    104000
+   ],
+   "camera": {
+    "center": [
+     43.65328,
+     -79.37389
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1883,
+   "to": 1892.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The City Spreads",
+    "tr": "Şehir Yayılıyor"
+   },
+   "sub": {
+    "en": "1883–1893: Yorkville, Parkdale and other villages join the city",
+    "tr": "1883–1893: Yorkville, Parkdale ve başka köyler şehre katılır"
+   },
+   "population": [
+    105000,
+    186000
+   ],
+   "camera": {
+    "center": [
+     43.662,
+     -79.395
+    ],
+    "dist_km": 11.0
+   },
+   "chapter": {
+    "en": "Victorian Toronto",
+    "tr": "Viktorya Dönemi Toronto"
+   }
+  },
+  {
+   "from": 1893,
+   "to": 1898.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Queen's Park",
+    "tr": "Queen's Park"
+   },
+   "sub": {
+    "en": "1893: Ontario's new Legislative Building opens in Queen's Park",
+    "tr": "1893: Ontario'nun yeni Yasama Binası Queen's Park'ta açılır"
+   },
+   "population": [
+    186000,
+    202000
+   ],
+   "camera": {
+    "center": [
+     43.66545,
+     -79.39171
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1899,
+   "to": 1903.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Old City Hall",
+    "tr": "Eski Belediye Binası"
+   },
+   "sub": {
+    "en": "18 September 1899: Lennox's City Hall opens; its clock tower stands 103.6 m",
+    "tr": "18 Eylül 1899: Lennox'un Belediye Binası açılır; saat kulesi 103,6 m"
+   },
+   "population": [
+    203000,
+    258000
+   ],
+   "camera": {
+    "center": [
+     43.6555,
+     -79.38167
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1904,
+   "to": 1904.6,
+   "seconds": 22,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Great Fire of 1904",
+    "tr": "1904 Büyük Yangını"
+   },
+   "sub": {
+    "en": "19 April 1904: fire spreads from Wellington Street and destroys over 100 buildings",
+    "tr": "19 Nisan 1904: Wellington Caddesi'nden yayılan yangın 100'den fazla binayı yok eder"
+   },
+   "population": [
+    260000,
+    270000
+   ],
+   "camera": {
+    "center": [
+     43.6492,
+     -79.38003
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "The Great Fire",
+    "tr": "Büyük Yangın"
+   }
+  },
+  {
+   "from": 1904.6,
+   "to": 1911.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "More Annexations",
+    "tr": "Yeni İlhaklar"
+   },
+   "sub": {
+    "en": "1905–1912: Rosedale, East Toronto, West Toronto and North Toronto join the city",
+    "tr": "1905–1912: Rosedale, Doğu Toronto, Batı Toronto ve Kuzey Toronto şehre katılır"
+   },
+   "population": [
+    270000,
+    394000
+   ],
+   "camera": {
+    "center": [
+     43.67,
+     -79.39
+    ],
+    "dist_km": 15.0
+   }
+  },
+  {
+   "from": 1912,
+   "to": 1917.9,
+   "seconds": 17,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Filling Ashbridge's Bay",
+    "tr": "Ashbridge Koyu Dolduruluyor"
+   },
+   "sub": {
+    "en": "1912: the Harbour Commission begins filling the marsh at the mouth of the Don",
+    "tr": "1912: Liman Komisyonu, Don Nehri'nin ağzındaki bataklığı doldurmaya başlar"
+   },
+   "population": [
+    395000,
+    478000
+   ],
+   "camera": {
+    "center": [
+     43.65406,
+     -79.34233
+    ],
+    "dist_km": 6.0
+   },
+   "chapter": {
+    "en": "Made Land",
+    "tr": "Yapay Toprak"
+   }
+  },
+  {
+   "from": 1918,
+   "to": 1918.99,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Bloor Viaduct",
+    "tr": "Bloor Viyadüğü"
+   },
+   "sub": {
+    "en": "18 October 1918: the 494 m Prince Edward Viaduct spans the Don Valley",
+    "tr": "18 Ekim 1918: 494 metrelik Prince Edward Viyadüğü Don Vadisi'ni aşar"
+   },
+   "population": [
+    480000,
+    494000
+   ],
+   "camera": {
+    "center": [
+     43.67828,
+     -79.36389
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1919,
+   "to": 1926.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "New Land on the Lake",
+    "tr": "Gölde Yeni Toprak"
+   },
+   "sub": {
+    "en": "By 1922, 200 hectares of marsh at the mouth of the Don have been filled in",
+    "tr": "1922'ye gelindiğinde Don Nehri'nin ağzındaki 200 hektar bataklık doldurulmuştur"
+   },
+   "population": [
+    494000,
+    586000
+   ],
+   "camera": {
+    "center": [
+     43.648,
+     -79.36
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 1927,
+   "to": 1928.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Union Station",
+    "tr": "Union İstasyonu"
+   },
+   "sub": {
+    "en": "6 August 1927: the Prince of Wales opens Union Station on Front Street",
+    "tr": "6 Ağustos 1927: Galler Prensi, Front Caddesi'ndeki Union İstasyonu'nu açar"
+   },
+   "population": [
+    587000,
+    608000
+   ],
+   "camera": {
+    "center": [
+     43.64644,
+     -79.38028
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1929,
+   "to": 1938.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Royal York",
+    "tr": "Royal York"
+   },
+   "sub": {
+    "en": "1929: the 124 m Royal York Hotel becomes the city's tallest building",
+    "tr": "1929: 124 metrelik Royal York Oteli şehrin en yüksek binası olur"
+   },
+   "population": [
+    609000,
+    660000
+   ],
+   "camera": {
+    "center": [
+     43.6478,
+     -79.3815
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1939,
+   "to": 1953.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "An Airport on the Island",
+    "tr": "Adada Bir Havalimanı"
+   },
+   "sub": {
+    "en": "1939: Port George VI Island Airport opens on Toronto Island",
+    "tr": "1939: Toronto Adası'nda Port George VI Ada Havalimanı açılır"
+   },
+   "population": [
+    660000,
+    676000
+   ],
+   "camera": {
+    "center": [
+     43.63,
+     -79.39
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1954,
+   "to": 1954.24,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Metropolitan Toronto",
+    "tr": "Metropoliten Toronto"
+   },
+   "sub": {
+    "en": "1954: the city and its suburbs form Metro Toronto; counter now shows today's city area",
+    "tr": "1954: şehir ve banliyöleri Metro Toronto'yu kurar; sayaç artık bugünkü şehir alanını gösterir"
+   },
+   "population": [
+    1371000,
+    1387000
+   ],
+   "camera": {
+    "center": [
+     43.7,
+     -79.39
+    ],
+    "dist_km": 30.0
+   },
+   "chapter": {
+    "en": "Metro Toronto",
+    "tr": "Metro Toronto"
+   }
+  },
+  {
+   "from": 1954.24,
+   "to": 1954.7,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Canada's First Subway",
+    "tr": "Kanada'nın İlk Metrosu"
+   },
+   "sub": {
+    "en": "30 March 1954: the Yonge subway opens, 7.4 km from Union to Eglinton",
+    "tr": "30 Mart 1954: Yonge metrosu Union'dan Eglinton'a 7,4 km olarak açılır"
+   },
+   "population": [
+    1387000,
+    1416000
+   ],
+   "camera": {
+    "center": [
+     43.675,
+     -79.388
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1954.7,
+   "to": 1960.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Hurricane Hazel",
+    "tr": "Hazel Kasırgası"
+   },
+   "sub": {
+    "en": "1954: Hurricane Hazel floods the river valleys and kills 81 people",
+    "tr": "1954: Hazel Kasırgası nehir vadilerini sular altında bırakır, 81 kişi ölür"
+   },
+   "population": [
+    1416000,
+    1818000
+   ],
+   "camera": {
+    "center": [
+     43.71,
+     -79.42
+    ],
+    "dist_km": 26.0
+   }
+  },
+  {
+   "from": 1961,
+   "to": 1964.9,
+   "seconds": 14,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The Expressways",
+    "tr": "Otoyollar"
+   },
+   "sub": {
+    "en": "Late 1950s–early 1960s: the Gardiner and Don Valley expressways are built",
+    "tr": "1950'lerin sonu–1960'ların başı: Gardiner ve Don Vadisi otoyolları yapılır"
+   },
+   "population": [
+    1824481,
+    1928000
+   ],
+   "camera": {
+    "center": [
+     43.66,
+     -79.37
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1965,
+   "to": 1966.1,
+   "seconds": 17,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "A New City Hall",
+    "tr": "Yeni Belediye Binası"
+   },
+   "sub": {
+    "en": "13 September 1965: Viljo Revell's new City Hall opens on Queen Street",
+    "tr": "13 Eylül 1965: Viljo Revell'in yeni Belediye Binası Queen Caddesi'nde açılır"
+   },
+   "population": [
+    1931000,
+    1960000
+   ],
+   "camera": {
+    "center": [
+     43.65533,
+     -79.38389
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "The Skyline Rises",
+    "tr": "Silüet Yükseliyor"
+   }
+  },
+  {
+   "from": 1966.1,
+   "to": 1966.99,
+   "seconds": 14,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Across the Viaduct",
+    "tr": "Viyadüğün Altından"
+   },
+   "sub": {
+    "en": "26 February 1966: the Bloor–Danforth subway runs on the viaduct's lower deck",
+    "tr": "26 Şubat 1966: Bloor–Danforth metrosu viyadüğün alt katından geçer"
+   },
+   "population": [
+    1960000,
+    1983000
+   ],
+   "camera": {
+    "center": [
+     43.67928,
+     -79.36389
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1967,
+   "to": 1972.9,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Towers of the Banks",
+    "tr": "Bankaların Kuleleri"
+   },
+   "sub": {
+    "en": "1967: the 223 m TD Bank Tower; 1972: Commerce Court West, 239 m",
+    "tr": "1967: 223 metrelik TD Bank Kulesi; 1972: 239 metrelik Commerce Court West"
+   },
+   "population": [
+    1984000,
+    2103000
+   ],
+   "camera": {
+    "center": [
+     43.6504,
+     -79.3812
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1975.3,
+   "seconds": 18,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "The CN Tower Rises",
+    "tr": "CN Kulesi Yükseliyor"
+   },
+   "sub": {
+    "en": "6 February 1973: work begins; 2 April 1975: the tower is topped off",
+    "tr": "6 Şubat 1973: inşaat başlar; 2 Nisan 1975: kulenin tepesi tamamlanır"
+   },
+   "population": [
+    2104000,
+    2119000
+   ],
+   "camera": {
+    "center": [
+     43.64556,
+     -79.38708
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1975.3,
+   "to": 1976.45,
+   "seconds": 15,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "First Canadian Place",
+    "tr": "First Canadian Place"
+   },
+   "sub": {
+    "en": "5 June 1975: the 298 m First Canadian Place — Canada's tallest building for 50 years",
+    "tr": "5 Haziran 1975: 298 m'lik First Canadian Place — 50 yıl Kanada'nın en yüksek binası"
+   },
+   "population": [
+    2119000,
+    2125000
+   ],
+   "camera": {
+    "center": [
+     43.65178,
+     -79.38169
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1976.45,
+   "to": 1988.9,
+   "seconds": 18,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "553 Metres",
+    "tr": "553 Metre"
+   },
+   "sub": {
+    "en": "26 June 1976: the 553.3 m CN Tower opens — the world's tallest free-standing structure",
+    "tr": "26 Haziran 1976: 553,3 m'lik CN Kulesi açılır — dünyanın en yüksek serbest yapısı"
+   },
+   "population": [
+    2125000,
+    2241000
+   ],
+   "camera": {
+    "center": [
+     43.64856,
+     -79.38708
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1989,
+   "to": 1997.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "SkyDome",
+    "tr": "SkyDome"
+   },
+   "sub": {
+    "en": "3 June 1989: SkyDome opens — the first stadium with a fully retractable motorized roof",
+    "tr": "3 Haziran 1989: SkyDome açılır — tamamen açılıp kapanan motorlu çatılı ilk stadyum"
+   },
+   "population": [
+    2243000,
+    2422000
+   ],
+   "camera": {
+    "center": [
+     43.64439,
+     -79.38917
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1998,
+   "to": 2009.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "One City",
+    "tr": "Tek Şehir"
+   },
+   "sub": {
+    "en": "1 January 1998: Metro and its six municipalities merge into one City of Toronto",
+    "tr": "1 Ocak 1998: Metro ve altı belediyesi tek bir Toronto Şehri'nde birleşir"
+   },
+   "population": [
+    2424000,
+    2590000
+   ],
+   "camera": {
+    "center": [
+     43.72,
+     -79.39
+    ],
+    "dist_km": 34.0
+   },
+   "chapter": {
+    "en": "Toronto Today",
+    "tr": "Bugünün Toronto'su"
+   }
+  },
+  {
+   "from": 2010,
+   "to": 2024.9,
+   "seconds": 16,
+   "era": {
+    "en": "Canada",
+    "tr": "Kanada"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "A City of Towers",
+    "tr": "Kuleler Şehri"
+   },
+   "sub": {
+    "en": "2011–2021: the city grows from 2,615,060 to 2,794,356 people",
+    "tr": "2011–2021: şehrin nüfusu 2.615.060'tan 2.794.356'ya çıkar"
+   },
+   "population": [
+    2593000,
+    2794000
+   ],
+   "camera": {
+    "center": [
+     43.65,
+     -79.385
+    ],
+    "dist_km": 7.0
+   }
+  },
+  {
+   "from": 2025,
+   "to": 2026,
+   "seconds": 26,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "title": {
+    "en": "Toronto Today",
+    "tr": "Bugünün Toronto'su"
+   },
+   "sub": {
+    "en": "From ten blocks by the lake in 1793 to 2,794,356 people at the 2021 census",
+    "tr": "1793'te göl kıyısındaki on bloktan 2021 sayımında 2.794.356 kişiye"
+   },
+   "population": [
+    2794000,
+    2794356
+   ],
+   "camera": {
+    "center": [
+     43.69,
+     -79.39
+    ],
+    "dist_km": 32.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Town of York, ten blocks (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     43.64969,
+     -79.36784
+    ],
+    [
+     43.65094,
+     -79.36187
+    ],
+    [
+     43.65346,
+     -79.36287
+    ],
+    [
+     43.65221,
+     -79.36883
+    ]
+   ],
+   "from": 1793.7,
+   "to": 1812,
+   "density": 0.55,
+   "grain_m": 48,
+   "grid_deg": 16,
+   "grow_from": [
+    43.651182756695164,
+    -79.36519835241495
+   ]
+  },
+  {
+   "name": "York extended west to Peter Street (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     43.64221,
+     -79.39331
+    ],
+    [
+     43.64769,
+     -79.36705
+    ],
+    [
+     43.65325,
+     -79.36924
+    ],
+    [
+     43.64777,
+     -79.3955
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.64969,
+      -79.36784
+     ],
+     [
+      43.65094,
+      -79.36187
+     ],
+     [
+      43.65346,
+      -79.36287
+     ],
+     [
+      43.65221,
+      -79.36883
+     ]
+    ]
+   ],
+   "from": 1797,
+   "to": 1834,
+   "density": 0.6,
+   "grain_m": 50,
+   "grid_deg": 16,
+   "grow_from": [
+    43.650744950432035,
+    -79.36954630088027
+   ]
+  },
+  {
+   "name": "City of 1834–1850 (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     43.63935,
+     -79.40381
+    ],
+    [
+     43.64945,
+     -79.35548
+    ],
+    [
+     43.66293,
+     -79.36078
+    ],
+    [
+     43.65283,
+     -79.40911
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.64221,
+      -79.39331
+     ],
+     [
+      43.64769,
+      -79.36705
+     ],
+     [
+      43.65325,
+      -79.36924
+     ],
+     [
+      43.64777,
+      -79.3955
+     ]
+    ],
+    [
+     [
+      43.64969,
+      -79.36784
+     ],
+     [
+      43.65094,
+      -79.36187
+     ],
+     [
+      43.65346,
+      -79.36287
+     ],
+     [
+      43.65221,
+      -79.36883
+     ]
+    ]
+   ],
+   "from": 1830,
+   "to": 1855,
+   "density": 0.65,
+   "grain_m": 55,
+   "grid_deg": 16,
+   "grow_from": [
+    43.649,
+    -79.3779
+   ]
+  },
+  {
+   "name": "Victorian city to Bloor (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     43.63615,
+     -79.41417
+    ],
+    [
+     43.64899,
+     -79.35271
+    ],
+    [
+     43.67733,
+     -79.36387
+    ],
+    [
+     43.6645,
+     -79.42533
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.63935,
+      -79.40381
+     ],
+     [
+      43.64945,
+      -79.35548
+     ],
+     [
+      43.66293,
+      -79.36078
+     ],
+     [
+      43.65283,
+      -79.40911
+     ]
+    ],
+    [
+     [
+      43.66309,
+      -79.3983
+     ],
+     [
+      43.66383,
+      -79.39472
+     ],
+     [
+      43.66731,
+      -79.39609
+     ],
+     [
+      43.66656,
+      -79.39967
+     ]
+    ]
+   ],
+   "from": 1850,
+   "to": 1895,
+   "density": 0.75,
+   "grain_m": 65,
+   "grid_deg": 16,
+   "grow_from": [
+    43.65160801371734,
+    -79.37892659343282
+   ]
+  },
+  {
+   "name": "Parkdale and the west (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     43.61988,
+     -79.45426
+    ],
+    [
+     43.63615,
+     -79.41417
+    ],
+    [
+     43.6645,
+     -79.42533
+    ],
+    [
+     43.65552,
+     -79.46829
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.638,
+      -79.474
+     ],
+     [
+      43.656,
+      -79.474
+     ],
+     [
+      43.656,
+      -79.456
+     ],
+     [
+      43.638,
+      -79.456
+     ]
+    ],
+    [
+     [
+      43.63,
+      -79.428
+     ],
+     [
+      43.635,
+      -79.428
+     ],
+     [
+      43.637,
+      -79.41
+     ],
+     [
+      43.632,
+      -79.41
+     ]
+    ],
+    [
+     [
+      43.62942,
+      -79.42516
+     ],
+     [
+      43.63182,
+      -79.42516
+     ],
+     [
+      43.63182,
+      -79.42196
+     ],
+     [
+      43.62942,
+      -79.42196
+     ]
+    ]
+   ],
+   "from": 1880,
+   "to": 1925,
+   "density": 0.65,
+   "grain_m": 75,
+   "grid_deg": 16,
+   "grow_from": [
+    43.64102308373927,
+    -79.416088338833
+   ]
+  },
+  {
+   "name": "Riverdale, east of the Don (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     43.65312,
+     -79.35369
+    ],
+    [
+     43.66357,
+     -79.32164
+    ],
+    [
+     43.68543,
+     -79.32508
+    ],
+    [
+     43.67758,
+     -79.36267
+    ]
+   ],
+   "from": 1880,
+   "to": 1920,
+   "density": 0.65,
+   "grain_m": 75,
+   "grid_deg": 16,
+   "grow_from": [
+    43.65684286501345,
+    -79.35386549607367
+   ]
+  },
+  {
+   "name": "The Annex to North Toronto (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     43.66001,
+     -79.44681
+    ],
+    [
+     43.67845,
+     -79.3585
+    ],
+    [
+     43.7141,
+     -79.37253
+    ],
+    [
+     43.69565,
+     -79.46084
+    ]
+   ],
+   "from": 1885,
+   "to": 1935,
+   "density": 0.6,
+   "grain_m": 85,
+   "grid_deg": 16,
+   "grow_from": [
+    43.67122573029035,
+    -79.3931062688381
+   ]
+  },
+  {
+   "name": "East York, Danforth, the Beaches (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     43.66457,
+     -79.31687
+    ],
+    [
+     43.67926,
+     -79.27358
+    ],
+    [
+     43.70621,
+     -79.28418
+    ],
+    [
+     43.68976,
+     -79.36295
+    ],
+    [
+     43.67845,
+     -79.3585
+    ],
+    [
+     43.68543,
+     -79.32508
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.66,
+      -79.359
+     ],
+     [
+      43.68,
+      -79.364
+     ],
+     [
+      43.705,
+      -79.356
+     ],
+     [
+      43.725,
+      -79.34
+     ],
+     [
+      43.723,
+      -79.333
+     ],
+     [
+      43.702,
+      -79.349
+     ],
+     [
+      43.68,
+      -79.358
+     ],
+     [
+      43.66,
+      -79.353
+     ]
+    ]
+   ],
+   "from": 1905,
+   "to": 1945,
+   "density": 0.55,
+   "grain_m": 110,
+   "grid_deg": 16,
+   "grow_from": [
+    43.668272034415416,
+    -79.35319832745084
+   ]
+  },
+  {
+   "name": "Waterfront rail and industry (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     43.63519,
+     -79.40346
+    ],
+    [
+     43.64604,
+     -79.35155
+    ],
+    [
+     43.65125,
+     -79.3536
+    ],
+    [
+     43.64041,
+     -79.40551
+    ]
+   ],
+   "from": 1866,
+   "to": 1930,
+   "density": 0.45,
+   "grain_m": 110,
+   "grid_deg": 16,
+   "grow_from": [
+    43.64465331047109,
+    -79.37618901094528
+   ]
+  },
+  {
+   "name": "Port Lands industry (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     43.638,
+     -79.356
+    ],
+    [
+     43.656,
+     -79.356
+    ],
+    [
+     43.656,
+     -79.32
+    ],
+    [
+     43.638,
+     -79.32
+    ]
+   ],
+   "from": 1925,
+   "to": 1960,
+   "density": 0.4,
+   "grain_m": 140,
+   "grid_deg": 0,
+   "grow_from": [
+    43.648,
+    -79.35
+   ]
+  },
+  {
+   "name": "Postwar suburbs of Metro (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     43.581,
+     -79.542
+    ],
+    [
+     43.62,
+     -79.548
+    ],
+    [
+     43.748,
+     -79.64
+    ],
+    [
+     43.856,
+     -79.17
+    ],
+    [
+     43.8,
+     -79.115
+    ],
+    [
+     43.76,
+     -79.13
+    ],
+    [
+     43.665,
+     -79.3
+    ],
+    [
+     43.62,
+     -79.34
+    ],
+    [
+     43.605,
+     -79.43
+    ],
+    [
+     43.59,
+     -79.5
+    ]
+   ],
+   "holes": [
+    [
+     [
+      43.61988,
+      -79.45426
+     ],
+     [
+      43.67926,
+      -79.27358
+     ],
+     [
+      43.73055,
+      -79.29376
+     ],
+     [
+      43.69116,
+      -79.48232
+     ]
+    ],
+    [
+     [
+      43.66,
+      -79.359
+     ],
+     [
+      43.68,
+      -79.364
+     ],
+     [
+      43.705,
+      -79.356
+     ],
+     [
+      43.725,
+      -79.34
+     ],
+     [
+      43.723,
+      -79.333
+     ],
+     [
+      43.702,
+      -79.349
+     ],
+     [
+      43.68,
+      -79.358
+     ],
+     [
+      43.66,
+      -79.353
+     ]
+    ],
+    [
+     [
+      43.635,
+      -79.477
+     ],
+     [
+      43.67,
+      -79.498
+     ],
+     [
+      43.71,
+      -79.515
+     ],
+     [
+      43.708,
+      -79.505
+     ],
+     [
+      43.67,
+      -79.49
+     ],
+     [
+      43.636,
+      -79.47
+     ]
+    ],
+    [
+     [
+      43.606,
+      -79.4
+     ],
+     [
+      43.633,
+      -79.4
+     ],
+     [
+      43.6345,
+      -79.346
+     ],
+     [
+      43.618,
+      -79.346
+     ]
+    ],
+    [
+     [
+      43.602,
+      -79.348
+     ],
+     [
+      43.637,
+      -79.348
+     ],
+     [
+      43.64,
+      -79.32
+     ],
+     [
+      43.606,
+      -79.32
+     ]
+    ]
+   ],
+   "from": 1946,
+   "to": 1990,
+   "density": 0.5,
+   "grain_m": 170,
+   "grid_deg": 16,
+   "grow_from": [
+    43.69246689528905,
+    -79.39500989054712
+   ]
+  },
+  {
+   "name": "Financial district towers (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     43.64395,
+     -79.38495
+    ],
+    [
+     43.64632,
+     -79.37362
+    ],
+    [
+     43.65188,
+     -79.37581
+    ],
+    [
+     43.64952,
+     -79.38714
+    ]
+   ],
+   "from": 1962,
+   "to": 2020,
+   "density": 0.6,
+   "grain_m": 70,
+   "grid_deg": 16,
+   "grow_from": [
+    43.6485014427337,
+    -79.38028677117705
+   ]
+  },
+  {
+   "name": "Railway lands condos (≈)",
+   "style": "highrise",
+   "poly": [
+    [
+     43.63594,
+     -79.39988
+    ],
+    [
+     43.6403,
+     -79.379
+    ],
+    [
+     43.64439,
+     -79.38061
+    ],
+    [
+     43.64003,
+     -79.40149
+    ]
+   ],
+   "from": 1995,
+   "to": 2022,
+   "density": 0.55,
+   "grain_m": 80,
+   "grid_deg": 16,
+   "grow_from": [
+    43.64035796001465,
+    -79.38999634129125
+   ]
+  }
+ ],
+ "walls": [],
+ "bridges": [
+  {
+   "name": "Prince Edward Viaduct (≈ ends)",
+   "path": [
+    [
+     43.67466,
+     -79.36684
+    ],
+    [
+     43.6759,
+     -79.36094
+    ]
+   ],
+   "built": 1918.8,
+   "style": "iron",
+   "width_m": 26
+  }
+ ],
+ "roads": [
+  {
+   "name": "Yonge Street (≈)",
+   "path": [
+    [
+     43.64596,
+     -79.3767
+    ],
+    [
+     43.67508,
+     -79.38817
+    ],
+    [
+     43.7142,
+     -79.40356
+    ],
+    [
+     43.78,
+     -79.415
+    ]
+   ],
+   "from": 1796,
+   "kind": "road",
+   "width_m": 18,
+   "draw_s": 4
+  },
+  {
+   "name": "Kingston Road east (≈)",
+   "path": [
+    [
+     43.65224,
+     -79.36239
+    ],
+    [
+     43.65672,
+     -79.34994
+    ],
+    [
+     43.66587,
+     -79.32642
+    ],
+    [
+     43.68,
+     -79.29
+    ]
+   ],
+   "from": 1800,
+   "kind": "road",
+   "width_m": 16
+  },
+  {
+   "name": "Lakeshore railway (≈)",
+   "path": [
+    [
+     43.62578,
+     -79.43592
+    ],
+    [
+     43.63476,
+     -79.41362
+    ],
+    [
+     43.64126,
+     -79.39423
+    ],
+    [
+     43.64481,
+     -79.38038
+    ],
+    [
+     43.65145,
+     -79.36078
+    ],
+    [
+     43.65346,
+     -79.35383
+    ]
+   ],
+   "from": 1855,
+   "kind": "rail",
+   "width_m": 22
+  },
+  {
+   "name": "Northern railway (≈)",
+   "path": [
+    [
+     43.64126,
+     -79.39423
+    ],
+    [
+     43.65295,
+     -79.41303
+    ],
+    [
+     43.67704,
+     -79.43285
+    ]
+   ],
+   "from": 1853,
+   "kind": "rail",
+   "width_m": 18
+  },
+  {
+   "name": "Yonge subway (≈)",
+   "path": [
+    [
+     43.64444,
+     -79.38028
+    ],
+    [
+     43.64726,
+     -79.37722
+    ],
+    [
+     43.67247,
+     -79.38714
+    ],
+    [
+     43.70768,
+     -79.401
+    ]
+   ],
+   "from": 1954.24,
+   "kind": "rail",
+   "width_m": 14
+  },
+  {
+   "name": "Bloor–Danforth subway (≈)",
+   "path": [
+    [
+     43.656,
+     -79.46
+    ],
+    [
+     43.67466,
+     -79.36684
+    ],
+    [
+     43.6759,
+     -79.36094
+    ],
+    [
+     43.687,
+     -79.313
+    ]
+   ],
+   "from": 1966.15,
+   "kind": "rail",
+   "width_m": 14
+  },
+  {
+   "name": "Gardiner Expressway (≈)",
+   "path": [
+    [
+     43.632,
+     -79.475
+    ],
+    [
+     43.62909,
+     -79.42818
+    ],
+    [
+     43.63718,
+     -79.40295
+    ],
+    [
+     43.64333,
+     -79.3798
+    ],
+    [
+     43.65038,
+     -79.35778
+    ],
+    [
+     43.652,
+     -79.356
+    ]
+   ],
+   "from": 1958,
+   "kind": "motorway",
+   "width_m": 30,
+   "draw_s": 4
+  },
+  {
+   "name": "Don Valley Parkway (≈)",
+   "path": [
+    [
+     43.652,
+     -79.356
+    ],
+    [
+     43.68,
+     -79.361
+    ],
+    [
+     43.705,
+     -79.353
+    ],
+    [
+     43.73,
+     -79.335
+    ],
+    [
+     43.77,
+     -79.335
+    ]
+   ],
+   "from": 1961,
+   "kind": "motorway",
+   "width_m": 28,
+   "draw_s": 4
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort Rouillé",
+    "tr": "Rouillé Kalesi"
+   },
+   "at": [
+    43.63062,
+    -79.42356
+   ],
+   "built": 1750.6,
+   "removed": 1759.6,
+   "rise_s": 6,
+   "size_m": [
+    55,
+    55,
+    6
+   ],
+   "scale": 1.5,
+   "colors": {
+    "wall": "#8a6a48"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort York (1793)",
+    "tr": "York Kalesi (1793)"
+   },
+   "at": [
+    43.63889,
+    -79.40361
+   ],
+   "built": 1793.56,
+   "removed": 1813.32,
+   "rise_s": 6,
+   "size_m": [
+    160,
+    110,
+    7
+   ],
+   "scale": 1.4,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#8a6a48"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort York",
+    "tr": "York Kalesi"
+   },
+   "at": [
+    43.63889,
+    -79.40361
+   ],
+   "built": 1813.65,
+   "rise_s": 8,
+   "size_m": [
+    200,
+    130,
+    8
+   ],
+   "scale": 1.4,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#b9ad94"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "First parliament buildings (≈)",
+    "tr": "İlk meclis binaları (≈)"
+   },
+   "at": [
+    43.65122,
+    -79.36095
+   ],
+   "built": 1797,
+   "removed": 1813.4,
+   "rise_s": 6,
+   "size_m": [
+    40,
+    16,
+    9
+   ],
+   "scale": 1.4,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Second parliament building (≈)",
+    "tr": "İkinci meclis binası (≈)"
+   },
+   "at": [
+    43.65122,
+    -79.36095
+   ],
+   "built": 1819,
+   "removed": 1824.4,
+   "rise_s": 6,
+   "size_m": [
+    40,
+    16,
+    10
+   ],
+   "scale": 1.4,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "parliament",
+   "name": {
+    "en": "Third parliament building (≈)",
+    "tr": "Üçüncü meclis binası (≈)"
+   },
+   "at": [
+    43.64386,
+    -79.38492
+   ],
+   "built": 1830.5,
+   "removed": 1893.3,
+   "rise_s": 8,
+   "size_m": [
+    90,
+    30,
+    14
+   ],
+   "scale": 1.3,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "St. James' Church",
+    "tr": "St. James Kilisesi"
+   },
+   "at": [
+    43.65028,
+    -79.37389
+   ],
+   "built": 1807,
+   "removed": 1849.28,
+   "rise_s": 6,
+   "size_m": [
+    30,
+    14,
+    12
+   ],
+   "scale": 1.4,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#d9cdb5",
+    "roof": "#5a4a44"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St. James' Cathedral",
+    "tr": "St. James Katedrali"
+   },
+   "at": [
+    43.65028,
+    -79.37389
+   ],
+   "built": 1850.5,
+   "rise_s": 10,
+   "size_m": [
+    60,
+    28,
+    22
+   ],
+   "scale": 1.3,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#d6c9a8",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "St. James' spire",
+    "tr": "St. James kulesi"
+   },
+   "at": [
+    43.65002,
+    -79.37379
+   ],
+   "built": 1873,
+   "rise_s": 8,
+   "size_m": [
+    10,
+    10,
+    93
+   ],
+   "colors": {
+    "wall": "#d6c9a8",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "St. Lawrence Market (≈)",
+    "tr": "St. Lawrence Pazarı (≈)"
+   },
+   "at": [
+    43.6484,
+    -79.37043
+   ],
+   "built": 1844,
+   "rise_s": 6,
+   "size_m": [
+    90,
+    45,
+    12
+   ],
+   "scale": 1.3,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#a8573e",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "St. Lawrence Hall (≈)",
+    "tr": "St. Lawrence Salonu (≈)"
+   },
+   "at": [
+    43.65076,
+    -79.37084
+   ],
+   "built": 1850.3,
+   "rise_s": 6,
+   "size_m": [
+    40,
+    30,
+    16
+   ],
+   "scale": 1.3,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#e3dccb",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "Ontario Legislative Building",
+    "tr": "Ontario Yasama Binası"
+   },
+   "at": [
+    43.66245,
+    -79.39171
+   ],
+   "built": 1886,
+   "rise_s": 20,
+   "size_m": [
+    150,
+    70,
+    22
+   ],
+   "scale": 1.3,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#b8826e",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Old City Hall",
+    "tr": "Eski Belediye Binası"
+   },
+   "at": [
+    43.6525,
+    -79.38167
+   ],
+   "built": 1889,
+   "rise_s": 30,
+   "size_m": [
+    90,
+    85,
+    24
+   ],
+   "scale": 1.2,
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#c9a98a",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Old City Hall tower",
+    "tr": "Eski Belediye Binası kulesi"
+   },
+   "at": [
+    43.65211,
+    -79.38152
+   ],
+   "built": 1895,
+   "rise_s": 10,
+   "size_m": [
+    14,
+    14,
+    104
+   ],
+   "colors": {
+    "wall": "#c9a98a",
+    "roof": "#4f5a60"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Union Station",
+    "tr": "Union İstasyonu"
+   },
+   "at": [
+    43.64444,
+    -79.38028
+   ],
+   "built": 1914,
+   "rise_s": 40,
+   "size_m": [
+    229,
+    60,
+    30
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#e3dccb",
+    "roof": "#5f666f"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Royal York Hotel (≈ position)",
+    "tr": "Royal York Oteli (≈ konum)"
+   },
+   "at": [
+    43.6458,
+    -79.3815
+   ],
+   "built": 1928.2,
+   "rise_s": 8,
+   "size_m": [
+    70,
+    40,
+    124
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#c9b896"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Commerce Court North (≈ position)",
+    "tr": "Commerce Court North (≈ konum)"
+   },
+   "at": [
+    43.6484,
+    -79.379
+   ],
+   "built": 1930.2,
+   "rise_s": 8,
+   "size_m": [
+    35,
+    35,
+    145
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#cdbf9f"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Toronto City Hall, east tower",
+    "tr": "Toronto Belediye Binası, doğu kulesi"
+   },
+   "at": [
+    43.65365,
+    -79.38324
+   ],
+   "built": 1962,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    20,
+    100
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#d8d8d2"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Toronto City Hall, west tower",
+    "tr": "Toronto Belediye Binası, batı kulesi"
+   },
+   "at": [
+    43.65335,
+    -79.38467
+   ],
+   "built": 1962,
+   "rise_s": 10,
+   "size_m": [
+    70,
+    20,
+    80
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#d8d8d2"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "TD Bank Tower (≈ position)",
+    "tr": "TD Bank Kulesi (≈ konum)"
+   },
+   "at": [
+    43.6474,
+    -79.3812
+   ],
+   "built": 1965.5,
+   "rise_s": 10,
+   "size_m": [
+    55,
+    35,
+    223
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#2e2f33"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Commerce Court West (≈ position)",
+    "tr": "Commerce Court West (≈ konum)"
+   },
+   "at": [
+    43.64777,
+    -79.37888
+   ],
+   "built": 1970.5,
+   "rise_s": 10,
+   "size_m": [
+    50,
+    50,
+    239
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#8f9599"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "CN Tower",
+    "tr": "CN Kulesi"
+   },
+   "at": [
+    43.64256,
+    -79.38708
+   ],
+   "built": 1973.1,
+   "rise_s": 18,
+   "size_m": [
+    40,
+    40,
+    553
+   ],
+   "colors": {
+    "wall": "#cfcfc8",
+    "roof": "#9a9a94"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "First Canadian Place",
+    "tr": "First Canadian Place"
+   },
+   "at": [
+    43.64878,
+    -79.38169
+   ],
+   "built": 1973.5,
+   "rise_s": 12,
+   "size_m": [
+    55,
+    55,
+    298
+   ],
+   "rot_deg": -16,
+   "colors": {
+    "wall": "#e6e6e0"
+   }
+  },
+  {
+   "type": "dome_arena",
+   "name": {
+    "en": "SkyDome / Rogers Centre",
+    "tr": "SkyDome / Rogers Centre"
+   },
+   "at": [
+    43.64139,
+    -79.38917
+   ],
+   "built": 1986.75,
+   "rise_s": 14,
+   "size_m": [
+    210,
+    210,
+    60
+   ],
+   "colors": {
+    "wall": "#d8d8d2",
+    "roof": "#c9cdd0"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1849.27,
+   "poly": [
+    [
+     43.64993,
+     -79.37388
+    ],
+    [
+     43.65068,
+     -79.3703
+    ],
+    [
+     43.65181,
+     -79.37074
+    ],
+    [
+     43.65106,
+     -79.37432
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 4
+  },
+  {
+   "year": 1904.3,
+   "poly": [
+    [
+     43.64508,
+     -79.38178
+    ],
+    [
+     43.64598,
+     -79.37749
+    ],
+    [
+     43.64789,
+     -79.37824
+    ],
+    [
+     43.647,
+     -79.38254
+    ]
+   ],
+   "duration_s": 8,
+   "plumes": 6
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     43.633,
+     -79.43
+    ],
+    [
+     43.638,
+     -79.43
+    ],
+    [
+     43.638,
+     -79.418
+    ],
+    [
+     43.633,
+     -79.418
+    ]
+   ],
+   "from": 1813.31,
+   "to": 1813.35,
+   "count": 120
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    43.63062,
+    -79.42356
+   ],
+   "from": 1759.5,
+   "to": 1759.7,
+   "scale": 0.8
+  },
+  {
+   "at": [
+    43.63889,
+    -79.40361
+   ],
+   "from": 1813.31,
+   "to": 1813.36,
+   "scale": 1.4
+  },
+  {
+   "at": [
+    43.65122,
+    -79.36095
+   ],
+   "from": 1813.4,
+   "to": 1813.45,
+   "scale": 1.0
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Toronto Island (≈)",
+   "poly": [
+    [
+     43.606,
+     -79.4
+    ],
+    [
+     43.633,
+     -79.4
+    ],
+    [
+     43.6345,
+     -79.346
+    ],
+    [
+     43.618,
+     -79.346
+    ]
+   ]
+  },
+  {
+   "name": "Leslie Street Spit (≈)",
+   "poly": [
+    [
+     43.602,
+     -79.348
+    ],
+    [
+     43.637,
+     -79.348
+    ],
+    [
+     43.64,
+     -79.32
+    ],
+    [
+     43.606,
+     -79.32
+    ]
+   ]
+  },
+  {
+   "name": "High Park (≈)",
+   "poly": [
+    [
+     43.638,
+     -79.474
+    ],
+    [
+     43.656,
+     -79.474
+    ],
+    [
+     43.656,
+     -79.456
+    ],
+    [
+     43.638,
+     -79.456
+    ]
+   ]
+  },
+  {
+   "name": "Queen's Park (≈)",
+   "poly": [
+    [
+     43.66309,
+     -79.3983
+    ],
+    [
+     43.66383,
+     -79.39472
+    ],
+    [
+     43.66731,
+     -79.39609
+    ],
+    [
+     43.66656,
+     -79.39967
+    ]
+   ]
+  },
+  {
+   "name": "Don Valley (≈)",
+   "poly": [
+    [
+     43.66,
+     -79.359
+    ],
+    [
+     43.68,
+     -79.364
+    ],
+    [
+     43.705,
+     -79.356
+    ],
+    [
+     43.725,
+     -79.34
+    ],
+    [
+     43.723,
+     -79.333
+    ],
+    [
+     43.702,
+     -79.349
+    ],
+    [
+     43.68,
+     -79.358
+    ],
+    [
+     43.66,
+     -79.353
+    ]
+   ]
+  },
+  {
+   "name": "Humber Valley (≈)",
+   "poly": [
+    [
+     43.635,
+     -79.477
+    ],
+    [
+     43.67,
+     -79.498
+    ],
+    [
+     43.71,
+     -79.515
+    ],
+    [
+     43.708,
+     -79.505
+    ],
+    [
+     43.67,
+     -79.49
+    ],
+    [
+     43.636,
+     -79.47
+    ]
+   ]
+  },
+  {
+   "name": "Exhibition grounds / Fort Rouillé site (≈)",
+   "poly": [
+    [
+     43.63,
+     -79.428
+    ],
+    [
+     43.635,
+     -79.428
+    ],
+    [
+     43.637,
+     -79.41
+    ],
+    [
+     43.632,
+     -79.41
+    ]
+   ]
+  }
+ ],
+ "timed_water": [
+  {
+   "name": "Eastern Gap (cut by the 1858 storm)",
+   "poly": [
+    [
+     43.6295,
+     -79.356
+    ],
+    [
+     43.6372,
+     -79.356
+    ],
+    [
+     43.6372,
+     -79.349
+    ],
+    [
+     43.6295,
+     -79.349
+    ]
+   ],
+   "from": 1858.28,
+   "to": null
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "LAKE ONTARIO",
+    "tr": "ONTARIO GÖLÜ"
+   },
+   "at": [
+    43.59,
+    -79.39
+   ],
+   "kind": "water",
+   "from": 1650
+  },
+  {
+   "text": {
+    "en": "Humber River",
+    "tr": "Humber Nehri"
+   },
+   "at": [
+    43.645,
+    -79.48
+   ],
+   "kind": "water",
+   "from": 1650,
+   "to": 1760
+  },
+  {
+   "text": {
+    "en": "TORONTO CARRYING-PLACE",
+    "tr": "TORONTO TAŞIMA YOLU"
+   },
+   "at": [
+    43.69,
+    -79.5
+   ],
+   "kind": "region",
+   "from": 1650,
+   "to": 1719.9
+  },
+  {
+   "text": {
+    "en": "MISSISSAUGA COUNTRY",
+    "tr": "MISSISSAUGA TOPRAKLARI"
+   },
+   "at": [
+    43.68,
+    -79.42
+   ],
+   "kind": "region",
+   "from": 1687,
+   "to": 1719.9
+  },
+  {
+   "text": {
+    "en": "Fort Rouillé",
+    "tr": "Rouillé Kalesi"
+   },
+   "at": [
+    43.63062,
+    -79.42356
+   ],
+   "kind": "place",
+   "from": 1750,
+   "to": 1759.9
+  },
+  {
+   "text": {
+    "en": "THE PENINSULA",
+    "tr": "YARIMADA"
+   },
+   "at": [
+    43.623,
+    -79.37
+   ],
+   "kind": "region",
+   "from": 1760,
+   "to": 1857.9
+  },
+  {
+   "text": {
+    "en": "TORONTO HARBOUR",
+    "tr": "TORONTO LİMANI"
+   },
+   "at": [
+    43.6365,
+    -79.378
+   ],
+   "kind": "water",
+   "from": 1787,
+   "to": 1925
+  },
+  {
+   "text": {
+    "en": "Fort York",
+    "tr": "York Kalesi"
+   },
+   "at": [
+    43.63889,
+    -79.40361
+   ],
+   "kind": "place",
+   "from": 1793,
+   "to": 1793.6
+  },
+  {
+   "text": {
+    "en": "YORK",
+    "tr": "YORK"
+   },
+   "at": [
+    43.65379,
+    -79.36622
+   ],
+   "kind": "region",
+   "from": 1793.65,
+   "to": 1796.99
+  },
+  {
+   "text": {
+    "en": "Parliament",
+    "tr": "Meclis"
+   },
+   "at": [
+    43.65122,
+    -79.36095
+   ],
+   "kind": "place",
+   "from": 1797,
+   "to": 1806.9
+  },
+  {
+   "text": {
+    "en": "St. James'",
+    "tr": "St. James"
+   },
+   "at": [
+    43.65028,
+    -79.37389
+   ],
+   "kind": "place",
+   "from": 1807,
+   "to": 1812.9
+  },
+  {
+   "text": {
+    "en": "Fort York",
+    "tr": "York Kalesi"
+   },
+   "at": [
+    43.63889,
+    -79.40361
+   ],
+   "kind": "place",
+   "from": 1813,
+   "to": 1819.9
+  },
+  {
+   "text": {
+    "en": "Parliament",
+    "tr": "Meclis"
+   },
+   "at": [
+    43.65122,
+    -79.36095
+   ],
+   "kind": "place",
+   "from": 1820,
+   "to": 1831.9
+  },
+  {
+   "text": {
+    "en": "YONGE STREET",
+    "tr": "YONGE CADDESİ"
+   },
+   "at": [
+    43.68767,
+    -79.39545
+   ],
+   "kind": "region",
+   "from": 1837,
+   "to": 1846.9
+  },
+  {
+   "text": {
+    "en": "Market Block",
+    "tr": "Pazar Bloğu"
+   },
+   "at": [
+    43.65094,
+    -79.37221
+   ],
+   "kind": "place",
+   "from": 1849,
+   "to": 1849.5
+  },
+  {
+   "text": {
+    "en": "St. Lawrence Hall",
+    "tr": "St. Lawrence Salonu"
+   },
+   "at": [
+    43.65076,
+    -79.37084
+   ],
+   "kind": "place",
+   "from": 1849.5,
+   "to": 1852.9
+  },
+  {
+   "text": {
+    "en": "Eastern Gap",
+    "tr": "Doğu Boğazı"
+   },
+   "at": [
+    43.63,
+    -79.352
+   ],
+   "kind": "place",
+   "from": 1858,
+   "to": 1858.6
+  },
+  {
+   "text": {
+    "en": "TORONTO ISLAND",
+    "tr": "TORONTO ADASI"
+   },
+   "at": [
+    43.62,
+    -79.38
+   ],
+   "kind": "region",
+   "from": 1858.3
+  },
+  {
+   "text": {
+    "en": "ASHBRIDGE'S BAY",
+    "tr": "ASHBRIDGE KOYU"
+   },
+   "at": [
+    43.648,
+    -79.333
+   ],
+   "kind": "water",
+   "from": 1793,
+   "to": 1921
+  },
+  {
+   "text": {
+    "en": "St. James' Cathedral",
+    "tr": "St. James Katedrali"
+   },
+   "at": [
+    43.65028,
+    -79.37389
+   ],
+   "from": 1873,
+   "to": 1882.9,
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "YORKVILLE",
+    "tr": "YORKVILLE"
+   },
+   "at": [
+    43.67296,
+    -79.39379
+   ],
+   "kind": "region",
+   "from": 1883,
+   "to": 1888
+  },
+  {
+   "text": {
+    "en": "PARKDALE",
+    "tr": "PARKDALE"
+   },
+   "at": [
+    43.63778,
+    -79.4316
+   ],
+   "kind": "region",
+   "from": 1888,
+   "to": 1892.9
+  },
+  {
+   "text": {
+    "en": "Legislative Building",
+    "tr": "Yasama Binası"
+   },
+   "at": [
+    43.66245,
+    -79.39171
+   ],
+   "kind": "place",
+   "from": 1893,
+   "to": 1898.9
+  },
+  {
+   "text": {
+    "en": "Old City Hall",
+    "tr": "Eski Belediye Binası"
+   },
+   "at": [
+    43.6525,
+    -79.38167
+   ],
+   "from": 1899,
+   "to": 1903.9,
+   "lift_m": 125
+  },
+  {
+   "text": {
+    "en": "NORTH TORONTO",
+    "tr": "KUZEY TORONTO"
+   },
+   "at": [
+    43.70116,
+    -79.39843
+   ],
+   "kind": "region",
+   "from": 1905,
+   "to": 1911.9
+  },
+  {
+   "text": {
+    "en": "Don River",
+    "tr": "Don Nehri"
+   },
+   "at": [
+    43.664,
+    -79.358
+   ],
+   "kind": "place",
+   "from": 1912,
+   "to": 1917.9
+  },
+  {
+   "text": {
+    "en": "Prince Edward Viaduct",
+    "tr": "Prince Edward Viyadüğü"
+   },
+   "at": [
+    43.67528,
+    -79.36389
+   ],
+   "kind": "place",
+   "from": 1918,
+   "to": 1918.99
+  },
+  {
+   "text": {
+    "en": "PORT LANDS",
+    "tr": "PORT LANDS"
+   },
+   "at": [
+    43.64806,
+    -79.33833
+   ],
+   "kind": "region",
+   "from": 1922,
+   "to": 1926.9
+  },
+  {
+   "text": {
+    "en": "Union Station",
+    "tr": "Union İstasyonu"
+   },
+   "at": [
+    43.64444,
+    -79.38028
+   ],
+   "kind": "place",
+   "from": 1927,
+   "to": 1928.9
+  },
+  {
+   "text": {
+    "en": "Royal York",
+    "tr": "Royal York"
+   },
+   "at": [
+    43.6458,
+    -79.3815
+   ],
+   "from": 1929,
+   "to": 1938.9,
+   "lift_m": 150
+  },
+  {
+   "text": {
+    "en": "METROPOLITAN TORONTO",
+    "tr": "METROPOLİTEN TORONTO"
+   },
+   "at": [
+    43.75,
+    -79.39
+   ],
+   "kind": "region",
+   "from": 1954,
+   "to": 1954.24
+  },
+  {
+   "text": {
+    "en": "Eglinton",
+    "tr": "Eglinton"
+   },
+   "at": [
+    43.70768,
+    -79.401
+   ],
+   "kind": "place",
+   "from": 1954.24,
+   "to": 1954.7
+  },
+  {
+   "text": {
+    "en": "Union",
+    "tr": "Union"
+   },
+   "at": [
+    43.64444,
+    -79.38028
+   ],
+   "kind": "place",
+   "from": 1954.24,
+   "to": 1954.7
+  },
+  {
+   "text": {
+    "en": "New City Hall",
+    "tr": "Yeni Belediye Binası"
+   },
+   "at": [
+    43.65333,
+    -79.38389
+   ],
+   "from": 1965,
+   "to": 1966.1,
+   "lift_m": 125
+  },
+  {
+   "text": {
+    "en": "CN Tower",
+    "tr": "CN Kulesi"
+   },
+   "at": [
+    43.64256,
+    -79.38708
+   ],
+   "from": 1975.3,
+   "to": 1988.9,
+   "lift_m": 580
+  },
+  {
+   "text": {
+    "en": "First Canadian Place",
+    "tr": "First Canadian Place"
+   },
+   "at": [
+    43.64878,
+    -79.38169
+   ],
+   "from": 1975.3,
+   "to": 1976.45,
+   "lift_m": 320
+  },
+  {
+   "text": {
+    "en": "SkyDome",
+    "tr": "SkyDome"
+   },
+   "at": [
+    43.64139,
+    -79.38917
+   ],
+   "kind": "place",
+   "from": 1989,
+   "to": 1997.9
+  },
+  {
+   "text": {
+    "en": "SCARBOROUGH",
+    "tr": "SCARBOROUGH"
+   },
+   "at": [
+    43.775,
+    -79.23
+   ],
+   "kind": "region",
+   "from": 1998,
+   "to": 2009.9
+  },
+  {
+   "text": {
+    "en": "ETOBICOKE",
+    "tr": "ETOBICOKE"
+   },
+   "at": [
+    43.66,
+    -79.55
+   ],
+   "kind": "region",
+   "from": 1998,
+   "to": 2009.9
+  },
+  {
+   "text": {
+    "en": "NORTH YORK",
+    "tr": "NORTH YORK"
+   },
+   "at": [
+    43.76,
+    -79.42
+   ],
+   "kind": "region",
+   "from": 1998,
+   "to": 2009.9
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Toronto: 233 Years in 14 Minutes (3D Timelapse)",
+   "tr": "Toronto: 14 Dakikada 233 Yıl (3D Timelapse)"
+  },
+  "description": {
+   "en": "The Toronto Carrying-Place on the Humber, a French fort burned in 1759, and in 1793 the Town of York: ten blocks by the lake. Watch Toronto grow from a frontier capital burned in the War of 1812 into a Victorian railway city, rebuild after the fires of 1849 and 1904, push its shoreline into Lake Ontario on made land, and rise into Canada's largest city: Fort York, St. James' Cathedral, St. Lawrence Hall, Toronto Island, Old City Hall, Queen's Park, the Bloor Viaduct, Union Station, the CN Tower and SkyDome, with the year and the population on screen.",
+   "tr": "Humber kıyısındaki Toronto Taşıma Yolu, 1759'da yakılan bir Fransız kalesi ve 1793'te York Kasabası: göl kıyısında on blok. Toronto'nun 1812 Savaşı'nda yakılan bir sınır başkentinden Viktorya dönemi demiryolu şehrine büyümesini, 1849 ve 1904 yangınlarından sonra yeniden kurulmasını, kıyısını yapay toprakla Ontario Gölü'ne doğru ilerletmesini ve Kanada'nın en büyük şehrine dönüşmesini izleyin: York Kalesi, St. James Katedrali, St. Lawrence Salonu, Toronto Adası, Eski Belediye Binası, Queen's Park, Bloor Viyadüğü, Union İstasyonu, CN Kulesi ve SkyDome; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "toronto history",
+   "history of toronto",
+   "toronto",
+   "cn tower",
+   "fort york",
+   "town of york",
+   "3d timelapse",
+   "city evolution",
+   "how toronto grew",
+   "toronto timelapse",
+   "canadian history",
+   "urban history",
+   "war of 1812",
+   "lake ontario"
+  ],
+  "hashtags": [
+   "#Toronto",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of North America",
+   "tr": "Kuzey Amerika Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "North American cities rebuilt in 3D, from the first house to the skyline.",
+   "tr": "Kuzey Amerika şehirleri 3D olarak, ilk evden siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "Toronto",
+    "tr": "Toronto"
+   },
+   "line2": {
+    "en": "1793 → TODAY",
+    "tr": "1793 → BUGÜN"
+   },
+   "line3": {
+    "en": "From ten blocks to megacity",
+    "tr": "On bloktan dev şehre"
+   },
+   "extra": "&mood=golden&pitch=30&az=0&cam=43.6450,-79.3850,6.0"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Toronto — Wikipedia (IPFS mirror)",
+   "url": "https://bafybeiaysi4s6lnjev27ln5icwm6tueaw2vdykrtjkwiphwekaywqhcjze.ipfs.ipfs.hypha.coop/wiki/History_of_Toronto"
+  },
+  {
+   "title": "History of Toronto — Wikipedia (Kiwix mini)",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/History_of_Toronto"
+  },
+  {
+   "title": "York, Upper Canada — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/York,_Upper_Canada"
+  },
+  {
+   "title": "Old Toronto — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Old_Toronto"
+  },
+  {
+   "title": "Demographics of Toronto — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_Toronto"
+  },
+  {
+   "title": "Canada's population estimates: Subprovincial areas, July 1, 2025 — Statistics Canada, The Daily",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm"
+  },
+  {
+   "title": "Fort Rouillé — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fort_Rouill%C3%A9"
+  },
+  {
+   "title": "Toronto Purchase — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Toronto_Purchase"
+  },
+  {
+   "title": "Fort York — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fort_York"
+  },
+  {
+   "title": "Historical overview of the Legislative Building — Legislative Assembly of Ontario",
+   "url": "https://www.ola.org/en/visit-learn/parliament-government/legislative-building/historical-overview"
+  },
+  {
+   "title": "Early legislative buildings — Legislative Assembly of Ontario",
+   "url": "https://www.ola.org/en/visit-learn/about-ontarios-parliament/history-heritage/early-legislative-buildings"
+  },
+  {
+   "title": "Ontario Legislative Building — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/Ontario_Legislative_Building"
+  },
+  {
+   "title": "Province of Canada (1841–67) — The Canadian Encyclopedia",
+   "url": "https://thecanadianencyclopedia.ca/en/article/province-of-canada-1841-67"
+  },
+  {
+   "title": "Cathedral Church of St. James (Toronto) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Cathedral_Church_of_St._James_(Toronto)"
+  },
+  {
+   "title": "Great Fire of Toronto (1849) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Toronto_(1849)"
+  },
+  {
+   "title": "St. Lawrence Market — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/St._Lawrence_Market"
+  },
+  {
+   "title": "Toronto Harbour — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Toronto_Harbour"
+  },
+  {
+   "title": "Toronto Islands — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/articles/Toronto_Islands"
+  },
+  {
+   "title": "Port Lands — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Port_Lands"
+  },
+  {
+   "title": "Leslie Street Spit — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Leslie_Street_Spit"
+  },
+  {
+   "title": "Old City Hall (Toronto) — Wikipedia (IPFS mirror)",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Old_City_Hall_(Toronto).html"
+  },
+  {
+   "title": "Great Fire of Toronto (1904) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Toronto_(1904)"
+  },
+  {
+   "title": "Prince Edward Viaduct — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prince_Edward_Viaduct"
+  },
+  {
+   "title": "Union Station (Toronto) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Union_Station_(Toronto)"
+  },
+  {
+   "title": "List of tallest buildings in Toronto — Wikipedia (IPFS mirror)",
+   "url": "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/List_of_tallest_buildings_in_Toronto"
+  },
+  {
+   "title": "Line 1 Yonge–University — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Line_1_Yonge%E2%80%93University"
+  },
+  {
+   "title": "Toronto City Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Toronto_City_Hall"
+  },
+  {
+   "title": "CN Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/CN_Tower"
+  },
+  {
+   "title": "First Canadian Place — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/First_Canadian_Place"
+  },
+  {
+   "title": "Rogers Centre (SkyDome) — Wikipedia (Wikiwand)",
+   "url": "https://wikiwand.com/en/SkyDome"
+  }
+ ]
+}

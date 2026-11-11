@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1793, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Toronto", "tr": "Toronto"}, "line2": {"en": "1793 to today in 50 seconds", "tr": "50 saniyede 1793'ten bugüne"}},
+   "end": {"line2": {"en": "Toronto: 233 Years in 14 Minutes", "tr": "Toronto: 14 Dakikada 233 Yıl"}},
+   "title": {"en": "Toronto: From Ten Blocks to Megacity in 50 Seconds #shorts", "tr": "Toronto: 50 Saniyede On Bloktan Dev Şehre #shorts"},
+   "description": {"en": "27 August 1793: Simcoe founds York, ten blocks by Lake Ontario. Then the Battle of York (1813), the City of Toronto (1834, 9,252 people), the fires of 1849 and 1904, new land on the lake, the CN Tower (1976) and 2,794,356 people at the 2021 census. The year and the population stay on screen the whole way.",
+                   "tr": "27 Ağustos 1793: Simcoe, Ontario Gölü kıyısında on bloktan oluşan York'u kurar. Ardından York Muharebesi (1813), Toronto Şehri (1834, 9.252 kişi), 1849 ve 1904 yangınları, gölde yeni toprak, CN Kulesi (1976) ve 2021 sayımında 2.794.356 kişi. Yıl ve nüfus baştan sona ekranda."},
+   "tags": ["toronto history", "history of toronto", "town of york", "cn tower", "3d timelapse", "city evolution", "shorts"],
+   "hashtags": ["#Toronto", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "skyline",
+   "from_year": 1965, "to_year": 1989.5, "seconds": 48,
+   "hook": {"line1": {"en": "0 → 553 metres", "tr": "0 → 553 metre"}, "line2": {"en": "Toronto, 1965–1989", "tr": "Toronto, 1965–1989"}},
+   "end": {"line2": {"en": "Toronto: 233 Years in 14 Minutes", "tr": "Toronto: 14 Dakikada 233 Yıl"}},
+   "title": {"en": "How Toronto Built Its Skyline: 1965 to 1989 #shorts", "tr": "Toronto Silüetini Nasıl Kurdu: 1965–1989 #shorts"},
+   "description": {"en": "13 September 1965: the new City Hall opens. 1967: the 223 m TD Bank Tower. 5 June 1975: First Canadian Place, 298 m. 26 June 1976: the 553.3 m CN Tower, the world's tallest free-standing structure until 2007. 3 June 1989: SkyDome and its retractable roof.",
+                   "tr": "13 Eylül 1965: yeni Belediye Binası açılır. 1967: 223 m'lik TD Bank Kulesi. 5 Haziran 1975: 298 m'lik First Canadian Place. 26 Haziran 1976: 2007'ye dek dünyanın en yüksek serbest yapısı olan 553,3 m'lik CN Kulesi. 3 Haziran 1989: açılır kapanır çatısıyla SkyDome."},
+   "tags": ["cn tower", "toronto skyline", "toronto history", "first canadian place", "skydome", "3d timelapse", "shorts"],
+   "hashtags": ["#Toronto", "#CNTower", "#History", "#Shorts"]
+  },
+  {
+   "id": "battle-of-york",
+   "from_year": 1793, "to_year": 1834.5, "seconds": 48,
+   "hook": {"line1": {"en": "York, 1813", "tr": "York, 1813"}, "line2": {"en": "The town that became Toronto", "tr": "Toronto'ya dönüşen kasaba"}},
+   "end": {"line2": {"en": "Toronto: 233 Years in 14 Minutes", "tr": "Toronto: 14 Dakikada 233 Yıl"}},
+   "title": {"en": "The Battle of York: When Toronto Was Burned (1813) #shorts", "tr": "York Muharebesi: Toronto'nun Yakıldığı Gün (1813) #shorts"},
+   "description": {"en": "1793: soldiers build Fort York and Simcoe founds the town of York. 27 April 1813: US troops land, the retreating British blow up the fort's magazine, and the invaders burn the parliament buildings. The fort is rebuilt, and on 6 March 1834 York becomes the City of Toronto with 9,252 people.",
+                   "tr": "1793: askerler York Kalesi'ni kurar, Simcoe York kasabasını kurar. 27 Nisan 1813: ABD askerleri karaya çıkar, çekilen İngilizler kalenin cephaneliğini patlatır ve işgalciler meclis binalarını yakar. Kale yeniden kurulur; 6 Mart 1834'te York, 9.252 kişiyle Toronto Şehri olur."},
+   "tags": ["battle of york", "war of 1812", "fort york", "toronto history", "town of york", "3d timelapse", "shorts"],
+   "hashtags": ["#Toronto", "#WarOf1812", "#History", "#Shorts"]
+  }
+ ]
+}
