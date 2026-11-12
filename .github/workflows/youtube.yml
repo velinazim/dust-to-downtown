@@ -1,6 +1,7 @@
 name: YouTube actions
 # - "whoami": checks which channel the token belongs to (run once after setting the secrets)
 # - publish requests: committing requests/publish/<name>.json = {"video_ids": [...], "at": "<UTC ISO, optional>"}
+#   or {"video_ids": [...], "unschedule": true, "reason": "..."} to take scheduled videos off the schedule (stay private)
 on:
   push:
     branches: [main]
@@ -36,7 +37,7 @@ jobs:
         run: |
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
           [ -f whoami.txt ] && cp whoami.txt config/whoami.txt
-          for f in requests config/whoami.txt config/setup_result.txt config/videos.txt; do [ -e "$f" ] && git add -A "$f"; done; true
+          for f in requests uploads.json config/whoami.txt config/setup_result.txt config/videos.txt; do [ -e "$f" ] && git add -A "$f"; done; true
           git diff --cached --quiet && exit 0
           git commit -qm "youtube: ${{ github.event.inputs.action || 'publish' }}"
           for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done

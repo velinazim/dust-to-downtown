@@ -149,3 +149,9 @@ Queue reordered by measured demand (cities/queue.md). Every new episode, startin
 - `"music": {"style": "eras"}` (+ `"flavor": "ottoman"` only for Ottoman-era cities).
 - Tell the owner after upload: pin the closing question as a comment (the API cannot pin).
 Episodes already scheduled keep their old format (except Istanbul, section E).
+
+## H. Dropped old stock (12 Nov 2026)
+Owner kept Vienna (20 Nov) and Athens (24 Nov) as the old-format comparison group and dropped Berlin, Philadelphia,
+Edinburgh and Toronto (low demand / old format): their videos were taken off the schedule and stay private
+(`:dropped` keys in uploads.json). Do not re-upload or re-schedule them; their slots go to high-demand cities from
+`cities/queue.md` in the new format (section G).

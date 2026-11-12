@@ -231,13 +231,26 @@ def cmd_publish(repo):
             continue
         rq = json.load(open(os.path.join(req_dir, fn)))
         res = []
+        drop = bool(rq.get('unschedule'))   # take scheduled videos off the schedule; they stay private (never deleted)
         for vid in rq['video_ids']:
-            st = {'privacyStatus': 'private', 'publishAt': rq['at']} if rq.get('at') else {'privacyStatus': 'public'}
+            if drop:
+                st = {'privacyStatus': 'private'}
+            else:
+                st = {'privacyStatus': 'private', 'publishAt': rq['at']} if rq.get('at') else {'privacyStatus': 'public'}
             st['selfDeclaredMadeForKids'] = False
             r = requests.put(f'{API}/videos', params={'part': 'status'}, headers=H(tok, **{'Content-Type': 'application/json'}),
                              data=json.dumps({'id': vid, 'status': st}), timeout=30)
             res.append({'video_id': vid, 'ok': r.status_code == 200, 'status': st, 'error': None if r.status_code == 200 else r.text[:300]})
         rq['result'] = res
+        if drop:
+            up_path = os.path.join(repo, 'uploads.json')
+            uploads = json.load(open(up_path, encoding='utf-8'))
+            ok = {x['video_id'] for x in res if x['ok']}
+            for u in uploads:
+                if u.get('video_id') in ok and not u['key'].endswith(':dropped'):
+                    u.update({'key': u['key'] + ':dropped', 'unscheduled': True, 'was_publish_at': u.pop('publish_at', None),
+                              'reason': rq.get('reason', 'unscheduled by owner')})
+            json.dump(uploads, open(up_path, 'w', encoding='utf-8'), indent=1, ensure_ascii=False)
         json.dump(rq, open(os.path.join(done_dir, fn), 'w'), indent=1)
         os.remove(os.path.join(req_dir, fn))
         print(fn, res)
