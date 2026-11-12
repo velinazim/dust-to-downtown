@@ -51,7 +51,10 @@ def main(slug, chunks, out):
     yt = city.get('youtube', {})
     music = os.path.join(out, 'music.wav')
     os.makedirs(out, exist_ok=True)
-    subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'music.py'), str(dur + 1), music, str(city.get('seed', 7))], check=True)
+    if (city.get('music') or {}).get('style') == 'score':   # event-driven soundtrack (tools/score.py); default stays music.py
+        subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'score.py'), slug, music], check=True)
+    else:
+        subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'music.py'), str(dur + 1), music, str(city.get('seed', 7))], check=True)
     langs = sorted({os.path.basename(p).split('_')[1] for p in glob.glob(os.path.join(chunks, '**', 'chunk_*_*.mp4'), recursive=True)})
     for lang in langs:
         parts = sorted(glob.glob(os.path.join(chunks, '**', f'chunk_{lang}_*.mp4'), recursive=True), key=lambda p: int(p.rsplit('_', 1)[1].split('.')[0]))
