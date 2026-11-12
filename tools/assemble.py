@@ -32,6 +32,10 @@ def describe(city, lang, dur):
         chapters.insert(0, (0, 'Intro' if lang == 'en' else 'Giriş'))
     chapters = [c for i, c in enumerate(chapters) if i == 0 or c[0] - chapters[i - 1][0] >= 10]   # YouTube needs ≥10 s chapters
     lines = [T(yt.get('description', ''), lang).strip(), '']
+    if city.get('people_notes'):   # same question as the closing card; owner pins it as a comment too
+        q = city.get('closing_question') or {'en': f"When did your family's story in {T(city['name'], 'en')} begin?",
+                                             'tr': f"Ailenizin {T(city['name'], 'tr')} hikâyesi hangi yıl başladı?"}
+        lines += [T(q, lang) + (' Tell us in the comments.' if lang == 'en' else ' Yorumlarda anlatın.'), '']
     lines += [f'{ts(a)} {b}' for a, b in chapters]
     src = city.get('sources', [])
     if src:

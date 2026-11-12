@@ -40,6 +40,9 @@ def main(slug):
         return abs(sum(pts[i][0] * pts[i - 1][1] - pts[i - 1][0] * pts[i][1] for i in range(len(pts)))) / 2
     bil(c.get('name'), 'name'); bil(c.get('intro'), 'intro', 60)
     segs = c['segments']; total = sum(s['seconds'] for s in segs)
+    for i, lb in enumerate(c.get('labels', [])):
+        if lb.get('now') is not None: bil(lb['now'], f'labels[{i}].now', 40)
+    if c.get('closing_question'): bil(c['closing_question'], 'closing_question', 70)
     co = c.get('cold_open')
     if co:
         cs = float(co.get('seconds', 7)); total += cs
@@ -81,7 +84,7 @@ def main(slug):
     yt = c.get('youtube', {})
     bil(yt.get('title'), 'youtube.title', 100); bil(yt.get('description'), 'youtube.description')
     if len(c.get('sources', [])) < 6: Wn('fewer than 6 sources listed')
-    lo, hi = c.get('target_s', [780, 1080])   # pacing test episodes set e.g. [360, 660]
+    lo, hi = c.get('target_s', [480, 660] if c.get('cold_open') else [780, 1080])   # new format (12 Nov 2026) vs old
     if not (lo <= total <= hi) and not c.get('test'): Wn(f'duration {total}s; target is {lo}–{hi} s')
     if total > 899 and not c.get('long_ok'): Wn('over 15:00 — needs a phone-verified channel (longUploadsStatus=allowed)')
     print(f'duration {total}s ({total / 60:.1f} min), segments {len(segs)}, ≈{int(est)} buildings')

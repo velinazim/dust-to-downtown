@@ -1,6 +1,6 @@
 # Episode runbook (for Claude sessions)
 
-Channel: **Dust to Downtown** (@DustToDowntown) — silent 3D timelapses of how great cities grew, ~15 min each,
+Channel: **Dust to Downtown** (@DustToDowntown) — silent 3D timelapses of how great cities grew, 8–10 min each (new format since 12 Nov 2026, section G),
 English on screen (Turkish version rendered too, kept for a future Turkish channel). Owner speaks Turkish;
 all messages to the owner are in Turkish. Two long episodes per week (published Tue + Fri) + 2–3 vertical Shorts
 per episode on the days between. The weekdays are fixed in `config/schedule.json`; the hour of day is chosen by
@@ -39,7 +39,8 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    - population estimates per period with sources (ranges where scholars disagree);
    - coordinates [lat, lon] for every landmark (Wikipedia/OSM coordinates), wall gates/corners, bridge ends;
    - the extent of the built-up area per era (from historical maps descriptions) → district polygons.
-3. Write `cities/<slug>/city.json` following `CITY_SPEC.md` (target 13–16 min). Write the subtitles yourself in
+3. Write `cities/<slug>/city.json` following `CITY_SPEC.md` (**new format since 12 Nov 2026**, see section G: 8–10 min,
+   cold open, thumb v2, people notes, era music). Write the subtitles yourself in
    plain English and natural Turkish (not word-for-word). Fill `youtube` and `sources`.
 3b. **Shorts.** Write `cities/<slug>/shorts.json` (format and example: `cities/london/shorts.json`, docs at the top of
    `tools/shorts.py`): **3 Shorts**, strongest first — (1) `whole`: the whole timeline in 50 s, (2) and (3) the two
@@ -123,8 +124,8 @@ as "İlgili video" (the owner sets it by hand), and new long videos need their p
 Competitor check: the 3D city-timelapse videos with millions of views run 3–10 min, open on the finished city, then
 go back in time, and use daylight thumbnails with a huge city name and "No AI". Test episode: **Istanbul** cut to ~9 min
 with `cold_open`, thumb style v2 and "(3D Timelapse, No AI)" in the title (CITY_SPEC "cold_open"). Its city.json was
-edited directly (retime + fields): **do not re-run cities/istanbul/_build.py** (it would undo the test). Other cities keep the
-13–16 min format until the owner decides from Istanbul's numbers (CTR, average view duration) vs. Vienna/Athens.
+edited directly (retime + fields): **do not re-run cities/istanbul/_build.py** (it would undo the test). Already-scheduled cities keep
+the 13–16 min format; compare Istanbul's numbers (CTR, average view duration) with Vienna/Athens and tell the owner.
 A replaced long episode now also re-points its Shorts' "Full episode" link (yt_api.repoint_shorts); the owner still
 has to pick the new video as "İlgili video" for those Shorts and re-pin the comment in Studio.
 
@@ -135,3 +136,15 @@ darbuka in Hijaz or European baroque pluck → industrial piano + clock → mode
 `"music": {"style": "eras"}` (+ `"flavor": "ottoman"` for Istanbul-like cities). NOT enabled anywhere yet: it waits until
 the Istanbul pacing test (section E) has a week of data, so the two changes can be judged separately. Then it is tested
 on the next new episode; ask the owner before turning it on for all cities.
+
+## G. Format for every NEW episode (owner approved 12 Nov 2026)
+
+Queue reordered by measured demand (cities/queue.md). Every new episode, starting with New York:
+- `"cold_open"` (7 s, kicker "<N> years · from <first> to <today>"), `"intro_seconds": 3`, length 480–600 s.
+- `youtube.title`: "<City>: <N> Years in <M> Minutes (3D Timelapse, No AI)"; `youtube.thumb.style: "v2"`,
+  `line2` "<first year> → TODAY", daylight `extra` (no mood=golden), camera on the most recognisable core.
+- `"people_notes": true` + 8–12 `labels[].now` "today: …" lines + today's districts as labels (CITY_SPEC "people notes").
+  Research step 2 also collects these then→now pairs with sources.
+- `"music": {"style": "eras"}` (+ `"flavor": "ottoman"` only for Ottoman-era cities).
+- Tell the owner after upload: pin the closing question as a comment (the API cannot pin).
+Episodes already scheduled keep their old format (except Istanbul, section E).

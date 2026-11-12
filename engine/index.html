@@ -93,6 +93,20 @@
   .lab.place{font-family:Cinzel;font-weight:600;font-size:9.5px;letter-spacing:.22em;transform:translate(-50%,-100%)}
   .lab.region{font-family:Cinzel;font-weight:600;font-size:11px;letter-spacing:.4em;opacity:.9}
   .lab.place .dot{display:block;width:5px;height:5px;border-radius:50%;background:#f3c96b;margin:5px auto 0;box-shadow:0 0 6px rgba(243,201,107,.9)}
+  /* "then → today" line under a label (labels[].now) */
+  .lab .now{display:block;font-family:'Cormorant Garamond';font-style:italic;font-weight:700;font-size:15px;letter-spacing:.02em;color:#ffd84a;margin-top:2px;text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 10px rgba(0,0,0,.7)}
+  .lab.water .now{font-size:15px;letter-spacing:.02em}
+  html.short .lab .now{font-size:17px}
+  /* people notes (city.json "people_notes": true): generation markers and the closing question */
+  #gen,#ask{position:absolute;left:0;right:0;top:30px;text-align:center;display:none}
+  #gen .k,#ask .k{font-family:Cinzel;font-weight:600;font-size:10px;letter-spacing:.32em;opacity:.85}
+  #gen .m{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:22px;margin-top:3px}
+  #gen .p{font-family:'Cormorant Garamond';font-weight:700;font-size:18px;color:#ffd84a;margin-top:2px;text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 10px rgba(0,0,0,.7)}
+  #ask{top:auto;bottom:0;top:0;display:none;background:radial-gradient(ellipse at center,rgba(0,0,0,.42),rgba(0,0,0,0) 65%)}
+  #ask .in{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%)}
+  #ask .q{font-family:Cinzel;font-weight:700;font-size:34px;letter-spacing:.05em;line-height:1.15;padding:0 120px}
+  #ask .c{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:22px;color:#f3c96b;margin-top:10px}
+  html.short #gen,html.short #ask,html.thumb #gen,html.thumb #ask{display:none !important}
 </style>
 <script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script>
 </head>
@@ -109,6 +123,8 @@
   <div id="endc" class="shadow"><div class="m"></div><div class="s"></div><div class="c"></div></div>
   <div id="thumb" class="shadow"><div class="shade"></div><div class="txt"><div class="l1"></div><div class="l2"></div><div class="l3"></div></div></div>
   <div id="cold" class="shadow"><div class="k"></div><div class="b"><div class="p"></div><div class="n"></div></div></div>
+  <div id="gen" class="shadow"><div class="k"></div><div class="m"></div><div class="p"></div></div>
+  <div id="ask" class="shadow"><div class="in"><div class="q"></div><div class="c"></div></div></div>
   <div id="intro" class="shadow"><div class="bg"></div><div class="name"></div><div class="line"></div><div class="tag"></div></div>
 </div>
 <script type="module">
@@ -280,7 +296,8 @@ function setupOverlay() {
   const box = document.getElementById('labels');
   for (const lb of LABELS) {
     const el = document.createElement('div'); el.className = 'lab shadow ' + (lb.kind || 'place');
-    el.innerHTML = T(lb.text) + ((lb.kind || 'place') === 'place' && lb.dot !== false ? '<span class="dot"></span>' : '');
+    el.innerHTML = T(lb.text) + (lb.now ? '<span class="now">' + (LANG === 'tr' ? 'bugün: ' : 'today: ') + T(lb.now) + '</span>' : '')
+      + ((lb.kind || 'place') === 'place' && lb.dot !== false ? '<span class="dot"></span>' : '');
     box.appendChild(el); lb.el = el;
     lb.y3 = lb.kind === 'water' ? 0 : heightAt(lb.xz[0], lb.xz[1]) + (lb.lift_m ?? 20) / 1000;
     lb.ta = tOf(lb.from ?? -1e9); lb.tb = lb.to == null ? 1e9 : tOf(lb.to);
@@ -299,6 +316,7 @@ function setupCold() {
 function coldOverlay(T) {
   const m = coMap(T); CAM_FORCE = m.cam; placeCamera(m.ep);
   for (const id of ['br', 'tl', 'tr', 'wm']) document.getElementById(id).style.opacity = 0;
+  for (const id of ['gen', 'ask']) document.getElementById(id).style.display = 'none';
   document.getElementById('intro').style.display = 'none';
   for (const lb of LABELS) lb.el.style.display = 'none';
   const cold = document.getElementById('cold'), op = sstep(0.1, 0.7, T) * (1 - sstep(CO_HOLD - 0.6, CO_HOLD - 0.05, T));
@@ -311,10 +329,45 @@ function coldOverlay(T) {
   bl.querySelector('.pre').style.display = pre ? '' : 'none'; bl.querySelector('.post').style.display = post ? '' : 'none';
   bl.style.opacity = rw;
 }
+// ---- people notes: "born around 1925 → today's great-grandparents" markers + a closing question in the last seconds
+const PN = !SHORT && city.people_notes;
+const GENS = [];
+if (PN) {
+  const G3 = [[1925, { en: "Today's great-grandparents were born around now", tr: 'Bugünün büyük dedeleri ve nineleri bu yıllarda doğdu' }],
+              [1955, { en: "Today's grandparents were born around now", tr: 'Bugünün dedeleri ve nineleri bu yıllarda doğdu' }],
+              [1985, { en: "Today's parents were born around now", tr: 'Bugünün anne babaları bu yıllarda doğdu' }]];
+  for (const [y, msg] of G3) { const t = tOf(y); if (t > 0 && t < DUR - 20) GENS.push({ y, t, msg }); }
+}
+const ASK_S = 7;
+function setupPeople() {
+  if (!PN) return;
+  const up = s => s.toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
+  const q = city.closing_question || { en: `When did your family's story in ${T(city.name)} begin?`, tr: `Ailenizin ${T(city.name)} hikâyesi hangi yıl başladı?` };
+  LANG_SET('#ask .q', up(T(q))); LANG_SET('#ask .c', LANG === 'tr' ? 'Yorumlarda yıl ve hikâyeyi yazın' : 'Tell us the year — and the story — in the comments');
+}
+function LANG_SET(sel, txt) { document.querySelector(sel).textContent = txt; }
+function renderPeople(t) {
+  if (!PN) return;
+  const L = HUD[LANG];
+  const g = GENS.find(x => t >= x.t - 0.2 && t < x.t + 5.5), gen = document.getElementById('gen');
+  if (g) {
+    const op = sstep(g.t, g.t + 0.6, t) * (1 - sstep(g.t + 4.8, g.t + 5.5, t));
+    gen.style.display = op > 0.002 ? 'block' : 'none'; gen.style.opacity = op;
+    gen.querySelector('.k').textContent = String(g.y);
+    gen.querySelector('.m').textContent = T(g.msg);
+    const p = popAt(g.t + 0.01); gen.querySelector('.p').textContent = p ? '≈ ' + fmtPop(p, L) + (LANG === 'tr' ? ' kişi yaşıyordu' : ' people lived here') : '';
+  } else gen.style.display = 'none';
+  const ask = document.getElementById('ask'), aop = sstep(DUR - ASK_S, DUR - ASK_S + 0.8, t);
+  ask.style.display = aop > 0.002 ? 'block' : 'none'; ask.style.opacity = aop;
+  if (aop > 0.002) {   // the question gets the screen to itself
+    document.getElementById('br').style.opacity = (1 - aop) * +document.getElementById('br').style.opacity;
+    for (const lb of LABELS) if (lb.el.style.display !== 'none') lb.el.style.opacity = (1 - aop) * +lb.el.style.opacity;
+  }
+}
 function renderOverlayOut(T) {
   if (CO && T < COS) return coldOverlay(T);
   CAM_FORCE = null; if (CO) document.getElementById('cold').style.display = 'none';
-  renderOverlay(T - COS);
+  renderOverlay(T - COS); renderPeople(T - COS);
 }
 function renderOverlay(t) {
   const L = HUD[LANG]; placeCamera(t);
@@ -364,7 +417,7 @@ function renderOverlay(t) {
 if (MODE === 'overlay') {
   for (const f of ['700 20px Cinzel', '600 20px Cinzel', '600 20px "Cormorant Garamond"', 'italic 500 20px "Cormorant Garamond"', '500 20px "Cormorant Garamond"']) await document.fonts.load(f, 'İŞĞÜÇÖıAa1');
   await document.fonts.ready;
-  setupOverlay(); setupCold();
+  setupOverlay(); setupCold(); setupPeople();
   if (Q.get('thumb') === '1') {
     document.documentElement.classList.add('thumb');
     const th = (city.youtube && city.youtube.thumb) || {};

@@ -1,7 +1,7 @@
 # Episode queue
 
-Order mixes cities with big audiences in high-paying ad markets (US, UK, Canada, Australia, Germany) and
-ancient cities everyone is curious about. Owner can reorder any time.
+Order (12 Nov 2026, owner approved): by demand measured on YouTube — the most-viewed 3D city timelapse of each city
+(D:/Claude/founder/data/city-demand-2026-11-12.md on the owner's PC). Low-demand cities moved to the end. Owner can reorder any time.
 
 - [x] london — London (Londinium 47 AD → today)
 - [x] rome — Rome (753 BC → today)
@@ -15,11 +15,18 @@ ancient cities everyone is curious about. Owner can reorder any time.
 - [x] philadelphia — Philadelphia (1682 grid → today)
 - [x] edinburgh — Edinburgh (castle rock → New Town → today)
 - [x] toronto — Toronto (Fort York → today)
-- [ ] sydney — Sydney (1788 → today)
-- [ ] prague — Prague (castle → Charles Bridge → today)
-- [ ] barcelona — Barcelona (Barcino → Eixample → today)
 - [ ] new-york — New York (New Amsterdam → today)
+- [ ] los-angeles — Los Angeles (El Pueblo 1781 → today)
+- [ ] prague — Prague (castle → Charles Bridge → today)
+- [ ] munich — Munich (1158 → today; best video is 3 years old)
+- [ ] seoul — Seoul (Hanyang 1394 → today)
+- [ ] san-francisco — San Francisco (Mission 1776 → 1906 fire → today)
+- [ ] mexico-city — Mexico City (Tenochtitlan → today)
+- [ ] las-vegas — Las Vegas (1905 → today)
+- [ ] lisbon — Lisbon (Olisipo → 1755 earthquake → today)
+- [ ] tokyo — Tokyo (Edo → today)
+- [ ] barcelona — Barcelona (Barcino → Eixample → today)
+- [ ] sydney — Sydney (1788 → today)
 - [ ] chicago — Chicago (1833 → Great Fire 1871 → today)
 - [ ] venice — Venice (lagoon islands → today)
-- [ ] mexico-city — Mexico City (Tenochtitlan → today)
 - [ ] washington — Washington DC (L'Enfant plan → today)

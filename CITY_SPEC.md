@@ -82,7 +82,8 @@ Played in order. Each segment = a span of years shown over `seconds`. Years may 
  "chapter": {"en": "Roman Londinium", "tr": "Roma Londinium'u"}}
 ```
 
-- Target total **13–16 minutes (780–960 s)**, 35–50 segments, titled segments 14–30 s each.
+- Target total **8–10 minutes (480–600 s) for new episodes** (since 12 Nov 2026; older ones ran 13–16 min), 35–50 segments,
+  titled segments 9–14 s each.
   Quiet "time passes" segments without `title` (5–10 s) between big events are good pacing.
 - `title` ≤ 34 characters, `sub` ≤ 95 characters, one concrete fact with a date.
 - `population`: [start, end] of the segment, or one number. Give it on **every** segment that has a sourced estimate
@@ -154,6 +155,23 @@ Landmarks are drawn ~1.3–1.6× real size (`scale`) so they read at a distance;
 
 Label kinds: water (italic, on the water), place (dot + name), region (spaced capitals, no dot).
 Show only a few labels at a time; place labels for the landmark the current title is about.
+
+## people notes — "my grandmother was born here" (since 12 Nov 2026, every new episode)
+
+```json
+"people_notes": true,
+"closing_question": {"en": "When did your family's story in New York begin?", "tr": "…"},   // optional, this is the default
+"labels": [{"text": {"en": "Hippodrome", "tr": "Hipodrom"}, "now": {"en": "Sultanahmet Square", "tr": "Sultanahmet Meydanı"}, "at": [...], "from": 204, "to": 323}]
+```
+
+- `people_notes`: from 1925/1955/1985 (if inside the timeline) a 5 s note at the top: "Today's great-grandparents /
+  grandparents / parents were born around now · ≈ N people lived here"; in the last 7 s the closing question fills the
+  screen. The question also opens the YouTube description; the owner pins it as a comment.
+- `labels[].now` (≤ 40 chars): a gold "today: …" line under a label. Give **8–12** of them per episode — what a vanished
+  wall, harbour, gate, market or field is called/used for today (e.g. New Amsterdam's wall → Wall Street). Each must be
+  in research.md with its source. These are what viewers recognise and comment on.
+- Name the **districts/neighbourhoods** viewers live in today as place labels from the year they were founded or
+  absorbed (with `now` when the old name differs). 
 
 ## youtube
 
