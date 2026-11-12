@@ -7,7 +7,8 @@ per episode on the days between. The weekdays are fixed in `config/schedule.json
 `tools/best_slot.py` from where the audience lives (weekly Action "Best publish time", reason in `config/best_slot.md`;
 currently 23:30 UTC = 02:30 Istanbul). Videos already scheduled keep their time. Never edit the hour by hand unless the
 owner asks for a fixed time; then set `"fixed": true` in the file and the script leaves it alone.
-Episodes are made ahead of time (one per day, up to 8 in stock) and wait on YouTube as private + scheduled.
+Episodes are made just ahead of time (at most 2 in stock, owner 12 Nov 2026: so a change reaches the channel within
+a week instead of having to delete weeks of stock) and wait on YouTube as private + scheduled.
 
 The owner cares most about **accuracy and quality**. A slower, correct episode beats a fast, wrong one.
 
@@ -25,7 +26,7 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    "Video kontrolü: <şehir> — 16 kare incelendi, <bulunan/düzeltilen> " or "…sorun yok." Never say an episode is done
    before this check.
 1. `git pull`. **Stock check:** count long videos in `uploads.json` whose `publish_at` is in the future, plus cities
-   whose `render.json` exists but are not yet in `uploads.json`. If that is 8 or more (4 weeks of stock), make nothing:
+   whose `render.json` exists but are not yet in `uploads.json`. If that is 2 or more (about one week of stock), make nothing:
    just report to the owner "stok dolu (N bölüm hazır, son yayın <tarih>)" and stop.
    Otherwise pick the first unchecked city in `cities/queue.md` (or the city the owner named).
    Skip a city whose folder already has `status.json` with `rendered`. If the city folder already has `city.json`,
