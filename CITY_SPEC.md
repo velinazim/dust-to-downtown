@@ -54,6 +54,20 @@ Years: negative = BC, positive = AD.
 - `geo_edits`: historical water/land the modern map lacks or has extra (filled harbours, reclaimed land):
   `{"op": "water"|"land", "poly": [[lat,lon],...]}`.
 
+## cold_open (optional) — the finished city first
+
+```json
+"cold_open": {"seconds": 7, "hold": 4.5, "kicker": {"en": "2,700 years · from Byzantion to megacity", "tr": "…"},
+              "camera": {"center": [41.02, 28.975], "dist_km": 14}}
+```
+
+Placed before the timeline: `hold` s on today's city (slow push-in, "<CITY> TODAY" + the last population figure,
+`kicker` on top), then a fast rewind (year counter running backwards) to the first segment's camera. Every chapter
+and the total length shift by `seconds`; Shorts ignore it. With a cold open keep `intro_seconds` ≈ 3.
+Optional `"target_s": [360, 660]` changes the validator's length target; `tools/retime.py <slug> <seconds>` scales a
+finished episode to a new length. `youtube.thumb.style = "v2"`: `line2` on top (e.g. "667 BC → TODAY"), huge
+`line1` at the bottom; use a daylight `extra` (no `mood=golden`).
+
 ## segments — the timeline (this is the script)
 
 Played in order. Each segment = a span of years shown over `seconds`. Years may jump between segments.

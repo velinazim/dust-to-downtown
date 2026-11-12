@@ -22,7 +22,8 @@ def T(o, lang):
 
 def describe(city, lang, dur):
     yt = city.get('youtube', {})
-    t, chapters = 0.0, []
+    co = city.get('cold_open')
+    t, chapters = (float(co.get('seconds', 7)) if co else 0.0), []   # the cold open shifts every chapter
     for s in city['segments']:
         if s.get('chapter'):
             chapters.append((t, T(s['chapter'], lang)))
@@ -45,7 +46,8 @@ def describe(city, lang, dur):
 
 def main(slug, chunks, out):
     city = json.load(open(os.path.join(ROOT, 'cities', slug, 'city.json')))
-    dur = sum(s['seconds'] for s in city['segments'])
+    co = city.get('cold_open')
+    dur = sum(s['seconds'] for s in city['segments']) + (float(co.get('seconds', 7)) if co else 0.0)
     yt = city.get('youtube', {})
     music = os.path.join(out, 'music.wav')
     os.makedirs(out, exist_ok=True)

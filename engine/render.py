@@ -42,7 +42,8 @@ def open_page(p, port, slug, mode, lang, w, h, extra=""):
 
 def duration(slug):
     c = json.load(open(os.path.join(ROOT, "cities", slug, "city.json")))
-    return sum(s["seconds"] for s in c["segments"])
+    co = c.get("cold_open")   # extra seconds before the timeline (engine: cold open)
+    return sum(s["seconds"] for s in c["segments"]) + (float(co.get("seconds", 7)) if co else 0.0)
 
 
 def main():

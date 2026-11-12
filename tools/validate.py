@@ -40,6 +40,12 @@ def main(slug):
         return abs(sum(pts[i][0] * pts[i - 1][1] - pts[i - 1][0] * pts[i][1] for i in range(len(pts)))) / 2
     bil(c.get('name'), 'name'); bil(c.get('intro'), 'intro', 60)
     segs = c['segments']; total = sum(s['seconds'] for s in segs)
+    co = c.get('cold_open')
+    if co:
+        cs = float(co.get('seconds', 7)); total += cs
+        if not 4 <= cs <= 12: Wn(f'cold_open.seconds {cs}: keep it 4-12 s')
+        if co.get('kicker'): bil(co['kicker'], 'cold_open.kicker', 60)
+        if co.get('camera'): inside(co['camera']['center'], 'cold_open.camera')
     prev_to = -1e9
     for i, s in enumerate(segs):
         w = f'segments[{i}]'
@@ -75,7 +81,8 @@ def main(slug):
     yt = c.get('youtube', {})
     bil(yt.get('title'), 'youtube.title', 100); bil(yt.get('description'), 'youtube.description')
     if len(c.get('sources', [])) < 6: Wn('fewer than 6 sources listed')
-    if not (780 <= total <= 1080) and not c.get('test'): Wn(f'duration {total}s; target is 13–18 min (780–1080 s)')
+    lo, hi = c.get('target_s', [780, 1080])   # pacing test episodes set e.g. [360, 660]
+    if not (lo <= total <= hi) and not c.get('test'): Wn(f'duration {total}s; target is {lo}–{hi} s')
     if total > 899 and not c.get('long_ok'): Wn('over 15:00 — needs a phone-verified channel (longUploadsStatus=allowed)')
     print(f'duration {total}s ({total / 60:.1f} min), segments {len(segs)}, ≈{int(est)} buildings')
     if est > 70000: E(f'≈{int(est)} buildings is too many (limit ~70k); use larger grain_m for modern areas')

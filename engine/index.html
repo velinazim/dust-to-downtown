@@ -45,6 +45,19 @@
   #thumb .l2{font-family:Cinzel;font-weight:700;font-size:44px;letter-spacing:.08em;color:#f3c96b;margin-top:14px}
   #thumb .l3{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:30px;color:#fff;margin-top:8px}
   html.thumb #ov > *:not(#thumb){display:none !important}
+  /* thumbnail v2 (city.json youtube.thumb.style = "v2"): daylight scene, time promise on top, huge city name at the bottom */
+  html.thumb2 #thumb .shade{background:linear-gradient(to bottom,rgba(0,0,0,.55),rgba(0,0,0,0) 30%,rgba(0,0,0,0) 55%,rgba(0,0,0,.6))}
+  html.thumb2 #thumb .txt{left:0;right:0;top:0;bottom:0;transform:none}
+  html.thumb2 #thumb .l2{position:absolute;left:0;right:0;top:34px;text-align:center;font-size:66px;letter-spacing:.04em;color:#ffd84a;margin:0;text-shadow:0 3px 6px rgba(0,0,0,.8),0 0 22px rgba(0,0,0,.5)}
+  html.thumb2 #thumb .l1{position:absolute;left:0;right:0;bottom:34px;text-align:center;font-size:150px;letter-spacing:.03em;text-shadow:0 4px 8px rgba(0,0,0,.85),0 0 30px rgba(0,0,0,.5)}
+  html.thumb2 #thumb .l3{display:none}
+  /* cold open (city.json "cold_open"): the finished city first, then a rewind to the empty land */
+  #cold{position:absolute;inset:0;display:none}
+  #cold .k{position:absolute;left:0;right:0;top:40px;text-align:center;font-family:Cinzel;font-weight:700;font-size:21px;letter-spacing:.22em}
+  #cold .b{position:absolute;left:44px;bottom:40px}
+  #cold .p{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:24px;color:#f3c96b}
+  #cold .n{font-family:Cinzel;font-weight:700;font-size:60px;letter-spacing:.06em;line-height:1}
+  html.short #cold,html.thumb #cold{display:none !important}
   /* ---- vertical Shorts (720x1280 base, scaled to W). Keeps clear of the Shorts UI: top ~110 px, bottom ~300 px, right ~90 px */
   #hook,#endc{display:none}
   html.short #ov{width:720px;height:1280px}
@@ -95,6 +108,7 @@
   <div id="hook" class="shadow"><div class="h1"></div><div class="h2"></div></div>
   <div id="endc" class="shadow"><div class="m"></div><div class="s"></div><div class="c"></div></div>
   <div id="thumb" class="shadow"><div class="shade"></div><div class="txt"><div class="l1"></div><div class="l2"></div><div class="l3"></div></div></div>
+  <div id="cold" class="shadow"><div class="k"></div><div class="b"><div class="p"></div><div class="n"></div></div></div>
   <div id="intro" class="shadow"><div class="bg"></div><div class="name"></div><div class="line"></div><div class="tag"></div></div>
 </div>
 <script type="module">
@@ -186,8 +200,14 @@ function tOf(y) {
   }
   return DUR + 1;
 }
-window.DURATION = DUR;
-window.CHAPTERS = SEG.filter(s => s.chapter).map(s => ({ t: s.t0, title: s.chapter }));
+// Cold open: COS output seconds placed BEFORE the timeline. First the finished city (CO_HOLD s, slow push-in), then a
+// fast rewind of the whole history back to the empty land; the timeline then starts as before (episode time 0).
+// Output time T maps to episode time: T < COS → special, else T - COS. Shorts never use it.
+const CO = SHORT ? null : (city.cold_open || null);
+const COS = CO ? (CO.seconds ?? 7) : 0;
+const CO_HOLD = CO ? (CO.hold ?? COS - 2.5) : 0;
+window.DURATION = DUR + COS;
+window.CHAPTERS = SEG.filter(s => s.chapter).map(s => ({ t: s.t0 + COS, title: s.chapter }));
 
 // ------------------------------------------------------------ camera
 const VIEW = city.view || {};
@@ -208,9 +228,18 @@ const camera = new THREE.PerspectiveCamera(+(Q.get('fov') || (SHORT ? (SHORT.fov
 const DK = SHORT ? (SHORT.dist_mult ?? 1.35) : 1;   // a tall frame is narrow: pull back so the city still fits sideways
 const CAM_MAX = Math.max(...CAMK.map(k => k[3]));
 const CAM_OVR = Q.get('cam') ? Q.get('cam').split(',').map(Number) : null; // lat,lon,dist_km
+let CAM_FORCE = null;   // [x, z, d] set by the cold open
+function coMap(T) {
+  if (!CO || T >= COS) return { ep: T - COS, cam: null, phase: 'main' };
+  const end = camAt(DUR), c0 = CO.camera ? [...ll(CO.camera.center), CO.camera.dist_km] : end;
+  if (T < CO_HOLD) { const u = clamp(T / Math.max(0.01, CO_HOLD), 0, 1); return { ep: DUR, cam: [c0[0], c0[1], c0[2] * (1.12 - 0.12 * sstep(0, 1, u))], phase: 'hold' }; }
+  const u = sstep(0, 1, clamp((T - CO_HOLD) / Math.max(0.01, COS - CO_HOLD), 0, 1)), s = camAt(0);
+  return { ep: DUR * (1 - u), cam: [lerp(c0[0], s[0], u), lerp(c0[1], s[1], u), Math.exp(lerp(Math.log(c0[2]), Math.log(s[2]), u))], phase: 'rewind' };
+}
 function placeCamera(t) {
   let [x, z, d] = camAt(t);
-  if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; } else if (SHORT) d = Math.min(d * DK, Math.max(d, CAM_MAX * 0.8));
+  if (CAM_FORCE) [x, z, d] = CAM_FORCE;
+  else if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; } else if (SHORT) d = Math.min(d * DK, Math.max(d, CAM_MAX * 0.8));
   const target = new THREE.Vector3(x, 0.05, z);
   camera.position.copy(target).addScaledVector(VIEW_DIR, d);
   camera.near = Math.max(0.01, d * 0.01); camera.far = d * 6 + 20;
@@ -258,6 +287,35 @@ function setupOverlay() {
   }
 }
 const INTRO = city.intro_seconds ?? 4.5;
+function setupCold() {
+  if (!CO) return;
+  const up = s => s.toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
+  const name = up(T(city.name));
+  document.querySelector('#cold .k').textContent = up(T(CO.kicker || ''));
+  document.querySelector('#cold .n').textContent = CO.line ? up(T(CO.line)) : (LANG === 'tr' ? 'BUGÜN ' + name : name + ' TODAY');
+  const lp = SEG[SEG.length - 1].population, p = Array.isArray(lp) ? lp[1] : lp;
+  document.querySelector('#cold .p').textContent = p ? '≈ ' + fmtPop(p, HUD[LANG]) + (LANG === 'tr' ? ' kişi' : ' people') : '';
+}
+function coldOverlay(T) {
+  const m = coMap(T); CAM_FORCE = m.cam; placeCamera(m.ep);
+  for (const id of ['br', 'tl', 'tr', 'wm']) document.getElementById(id).style.opacity = 0;
+  document.getElementById('intro').style.display = 'none';
+  for (const lb of LABELS) lb.el.style.display = 'none';
+  const cold = document.getElementById('cold'), op = sstep(0.1, 0.7, T) * (1 - sstep(CO_HOLD - 0.6, CO_HOLD - 0.05, T));
+  cold.style.display = op > 0.002 ? 'block' : 'none'; cold.style.opacity = op;
+  // during the rewind the year counter runs backwards to the first year
+  const rw = sstep(CO_HOLD - 0.3, CO_HOLD + 0.2, T) * (1 - sstep(COS - 0.45, COS - 0.05, T));
+  const yv = yearAt(Math.max(0, m.ep)); const [pre, yr, post] = HUD[LANG].year(yv < 0 ? Math.ceil(yv) : Math.floor(yv));
+  const bl = document.getElementById('bl');
+  bl.querySelector('.pre').textContent = pre; bl.querySelector('.yr').textContent = yr; bl.querySelector('.post').textContent = post;
+  bl.querySelector('.pre').style.display = pre ? '' : 'none'; bl.querySelector('.post').style.display = post ? '' : 'none';
+  bl.style.opacity = rw;
+}
+function renderOverlayOut(T) {
+  if (CO && T < COS) return coldOverlay(T);
+  CAM_FORCE = null; if (CO) document.getElementById('cold').style.display = 'none';
+  renderOverlay(T - COS);
+}
 function renderOverlay(t) {
   const L = HUD[LANG]; placeCamera(t);
   const s = segAt(t), idx = SEG.indexOf(s), last = idx === SEG.length - 1;
@@ -306,16 +364,17 @@ function renderOverlay(t) {
 if (MODE === 'overlay') {
   for (const f of ['700 20px Cinzel', '600 20px Cinzel', '600 20px "Cormorant Garamond"', 'italic 500 20px "Cormorant Garamond"', '500 20px "Cormorant Garamond"']) await document.fonts.load(f, 'İŞĞÜÇÖıAa1');
   await document.fonts.ready;
-  setupOverlay();
+  setupOverlay(); setupCold();
   if (Q.get('thumb') === '1') {
     document.documentElement.classList.add('thumb');
     const th = (city.youtube && city.youtube.thumb) || {};
+    if (th.style === 'v2') document.documentElement.classList.add('thumb2');
     document.querySelector('#thumb .l1').textContent = T(th.line1 || city.name).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
     document.querySelector('#thumb .l2').textContent = T(th.line2 || '');
     document.querySelector('#thumb .l3').textContent = T(th.line3 || '');
   }
-  window.renderAt = t => { renderOverlay(t); return true; };
-  renderOverlay(0);
+  window.renderAt = t => { renderOverlayOut(t); return true; };
+  renderOverlayOut(0);
   window.ready = true;
 } else {
   buildScene();
@@ -667,9 +726,9 @@ function buildScene() {
     sun.position.set(target.x - d * 0.55, d * 0.8 + 2, target.z + d * 0.45); sun.target.position.copy(target); sun.target.updateMatrixWorld();
     renderer.render(scene, camera);
   }
-  window.renderAt = t => { update(t); return true; };
-  window.stats = { buildings: B.length, trees: TR.length, pieces: pieces.length, tents: TENTS.length, landmarks: LMS.length, duration: DUR };
-  update(0);
+  window.renderAt = T => { const m = coMap(T); CAM_FORCE = m.cam; update(m.ep); return true; };
+  window.stats = { buildings: B.length, trees: TR.length, pieces: pieces.length, tents: TENTS.length, landmarks: LMS.length, duration: DUR + COS };
+  window.renderAt(0);
   window.ready = true;
 }
 </script>

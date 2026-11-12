@@ -117,3 +117,13 @@ a few per day because of YouTube's upload quota). Each swap = new private video 
 is taken off the schedule and stays private (owner deletes it in Studio). Progress: `remusic_log.md`. In every report,
 tell the owner the new lines from `remusic_log.md` — for each new Short the line already says which long video to pick
 as "İlgili video" (the owner sets it by hand), and new long videos need their pinned comment again.
+
+## E. Pacing test (12 Nov 2026, owner approved "bi deneyelim")
+
+Competitor check: the 3D city-timelapse videos with millions of views run 3–10 min, open on the finished city, then
+go back in time, and use daylight thumbnails with a huge city name and "No AI". Test episode: **Istanbul** cut to ~9 min
+with `cold_open`, thumb style v2 and "(3D Timelapse, No AI)" in the title (CITY_SPEC "cold_open"). Its city.json was
+edited directly (retime + fields): **do not re-run cities/istanbul/_build.py** (it would undo the test). Other cities keep the
+13–16 min format until the owner decides from Istanbul's numbers (CTR, average view duration) vs. Vienna/Athens.
+A replaced long episode now also re-points its Shorts' "Full episode" link (yt_api.repoint_shorts); the owner still
+has to pick the new video as "İlgili video" for those Shorts and re-pin the comment in Studio.

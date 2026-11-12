@@ -136,6 +136,31 @@ def playlist(tok, vid, name, desc):
     return 'added' if r.status_code == 200 else f'not added ({r.status_code})'
 
 
+def repoint_shorts(tok, uploads, slug, old_id, new_id):
+    """After a long episode was replaced: point its scheduled Shorts' "Full episode" line (description and
+    localizations) at the new video. Shorts already public are changed too (the old long video is private now)."""
+    out = []
+    for u in uploads:
+        if u.get('slug') != slug or u.get('kind') != 'short' or u['key'].endswith(':replaced') or u.get('deleted'):
+            continue
+        r = requests.get(f'{API}/videos', params={'part': 'snippet,localizations', 'id': u['video_id']}, headers=H(tok), timeout=30)
+        items = r.json().get('items', [])
+        if not items:
+            out.append(f"{u['video_id']}: not found"); continue
+        v = items[0]; txt = json.dumps({'snippet': v['snippet'], 'localizations': v.get('localizations', {})}, ensure_ascii=False)
+        if old_id not in txt:
+            out.append(f"{u['video_id']}: no link"); continue
+        d = json.loads(txt.replace(old_id, new_id))
+        sn = {k: d['snippet'][k] for k in ('title', 'description', 'categoryId', 'tags', 'defaultLanguage') if k in d['snippet']}
+        body = {'id': u['video_id'], 'snippet': sn}
+        parts = 'snippet'
+        if d['localizations']:
+            body['localizations'] = d['localizations']; parts += ',localizations'
+        r = requests.put(f'{API}/videos', params={'part': parts}, headers=H(tok, **{'Content-Type': 'application/json'}), data=json.dumps(body), timeout=30)
+        out.append(f"{u['video_id']}: {r.status_code}" + ('' if r.status_code == 200 else ' ' + r.text[:200]))
+    print('shorts repointed:', '; '.join(out) or 'none')
+
+
 def cmd_upload(ep, repo):
     tok = token()
     check_channel(tok, repo)
@@ -170,6 +195,11 @@ def cmd_upload(ep, repo):
                         'playlist': pl, 'replaces': done['video_id']})
         json.dump(uploads, open(up_path, 'w'), indent=1, ensure_ascii=False)
         print(f'replaced {key}: https://youtu.be/{vid} publish_at={at} thumbnail={th} playlist={pl}')
+        if meta['kind'] == 'long':
+            try:
+                repoint_shorts(tok, uploads, meta['slug'], done['video_id'], vid)
+            except Exception as e:   # never fail the upload because of this; the owner can fix a link by hand
+                print('shorts repoint failed:', e)
         return
     if done:
         print('already uploaded:', key, done['link'])
