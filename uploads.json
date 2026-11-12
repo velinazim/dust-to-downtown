@@ -384,20 +384,6 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "istanbul:long",
-  "slug": "istanbul",
-  "kind": "long",
-  "video_id": "NXSgR7YmQLQ",
-  "link": "https://youtu.be/NXSgR7YmQLQ",
-  "title": "Istanbul: 2,700 Years in 15 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-17T23:30:00Z",
-  "uploaded": "2026-11-09T00:25:50Z",
-  "thumbnail": "ok",
-  "playlist": "added",
-  "replaces": "PiwJb-aKZAQ",
-  "music": "piano-2026-11-09"
- },
- {
   "key": "istanbul:short:whole:replaced",
   "slug": "istanbul",
   "kind": "short",
@@ -908,5 +894,34 @@
   "uploaded": "2026-11-11T10:24:02Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "istanbul:long:replaced",
+  "slug": "istanbul",
+  "kind": "long",
+  "video_id": "NXSgR7YmQLQ",
+  "link": "https://youtu.be/NXSgR7YmQLQ",
+  "title": "Istanbul: 2,700 Years in 15 Minutes (3D Timelapse)",
+  "publish_at": "2026-11-17T23:30:00Z",
+  "uploaded": "2026-11-09T00:25:50Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "PiwJb-aKZAQ",
+  "music": "piano-2026-11-09",
+  "replaced_by": "7RUdH836J34",
+  "unscheduled": true
+ },
+ {
+  "key": "istanbul:long",
+  "slug": "istanbul",
+  "kind": "long",
+  "video_id": "7RUdH836J34",
+  "link": "https://youtu.be/7RUdH836J34",
+  "title": "Istanbul: 2,700 Years in 9 Minutes (3D Timelapse, No AI)",
+  "publish_at": "2026-11-17T23:30:00Z",
+  "uploaded": "2026-11-12T11:49:53Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "NXSgR7YmQLQ"
  }
 ]

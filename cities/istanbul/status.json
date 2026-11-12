@@ -1,8 +1,10 @@
 {
- "rendered": "2026-11-03T10:05:19Z",
- "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41601664937",
- "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded istanbul:long https://youtu.be/PiwJb-aKZAQ publish_at=2026-11-17T23:30:00Z thumbnail=ok playlist=added\n",
+ "rendered": "2026-11-12T11:50:31Z",
+ "run": "https://github.com/velinazim/dust-to-downtown/actions/runs/43200324652",
+ "upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nold video unscheduled (stays private): NXSgR7YmQLQ 200 \nreplaced istanbul:long: https://youtu.be/7RUdH836J34 publish_at=2026-11-17T23:30:00Z thumbnail=ok playlist=added\nshorts repointed: 6SYQ1n4myRU: 200; epBQSBDm1Ms: 200\n",
  "shorts_rendered": "2026-11-03T10:29:57Z",
  "shorts_run": "https://github.com/velinazim/dust-to-downtown/actions/runs/41616319244",
- "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded istanbul:short:whole https://youtube.com/shorts/PQ5EodVbXoE publish_at=2026-11-18T23:30:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded istanbul:short:conquest-1453 https://youtube.com/shorts/eMphm6xLIuQ publish_at=2026-11-19T23:30:00Z thumbnail=none playlist=added\n"
+ "shorts_upload_log": "channel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded istanbul:short:whole https://youtube.com/shorts/PQ5EodVbXoE publish_at=2026-11-18T23:30:00Z thumbnail=none playlist=added\nchannel ok: Dust to Downtown (UCTG6PEt6yT0Ih3_YgnXKFeA)\nuploaded istanbul:short:conquest-1453 https://youtube.com/shorts/eMphm6xLIuQ publish_at=2026-11-19T23:30:00Z thumbnail=none playlist=added\n",
+ "qa": "QA OK: 16 kare, kelime kontrol\u00fc yok (sessiz/k\u0131sa kesit)",
+ "qa_checked": false
 }
