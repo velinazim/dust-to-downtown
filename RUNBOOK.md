@@ -25,7 +25,7 @@ The owner cares most about **accuracy and quality**. A slower, correct episode b
    set `"qa_checked": true` in that status.json (commit + push). Add ONE line to the report in Turkish, e.g.
    "Video kontrolü: <şehir> — 16 kare incelendi, <bulunan/düzeltilen> " or "…sorun yok." Never say an episode is done
    before this check.
-1. `git pull`. **Stock check:** count long videos in `uploads.json` whose `publish_at` is in the future, plus cities
+1. `git pull`. **Stock check:** count long videos in `uploads.json` whose `publish_at` is in the future (skip keys ending `:replaced` or `:dropped`), plus cities
    whose `render.json` exists but are not yet in `uploads.json`. If that is 2 or more (about one week of stock), make nothing:
    just report to the owner "stok dolu (N bölüm hazır, son yayın <tarih>)" and stop.
    Otherwise pick the first unchecked city in `cities/queue.md` (or the city the owner named).
