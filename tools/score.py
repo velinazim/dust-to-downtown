@@ -221,7 +221,8 @@ def render(city, out, seed=7, t_from=0.0, t_to=None):
         gain = min(10 ** ((M.TARGET_LUFS + 0.7) / 20) / rms, 0.79 / float(np.abs(st).max() or 1))
     st = np.clip(st * gain, -1, 1)
     a = int(t_from * SR); b = int((t_to if t_to else total) * SR)
-    wavfile.write(out, SR, (st[a:b] * 32767).astype(np.int16))
+    st = st[a:b] if t_to else np.concatenate([st[a:], np.zeros((SR, 2), st.dtype)])   # +1 s so ffmpeg -shortest never cuts the video
+    wavfile.write(out, SR, (st * 32767).astype(np.int16))
     return rows, hits
 
 
