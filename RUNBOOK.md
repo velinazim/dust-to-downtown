@@ -127,3 +127,11 @@ edited directly (retime + fields): **do not re-run cities/istanbul/_build.py** (
 13–16 min format until the owner decides from Istanbul's numbers (CTR, average view duration) vs. Vienna/Athens.
 A replaced long episode now also re-points its Shorts' "Full episode" link (yt_api.repoint_shorts); the owner still
 has to pick the new video as "İlgili video" for those Shorts and re-pin the comment in Studio.
+
+## F. Era soundtrack (12 Nov 2026, owner liked the sample)
+
+`tools/eras.py`: the instruments change with the era on screen (ancient lyre/frame drum → medieval choir → Ottoman ney/
+darbuka in Hijaz or European baroque pluck → industrial piano + clock → modern synth). Enable per city with
+`"music": {"style": "eras"}` (+ `"flavor": "ottoman"` for Istanbul-like cities). NOT enabled anywhere yet: it waits until
+the Istanbul pacing test (section E) has a week of data, so the two changes can be judged separately. Then it is tested
+on the next new episode; ask the owner before turning it on for all cities.
