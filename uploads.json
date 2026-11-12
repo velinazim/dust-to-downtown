@@ -660,18 +660,20 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "berlin:long",
+  "key": "berlin:long:dropped",
   "slug": "berlin",
   "kind": "long",
   "video_id": "UBjY9j2oNyA",
   "link": "https://youtu.be/UBjY9j2oNyA",
   "title": "Berlin: 800 Years in 15 Minutes (3D Timelapse)",
-  "publish_at": "2026-11-27T23:30:00Z",
   "uploaded": "2026-11-09T00:32:18Z",
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "JbHX6ku3YWU",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-11-27T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "berlin:short:whole:replaced",
@@ -689,18 +691,20 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "berlin:short:whole",
+  "key": "berlin:short:whole:dropped",
   "slug": "berlin",
   "kind": "short",
   "video_id": "5RZfOx2txls",
   "link": "https://youtube.com/shorts/5RZfOx2txls",
   "title": "Berlin: 800 Years in 50 Seconds #shorts",
-  "publish_at": "2026-11-28T23:30:00Z",
   "uploaded": "2026-11-09T00:32:35Z",
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "jCAVkEHPQ0c",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-11-28T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "berlin:short:wall:replaced",
@@ -718,18 +722,20 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "berlin:short:wall",
+  "key": "berlin:short:wall:dropped",
   "slug": "berlin",
   "kind": "short",
   "video_id": "PSIdpN84zEk",
   "link": "https://youtube.com/shorts/PSIdpN84zEk",
   "title": "The Berlin Wall: From Four Sectors to One City #shorts",
-  "publish_at": "2026-11-29T23:30:00Z",
   "uploaded": "2026-11-09T00:32:44Z",
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "bzhi5EIfquY",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-11-29T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "berlin:short:war-to-crown:replaced",
@@ -747,18 +753,20 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "berlin:short:war-to-crown",
+  "key": "berlin:short:war-to-crown:dropped",
   "slug": "berlin",
   "kind": "short",
   "video_id": "TpDuWV9dEU8",
   "link": "https://youtube.com/shorts/TpDuWV9dEU8",
   "title": "Berlin: From 6,000 People to a Royal Capital #shorts",
-  "publish_at": "2026-11-30T23:30:00Z",
   "uploaded": "2026-11-09T00:32:51Z",
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "M7C3N8jMaEU",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-11-30T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "philadelphia:long:replaced",
@@ -776,18 +784,20 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "philadelphia:long",
+  "key": "philadelphia:long:dropped",
   "slug": "philadelphia",
   "kind": "long",
   "video_id": "LZYyFW5geNs",
   "link": "https://youtu.be/LZYyFW5geNs",
   "title": "Philadelphia: 344 Years in 13 Minutes (3D Timelapse)",
-  "publish_at": "2026-12-01T23:30:00Z",
   "uploaded": "2026-11-09T19:00:21Z",
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "EilZM9Mqacs",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-01T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "edinburgh:long:replaced",
@@ -805,95 +815,109 @@
   "reason": "old music (remusic)"
  },
  {
-  "key": "edinburgh:long",
+  "key": "edinburgh:long:dropped",
   "slug": "edinburgh",
   "kind": "long",
   "video_id": "EWilv9QOQys",
   "link": "https://youtu.be/EWilv9QOQys",
   "title": "Edinburgh: 3,000 Years in 14 Minutes (3D Timelapse)",
-  "publish_at": "2026-12-04T23:30:00Z",
   "uploaded": "2026-11-10T16:31:42Z",
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "wlCtiYImFOs",
-  "music": "piano-2026-11-09"
+  "music": "piano-2026-11-09",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-04T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "philadelphia:short:whole",
+  "key": "philadelphia:short:whole:dropped",
   "slug": "philadelphia",
   "kind": "short",
   "video_id": "Rhycdb1tYOo",
   "link": "https://youtube.com/shorts/Rhycdb1tYOo",
   "title": "Philadelphia: From Penn's Grid to Skyline in 50 Seconds #shorts",
-  "publish_at": "2026-12-02T23:30:00Z",
   "uploaded": "2026-11-11T06:35:34Z",
   "thumbnail": "none",
   "playlist": "added",
-  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-02T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "philadelphia:short:revolution",
+  "key": "philadelphia:short:revolution:dropped",
   "slug": "philadelphia",
   "kind": "short",
   "video_id": "94bHadOAnxY",
   "link": "https://youtube.com/shorts/94bHadOAnxY",
   "title": "Philadelphia 1774–1800: From Congress to Capital #shorts",
-  "publish_at": "2026-12-03T23:30:00Z",
   "uploaded": "2026-11-11T06:35:37Z",
   "thumbnail": "none",
   "playlist": "added",
-  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-03T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "edinburgh:short:whole",
+  "key": "edinburgh:short:whole:dropped",
   "slug": "edinburgh",
   "kind": "short",
   "video_id": "ZH7H2_03O7A",
   "link": "https://youtube.com/shorts/ZH7H2_03O7A",
   "title": "Edinburgh: 3,000 Years in 50 Seconds #shorts",
-  "publish_at": "2026-12-05T23:30:00Z",
   "uploaded": "2026-11-11T06:17:23Z",
   "thumbnail": "none",
   "playlist": "added",
-  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-05T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "edinburgh:short:new-town",
+  "key": "edinburgh:short:new-town:dropped",
   "slug": "edinburgh",
   "kind": "short",
   "video_id": "qtJI7FFFQLo",
   "link": "https://youtube.com/shorts/qtJI7FFFQLo",
   "title": "How Edinburgh Built a New Town in 50 Seconds #shorts",
-  "publish_at": "2026-12-06T23:30:00Z",
   "uploaded": "2026-11-11T06:17:28Z",
   "thumbnail": "none",
   "playlist": "added",
-  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-06T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "edinburgh:short:walls-and-sieges",
+  "key": "edinburgh:short:walls-and-sieges:dropped",
   "slug": "edinburgh",
   "kind": "short",
   "video_id": "GhnGqdyx_mw",
   "link": "https://youtube.com/shorts/GhnGqdyx_mw",
   "title": "Edinburgh's Walls and Sieges, 1450–1650 #shorts",
-  "publish_at": "2026-12-07T23:30:00Z",
   "uploaded": "2026-11-11T06:17:32Z",
   "thumbnail": "none",
   "playlist": "added",
-  "note": "recorded by hand from the run log: the run's own record step hit a git conflict"
+  "note": "recorded by hand from the run log: the run's own record step hit a git conflict",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-07T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
-  "key": "toronto:long",
+  "key": "toronto:long:dropped",
   "slug": "toronto",
   "kind": "long",
   "video_id": "Wu18Xu6NCmc",
   "link": "https://youtu.be/Wu18Xu6NCmc",
   "title": "Toronto: 233 Years in 14 Minutes (3D Timelapse)",
-  "publish_at": "2026-12-08T23:30:00Z",
   "uploaded": "2026-11-11T10:24:02Z",
   "thumbnail": "ok",
-  "playlist": "added"
+  "playlist": "added",
+  "unscheduled": true,
+  "was_publish_at": "2026-12-08T23:30:00Z",
+  "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format"
  },
  {
   "key": "istanbul:long:replaced",

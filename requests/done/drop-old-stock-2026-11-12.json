@@ -1,0 +1,128 @@
+{
+ "video_ids": [
+  "UBjY9j2oNyA",
+  "5RZfOx2txls",
+  "PSIdpN84zEk",
+  "TpDuWV9dEU8",
+  "LZYyFW5geNs",
+  "EWilv9QOQys",
+  "Rhycdb1tYOo",
+  "94bHadOAnxY",
+  "ZH7H2_03O7A",
+  "qtJI7FFFQLo",
+  "GhnGqdyx_mw",
+  "Wu18Xu6NCmc"
+ ],
+ "unschedule": true,
+ "reason": "owner 2026-11-12: low-demand old-format stock dropped; slots go to high-demand cities in the new format",
+ "result": [
+  {
+   "video_id": "UBjY9j2oNyA",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "5RZfOx2txls",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "PSIdpN84zEk",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "TpDuWV9dEU8",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "LZYyFW5geNs",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "EWilv9QOQys",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "Rhycdb1tYOo",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "94bHadOAnxY",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "ZH7H2_03O7A",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "qtJI7FFFQLo",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "GhnGqdyx_mw",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  },
+  {
+   "video_id": "Wu18Xu6NCmc",
+   "ok": true,
+   "status": {
+    "privacyStatus": "private",
+    "selfDeclaredMadeForKids": false
+   },
+   "error": null
+  }
+ ]
+}
