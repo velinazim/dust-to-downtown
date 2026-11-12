@@ -51,7 +51,9 @@ def main(slug, chunks, out):
     yt = city.get('youtube', {})
     music = os.path.join(out, 'music.wav')
     os.makedirs(out, exist_ok=True)
-    if (city.get('music') or {}).get('style') == 'score':   # event-driven soundtrack (tools/score.py); default stays music.py
+    if (city.get('music') or {}).get('style') == 'eras':    # instruments change with the era (tools/eras.py)
+        subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'eras.py'), slug, music], check=True)
+    elif (city.get('music') or {}).get('style') == 'score':   # event-driven soundtrack (tools/score.py); default stays music.py
         subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'score.py'), slug, music], check=True)
     else:
         subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'music.py'), str(dur + 1), music, str(city.get('seed', 7))], check=True)
