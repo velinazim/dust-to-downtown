@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '17 5 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['requests/comments/*.json']
 concurrency:
   group: stats
   cancel-in-progress: false
@@ -20,7 +23,9 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: python3 tools/stats.py .
+        run: |
+          python3 tools/stats.py .
+          python3 tools/comments.py . || echo "comments skipped"
       - name: Commit
         run: |
           git config user.name "Dust to Downtown bot"; git config user.email "velinazim0776@gmail.com"
