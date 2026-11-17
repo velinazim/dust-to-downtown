@@ -60,7 +60,12 @@ def main():
                    'likes': top.get('likeCount', 0), 'replies': th['snippet'].get('totalReplyCount', 0),
                    'published': top.get('publishedAt'),
                    'answered': any(c['snippet'].get('authorChannelId', {}).get('value') == OWN_CHANNEL
-                                   for c in replies)}
+                                   for c in replies),
+                   # the conversation under the comment, without names: who = 'channel' or 'viewer'
+                   'thread': [{'who': 'channel' if c['snippet'].get('authorChannelId', {}).get('value') == OWN_CHANNEL
+                               else 'viewer', 'text': clean(c['snippet'].get('textDisplay')),
+                               'published': c['snippet'].get('publishedAt')} for c in sorted(
+                                   replies, key=lambda c: c['snippet'].get('publishedAt', ''))]}
             if top.get('authorChannelId', {}).get('value') == OWN_CHANNEL:
                 continue  # the channel's own comments
             if cid not in seen:
