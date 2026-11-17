@@ -3,19 +3,43 @@
   "video": "9HaMl7NMeYY",
   "text": "Really interesting! I wonder which canal is the one they excavated (the finds are catalogued on the site Below the Surface).",
   "likes": 0,
-  "replies": 0,
+  "replies": 2,
   "published": "2026-11-16T01:10:23Z",
-  "answered": false,
-  "video_title": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)"
+  "answered": true,
+  "video_title": "Amsterdam: 1,000 Years in 14 Minutes (3D Timelapse)",
+  "thread": [
+   {
+    "who": "channel",
+    "text": "Good question! It wasn't a canal: the finds came from the old Amstel riverbed at Damrak and Rokin, dug up for the North/South metro line. Some are on display in Rokin station.",
+    "published": "2026-11-16T20:46:22Z"
+   },
+   {
+    "who": "viewer",
+    "text": "​@DusttoDowntownAh! You're right. That explains why I couldn't figure it out.",
+    "published": "2026-11-16T21:33:59Z"
+   }
+  ]
  },
  "UgwLuNWsuPCbAYkCiEJ4AaABAg": {
   "video": "qUdsTpkZW7Y",
   "text": "I was like, Calradia?",
   "likes": 0,
-  "replies": 0,
+  "replies": 2,
   "published": "2026-11-15T00:29:03Z",
-  "answered": false,
-  "video_title": "Amsterdam: 1,000 Years in 50 Seconds #shorts"
+  "answered": true,
+  "video_title": "Amsterdam: 1,000 Years in 50 Seconds #shorts",
+  "thread": [
+   {
+    "who": "channel",
+    "text": "Ha, the top-down view does give strong Bannerlord vibes. This one's the real Amsterdam though!",
+    "published": "2026-11-16T20:46:41Z"
+   },
+   {
+    "who": "viewer",
+    "text": "​@DusttoDowntown ive been gettin alot of BL shorts recently 😅 i love how you show them growing over the eras",
+    "published": "2026-11-16T21:53:46Z"
+   }
+  ]
  },
  "UgynL2KbAnf4VwiEPz94AaABAg": {
   "video": "U6lXWIe6xts",
@@ -24,7 +48,8 @@
   "replies": 0,
   "published": "2026-11-06T01:06:39Z",
   "answered": false,
-  "video_title": "Rome: From Nearly a Million People to Under 50,000 #shorts"
+  "video_title": "Rome: From Nearly a Million People to Under 50,000 #shorts",
+  "thread": []
  },
  "UgzQjO0akV9E42dMWoF4AaABAg": {
   "video": "U6lXWIe6xts",
@@ -33,7 +58,8 @@
   "replies": 0,
   "published": "2026-11-06T00:46:14Z",
   "answered": false,
-  "video_title": "Rome: From Nearly a Million People to Under 50,000 #shorts"
+  "video_title": "Rome: From Nearly a Million People to Under 50,000 #shorts",
+  "thread": []
  },
  "UgyUk4L6kLa1qj2XDVN4AaABAg": {
   "video": "UYKAqkdqiWE",
@@ -42,7 +68,8 @@
   "replies": 0,
   "published": "2026-11-01T16:16:12Z",
   "answered": false,
-  "video_title": "The Great Fire of London, 1666 #shorts"
+  "video_title": "The Great Fire of London, 1666 #shorts",
+  "thread": []
  },
  "UgwocDgNEPbWiQlRI2l4AaABAg": {
   "video": "LPzIgfcAY_k",
@@ -51,7 +78,8 @@
   "replies": 0,
   "published": "2026-10-31T18:14:58Z",
   "answered": false,
-  "video_title": "London: 2,000 Years in 14 Minutes (3D Timelapse)"
+  "video_title": "London: 2,000 Years in 14 Minutes (3D Timelapse)",
+  "thread": []
  },
  "UgxtjQTpJjWSlM9MSMp4AaABAg": {
   "video": "SHoiyJ5W1YY",
@@ -60,6 +88,7 @@
   "replies": 0,
   "published": "2026-10-31T17:23:09Z",
   "answered": false,
-  "video_title": "London: 2,000 Years in 50 Seconds #shorts"
+  "video_title": "London: 2,000 Years in 50 Seconds #shorts",
+  "thread": []
  }
 }
