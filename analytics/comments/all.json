@@ -100,10 +100,16 @@
   "video": "6SYQ1n4myRU",
   "text": "Its CONSTNATINAPOLE. I'll die on the hill.",
   "likes": 0,
-  "replies": 0,
+  "replies": 1,
   "published": "2026-11-18T23:44:02Z",
-  "answered": false,
-  "thread": [],
+  "answered": true,
+  "thread": [
+   {
+    "who": "channel",
+    "text": "Respect the loyalty 🫡 It was Constantinople for over 1,100 years, so you've got history on your side. Tomorrow's Short is all about the day that name changed: how Constantinople fell in 1453. Hope you'll stand on that hill with us!",
+    "published": "2026-11-19T17:32:29Z"
+   }
+  ],
   "video_title": "Istanbul: 2,700 Years in 50 Seconds #shorts"
  }
 }
