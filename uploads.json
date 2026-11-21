@@ -948,5 +948,17 @@
   "playlist": "added",
   "replaces": "NXSgR7YmQLQ",
   "music": "piano-2026-11-09"
+ },
+ {
+  "key": "new-york:long",
+  "slug": "new-york",
+  "kind": "long",
+  "video_id": "fQk6YHSxPRM",
+  "link": "https://youtu.be/fQk6YHSxPRM",
+  "title": "New York: 400 Years in 9 Minutes (3D Timelapse, No AI)",
+  "publish_at": "2026-11-27T23:30:00Z",
+  "uploaded": "2026-11-21T10:20:31Z",
+  "thumbnail": "ok",
+  "playlist": "added"
  }
 ]
