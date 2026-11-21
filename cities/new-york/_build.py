@@ -104,8 +104,8 @@ def build_fill():
         if d0 > 0: z = z.difference(side(d0))
         z = z.difference(taken); taken = taken.union(side(d1))
         zones.append((name, year, z))
-    zones.append(("Battery fill (≈)", 1855, to_xy(BATTERY).difference(taken))); taken = taken.union(to_xy(BATTERY))
-    zones.append(("Battery Park City", 1976, to_xy(BPC).difference(taken)))
+    # Battery (1855) and Battery Park City (1976) are NOT drawn as fills: the elevation data has structures up to ~21 m
+    # there that poke through the water sheet (preview round 2); they stay land throughout (research.md)
     out = []
     for name, year, z in zones:
         gz = land_in(z)
@@ -253,8 +253,8 @@ S = [
        "1790: ilk ABD sayımı 33.131 New Yorklu sayar; South Street 1800'e kadar doldurulur"),
      pop=PI(1790, 1807), cam=(40.7090, -74.0060, 3.6)),
  seg(1808, 1810.9, 11, EARLY, NY, T("Castle Clinton", "Castle Clinton"),
-     T("1808–1811: a round fort, today's Castle Clinton, is built on a small island off the Battery",
-       "1808–1811: Battery açığındaki adacığa yuvarlak bir kale, bugünkü Castle Clinton yapılır"),
+     T("1808–1811: just before the War of 1812, the West Battery — today's Castle Clinton — is built",
+       "1808–1811: 1812 Savaşı'ndan hemen önce West Battery, bugünkü Castle Clinton, inşa edilir"),
      pop=PI(1808, 1810.9), cam=(40.7045, -74.0150, 2.4)),
  seg(1811, 1824, 12, EARLY, NY, T("The Grid", "Izgara"),
      T("1811: a street grid is planned from Houston to 155th Street; the Collect Pond is filled",
@@ -333,13 +333,13 @@ S = [
      T("4 April 1973: the World Trade Center opens, briefly the tallest buildings in the world",
        "4 Nisan 1973: Dünya Ticaret Merkezi açılır; kısa bir süre dünyanın en yüksek binaları"),
      pop=PI(1973, 1975), cam=(40.7100, -74.0100, 4.0)),
- seg(1976, 1990, 11, MOD, NY, T("Battery Park City", "Battery Park City"),
-     T("By 1976 a 92-acre landfill, partly from the World Trade Center dig, extends the Hudson shore",
-       "1976'ya dek kısmen DTM kazısından gelen 37 hektarlık dolgu Hudson kıyısını ileri taşır"),
-     pop=PI(1976, 1990), cam=(40.7100, -74.0120, 3.6)),
- seg(1991, 2001.6, 11, TODAY, NY, T("Shrinking and Growing", "Küçülme ve Büyüme"),
-     T("1970–1980: the city loses about 820,000 people; by 2000 it passes 8 million",
-       "1970–1980: şehir yaklaşık 820.000 kişi kaybeder; 2000'de 8 milyonu aşar"),
+ seg(1976, 1990, 11, MOD, NY, T("The City Shrinks", "Şehir Küçülüyor"),
+     T("1970–1980: New York loses about 820,000 people, falling to 7,071,639 in the 1980 census",
+       "1970–1980: New York yaklaşık 820.000 kişi kaybeder; 1980 sayımında 7.071.639'a düşer"),
+     pop=PI(1976, 1990), cam=(40.7200, -73.9600, 18.0)),
+ seg(1991, 2001.6, 11, TODAY, NY, T("Back Above 8 Million", "Yeniden 8 Milyonun Üstünde"),
+     T("2000: the census counts 8,008,278 New Yorkers, more than ever before",
+       "2000: sayım 8.008.278 New Yorklu sayar; o güne kadarki en yüksek nüfus"),
      pop=PI(1991, 2001.6), cam=(40.7300, -73.9600, 20.0), chapter=T("New York Today", "Bugünün New York'u")),
  seg(2001.7, 2013, 11, TODAY, NY, T("11 September 2001", "11 Eylül 2001"),
      T("11 September 2001: two hijacked planes destroy the Twin Towers in a terrorist attack",
@@ -535,7 +535,6 @@ labels = [
  lab("Staten Island", "Staten Island", (40.6100, -74.0900), 1964, 1972),
  lab("Bay Ridge", "Bay Ridge", (40.6250, -74.0300), 1964, 1972),
  lab("World Trade Center", "Dünya Ticaret Merkezi", (40.71167, -74.0125), 1973.3, 1975, lift=440),
- lab("Battery Park City", "Battery Park City", (40.713, -74.016), 1976, 1990, lift=20),
  lab("One World Trade Center", "One World Trade Center", (40.71306, -74.01333), 2014.8, 2019, lift=560),
  lab("MANHATTAN", "MANHATTAN", (40.7850, -73.9650), 2020, kind="region"),
  lab("BROOKLYN", "BROOKLYN", (40.6500, -73.9500), 2020, kind="region"),
@@ -561,7 +560,7 @@ city = {
  "people_notes": True,
  "closing_question": T("When did your family's story in New York begin?", "Ailenizin New York hikâyesi hangi yıl başladı?"),
  "music": {"style": "eras"},
- "geo": {"bbox": [40.47, -74.32, 40.97, -73.62], "cell_m": 120, "core_bbox": [40.685, -74.035, 40.765, -73.94], "core_cell_m": 30,
+ "geo": {"bbox": [40.47, -74.32, 40.97, -73.62], "cell_m": 120, "core_bbox": [40.64, -74.07, 40.80, -73.90], "core_cell_m": 30,
          "rivers_keep": ["Hudson", "East River", "Harlem", "Bronx", "Newtown", "Gowanus", "Flushing", "Hackensack", "Passaic",
                          "Kill", "Spuyten", "Hutchinson"],
          "lakes_from": 1860},

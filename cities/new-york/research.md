@@ -78,7 +78,8 @@ GWB, VNB, CC, EI, CHR, AHCH, MB, QB, HAR, BH, GI, WTC73).
 | 21 Nov 1964 | Verrazzano-Narrows Bridge (span 4,260 ft) | VNB |
 | 4 Apr 1973 | World Trade Center opens; replaced the ESB as world's tallest | HIST-WTC; WTC73 |
 | 1970 → 1980 | 7,894,798 → 7,071,639 (−823,159 → "about 820,000 fewer") | DCP-H |
-| by 1976 | Battery Park City landfill, 92 acres, partly WTC excavation | BPC; LR |
+| by 1976 | Battery Park City landfill, 92 acres, partly WTC excavation (NOT on screen: see Battery note below) | BPC; LR |
+| 2000 | 8,008,278 = highest census count up to then (table: 1950 7,891,957; 1970 7,894,798) | DCP-H |
 | 11 Sep 2001 | Two hijacked planes destroy the Twin Towers (2,606 killed in and around the towers + 157 aboard incl. 10 hijackers — not on screen) | WTC73 |
 | 3 Nov 2014 | One World Trade Center opens, 1,776 ft | 1WTC |
 | 2020 / Jul 2024 / Jul 2025 | 8,804,190 (census) / 8,478,072 / 8,584,629 (Census estimates) | DCP-25; DEM |
@@ -127,8 +128,10 @@ date (not in LR) → the Hudson-side strip between Greenwich St and West St is d
 - 1609 east shore ≈ along Pearl Street (LR); landfill strips are one-sided offsets from a Pearl St trace (≈) to
   Water (1730), Front (1780) and South St (1800), clipped to the modern land in geo.json (as Boston). Hudson side:
   Greenwich St was the shore (LR), but no fill date is sourced → drawn as land throughout (simplification).
-- Battery: original shore ≈ State Street (BAT); fill shown as land from 1855 ("mostly created by landfill starting
-  from 1855"; Castle Clinton stands offshore 1811 → 1855). Battery Park City: zone west of West St (≈), land from 1976.
+- Battery and Battery Park City: original shore ≈ State Street (BAT), Battery landfill from 1855, Battery Park City
+  by 1976 (BPC). Tried as timed fills in preview round 2, but the elevation data has structures up to ~21 m inside
+  them that poke through the water sheet → both are drawn as land throughout (simplification), and the on-screen
+  text no longer mentions them (Castle Clinton's subtitle no longer says "on an island offshore").
 - Collect Pond: ≈ 48-acre oval around the Collect Pond Park point, water until 1811.
 - Heere Gracht: drawn as a 25 m water strip along Broad St (wider than real so it shows), 1647 → 1676.
 - Fire 1776: ≈ polygon between Broadway and the Hudson shore from near Whitehall north to King's College (≈ Park
