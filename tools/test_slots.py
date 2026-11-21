@@ -41,3 +41,15 @@ old_hours = {'long': {'slots_utc': ['TUE 15:00']}, 'short': {'slots_utc': ['MON 
 out, top = bs.decide(old_hours, today=dt.date(2026, 11, 2))
 assert all(bs.FIRST <= o['new'] <= bs.LAST and o['new'] > o['old'] for o in out.values()), out
 print('ok')
+
+# replaced / dropped videos were taken off the schedule: their days are free again (21 Nov 2026: Berlin's 27 Nov slot)
+ups = [{'key': 'athens:long', 'kind': 'long', 'publish_at': '2026-11-24T23:30:00Z'},
+       {'key': 'berlin:long:replaced', 'kind': 'long', 'publish_at': '2026-11-27T23:30:00Z', 'unscheduled': True},
+       {'key': 'berlin:long:dropped', 'kind': 'long', 'unscheduled': True},
+       {'key': 'philadelphia:long:replaced', 'kind': 'long', 'publish_at': '2026-12-01T23:30:00Z', 'unscheduled': True},
+       {'key': 'athens:short:whole', 'kind': 'short', 'publish_at': '2026-11-27T23:30:00Z'}]
+assert yt.live_times(ups, 'long') == ['2026-11-24T23:30:00Z']
+assert yt.next_slot(CFG['long'], yt.live_times(ups, 'long'), now=utc('2026-11-21T10:00:00Z')) == '2026-11-27T23:30:00Z'
+ups.append({'key': 'x:long:replaced', 'kind': 'long', 'publish_at': '2026-12-04T23:30:00Z', 'unscheduled': False})
+assert '2026-12-04T23:30:00Z' in yt.live_times(ups, 'long')   # unscheduling failed: still on YouTube's schedule
+print('live_times OK')

@@ -52,6 +52,17 @@ def check_channel(tok, repo):
     return cid
 
 
+def live_times(uploads, kind, skip=None):
+    """publish_at of the uploads of this kind that still hold their slot. A dropped video, or a replaced one that was
+    taken off the schedule (unscheduled = true), frees its day; a replaced video whose unscheduling failed still holds it."""
+    def holds(u):
+        k = u.get('key', '')
+        if u.get('deleted') or k.endswith(':dropped'): return False
+        if k.endswith(':replaced') and u.get('unscheduled'): return False
+        return True
+    return [u.get('publish_at') for u in uploads if u.get('kind') == kind and u is not skip and holds(u)]
+
+
 def next_slot(cfg, taken, now=None, not_before=None):
     """First weekly slot (e.g. "TUE 23:30" UTC) at least min_lead_hours away on a day with nothing of this kind
     scheduled yet (and, for a Short, not before its long episode goes public). A day counts as taken whatever the
@@ -180,7 +191,7 @@ def cmd_upload(ep, repo):
             print('NOT REPLACED: the old video', done['link'], 'is already public; nothing uploaded'); return
         cfg = json.load(open(os.path.join(repo, 'config', 'schedule.json')))
         at = done['publish_at'] if old_at and old_at > now + dt.timedelta(minutes=30) else \
-            next_slot(cfg['long'], [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind'] and u is not done])
+            next_slot(cfg['long'], live_times(uploads, meta['kind'], skip=done))
         vid = upload_video(tok, os.path.join(ep, meta['file']), meta, at)
         r = requests.put(f'{API}/videos', params={'part': 'status'}, headers=H(tok, **{'Content-Type': 'application/json'}),
                          data=json.dumps({'id': done['video_id'], 'status': {'privacyStatus': 'private', 'selfDeclaredMadeForKids': False}}), timeout=30)
@@ -210,7 +221,7 @@ def cmd_upload(ep, repo):
         return
     cfg = json.load(open(os.path.join(repo, 'config', 'schedule.json')))
     slots = cfg['long'] if meta['kind'] == 'long' else cfg['short']
-    at = next_slot(slots, [u.get('publish_at') for u in uploads if u.get('kind') == meta['kind']], not_before=meta.get('not_before')) if slots.get('auto', True) else None
+    at = next_slot(slots, live_times(uploads, meta['kind']), not_before=meta.get('not_before')) if slots.get('auto', True) else None
     vid = upload_video(tok, os.path.join(ep, meta['file']), meta, at)
     th = set_thumb(tok, vid, os.path.join(ep, meta['thumb'])) if meta.get('thumb') and os.path.exists(os.path.join(ep, meta['thumb'])) else 'none'
     pl = playlist(tok, vid, meta['playlist'], meta.get('playlist_desc', '')) if meta.get('playlist') else 'none'
