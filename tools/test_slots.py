@@ -52,4 +52,7 @@ assert yt.live_times(ups, 'long') == ['2026-11-24T23:30:00Z']
 assert yt.next_slot(CFG['long'], yt.live_times(ups, 'long'), now=utc('2026-11-21T10:00:00Z')) == '2026-11-27T23:30:00Z'
 ups.append({'key': 'x:long:replaced', 'kind': 'long', 'publish_at': '2026-12-04T23:30:00Z', 'unscheduled': False})
 assert '2026-12-04T23:30:00Z' in yt.live_times(ups, 'long')   # unscheduling failed: still on YouTube's schedule
+assert '2026-11-24T23:30:00Z' not in yt.live_times(ups, 'long', skip=ups[0])   # replace path skips the video it replaces
+assert yt.live_times(ups, 'short') == ['2026-11-27T23:30:00Z']                     # live Shorts still block their day
+assert yt.live_times([{'key': 'a:long', 'kind': 'long', 'publish_at': '2026-12-11T23:30:00Z', 'deleted': 'yes'}], 'long') == []
 print('live_times OK')
