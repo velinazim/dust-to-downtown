@@ -137,7 +137,7 @@ def strip(a, b, half_m):
     return [ll(xa + px, ya + py), ll(xb + px, yb + py), ll(xb - px, yb - py), ll(xa - px, ya - py)]
 
 
-COLLECT = oval((40.7163, -74.0019), 520, 380, rot_deg=-20)                 # ≈ 48 acres ≈ 0.19 km² … drawn ≈ 0.6 km² so it reads
+COLLECT = oval((40.7163, -74.0019), 290, 210, rot_deg=-20)                 # ≈ 48 acres ≈ 0.19 km²
 HEERE_GRACHT = strip((40.7030, -74.0111), (40.7062, -74.0110), 13)
 CENTRAL_PARK = [(40.7644, -73.9730), (40.7681, -73.9819), (40.8006, -73.9581), (40.7968, -73.9493)]
 WASH_SQ = oval((40.73083, -73.99750), 110, 90, n=10)
@@ -261,8 +261,8 @@ S = [
        "1811: Houston'dan 155. Sokak'a kadar bir sokak ızgarası planlanır; Collect Gölü doldurulur"),
      pop=PI(1811, 1824), cam=(40.7300, -73.9900, 8.0), chapter=T("The Grid", "Izgara")),
  seg(1825, 1833, 12, IND, NY, T("The Erie Canal", "Erie Kanalı"),
-     T("1825: the Erie Canal links the Hudson to the Great Lakes and makes New York the top US port",
-       "1825: Erie Kanalı Hudson'ı Büyük Göller'e bağlar; New York ABD'nin bir numaralı limanı olur"),
+     T("1825: the Erie Canal opens to the Great Lakes, sealing New York's lead as America's trade city",
+       "1825: Erie Kanalı Büyük Göller'e açılır; New York ABD'nin önde gelen ticaret şehri olur"),
      pop=PI(1825, 1833), cam=(40.7150, -74.0000, 6.0)),
  seg(1834, 1835.9, 11, IND, NY, T("The City of Brooklyn", "Brooklyn Şehri"),
      T("1834: Brooklyn, across the East River, becomes a city of 23,310 people",
@@ -303,7 +303,7 @@ S = [
  seg(1898, 1900, 12, MOD, NY, T("Five Boroughs, One City", "Beş İlçe, Tek Şehir"),
      T("1 January 1898: Manhattan, Brooklyn, Queens, the Bronx and Staten Island become one city",
        "1 Ocak 1898: Manhattan, Brooklyn, Queens, Bronx ve Staten Island tek şehir olur"),
-     pop=[1515301, 3437202], cam=(40.7100, -73.9700, 24.0), chapter=T("Greater New York", "Büyük New York")),
+     pop=[1515301, 3437202], cam=(40.7050, -73.9350, 24.0), chapter=T("Greater New York", "Büyük New York")),
  seg(1901, 1908, 11, MOD, NY, T("The Subway", "Metro"),
      T("27 October 1904: the first subway line opens, from City Hall to 145th Street",
        "27 Ekim 1904: ilk metro hattı City Hall'dan 145. Sokak'a kadar açılır"),
@@ -370,8 +370,7 @@ UPTOWN = band(7.7, 12.0)
 HARLEM_V = oval((40.80889, -73.94833), 600, 450)
 UPPER = band(12.0, 21.0)
 BREUCK = oval((40.6990, -73.9930), 450, 350)
-BROOKLYN_CITY = [(40.7060, -73.9990), (40.7120, -73.9650), (40.7000, -73.9450), (40.6750, -73.9500), (40.6650, -73.9900),
-                 (40.6800, -74.0100), (40.6950, -74.0050)]
+BROOKLYN_CITY = oval((40.6820, -73.9650), 4300, 3300, rot_deg=25, n=20)      # ≈ the built-up City of Brooklyn
 LONG_ISLAND = [(40.8000, -73.9300), (40.8050, -73.7700), (40.7400, -73.7000), (40.6400, -73.7300), (40.5700, -73.7400),
                (40.5550, -73.9500), (40.5700, -74.0400), (40.6400, -74.0450), (40.7000, -74.0100), (40.7450, -73.9700),
                (40.7800, -73.9350)]
@@ -400,7 +399,8 @@ districts = [
  D("Nieuw Haarlem (≈)", "medieval", HARLEM_V, 1660, 1700, 0.3, 80, (40.80889, -73.94833)),
  D("English town (≈)", "georgian", ENG_TOWN, 1665, 1775, 0.8, 42, (40.7050, -74.0110)),
  D("Rebuilt town and Houston St (≈)", "georgian", TO_HOUSTON, 1777, 1830, 0.82, 45, (40.7080, -74.0080)),
- D("Brooklyn town (≈)", "georgian", BROOKLYN_CITY, 1790, 1860, 0.65, 70, (40.7000, -73.9920), holes=[L(BREUCK)]),
+ D("Brooklyn town (≈)", "georgian", oval((40.6960, -73.9900), 1300, 900, rot_deg=30), 1790, 1860, 0.65, 70, (40.7000, -73.9920),
+   holes=[L(BREUCK), L(MAN)]),
  D("Grid to 14th St (≈)", "victorian", TO_14TH, 1825, 1850, 0.85, 50, (40.7200, -74.0000), holes=[L(TO_HOUSTON), L(WASH_SQ)],
    grid_deg=29),
  D("Grid to 42nd St (≈)", "victorian", TO_42ND, 1845, 1870, 0.85, 55, (40.7350, -73.9900), holes=[L(TO_14TH)], grid_deg=29),
@@ -409,8 +409,11 @@ districts = [
    grid_deg=29),
  D("Harlem and Washington Heights (≈)", "victorian", UPPER, 1880, 1920, 0.75, 75, (40.8000, -73.9550), holes=[L(HARLEM_V)],
    grid_deg=29),
- D("Brooklyn (≈)", "victorian", BROOKLYN_CITY, 1860, 1900, 0.75, 75, (40.6950, -73.9900)),
+ D("Brooklyn (≈)", "victorian", BROOKLYN_CITY, 1855, 1910, 0.75, 80, (40.6950, -73.9900), holes=[L(MAN)]),
  D("Downtown offices (≈)", "modern", FIN_DIST, 1880, 1930, 0.7, 70, (40.7070, -74.0100)),
+ D("Modern Manhattan below 59th St (≈)", "modern", TO_59TH, 1920, 1975, 0.8, 75, (40.7400, -73.9900), grid_deg=29),
+ D("Modern Brooklyn and Queens waterfront (≈)", "modern", BROOKLYN_CITY, 1950, 2015, 0.35, 110, (40.6950, -73.9900),
+   holes=[L(MAN)]),
  D("Midtown (≈)", "modern", MIDTOWN, 1900, 1935, 0.7, 85, (40.7550, -73.9800), grid_deg=29),
  D("Outer boroughs, inner ring (≈)", "suburb", LONG_ISLAND, 1890, 1940, 0.55, 150, (40.7000, -73.9700),
    holes=HOLES_OUT + [L(BROOKLYN_CITY)]),
@@ -517,10 +520,10 @@ labels = [
  lab("Bedloe's Island", "Bedloe Adası", (40.68917, -74.04444), 1886, 1891.9, now=("Liberty Island", "Liberty Island"), lift=110),
  lab("Ellis Island", "Ellis Adası", (40.69944, -74.03972), 1892, 1897.9, lift=30),
  lab("MANHATTAN", "MANHATTAN", (40.7850, -73.9650), 1898, 1900, kind="region"),
- lab("BROOKLYN", "BROOKLYN", (40.6500, -73.9500), 1898, 1900, kind="region"),
- lab("QUEENS", "QUEENS", (40.7100, -73.8200), 1898, 1900, kind="region"),
- lab("THE BRONX", "BRONX", (40.8450, -73.8650), 1898, 1900, kind="region"),
- lab("STATEN ISLAND", "STATEN ISLAND", (40.5800, -74.1500), 1898, 1900, kind="region"),
+ lab("BROOKLYN", "BROOKLYN", (40.6700, -73.9400), 1898, 1900, kind="region"),
+ lab("QUEENS", "QUEENS", (40.7250, -73.8500), 1898, 1900, kind="region"),
+ lab("THE BRONX", "BRONX", (40.8400, -73.8800), 1898, 1900, kind="region"),
+ lab("STATEN ISLAND", "STATEN ISLAND", (40.6050, -74.1200), 1898, 1900, kind="region"),
  lab("City Hall", "City Hall", (40.7127, -74.0059), 1901, 1908, lift=30),
  lab("Harlem", "Harlem", (40.80889, -73.94833), 1901, 1908),
  lab("Long Island City", "Long Island City", (40.7450, -73.9450), 1909, 1912),
@@ -562,6 +565,14 @@ city = {
          "rivers_keep": ["Hudson", "East River", "Harlem", "Bronx", "Newtown", "Gowanus", "Flushing", "Hackensack", "Passaic",
                          "Kill", "Spuyten", "Hutchinson"],
          "lakes_from": 1860},
+ "geo_edits": [
+  {"op": "water", "poly": L([(40.6975, -74.0400), (40.6975, -74.0300), (40.6840, -74.0290), (40.6780, -74.0240),
+                             (40.6700, -74.0260), (40.6600, -74.0280), (40.6480, -74.0340), (40.6350, -74.0400), (40.6220, -74.0420),
+                             (40.6060, -74.0450), (40.6000, -74.0550), (40.6080, -74.0620), (40.6250, -74.0650), (40.6400, -74.0680),
+                             (40.6480, -74.0700), (40.6600, -74.0680), (40.6750, -74.0600), (40.6900, -74.0550), (40.7000, -74.0500)])},
+  {"op": "land", "poly": L(oval((40.68917, -74.04444), 160, 130, rot_deg=40, n=12))},
+  {"op": "land", "poly": L(oval((40.69944, -74.03972), 200, 160, rot_deg=0, n=12))},
+ ],
  "view": {"azimuth_deg": 0, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 2.5},
  "segments": S,
