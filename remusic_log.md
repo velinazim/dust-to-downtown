@@ -24,3 +24,4 @@
 - 2026-11-30 Berlin: From 6,000 People to a Royal Capital #shorts → https://youtube.com/shorts/TpDuWV9dEU8 (eski M7C3N8jMaEU takvimden alındı, gizli) · ilgili video: Berlin: 800 Years in 15 Minutes (3D Timelapse) (https://youtu.be/UBjY9j2oNyA)
 - 2026-12-01 Philadelphia: 344 Years in 13 Minutes (3D Timelapse) → https://youtu.be/LZYyFW5geNs (eski EilZM9Mqacs takvimden alındı, gizli)
 - 2026-12-04 Edinburgh: 3,000 Years in 14 Minutes (3D Timelapse) → https://youtu.be/EWilv9QOQys (eski wlCtiYImFOs takvimden alındı, gizli)
+- 2026-11-27 New York: 400 Years in 9 Minutes (3D Timelapse, No AI) → https://youtu.be/9APvmiF1OSo (eski fQk6YHSxPRM takvimden alındı, gizli)
