@@ -1,0 +1,9 @@
+osm rivers: kept 7, skipped 169 -> 10 outer / 9 inner rings
+osm lakes: 48 lakes >= 0.02 km2, 8 islands in them
+grid 494x462 @ 120 m
+elevation: zoom 11, tiles 5x4
+grid 269x296 @ 30 m
+elevation: zoom 13, tiles 3x3
+core layer 269 x 296
+wrote geo.json 494 x 462
+maps written to cities/new-york/preview
