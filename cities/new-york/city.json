@@ -1,0 +1,5080 @@
+{
+ "slug": "new-york",
+ "seed": 1624,
+ "long_ok": true,
+ "name": {
+  "en": "New York",
+  "tr": "New York"
+ },
+ "intro": {
+  "en": "400 Years in 9 Minutes",
+  "tr": "9 Dakikada 400 Yıl"
+ },
+ "intro_seconds": 3,
+ "cold_open": {
+  "seconds": 7,
+  "hold": 4.5,
+  "kicker": {
+   "en": "400 years · from New Amsterdam to megacity",
+   "tr": "400 yıl · Yeni Amsterdam'dan megakente"
+  },
+  "camera": {
+   "center": [
+    40.725,
+    -73.99
+   ],
+   "dist_km": 12.0
+  }
+ },
+ "people_notes": true,
+ "closing_question": {
+  "en": "When did your family's story in New York begin?",
+  "tr": "Ailenizin New York hikâyesi hangi yıl başladı?"
+ },
+ "music": {
+  "style": "eras"
+ },
+ "geo": {
+  "bbox": [
+   40.47,
+   -74.32,
+   40.97,
+   -73.62
+  ],
+  "cell_m": 120,
+  "core_bbox": [
+   40.685,
+   -74.035,
+   40.765,
+   -73.94
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Hudson",
+   "East River",
+   "Harlem",
+   "Bronx",
+   "Newtown",
+   "Gowanus",
+   "Flushing",
+   "Hackensack",
+   "Passaic",
+   "Kill",
+   "Spuyten",
+   "Hutchinson"
+  ],
+  "lakes_from": 1860
+ },
+ "view": {
+  "azimuth_deg": 0,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 2.5
+ },
+ "segments": [
+  {
+   "from": 1600,
+   "to": 1608,
+   "seconds": 12.5,
+   "era": {
+    "en": "Lenape Land",
+    "tr": "Lenape Toprakları"
+   },
+   "city_name": {
+    "en": "Mannahatta",
+    "tr": "Mannahatta"
+   },
+   "title": {
+    "en": "Mannahatta",
+    "tr": "Mannahatta"
+   },
+   "sub": {
+    "en": "Before 1609: the island is Mannahatta, Lenape land in their homeland, Lenapehoking",
+    "tr": "1609 öncesi: ada Mannahatta'dır; Lenapelerin yurdu Lenapehoking'in bir parçası"
+   },
+   "camera": {
+    "center": [
+     40.715,
+     -74.0
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "Lenape Mannahatta",
+    "tr": "Lenape Mannahatta'sı"
+   }
+  },
+  {
+   "from": 1609,
+   "to": 1623,
+   "seconds": 11.5,
+   "era": {
+    "en": "Lenape Land",
+    "tr": "Lenape Toprakları"
+   },
+   "city_name": {
+    "en": "Mannahatta",
+    "tr": "Mannahatta"
+   },
+   "title": {
+    "en": "The Half Moon",
+    "tr": "Halve Maen"
+   },
+   "sub": {
+    "en": "11 September 1609: Henry Hudson's Half Moon, sailing for the Dutch, enters the bay",
+    "tr": "11 Eylül 1609: Hollandalılar adına yola çıkan Henry Hudson'ın Halve Maen gemisi körfeze girer"
+   },
+   "camera": {
+    "center": [
+     40.695,
+     -74.025
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1624,
+   "to": 1624.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "Noten Eylandt",
+    "tr": "Noten Eylandt"
+   },
+   "sub": {
+    "en": "20 May 1624: about thirty Dutch families land on Noten Eylandt, today's Governors Island",
+    "tr": "20 Mayıs 1624: otuz kadar Hollandalı aile bugünkü Governors Island'a, Noten Eylandt'a çıkar"
+   },
+   "camera": {
+    "center": [
+     40.698,
+     -74.014
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   }
+  },
+  {
+   "from": 1625,
+   "to": 1625.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "Fort Amsterdam",
+    "tr": "Amsterdam Kalesi"
+   },
+   "sub": {
+    "en": "1625: the Dutch stake out Fort Amsterdam at the island's tip, beside today's Bowling Green",
+    "tr": "1625: Hollandalılar adanın ucunda, bugünkü Bowling Green'in yanında Amsterdam Kalesi'ni kurar"
+   },
+   "camera": {
+    "center": [
+     40.704,
+     -74.013
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1626,
+   "to": 1646,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "A Trade for an Island",
+    "tr": "Bir Ada Takası"
+   },
+   "sub": {
+    "en": "1626: Peter Minuit trades goods worth 60 guilders for the island; 270 people live here by 1628",
+    "tr": "1626: Peter Minuit ada için 60 lonca değerinde mal verir; 1628'de burada 270 kişi yaşar"
+   },
+   "population": [
+    270,
+    850
+   ],
+   "camera": {
+    "center": [
+     40.705,
+     -74.012
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1646.1,
+   "to": 1652,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "Breuckelen",
+    "tr": "Breuckelen"
+   },
+   "sub": {
+    "en": "1646: the village of Breuckelen is founded across the East River, in today's Brooklyn Heights",
+    "tr": "1646: East River'ın karşısında, bugünkü Brooklyn Heights'ta Breuckelen köyü kurulur"
+   },
+   "population": [
+    850,
+    1240
+   ],
+   "camera": {
+    "center": [
+     40.702,
+     -74.003
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1653,
+   "to": 1659,
+   "seconds": 12.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "The Wall",
+    "tr": "Sur"
+   },
+   "sub": {
+    "en": "1653: a 2,340 ft wall of planks and earth is built across the island — today's Wall Street",
+    "tr": "1653: adanın bir ucundan öbürüne 710 m'lik ahşap ve toprak bir sur yapılır: bugünkü Wall Street"
+   },
+   "population": [
+    1320,
+    1700
+   ],
+   "camera": {
+    "center": [
+     40.706,
+     -74.01
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1660,
+   "to": 1663.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Amsterdam",
+    "tr": "Yeni Amsterdam"
+   },
+   "title": {
+    "en": "Nieuw Haarlem",
+    "tr": "Nieuw Haarlem"
+   },
+   "sub": {
+    "en": "1660: under Peter Stuyvesant, the village of Nieuw Haarlem is founded far up the island",
+    "tr": "1660: Peter Stuyvesant yönetiminde adanın kuzeyinde Nieuw Haarlem köyü kurulur"
+   },
+   "population": [
+    1760,
+    1990
+   ],
+   "camera": {
+    "center": [
+     40.745,
+     -73.98
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1664,
+   "to": 1672,
+   "seconds": 12.5,
+   "era": {
+    "en": "English Colony",
+    "tr": "İngiliz Kolonisi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "New Amsterdam Becomes New York",
+    "tr": "Yeni Amsterdam New York Oluyor"
+   },
+   "sub": {
+    "en": "September 1664: four English frigates arrive; Stuyvesant surrenders and the town is renamed",
+    "tr": "Eylül 1664: dört İngiliz fırkateyni gelir; Stuyvesant teslim olur ve kasabanın adı değişir"
+   },
+   "population": [
+    2000,
+    2470
+   ],
+   "camera": {
+    "center": [
+     40.705,
+     -74.011
+    ],
+    "dist_km": 3.2
+   },
+   "chapter": {
+    "en": "English New York",
+    "tr": "İngiliz New York'u"
+   }
+  },
+  {
+   "from": 1673,
+   "to": 1675,
+   "seconds": 11.5,
+   "era": {
+    "en": "New Netherland",
+    "tr": "Yeni Hollanda"
+   },
+   "city_name": {
+    "en": "New Orange",
+    "tr": "Yeni Orange"
+   },
+   "title": {
+    "en": "New Orange",
+    "tr": "Yeni Orange"
+   },
+   "sub": {
+    "en": "August 1673: the Dutch retake the town as New Orange; it is English again in November 1674",
+    "tr": "Ağustos 1673: Hollandalılar kasabayı Yeni Orange adıyla geri alır; Kasım 1674'te yine İngiliz"
+   },
+   "population": [
+    2540,
+    2680
+   ],
+   "camera": {
+    "center": [
+     40.7045,
+     -74.012
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1676,
+   "to": 1697,
+   "seconds": 11.5,
+   "era": {
+    "en": "English Colony",
+    "tr": "İngiliz Kolonisi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Canal Is Filled",
+    "tr": "Kanal Dolduruluyor"
+   },
+   "sub": {
+    "en": "1676: the Heere Gracht canal is filled in; it becomes Broad Street",
+    "tr": "1676: Heere Gracht kanalı doldurulur; burası Broad Street olur"
+   },
+   "population": [
+    2750,
+    4810
+   ],
+   "camera": {
+    "center": [
+     40.705,
+     -74.011
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1698,
+   "to": 1729,
+   "seconds": 12.5,
+   "era": {
+    "en": "English Colony",
+    "tr": "İngiliz Kolonisi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "sub": {
+    "en": "1698: the first Trinity Church rises on Broadway; the old wall comes down in 1699",
+    "tr": "1698: Broadway'de ilk Trinity Kilisesi yükselir; eski sur 1699'da yıkılır"
+   },
+   "population": [
+    4940,
+    8550
+   ],
+   "camera": {
+    "center": [
+     40.7075,
+     -74.011
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1730,
+   "to": 1770,
+   "seconds": 11.5,
+   "era": {
+    "en": "English Colony",
+    "tr": "İngiliz Kolonisi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Pushing Out the Shore",
+    "tr": "Kıyı İleri Itiliyor"
+   },
+   "sub": {
+    "en": "By 1730 landfill has moved the East River shore out to today's Water Street",
+    "tr": "1730'a kadar dolgu, East River kıyısını bugünkü Water Street'e taşır"
+   },
+   "population": [
+    8790,
+    21100
+   ],
+   "camera": {
+    "center": [
+     40.707,
+     -74.006
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1771,
+   "to": 1776.6,
+   "seconds": 6,
+   "era": {
+    "en": "English Colony",
+    "tr": "İngiliz Kolonisi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "population": [
+    21900,
+    24700
+   ],
+   "camera": {
+    "center": [
+     40.708,
+     -74.006
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1776.61,
+   "to": 1776.7,
+   "seconds": 11.5,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Battle of Long Island",
+    "tr": "Long Island Muharebesi"
+   },
+   "sub": {
+    "en": "27 August 1776: the British defeat Washington's army in Brooklyn",
+    "tr": "27 Ağustos 1776: İngilizler Brooklyn'de Washington'ın ordusunu yener"
+   },
+   "population": [
+    24700,
+    24800
+   ],
+   "camera": {
+    "center": [
+     40.695,
+     -73.995
+    ],
+    "dist_km": 7.0
+   },
+   "chapter": {
+    "en": "Revolution",
+    "tr": "Devrim"
+   }
+  },
+  {
+   "from": 1776.71,
+   "to": 1776.9,
+   "seconds": 12.5,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Great Fire of 1776",
+    "tr": "1776 Büyük Yangını"
+   },
+   "sub": {
+    "en": "21 September 1776: fire burns 10–25% of the city's buildings, Trinity Church among them",
+    "tr": "21 Eylül 1776: yangın şehrin binalarının %10–25'ini yakar; Trinity Kilisesi de yanar"
+   },
+   "population": [
+    24800,
+    24900
+   ],
+   "camera": {
+    "center": [
+     40.709,
+     -74.011
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1777,
+   "to": 1788,
+   "seconds": 11.5,
+   "era": {
+    "en": "American Revolution",
+    "tr": "Amerikan Devrimi"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Front Street",
+    "tr": "Front Street"
+   },
+   "sub": {
+    "en": "By 1780 the East River landfill reaches today's Front Street",
+    "tr": "1780'e kadar East River dolgusu bugünkü Front Street'e ulaşır"
+   },
+   "population": [
+    24900,
+    31700
+   ],
+   "camera": {
+    "center": [
+     40.7075,
+     -74.006
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1789,
+   "to": 1789.9,
+   "seconds": 12.5,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Washington Takes the Oath",
+    "tr": "Washington Yemin Ediyor"
+   },
+   "sub": {
+    "en": "30 April 1789: George Washington is sworn in as president at Federal Hall on Wall Street",
+    "tr": "30 Nisan 1789: George Washington, Wall Street'teki Federal Hall'da başkan olarak yemin eder"
+   },
+   "population": [
+    32400,
+    33100
+   ],
+   "camera": {
+    "center": [
+     40.7072,
+     -74.0103
+    ],
+    "dist_km": 2.4
+   },
+   "chapter": {
+    "en": "Capital and Port",
+    "tr": "Başkent ve Liman"
+   }
+  },
+  {
+   "from": 1790,
+   "to": 1807,
+   "seconds": 11.5,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The First Census",
+    "tr": "İlk Nüfus Sayımı"
+   },
+   "sub": {
+    "en": "1790: the first US census counts 33,131 New Yorkers; South Street is filled by 1800",
+    "tr": "1790: ilk ABD sayımı 33.131 New Yorklu sayar; South Street 1800'e kadar doldurulur"
+   },
+   "population": [
+    33100,
+    83800
+   ],
+   "camera": {
+    "center": [
+     40.709,
+     -74.006
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1808,
+   "to": 1810.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Castle Clinton",
+    "tr": "Castle Clinton"
+   },
+   "sub": {
+    "en": "1808–1811: a round fort, today's Castle Clinton, is built on a small island off the Battery",
+    "tr": "1808–1811: Battery açığındaki adacığa yuvarlak bir kale, bugünkü Castle Clinton yapılır"
+   },
+   "population": [
+    87800,
+    98600
+   ],
+   "camera": {
+    "center": [
+     40.7045,
+     -74.015
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1811,
+   "to": 1824,
+   "seconds": 12.5,
+   "era": {
+    "en": "Early Republic",
+    "tr": "Erken Cumhuriyet"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Grid",
+    "tr": "Izgara"
+   },
+   "sub": {
+    "en": "1811: a street grid is planned from Houston to 155th Street; the Collect Pond is filled",
+    "tr": "1811: Houston'dan 155. Sokak'a kadar bir sokak ızgarası planlanır; Collect Gölü doldurulur"
+   },
+   "population": [
+    98800,
+    151000
+   ],
+   "camera": {
+    "center": [
+     40.73,
+     -73.99
+    ],
+    "dist_km": 8.0
+   },
+   "chapter": {
+    "en": "The Grid",
+    "tr": "Izgara"
+   }
+  },
+  {
+   "from": 1825,
+   "to": 1833,
+   "seconds": 12.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Erie Canal",
+    "tr": "Erie Kanalı"
+   },
+   "sub": {
+    "en": "1825: the Erie Canal links the Hudson to the Great Lakes and makes New York the top US port",
+    "tr": "1825: Erie Kanalı Hudson'ı Büyük Göller'e bağlar; New York ABD'nin bir numaralı limanı olur"
+   },
+   "population": [
+    158000,
+    231000
+   ],
+   "camera": {
+    "center": [
+     40.715,
+     -74.0
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1834,
+   "to": 1835.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The City of Brooklyn",
+    "tr": "Brooklyn Şehri"
+   },
+   "sub": {
+    "en": "1834: Brooklyn, across the East River, becomes a city of 23,310 people",
+    "tr": "1834: East River'ın karşısındaki Brooklyn, 23.310 kişilik bir şehir olur"
+   },
+   "population": [
+    241000,
+    262000
+   ],
+   "camera": {
+    "center": [
+     40.702,
+     -73.993
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 1835.95,
+   "to": 1836.5,
+   "seconds": 12.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Great Fire of 1835",
+    "tr": "1835 Büyük Yangını"
+   },
+   "sub": {
+    "en": "16 December 1835: fire destroys 530–700 buildings on 17 blocks near the East River",
+    "tr": "16 Aralık 1835: yangın East River yakınında 17 blokta 530–700 binayı yok eder"
+   },
+   "population": [
+    262000,
+    269000
+   ],
+   "camera": {
+    "center": [
+     40.7055,
+     -74.008
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1836.6,
+   "to": 1846,
+   "seconds": 11.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Trinity Rises Again",
+    "tr": "Trinity Yeniden"
+   },
+   "sub": {
+    "en": "1846: the third Trinity Church is finished; its 281 ft spire tops the city until 1890",
+    "tr": "1846: üçüncü Trinity Kilisesi tamamlanır; 86 m'lik kulesi 1890'a dek şehrin en yükseğidir"
+   },
+   "population": [
+    270000,
+    422000
+   ],
+   "camera": {
+    "center": [
+     40.708,
+     -74.012
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1847,
+   "to": 1856,
+   "seconds": 11.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Castle Garden",
+    "tr": "Castle Garden"
+   },
+   "sub": {
+    "en": "1855: Castle Clinton becomes the immigrant depot; by 1860 nearly half the city is foreign-born",
+    "tr": "1855: Castle Clinton göçmen merkezi olur; 1860'ta şehrin neredeyse yarısı yabancı doğumludur"
+   },
+   "population": [
+    444000,
+    678000
+   ],
+   "camera": {
+    "center": [
+     40.708,
+     -74.005
+    ],
+    "dist_km": 4.5
+   },
+   "chapter": {
+    "en": "Immigrant City",
+    "tr": "Göçmen Şehri"
+   }
+  },
+  {
+   "from": 1857,
+   "to": 1869,
+   "seconds": 12.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Central Park",
+    "tr": "Central Park"
+   },
+   "sub": {
+    "en": "1857–1858: Seneca Village is cleared and Olmsted and Vaux design the 843-acre Central Park",
+    "tr": "1857–1858: Seneca Village boşaltılır; Olmsted ve Vaux 341 hektarlık Central Park'ı tasarlar"
+   },
+   "population": [
+    710000,
+    929000
+   ],
+   "camera": {
+    "center": [
+     40.77,
+     -73.97
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1870,
+   "to": 1882,
+   "seconds": 11.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Building the Bridge",
+    "tr": "Köprü Yapılıyor"
+   },
+   "sub": {
+    "en": "1870: work begins on John A. Roebling's bridge over the East River to Brooklyn",
+    "tr": "1870: John A. Roebling'in East River üzerinden Brooklyn'e uzanan köprüsünde çalışma başlar"
+   },
+   "population": [
+    942000,
+    1263000
+   ],
+   "camera": {
+    "center": [
+     40.709,
+     -73.998
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1883,
+   "to": 1885.9,
+   "seconds": 12.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Brooklyn Bridge",
+    "tr": "Brooklyn Köprüsü"
+   },
+   "sub": {
+    "en": "24 May 1883: the Brooklyn Bridge opens, then the longest suspension bridge in the world",
+    "tr": "24 Mayıs 1883: Brooklyn Köprüsü açılır; o zamanın dünyadaki en uzun asma köprüsü"
+   },
+   "population": [
+    1292000,
+    1380000
+   ],
+   "camera": {
+    "center": [
+     40.706,
+     -73.996
+    ],
+    "dist_km": 3.2
+   }
+  },
+  {
+   "from": 1886,
+   "to": 1891.9,
+   "seconds": 12.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Statue of Liberty",
+    "tr": "Özgürlük Heykeli"
+   },
+   "sub": {
+    "en": "28 October 1886: the Statue of Liberty is dedicated on Bedloe's Island in the harbor",
+    "tr": "28 Ekim 1886: Özgürlük Heykeli limandaki Bedloe Adası'nda açılır"
+   },
+   "population": [
+    1383000,
+    1515000
+   ],
+   "camera": {
+    "center": [
+     40.695,
+     -74.03
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1892,
+   "to": 1897.9,
+   "seconds": 11.5,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Ellis Island",
+    "tr": "Ellis Adası"
+   },
+   "sub": {
+    "en": "1 January 1892: Ellis Island opens; about 12 million immigrants pass through by 1954",
+    "tr": "1 Ocak 1892: Ellis Adası açılır; 1954'e kadar yaklaşık 12 milyon göçmen buradan geçer"
+   },
+   "population": [
+    1515000,
+    1515000
+   ],
+   "camera": {
+    "center": [
+     40.7,
+     -74.03
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1898,
+   "to": 1900,
+   "seconds": 12.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Five Boroughs, One City",
+    "tr": "Beş İlçe, Tek Şehir"
+   },
+   "sub": {
+    "en": "1 January 1898: Manhattan, Brooklyn, Queens, the Bronx and Staten Island become one city",
+    "tr": "1 Ocak 1898: Manhattan, Brooklyn, Queens, Bronx ve Staten Island tek şehir olur"
+   },
+   "population": [
+    1515301,
+    3437202
+   ],
+   "camera": {
+    "center": [
+     40.71,
+     -73.97
+    ],
+    "dist_km": 24.0
+   },
+   "chapter": {
+    "en": "Greater New York",
+    "tr": "Büyük New York"
+   }
+  },
+  {
+   "from": 1901,
+   "to": 1908,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Subway",
+    "tr": "Metro"
+   },
+   "sub": {
+    "en": "27 October 1904: the first subway line opens, from City Hall to 145th Street",
+    "tr": "27 Ekim 1904: ilk metro hattı City Hall'dan 145. Sokak'a kadar açılır"
+   },
+   "population": [
+    3551000,
+    4465000
+   ],
+   "camera": {
+    "center": [
+     40.76,
+     -73.97
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1909,
+   "to": 1912,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Bridges to Queens and Brooklyn",
+    "tr": "Queens'e ve Brooklyn'e Köprüler"
+   },
+   "sub": {
+    "en": "1909: the Queensboro and Manhattan bridges open; the Williamsburg Bridge came in 1903",
+    "tr": "1909: Queensboro ve Manhattan köprüleri açılır; Williamsburg Köprüsü 1903'te gelmişti"
+   },
+   "population": [
+    4614000,
+    4926000
+   ],
+   "camera": {
+    "center": [
+     40.73,
+     -73.97
+    ],
+    "dist_km": 9.0
+   }
+  },
+  {
+   "from": 1913,
+   "to": 1929,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Grand Central",
+    "tr": "Grand Central"
+   },
+   "sub": {
+    "en": "2 February 1913: Grand Central Terminal opens on 42nd Street",
+    "tr": "2 Şubat 1913: Grand Central Terminali 42. Sokak'ta açılır"
+   },
+   "population": [
+    5008000,
+    6787000
+   ],
+   "camera": {
+    "center": [
+     40.7528,
+     -73.9772
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1930,
+   "to": 1931.5,
+   "seconds": 12.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Race to the Sky",
+    "tr": "Gökyüzü Yarışı"
+   },
+   "sub": {
+    "en": "1930–1931: the Chrysler Building (1,046 ft) and the Empire State Building (1,454 ft) open",
+    "tr": "1930–1931: Chrysler Binası (319 m) ve Empire State Binası (443 m) açılır"
+   },
+   "population": [
+    6930000,
+    7007000
+   ],
+   "camera": {
+    "center": [
+     40.75,
+     -73.98
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Skyline",
+    "tr": "Silüet"
+   }
+  },
+  {
+   "from": 1931.6,
+   "to": 1949,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "George Washington Bridge",
+    "tr": "George Washington Köprüsü"
+   },
+   "sub": {
+    "en": "25 October 1931: the George Washington Bridge spans the Hudson to New Jersey",
+    "tr": "25 Ekim 1931: George Washington Köprüsü Hudson'ı aşarak New Jersey'e uzanır"
+   },
+   "population": [
+    7012000,
+    7847000
+   ],
+   "camera": {
+    "center": [
+     40.82,
+     -73.95
+    ],
+    "dist_km": 12.0
+   }
+  },
+  {
+   "from": 1950,
+   "to": 1963,
+   "seconds": 6,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "population": [
+    7892000,
+    7817000
+   ],
+   "camera": {
+    "center": [
+     40.73,
+     -73.96
+    ],
+    "dist_km": 22.0
+   }
+  },
+  {
+   "from": 1964,
+   "to": 1972,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Verrazzano-Narrows",
+    "tr": "Verrazzano-Narrows"
+   },
+   "sub": {
+    "en": "21 November 1964: the Verrazzano-Narrows Bridge links Staten Island and Brooklyn",
+    "tr": "21 Kasım 1964: Verrazzano-Narrows Köprüsü Staten Island'ı Brooklyn'e bağlar"
+   },
+   "population": [
+    7828000,
+    7723000
+   ],
+   "camera": {
+    "center": [
+     40.64,
+     -74.03
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1975,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "The Twin Towers",
+    "tr": "İkiz Kuleler"
+   },
+   "sub": {
+    "en": "4 April 1973: the World Trade Center opens, briefly the tallest buildings in the world",
+    "tr": "4 Nisan 1973: Dünya Ticaret Merkezi açılır; kısa bir süre dünyanın en yüksek binaları"
+   },
+   "population": [
+    7638000,
+    7472000
+   ],
+   "camera": {
+    "center": [
+     40.71,
+     -74.01
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1976,
+   "to": 1990,
+   "seconds": 11.5,
+   "era": {
+    "en": "20th Century",
+    "tr": "20. Yüzyıl"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Battery Park City",
+    "tr": "Battery Park City"
+   },
+   "sub": {
+    "en": "By 1976 a 92-acre landfill, partly from the World Trade Center dig, extends the Hudson shore",
+    "tr": "1976'ya dek kısmen DTM kazısından gelen 37 hektarlık dolgu Hudson kıyısını ileri taşır"
+   },
+   "population": [
+    7390000,
+    7323000
+   ],
+   "camera": {
+    "center": [
+     40.71,
+     -74.012
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 1991,
+   "to": 2001.6,
+   "seconds": 11.5,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "Shrinking and Growing",
+    "tr": "Küçülme ve Büyüme"
+   },
+   "sub": {
+    "en": "1970–1980: the city loses about 820,000 people; by 2000 it passes 8 million",
+    "tr": "1970–1980: şehir yaklaşık 820.000 kişi kaybeder; 2000'de 8 milyonu aşar"
+   },
+   "population": [
+    7388000,
+    8035000
+   ],
+   "camera": {
+    "center": [
+     40.73,
+     -73.96
+    ],
+    "dist_km": 20.0
+   },
+   "chapter": {
+    "en": "New York Today",
+    "tr": "Bugünün New York'u"
+   }
+  },
+  {
+   "from": 2001.7,
+   "to": 2013,
+   "seconds": 11.5,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "11 September 2001",
+    "tr": "11 Eylül 2001"
+   },
+   "sub": {
+    "en": "11 September 2001: two hijacked planes destroy the Twin Towers in a terrorist attack",
+    "tr": "11 Eylül 2001: kaçırılan iki uçak bir terör saldırısında İkiz Kuleler'i yıkar"
+   },
+   "population": [
+    8036000,
+    8359000
+   ],
+   "camera": {
+    "center": [
+     40.711,
+     -74.012
+    ],
+    "dist_km": 3.6
+   }
+  },
+  {
+   "from": 2014,
+   "to": 2019,
+   "seconds": 11.5,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "One World Trade Center",
+    "tr": "One World Trade Center"
+   },
+   "sub": {
+    "en": "3 November 2014: One World Trade Center opens, 1,776 feet tall",
+    "tr": "3 Kasım 2014: 541 m yüksekliğindeki One World Trade Center açılır"
+   },
+   "population": [
+    8421000,
+    8739000
+   ],
+   "camera": {
+    "center": [
+     40.713,
+     -74.013
+    ],
+    "dist_km": 4.5
+   }
+  },
+  {
+   "from": 2020,
+   "to": 2026,
+   "seconds": 17.0,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "title": {
+    "en": "New York Today",
+    "tr": "Bugünün New York'u"
+   },
+   "sub": {
+    "en": "From thirty families on Noten Eylandt to about 8.6 million New Yorkers, 400 years on",
+    "tr": "Noten Eylandt'taki otuz aileden yaklaşık 8,6 milyon New Yorkluya, 400 yıl sonra"
+   },
+   "population": [
+    8804190,
+    8584629
+   ],
+   "camera": {
+    "center": [
+     40.73,
+     -73.97
+    ],
+    "dist_km": 16.0
+   }
+  }
+ ],
+ "timed_water": [
+  {
+   "name": "Collect Pond (≈ outline)",
+   "fill": true,
+   "poly": [
+    [
+     40.71469,
+     -73.99611
+    ],
+    [
+     40.71625,
+     -73.99602
+    ],
+    [
+     40.71782,
+     -73.99709
+    ],
+    [
+     40.71909,
+     -73.99911
+    ],
+    [
+     40.71981,
+     -74.00169
+    ],
+    [
+     40.71983,
+     -74.00431
+    ],
+    [
+     40.71915,
+     -74.00645
+    ],
+    [
+     40.71791,
+     -74.00769
+    ],
+    [
+     40.71635,
+     -74.00778
+    ],
+    [
+     40.71478,
+     -74.00671
+    ],
+    [
+     40.71351,
+     -74.00469
+    ],
+    [
+     40.71279,
+     -74.00211
+    ],
+    [
+     40.71277,
+     -73.99949
+    ],
+    [
+     40.71345,
+     -73.99735
+    ]
+   ],
+   "from": 1600,
+   "to": 1811
+  }
+ ],
+ "districts": [
+  {
+   "name": "Lenape planting grounds (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     40.72,
+     -73.99026
+    ],
+    [
+     40.72098,
+     -73.99073
+    ],
+    [
+     40.72177,
+     -73.99204
+    ],
+    [
+     40.7222,
+     -73.99395
+    ],
+    [
+     40.7222,
+     -73.99605
+    ],
+    [
+     40.72177,
+     -73.99796
+    ],
+    [
+     40.72098,
+     -73.99927
+    ],
+    [
+     40.72,
+     -73.99974
+    ],
+    [
+     40.71902,
+     -73.99927
+    ],
+    [
+     40.71823,
+     -73.99796
+    ],
+    [
+     40.7178,
+     -73.99605
+    ],
+    [
+     40.7178,
+     -73.99395
+    ],
+    [
+     40.71823,
+     -73.99204
+    ],
+    [
+     40.71902,
+     -73.99073
+    ]
+   ],
+   "from": 1600,
+   "to": 1601,
+   "density": 0.12,
+   "grain_m": 120,
+   "grow_from": [
+    40.72,
+    -73.995
+   ],
+   "fade": [
+    1640,
+    1660,
+    0.0
+   ]
+  },
+  {
+   "name": "Dutch town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     40.71174,
+     -74.02181
+    ],
+    [
+     40.70306,
+     -74.00129
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1625,
+   "to": 1660,
+   "density": 0.75,
+   "grain_m": 40,
+   "grow_from": [
+    40.704,
+    -74.0125
+   ]
+  },
+  {
+   "name": "Breuckelen (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     40.699,
+     -73.98767
+    ],
+    [
+     40.70037,
+     -73.9882
+    ],
+    [
+     40.70147,
+     -73.98968
+    ],
+    [
+     40.70209,
+     -73.99181
+    ],
+    [
+     40.70209,
+     -73.99419
+    ],
+    [
+     40.70147,
+     -73.99632
+    ],
+    [
+     40.70037,
+     -73.9978
+    ],
+    [
+     40.699,
+     -73.99833
+    ],
+    [
+     40.69763,
+     -73.9978
+    ],
+    [
+     40.69653,
+     -73.99632
+    ],
+    [
+     40.69591,
+     -73.99419
+    ],
+    [
+     40.69591,
+     -73.99181
+    ],
+    [
+     40.69653,
+     -73.98968
+    ],
+    [
+     40.69763,
+     -73.9882
+    ]
+   ],
+   "from": 1646,
+   "to": 1680,
+   "density": 0.35,
+   "grain_m": 70,
+   "grow_from": [
+    40.702,
+    -73.9935
+   ]
+  },
+  {
+   "name": "Nieuw Haarlem (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     40.80889,
+     -73.94122
+    ],
+    [
+     40.81066,
+     -73.94192
+    ],
+    [
+     40.81207,
+     -73.9439
+    ],
+    [
+     40.81286,
+     -73.94675
+    ],
+    [
+     40.81286,
+     -73.94991
+    ],
+    [
+     40.81207,
+     -73.95276
+    ],
+    [
+     40.81066,
+     -73.95474
+    ],
+    [
+     40.80889,
+     -73.95544
+    ],
+    [
+     40.80712,
+     -73.95474
+    ],
+    [
+     40.80571,
+     -73.95276
+    ],
+    [
+     40.80492,
+     -73.94991
+    ],
+    [
+     40.80492,
+     -73.94675
+    ],
+    [
+     40.80571,
+     -73.9439
+    ],
+    [
+     40.80712,
+     -73.94192
+    ]
+   ],
+   "from": 1660,
+   "to": 1700,
+   "density": 0.3,
+   "grain_m": 80,
+   "grow_from": [
+    40.80889,
+    -73.94833
+   ]
+  },
+  {
+   "name": "English town (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.72093,
+     -74.01957
+    ],
+    [
+     40.70829,
+     -73.98969
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1665,
+   "to": 1775,
+   "density": 0.8,
+   "grain_m": 42,
+   "grow_from": [
+    40.705,
+    -74.011
+   ]
+  },
+  {
+   "name": "Rebuilt town and Houston St (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.73366,
+     -74.01544
+    ],
+    [
+     40.71577,
+     -73.97316
+    ],
+    [
+     40.712,
+     -73.974
+    ],
+    [
+     40.71,
+     -73.985
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1777,
+   "to": 1830,
+   "density": 0.82,
+   "grain_m": 45,
+   "grow_from": [
+    40.708,
+    -74.008
+   ]
+  },
+  {
+   "name": "Brooklyn town (≈)",
+   "style": "georgian",
+   "poly": [
+    [
+     40.706,
+     -73.999
+    ],
+    [
+     40.712,
+     -73.965
+    ],
+    [
+     40.7,
+     -73.945
+    ],
+    [
+     40.675,
+     -73.95
+    ],
+    [
+     40.665,
+     -73.99
+    ],
+    [
+     40.68,
+     -74.01
+    ],
+    [
+     40.695,
+     -74.005
+    ]
+   ],
+   "from": 1790,
+   "to": 1860,
+   "density": 0.65,
+   "grain_m": 70,
+   "grow_from": [
+    40.7,
+    -73.992
+   ],
+   "holes": [
+    [
+     [
+      40.699,
+      -73.98767
+     ],
+     [
+      40.70037,
+      -73.9882
+     ],
+     [
+      40.70147,
+      -73.98968
+     ],
+     [
+      40.70209,
+      -73.99181
+     ],
+     [
+      40.70209,
+      -73.99419
+     ],
+     [
+      40.70147,
+      -73.99632
+     ],
+     [
+      40.70037,
+      -73.9978
+     ],
+     [
+      40.699,
+      -73.99833
+     ],
+     [
+      40.69763,
+      -73.9978
+     ],
+     [
+      40.69653,
+      -73.99632
+     ],
+     [
+      40.69591,
+      -73.99419
+     ],
+     [
+      40.69591,
+      -73.99181
+     ],
+     [
+      40.69653,
+      -73.98968
+     ],
+     [
+      40.69763,
+      -73.9882
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Grid to 14th St (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.735,
+     -74.015
+    ],
+    [
+     40.74512,
+     -74.01197
+    ],
+    [
+     40.72759,
+     -73.97054
+    ],
+    [
+     40.712,
+     -73.974
+    ],
+    [
+     40.71,
+     -73.985
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1825,
+   "to": 1850,
+   "density": 0.85,
+   "grain_m": 50,
+   "grow_from": [
+    40.72,
+    -74.0
+   ],
+   "holes": [
+    [
+     [
+      40.715,
+      -74.0215
+     ],
+     [
+      40.73366,
+      -74.01544
+     ],
+     [
+      40.71577,
+      -73.97316
+     ],
+     [
+      40.712,
+      -73.974
+     ],
+     [
+      40.71,
+      -73.985
+     ],
+     [
+      40.706,
+      -73.996
+     ],
+     [
+      40.701,
+      -74.005
+     ],
+     [
+      40.69988,
+      -74.00892
+     ],
+     [
+      40.70558,
+      -74.02238
+     ]
+    ],
+    [
+     [
+      40.73083,
+      -73.9962
+     ],
+     [
+      40.73131,
+      -73.99645
+     ],
+     [
+      40.7316,
+      -73.9971
+     ],
+     [
+      40.7316,
+      -73.9979
+     ],
+     [
+      40.73131,
+      -73.99855
+     ],
+     [
+      40.73083,
+      -73.9988
+     ],
+     [
+      40.73035,
+      -73.99855
+     ],
+     [
+      40.73006,
+      -73.9979
+     ],
+     [
+      40.73006,
+      -73.9971
+     ],
+     [
+      40.73035,
+      -73.99645
+     ]
+    ]
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Grid to 42nd St (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.735,
+     -74.015
+    ],
+    [
+     40.755,
+     -74.009
+    ],
+    [
+     40.76274,
+     -74.00474
+    ],
+    [
+     40.74661,
+     -73.96661
+    ],
+    [
+     40.745,
+     -73.968
+    ],
+    [
+     40.73,
+     -73.97
+    ],
+    [
+     40.712,
+     -73.974
+    ],
+    [
+     40.71,
+     -73.985
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1845,
+   "to": 1870,
+   "density": 0.85,
+   "grain_m": 55,
+   "grow_from": [
+    40.735,
+    -73.99
+   ],
+   "holes": [
+    [
+     [
+      40.715,
+      -74.0215
+     ],
+     [
+      40.735,
+      -74.015
+     ],
+     [
+      40.74512,
+      -74.01197
+     ],
+     [
+      40.72759,
+      -73.97054
+     ],
+     [
+      40.712,
+      -73.974
+     ],
+     [
+      40.71,
+      -73.985
+     ],
+     [
+      40.706,
+      -73.996
+     ],
+     [
+      40.701,
+      -74.005
+     ],
+     [
+      40.69988,
+      -74.00892
+     ],
+     [
+      40.70558,
+      -74.02238
+     ]
+    ]
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Grid to 59th St (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.735,
+     -74.015
+    ],
+    [
+     40.755,
+     -74.009
+    ],
+    [
+     40.7749,
+     -73.99805
+    ],
+    [
+     40.75758,
+     -73.9571
+    ],
+    [
+     40.745,
+     -73.968
+    ],
+    [
+     40.73,
+     -73.97
+    ],
+    [
+     40.712,
+     -73.974
+    ],
+    [
+     40.71,
+     -73.985
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1860,
+   "to": 1885,
+   "density": 0.8,
+   "grain_m": 60,
+   "grow_from": [
+    40.753,
+    -73.982
+   ],
+   "holes": [
+    [
+     [
+      40.715,
+      -74.0215
+     ],
+     [
+      40.735,
+      -74.015
+     ],
+     [
+      40.755,
+      -74.009
+     ],
+     [
+      40.76274,
+      -74.00474
+     ],
+     [
+      40.74661,
+      -73.96661
+     ],
+     [
+      40.745,
+      -73.968
+     ],
+     [
+      40.73,
+      -73.97
+     ],
+     [
+      40.712,
+      -73.974
+     ],
+     [
+      40.71,
+      -73.985
+     ],
+     [
+      40.706,
+      -73.996
+     ],
+     [
+      40.701,
+      -74.005
+     ],
+     [
+      40.69988,
+      -74.00892
+     ],
+     [
+      40.70558,
+      -74.02238
+     ]
+    ]
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Upper East and West Side (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.775,
+     -73.998
+    ],
+    [
+     40.8,
+     -73.979
+    ],
+    [
+     40.80902,
+     -73.97359
+    ],
+    [
+     40.79295,
+     -73.93562
+    ],
+    [
+     40.79,
+     -73.937
+    ],
+    [
+     40.775,
+     -73.944
+    ],
+    [
+     40.76,
+     -73.955
+    ],
+    [
+     40.75758,
+     -73.9571
+    ],
+    [
+     40.7749,
+     -73.99805
+    ]
+   ],
+   "from": 1875,
+   "to": 1905,
+   "density": 0.8,
+   "grain_m": 65,
+   "grow_from": [
+    40.765,
+    -73.975
+   ],
+   "holes": [
+    [
+     [
+      40.7644,
+      -73.973
+     ],
+     [
+      40.7681,
+      -73.9819
+     ],
+     [
+      40.8006,
+      -73.9581
+     ],
+     [
+      40.7968,
+      -73.9493
+     ]
+    ]
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Harlem and Washington Heights (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.83,
+     -73.961
+    ],
+    [
+     40.86,
+     -73.944
+    ],
+    [
+     40.878,
+     -73.931
+    ],
+    [
+     40.874,
+     -73.911
+    ],
+    [
+     40.85,
+     -73.925
+    ],
+    [
+     40.83,
+     -73.933
+    ],
+    [
+     40.805,
+     -73.93
+    ],
+    [
+     40.79295,
+     -73.93562
+    ],
+    [
+     40.80902,
+     -73.97359
+    ]
+   ],
+   "from": 1880,
+   "to": 1920,
+   "density": 0.75,
+   "grain_m": 75,
+   "grow_from": [
+    40.8,
+    -73.955
+   ],
+   "holes": [
+    [
+     [
+      40.80889,
+      -73.94122
+     ],
+     [
+      40.81066,
+      -73.94192
+     ],
+     [
+      40.81207,
+      -73.9439
+     ],
+     [
+      40.81286,
+      -73.94675
+     ],
+     [
+      40.81286,
+      -73.94991
+     ],
+     [
+      40.81207,
+      -73.95276
+     ],
+     [
+      40.81066,
+      -73.95474
+     ],
+     [
+      40.80889,
+      -73.95544
+     ],
+     [
+      40.80712,
+      -73.95474
+     ],
+     [
+      40.80571,
+      -73.95276
+     ],
+     [
+      40.80492,
+      -73.94991
+     ],
+     [
+      40.80492,
+      -73.94675
+     ],
+     [
+      40.80571,
+      -73.9439
+     ],
+     [
+      40.80712,
+      -73.94192
+     ]
+    ]
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Brooklyn (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     40.706,
+     -73.999
+    ],
+    [
+     40.712,
+     -73.965
+    ],
+    [
+     40.7,
+     -73.945
+    ],
+    [
+     40.675,
+     -73.95
+    ],
+    [
+     40.665,
+     -73.99
+    ],
+    [
+     40.68,
+     -74.01
+    ],
+    [
+     40.695,
+     -74.005
+    ]
+   ],
+   "from": 1860,
+   "to": 1900,
+   "density": 0.75,
+   "grain_m": 75,
+   "grow_from": [
+    40.695,
+    -73.99
+   ]
+  },
+  {
+   "name": "Downtown offices (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.72002,
+     -74.01987
+    ],
+    [
+     40.70781,
+     -73.99101
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1880,
+   "to": 1930,
+   "density": 0.7,
+   "grain_m": 70,
+   "grow_from": [
+    40.707,
+    -74.01
+   ]
+  },
+  {
+   "name": "Midtown (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     40.7749,
+     -73.99805
+    ],
+    [
+     40.75758,
+     -73.9571
+    ],
+    [
+     40.745,
+     -73.968
+    ],
+    [
+     40.74072,
+     -73.96857
+    ],
+    [
+     40.75729,
+     -74.00774
+    ]
+   ],
+   "from": 1900,
+   "to": 1935,
+   "density": 0.7,
+   "grain_m": 85,
+   "grow_from": [
+    40.755,
+    -73.98
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Outer boroughs, inner ring (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     40.8,
+     -73.93
+    ],
+    [
+     40.805,
+     -73.77
+    ],
+    [
+     40.74,
+     -73.7
+    ],
+    [
+     40.64,
+     -73.73
+    ],
+    [
+     40.57,
+     -73.74
+    ],
+    [
+     40.555,
+     -73.95
+    ],
+    [
+     40.57,
+     -74.04
+    ],
+    [
+     40.64,
+     -74.045
+    ],
+    [
+     40.7,
+     -74.01
+    ],
+    [
+     40.745,
+     -73.97
+    ],
+    [
+     40.78,
+     -73.935
+    ]
+   ],
+   "from": 1890,
+   "to": 1940,
+   "density": 0.55,
+   "grain_m": 150,
+   "grow_from": [
+    40.7,
+    -73.97
+   ],
+   "holes": [
+    [
+     [
+      40.699,
+      -74.023
+     ],
+     [
+      40.715,
+      -74.0215
+     ],
+     [
+      40.735,
+      -74.015
+     ],
+     [
+      40.755,
+      -74.009
+     ],
+     [
+      40.775,
+      -73.998
+     ],
+     [
+      40.8,
+      -73.979
+     ],
+     [
+      40.83,
+      -73.961
+     ],
+     [
+      40.86,
+      -73.944
+     ],
+     [
+      40.878,
+      -73.931
+     ],
+     [
+      40.874,
+      -73.911
+     ],
+     [
+      40.85,
+      -73.925
+     ],
+     [
+      40.83,
+      -73.933
+     ],
+     [
+      40.805,
+      -73.93
+     ],
+     [
+      40.79,
+      -73.937
+     ],
+     [
+      40.775,
+      -73.944
+     ],
+     [
+      40.76,
+      -73.955
+     ],
+     [
+      40.745,
+      -73.968
+     ],
+     [
+      40.73,
+      -73.97
+     ],
+     [
+      40.712,
+      -73.974
+     ],
+     [
+      40.71,
+      -73.985
+     ],
+     [
+      40.706,
+      -73.996
+     ],
+     [
+      40.701,
+      -74.005
+     ],
+     [
+      40.699,
+      -74.012
+     ]
+    ],
+    [
+     [
+      40.699,
+      -73.98767
+     ],
+     [
+      40.70037,
+      -73.9882
+     ],
+     [
+      40.70147,
+      -73.98968
+     ],
+     [
+      40.70209,
+      -73.99181
+     ],
+     [
+      40.70209,
+      -73.99419
+     ],
+     [
+      40.70147,
+      -73.99632
+     ],
+     [
+      40.70037,
+      -73.9978
+     ],
+     [
+      40.699,
+      -73.99833
+     ],
+     [
+      40.69763,
+      -73.9978
+     ],
+     [
+      40.69653,
+      -73.99632
+     ],
+     [
+      40.69591,
+      -73.99419
+     ],
+     [
+      40.69591,
+      -73.99181
+     ],
+     [
+      40.69653,
+      -73.98968
+     ],
+     [
+      40.69763,
+      -73.9882
+     ]
+    ],
+    [
+     [
+      40.706,
+      -73.999
+     ],
+     [
+      40.712,
+      -73.965
+     ],
+     [
+      40.7,
+      -73.945
+     ],
+     [
+      40.675,
+      -73.95
+     ],
+     [
+      40.665,
+      -73.99
+     ],
+     [
+      40.68,
+      -74.01
+     ],
+     [
+      40.695,
+      -74.005
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "The Bronx (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     40.805,
+     -73.928
+    ],
+    [
+     40.835,
+     -73.932
+    ],
+    [
+     40.875,
+     -73.908
+    ],
+    [
+     40.915,
+     -73.91
+    ],
+    [
+     40.915,
+     -73.78
+    ],
+    [
+     40.83,
+     -73.78
+    ],
+    [
+     40.8,
+     -73.88
+    ]
+   ],
+   "from": 1890,
+   "to": 1940,
+   "density": 0.55,
+   "grain_m": 150,
+   "grow_from": [
+    40.81,
+    -73.92
+   ]
+  },
+  {
+   "name": "Staten Island (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     40.648,
+     -74.08
+    ],
+    [
+     40.64,
+     -74.18
+    ],
+    [
+     40.63,
+     -74.2
+    ],
+    [
+     40.555,
+     -74.215
+    ],
+    [
+     40.505,
+     -74.255
+    ],
+    [
+     40.495,
+     -74.24
+    ],
+    [
+     40.54,
+     -74.13
+    ],
+    [
+     40.59,
+     -74.06
+    ],
+    [
+     40.62,
+     -74.065
+    ],
+    [
+     40.645,
+     -74.07
+    ]
+   ],
+   "from": 1900,
+   "to": 1990,
+   "density": 0.4,
+   "grain_m": 190,
+   "grow_from": [
+    40.64,
+    -74.08
+   ]
+  },
+  {
+   "name": "Hudson County, New Jersey (≈, outside the city)",
+   "style": "suburb",
+   "poly": [
+    [
+     40.655,
+     -74.07
+    ],
+    [
+     40.69,
+     -74.055
+    ],
+    [
+     40.715,
+     -74.031
+    ],
+    [
+     40.74,
+     -74.023
+    ],
+    [
+     40.76,
+     -74.013
+    ],
+    [
+     40.79,
+     -73.996
+    ],
+    [
+     40.85,
+     -73.965
+    ],
+    [
+     40.85,
+     -74.03
+    ],
+    [
+     40.79,
+     -74.07
+    ],
+    [
+     40.7,
+     -74.11
+    ],
+    [
+     40.655,
+     -74.12
+    ]
+   ],
+   "from": 1870,
+   "to": 1950,
+   "density": 0.4,
+   "grain_m": 170,
+   "grow_from": [
+    40.72,
+    -74.04
+   ]
+  },
+  {
+   "name": "Financial District towers",
+   "style": "highrise",
+   "poly": [
+    [
+     40.715,
+     -74.0215
+    ],
+    [
+     40.72002,
+     -74.01987
+    ],
+    [
+     40.70781,
+     -73.99101
+    ],
+    [
+     40.706,
+     -73.996
+    ],
+    [
+     40.701,
+     -74.005
+    ],
+    [
+     40.69988,
+     -74.00892
+    ],
+    [
+     40.70558,
+     -74.02238
+    ]
+   ],
+   "from": 1960,
+   "to": 2015,
+   "density": 0.45,
+   "grain_m": 110,
+   "grow_from": [
+    40.707,
+    -74.011
+   ]
+  },
+  {
+   "name": "Midtown towers",
+   "style": "highrise",
+   "poly": [
+    [
+     40.7749,
+     -73.99805
+    ],
+    [
+     40.75758,
+     -73.9571
+    ],
+    [
+     40.745,
+     -73.968
+    ],
+    [
+     40.74072,
+     -73.96857
+    ],
+    [
+     40.75729,
+     -74.00774
+    ]
+   ],
+   "from": 1950,
+   "to": 2020,
+   "density": 0.4,
+   "grain_m": 120,
+   "grow_from": [
+    40.755,
+    -73.98
+   ],
+   "grid_deg": 29
+  },
+  {
+   "name": "Battery Park City",
+   "style": "modern",
+   "poly": [
+    [
+     40.7062,
+     -74.0172
+    ],
+    [
+     40.7065,
+     -74.016
+    ],
+    [
+     40.709,
+     -74.0148
+    ],
+    [
+     40.712,
+     -74.014
+    ],
+    [
+     40.716,
+     -74.0131
+    ],
+    [
+     40.7195,
+     -74.0126
+    ],
+    [
+     40.7195,
+     -74.024
+    ],
+    [
+     40.7062,
+     -74.024
+    ]
+   ],
+   "from": 1980,
+   "to": 2000,
+   "density": 0.65,
+   "grain_m": 70,
+   "grow_from": [
+    40.71,
+    -74.016
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "The Wall (Het Cingel, ≈ course along Wall Street)",
+   "path": [
+    [
+     40.7084,
+     -74.013
+    ],
+    [
+     40.70806,
+     -74.01222
+    ],
+    [
+     40.70722,
+     -74.01028
+    ],
+    [
+     40.706,
+     -74.0075
+    ]
+   ],
+   "built": 1653,
+   "removed": 1699,
+   "height": "low",
+   "towers_m": 0,
+   "draw_s": 3.0
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Brooklyn Bridge (≈ ends)",
+   "path": [
+    [
+     40.7092,
+     -74.0015
+    ],
+    [
+     40.7022,
+     -73.9913
+    ]
+   ],
+   "built": 1883.39,
+   "style": "tower",
+   "width_m": 26,
+   "draw_s": 4
+  },
+  {
+   "name": "Williamsburg Bridge (≈ ends)",
+   "path": [
+    [
+     40.716,
+     -73.98
+    ],
+    [
+     40.711,
+     -73.964
+    ]
+   ],
+   "built": 1903.97,
+   "style": "iron",
+   "width_m": 36
+  },
+  {
+   "name": "Queensboro Bridge (≈ ends)",
+   "path": [
+    [
+     40.76,
+     -73.961
+    ],
+    [
+     40.7538,
+     -73.9484
+    ]
+   ],
+   "built": 1909.24,
+   "style": "iron",
+   "width_m": 28
+  },
+  {
+   "name": "Manhattan Bridge (≈ ends)",
+   "path": [
+    [
+     40.7115,
+     -73.9945
+    ],
+    [
+     40.7025,
+     -73.9865
+    ]
+   ],
+   "built": 1909.99,
+   "style": "iron",
+   "width_m": 37
+  },
+  {
+   "name": "George Washington Bridge (≈ ends)",
+   "path": [
+    [
+     40.854,
+     -73.9625
+    ],
+    [
+     40.8494,
+     -73.943
+    ]
+   ],
+   "built": 1931.81,
+   "style": "modern",
+   "width_m": 36,
+   "draw_s": 4
+  },
+  {
+   "name": "Verrazzano-Narrows Bridge (≈ ends)",
+   "path": [
+    [
+     40.604,
+     -74.059
+    ],
+    [
+     40.6088,
+     -74.0321
+    ]
+   ],
+   "built": 1964.89,
+   "style": "modern",
+   "width_m": 31,
+   "draw_s": 4
+  }
+ ],
+ "roads": [
+  {
+   "name": "Broadway (Heeren Wegh, ≈)",
+   "path": [
+    [
+     40.7046,
+     -74.0136
+    ],
+    [
+     40.7081,
+     -74.0114
+    ],
+    [
+     40.7127,
+     -74.008
+    ],
+    [
+     40.719,
+     -74.003
+    ],
+    [
+     40.7255,
+     -73.9965
+    ],
+    [
+     40.7359,
+     -73.9906
+    ]
+   ],
+   "from": 1625,
+   "kind": "road",
+   "width_m": 12
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "fort",
+   "name": {
+    "en": "Fort Amsterdam",
+    "tr": "Amsterdam Kalesi"
+   },
+   "at": [
+    40.70417,
+    -74.01361
+   ],
+   "built": 1625.3,
+   "removed": 1790,
+   "rise_s": 4,
+   "size_m": [
+    95,
+    85,
+    9
+   ],
+   "colors": {
+    "wall": "#9b8a6a"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "U.S. Custom House",
+    "tr": "ABD Gümrük Binası"
+   },
+   "at": [
+    40.70417,
+    -74.01361
+   ],
+   "built": 1902,
+   "rise_s": 5,
+   "size_m": [
+    110,
+    80,
+    26
+   ],
+   "colors": {
+    "wall": "#d9d2c2",
+    "roof": "#6e767c"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Trinity Church (1698)",
+    "tr": "Trinity Kilisesi (1698)"
+   },
+   "at": [
+    40.70806,
+    -74.01222
+   ],
+   "built": 1698,
+   "removed": 1776.72,
+   "rise_s": 4,
+   "size_m": [
+    36,
+    18,
+    18
+   ],
+   "rot_deg": 61,
+   "colors": {
+    "wall": "#d8d0bf",
+    "roof": "#5f666f"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Trinity Church (1790)",
+    "tr": "Trinity Kilisesi (1790)"
+   },
+   "at": [
+    40.70806,
+    -74.01222
+   ],
+   "built": 1788,
+   "removed": 1839,
+   "rise_s": 4,
+   "size_m": [
+    40,
+    20,
+    22
+   ],
+   "rot_deg": 61,
+   "colors": {
+    "wall": "#d8d0bf",
+    "roof": "#5f666f"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "at": [
+    40.70806,
+    -74.01222
+   ],
+   "built": 1841.4,
+   "rise_s": 10,
+   "size_m": [
+    55,
+    24,
+    86
+   ],
+   "rot_deg": 61,
+   "colors": {
+    "wall": "#8f7f6f",
+    "roof": "#4f565f"
+   },
+   "scale": 1.2
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "City Hall (Wall Street)",
+    "tr": "Belediye (Wall Street)"
+   },
+   "at": [
+    40.70722,
+    -74.01028
+   ],
+   "built": 1700,
+   "removed": 1812,
+   "rise_s": 4,
+   "size_m": [
+    30,
+    18,
+    16
+   ],
+   "colors": {
+    "wall": "#b8694f",
+    "roof": "#4f565f"
+   }
+  },
+  {
+   "type": "temple",
+   "name": {
+    "en": "Federal Hall",
+    "tr": "Federal Hall"
+   },
+   "at": [
+    40.70722,
+    -74.01028
+   ],
+   "built": 1840,
+   "rise_s": 5,
+   "size_m": [
+    40,
+    27,
+    20
+   ],
+   "rot_deg": 61,
+   "colors": {
+    "wall": "#e3ddd0",
+    "roof": "#bdb6a8"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "City Hall",
+    "tr": "Belediye Sarayı"
+   },
+   "at": [
+    40.7127,
+    -74.0059
+   ],
+   "built": 1803.4,
+   "rise_s": 8,
+   "size_m": [
+    65,
+    32,
+    20
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#e8e2d4",
+    "roof": "#6d7a80"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Castle Clinton",
+    "tr": "Castle Clinton"
+   },
+   "at": [
+    40.7035,
+    -74.0168
+   ],
+   "built": 1808,
+   "rise_s": 6,
+   "size_m": [
+    60,
+    60,
+    9
+   ],
+   "colors": {
+    "wall": "#b8907a"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Ellis Island station",
+    "tr": "Ellis Adası istasyonu"
+   },
+   "at": [
+    40.69944,
+    -74.03972
+   ],
+   "built": 1891.5,
+   "rise_s": 4,
+   "size_m": [
+    100,
+    50,
+    24
+   ],
+   "colors": {
+    "wall": "#a4513a",
+    "roof": "#8d9aa0"
+   }
+  },
+  {
+   "type": "column",
+   "name": {
+    "en": "Statue of Liberty",
+    "tr": "Özgürlük Heykeli"
+   },
+   "at": [
+    40.68917,
+    -74.04444
+   ],
+   "built": 1886.5,
+   "rise_s": 6,
+   "size_m": [
+    26,
+    26,
+    93
+   ],
+   "colors": {
+    "wall": "#6fae9a"
+   },
+   "scale": 1.3
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Grand Central Terminal",
+    "tr": "Grand Central Terminali"
+   },
+   "at": [
+    40.7528,
+    -73.9772
+   ],
+   "built": 1910,
+   "rise_s": 6,
+   "size_m": [
+    200,
+    90,
+    34
+   ],
+   "rot_deg": 29,
+   "colors": {
+    "wall": "#d6cdb8",
+    "roof": "#6f8c86"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "Chrysler Building",
+    "tr": "Chrysler Binası"
+   },
+   "at": [
+    40.75167,
+    -73.97528
+   ],
+   "built": 1929.1,
+   "rise_s": 8,
+   "size_m": [
+    55,
+    55,
+    319
+   ],
+   "colors": {
+    "wall": "#c9cdd2"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "Empire State Building",
+    "tr": "Empire State Binası"
+   },
+   "at": [
+    40.7483,
+    -73.9856
+   ],
+   "built": 1930.2,
+   "rise_s": 10,
+   "size_m": [
+    60,
+    45,
+    443
+   ],
+   "rot_deg": 29,
+   "colors": {
+    "wall": "#b9b2a6"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "WTC North Tower",
+    "tr": "DTM Kuzey Kulesi"
+   },
+   "at": [
+    40.7117,
+    -74.0131
+   ],
+   "built": 1968,
+   "removed": 2001.7,
+   "rise_s": 8,
+   "size_m": [
+    63,
+    63,
+    417
+   ],
+   "rot_deg": 29,
+   "colors": {
+    "wall": "#9aa6ae"
+   }
+  },
+  {
+   "type": "skyscraper",
+   "name": {
+    "en": "WTC South Tower",
+    "tr": "DTM Güney Kulesi"
+   },
+   "at": [
+    40.7106,
+    -74.0132
+   ],
+   "built": 1969,
+   "removed": 2001.7,
+   "rise_s": 8,
+   "size_m": [
+    63,
+    63,
+    415
+   ],
+   "rot_deg": 29,
+   "colors": {
+    "wall": "#9aa6ae"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "One World Trade Center",
+    "tr": "One World Trade Center"
+   },
+   "at": [
+    40.71306,
+    -74.01333
+   ],
+   "built": 2010,
+   "rise_s": 10,
+   "size_m": [
+    62,
+    62,
+    541
+   ],
+   "colors": {
+    "wall": "#8fb2c8"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1776.72,
+   "poly": [
+    [
+     40.704,
+     -74.014
+    ],
+    [
+     40.7058,
+     -74.0128
+    ],
+    [
+     40.7085,
+     -74.0113
+    ],
+    [
+     40.7125,
+     -74.0085
+    ],
+    [
+     40.7145,
+     -74.01
+    ],
+    [
+     40.712,
+     -74.0135
+    ],
+    [
+     40.708,
+     -74.015
+    ],
+    [
+     40.705,
+     -74.016
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 6
+  },
+  {
+   "year": 1835.96,
+   "poly": [
+    [
+     40.7083,
+     -74.0079
+    ],
+    [
+     40.7062,
+     -74.0093
+    ],
+    [
+     40.7045,
+     -74.0105
+    ],
+    [
+     40.7032,
+     -74.0107
+    ],
+    [
+     40.7028,
+     -74.0093
+    ],
+    [
+     40.7045,
+     -74.0064
+    ],
+    [
+     40.7062,
+     -74.0042
+    ],
+    [
+     40.7074,
+     -74.0036
+    ],
+    [
+     40.7079,
+     -74.0056
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 5
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    40.675,
+    -73.985
+   ],
+   "from": 1776.64,
+   "to": 1776.68,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    40.711,
+    -74.013
+   ],
+   "from": 2001.7,
+   "to": 2001.75,
+   "scale": 1.4
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     40.67,
+     -73.995
+    ],
+    [
+     40.685,
+     -73.995
+    ],
+    [
+     40.685,
+     -73.975
+    ],
+    [
+     40.67,
+     -73.975
+    ]
+   ],
+   "from": 1776.6,
+   "to": 1776.67,
+   "count": 140
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Central Park (≈ outline)",
+   "poly": [
+    [
+     40.7644,
+     -73.973
+    ],
+    [
+     40.7681,
+     -73.9819
+    ],
+    [
+     40.8006,
+     -73.9581
+    ],
+    [
+     40.7968,
+     -73.9493
+    ]
+   ]
+  },
+  {
+   "name": "Washington Square (≈)",
+   "poly": [
+    [
+     40.73083,
+     -73.9962
+    ],
+    [
+     40.73131,
+     -73.99645
+    ],
+    [
+     40.7316,
+     -73.9971
+    ],
+    [
+     40.7316,
+     -73.9979
+    ],
+    [
+     40.73131,
+     -73.99855
+    ],
+    [
+     40.73083,
+     -73.9988
+    ],
+    [
+     40.73035,
+     -73.99855
+    ],
+    [
+     40.73006,
+     -73.9979
+    ],
+    [
+     40.73006,
+     -73.9971
+    ],
+    [
+     40.73035,
+     -73.99645
+    ]
+   ]
+  },
+  {
+   "name": "City Hall Park (≈)",
+   "poly": [
+    [
+     40.71303,
+     -74.00536
+    ],
+    [
+     40.71333,
+     -74.00595
+    ],
+    [
+     40.71327,
+     -74.00686
+    ],
+    [
+     40.71287,
+     -74.00775
+    ],
+    [
+     40.7123,
+     -74.00828
+    ],
+    [
+     40.71177,
+     -74.00824
+    ],
+    [
+     40.71147,
+     -74.00765
+    ],
+    [
+     40.71153,
+     -74.00674
+    ],
+    [
+     40.71193,
+     -74.00585
+    ],
+    [
+     40.7125,
+     -74.00532
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "HUDSON RIVER",
+    "tr": "HUDSON NEHRİ"
+   },
+   "at": [
+    40.74,
+    -74.02
+   ],
+   "kind": "water",
+   "to": 1897.9
+  },
+  {
+   "text": {
+    "en": "EAST RIVER",
+    "tr": "EAST RIVER"
+   },
+   "at": [
+    40.73,
+    -73.969
+   ],
+   "kind": "water",
+   "to": 1897.9
+  },
+  {
+   "text": {
+    "en": "UPPER BAY",
+    "tr": "YUKARI KÖRFEZ"
+   },
+   "at": [
+    40.675,
+    -74.045
+   ],
+   "kind": "water",
+   "from": 1609,
+   "to": 1660
+  },
+  {
+   "text": {
+    "en": "MANNAHATTA",
+    "tr": "MANNAHATTA"
+   },
+   "at": [
+    40.74,
+    -73.99
+   ],
+   "kind": "region",
+   "to": 1623
+  },
+  {
+   "text": {
+    "en": "Noten Eylandt",
+    "tr": "Noten Eylandt"
+   },
+   "at": [
+    40.69139,
+    -74.01611
+   ],
+   "kind": "place",
+   "from": 1624,
+   "to": 1645,
+   "now": {
+    "en": "Governors Island",
+    "tr": "Governors Island"
+   }
+  },
+  {
+   "text": {
+    "en": "Fort Amsterdam",
+    "tr": "Amsterdam Kalesi"
+   },
+   "at": [
+    40.70417,
+    -74.01361
+   ],
+   "kind": "place",
+   "from": 1625,
+   "to": 1663.9,
+   "now": {
+    "en": "U.S. Custom House site",
+    "tr": "ABD Gümrük Binası'nın yeri"
+   },
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Breuckelen",
+    "tr": "Breuckelen"
+   },
+   "at": [
+    40.696,
+    -73.995
+   ],
+   "kind": "place",
+   "from": 1646.1,
+   "to": 1652,
+   "now": {
+    "en": "Brooklyn Heights",
+    "tr": "Brooklyn Heights"
+   }
+  },
+  {
+   "text": {
+    "en": "Heere Gracht",
+    "tr": "Heere Gracht"
+   },
+   "at": [
+    40.705,
+    -74.0116
+   ],
+   "kind": "place",
+   "from": 1653,
+   "to": 1659,
+   "now": {
+    "en": "Broad Street",
+    "tr": "Broad Street"
+   },
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "The Wall",
+    "tr": "Sur"
+   },
+   "at": [
+    40.7072,
+    -74.009
+   ],
+   "kind": "place",
+   "from": 1653,
+   "to": 1659,
+   "now": {
+    "en": "Wall Street",
+    "tr": "Wall Street"
+   },
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Nieuw Haarlem",
+    "tr": "Nieuw Haarlem"
+   },
+   "at": [
+    40.80889,
+    -73.94833
+   ],
+   "kind": "place",
+   "from": 1660,
+   "to": 1663.9,
+   "now": {
+    "en": "Harlem",
+    "tr": "Harlem"
+   }
+  },
+  {
+   "text": {
+    "en": "The Wall",
+    "tr": "Sur"
+   },
+   "at": [
+    40.7072,
+    -74.009
+   ],
+   "kind": "place",
+   "from": 1664,
+   "to": 1697,
+   "now": {
+    "en": "Wall Street",
+    "tr": "Wall Street"
+   },
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Broad Street",
+    "tr": "Broad Street"
+   },
+   "at": [
+    40.705,
+    -74.0116
+   ],
+   "kind": "place",
+   "from": 1676,
+   "to": 1697,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "at": [
+    40.70806,
+    -74.01222
+   ],
+   "kind": "place",
+   "from": 1698,
+   "to": 1729,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Water Street",
+    "tr": "Water Street"
+   },
+   "at": [
+    40.7055,
+    -74.006
+   ],
+   "kind": "place",
+   "from": 1730,
+   "to": 1770,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Collect Pond",
+    "tr": "Collect Gölü"
+   },
+   "at": [
+    40.7163,
+    -74.0019
+   ],
+   "kind": "water",
+   "from": 1730,
+   "to": 1776.6,
+   "now": {
+    "en": "Collect Pond Park",
+    "tr": "Collect Pond Park"
+   }
+  },
+  {
+   "text": {
+    "en": "Brooklyn",
+    "tr": "Brooklyn"
+   },
+   "at": [
+    40.68,
+    -73.98
+   ],
+   "kind": "place",
+   "from": 1776.61,
+   "to": 1776.7
+  },
+  {
+   "text": {
+    "en": "Front Street",
+    "tr": "Front Street"
+   },
+   "at": [
+    40.705,
+    -74.005
+   ],
+   "kind": "place",
+   "from": 1777,
+   "to": 1788,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Federal Hall",
+    "tr": "Federal Hall"
+   },
+   "at": [
+    40.70722,
+    -74.01028
+   ],
+   "kind": "place",
+   "from": 1789,
+   "to": 1789.9,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Potter's field",
+    "tr": "Kimsesizler mezarlığı"
+   },
+   "at": [
+    40.73083,
+    -73.9975
+   ],
+   "kind": "place",
+   "from": 1797,
+   "to": 1824,
+   "now": {
+    "en": "Washington Square Park",
+    "tr": "Washington Square Park"
+   }
+  },
+  {
+   "text": {
+    "en": "West Battery",
+    "tr": "West Battery"
+   },
+   "at": [
+    40.7035,
+    -74.0168
+   ],
+   "kind": "place",
+   "from": 1808,
+   "to": 1810.9,
+   "now": {
+    "en": "Castle Clinton",
+    "tr": "Castle Clinton"
+   },
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Collect Pond",
+    "tr": "Collect Gölü"
+   },
+   "at": [
+    40.7163,
+    -74.0019
+   ],
+   "kind": "place",
+   "from": 1811,
+   "to": 1824,
+   "now": {
+    "en": "Collect Pond Park",
+    "tr": "Collect Pond Park"
+   }
+  },
+  {
+   "text": {
+    "en": "Seneca Village",
+    "tr": "Seneca Village"
+   },
+   "at": [
+    40.784002,
+    -73.968892
+   ],
+   "kind": "place",
+   "from": 1825,
+   "to": 1856,
+   "now": {
+    "en": "Central Park",
+    "tr": "Central Park"
+   }
+  },
+  {
+   "text": {
+    "en": "Brooklyn",
+    "tr": "Brooklyn"
+   },
+   "at": [
+    40.693,
+    -73.99
+   ],
+   "kind": "place",
+   "from": 1834,
+   "to": 1835.9
+  },
+  {
+   "text": {
+    "en": "Castle Garden",
+    "tr": "Castle Garden"
+   },
+   "at": [
+    40.7035,
+    -74.0168
+   ],
+   "kind": "place",
+   "from": 1847,
+   "to": 1856,
+   "now": {
+    "en": "Castle Clinton",
+    "tr": "Castle Clinton"
+   },
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Five Points",
+    "tr": "Five Points"
+   },
+   "at": [
+    40.714861,
+    -73.999861
+   ],
+   "kind": "place",
+   "from": 1847,
+   "to": 1856,
+   "now": {
+    "en": "Columbus Park",
+    "tr": "Columbus Park"
+   },
+   "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "Central Park",
+    "tr": "Central Park"
+   },
+   "at": [
+    40.78,
+    -73.965
+   ],
+   "kind": "place",
+   "from": 1857,
+   "to": 1869
+  },
+  {
+   "text": {
+    "en": "Bedloe's Island",
+    "tr": "Bedloe Adası"
+   },
+   "at": [
+    40.68917,
+    -74.04444
+   ],
+   "kind": "place",
+   "from": 1886,
+   "to": 1891.9,
+   "now": {
+    "en": "Liberty Island",
+    "tr": "Liberty Island"
+   },
+   "lift_m": 110
+  },
+  {
+   "text": {
+    "en": "Ellis Island",
+    "tr": "Ellis Adası"
+   },
+   "at": [
+    40.69944,
+    -74.03972
+   ],
+   "kind": "place",
+   "from": 1892,
+   "to": 1897.9,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "MANHATTAN",
+    "tr": "MANHATTAN"
+   },
+   "at": [
+    40.785,
+    -73.965
+   ],
+   "kind": "region",
+   "from": 1898,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "BROOKLYN",
+    "tr": "BROOKLYN"
+   },
+   "at": [
+    40.65,
+    -73.95
+   ],
+   "kind": "region",
+   "from": 1898,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "QUEENS",
+    "tr": "QUEENS"
+   },
+   "at": [
+    40.71,
+    -73.82
+   ],
+   "kind": "region",
+   "from": 1898,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "THE BRONX",
+    "tr": "BRONX"
+   },
+   "at": [
+    40.845,
+    -73.865
+   ],
+   "kind": "region",
+   "from": 1898,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "STATEN ISLAND",
+    "tr": "STATEN ISLAND"
+   },
+   "at": [
+    40.58,
+    -74.15
+   ],
+   "kind": "region",
+   "from": 1898,
+   "to": 1900
+  },
+  {
+   "text": {
+    "en": "City Hall",
+    "tr": "City Hall"
+   },
+   "at": [
+    40.7127,
+    -74.0059
+   ],
+   "kind": "place",
+   "from": 1901,
+   "to": 1908,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Harlem",
+    "tr": "Harlem"
+   },
+   "at": [
+    40.80889,
+    -73.94833
+   ],
+   "kind": "place",
+   "from": 1901,
+   "to": 1908
+  },
+  {
+   "text": {
+    "en": "Long Island City",
+    "tr": "Long Island City"
+   },
+   "at": [
+    40.745,
+    -73.945
+   ],
+   "kind": "place",
+   "from": 1909,
+   "to": 1912
+  },
+  {
+   "text": {
+    "en": "Williamsburg",
+    "tr": "Williamsburg"
+   },
+   "at": [
+    40.71,
+    -73.955
+   ],
+   "kind": "place",
+   "from": 1909,
+   "to": 1912
+  },
+  {
+   "text": {
+    "en": "Grand Central",
+    "tr": "Grand Central"
+   },
+   "at": [
+    40.7528,
+    -73.9772
+   ],
+   "kind": "place",
+   "from": 1913,
+   "to": 1929,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Chrysler",
+    "tr": "Chrysler"
+   },
+   "at": [
+    40.75167,
+    -73.97528
+   ],
+   "kind": "place",
+   "from": 1930.4,
+   "to": 1931.5,
+   "lift_m": 340
+  },
+  {
+   "text": {
+    "en": "Empire State",
+    "tr": "Empire State"
+   },
+   "at": [
+    40.7483,
+    -73.9856
+   ],
+   "kind": "place",
+   "from": 1931.3,
+   "to": 1931.5,
+   "lift_m": 460
+  },
+  {
+   "text": {
+    "en": "NEW JERSEY",
+    "tr": "NEW JERSEY"
+   },
+   "at": [
+    40.83,
+    -74.01
+   ],
+   "kind": "region",
+   "from": 1931.6,
+   "to": 1949
+  },
+  {
+   "text": {
+    "en": "Staten Island",
+    "tr": "Staten Island"
+   },
+   "at": [
+    40.61,
+    -74.09
+   ],
+   "kind": "place",
+   "from": 1964,
+   "to": 1972
+  },
+  {
+   "text": {
+    "en": "Bay Ridge",
+    "tr": "Bay Ridge"
+   },
+   "at": [
+    40.625,
+    -74.03
+   ],
+   "kind": "place",
+   "from": 1964,
+   "to": 1972
+  },
+  {
+   "text": {
+    "en": "World Trade Center",
+    "tr": "Dünya Ticaret Merkezi"
+   },
+   "at": [
+    40.71167,
+    -74.0125
+   ],
+   "kind": "place",
+   "from": 1973.3,
+   "to": 1975,
+   "lift_m": 440
+  },
+  {
+   "text": {
+    "en": "Battery Park City",
+    "tr": "Battery Park City"
+   },
+   "at": [
+    40.713,
+    -74.016
+   ],
+   "kind": "place",
+   "from": 1976,
+   "to": 1990,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "One World Trade Center",
+    "tr": "One World Trade Center"
+   },
+   "at": [
+    40.71306,
+    -74.01333
+   ],
+   "kind": "place",
+   "from": 2014.8,
+   "to": 2019,
+   "lift_m": 560
+  },
+  {
+   "text": {
+    "en": "MANHATTAN",
+    "tr": "MANHATTAN"
+   },
+   "at": [
+    40.785,
+    -73.965
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "BROOKLYN",
+    "tr": "BROOKLYN"
+   },
+   "at": [
+    40.65,
+    -73.95
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "QUEENS",
+    "tr": "QUEENS"
+   },
+   "at": [
+    40.71,
+    -73.82
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "THE BRONX",
+    "tr": "BRONX"
+   },
+   "at": [
+    40.845,
+    -73.865
+   ],
+   "kind": "region",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "Harlem",
+    "tr": "Harlem"
+   },
+   "at": [
+    40.80889,
+    -73.94833
+   ],
+   "kind": "place",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "Financial District",
+    "tr": "Financial District"
+   },
+   "at": [
+    40.7075,
+    -74.009
+   ],
+   "kind": "place",
+   "from": 2020,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Midtown",
+    "tr": "Midtown"
+   },
+   "at": [
+    40.7549,
+    -73.984
+   ],
+   "kind": "place",
+   "from": 2020,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Brooklyn Heights",
+    "tr": "Brooklyn Heights"
+   },
+   "at": [
+    40.696,
+    -73.995
+   ],
+   "kind": "place",
+   "from": 2020
+  },
+  {
+   "text": {
+    "en": "Trinity Church",
+    "tr": "Trinity Kilisesi"
+   },
+   "at": [
+    40.70806,
+    -74.01222
+   ],
+   "kind": "place",
+   "from": 1836.6,
+   "to": 1846,
+   "lift_m": 100
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "New York: 400 Years in 9 Minutes (3D Timelapse, No AI)",
+   "tr": "New York: 9 Dakikada 400 Yıl (3D Timelapse, Yapay Zekâ Yok)"
+  },
+  "description": {
+   "en": "In 1624 about thirty Dutch families landed on Noten Eylandt, at the edge of Lenape Mannahatta. Watch New Amsterdam build a fort and a wall that became Wall Street, turn into English New York in 1664, burn in 1776, see Washington sworn in on Wall Street and push its shore out into the East River. Then the 1811 grid marches up Manhattan, the Erie Canal makes it the nation's port, immigrants arrive through Castle Garden and Ellis Island, the Brooklyn Bridge, the Statue of Liberty and the subway appear, five boroughs become one city in 1898, and the skyline climbs from Trinity's spire to the Empire State Building, the Twin Towers and One World Trade Center — with the year and the population on screen.",
+   "tr": "1624'te otuz kadar Hollandalı aile, Lenapelerin Mannahatta'sının kıyısındaki Noten Eylandt'a çıktı. Yeni Amsterdam'ın bir kale ve Wall Street'e adını veren bir sur kurmasını, 1664'te İngiliz New York'una dönüşmesini, 1776'da yanmasını, Washington'ın Wall Street'te yemin etmesini ve kıyısını East River'a doğru ilerletmesini izleyin. Ardından 1811 ızgarası Manhattan'ı kaplar, Erie Kanalı onu ülkenin limanı yapar, göçmenler Castle Garden ve Ellis Adası'ndan gelir, Brooklyn Köprüsü, Özgürlük Heykeli ve metro ortaya çıkar, beş ilçe 1898'de tek şehir olur ve silüet Trinity'nin kulesinden Empire State'e, İkiz Kuleler'e ve One World Trade Center'a yükselir; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "new york history",
+   "history of new york city",
+   "new amsterdam",
+   "manhattan history",
+   "3d timelapse",
+   "city evolution",
+   "how new york grew",
+   "new york timelapse",
+   "wall street history",
+   "brooklyn bridge",
+   "ellis island",
+   "manhattan grid",
+   "nyc history",
+   "urban history",
+   "no ai"
+  ],
+  "hashtags": [
+   "#NewYork",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of North America",
+   "tr": "Kuzey Amerika Şehirleri"
+  },
+  "playlist_desc": {
+   "en": "North American cities rebuilt in 3D, from the first house to the skyline.",
+   "tr": "Kuzey Amerika şehirleri 3D olarak, ilk evden siluete."
+  },
+  "thumb": {
+   "line1": {
+    "en": "New York",
+    "tr": "New York"
+   },
+   "line2": {
+    "en": "1624 → TODAY",
+    "tr": "1624 → BUGÜN"
+   },
+   "line3": {
+    "en": "From New Amsterdam to megacity",
+    "tr": "Yeni Amsterdam'dan megakente"
+   },
+   "extra": "&pitch=34&az=0&cam=40.7150,-74.0050,7.0",
+   "style": "v2"
+  }
+ },
+ "sources": [
+  {
+   "title": "New Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/New_Amsterdam"
+  },
+  {
+   "title": "Fort Amsterdam — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fort_Amsterdam"
+  },
+  {
+   "title": "Wall Street — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wall_Street"
+  },
+  {
+   "title": "Broad Street (Manhattan) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Broad_Street_(Manhattan)"
+  },
+  {
+   "title": "Commissioners' Plan of 1811 — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Commissioners%27_Plan_of_1811"
+  },
+  {
+   "title": "Collect Pond — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Collect_Pond"
+  },
+  {
+   "title": "Land reclamation in Lower Manhattan — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Land_reclamation_in_Lower_Manhattan"
+  },
+  {
+   "title": "Battery Park City — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battery_Park_City"
+  },
+  {
+   "title": "The Battery (Manhattan) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_Battery_(Manhattan)"
+  },
+  {
+   "title": "Great Fire of New York — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_New_York"
+  },
+  {
+   "title": "Great Fire of New York (1776) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)"
+  },
+  {
+   "title": "Trinity Church (Manhattan) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Trinity_Church_(Manhattan)"
+  },
+  {
+   "title": "City of Greater New York — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/City_of_Greater_New_York"
+  },
+  {
+   "title": "Early history of the IRT subway — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Early_history_of_the_IRT_subway"
+  },
+  {
+   "title": "List of bridges and tunnels in New York City — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_bridges_and_tunnels_in_New_York_City"
+  },
+  {
+   "title": "Seneca Village — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Seneca_Village"
+  },
+  {
+   "title": "Columbus Park (Manhattan) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Columbus_Park_(Manhattan)"
+  },
+  {
+   "title": "Washington Square Park — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Washington_Square_Park"
+  },
+  {
+   "title": "Timeline of Brooklyn — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Brooklyn"
+  },
+  {
+   "title": "Henry Hudson — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Henry_Hudson"
+  },
+  {
+   "title": "Demographic history of New York City — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographic_history_of_New_York_City"
+  },
+  {
+   "title": "Demographics of New York City — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Demographics_of_New_York_City"
+  },
+  {
+   "title": "One World Trade Center — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/One_World_Trade_Center"
+  },
+  {
+   "title": "Empire State Building — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Empire_State_Building"
+  },
+  {
+   "title": "Statue of Liberty — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+  },
+  {
+   "title": "Brooklyn Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+  },
+  {
+   "title": "New York City Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/New_York_City_Hall"
+  },
+  {
+   "title": "Federal Hall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Federal_Hall"
+  },
+  {
+   "title": "Grand Central Terminal — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Grand_Central_Terminal"
+  },
+  {
+   "title": "Williamsburg Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Williamsburg_Bridge"
+  },
+  {
+   "title": "George Washington Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/George_Washington_Bridge"
+  },
+  {
+   "title": "Verrazzano–Narrows Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Verrazzano%E2%80%93Narrows_Bridge"
+  },
+  {
+   "title": "Castle Clinton — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Castle_Clinton"
+  },
+  {
+   "title": "Ellis Island — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ellis_Island"
+  },
+  {
+   "title": "Chrysler Building — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+  },
+  {
+   "title": "Alexander Hamilton U.S. Custom House — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alexander_Hamilton_U.S._Custom_House"
+  },
+  {
+   "title": "Manhattan Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Manhattan_Bridge"
+  },
+  {
+   "title": "Queensboro Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Queensboro_Bridge"
+  },
+  {
+   "title": "Harlem — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Harlem"
+  },
+  {
+   "title": "Brooklyn Heights — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
+  },
+  {
+   "title": "Governors Island — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Governors_Island"
+  },
+  {
+   "title": "World Trade Center (1973–2001) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/World_Trade_Center_(1973%E2%80%932001)"
+  },
+  {
+   "title": "Total and Foreign-born Population, New York City, 1790–2000 — NYC Department of City Planning",
+   "url": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/historical-population/1790-2000_nyc_total_foreign_birth.pdf"
+  },
+  {
+   "title": "New York City's Population Estimates and Trends 2025 — NYC Department of City Planning",
+   "url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/population/population-estimates/new-york-city-population-estimates-and-trends_may-2025.pdf"
+  },
+  {
+   "title": "Harlem — National Park Service",
+   "url": "https://www.nps.gov/articles/000/harlem.htm"
+  },
+  {
+   "title": "Breuckelen (Brooklyn) — New Netherland Institute",
+   "url": "https://www.newnetherlandinstitute.org/history-and-heritage/digital-exhibitions/a-tour-of-new-netherland/long-island/breuckelen/"
+  },
+  {
+   "title": "Completion of the Erie Canal — NYC Archaeological Repository",
+   "url": "https://archaeology.cityofnewyork.us/collection/nyc-timeline/completion-of-the-erie-canal"
+  },
+  {
+   "title": "Henry Hudson and the European discovery of Mannahatta — The Bowery Boys",
+   "url": "https://www.boweryboyshistory.com/2009/05/henry-hudson-and-european-discovery-of.html"
+  },
+  {
+   "title": "Park History — Central Park Conservancy",
+   "url": "https://www.centralparknyc.org/park-history"
+  },
+  {
+   "title": "Empire State Building history — esbnyc.com",
+   "url": "https://esbnyc.com/about/history"
+  },
+  {
+   "title": "Liberty Island Chronology — National Park Service",
+   "url": "https://www.nps.gov/stli/learn/historyculture/liberty-island-a-chronology.htm"
+  },
+  {
+   "title": "Brooklyn Bridge opens — HISTORY",
+   "url": "https://www.history.com/this-day-in-history/may-24/brooklyn-bridge-opens"
+  },
+  {
+   "title": "World Trade Center opens in New York City — HISTORY",
+   "url": "https://www.history.com/this-day-in-history/april-4/world-trade-center-opens-in-new-york-city"
+  }
+ ]
+}

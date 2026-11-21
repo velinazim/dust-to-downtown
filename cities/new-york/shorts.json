@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1600, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "New York", "tr": "New York"}, "line2": {"en": "400 years in 50 seconds", "tr": "50 saniyede 400 yıl"}},
+   "end": {"line2": {"en": "New York: 400 Years in 9 Minutes", "tr": "New York: 9 Dakikada 400 Yıl"}},
+   "title": {"en": "New York: 400 Years in 50 Seconds #shorts", "tr": "New York: 50 Saniyede 400 Yıl #shorts"},
+   "description": {"en": "From about thirty Dutch families on Noten Eylandt in 1624 to about 8.6 million New Yorkers today — the year and the population stay on screen the whole way.",
+                   "tr": "1624'te Noten Eylandt'a çıkan otuz kadar Hollandalı aileden bugün yaklaşık 8,6 milyon New Yorkluya — yıl ve nüfus baştan sona ekranda."},
+   "tags": ["new york history", "history of new york city", "new amsterdam", "3d timelapse", "city evolution", "how new york grew", "shorts"],
+   "hashtags": ["#NewYork", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "new-amsterdam",
+   "from_year": 1624, "to_year": 1699, "seconds": 48,
+   "hook": {"line1": {"en": "New Amsterdam", "tr": "Yeni Amsterdam"}, "line2": {"en": "How it became New York", "tr": "Nasıl New York oldu"}},
+   "end": {"line2": {"en": "New York: 400 Years in 9 Minutes", "tr": "New York: 9 Dakikada 400 Yıl"}},
+   "title": {"en": "How New Amsterdam Became New York, 1624–1699 #shorts", "tr": "Yeni Amsterdam Nasıl New York Oldu, 1624–1699 #shorts"},
+   "description": {"en": "1624: Dutch families land on Noten Eylandt. 1625: Fort Amsterdam. 1653: a wall across the island — today's Wall Street. September 1664: English frigates arrive and the town is renamed New York. 1673: briefly Dutch again as New Orange. 1699: the wall comes down.",
+                   "tr": "1624: Hollandalı aileler Noten Eylandt'a çıkar. 1625: Amsterdam Kalesi. 1653: adayı boydan boya kesen bir sur — bugünkü Wall Street. Eylül 1664: İngiliz fırkateynleri gelir ve kasabanın adı New York olur. 1673: kısa bir süre yeniden Hollandalı, Yeni Orange. 1699: sur yıkılır."},
+   "tags": ["new amsterdam", "wall street history", "new york history", "peter stuyvesant", "dutch new york", "3d timelapse", "shorts"],
+   "hashtags": ["#NewYork", "#NewAmsterdam", "#History", "#Shorts"]
+  },
+  {
+   "id": "skyline",
+   "from_year": 1870, "to_year": 1931.5, "seconds": 50,
+   "hook": {"line1": {"en": "Bridge to skyline", "tr": "Köprüden silüete"}, "line2": {"en": "New York, 1870–1931", "tr": "New York, 1870–1931"}},
+   "end": {"line2": {"en": "New York: 400 Years in 9 Minutes", "tr": "New York: 9 Dakikada 400 Yıl"}},
+   "title": {"en": "From the Brooklyn Bridge to the Empire State in 50 Seconds #shorts", "tr": "50 Saniyede Brooklyn Köprüsü'nden Empire State'e #shorts"},
+   "description": {"en": "1883: the Brooklyn Bridge opens. 1886: the Statue of Liberty. 1892: Ellis Island. 1898: five boroughs become one city. 1904: the first subway. 1930–1931: the Chrysler and Empire State buildings. The city grows from about 1.5 million (1890) to 6.9 million (1930).",
+                   "tr": "1883: Brooklyn Köprüsü açılır. 1886: Özgürlük Heykeli. 1892: Ellis Adası. 1898: beş ilçe tek şehir olur. 1904: ilk metro. 1930–1931: Chrysler ve Empire State binaları. Şehir yaklaşık 1,5 milyondan (1890) 6,9 milyona (1930) büyür."},
+   "tags": ["brooklyn bridge", "empire state building", "new york history", "ellis island", "statue of liberty", "3d timelapse", "shorts"],
+   "hashtags": ["#NewYork", "#BrooklynBridge", "#History", "#Shorts"]
+  }
+ ]
+}
