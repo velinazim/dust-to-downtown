@@ -25,3 +25,4 @@
 - 2026-12-01 Philadelphia: 344 Years in 13 Minutes (3D Timelapse) → https://youtu.be/LZYyFW5geNs (eski EilZM9Mqacs takvimden alındı, gizli)
 - 2026-12-04 Edinburgh: 3,000 Years in 14 Minutes (3D Timelapse) → https://youtu.be/EWilv9QOQys (eski wlCtiYImFOs takvimden alındı, gizli)
 - 2026-11-27 New York: 400 Years in 9 Minutes (3D Timelapse, No AI) → https://youtu.be/9APvmiF1OSo (eski fQk6YHSxPRM takvimden alındı, gizli)
+- 2026-12-01 Los Angeles: 245 Years in 9 Minutes (3D Timelapse, No AI) → https://youtu.be/Xg9Zx4TDtLE (eski aSIZnJ4E0Po takvimden alındı, gizli)
