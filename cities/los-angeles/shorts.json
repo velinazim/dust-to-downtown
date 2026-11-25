@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 1769, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Los Angeles", "tr": "Los Angeles"}, "line2": {"en": "245 years in 50 seconds", "tr": "50 saniyede 245 yıl"}},
+   "end": {"line2": {"en": "Los Angeles: 245 Years in 9 Minutes", "tr": "Los Angeles: 9 Dakikada 245 Yıl"}},
+   "title": {"en": "Los Angeles: 245 Years in 50 Seconds #shorts", "tr": "Los Angeles: 50 Saniyede 245 Yıl #shorts"},
+   "description": {"en": "From 44 settlers in 11 families beside the Tongva village of Yaanga in 1781 to about 3.8 million Angelenos today — the year and the population stay on screen the whole way.",
+                   "tr": "1781'de Tongva köyü Yaanga'nın yanına yerleşen 11 aileden 44 kişiden bugün yaklaşık 3,8 milyon Angelenoya — yıl ve nüfus baştan sona ekranda."},
+   "tags": ["los angeles history", "history of los angeles", "el pueblo de los angeles", "3d timelapse", "city evolution", "how los angeles grew", "shorts"],
+   "hashtags": ["#LosAngeles", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "annexations",
+   "from_year": 1906, "to_year": 1922.9, "seconds": 48,
+   "hook": {"line1": {"en": "LA swallows the Valley", "tr": "LA Vadi'yi yutuyor"}, "line2": {"en": "Los Angeles, 1906–1915", "tr": "Los Angeles, 1906–1915"}},
+   "end": {"line2": {"en": "Los Angeles: 245 Years in 9 Minutes", "tr": "Los Angeles: 9 Dakikada 245 Yıl"}},
+   "title": {"en": "How Los Angeles Doubled in Size: 1906–1915 in 50 Seconds #shorts", "tr": "Los Angeles Nasıl İki Katına Çıktı: 50 Saniyede 1906–1915 #shorts"},
+   "description": {"en": "1906: the Shoestring strip reaches toward the harbor. 28 August 1909: Wilmington and San Pedro join. 7 February 1910: Hollywood merges for water. 5 November 1913: the aqueduct opens before 30,000 people. May 1915: the San Fernando Valley joins and the city doubles in size.",
+                   "tr": "1906: Shoestring şeridi limana uzanır. 28 Ağustos 1909: Wilmington ve San Pedro katılır. 7 Şubat 1910: Hollywood su için birleşir. 5 Kasım 1913: su kemeri 30.000 kişinin önünde açılır. Mayıs 1915: San Fernando Vadisi katılır ve şehir iki katına çıkar."},
+   "tags": ["los angeles history", "los angeles aqueduct", "san fernando valley", "hollywood history", "william mulholland", "3d timelapse", "shorts"],
+   "hashtags": ["#LosAngeles", "#History", "#Shorts"]
+  },
+  {
+   "id": "hollywood",
+   "from_year": 1884, "to_year": 1956.9, "seconds": 50,
+   "hook": {"line1": {"en": "The Hollywood Sign", "tr": "Hollywood Tabelası"}, "line2": {"en": "From a boom town to HOLLYWOOD", "tr": "Bir patlama kasabasından HOLLYWOOD'a"}},
+   "end": {"line2": {"en": "Los Angeles: 245 Years in 9 Minutes", "tr": "Los Angeles: 9 Dakikada 245 Yıl"}},
+   "title": {"en": "From HOLLYWOODLAND to HOLLYWOOD: 1887–1949 in 50 Seconds #shorts", "tr": "HOLLYWOODLAND'den HOLLYWOOD'a: 50 Saniyede 1887–1949 #shorts"},
+   "description": {"en": "1887: Hollywood is laid out in the land boom. 1910: it merges with Los Angeles to secure water. 1923: a $21,000 sign reading HOLLYWOODLAND goes up to sell a housing tract. 1949: the last four letters come down and the sign reads HOLLYWOOD.",
+                   "tr": "1887: Hollywood toprak patlamasında kurulur. 1910: su için Los Angeles ile birleşir. 1923: bir konut projesini satmak için 21.000 dolarlık HOLLYWOODLAND tabelası dikilir. 1949: son dört harf sökülür ve tabela HOLLYWOOD olur."},
+   "tags": ["hollywood sign", "hollywood history", "hollywoodland", "los angeles history", "3d timelapse", "shorts"],
+   "hashtags": ["#Hollywood", "#LosAngeles", "#History", "#Shorts"]
+  }
+ ]
+}
