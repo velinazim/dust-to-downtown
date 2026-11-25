@@ -16,7 +16,7 @@ Order (12 Nov 2026, owner approved): by demand measured on YouTube — the most-
 - [x] edinburgh — Edinburgh (castle rock → New Town → today)
 - [x] toronto — Toronto (Fort York → today)
 - [x] new-york — New York (New Amsterdam → today)
-- [ ] los-angeles — Los Angeles (El Pueblo 1781 → today)
+- [x] los-angeles — Los Angeles (El Pueblo 1781 → today)
 - [ ] prague — Prague (castle → Charles Bridge → today)
 - [ ] munich — Munich (1158 → today; best video is 3 years old)
 - [ ] seoul — Seoul (Hanyang 1394 → today)
