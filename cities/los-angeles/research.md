@@ -137,3 +137,6 @@ Elysian Hills down to the plaza, ZAN), railroads and the two freeways (general c
   flood death toll, Pacific Electric founding, 1892 oil (summary-only), Northridge 1994 (death tolls disagree), the
   January 2025 fires (summary-only source).
 - Sensitive: Yaanga's removal (1845/1847) and the Chavez Ravine evictions are stated plainly, without judgement.
+- Preview round 1: the elevation tiles leave 0–3 m "land" stripes in the Pacific along the coast. `_coast_fix.py` marks
+  low cells that are mostly surrounded by ocean as water (`_coast_fix.json` → geo_edits). Santa Monica Mts open space
+  moved north so Hollywood (Hollywood Blvd ≈ 34.10° N) is not inside it.
