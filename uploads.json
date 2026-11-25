@@ -977,5 +977,17 @@
   "playlist": "added",
   "replaces": "fQk6YHSxPRM",
   "music": "piano-2026-11-09"
+ },
+ {
+  "key": "los-angeles:long",
+  "slug": "los-angeles",
+  "kind": "long",
+  "video_id": "aSIZnJ4E0Po",
+  "link": "https://youtu.be/aSIZnJ4E0Po",
+  "title": "Los Angeles: 245 Years in 9 Minutes (3D Timelapse, No AI)",
+  "publish_at": "2026-12-01T23:30:00Z",
+  "uploaded": "2026-11-25T10:23:47Z",
+  "thumbnail": "ok",
+  "playlist": "added"
  }
 ]
