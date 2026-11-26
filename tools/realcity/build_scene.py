@@ -112,7 +112,7 @@ def main():
                 h = rng.uniform(3.5, 7.5)
             elif kind in ('mosque', 'church'):
                 h = 14.0
-            elif dist < 450:  # Kaleiçi: low historic houses
+            elif dist < 400:  # Kaleiçi: low historic houses
                 h = rng.uniform(5.0, 9.0)
             elif pg.area > 2500:
                 h = rng.uniform(10, 18)
@@ -125,7 +125,7 @@ def main():
             a = float(np.clip((y - 1300) / (2026 - 1300), 0, 1)) ** 1.6
         else:
             a = (dist / (BH * 1.25)) ** 0.85 * 0.82 + rng.normal(0, 0.06)
-            if dist < 450 and h < 10:
+            if dist < 400 and h < 10:
                 a = rng.uniform(0.0, 0.08)
             if h > 30:
                 a += 0.12
@@ -133,7 +133,7 @@ def main():
         H.append(h)
         rings.extend(ring)
         offs.append(len(rings))
-        if dist < 450 and h < 10:
+        if dist < 400 and h < 10:
             walls.append(OLDW[rng.integers(len(OLDW))] * rng.uniform(0.95, 1.03))
             roofs.append(np.array([178, 92, 62]) / 255.0 * rng.uniform(0.85, 1.08))
         else:

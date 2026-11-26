@@ -101,7 +101,7 @@ def setup(args):
     bg.inputs['Color'].default_value = (0.42, 0.58, 0.82, 1); bg.inputs['Strength'].default_value = 0.85
     sun = bpy.data.lights.new('sun', 'SUN'); sun.energy = 4.2; sun.angle = math.radians(1.2); sun.color = (1.0, 0.94, 0.86)
     so = bpy.data.objects.new('sun', sun); sc.collection.objects.link(so)
-    so.rotation_euler = (math.radians(52), 0, math.radians(-38))
+    so.rotation_euler = (math.radians(57), 0, math.radians(-38))
     cam = bpy.data.cameras.new('cam'); cam.lens = 32; cam.clip_start = 5; cam.clip_end = 60000
     co = bpy.data.objects.new('cam', cam); sc.collection.objects.link(co); sc.camera = co
     return co

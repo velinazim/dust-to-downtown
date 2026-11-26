@@ -5,7 +5,7 @@
  "build_half_km": 2.5,
  "ground_half_km": 3.5,
  "camera": {"target": [0, -250], "az0": 245, "az1": 292, "el0": 40, "el1": 31, "r0": 3700, "r1": 2700},
- "mode": "stills",
+ "mode": "full",
  "frames": 900,
  "samples": 20
 }
