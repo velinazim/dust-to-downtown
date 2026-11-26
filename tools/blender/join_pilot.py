@@ -37,13 +37,20 @@ def main():
         run("ffmpeg", "-loglevel", "error", "-y", "-framerate", str(fps), "-start_number", str(f0), "-i", f"{src}/f_%06d.png",
             "-framerate", str(fps), "-start_number", str(f0), "-i", f"{ex}/ov{clip}/o_%06d.png",
             "-filter_complex", "[0][1]overlay,format=yuv420p", "-frames:v", str(n), "-c:v", "libx264", "-preset", "medium", "-crf", "20", bl)
-        eng = glob.glob(f"{ex}/eng{clip}/chunk_en_*.mp4")
+        parts = sorted(glob.glob(f"{ex}/eng{clip}/chunk_en_*.mp4"))
+        eng = []
+        if parts:
+            lst = os.path.join(out, f"_eng{clip}.txt")
+            open(lst, "w").write("".join(f"file '{os.path.abspath(q)}'\n" for q in parts))
+            eng = [os.path.join(out, f"_eng{clip}.mp4")]
+            run("ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", eng[0])
         if eng:
             cmp_ = os.path.join(out, f"{slug}_{clip}_karsilastirma.mp4")
             lab = lambda t: f"drawtext=fontfile={FONT}:text='{t}':x=24:y=h-58:fontsize=34:fontcolor=white:box=1:boxcolor=black@0.55:boxborderw=10"
             run("ffmpeg", "-loglevel", "error", "-y", "-i", eng[0], "-i", bl, "-filter_complex",
                 f"[0]scale=1280:720,{lab('Mevcut motor (Three.js)')}[a];[1]scale=1280:720,{lab('Blender (Cycles)')}[b];[a][b]hstack,format=yuv420p",
                 "-c:v", "libx264", "-preset", "medium", "-crf", "22", cmp_)
+            os.remove(eng[0]); os.remove(lst)
         # QA sheet: 16 evenly spaced frames of the finished Blender clip
         tiles = []
         for k in range(16):

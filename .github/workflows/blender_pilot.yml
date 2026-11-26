@@ -16,11 +16,11 @@ env:
   B_T0: '272'
   B_T1: '282'
   B_EXTRA: '&cam=41.8895,12.4922,0.75&pitch=32&az=70'
-  JOBS: '20'
+  JOBS: '16'
 jobs:
   prep:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
@@ -28,25 +28,39 @@ jobs:
         run: |
           python3 tools/blender/export_scene.py $SLUG ex/A --t0 $A_T0 --t1 $A_T1
           python3 tools/blender/export_scene.py $SLUG ex/B --t0 $B_T0 --t1 $B_T1 --extra "$B_EXTRA"
-      - name: Engine baseline + overlays
-        run: |
-          FA0=$((A_T0*30)); FA1=$((A_T1*30)); FB0=$((B_T0*30)); FB1=$((B_T1*30))
-          python3 engine/render.py chunk $SLUG ex/engA --start $FA0 --end $FA1 --langs en
-          python3 engine/render.py chunk $SLUG ex/engB --start $FB0 --end $FB1 --langs en --extra "$B_EXTRA"
-          python3 tools/blender/overlay.py $SLUG ex/ovA --f0 $FA0 --f1 $FA1
-          python3 tools/blender/overlay.py $SLUG ex/ovB --f0 $FB0 --f1 $FB1 --extra "$B_EXTRA"
-          ls ex/engA ex/engB
       - uses: actions/upload-artifact@v4
         with: {name: prep, path: ex/, retention-days: 2, compression-level: 1}
+  engine:
+    # the web engine's same frames (for the comparison) + its text overlay, in contiguous parts
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        part:
+          - {clip: A, f0: 7560, f1: 7910, extra: ''}
+          - {clip: A, f0: 7910, f1: 8260, extra: ''}
+          - {clip: A, f0: 8260, f1: 8610, extra: ''}
+          - {clip: B, f0: 8160, f1: 8460, extra: '&cam=41.8895,12.4922,0.75&pitch=32&az=70'}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - name: Baseline + overlay ${{ matrix.part.clip }} ${{ matrix.part.f0 }}
+        run: |
+          C=${{ matrix.part.clip }}
+          python3 engine/render.py chunk $SLUG ex/eng$C --start ${{ matrix.part.f0 }} --end ${{ matrix.part.f1 }} --langs en --extra "${{ matrix.part.extra }}"
+          python3 tools/blender/overlay.py $SLUG ex/ov$C --f0 ${{ matrix.part.f0 }} --f1 ${{ matrix.part.f1 }} --extra "${{ matrix.part.extra }}"
+      - uses: actions/upload-artifact@v4
+        with: {name: 'eng-${{ matrix.part.clip }}-${{ matrix.part.f0 }}', path: ex/, retention-days: 2, compression-level: 1}
   render:
     needs: prep
     runs-on: ubuntu-latest
     timeout-minutes: 300
     strategy:
       fail-fast: false
-      max-parallel: 20
+      max-parallel: 16
       matrix:
-        job: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        job: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -68,7 +82,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with: {name: 'frames-${{ matrix.job }}', path: fr/, retention-days: 2, compression-level: 0}
   join:
-    needs: [prep, render]
+    needs: [prep, engine, render]
     if: always() && needs.prep.result == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -81,6 +95,8 @@ jobs:
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
       - uses: actions/download-artifact@v4
         with: {name: prep, path: ex}
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'eng-*', path: ex, merge-multiple: true}
       - uses: actions/download-artifact@v4
         with: {pattern: 'frames-*', path: fr, merge-multiple: true}
       - name: Assemble
