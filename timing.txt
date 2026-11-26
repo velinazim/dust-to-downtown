@@ -1,0 +1,6 @@
+A: frames 7560-8610 (1050), missing 0
+B: frames 8160-8460 (300), missing 0
+A: 1050 frames, 103.9 s/frame avg (min 51.8, max 277.1) at 1920x1080, 24 samples
+B: 300 frames, 81.9 s/frame avg (min 45.7, max 114.2) at 1920x1080, 24 samples
+render jobs: 16, wall max 178.4 min, cores 4
+estimate for a 9-min episode (16200 frames): 446 machine-hours = 22.3 h on 20 parallel machines (GitHub job limit 6 h)
