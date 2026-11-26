@@ -1,0 +1,112 @@
+name: Real buildings pilot
+on:
+  push:
+    branches: [real-buildings]
+    paths: ['pilots/antalya-real/config.json', '.github/workflows/real_buildings.yml', 'tools/realcity/**']
+permissions:
+  contents: write
+env:
+  CFG: pilots/antalya-real/config.json
+  JOBS: 16
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      mode: ${{ steps.m.outputs.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13'}
+      - id: m
+        run: echo "mode=$(python3 -c "import json;print(json.load(open('$CFG'))['mode'])")" >> $GITHUB_OUTPUT
+      - run: pip install -q requests shapely numpy pillow
+      - name: Fetch OSM
+        run: python3 -u tools/realcity/fetch_osm.py $CFG osm.json
+      - name: Build scene
+        run: python3 -u tools/realcity/build_scene.py osm.json sc | tee build_log.txt
+      - uses: actions/upload-artifact@v4
+        with: {name: scene, path: sc/, retention-days: 3}
+  stills:
+    needs: prep
+    if: needs.prep.outputs.mode == 'stills'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13'}
+      - name: Blender (bpy)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libxkbcommon0 libsm6 libgl1 libegl1 > /dev/null
+          pip install -q bpy==5.3.0 numpy
+      - uses: actions/download-artifact@v4
+        with: {name: scene, path: sc}
+      - name: Render stills
+        run: |
+          F=$(python3 -c "import json;print(json.load(open('$CFG'))['frames'])")
+          mkdir -p out
+          python3 tools/realcity/render.py sc out --frames $F --only 60,300,560,780,899 --samples 16 --res 50 2>&1 | grep -E "^frame|scene built|Error|Traceback|line " | tee out/log.txt || true
+          cp sc/meta.json out/
+      - name: Push stills
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          cd out && git init -q && git checkout -q -b real-buildings-out && git add -A
+          git -c user.name="Dust to Downtown bot" -c user.email="velinazim0776@gmail.com" commit -qm "real buildings stills (${{ github.run_id }})"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" real-buildings-out
+  render:
+    needs: prep
+    if: needs.prep.outputs.mode == 'full'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        job: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13'}
+      - name: Blender (bpy)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libxkbcommon0 libsm6 libgl1 libegl1 > /dev/null
+          pip install -q bpy==5.3.0 numpy
+      - uses: actions/download-artifact@v4
+        with: {name: scene, path: sc}
+      - name: Render my frames
+        run: |
+          F=$(python3 -c "import json;print(json.load(open('$CFG'))['frames'])")
+          S=$(python3 -c "import json;print(json.load(open('$CFG'))['samples'])")
+          mkdir -p fr
+          python3 tools/realcity/render.py sc fr --frames $F --start ${{ matrix.job }} --step $JOBS --samples $S 2>&1 | grep -E "^frame|scene built|Error|Traceback" | tee fr/log_${{ matrix.job }}.txt
+      - uses: actions/upload-artifact@v4
+        with: {name: 'frames-${{ matrix.job }}', path: fr/, retention-days: 2, compression-level: 0}
+  join:
+    needs: [prep, render]
+    if: always() && needs.prep.outputs.mode == 'full' && needs.prep.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          pip install -q pillow numpy
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null)
+      - uses: actions/download-artifact@v4
+        with: {pattern: 'frames-*', path: fr, merge-multiple: true}
+      - uses: actions/download-artifact@v4
+        with: {name: scene, path: sc}
+      - name: Assemble
+        run: |
+          F=$(python3 -c "import json;print(json.load(open('$CFG'))['frames'])")
+          T=$(python3 -c "import json;print(json.load(open('$CFG'))['title'])")
+          python3 tools/realcity/assemble.py fr out --frames $F --title "$T"
+          cp sc/meta.json out/; cat fr/log_*.txt > out/render_log.txt || true
+      - name: Push video
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          cd out && ls -la && git init -q && git checkout -q -b real-buildings-out && git add -A
+          git -c user.name="Dust to Downtown bot" -c user.email="velinazim0776@gmail.com" commit -qm "real buildings video (${{ github.run_id }})"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" real-buildings-out
