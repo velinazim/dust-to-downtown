@@ -3001,7 +3001,7 @@
     28.98
    ],
    "kind": "water",
-   "to": null
+   "to": 673
   },
   {
    "text": {
@@ -3227,6 +3227,19 @@
    "from": 1453.31,
    "to": 1453.4,
    "lift_m": 15
+  },
+  {
+   "text": {
+    "en": "SEA OF MARMARA",
+    "tr": "MARMARA DENİZİ"
+   },
+   "at": [
+    40.985,
+    28.98
+   ],
+   "kind": "water",
+   "to": null,
+   "from": 740
   },
   {
    "text": {

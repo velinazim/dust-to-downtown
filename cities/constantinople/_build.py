@@ -143,6 +143,9 @@ roads = [r for r in copy.deepcopy(IST['roads']) if r['from'] <= END]
 labels = [l for l in copy.deepcopy(IST['labels']) if (l.get('from') if l.get('from') is not None else -1e9) <= END]
 for l in labels:
     if l.get('to') is None or l['to'] > END: l['to'] = None
+# the sea label sits in the top-left corner (over the era text) when the camera looks out to sea in 674–739
+for l in [l for l in labels if l['text']['en'] == 'SEA OF MARMARA']:
+    labels.append({**copy.deepcopy(l), 'from': 740}); l['to'] = 673
 labels += [
     {'text': {'en': 'Holy Apostles', 'tr': 'Havariyun'}, 'at': [41.01972, 28.94972], 'from': 551, 'to': 625, 'lift_m': 60},
     {'text': {'en': 'Great Palace', 'tr': 'Büyük Saray'}, 'at': [41.0036, 28.9785], 'from': 331, 'to': 359, 'lift_m': 30},
