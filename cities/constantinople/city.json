@@ -819,12 +819,12 @@
    },
    "camera": {
     "center": [
-     41.0,
-     28.945
+     40.998,
+     28.948
     ],
-    "dist_km": 3.4,
+    "dist_km": 2.4,
     "pitch_deg": 30,
-    "azimuth_deg": -20
+    "azimuth_deg": 200
    }
   },
   {
@@ -849,12 +849,12 @@
    },
    "camera": {
     "center": [
-     41.003,
-     28.955
+     40.9985,
+     28.962
     ],
-    "dist_km": 3.6,
+    "dist_km": 2.4,
     "pitch_deg": 30,
-    "azimuth_deg": -10
+    "azimuth_deg": 165
    }
   },
   {
@@ -1087,9 +1087,9 @@
      41.0815,
      29.0655
     ],
-    "dist_km": 1.6,
-    "pitch_deg": 28,
-    "azimuth_deg": 120
+    "dist_km": 1.4,
+    "pitch_deg": 36,
+    "azimuth_deg": 100
    },
    "chapter": {
     "en": "The Conquest",
@@ -1119,12 +1119,12 @@
    "population": 50000,
    "camera": {
     "center": [
-     41.081,
-     29.058
+     41.0847,
+     29.0561
     ],
-    "dist_km": 1.7,
-    "pitch_deg": 26,
-    "azimuth_deg": -20
+    "dist_km": 1.15,
+    "pitch_deg": 30,
+    "azimuth_deg": 95
    }
   },
   {
@@ -2553,17 +2553,17 @@
    "colors": {
     "wall": "#b8aa92"
    },
-   "scale": 1.5
+   "scale": 1.6
   },
   {
-   "type": "castle",
+   "type": "hisar",
    "name": {
     "en": "Rumelihisarı",
     "tr": "Rumelihisarı"
    },
    "at": [
-    41.084722,
-    29.056111
+    41.0847,
+    29.0553
    ],
    "built": 1452.29,
    "rise_s": 6,
@@ -2576,7 +2576,7 @@
    "colors": {
     "wall": "#b8aa92"
    },
-   "scale": 1.3
+   "scale": 1.0
   },
   {
    "type": "palace2",
@@ -3303,10 +3303,11 @@
    "rows": 3,
    "kind": "galley",
    "sail": "#efe6d0",
+   "heading_deg": 70,
    "path": [
     [
-     40.985,
-     28.95
+     40.9945,
+     28.948
     ]
    ]
   },
@@ -3318,10 +3319,11 @@
    "rows": 4,
    "kind": "galley",
    "sail": "#efe6d0",
+   "heading_deg": 70,
    "path": [
     [
-     40.99,
-     28.965
+     40.995,
+     28.962
     ]
    ]
   },

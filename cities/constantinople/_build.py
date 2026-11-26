@@ -56,16 +56,16 @@ S = [
     ist_seg(14, 15, cam(41.0083, 28.98, 0.85, 24, 25, drift=40)),
     ist_seg(15, 9, cam(41.012, 28.958, 3.6, 32, 40)),
     ist_seg(16, 9.5, cam(41.016, 28.925, 3.0, 28, -70), **ch('Centuries of Sieges', 'Kuşatma Yüzyılları')),
-    ist_seg(17, 10, cam(41.0, 28.945, 3.4, 30, -20)),
-    ist_seg(18, 10, cam(41.003, 28.955, 3.6, 30, -10)),
+    ist_seg(17, 10, cam(40.998, 28.948, 2.4, 30, 200)),
+    ist_seg(18, 10, cam(40.9985, 28.962, 2.4, 30, 165)),
     ist_seg(19, 6, cam(41.015, 28.955, 4.2, 34, 10)),
     ist_seg(20, 13, cam(41.012, 28.962, 3.2, 30, 35, drift=30), **ch('Queen of Cities', 'Şehirlerin Kraliçesi')),
     ist_seg(21, 11.5, cam(41.022, 28.958, 2.6, 30, 160), **ch('The Fourth Crusade', 'Dördüncü Haçlı Seferi')),
     ist_seg(22, 8, cam(41.017, 28.955, 3.6, 32, 120)),
     ist_seg(23, 9, cam(41.0235, 28.9745, 1.8, 30, 150)),
     ist_seg(24, 8.5, cam(41.0256, 28.9742, 1.1, 26, 170)),
-    ist_seg(25, 9.5, cam(41.0815, 29.0655, 1.6, 28, 120), **ch('The Conquest', 'Fetih')),
-    ist_seg(26, 11, cam(41.081, 29.058, 1.7, 26, -20)),
+    ist_seg(25, 9.5, cam(41.0815, 29.0655, 1.4, 36, 100), **ch('The Conquest', 'Fetih')),
+    ist_seg(26, 11, cam(41.0847, 29.0561, 1.15, 30, 95)),
     ist_seg(27, 13, cam(41.019, 28.921, 2.0, 24, -80)),
 ]
 # 20 April 1453: the naval fight; 22 April: ships over the hill; 29 May: the assault and the fall
@@ -126,7 +126,8 @@ for l in landmarks:
     if l['name']['en'] == 'Great Church (first Hagia Sophia)': l['scale'] = 1.3
     if l['name']['en'] == 'Hippodrome': l['scale'] = 1.15
     if l['name']['en'] == 'Galata Tower': l['scale'] = 2.0
-    if l['name']['en'] in ('Rumelihisarı', 'Anadoluhisarı'): l['type'] = 'castle'
+    if l['name']['en'] == 'Rumelihisarı': l.update(type='hisar', scale=1.0, at=[41.0847, 29.0553], size_m=[250, 130, 28])
+    if l['name']['en'] == 'Anadoluhisarı': l.update(type='castle', scale=1.6)
 landmarks += [
     {'type': 'palace2', 'name': {'en': 'Great Palace (≈)', 'tr': 'Büyük Saray (≈)'}, 'at': [41.0036, 28.9785], 'built': 330.2,
      'removed': 1454, 'rise_s': 6, 'size_m': [300, 190, 18], 'rot_deg': -58, 'colors': {'wall': '#efe4cc', 'roof': '#b6553a'}},
@@ -155,8 +156,8 @@ CH_S, CH_N = [41.0166, 28.978], [41.0219, 28.978]     # Eugenius tower (≈ Sirk
 chains = [{'path': [CH_S, CH_N], 'from': 1453.255, 'to': 1453.42}]
 fleets = [
     # Umayyad fleets in the Marmara, 674 and 717 (≈ positions; on screen only "fleet" in the subtitle)
-    {'name': 'Umayyad fleet 674 (≈)', 'from': 674.2, 'to': 716, 'count': 26, 'rows': 3, 'kind': 'galley', 'sail': '#efe6d0', 'path': [[40.985, 28.95]]},
-    {'name': 'Umayyad fleet 717 (≈)', 'from': 717.2, 'to': 739, 'count': 34, 'rows': 4, 'kind': 'galley', 'sail': '#efe6d0', 'path': [[40.99, 28.965]]},
+    {'name': 'Umayyad fleet 674 (≈)', 'from': 674.2, 'to': 716, 'count': 26, 'rows': 3, 'kind': 'galley', 'sail': '#efe6d0', 'heading_deg': 70, 'path': [[40.9945, 28.948]]},
+    {'name': 'Umayyad fleet 717 (≈)', 'from': 717.2, 'to': 739, 'count': 34, 'rows': 4, 'kind': 'galley', 'sail': '#efe6d0', 'heading_deg': 70, 'path': [[40.995, 28.962]]},
     # Venetian fleet attacking the Golden Horn sea walls, April 1204 (≈)
     {'name': 'Crusader fleet 1204 (≈)', 'from': 1204.0, 'to': 1215, 'count': 30, 'rows': 2, 'kind': 'ship', 'sail': '#f2e9d6', 'spread_m': 80,
      'path': [[41.0345, 28.951], [41.031, 28.958]], 'move': [1204.05, 1204.3]},

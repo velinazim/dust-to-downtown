@@ -579,7 +579,7 @@ function buildScene() {
     for (const k of ['ancient', 'roman', 'ottoman']) { STY[k].roofs = ['#c4552f', '#b84a2a', '#d0683c', '#a9472c', '#c86a40', '#b55a35']; STY[k].walls = ['#f2e6cc', '#ead9b6', '#f6eedc', '#e3cfaa', '#efe0c4']; }
     STY.medieval.roofs = ['#a9563a', '#8f4a33', '#b9663f', '#7b5544']; STY.medieval.walls = ['#efe5cf', '#e2d2b2', '#d8c29c', '#f3ebda'];
   }
-  const LM_DEFAULT = { greatdome: { r: 75 }, cross5: { r: 60 }, aqueduct: { r: 10 }, palace2: { r: 140 }, temple: { r: 50 }, church: { r: 60 }, cathedral: { r: 110 }, domechurch: { r: 90 }, mosque: { r: 80 }, castle: { r: 120 }, tower: { r: 25 }, clocktower: { r: 25 }, palace: { r: 140 }, parliament: { r: 160 }, amphitheatre: { r: 110 }, circus: { r: 260 }, stadium: { r: 150 }, forum: { r: 70 }, column: { r: 10 }, obelisk: { r: 10 }, skyscraper: { r: 45 }, spire_tower: { r: 45 }, wheel: { r: 70 }, dome_arena: { r: 180 }, station: { r: 150 }, box: { r: 60 }, fort: { r: 150 }, harbor: { r: 100 } };
+  const LM_DEFAULT = { hisar: { r: 150 }, greatdome: { r: 75 }, cross5: { r: 60 }, aqueduct: { r: 10 }, palace2: { r: 140 }, temple: { r: 50 }, church: { r: 60 }, cathedral: { r: 110 }, domechurch: { r: 90 }, mosque: { r: 80 }, castle: { r: 120 }, tower: { r: 25 }, clocktower: { r: 25 }, palace: { r: 140 }, parliament: { r: 160 }, amphitheatre: { r: 110 }, circus: { r: 260 }, stadium: { r: 150 }, forum: { r: 70 }, column: { r: 10 }, obelisk: { r: 10 }, skyscraper: { r: 45 }, spire_tower: { r: 45 }, wheel: { r: 70 }, dome_arena: { r: 180 }, station: { r: 150 }, box: { r: 60 }, fort: { r: 150 }, harbor: { r: 100 } };
 
   // ---------------- buildings from districts
   const B = [];
@@ -780,6 +780,15 @@ function buildScene() {
     aqueduct(g, c, s) { const [L, wd, h] = s || [900, 8, 26]; const wc = c.wall || '#d8c7a4'; const n = Math.max(4, Math.round(L / 16));
       box(g, L * K, h * 0.12 * K, wd * K, wc, 0, h * 0.88 * K, 0); box(g, L * K, h * 0.1 * K, wd * K, wc, 0, h * 0.42 * K, 0);
       for (let i = 0; i <= n; i++) box(g, 4.5 * K, h * K, wd * 1.15 * K, wc, (-L / 2 + L * i / n) * K, 0, 0); },
+    // Ottoman hisar: curtain walls on a slope, three great round towers and smaller ones (size = [length, width, height])
+    // gy(x, z) = ground height (km, relative to the landmark base) at a local point in metres, so it climbs its hill
+    hisar(g, c, s, gy = () => 0) { const [w, d, h] = s || [250, 130, 28]; const wc = c.wall || '#cbbd9f', rc = c.roof || '#7a7f86';
+      const P = [[-w / 2, -d / 2], [w / 2, -d * 0.15], [w * 0.1, d / 2], [-w / 2, d * 0.35]];
+      for (let i = 0; i < P.length; i++) { const [x0, z0] = P[i], [x1, z1] = P[(i + 1) % P.length], L = Math.hypot(x1 - x0, z1 - z0), n = Math.max(2, Math.round(L / 25));
+        for (let k = 0; k < n; k++) { const xa = lerp(x0, x1, (k + 0.5) / n), za = lerp(z0, z1, (k + 0.5) / n), y = gy(xa, za);
+          const m = box(g, L / n * 1.04 * K, (h * 0.55 + 12) * K, 5 * K, wc, xa * K, y - 12 * K, za * K); m.rotation.y = -Math.atan2(z1 - z0, x1 - x0); }
+        for (let k = 1; k < 4; k++) { const xa = lerp(x0, x1, k / 4), za = lerp(z0, z1, k / 4); cyl(g, 4.5 * K, (h * 0.75 + 12) * K, wc, xa * K, gy(xa, za) - 12 * K, za * K, 10); } }
+      for (const [x, z] of P.slice(0, 3)) { const y = gy(x, z); cyl(g, 15 * K, (h * 1.35 + 12) * K, wc, x * K, y - 12 * K, z * K, 20); cone(g, 17 * K, h * 0.6 * K, rc, x * K, y + h * 1.35 * K, z * K, 20); } },
     // a ruined/old palace: courtyards and wings of different heights
     palace2(g, c, s) { const [w, d, h] = s || [300, 190, 18]; const wc = c.wall || '#efe4cc', rc = c.roof || '#b6553a'; const r = rng(Math.round(w * 7 + d));
       for (let i = 0; i < 9; i++) { const ww = w * (0.18 + r() * 0.25), dd = d * (0.12 + r() * 0.18), hh = h * (0.6 + r() * 0.8), xx = (r() - 0.5) * (w - ww), zz = (r() - 0.5) * (d - dd);
@@ -789,7 +798,9 @@ function buildScene() {
   };
   for (const lm of LMS) {
     const g = new THREE.Group(); const [x, z] = lm.xz; g.position.set(x, heightAt(x, z) - 0.004, z); g.rotation.y = -(lm.rot_deg ?? 0) * Math.PI / 180; scene.add(g);
-    (BUILD[lm.type] || BUILD.box)(g, lm.colors || {}, lm.size_m || null);
+    const sc0 = lm.scale ?? 1, r0 = -(lm.rot_deg ?? 0) * Math.PI / 180, y0 = heightAt(x, z) - 0.004;
+    const gy = (lx, lz) => { const ux = lx * K * sc0, uz = lz * K * sc0; return (heightAt(x + ux * Math.cos(r0) + uz * Math.sin(r0), z - ux * Math.sin(r0) + uz * Math.cos(r0)) - 0.004 - y0) / sc0; };
+    (BUILD[lm.type] || BUILD.box)(g, lm.colors || {}, lm.size_m || null, gy);
     const a = tOf(lm.built), rem = lm.removed != null ? tOf(lm.removed) : 1e9;
     anim(g, a, a + (lm.rise_s ?? 1.4), lm.type === 'circus' || lm.type === 'forum' || lm.type === 'harbor' ? 'grow' : 'rise', rem, rem + 0.8, lm.scale ?? 1);
     for (const add of (lm.additions || [])) { // later additions e.g. minarets
@@ -824,6 +835,7 @@ function buildScene() {
     }
   }
   function pathAt(sh, u) {   // position + heading at fraction u of a fleet path
+    if (sh.pl.length < 2 || sh.total <= 0) return [sh.pl[0][0], sh.pl[0][1], -(sh.fl.heading_deg ?? 0) * Math.PI / 180];   // anchored fleet
     const L = u * sh.total; let i = 1; while (i < sh.cum.length - 1 && sh.cum[i] < L) i++;
     const p = sh.pl[i - 1], q = sh.pl[i] || p, seg = Math.max(1e-6, sh.cum[i] - sh.cum[i - 1]), v = clamp((L - sh.cum[i - 1]) / seg, 0, 1);
     return [lerp(p[0], q[0], v), lerp(p[1], q[1], v), Math.atan2(q[1] - p[1], q[0] - p[0])];
