@@ -108,7 +108,7 @@
   #ask .c{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:22px;color:#f3c96b;margin-top:10px}
   html.short #gen,html.short #ask,html.thumb #gen,html.thumb #ask{display:none !important}
 </style>
-<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js"}}</script>
+<script type="importmap">{"imports":{"three":"../node_modules/three/build/three.module.js","three/addons/":"../node_modules/three/examples/jsm/"}}</script>
 </head>
 <body>
 <div id="ov">
@@ -132,6 +132,10 @@
    URL: index.html?city=<slug>&mode=scene|overlay&lang=en|tr&w=1920&h=1080
    Reads ../cities/<slug>/city.json (history, authored) and geo.json (terrain, generated). */
 import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 
 const Q = new URLSearchParams(location.search);
 const MODE = Q.get('mode') || 'scene';
@@ -231,14 +235,30 @@ const VIEW = city.view || {};
 const AZ = (+(Q.get('az') ?? VIEW.azimuth_deg ?? 0)) * Math.PI / 180,
   PITCH = (+(Q.get('pitch') ?? (SHORT ? (SHORT.pitch_deg ?? (VIEW.pitch_deg ?? 46) + 16) : (VIEW.pitch_deg ?? 46)))) * Math.PI / 180;
 const VIEW_DIR = new THREE.Vector3(Math.sin(AZ) * Math.cos(PITCH), Math.sin(PITCH), Math.cos(AZ) * Math.cos(PITCH)).normalize();
-const CAMK = []; { let prev = null; for (const s of SEG) { const c = s.camera || prev; if (!c) continue; prev = c; const [x, z] = ll(c.center); CAMK.push([s.t0 + s.seconds * 0.5, x, z, c.dist_km]); } }
-if (CAMK.length) { CAMK.unshift([0, CAMK[0][1], CAMK[0][2], CAMK[0][3]]); CAMK.push([DUR, ...CAMK[CAMK.length - 1].slice(1)]); }
+// look "v3" (city.render.look = "v3", Nov 2026 test): per-segment camera angle (camera.pitch_deg / camera.azimuth_deg,
+// eased between segments like centre and distance), camera aimed at the ground height, warmer daylight, denser buildings,
+// ships, harbour chains, cannon smoke and a tilt-shift finish. Without it the engine behaves exactly as before.
+const LOOK3 = city.render?.look === 'v3';
+const P0 = VIEW.pitch_deg ?? 46, A0 = VIEW.azimuth_deg ?? 0;
+const CAMK = []; { let prev = null; for (const s of SEG) { const c = s.camera || prev; if (!c) continue; prev = c; const [x, z] = ll(c.center);
+  const p = c.pitch_deg ?? P0, a = c.azimuth_deg ?? A0;
+  // v3: a shot holds on its subject (slow push-in + drift of camera.drift_deg, default 6°) for most of the segment,
+  // then moves to the next shot; older looks keep one key in the middle of the segment
+  if (LOOK3 && s.seconds >= 7 && c.at == null) { const dr = c.drift_deg ?? 6;
+    CAMK.push([s.t0 + s.seconds * 0.2, x, z, c.dist_km * 1.05, p, a - dr / 2]); CAMK.push([s.t0 + s.seconds * 0.8, x, z, c.dist_km * 0.95, p, a + dr / 2]); }
+  else CAMK.push([s.t0 + s.seconds * (c.at ?? 0.5), x, z, c.dist_km, p, a]); } }
+if (CAMK.length) { CAMK.unshift([0, ...CAMK[0].slice(1)]); CAMK.push([DUR, ...CAMK[CAMK.length - 1].slice(1)]); }
+const PER_SEG_ANGLE = LOOK3 && CAMK.some(k => k[4] !== P0 || k[5] !== A0);
 function catmull(p0, p1, p2, p3, u) { const u2 = u * u, u3 = u2 * u; return 0.5 * ((2 * p1) + (-p0 + p2) * u + (2 * p0 - 5 * p1 + 4 * p2 - p3) * u2 + (-p0 + 3 * p1 - 3 * p2 + p3) * u3); }
 function camAt(t) {
   const k = CAMK; let i = 0; while (i < k.length - 2 && t > k[i + 1][0]) i++;
   const u = sstep(0, 1, clamp((t - k[i][0]) / Math.max(1e-6, k[i + 1][0] - k[i][0]), 0, 1)) * 0.5 + clamp((t - k[i][0]) / Math.max(1e-6, k[i + 1][0] - k[i][0]), 0, 1) * 0.5;
   const g = j => k[clamp(j, 0, k.length - 1)];
-  return [1, 2, 3].map(c => catmull(g(i - 1)[c], g(i)[c], g(i + 1)[c], g(i + 2)[c], u));
+  if (LOOK3) {   // v3: ease in/out between keys (no spline overshoot during a hold); distance eases in log space
+    const w = sstep(0, 1, clamp((t - k[i][0]) / Math.max(1e-6, k[i + 1][0] - k[i][0]), 0, 1)), a = g(i), b = g(i + 1);
+    return [lerp(a[1], b[1], w), lerp(a[2], b[2], w), Math.exp(lerp(Math.log(a[3]), Math.log(b[3]), w)), lerp(a[4], b[4], w), lerp(a[5], b[5], w)];
+  }
+  return [1, 2, 3, 4, 5].map(c => catmull(g(i - 1)[c], g(i)[c], g(i + 1)[c], g(i + 2)[c], u));
 }
 const camera = new THREE.PerspectiveCamera(+(Q.get('fov') || (SHORT ? (SHORT.fov ?? 52) : (VIEW.fov ?? 34))), W / H, 0.02, 400);
 const DK = SHORT ? (SHORT.dist_mult ?? 1.35) : 1;   // a tall frame is narrow: pull back so the city still fits sideways
@@ -252,12 +272,20 @@ function coMap(T) {
   const u = sstep(0, 1, clamp((T - CO_HOLD) / Math.max(0.01, COS - CO_HOLD), 0, 1)), s = camAt(0);
   return { ep: DUR * (1 - u), cam: [lerp(c0[0], s[0], u), lerp(c0[1], s[1], u), Math.exp(lerp(Math.log(c0[2]), Math.log(s[2]), u))], phase: 'rewind' };
 }
+const VD = new THREE.Vector3();
 function placeCamera(t) {
-  let [x, z, d] = camAt(t);
+  let [x, z, d, pd, ad] = camAt(t);
   if (CAM_FORCE) [x, z, d] = CAM_FORCE;
   else if (CAM_OVR) { [x, z] = ll([CAM_OVR[0], CAM_OVR[1]]); d = CAM_OVR[2]; } else if (SHORT) d = Math.min(d * DK, Math.max(d, CAM_MAX * 0.8));
-  const target = new THREE.Vector3(x, 0.05, z);
-  camera.position.copy(target).addScaledVector(VIEW_DIR, d);
+  let dir = VIEW_DIR;
+  if (PER_SEG_ANGLE && !Q.get('pitch') && !Q.get('az')) {
+    const pr = clamp(pd + (SHORT ? 16 : 0), 12, 89) * Math.PI / 180, ar = ad * Math.PI / 180;
+    dir = VD.set(Math.sin(ar) * Math.cos(pr), Math.sin(pr), Math.cos(ar) * Math.cos(pr)).normalize();
+  }
+  // v3: aim at the ground (hills!) instead of a fixed height, so low close-ups do not look over or into the hill
+  const ty = LOOK3 && typeof heightAt === 'function' ? Math.max(0.01, heightAt(x, z)) : 0.05;
+  const target = new THREE.Vector3(x, ty, z);
+  camera.position.copy(target).addScaledVector(dir, d);
   camera.near = Math.max(0.01, d * 0.01); camera.far = d * 6 + 20;
   camera.lookAt(target); camera.updateMatrixWorld(); camera.updateProjectionMatrix();
   return { target, d };
@@ -425,6 +453,10 @@ if (MODE === 'overlay') {
     document.querySelector('#thumb .l1').textContent = T(th.line1 || city.name).toLocaleUpperCase(LANG === 'tr' ? 'tr-TR' : 'en-US');
     document.querySelector('#thumb .l2').textContent = T(th.line2 || '');
     document.querySelector('#thumb .l3').textContent = T(th.line3 || '');
+    // long names (Constantinople, Konstantinopolis) shrink until they fit the frame
+    const l1 = document.querySelector('#thumb .l1'), maxW = th.style === 'v2' ? BW - 60 : BW - 110;
+    if (th.style === 'v2') { l1.style.whiteSpace = 'nowrap'; l1.style.display = 'inline-block'; l1.style.left = '50%'; l1.style.right = 'auto'; l1.style.transform = 'translateX(-50%)'; }
+    for (let fs = parseFloat(getComputedStyle(l1).fontSize); l1.scrollWidth > maxW && fs > 40; fs -= 4) l1.style.fontSize = fs + 'px';
   }
   window.renderAt = t => { renderOverlayOut(t); return true; };
   renderOverlayOut(0);
@@ -443,18 +475,19 @@ function buildScene() {
   document.body.appendChild(renderer.domElement);
   const scene = new THREE.Scene();
   const GOLDEN = Q.get('mood') === 'golden';
-  const SKY = new THREE.Color(GOLDEN ? '#e7b48a' : '#b9cfd6'); scene.background = SKY;
+  const SKY = new THREE.Color(LOOK3 ? '#cfe3ec' : (GOLDEN ? '#e7b48a' : '#b9cfd6')); scene.background = SKY;
+  // v3: the fog follows the camera distance (set per frame), so low close-ups get aerial depth instead of a hard map edge
   scene.fog = new THREE.Fog(SKY, CAM_MAX * (GOLDEN ? 0.9 : 1.4), CAM_MAX * (GOLDEN ? 2.4 : 3.2));
-  scene.add(new THREE.HemisphereLight(GOLDEN ? '#f3cfa8' : '#e4eef3', GOLDEN ? '#3f3428' : '#6d6a4c', GOLDEN ? 0.75 : 1.15));
-  const sun = new THREE.DirectionalLight(GOLDEN ? '#ffb070' : '#fff1d6', GOLDEN ? 3.0 : 2.0);
-  sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+  scene.add(new THREE.HemisphereLight(LOOK3 ? '#eaf4fb' : (GOLDEN ? '#f3cfa8' : '#e4eef3'), LOOK3 ? '#5b5a3c' : (GOLDEN ? '#3f3428' : '#6d6a4c'), LOOK3 ? 0.95 : (GOLDEN ? 0.75 : 1.15)));
+  const sun = new THREE.DirectionalLight(LOOK3 ? '#ffe9c4' : (GOLDEN ? '#ffb070' : '#fff1d6'), LOOK3 ? 2.6 : (GOLDEN ? 3.0 : 2.0));
+  sun.castShadow = true; sun.shadow.mapSize.set(LOOK3 ? 4096 : 2048, LOOK3 ? 4096 : 2048);
   sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.004;
   scene.add(sun); scene.add(sun.target);
   const R = rng(city.seed ?? 1234);
 
   // ---------------- terrain
-  const cA = new THREE.Color('#7e8b54'), cB = new THREE.Color('#a39d66'), cC = new THREE.Color('#6e7d48'), cHi = new THREE.Color('#9c9a72'), cSand = new THREE.Color('#cdbf93');
-  const cSh = new THREE.Color('#79c3cf'), cDeep = new THREE.Color('#2a6b80'), tmp = new THREE.Color();
+  const cA = new THREE.Color(LOOK3 ? '#6f9a3e' : '#7e8b54'), cB = new THREE.Color(LOOK3 ? '#9aa457' : '#a39d66'), cC = new THREE.Color(LOOK3 ? '#577f34' : '#6e7d48'), cHi = new THREE.Color(LOOK3 ? '#8f9a5e' : '#9c9a72'), cSand = new THREE.Color(LOOK3 ? '#e2d3a4' : '#cdbf93');
+  const cSh = new THREE.Color(LOOK3 ? '#4fc2d6' : '#79c3cf'), cDeep = new THREE.Color(LOOK3 ? '#0f5f93' : '#2a6b80'), tmp = new THREE.Color();
   const terrainMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1 });
   function terrainMesh(x0, z0, cell, NX, NZ, skip, yOff) {
     const n = (NX + 1) * (NZ + 1), posA = new Float32Array(n * 3), colA = new Float32Array(n * 3), idx = [];
@@ -483,7 +516,7 @@ function buildScene() {
     terrainMesh(GC.x0, GC.z0, cs, Math.floor((GC.x1 - GC.x0) / cs), Math.floor((GC.z1 - GC.z0) / cs), null, 0);
   }
   const water = new THREE.Mesh(new THREE.PlaneGeometry(tw * 1.6, th * 1.6).rotateX(-Math.PI / 2).translate(G.x0 + tw / 2, 0, G.z0 + th / 2),
-    new THREE.MeshStandardMaterial({ color: '#4fa3b8', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0.62 }));
+    new THREE.MeshStandardMaterial(LOOK3 ? { color: '#1f86b5', roughness: 0.22, metalness: 0.1, transparent: true, opacity: 0.78 } : { color: '#4fa3b8', roughness: 0.35, metalness: 0.05, transparent: true, opacity: 0.62 }));
   water.receiveShadow = true; scene.add(water);
 
   const mat = c => new THREE.MeshStandardMaterial({ color: c, roughness: 0.9 });
@@ -498,7 +531,14 @@ function buildScene() {
   const lmRadius = l => ((l.size_m ? Math.max(l.size_m[0], l.size_m[1]) : (LM_DEFAULT[l.type]?.r ?? 60)) * (l.scale ?? 1)) / 1000 * 0.75;
   const roadBlock = (x, z, yearT) => ROADS.some(r => tOf(r.from) <= yearT + 0.01 && lineDist(x, z, r.pl) < r.w / 2 + 0.004);
   const openBlock = (x, z) => OPEN.some(o => x >= o.bb[0] && x <= o.bb[1] && z >= o.bb[2] && z <= o.bb[3] && inPoly(x, z, o.poly));
-  const lmBlock = (x, z) => LMS.some(l => Math.hypot(x - l.xz[0], z - l.xz[1]) < lmRadius(l));
+  const lmBlock = (x, z) => LMS.some(l => l.type === 'aqueduct' ? aqDist(l, x, z) < 0.025 : (LOOK3 && l.size_m ? inLmBox(l, x, z) : Math.hypot(x - l.xz[0], z - l.xz[1]) < lmRadius(l)));
+  function inLmBox(l, x, z) {   // v3: keep the landmark's own footprint (+25 m) clear instead of a disc of its longest side
+    const r = (l.rot_deg ?? 0) * Math.PI / 180, dx = x - l.xz[0], dz = z - l.xz[1], sc = (l.scale ?? 1) / 2000;
+    const u = dx * Math.cos(r) + dz * Math.sin(r), v = -dx * Math.sin(r) + dz * Math.cos(r);
+    return Math.abs(u) < l.size_m[0] * sc + 0.025 && Math.abs(v) < l.size_m[1] * sc + 0.025; }
+  function aqDist(l, x, z) {   // an aqueduct is a line, not a disc: keep buildings off its length only
+    const L = (l.size_m?.[0] ?? 900) * (l.scale ?? 1) / 1000 / 2, r = -(l.rot_deg ?? 0) * Math.PI / 180;
+    const dx = Math.cos(r) * L, dz = -Math.sin(r) * L; return segDist(x, z, [l.xz[0] - dx, l.xz[1] - dz], [l.xz[0] + dx, l.xz[1] + dz]); }
   const lakeList = (geo.lakes && city.geo.lakes_from != null) ? geo.lakes.map(p => ({ poly: p, from: city.geo.lakes_from })) : [];
   const TW = [...(city.timed_water || []), ...lakeList].map(w => ({ ...w, poly: llp(w.poly), bb: bboxOf(llp(w.poly)) }));
   // landfill: timed_water with "fill": true is water until its "to" year, then land that can be built on
@@ -535,7 +575,11 @@ function buildScene() {
     modern:    { grain: 110, h: [20, 60], roof: 'flat', walls: ['#d9d9d6', '#c8c8c4', '#e6e4de', '#b9bcbf'], roofs: ['#8d8f92', '#9a9c9e'] },
     highrise:  { grain: 150, h: [90, 260], roof: 'flat', walls: ['#8fa6b5', '#7d93a3', '#a7b8c4', '#6f8494'], roofs: ['#5d666d'] },
   };
-  const LM_DEFAULT = { temple: { r: 50 }, church: { r: 60 }, cathedral: { r: 110 }, domechurch: { r: 90 }, mosque: { r: 80 }, castle: { r: 120 }, tower: { r: 25 }, clocktower: { r: 25 }, palace: { r: 140 }, parliament: { r: 160 }, amphitheatre: { r: 110 }, circus: { r: 260 }, stadium: { r: 150 }, forum: { r: 70 }, column: { r: 10 }, obelisk: { r: 10 }, skyscraper: { r: 45 }, spire_tower: { r: 45 }, wheel: { r: 70 }, dome_arena: { r: 180 }, station: { r: 150 }, box: { r: 60 }, fort: { r: 150 }, harbor: { r: 100 } };
+  if (LOOK3) {   // warmer, more saturated terracotta and plaster
+    for (const k of ['ancient', 'roman', 'ottoman']) { STY[k].roofs = ['#c4552f', '#b84a2a', '#d0683c', '#a9472c', '#c86a40', '#b55a35']; STY[k].walls = ['#f2e6cc', '#ead9b6', '#f6eedc', '#e3cfaa', '#efe0c4']; }
+    STY.medieval.roofs = ['#a9563a', '#8f4a33', '#b9663f', '#7b5544']; STY.medieval.walls = ['#efe5cf', '#e2d2b2', '#d8c29c', '#f3ebda'];
+  }
+  const LM_DEFAULT = { greatdome: { r: 75 }, cross5: { r: 60 }, aqueduct: { r: 10 }, palace2: { r: 140 }, temple: { r: 50 }, church: { r: 60 }, cathedral: { r: 110 }, domechurch: { r: 90 }, mosque: { r: 80 }, castle: { r: 120 }, tower: { r: 25 }, clocktower: { r: 25 }, palace: { r: 140 }, parliament: { r: 160 }, amphitheatre: { r: 110 }, circus: { r: 260 }, stadium: { r: 150 }, forum: { r: 70 }, column: { r: 10 }, obelisk: { r: 10 }, skyscraper: { r: 45 }, spire_tower: { r: 45 }, wheel: { r: 70 }, dome_arena: { r: 180 }, station: { r: 150 }, box: { r: 60 }, fort: { r: 150 }, harbor: { r: 100 } };
 
   // ---------------- buildings from districts
   const B = [];
@@ -562,10 +606,12 @@ function buildScene() {
       if (roadBlock(x, z, a)) continue;
       let v = 1e9;
       if (fade && vnoise(x * 2.3 + di, z * 2.3) > (1 - fade.keep) * 0.9 + 0.1) {} else if (fade) v = lerp(fade.a, fade.b, R());
-      const big = R() < 0.04;
+      const big = R() < (LOOK3 ? 0.07 : 0.04);
       const sz = grain * 1000 * (big ? 1.35 : 1);
+      // v3: buildings fill most of their plot (a packed old town, not scattered huts)
+      const fw = LOOK3 ? 0.68 + R() * 0.22 : 0.5 + R() * 0.3, fd = LOOK3 ? 0.62 + R() * 0.24 : 0.45 + R() * 0.3;
       B.push({ x, z, y: hi.h - 0.004, a, v, di, st, grain,
-        w: sz * (0.5 + R() * 0.3) / 1000, d: sz * (0.45 + R() * 0.3) / 1000,
+        w: sz * fw / 1000, d: sz * fd / 1000,
         h: lerp(st.h[0], st.h[1], Math.pow(R(), st.roof === 'flat' ? 1.8 : 1)) * (big ? 1.25 : 1) / 1000,
         rh: (st.roof === 'gable' ? 9 + R() * 4 : 7 + R() * 3) / 1000,
         yaw: (dd.grid_deg != null ? dd.grid_deg * Math.PI / 180 + (R() < 0.5 ? 0 : Math.PI / 2) + (R() - 0.5) * 0.08 : (R() < 0.5 ? 0 : Math.PI / 2) + (vnoise(x * 2, z * 2) - 0.5) * 0.9 + (R() - 0.5) * 0.2),
@@ -605,19 +651,20 @@ function buildScene() {
     const [cx0, cx1, cz0, cz1] = (() => { let a = 1e9, b = -1e9, c = 1e9, d = -1e9; for (const k of CAMK) { a = Math.min(a, k[1] - k[3] * 1.1); b = Math.max(b, k[1] + k[3] * 1.1); c = Math.min(c, k[2] - k[3] * 1.3); d = Math.max(d, k[2] + k[3] * 0.4); } return [a, b, c, d]; })();
     const tgrid = new Map(); B.forEach(b => { const k = key(b.x, b.z); tgrid.set(k, Math.min(tgrid.get(k) ?? 1e9, b.a)); });
     const [ox, oz] = [CAMK[0][1], CAMK[0][2]];
-    const BANDS = [[0, 7, 0.085], [7, 16, 0.18], [16, 1e9, 0.4]];
+    const BANDS = LOOK3 ? [[0, 7, 0.05], [7, 16, 0.12], [16, 1e9, 0.3]] : [[0, 7, 0.085], [7, 16, 0.18], [16, 1e9, 0.4]];
     for (const [r0, r1, sp] of BANDS) {
-    const tscale = sp / 0.085;
+    const tscale = sp / (LOOK3 ? 0.05 : 0.085);
     if (cx1 - cx0 < r0 * 2 && cz1 - cz0 < r0 * 2) continue;
     for (let gx = Math.max(cx0, ox - r1); gx < Math.min(cx1, ox + r1); gx += sp) for (let gz = Math.max(cz0, oz - r1); gz < Math.min(cz1, oz + r1); gz += sp) {
       const x = gx + (R() - 0.5) * sp * 0.8, z = gz + (R() - 0.5) * sp * 0.8;
       const rr = Math.max(Math.abs(x - ox), Math.abs(z - oz)); if (rr < r0 || rr >= r1) continue;
+      if (LOOK3 && lmBlock(x, z)) continue;
       if (fbm(x * 1.6 / tscale + 20, z * 1.6 / tscale) < 0.52 + R() * 0.1) continue;
       if (!inGrid(x, z) || waterBlock(x, z) || (TWF.length && fillT(x, z) >= 0)) continue;
       const hi = heightInfo(x, z); if (!hi.land || hi.d < 0.05) continue;
       let v = 1e9; const cx = Math.floor(x / CELL), cz = Math.floor(z / CELL);
       if (!openBlock(x, z)) for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) v = Math.min(v, tgrid.get((cx + i) + ',' + (cz + j)) ?? 1e9);
-      const s = (0.018 + R() * 0.02) * Math.sqrt(tscale);
+      const s = (LOOK3 ? 0.009 + R() * 0.008 : 0.018 + R() * 0.02) * Math.sqrt(tscale);
       TR.push({ x, z, y: hi.h + s * 0.5, s, v: v < 1e9 ? v - 0.2 : 1e9 });
     }
     }
@@ -655,6 +702,14 @@ function buildScene() {
     let total = 0; const segs = [];
     for (let i = 0; i < r.pl.length - 1; i++) { const p = r.pl[i], q = r.pl[i + 1]; const L = Math.hypot(q[0] - p[0], q[1] - p[1]); const n = Math.max(1, Math.round(L / 0.04)); for (let k = 0; k < n; k++) segs.push({ x0: lerp(p[0], q[0], k / n), z0: lerp(p[1], q[1], k / n), x1: lerp(p[0], q[0], (k + 1) / n), z1: lerp(p[1], q[1], (k + 1) / n), L: L / n, c: total + L * k / n }); total += L; }
     for (const s of segs) { const mx = (s.x0 + s.x1) / 2, mz = (s.z0 + s.z1) / 2; const hi = heightInfo(mx, mz); if (!hi.land) continue; pieces.push({ x: mx, z: mz, y: hi.h - 0.0035, yaw: -Math.atan2(s.z1 - s.z0, s.x1 - s.x0), sx: s.L * 1.04, sy: 0.0045, sz: r.w, a: lerp(a, b, s.c / Math.max(total, 1e-6)), f, col: colr, flat: true }); }
+  }
+  // harbour chains/booms: "chains": [{"path": [[lat,lon],[lat,lon]], "from": 1453.25, "to": 1453.45}] — a line of floats on the water
+  for (const ch of (city.chains || [])) {
+    const pl = llp(ch.path), a = tOf(ch.from), f = ch.to != null ? tOf(ch.to) : 1e9;
+    for (let i = 0; i < pl.length - 1; i++) { const p = pl[i], q = pl[i + 1], L = Math.hypot(q[0] - p[0], q[1] - p[1]), n = Math.max(1, Math.round(L / 0.022)), yaw = -Math.atan2(q[1] - p[1], q[0] - p[0]);
+      for (let k = 0; k < n; k++) { const x = lerp(p[0], q[0], (k + 0.5) / n), z = lerp(p[1], q[1], (k + 0.5) / n), y = Math.max(0.0005, heightAt(x, z));
+        pieces.push({ x, z, y: y - 0.002, yaw, sx: L / n * 1.02, sy: 0.003, sz: 0.003, a: a + k / n * 0.8, f, col: '#2f2a26' });
+        pieces.push({ x, z, y: y - 0.002, yaw, sx: 0.009, sy: 0.006, sz: 0.009, a: a + k / n * 0.8, f, col: '#7a5a3a' }); } }
   }
   const wMesh = new THREE.InstancedMesh(unitBox, mat('#ffffff'), Math.max(1, pieces.length));
   pieces.forEach((p, i) => wMesh.setColorAt(i, cc.set(p.col))); wMesh.count = pieces.length; wMesh.castShadow = true; wMesh.receiveShadow = true; scene.add(wMesh);
@@ -708,6 +763,28 @@ function buildScene() {
     dome_arena(g, c, s) { const [r] = s || [180]; dome(g, r * K, c.wall || '#efefec', 0, 0, 0, 0.22); for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; cyl(g, 1.5 * K, r * 0.55 * K, '#e3c53a', Math.cos(a) * r * 0.75 * K, 0, Math.sin(a) * r * 0.75 * K, 6); } },
     station(g, c, s) { const [w, d, h] = s || [240, 90, 26]; box(g, w * K, h * 0.6 * K, d * K, c.wall || '#b46a4c'); const m = new THREE.Mesh(new THREE.CylinderGeometry(d / 2 * K, d / 2 * K, w * K, 16, 1, false, 0, Math.PI).rotateZ(Math.PI / 2).rotateY(Math.PI / 2), mat(c.roof || '#6c7a80')); m.rotation.y = Math.PI / 2; m.position.y = h * 0.6 * K; m.castShadow = true; g.add(m); },
     harbor(g, c, s) { const [w, d] = s || [200, 30]; box(g, w * K, 6 * K, d * K, c.wall || '#cfc4ab', 0, -0.004, 0); },
+    // Hagia Sophia-type: low square body, buttress piers, ribbed drum, flat central dome, east/west half domes, narthex
+    greatdome(g, c, s) { const [w, d, h] = s || [82, 73, 30]; const wc = c.wall || '#d9a47c', dc = c.dome || '#9aa1a8', R0 = Math.min(w, d) * 0.42;
+      box(g, w * 1.0 * K, h * 0.75 * K, d * 0.82 * K, wc); box(g, w * 0.62 * K, h * K, d * K, wc);
+      for (const [xx, zz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) box(g, w * 0.16 * K, h * 1.25 * K, d * 0.2 * K, wc, xx * w * 0.27 * K, 0, zz * d * 0.44 * K);
+      const drum = cyl(g, R0 * K, h * 0.16 * K, wc, 0, h * K, 0, 40);
+      dome(g, R0 * K, dc, 0, h * 1.16 * K, 0, 0.62);
+      for (const sx of [-1, 1]) { const m = new THREE.Mesh(new THREE.SphereGeometry(R0 * 0.92 * K, 20, 8, sx > 0 ? -Math.PI / 2 : Math.PI / 2, Math.PI, 0, Math.PI / 2), mat(dc)); m.position.set(sx * w * 0.3 * K, h * 0.82 * K, 0); m.scale.y = 0.62; m.castShadow = true; g.add(m); }
+      for (const sx of [-1, 1]) for (const sz of [-1, 1]) dome(g, R0 * 0.32 * K, dc, sx * w * 0.42 * K, h * 0.75 * K, sz * d * 0.22 * K, 0.7);
+      box(g, w * 0.1 * K, h * 0.6 * K, d * 1.05 * K, wc, -w * 0.55 * K, 0, 0); hip(g, w * 0.1 * K, h * 0.12 * K, d * 1.05 * K, dc, -w * 0.55 * K, h * 0.6 * K, 0); },
+    // cruciform church with five domes (Holy Apostles)
+    cross5(g, c, s) { const [w, d, h] = s || [70, 70, 20]; const wc = c.wall || '#d9a47c', dc = c.dome || '#9aa1a8', a = w * 0.3;
+      box(g, w * K, h * K, a * K, wc); box(g, a * K, h * K, d * K, wc);
+      for (const [xx, zz] of [[0, 0], [-1, 0], [1, 0], [0, -1], [0, 1]]) { cyl(g, a * 0.36 * K, h * 0.25 * K, wc, xx * w * 0.36 * K, h * K, zz * d * 0.36 * K, 16); dome(g, a * 0.36 * K, dc, xx * w * 0.36 * K, h * 1.25 * K, zz * d * 0.36 * K, 0.8); } },
+    // aqueduct: two tiers of arches on piers (size = [length, width, height])
+    aqueduct(g, c, s) { const [L, wd, h] = s || [900, 8, 26]; const wc = c.wall || '#d8c7a4'; const n = Math.max(4, Math.round(L / 16));
+      box(g, L * K, h * 0.12 * K, wd * K, wc, 0, h * 0.88 * K, 0); box(g, L * K, h * 0.1 * K, wd * K, wc, 0, h * 0.42 * K, 0);
+      for (let i = 0; i <= n; i++) box(g, 4.5 * K, h * K, wd * 1.15 * K, wc, (-L / 2 + L * i / n) * K, 0, 0); },
+    // a ruined/old palace: courtyards and wings of different heights
+    palace2(g, c, s) { const [w, d, h] = s || [300, 190, 18]; const wc = c.wall || '#efe4cc', rc = c.roof || '#b6553a'; const r = rng(Math.round(w * 7 + d));
+      for (let i = 0; i < 9; i++) { const ww = w * (0.18 + r() * 0.25), dd = d * (0.12 + r() * 0.18), hh = h * (0.6 + r() * 0.8), xx = (r() - 0.5) * (w - ww), zz = (r() - 0.5) * (d - dd);
+        box(g, ww * K, hh * K, dd * K, wc, xx * K, 0, zz * K); hip(g, ww * K, hh * 0.3 * K, dd * K, rc, xx * K, hh * K, zz * K); }
+      if (c.domes !== false) for (let i = 0; i < 2; i++) { const xx = (r() - 0.5) * w * 0.6, zz = (r() - 0.5) * d * 0.6; box(g, 26 * K, h * K, 26 * K, wc, xx * K, 0, zz * K); dome(g, 11 * K, '#9aa1a8', xx * K, h * K, zz * K, 0.8); } },
     box(g, c, s) { const [w, d, h] = s || [60, 40, 25]; box(g, w * K, h * K, d * K, c.wall || '#e6dfcf'); if (c.roof) hip(g, w * K, h * 0.35 * K, d * K, c.roof, 0, h * K, 0); },
   };
   for (const lm of LMS) {
@@ -728,14 +805,51 @@ function buildScene() {
   const tentMesh = new THREE.InstancedMesh(new THREE.ConeGeometry(1, 1.3, 7).translate(0, 0.65, 0), mat('#ffffff'), Math.max(1, TENTS.length));
   TENTS.forEach((t, i) => tentMesh.setColorAt(i, cc.set(t.red ? '#b23a2e' : '#f1ece0'))); tentMesh.count = TENTS.length; tentMesh.castShadow = true; scene.add(tentMesh);
 
+  // ---------------- fleets (v3 and later; any look may use them)
+  // "fleets": [{"name", "from": 1453.3, "to": 1453.42, "count": 40, "kind": "galley"|"ship"|"boat", "sail": "#c0392b",
+  //   "path": [[lat,lon],...], "move": [y0, y1], "spread_m": 70, "rows": 4, "size_m": 45, "land": false}]
+  // The fleet centre stays on path[0] until move[0], travels along the path until move[1], then stays at the end.
+  // "land": true lets ships cross land (Mehmed II's ships hauled over the hill into the Golden Horn, 1453).
+  const SHIPS = [];
+  for (const fl of (city.fleets || [])) {
+    const pl = llp(fl.path); const n = fl.count ?? 20, rows = fl.rows ?? Math.max(1, Math.round(Math.sqrt(n / 3))), sp = (fl.spread_m ?? 70) / 1000;
+    const a = tOf(fl.from), f = fl.to != null ? tOf(fl.to) : 1e9, m0 = fl.move ? tOf(fl.move[0]) : 1e9, m1 = fl.move ? tOf(fl.move[1]) : 1e9;
+    let total = 0; const cum = [0]; for (let i = 1; i < pl.length; i++) { total += Math.hypot(pl[i][0] - pl[i - 1][0], pl[i][1] - pl[i - 1][1]); cum.push(total); }
+    const cols = Math.ceil(n / rows);
+    for (let k = 0; k < n; k++) {
+      const r = k % rows, c = Math.floor(k / rows);
+      SHIPS.push({ fl, pl, cum, total, a: a + R() * 0.8, f: f + R() * 0.6, m0, m1, land: !!fl.land,
+        lat: (r - (rows - 1) / 2) * sp * (1 + (R() - 0.5) * 0.3), lon: -(c - (cols - 1) / 2) * sp * 1.6 * (1 + (R() - 0.5) * 0.3) - (r % 2) * sp * 0.5,
+        s: (fl.size_m ?? (fl.kind === 'boat' ? 22 : 42)) / 1000 * (0.85 + R() * 0.3) * (fl.scale ?? (LOOK3 ? 2.0 : 1.4)), ph: R() * 6.28, kind: fl.kind || 'galley', sail: fl.sail || '#f3eee2' });
+    }
+  }
+  function pathAt(sh, u) {   // position + heading at fraction u of a fleet path
+    const L = u * sh.total; let i = 1; while (i < sh.cum.length - 1 && sh.cum[i] < L) i++;
+    const p = sh.pl[i - 1], q = sh.pl[i] || p, seg = Math.max(1e-6, sh.cum[i] - sh.cum[i - 1]), v = clamp((L - sh.cum[i - 1]) / seg, 0, 1);
+    return [lerp(p[0], q[0], v), lerp(p[1], q[1], v), Math.atan2(q[1] - p[1], q[0] - p[0])];
+  }
+  const NS = Math.max(1, SHIPS.length);
+  const hullGeo = (() => { const g = new THREE.BoxGeometry(1, 0.22, 0.26).translate(0, 0.11, 0); const p = g.attributes.position; for (let i = 0; i < p.count; i++) { const x = p.getX(i); if (Math.abs(x) > 0.4) p.setZ(i, p.getZ(i) * 0.35); if (p.getY(i) < 0.05) p.setZ(i, p.getZ(i) * 0.6); } g.computeVertexNormals(); return g; })();
+  const shipHull = new THREE.InstancedMesh(hullGeo, mat('#6b4a2e'), NS), shipSail = new THREE.InstancedMesh(new THREE.BoxGeometry(0.04, 1, 1).translate(0, 0.5, 0), mat('#ffffff'), NS), shipMast = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.012, 0.016, 1, 5).translate(0, 0.5, 0), mat('#4a3424'), NS);
+  SHIPS.forEach((s, i) => shipSail.setColorAt(i, cc.set(s.sail)));
+  for (const m of [shipHull, shipSail, shipMast]) { m.count = SHIPS.length; m.castShadow = true; m.receiveShadow = true; m.frustumCulled = false; scene.add(m); }
+
   // ---------------- smoke (fires, sieges)
   const cv = document.createElement('canvas'); cv.width = cv.height = 64; const cx2 = cv.getContext('2d'); const gr = cx2.createRadialGradient(32, 32, 0, 32, 32, 32); gr.addColorStop(0, 'rgba(255,255,255,1)'); gr.addColorStop(0.5, 'rgba(255,255,255,.5)'); gr.addColorStop(1, 'rgba(255,255,255,0)'); cx2.fillStyle = gr; cx2.fillRect(0, 0, 64, 64);
   const smokeTex = new THREE.CanvasTexture(cv);
   const PL = [];
   for (const f of FIRES) { const [x0, x1, z0, z1] = bboxOf(f.poly); let k = 0, guard = 0; while (k < (f.plumes ?? 5) && guard++ < 200) { const x = lerp(x0, x1, R()), z = lerp(z0, z1, R()); if (!inPoly(x, z, f.poly)) continue; PL.push({ x, z, a: f.t + k * f.dur / 6, b: f.t + f.dur + 1.5, scale: f.plume_scale ?? 1.4, fire: true }); k++; } }
-  for (const s of (city.smoke || [])) { const [x, z] = ll(s.at); PL.push({ x, z, a: tOf(s.from), b: tOf(s.to), scale: s.scale ?? 1 }); }
+  for (const s of (city.smoke || [])) { const [x, z] = ll(s.at); PL.push({ x, z, a: tOf(s.from), b: tOf(s.to), scale: s.scale ?? 1, color: s.color }); }
+  // cannon batteries: "cannons": [{"at": [lat,lon], "from": 1453.27, "to": 1453.41, "count": 6, "spread_m": 400, "bearing_deg": 90}]
+  // white gun smoke in quick bursts along a line (the guns themselves are tiny dark blocks)
+  const GUNS = [];
+  for (const cn of (city.cannons || [])) { const [cx, cz] = ll(cn.at), n = cn.count ?? 5, sp = (cn.spread_m ?? 300) / 1000, br = (cn.bearing_deg ?? 0) * Math.PI / 180;
+    for (let k = 0; k < n; k++) { const o = (k / Math.max(1, n - 1) - 0.5) * sp, x = cx + Math.cos(br) * o, z = cz - Math.sin(br) * o;
+      PL.push({ x, z, a: tOf(cn.from) + R() * 0.8, b: tOf(cn.to), scale: (cn.scale ?? 0.22) * (0.8 + R() * 0.4), color: '#f4f1ea', gun: true });
+      GUNS.push({ x, z, y: heightAt(x, z), yaw: br, a: tOf(cn.from), f: tOf(cn.to) + 0.5 }); } }
   const puffs = [];
-  for (const pl of PL) for (let i = 0; i < 14; i++) { const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: smokeTex, color: pl.fire ? '#3f3a36' : '#4d4945', transparent: true, depthWrite: false, opacity: 0 })); scene.add(s); puffs.push({ s, ...pl, py: heightAt(pl.x, pl.z) + 0.04, ph: i / 14, j: R() }); }
+  for (const pl of PL) for (let i = 0; i < 14; i++) { const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: smokeTex, color: pl.fire ? '#3f3a36' : (pl.color || '#4d4945'), transparent: true, depthWrite: false, opacity: 0 })); scene.add(s); puffs.push({ s, ...pl, py: heightAt(pl.x, pl.z) + (pl.gun ? 0.01 : 0.04), ph: i / 14, j: R() }); }
+  const gunMesh = new THREE.InstancedMesh(new THREE.BoxGeometry(0.03, 0.012, 0.012).translate(0, 0.006, 0), mat('#2b2622'), Math.max(1, GUNS.length)); gunMesh.count = GUNS.length; gunMesh.castShadow = true; gunMesh.frustumCulled = false; scene.add(gunMesh);
 
   // ---------------- per-frame update
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), p3 = new THREE.Vector3(), s3 = new THREE.Vector3(), up = new THREE.Vector3(0, 1, 0), ZERO = new THREE.Vector3(0, 0, 0);
@@ -767,17 +881,57 @@ function buildScene() {
     }
     for (const tw of twMeshes) { const k = sstep(tw.a, tw.a + 1.0, t) * (1 - sstep(tw.b, tw.b + 1.0, t)); tw.m.visible = k > 0.002; tw.m.material.opacity = 0.95 * k; }
     for (const pf of puffs) {
-      const on = sstep(pf.a, pf.a + 1.0, t) * (1 - sstep(pf.b - 1.0, pf.b, t)); const ph = ((t * 0.32 + pf.ph) % 1 + 1) % 1;
+      const on = sstep(pf.a, pf.a + 1.0, t) * (1 - sstep(pf.b - 1.0, pf.b, t)); const ph = ((t * (pf.gun ? 0.75 : 0.32) + pf.ph) % 1 + 1) % 1;
+      if (pf.gun) pf.s.position.set(pf.x + ph * 0.12 * pf.scale + (pf.j - 0.5) * 0.02, pf.py + ph * 0.18 * pf.scale, pf.z - ph * 0.05); else
       pf.s.position.set(pf.x + ph * 0.3 * pf.scale + (pf.j - 0.5) * 0.04, pf.py + ph * 0.6 * pf.scale, pf.z - ph * 0.08);
       const sc = (0.08 + ph * 0.42) * pf.scale; pf.s.scale.set(sc, sc, sc);
       pf.s.material.opacity = on * 0.8 * Math.sin(Math.PI * Math.min(1, ph * 1.15)); pf.s.visible = on > 0.001;
     }
+    SHIPS.forEach((sh, i) => {
+      const k = sstep(sh.a, sh.a + 0.6, t) * (1 - sstep(sh.f, sh.f + 0.6, t));
+      if (k <= 0.001) { m4.compose(p3.set(0, -1, 0), q.identity(), ZERO); shipHull.setMatrixAt(i, m4); shipSail.setMatrixAt(i, m4); shipMast.setMatrixAt(i, m4); return; }
+      const u = sh.total > 0 ? sstep(0, 1, clamp((t - sh.m0) / Math.max(1e-6, sh.m1 - sh.m0), 0, 1)) : 0;
+      const [cx, cz, hd] = pathAt(sh, u), ca = Math.cos(hd), sa = Math.sin(hd);
+      const x = cx + ca * sh.lon - sa * sh.lat, z = cz + sa * sh.lon + ca * sh.lat;
+      const gh = heightAt(x, z), y = (sh.land ? Math.max(0, gh) + 0.002 : Math.max(0.0008, gh * 0 + 0.0008)) + Math.sin(t * 2.1 + sh.ph) * 0.0008;
+      q.setFromAxisAngle(up, -hd + Math.sin(t * 1.3 + sh.ph) * 0.03); const S = sh.s * k;
+      m4.compose(p3.set(x, y - S * 0.06, z), q, s3.set(S, S, S)); shipHull.setMatrixAt(i, m4);
+      const mh = S * (sh.kind === 'boat' ? 0.45 : 0.75);
+      m4.compose(p3.set(x, y + S * 0.18, z), q, s3.set(S, mh, S)); shipMast.setMatrixAt(i, m4);
+      m4.compose(p3.set(x, y + S * 0.26, z), q, sh.kind === 'boat' ? ZERO : s3.set(S, mh * 0.62, S * 0.42)); shipSail.setMatrixAt(i, m4);
+    });
+    for (const m of [shipHull, shipSail, shipMast]) m.instanceMatrix.needsUpdate = true;
+    GUNS.forEach((g, i) => { const k = sstep(g.a, g.a + 0.4, t) * (1 - sstep(g.f, g.f + 0.4, t)); q.setFromAxisAngle(up, g.yaw + Math.PI / 2); m4.compose(p3.set(g.x, g.y - 0.002, g.z), q, k > 0 ? s3.set(1, 1, 1) : ZERO); gunMesh.setMatrixAt(i, m4); });
+    gunMesh.instanceMatrix.needsUpdate = true;
     const { target, d } = placeCamera(t);
-    const sh = clamp(d * 0.75, 3, 40);
+    if (LOOK3) { scene.fog.near = d * 1.6; scene.fog.far = d * 5.5 + 3; }
+    const sh = clamp(d * (LOOK3 ? 1.1 : 0.75), 3, 40);
     Object.assign(sun.shadow.camera, { left: -sh, right: sh, top: sh, bottom: -sh, near: 0.5, far: d * 4 + 20 }); sun.shadow.camera.updateProjectionMatrix();
-    if (GOLDEN) sun.position.set(target.x - d * 1.1, d * 0.38 + 0.6, target.z - d * 0.15); else
+    if (GOLDEN) sun.position.set(target.x - d * 1.1, d * 0.38 + 0.6, target.z - d * 0.15); else if (LOOK3)
+    sun.position.set(target.x - d * 0.8, d * 0.62 + 1.5, target.z + d * 0.2); else
     sun.position.set(target.x - d * 0.55, d * 0.8 + 2, target.z + d * 0.45); sun.target.position.copy(target); sun.target.updateMatrixWorld();
-    renderer.render(scene, camera);
+    if (composer) composer.render(); else renderer.render(scene, camera);
+  }
+  // v3 finish: tilt-shift (sharp band in the middle, soft top and bottom, like a model city) + a little colour and vignette
+  let composer = null;
+  if (LOOK3 && Q.get('ts') !== '0') {
+    composer = new EffectComposer(renderer); composer.setPixelRatio(1); composer.setSize(W, H);
+    composer.addPass(new RenderPass(scene, camera));
+    const TS = (dx, dy) => new ShaderPass({ uniforms: { tDiffuse: { value: null }, d: { value: new THREE.Vector2(dx, dy) }, amt: { value: (city.render?.tilt_shift ?? 1) * 2.4 } },
+      vertexShader: 'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+      fragmentShader: `uniform sampler2D tDiffuse; uniform vec2 d; uniform float amt; varying vec2 vUv;
+        void main(){ float k = smoothstep(0.16, 0.5, abs(vUv.y - 0.47)) * amt; vec4 c = texture2D(tDiffuse, vUv) * 0.2270270270;
+          c += (texture2D(tDiffuse, vUv + d * k * 1.3846153846) + texture2D(tDiffuse, vUv - d * k * 1.3846153846)) * 0.3162162162;
+          c += (texture2D(tDiffuse, vUv + d * k * 3.2307692308) + texture2D(tDiffuse, vUv - d * k * 3.2307692308)) * 0.0702702703;
+          gl_FragColor = c; }` });
+    composer.addPass(TS(1 / W, 0)); composer.addPass(TS(0, 1 / H));
+    composer.addPass(new OutputPass());
+    composer.addPass(new ShaderPass({ uniforms: { tDiffuse: { value: null } },
+      vertexShader: 'varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
+      fragmentShader: `uniform sampler2D tDiffuse; varying vec2 vUv;
+        void main(){ vec4 c = texture2D(tDiffuse, vUv); float l = dot(c.rgb, vec3(0.299, 0.587, 0.114));
+          c.rgb = mix(vec3(l), c.rgb, 1.12); c.rgb = (c.rgb - 0.5) * 1.05 + 0.5;
+          vec2 v = vUv - 0.5; c.rgb *= 1.0 - dot(v, v) * 0.32; gl_FragColor = vec4(clamp(c.rgb, 0.0, 1.0), 1.0); }` }));
   }
   window.renderAt = T => { const m = coMap(T); CAM_FORCE = m.cam; update(m.ep); return true; };
   window.stats = { buildings: B.length, trees: TR.length, pieces: pieces.length, tents: TENTS.length, landmarks: LMS.length, duration: DUR + COS };

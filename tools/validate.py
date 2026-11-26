@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KZ = 110.574
 STYLE_GRAIN = {'ancient': 60, 'roman': 60, 'celtic': 70, 'medieval': 55, 'stone': 60, 'ottoman': 55, 'georgian': 60, 'industrial': 90,
                'victorian': 65, 'suburb': 70, 'modern': 110, 'highrise': 150}
-LM_TYPES = {'temple', 'church', 'cathedral', 'domechurch', 'mosque', 'castle', 'fort', 'tower', 'clocktower', 'palace', 'parliament', 'amphitheatre',
+LM_TYPES = {'greatdome', 'cross5', 'aqueduct', 'palace2', 'temple', 'church', 'cathedral', 'domechurch', 'mosque', 'castle', 'fort', 'tower', 'clocktower', 'palace', 'parliament', 'amphitheatre',
             'circus', 'stadium', 'forum', 'column', 'obelisk', 'skyscraper', 'spire_tower', 'wheel', 'dome_arena', 'station', 'harbor', 'box'}
 errs, warns = [], []
 

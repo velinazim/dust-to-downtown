@@ -82,6 +82,22 @@ jobs:
           S=${{ needs.plan.outputs.slug }}
           python3 tools/video_qa.py out/en/video.mp4 --silent --frames 16 --out out/qa 2>&1 | tee qa.log || true
           cp out/qa/qa_sheet.jpg "cities/$S/qa_sheet.jpg" 2>/dev/null || true
+      - name: Test copy for review (only when not uploading)
+        # A test render (upload=false) is pushed as a 720p copy to the branch "test-renders" (force-pushed, latest only),
+        # so a Claude session can fetch it with git (artifacts are not reachable from there).
+        if: needs.plan.outputs.upload != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          S=${{ needs.plan.outputs.slug }}; D=$(mktemp -d)
+          ffmpeg -loglevel error -y -i out/en/video.mp4 -vf scale=1280:-2 -c:v libx264 -preset veryfast -crf 24 -c:a aac -b:a 128k "$D/$S.mp4"
+          if [ $(stat -c %s "$D/$S.mp4") -gt 95000000 ]; then ffmpeg -loglevel error -y -i out/en/video.mp4 -vf scale=1280:-2 -c:v libx264 -preset veryfast -crf 30 -c:a aac -b:a 96k "$D/$S.mp4"; fi
+          cp out/en/thumb.jpg "$D/${S}_thumb_en.jpg" 2>/dev/null || true
+          cp out/qa/qa_sheet.jpg "$D/${S}_qa_sheet.jpg" 2>/dev/null || true
+          ls -la "$D"
+          cd "$D" && git init -q && git checkout -q -b test-renders && git add -A
+          git -c user.name="Dust to Downtown bot" -c user.email="velinazim0776@gmail.com" commit -qm "test render: $S (${{ github.run_id }})"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" test-renders
       - uses: actions/upload-artifact@v4
         with:
           name: episode-${{ needs.plan.outputs.slug }}

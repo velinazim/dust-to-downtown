@@ -155,3 +155,15 @@ Owner kept Vienna (20 Nov) and Athens (24 Nov) as the old-format comparison grou
 Edinburgh and Toronto (low demand / old format): their videos were taken off the schedule and stay private
 (`:dropped` keys in uploads.json). Do not re-upload or re-schedule them; their slots go to high-demand cities from
 `cities/queue.md` in the new format (section G).
+
+## I. Look v3 test — Constantinople (26 Nov 2026, owner: "bi tane deneme videosu yapalım")
+Competitor check (@HowCitiesGrew, Constantinople 680 BC–1453, 1.5 M views): low oblique close-ups on landmarks, packed
+warm-coloured city, ships and siege scenes, tilt-shift. Our Istanbul looked like a far-away map. `city.render.look = "v3"`
+turns on: per-segment `camera.pitch_deg` / `azimuth_deg` / `drift_deg` (shots hold, then ease to the next), warmer
+light and colours, buildings filling their plots, small trees, `fleets` (moving ships, also over land), `chains`,
+`cannons`, landmark types `greatdome`, `cross5`, `aqueduct`, `palace2`, tilt-shift. Without `look` nothing changes
+(checked frame-by-frame against the old engine).
+`cities/constantinople` is a TEST episode: rendered with the Render action by hand, **upload = false** — the 720p copy
+lands on branch `test-renders` for the owner to judge. It is not in the queue, not uploaded, not stock: the daily run
+skips it (do not QA/re-render/upload it unless the owner says so). If the owner likes it, v3 becomes the format for new
+episodes (ask first).
