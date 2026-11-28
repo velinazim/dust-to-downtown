@@ -428,7 +428,7 @@ def wall(name, path, built, removed, height="mid", towers=80, **kw):
 
 walls = [
  wall("Castle rampart (≈)", CASTLE_RING + [CASTLE_RING[0]], 880, None, height="mid", towers=70),
- wall("Old Town wall and moat (≈)", OLD_WALL, 1232, 1784, height="mid", towers=70, moat=True),
+ wall("Old Town wall and moat (≈)", OLD_WALL, 1232, 1784, height="mid", towers=70, moat=True, double_side=-1),
  wall("Lesser Town wall (≈)", LESSER_WALL, 1257, 1874.6, height="mid", towers=70),
  wall("New Town wall (≈)", NEW_WALL, 1348.3, 1874.6, height="high", towers=110),
  wall("Hunger Wall (≈)", HUNGER, 1360, None, height="low", towers=120),

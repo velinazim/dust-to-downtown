@@ -4549,7 +4549,8 @@
    "height": "mid",
    "towers_m": 70,
    "removed": 1784,
-   "moat": true
+   "moat": true,
+   "double_side": -1
   },
   {
    "name": "Lesser Town wall (≈)",
