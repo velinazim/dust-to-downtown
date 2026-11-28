@@ -545,8 +545,7 @@ city = {
  "people_notes": True,
  "closing_question": T("When did your family's story in Prague begin?", "Ailenizin Prag hikâyesi hangi yıl başladı?"),
  "music": {"style": "eras"},
- "geo": {"bbox": [49.90, 14.15, 50.24, 14.78], "cell_m": 100, "core_bbox": [50.045, 14.370, 50.115, 14.480], "core_cell_m": 30,
-         "rivers_keep": ["Vltava"]},
+ "geo": {"bbox": [49.90, 14.15, 50.24, 14.78], "cell_m": 100, "core_bbox": [50.045, 14.370, 50.115, 14.480], "core_cell_m": 30},   # rivers_keep ["Vltava"] kept 0 (OSM river areas unnamed) → all area rivers
  "view": {"azimuth_deg": 90, "pitch_deg": 46, "fov": 34},
  "render": {"vertical_exaggeration": 2.0},
  "segments": S,

@@ -48,10 +48,7 @@
    50.115,
    14.48
   ],
-  "core_cell_m": 30,
-  "rivers_keep": [
-   "Vltava"
-  ]
+  "core_cell_m": 30
  },
  "view": {
   "azimuth_deg": 90,
