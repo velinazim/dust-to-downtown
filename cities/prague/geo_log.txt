@@ -1,0 +1,9 @@
+osm rivers: kept 0, skipped 30 -> 0 outer / 0 inner rings
+osm lakes: 17 lakes >= 0.02 km2, 2 islands in them
+grid 452x377 @ 100 m
+elevation: zoom 11, tiles 5x4
+grid 263x260 @ 30 m
+elevation: zoom 13, tiles 4x3
+core layer 263 x 260
+wrote geo.json 452 x 377
+maps written to cities/prague/preview
