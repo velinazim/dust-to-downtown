@@ -1008,18 +1008,6 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "prague:short:charles-iv",
-  "slug": "prague",
-  "kind": "short",
-  "video_id": "i_CsOJ_wV78",
-  "link": "https://youtube.com/shorts/i_CsOJ_wV78",
-  "title": "How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts",
-  "publish_at": "2026-12-06T23:30:00Z",
-  "uploaded": "2026-11-28T09:11:18Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "prague:short:defenestrations",
   "slug": "prague",
   "kind": "short",
@@ -1087,6 +1075,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "8KLARsI353E",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "prague:short:charles-iv:replaced",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "i_CsOJ_wV78",
+  "link": "https://youtube.com/shorts/i_CsOJ_wV78",
+  "title": "How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts",
+  "publish_at": "2026-12-06T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:18Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "sEICDlglAYQ",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "prague:short:charles-iv",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "sEICDlglAYQ",
+  "link": "https://youtube.com/shorts/sEICDlglAYQ",
+  "title": "How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts",
+  "publish_at": "2026-12-06T23:30:00Z",
+  "uploaded": "2026-11-28T17:01:43Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "i_CsOJ_wV78",
   "music": "piano-2026-11-09"
  }
 ]
