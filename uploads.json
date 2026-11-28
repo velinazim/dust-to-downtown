@@ -1008,18 +1008,6 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "prague:long",
-  "slug": "prague",
-  "kind": "long",
-  "video_id": "pUeRT_yR8-4",
-  "link": "https://youtu.be/pUeRT_yR8-4",
-  "title": "Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI)",
-  "publish_at": "2026-12-04T23:30:00Z",
-  "uploaded": "2026-11-28T08:53:12Z",
-  "thumbnail": "ok",
-  "playlist": "added"
- },
- {
   "key": "prague:short:whole",
   "slug": "prague",
   "kind": "short",
@@ -1054,5 +1042,34 @@
   "uploaded": "2026-11-28T09:11:22Z",
   "thumbnail": "none",
   "playlist": "added"
+ },
+ {
+  "key": "prague:long:replaced",
+  "slug": "prague",
+  "kind": "long",
+  "video_id": "pUeRT_yR8-4",
+  "link": "https://youtu.be/pUeRT_yR8-4",
+  "title": "Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI)",
+  "publish_at": "2026-12-04T23:30:00Z",
+  "uploaded": "2026-11-28T08:53:12Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaced_by": "q4pctqsSR4A",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "prague:long",
+  "slug": "prague",
+  "kind": "long",
+  "video_id": "q4pctqsSR4A",
+  "link": "https://youtu.be/q4pctqsSR4A",
+  "title": "Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI)",
+  "publish_at": "2026-12-04T23:30:00Z",
+  "uploaded": "2026-11-28T17:00:49Z",
+  "thumbnail": "ok",
+  "playlist": "added",
+  "replaces": "pUeRT_yR8-4",
+  "music": "piano-2026-11-09"
  }
 ]
