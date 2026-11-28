@@ -29,3 +29,4 @@
 - 2026-12-04 Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI) → https://youtu.be/q4pctqsSR4A (eski pUeRT_yR8-4 takvimden alındı, gizli)
 - 2026-12-05 Prague: 1,150 Years in 50 Seconds #shorts → https://youtube.com/shorts/TxK92PM3yzU (eski 8KLARsI353E takvimden alındı, gizli) · ilgili video: Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI) (https://youtu.be/q4pctqsSR4A)
 - 2026-12-06 How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts → https://youtube.com/shorts/sEICDlglAYQ (eski i_CsOJ_wV78 takvimden alındı, gizli) · ilgili video: Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI) (https://youtu.be/q4pctqsSR4A)
+- 2026-12-07 Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts → https://youtube.com/shorts/uO3pNAzkCi8 (eski dGplC_hBlMc takvimden alındı, gizli) · ilgili video: Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI) (https://youtu.be/q4pctqsSR4A)

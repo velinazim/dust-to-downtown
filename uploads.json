@@ -1008,18 +1008,6 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "prague:short:defenestrations",
-  "slug": "prague",
-  "kind": "short",
-  "video_id": "dGplC_hBlMc",
-  "link": "https://youtube.com/shorts/dGplC_hBlMc",
-  "title": "Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts",
-  "publish_at": "2026-12-07T23:30:00Z",
-  "uploaded": "2026-11-28T09:11:22Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "prague:long:replaced",
   "slug": "prague",
   "kind": "long",
@@ -1104,6 +1092,35 @@
   "thumbnail": "none",
   "playlist": "added",
   "replaces": "i_CsOJ_wV78",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "prague:short:defenestrations:replaced",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "dGplC_hBlMc",
+  "link": "https://youtube.com/shorts/dGplC_hBlMc",
+  "title": "Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts",
+  "publish_at": "2026-12-07T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:22Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "uO3pNAzkCi8",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "prague:short:defenestrations",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "uO3pNAzkCi8",
+  "link": "https://youtube.com/shorts/uO3pNAzkCi8",
+  "title": "Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts",
+  "publish_at": "2026-12-07T23:30:00Z",
+  "uploaded": "2026-11-28T17:01:53Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "dGplC_hBlMc",
   "music": "piano-2026-11-09"
  }
 ]
