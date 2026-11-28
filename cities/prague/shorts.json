@@ -1,0 +1,37 @@
+{
+ "shorts": [
+  {
+   "id": "whole",
+   "from_year": 870, "to_year": 2026, "seconds": 50,
+   "hook": {"line1": {"en": "Prague", "tr": "Prag"}, "line2": {"en": "1,150 years in 50 seconds", "tr": "50 saniyede 1.150 yıl"}},
+   "end": {"line2": {"en": "Prague: 1,150 Years in 9 Minutes", "tr": "Prag: 9 Dakikada 1.150 Yıl"}},
+   "title": {"en": "Prague: 1,150 Years in 50 Seconds #shorts", "tr": "Prag: 50 Saniyede 1.150 Yıl #shorts"},
+   "description": {"en": "From a castle founded around 880 above the Vltava to about 1.41 million people today — the year and the population stay on screen the whole way.",
+                   "tr": "880 civarında Vltava'nın üstünde kurulan bir kaleden bugün yaklaşık 1,41 milyon kişiye — yıl ve nüfus baştan sona ekranda."},
+   "tags": ["prague history", "history of prague", "praha", "3d timelapse", "city evolution", "how prague grew", "shorts"],
+   "hashtags": ["#Prague", "#History", "#Timelapse", "#Shorts"]
+  },
+  {
+   "id": "charles-iv",
+   "from_year": 1344, "to_year": 1418, "seconds": 48,
+   "hook": {"line1": {"en": "Charles IV's Prague", "tr": "IV. Karl'ın Prag'ı"}, "line2": {"en": "Prague, 1344–1410", "tr": "Prag, 1344–1410"}},
+   "end": {"line2": {"en": "Prague: 1,150 Years in 9 Minutes", "tr": "Prag: 9 Dakikada 1.150 Yıl"}},
+   "title": {"en": "How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts", "tr": "IV. Karl Prag'ı Nasıl Yeniden Kurdu: 50 Saniyede 1344–1410 #shorts"},
+   "description": {"en": "1344: St Vitus Cathedral is begun. 1348: a university and a planned New Town nearly double the city. 1357: work starts on the stone bridge we call Charles Bridge. 1360–1362: the Hunger Wall crosses Petřín. 1410: the astronomical clock is installed.",
+                   "tr": "1344: Aziz Vitus Katedrali'ne başlanır. 1348: bir üniversite ve planlı Yeni Şehir şehri neredeyse iki katına çıkarır. 1357: bugün Karl Köprüsü dediğimiz taş köprüye başlanır. 1360–1362: Açlık Duvarı Petřín'i aşar. 1410: astronomik saat takılır."},
+   "tags": ["charles iv", "charles bridge", "prague history", "new town prague", "st vitus cathedral", "3d timelapse", "shorts"],
+   "hashtags": ["#Prague", "#History", "#Shorts"]
+  },
+  {
+   "id": "defenestrations",
+   "from_year": 1419, "to_year": 1653, "seconds": 50,
+   "hook": {"line1": {"en": "Out the window", "tr": "Pencereden aşağı"}, "line2": {"en": "Prague, 1419–1648", "tr": "Prag, 1419–1648"}},
+   "end": {"line2": {"en": "Prague: 1,150 Years in 9 Minutes", "tr": "Prag: 9 Dakikada 1.150 Yıl"}},
+   "title": {"en": "Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts", "tr": "Prag'ın Defenestrasyonları: 50 Saniyede 1419'dan 1648 İsveçlilerine #shorts"},
+   "description": {"en": "30 July 1419: Hussites throw councillors from the New Town Hall. 14 July 1420: Jan Žižka wins on Vítkov Hill. 1541: fire sweeps the Lesser Town. 23 May 1618: officials are thrown from a castle window and war follows. 1648: Swedish troops are stopped on Charles Bridge.",
+                   "tr": "30 Temmuz 1419: Husçular meclis üyelerini Yeni Belediye'den atar. 14 Temmuz 1420: Jan Žižka Vítkov Tepesi'nde kazanır. 1541: yangın Küçük Şehir'i kasıp kavurur. 23 Mayıs 1618: görevliler kale penceresinden atılır ve savaş başlar. 1648: İsveç askerleri Karl Köprüsü'nde durdurulur."},
+   "tags": ["defenestration of prague", "hussites", "thirty years war", "prague history", "charles bridge", "3d timelapse", "shorts"],
+   "hashtags": ["#Prague", "#History", "#Shorts"]
+  }
+ ]
+}

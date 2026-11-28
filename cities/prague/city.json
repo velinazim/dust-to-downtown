@@ -1,0 +1,6774 @@
+{
+ "slug": "prague",
+ "seed": 880,
+ "long_ok": true,
+ "name": {
+  "en": "Prague",
+  "tr": "Prag"
+ },
+ "intro": {
+  "en": "1,150 Years in 9 Minutes",
+  "tr": "9 Dakikada 1.150 Yıl"
+ },
+ "intro_seconds": 3,
+ "cold_open": {
+  "seconds": 7,
+  "hold": 4.5,
+  "kicker": {
+   "en": "1,150 years · from a hilltop castle to a capital",
+   "tr": "1.150 yıl · tepedeki bir kaleden başkente"
+  },
+  "camera": {
+   "center": [
+    50.086,
+    14.415
+   ],
+   "dist_km": 6.0
+  }
+ },
+ "people_notes": true,
+ "closing_question": {
+  "en": "When did your family's story in Prague begin?",
+  "tr": "Ailenizin Prag hikâyesi hangi yıl başladı?"
+ },
+ "music": {
+  "style": "eras"
+ },
+ "geo": {
+  "bbox": [
+   49.9,
+   14.15,
+   50.24,
+   14.78
+  ],
+  "cell_m": 100,
+  "core_bbox": [
+   50.045,
+   14.37,
+   50.115,
+   14.48
+  ],
+  "core_cell_m": 30,
+  "rivers_keep": [
+   "Vltava"
+  ]
+ },
+ "view": {
+  "azimuth_deg": 90,
+  "pitch_deg": 46,
+  "fov": 34
+ },
+ "render": {
+  "vertical_exaggeration": 2.0
+ },
+ "segments": [
+  {
+   "from": 870,
+   "to": 899,
+   "seconds": 11.4,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Prague Castle",
+    "tr": "Prag Kalesi"
+   },
+   "sub": {
+    "en": "Around 880: Prince Bořivoj founds a castle on the hill above the Vltava",
+    "tr": "880 civarı: Prens Bořivoj, Vltava'nın üstündeki tepede bir kale kurar"
+   },
+   "camera": {
+    "center": [
+     50.089,
+     14.403
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Přemyslid Prague",
+    "tr": "Přemysl Prag'ı"
+   }
+  },
+  {
+   "from": 900,
+   "to": 934,
+   "seconds": 11.4,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Rotunda of St Vitus",
+    "tr": "Aziz Vitus Rotondası"
+   },
+   "sub": {
+    "en": "Around 925: Prince Wenceslas founds a round church of St Vitus inside the castle",
+    "tr": "925 civarı: Prens Wenceslas, kalenin içinde yuvarlak bir Aziz Vitus kilisesi kurar"
+   },
+   "camera": {
+    "center": [
+     50.09,
+     14.401
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 935,
+   "to": 972,
+   "seconds": 6,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "camera": {
+    "center": [
+     50.086,
+     14.408
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 973,
+   "to": 1059,
+   "seconds": 11.4,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "A Bishop for Prague",
+    "tr": "Prag'a Bir Piskopos"
+   },
+   "sub": {
+    "en": "973: Prague becomes the seat of a bishop; a market town grows across the river",
+    "tr": "973: Prag bir piskoposluk merkezi olur; nehrin karşısında bir pazar kasabası büyür"
+   },
+   "camera": {
+    "center": [
+     50.085,
+     14.412
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1060,
+   "to": 1139,
+   "seconds": 11.4,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Vyšehrad",
+    "tr": "Vyšehrad"
+   },
+   "sub": {
+    "en": "Late 11th century: Duke Vratislav II moves his seat from Prague Castle to Vyšehrad",
+    "tr": "11. yüzyıl sonu: Dük II. Vratislav makamını Prag Kalesi'nden Vyšehrad'a taşır"
+   },
+   "camera": {
+    "center": [
+     50.07,
+     14.418
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1140,
+   "to": 1157,
+   "seconds": 6,
+   "era": {
+    "en": "Přemyslid Bohemia",
+    "tr": "Přemysl Bohemyası"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "camera": {
+    "center": [
+     50.083,
+     14.412
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1158,
+   "to": 1229,
+   "seconds": 11.4,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Judith Bridge",
+    "tr": "Judith Köprüsü"
+   },
+   "sub": {
+    "en": "1158–1172: the stone Judith Bridge joins the castle side to the market town",
+    "tr": "1158–1172: taş Judith Köprüsü kale tarafını pazar kasabasına bağlar"
+   },
+   "camera": {
+    "center": [
+     50.0865,
+     14.412
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Medieval Towns",
+    "tr": "Orta Çağ Kasabaları"
+   }
+  },
+  {
+   "from": 1230,
+   "to": 1256,
+   "seconds": 11.4,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Old Town Walls",
+    "tr": "Eski Şehir Surları"
+   },
+   "sub": {
+    "en": "1230s: the Old Town gets town rights and a wall with a moat around it",
+    "tr": "1230'lar: Eski Şehir kent haklarını ve çevresinde hendekli bir sur alır"
+   },
+   "camera": {
+    "center": [
+     50.086,
+     14.419
+    ],
+    "dist_km": 3.0
+   }
+  },
+  {
+   "from": 1257,
+   "to": 1269,
+   "seconds": 11.4,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Lesser Town",
+    "tr": "Küçük Şehir"
+   },
+   "sub": {
+    "en": "1257: King Ottokar II founds a new town below the castle, today's Malá Strana",
+    "tr": "1257: Kral II. Ottokar kalenin altında yeni bir kasaba kurar; bugünkü Malá Strana"
+   },
+   "camera": {
+    "center": [
+     50.088,
+     14.405
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1270,
+   "to": 1319,
+   "seconds": 11.4,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Old-New Synagogue",
+    "tr": "Eski-Yeni Sinagog"
+   },
+   "sub": {
+    "en": "Around 1270: the Old-New Synagogue is completed in the Jewish Town",
+    "tr": "1270 civarı: Yahudi Mahallesi'ndeki Eski-Yeni Sinagog tamamlanır"
+   },
+   "camera": {
+    "center": [
+     50.089,
+     14.418
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1320,
+   "to": 1337,
+   "seconds": 6,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "camera": {
+    "center": [
+     50.089,
+     14.399
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1338,
+   "to": 1343,
+   "seconds": 11.4,
+   "era": {
+    "en": "Medieval Prague",
+    "tr": "Orta Çağ Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Old Town Hall",
+    "tr": "Eski Belediye Binası"
+   },
+   "sub": {
+    "en": "1338: King John lets the Old Town buy a house on its square for a town hall",
+    "tr": "1338: Kral John, Eski Şehir'in meydanda belediye için bir ev almasına izin verir"
+   },
+   "camera": {
+    "center": [
+     50.087,
+     14.42
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1344,
+   "to": 1347,
+   "seconds": 11.4,
+   "era": {
+    "en": "Age of Charles IV",
+    "tr": "IV. Karl Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "St Vitus Cathedral",
+    "tr": "Aziz Vitus Katedrali"
+   },
+   "sub": {
+    "en": "1344: Charles IV begins a Gothic cathedral at the castle; it is finished only in 1929",
+    "tr": "1344: IV. Karl kalede Gotik bir katedrale başlar; ancak 1929'da tamamlanır"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.0905,
+     14.401
+    ],
+    "dist_km": 2.2
+   },
+   "chapter": {
+    "en": "Charles IV's Capital",
+    "tr": "IV. Karl'ın Başkenti"
+   }
+  },
+  {
+   "from": 1348,
+   "to": 1356,
+   "seconds": 11.4,
+   "era": {
+    "en": "Age of Charles IV",
+    "tr": "IV. Karl Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The New Town",
+    "tr": "Yeni Şehir"
+   },
+   "sub": {
+    "en": "1348: Charles IV founds a university and a planned New Town, nearly doubling Prague",
+    "tr": "1348: IV. Karl bir üniversite ve planlı bir Yeni Şehir kurar; Prag neredeyse iki katına çıkar"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.079,
+     14.424
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1357,
+   "to": 1359,
+   "seconds": 11.4,
+   "era": {
+    "en": "Age of Charles IV",
+    "tr": "IV. Karl Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Charles Bridge",
+    "tr": "Karl Köprüsü"
+   },
+   "sub": {
+    "en": "1357: work begins on a new stone bridge; the Judith Bridge had fallen in a flood in 1342",
+    "tr": "1357: yeni bir taş köprüye başlanır; Judith Köprüsü 1342'de bir selde yıkılmıştı"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.0864,
+     14.412
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1360,
+   "to": 1409,
+   "seconds": 11.4,
+   "era": {
+    "en": "Age of Charles IV",
+    "tr": "IV. Karl Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Hunger Wall",
+    "tr": "Açlık Duvarı"
+   },
+   "sub": {
+    "en": "1360–1362: Charles IV has a wall built across Petřín hill to guard the castle side",
+    "tr": "1360–1362: IV. Karl kale tarafını korumak için Petřín tepesi boyunca bir duvar ördürür"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.084,
+     14.399
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1410,
+   "to": 1418,
+   "seconds": 11.4,
+   "era": {
+    "en": "Age of Charles IV",
+    "tr": "IV. Karl Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Astronomical Clock",
+    "tr": "Astronomik Saat"
+   },
+   "sub": {
+    "en": "1410: the astronomical clock is installed on the Old Town Hall; it still runs today",
+    "tr": "1410: astronomik saat Eski Belediye Binası'na takılır; bugün hâlâ çalışıyor"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.087,
+     14.4205
+    ],
+    "dist_km": 1.8
+   }
+  },
+  {
+   "from": 1419,
+   "to": 1419.9,
+   "seconds": 11.4,
+   "era": {
+    "en": "Hussite Wars",
+    "tr": "Husçu Savaşları"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The First Defenestration",
+    "tr": "Birinci Defenestrasyon"
+   },
+   "sub": {
+    "en": "30 July 1419: Hussites throw Catholic councillors from the windows of the New Town Hall",
+    "tr": "30 Temmuz 1419: Husçular Katolik meclis üyelerini Yeni Belediye'nin pencerelerinden atar"
+   },
+   "population": 18500,
+   "camera": {
+    "center": [
+     50.0775,
+     14.42
+    ],
+    "dist_km": 2.0
+   },
+   "chapter": {
+    "en": "Hussite Prague",
+    "tr": "Husçu Prag"
+   }
+  },
+  {
+   "from": 1420,
+   "to": 1474,
+   "seconds": 11.4,
+   "era": {
+    "en": "Hussite Wars",
+    "tr": "Husçu Savaşları"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Battle of Vítkov Hill",
+    "tr": "Vítkov Tepesi Muharebesi"
+   },
+   "sub": {
+    "en": "14 July 1420: Jan Žižka's Hussites drive off the crusader army besieging Prague",
+    "tr": "14 Temmuz 1420: Jan Žižka'nın Husçuları Prag'ı kuşatan haçlı ordusunu püskürtür"
+   },
+   "population": [
+    18500,
+    18500
+   ],
+   "camera": {
+    "center": [
+     50.086,
+     14.44
+    ],
+    "dist_km": 4.4
+   }
+  },
+  {
+   "from": 1475,
+   "to": 1540,
+   "seconds": 11.4,
+   "era": {
+    "en": "Hussite Wars",
+    "tr": "Husçu Savaşları"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Powder Tower",
+    "tr": "Barut Kulesi"
+   },
+   "sub": {
+    "en": "1475: King Vladislav II lays the first stone of a new gate tower, today's Powder Tower",
+    "tr": "1475: Kral II. Vladislav yeni bir kapı kulesinin temelini atar; bugünkü Barut Kulesi"
+   },
+   "population": [
+    18500,
+    30400
+   ],
+   "camera": {
+    "center": [
+     50.087,
+     14.426
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1541,
+   "to": 1597,
+   "seconds": 11.4,
+   "era": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Fire of 1541",
+    "tr": "1541 Yangını"
+   },
+   "sub": {
+    "en": "1541: fire sweeps the Lesser Town and the castle; fifty people die",
+    "tr": "1541: yangın Küçük Şehir'i ve kaleyi kasıp kavurur; elli kişi ölür"
+   },
+   "population": [
+    30700,
+    50000
+   ],
+   "camera": {
+    "center": [
+     50.089,
+     14.403
+    ],
+    "dist_km": 2.6
+   },
+   "chapter": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   }
+  },
+  {
+   "from": 1598,
+   "to": 1617,
+   "seconds": 11.4,
+   "era": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Rudolf II's Capital",
+    "tr": "II. Rudolf'un Başkenti"
+   },
+   "sub": {
+    "en": "1598: Emperor Rudolf II makes Hradčany a royal town; Prague is the empire's centre",
+    "tr": "1598: İmparator II. Rudolf Hradčany'yi kraliyet kenti yapar; Prag imparatorluğun merkezidir"
+   },
+   "population": [
+    50400,
+    59500
+   ],
+   "camera": {
+    "center": [
+     50.0895,
+     14.398
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1618,
+   "to": 1620.9,
+   "seconds": 11.4,
+   "era": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Defenestration of 1618",
+    "tr": "1618 Defenestrasyonu"
+   },
+   "sub": {
+    "en": "23 May 1618: royal officials are thrown from a castle window; war follows",
+    "tr": "23 Mayıs 1618: kraliyet görevlileri kale penceresinden atılır; ardından savaş gelir"
+   },
+   "population": [
+    60000,
+    54300
+   ],
+   "camera": {
+    "center": [
+     50.0905,
+     14.4
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 1621,
+   "to": 1647,
+   "seconds": 6,
+   "era": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "population": [
+    54100,
+    22200
+   ],
+   "camera": {
+    "center": [
+     50.086,
+     14.412
+    ],
+    "dist_km": 3.4
+   }
+  },
+  {
+   "from": 1648,
+   "to": 1653,
+   "seconds": 11.4,
+   "era": {
+    "en": "Habsburg Prague",
+    "tr": "Habsburg Prag'ı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Swedes at the Bridge",
+    "tr": "Köprüdeki İsveçliler"
+   },
+   "sub": {
+    "en": "1648: Swedish troops take the castle side but are stopped on Charles Bridge",
+    "tr": "1648: İsveç askerleri kale tarafını alır ama Karl Köprüsü'nde durdurulur"
+   },
+   "population": [
+    21400,
+    20800
+   ],
+   "camera": {
+    "center": [
+     50.0865,
+     14.411
+    ],
+    "dist_km": 2.4
+   }
+  },
+  {
+   "from": 1654,
+   "to": 1688,
+   "seconds": 11.4,
+   "era": {
+    "en": "Baroque Prague",
+    "tr": "Barok Prag"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "A Baroque Fortress",
+    "tr": "Barok Kale"
+   },
+   "sub": {
+    "en": "1654: Vyšehrad is rebuilt as a Baroque fortress guarding the south of the city",
+    "tr": "1654: Vyšehrad, şehrin güneyini koruyan Barok bir kale olarak yeniden yapılır"
+   },
+   "population": [
+    21000,
+    32300
+   ],
+   "camera": {
+    "center": [
+     50.068,
+     14.419
+    ],
+    "dist_km": 3.2
+   },
+   "chapter": {
+    "en": "Baroque Prague",
+    "tr": "Barok Prag"
+   }
+  },
+  {
+   "from": 1689,
+   "to": 1699,
+   "seconds": 11.4,
+   "era": {
+    "en": "Baroque Prague",
+    "tr": "Barok Prag"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Great Fire of 1689",
+    "tr": "1689 Büyük Yangını"
+   },
+   "sub": {
+    "en": "1689: a great fire damages the Old Town and the Jewish Town",
+    "tr": "1689: büyük bir yangın Eski Şehir'e ve Yahudi Mahallesi'ne zarar verir"
+   },
+   "population": [
+    32700,
+    37100
+   ],
+   "camera": {
+    "center": [
+     50.0875,
+     14.419
+    ],
+    "dist_km": 2.8
+   }
+  },
+  {
+   "from": 1700,
+   "to": 1783,
+   "seconds": 11.4,
+   "era": {
+    "en": "Baroque Prague",
+    "tr": "Barok Prag"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Saints on the Bridge",
+    "tr": "Köprüdeki Azizler"
+   },
+   "sub": {
+    "en": "1683–1714: most of the 30 statues go up on the bridge; 80,000 people live here by 1771",
+    "tr": "1683–1714: 30 heykelin çoğu köprüye dikilir; 1771'de burada 80.000 kişi yaşar"
+   },
+   "population": [
+    37600,
+    83300
+   ],
+   "camera": {
+    "center": [
+     50.0864,
+     14.412
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1784,
+   "to": 1816,
+   "seconds": 11.4,
+   "era": {
+    "en": "Baroque Prague",
+    "tr": "Barok Prag"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Four Towns Become One",
+    "tr": "Dört Kasaba Tek Şehir"
+   },
+   "sub": {
+    "en": "12 February 1784: Joseph II unites Old Town, New Town, Lesser Town and Hradčany",
+    "tr": "12 Şubat 1784: II. Joseph Eski, Yeni ve Küçük Şehir'i ve Hradčany'yi birleştirir"
+   },
+   "population": [
+    83600,
+    93100
+   ],
+   "camera": {
+    "center": [
+     50.083,
+     14.415
+    ],
+    "dist_km": 5.0
+   }
+  },
+  {
+   "from": 1817,
+   "to": 1844,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Karlín",
+    "tr": "Karlín"
+   },
+   "sub": {
+    "en": "1817: building begins on Karlín, Prague's first suburb, outside the walls",
+    "tr": "1817: Prag'ın ilk banliyösü Karlín'in inşasına surların dışında başlanır"
+   },
+   "population": [
+    93500,
+    119000
+   ],
+   "camera": {
+    "center": [
+     50.088,
+     14.438
+    ],
+    "dist_km": 4.0
+   },
+   "chapter": {
+    "en": "Industrial Prague",
+    "tr": "Sanayi Çağı Prag'ı"
+   }
+  },
+  {
+   "from": 1845,
+   "to": 1873,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Railway Arrives",
+    "tr": "Demiryolu Geliyor"
+   },
+   "sub": {
+    "en": "20 August 1845: Prague's first station opens; today it is Masaryk station",
+    "tr": "20 Ağustos 1845: Prag'ın ilk istasyonu açılır; bugün Masaryk istasyonu"
+   },
+   "population": [
+    122000,
+    247000
+   ],
+   "camera": {
+    "center": [
+     50.087,
+     14.435
+    ],
+    "dist_km": 4.2
+   }
+  },
+  {
+   "from": 1874,
+   "to": 1880,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Walls Come Down",
+    "tr": "Surlar Yıkılıyor"
+   },
+   "sub": {
+    "en": "20 July 1874: demolition of the city walls begins; the suburbs grow together",
+    "tr": "20 Temmuz 1874: şehir surlarının yıkımı başlar; banliyöler birbirine kavuşur"
+   },
+   "population": [
+    253000,
+    294000
+   ],
+   "camera": {
+    "center": [
+     50.08,
+     14.435
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 1881,
+   "to": 1890,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The National Theatre",
+    "tr": "Ulusal Tiyatro"
+   },
+   "sub": {
+    "en": "June 1881: the National Theatre opens; it burns in August and reopens in 1883",
+    "tr": "Haziran 1881: Ulusal Tiyatro açılır; ağustosta yanar ve 1883'te yeniden açılır"
+   },
+   "population": [
+    298000,
+    338000
+   ],
+   "camera": {
+    "center": [
+     50.0815,
+     14.415
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1891,
+   "to": 1892,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "1891: Tower and Museum",
+    "tr": "1891: Kule ve Müze"
+   },
+   "sub": {
+    "en": "1891: the Petřín tower rises for a great exhibition; the National Museum is finished",
+    "tr": "1891: büyük bir sergi için Petřín kulesi yükselir; Ulusal Müze tamamlanır"
+   },
+   "population": [
+    343000,
+    348000
+   ],
+   "camera": {
+    "center": [
+     50.082,
+     14.414
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1893,
+   "to": 1917,
+   "seconds": 11.4,
+   "era": {
+    "en": "Industrial Age",
+    "tr": "Sanayi Çağı"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Old Ghetto Is Cleared",
+    "tr": "Eski Getto Yıkılıyor"
+   },
+   "sub": {
+    "en": "1893–1913: most of the old Jewish Town is torn down; six synagogues are kept",
+    "tr": "1893–1913: eski Yahudi Mahallesi'nin çoğu yıkılır; altı sinagog korunur"
+   },
+   "population": [
+    353000,
+    600000
+   ],
+   "camera": {
+    "center": [
+     50.0895,
+     14.418
+    ],
+    "dist_km": 2.2
+   }
+  },
+  {
+   "from": 1918,
+   "to": 1921,
+   "seconds": 11.4,
+   "era": {
+    "en": "Czechoslovakia",
+    "tr": "Çekoslovakya"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Capital of Czechoslovakia",
+    "tr": "Çekoslovakya'nın Başkenti"
+   },
+   "sub": {
+    "en": "28 October 1918: independence is declared on Wenceslas Square; Prague becomes a capital",
+    "tr": "28 Ekim 1918: Venceslas Meydanı'nda bağımsızlık ilan edilir; Prag başkent olur"
+   },
+   "population": [
+    614000,
+    660000
+   ],
+   "camera": {
+    "center": [
+     50.0815,
+     14.427
+    ],
+    "dist_km": 3.0
+   },
+   "chapter": {
+    "en": "Capital of a Republic",
+    "tr": "Bir Cumhuriyetin Başkenti"
+   }
+  },
+  {
+   "from": 1922,
+   "to": 1938,
+   "seconds": 11.4,
+   "era": {
+    "en": "Czechoslovakia",
+    "tr": "Çekoslovakya"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Greater Prague",
+    "tr": "Büyük Prag"
+   },
+   "sub": {
+    "en": "1 January 1922: 37 towns and villages join the city; 676,000 people now live in Prague",
+    "tr": "1 Ocak 1922: 37 kasaba ve köy şehre katılır; Prag'da artık 676.000 kişi yaşar"
+   },
+   "population": [
+    676000,
+    1000000
+   ],
+   "camera": {
+    "center": [
+     50.08,
+     14.43
+    ],
+    "dist_km": 14.0
+   }
+  },
+  {
+   "from": 1939,
+   "to": 1944,
+   "seconds": 11.4,
+   "era": {
+    "en": "Occupation & War",
+    "tr": "İşgal ve Savaş"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Occupation",
+    "tr": "İşgal"
+   },
+   "sub": {
+    "en": "March 1939: German troops occupy Prague, seat of the Nazi 'Protectorate' until 1945",
+    "tr": "Mart 1939: Alman askerleri Prag'ı işgal eder; 1945'e dek Nazi 'Protektorası'nın merkezi"
+   },
+   "population": [
+    1003000,
+    1015000
+   ],
+   "camera": {
+    "center": [
+     50.085,
+     14.42
+    ],
+    "dist_km": 8.0
+   },
+   "chapter": {
+    "en": "War and Occupation",
+    "tr": "Savaş ve İşgal"
+   }
+  },
+  {
+   "from": 1945,
+   "to": 1947,
+   "seconds": 11.4,
+   "era": {
+    "en": "Occupation & War",
+    "tr": "İşgal ve Savaş"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Bombs and the Uprising",
+    "tr": "Bombalar ve Ayaklanma"
+   },
+   "sub": {
+    "en": "14 February 1945: a US raid in error kills 701 people; on 5 May Prague rises up",
+    "tr": "14 Şubat 1945: ABD'nin hatalı bir baskını 701 kişiyi öldürür; 5 Mayıs'ta Prag ayaklanır"
+   },
+   "population": [
+    1018000,
+    1023000
+   ],
+   "camera": {
+    "center": [
+     50.074,
+     14.425
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1948,
+   "to": 1967,
+   "seconds": 11.4,
+   "era": {
+    "en": "Communist Era",
+    "tr": "Komünist Dönem"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Panel Housing",
+    "tr": "Panel Bloklar"
+   },
+   "sub": {
+    "en": "February 1948: the Communists take power; big panel estates rise from 1959",
+    "tr": "Şubat 1948: Komünistler iktidarı alır; 1959'dan itibaren büyük panel siteler yükselir"
+   },
+   "population": [
+    1026000,
+    1076000
+   ],
+   "camera": {
+    "center": [
+     50.07,
+     14.4
+    ],
+    "dist_km": 16.0
+   },
+   "chapter": {
+    "en": "Communist Prague",
+    "tr": "Komünist Prag"
+   }
+  },
+  {
+   "from": 1968,
+   "to": 1972,
+   "seconds": 11.4,
+   "era": {
+    "en": "Communist Era",
+    "tr": "Komünist Dönem"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "August 1968",
+    "tr": "Ağustos 1968"
+   },
+   "sub": {
+    "en": "August 1968: Warsaw Pact armies occupy Prague and end the Prague Spring",
+    "tr": "Ağustos 1968: Varşova Paktı orduları Prag'ı işgal eder ve Prag Baharı'nı bitirir"
+   },
+   "population": [
+    1079000,
+    1090000
+   ],
+   "camera": {
+    "center": [
+     50.081,
+     14.428
+    ],
+    "dist_km": 4.0
+   }
+  },
+  {
+   "from": 1973,
+   "to": 1973.9,
+   "seconds": 11.4,
+   "era": {
+    "en": "Communist Era",
+    "tr": "Komünist Dönem"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Nusle Bridge",
+    "tr": "Nusle Köprüsü"
+   },
+   "sub": {
+    "en": "22 February 1973: the 485 m Nusle Bridge opens across the valley below Vyšehrad",
+    "tr": "22 Şubat 1973: 485 m'lik Nusle Köprüsü, Vyšehrad'ın altındaki vadinin üstünde açılır"
+   },
+   "population": [
+    1093000,
+    1095000
+   ],
+   "camera": {
+    "center": [
+     50.066,
+     14.428
+    ],
+    "dist_km": 2.6
+   }
+  },
+  {
+   "from": 1974,
+   "to": 1984,
+   "seconds": 11.4,
+   "era": {
+    "en": "Communist Era",
+    "tr": "Komünist Dönem"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Metro and the Estates",
+    "tr": "Metro ve Siteler"
+   },
+   "sub": {
+    "en": "9 May 1974: the metro opens; the city grows to 496 km² and Jižní Město rises",
+    "tr": "9 Mayıs 1974: metro açılır; şehir 496 km²'ye büyür ve Jižní Město yükselir"
+   },
+   "population": [
+    1096000,
+    1182000
+   ],
+   "camera": {
+    "center": [
+     50.06,
+     14.45
+    ],
+    "dist_km": 18.0
+   }
+  },
+  {
+   "from": 1985,
+   "to": 1991,
+   "seconds": 11.4,
+   "era": {
+    "en": "Communist Era",
+    "tr": "Komünist Dönem"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Velvet Revolution",
+    "tr": "Kadife Devrim"
+   },
+   "sub": {
+    "en": "November 1989: huge crowds on Wenceslas Square bring Communist rule to an end",
+    "tr": "Kasım 1989: Venceslas Meydanı'ndaki dev kalabalıklar Komünist yönetimi sona erdirir"
+   },
+   "population": [
+    1191000,
+    1182000
+   ],
+   "camera": {
+    "center": [
+     50.08,
+     14.435
+    ],
+    "dist_km": 5.0
+   },
+   "chapter": {
+    "en": "Prague Today",
+    "tr": "Bugünün Prag'ı"
+   }
+  },
+  {
+   "from": 1992,
+   "to": 2001,
+   "seconds": 11.4,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Dancing House",
+    "tr": "Dans Eden Ev"
+   },
+   "sub": {
+    "en": "1996: the Dancing House by Milunić and Gehry fills a gap left by the 1945 bombs",
+    "tr": "1996: Milunić ve Gehry'nin Dans Eden Ev'i 1945 bombalarının bıraktığı boşluğu doldurur"
+   },
+   "population": [
+    1181000,
+    1169000
+   ],
+   "camera": {
+    "center": [
+     50.076,
+     14.415
+    ],
+    "dist_km": 2.0
+   }
+  },
+  {
+   "from": 2002,
+   "to": 2025,
+   "seconds": 11.4,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "The Flood of 2002",
+    "tr": "2002 Seli"
+   },
+   "sub": {
+    "en": "August 2002: the Vltava floods the city; archives suffer, but the landmarks survive",
+    "tr": "Ağustos 2002: Vltava şehri basar; arşivler zarar görür ama anıt yapılar ayakta kalır"
+   },
+   "population": [
+    1179000,
+    1404000
+   ],
+   "camera": {
+    "center": [
+     50.086,
+     14.425
+    ],
+    "dist_km": 6.0
+   }
+  },
+  {
+   "from": 2026,
+   "to": 2026,
+   "seconds": 16,
+   "era": {
+    "en": "Today",
+    "tr": "Bugün"
+   },
+   "city_name": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "title": {
+    "en": "Prague Today",
+    "tr": "Bugünün Prag'ı"
+   },
+   "sub": {
+    "en": "From a castle on a hill around 880 to about 1.41 million people today",
+    "tr": "880 civarında bir tepedeki kaleden bugün yaklaşık 1,41 milyon kişiye"
+   },
+   "population": [
+    1397880,
+    1409528
+   ],
+   "camera": {
+    "center": [
+     50.07,
+     14.44
+    ],
+    "dist_km": 20.0
+   }
+  }
+ ],
+ "districts": [
+  {
+   "name": "Settlement below the castle (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     50.08821,
+     14.40858
+    ],
+    [
+     50.08896,
+     14.40789
+    ],
+    [
+     50.08939,
+     14.40641
+    ],
+    [
+     50.0894,
+     14.40456
+    ],
+    [
+     50.08898,
+     14.40283
+    ],
+    [
+     50.08825,
+     14.40168
+    ],
+    [
+     50.08739,
+     14.40142
+    ],
+    [
+     50.08664,
+     14.40211
+    ],
+    [
+     50.08621,
+     14.40359
+    ],
+    [
+     50.0862,
+     14.40544
+    ],
+    [
+     50.08662,
+     14.40717
+    ],
+    [
+     50.08735,
+     14.40832
+    ]
+   ],
+   "from": 880,
+   "to": 960,
+   "density": 0.4,
+   "grain_m": 45,
+   "grow_from": [
+    50.0885,
+    14.4045
+   ]
+  },
+  {
+   "name": "Vyšehrad settlement (≈)",
+   "style": "celtic",
+   "poly": [
+    [
+     50.06337,
+     14.42286
+    ],
+    [
+     50.0642,
+     14.42281
+    ],
+    [
+     50.06502,
+     14.42185
+    ],
+    [
+     50.06561,
+     14.42025
+    ],
+    [
+     50.06582,
+     14.41843
+    ],
+    [
+     50.06559,
+     14.41689
+    ],
+    [
+     50.06497,
+     14.41602
+    ],
+    [
+     50.06414,
+     14.41607
+    ],
+    [
+     50.06332,
+     14.41703
+    ],
+    [
+     50.06273,
+     14.41863
+    ],
+    [
+     50.06252,
+     14.42045
+    ],
+    [
+     50.06275,
+     14.42199
+    ]
+   ],
+   "from": 940,
+   "to": 1080,
+   "density": 0.35,
+   "grain_m": 45,
+   "grow_from": [
+    50.06417,
+    14.41944
+   ]
+  },
+  {
+   "name": "Market town on the right bank (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.087,
+     14.42438
+    ],
+    [
+     50.08818,
+     14.4238
+    ],
+    [
+     50.08912,
+     14.42217
+    ],
+    [
+     50.08965,
+     14.41981
+    ],
+    [
+     50.08965,
+     14.41719
+    ],
+    [
+     50.08912,
+     14.41483
+    ],
+    [
+     50.08818,
+     14.4132
+    ],
+    [
+     50.087,
+     14.41262
+    ],
+    [
+     50.08582,
+     14.4132
+    ],
+    [
+     50.08488,
+     14.41483
+    ],
+    [
+     50.08435,
+     14.41719
+    ],
+    [
+     50.08435,
+     14.41981
+    ],
+    [
+     50.08488,
+     14.42217
+    ],
+    [
+     50.08582,
+     14.4238
+    ]
+   ],
+   "from": 973,
+   "to": 1225,
+   "density": 0.5,
+   "grain_m": 50,
+   "grow_from": [
+    50.0875,
+    14.42056
+   ],
+   "holes": [
+    [
+     [
+      50.0875,
+      14.42154
+     ],
+     [
+      50.08779,
+      14.42135
+     ],
+     [
+      50.08797,
+      14.42086
+     ],
+     [
+      50.08797,
+      14.42026
+     ],
+     [
+      50.08779,
+      14.41977
+     ],
+     [
+      50.0875,
+      14.41958
+     ],
+     [
+      50.08721,
+      14.41977
+     ],
+     [
+      50.08703,
+      14.42026
+     ],
+     [
+      50.08703,
+      14.42086
+     ],
+     [
+      50.08721,
+      14.42135
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Old Town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ],
+    [
+     50.0928,
+     14.42
+    ],
+    [
+     50.0915,
+     14.415
+    ],
+    [
+     50.089,
+     14.414
+    ],
+    [
+     50.0864,
+     14.4138
+    ],
+    [
+     50.084,
+     14.414
+    ]
+   ],
+   "from": 1230,
+   "to": 1300,
+   "density": 0.75,
+   "grain_m": 50,
+   "grow_from": [
+    50.0875,
+    14.42056
+   ],
+   "holes": [
+    [
+     [
+      50.0875,
+      14.42154
+     ],
+     [
+      50.08779,
+      14.42135
+     ],
+     [
+      50.08797,
+      14.42086
+     ],
+     [
+      50.08797,
+      14.42026
+     ],
+     [
+      50.08779,
+      14.41977
+     ],
+     [
+      50.0875,
+      14.41958
+     ],
+     [
+      50.08721,
+      14.41977
+     ],
+     [
+      50.08703,
+      14.42026
+     ],
+     [
+      50.08703,
+      14.42086
+     ],
+     [
+      50.08721,
+      14.42135
+     ]
+    ],
+    [
+     [
+      50.0912,
+      14.4155
+     ],
+     [
+      50.0915,
+      14.4185
+     ],
+     [
+      50.0905,
+      14.4212
+     ],
+     [
+      50.089,
+      14.421
+     ],
+     [
+      50.0885,
+      14.418
+     ],
+     [
+      50.089,
+      14.4155
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Jewish Town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.0912,
+     14.4155
+    ],
+    [
+     50.0915,
+     14.4185
+    ],
+    [
+     50.0905,
+     14.4212
+    ],
+    [
+     50.089,
+     14.421
+    ],
+    [
+     50.0885,
+     14.418
+    ],
+    [
+     50.089,
+     14.4155
+    ]
+   ],
+   "from": 1240,
+   "to": 1300,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    50.08972,
+    14.41861
+   ]
+  },
+  {
+   "name": "Lesser Town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.092,
+     14.41
+    ],
+    [
+     50.0912,
+     14.406
+    ],
+    [
+     50.0898,
+     14.404
+    ],
+    [
+     50.088,
+     14.401
+    ],
+    [
+     50.086,
+     14.4
+    ],
+    [
+     50.0835,
+     14.401
+    ],
+    [
+     50.0815,
+     14.403
+    ],
+    [
+     50.0803,
+     14.4055
+    ],
+    [
+     50.0815,
+     14.4075
+    ],
+    [
+     50.085,
+     14.4085
+    ],
+    [
+     50.088,
+     14.409
+    ],
+    [
+     50.0905,
+     14.41
+    ]
+   ],
+   "from": 1257,
+   "to": 1300,
+   "density": 0.7,
+   "grain_m": 50,
+   "grow_from": [
+    50.08806,
+    14.40389
+   ]
+  },
+  {
+   "name": "Hradčany (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.0905,
+     14.397
+    ],
+    [
+     50.0912,
+     14.39
+    ],
+    [
+     50.088,
+     14.388
+    ],
+    [
+     50.0868,
+     14.3905
+    ],
+    [
+     50.0878,
+     14.3965
+    ]
+   ],
+   "from": 1320,
+   "to": 1360,
+   "density": 0.55,
+   "grain_m": 55,
+   "grow_from": [
+    50.089,
+    14.393
+   ]
+  },
+  {
+   "name": "New Town (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ],
+    [
+     50.093,
+     14.4392
+    ],
+    [
+     50.09,
+     14.4385
+    ],
+    [
+     50.087,
+     14.4365
+    ],
+    [
+     50.0835,
+     14.4345
+    ],
+    [
+     50.079,
+     14.4335
+    ],
+    [
+     50.0745,
+     14.432
+    ],
+    [
+     50.0705,
+     14.43
+    ],
+    [
+     50.0675,
+     14.4265
+    ],
+    [
+     50.066,
+     14.42
+    ],
+    [
+     50.07,
+     14.416
+    ],
+    [
+     50.076,
+     14.4135
+    ],
+    [
+     50.08,
+     14.4135
+    ]
+   ],
+   "from": 1348,
+   "to": 1420,
+   "density": 0.55,
+   "grain_m": 60,
+   "grow_from": [
+    50.08,
+    14.425
+   ],
+   "holes": [
+    [
+     [
+      50.0837,
+      14.42379
+     ],
+     [
+      50.0798,
+      14.43029
+     ],
+     [
+      50.0794,
+      14.42971
+     ],
+     [
+      50.0833,
+      14.42321
+     ]
+    ],
+    [
+     [
+      50.0771,
+      14.42084
+     ],
+     [
+      50.0737,
+      14.42004
+     ],
+     [
+      50.0739,
+      14.41796
+     ],
+     [
+      50.0773,
+      14.41876
+     ]
+    ],
+    [
+     [
+      50.0875,
+      14.42154
+     ],
+     [
+      50.08779,
+      14.42135
+     ],
+     [
+      50.08797,
+      14.42086
+     ],
+     [
+      50.08797,
+      14.42026
+     ],
+     [
+      50.08779,
+      14.41977
+     ],
+     [
+      50.0875,
+      14.41958
+     ],
+     [
+      50.08721,
+      14.41977
+     ],
+     [
+      50.08703,
+      14.42026
+     ],
+     [
+      50.08703,
+      14.42086
+     ],
+     [
+      50.08721,
+      14.42135
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Lesser Town rebuilt after 1541 (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     50.092,
+     14.41
+    ],
+    [
+     50.0912,
+     14.406
+    ],
+    [
+     50.0898,
+     14.404
+    ],
+    [
+     50.088,
+     14.401
+    ],
+    [
+     50.086,
+     14.4
+    ],
+    [
+     50.0835,
+     14.401
+    ],
+    [
+     50.0815,
+     14.403
+    ],
+    [
+     50.0803,
+     14.4055
+    ],
+    [
+     50.0815,
+     14.4075
+    ],
+    [
+     50.085,
+     14.4085
+    ],
+    [
+     50.088,
+     14.409
+    ],
+    [
+     50.0905,
+     14.41
+    ]
+   ],
+   "from": 1545,
+   "to": 1720,
+   "density": 0.75,
+   "grain_m": 55,
+   "grow_from": [
+    50.08806,
+    14.40389
+   ]
+  },
+  {
+   "name": "Jewish Town rebuilt after 1689 (≈)",
+   "style": "medieval",
+   "poly": [
+    [
+     50.0912,
+     14.4155
+    ],
+    [
+     50.0915,
+     14.4185
+    ],
+    [
+     50.0905,
+     14.4212
+    ],
+    [
+     50.089,
+     14.421
+    ],
+    [
+     50.0885,
+     14.418
+    ],
+    [
+     50.089,
+     14.4155
+    ]
+   ],
+   "from": 1690,
+   "to": 1715,
+   "density": 0.85,
+   "grain_m": 40,
+   "grow_from": [
+    50.08972,
+    14.41861
+   ],
+   "fade": [
+    1893,
+    1913,
+    0.15
+   ]
+  },
+  {
+   "name": "Old Town rebuilt after 1689 (≈)",
+   "style": "stone",
+   "poly": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ],
+    [
+     50.0928,
+     14.42
+    ],
+    [
+     50.0915,
+     14.415
+    ],
+    [
+     50.089,
+     14.414
+    ],
+    [
+     50.0864,
+     14.4138
+    ],
+    [
+     50.084,
+     14.414
+    ]
+   ],
+   "from": 1690,
+   "to": 1750,
+   "density": 0.78,
+   "grain_m": 52,
+   "grow_from": [
+    50.0875,
+    14.42056
+   ],
+   "holes": [
+    [
+     [
+      50.0875,
+      14.42154
+     ],
+     [
+      50.08779,
+      14.42135
+     ],
+     [
+      50.08797,
+      14.42086
+     ],
+     [
+      50.08797,
+      14.42026
+     ],
+     [
+      50.08779,
+      14.41977
+     ],
+     [
+      50.0875,
+      14.41958
+     ],
+     [
+      50.08721,
+      14.41977
+     ],
+     [
+      50.08703,
+      14.42026
+     ],
+     [
+      50.08703,
+      14.42086
+     ],
+     [
+      50.08721,
+      14.42135
+     ]
+    ],
+    [
+     [
+      50.0912,
+      14.4155
+     ],
+     [
+      50.0915,
+      14.4185
+     ],
+     [
+      50.0905,
+      14.4212
+     ],
+     [
+      50.089,
+      14.421
+     ],
+     [
+      50.0885,
+      14.418
+     ],
+     [
+      50.089,
+      14.4155
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Josefov rebuilt (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     50.0912,
+     14.4155
+    ],
+    [
+     50.0915,
+     14.4185
+    ],
+    [
+     50.0905,
+     14.4212
+    ],
+    [
+     50.089,
+     14.421
+    ],
+    [
+     50.0885,
+     14.418
+    ],
+    [
+     50.089,
+     14.4155
+    ]
+   ],
+   "from": 1897,
+   "to": 1915,
+   "density": 0.7,
+   "grain_m": 55,
+   "grow_from": [
+    50.08972,
+    14.41861
+   ]
+  },
+  {
+   "name": "New Town 19th century (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ],
+    [
+     50.093,
+     14.4392
+    ],
+    [
+     50.09,
+     14.4385
+    ],
+    [
+     50.087,
+     14.4365
+    ],
+    [
+     50.0835,
+     14.4345
+    ],
+    [
+     50.079,
+     14.4335
+    ],
+    [
+     50.0745,
+     14.432
+    ],
+    [
+     50.0705,
+     14.43
+    ],
+    [
+     50.0675,
+     14.4265
+    ],
+    [
+     50.066,
+     14.42
+    ],
+    [
+     50.07,
+     14.416
+    ],
+    [
+     50.076,
+     14.4135
+    ],
+    [
+     50.08,
+     14.4135
+    ]
+   ],
+   "from": 1830,
+   "to": 1890,
+   "density": 0.7,
+   "grain_m": 60,
+   "grow_from": [
+    50.081,
+    14.43
+   ],
+   "holes": [
+    [
+     [
+      50.0837,
+      14.42379
+     ],
+     [
+      50.0798,
+      14.43029
+     ],
+     [
+      50.0794,
+      14.42971
+     ],
+     [
+      50.0833,
+      14.42321
+     ]
+    ],
+    [
+     [
+      50.0771,
+      14.42084
+     ],
+     [
+      50.0737,
+      14.42004
+     ],
+     [
+      50.0739,
+      14.41796
+     ],
+     [
+      50.0773,
+      14.41876
+     ]
+    ],
+    [
+     [
+      50.0875,
+      14.42154
+     ],
+     [
+      50.08779,
+      14.42135
+     ],
+     [
+      50.08797,
+      14.42086
+     ],
+     [
+      50.08797,
+      14.42026
+     ],
+     [
+      50.08779,
+      14.41977
+     ],
+     [
+      50.0875,
+      14.41958
+     ],
+     [
+      50.08721,
+      14.41977
+     ],
+     [
+      50.08703,
+      14.42026
+     ],
+     [
+      50.08703,
+      14.42086
+     ],
+     [
+      50.08721,
+      14.42135
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Karlín (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     50.0935,
+     14.44
+    ],
+    [
+     50.095,
+     14.466
+    ],
+    [
+     50.0905,
+     14.466
+    ],
+    [
+     50.0895,
+     14.44
+    ]
+   ],
+   "from": 1817,
+   "to": 1870,
+   "density": 0.65,
+   "grain_m": 70,
+   "grow_from": [
+    50.092,
+    14.442
+   ],
+   "grid_deg": 0
+  },
+  {
+   "name": "Smíchov (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     50.08,
+     14.405
+    ],
+    [
+     50.079,
+     14.398
+    ],
+    [
+     50.07,
+     14.398
+    ],
+    [
+     50.062,
+     14.402
+    ],
+    [
+     50.061,
+     14.411
+    ],
+    [
+     50.07,
+     14.411
+    ],
+    [
+     50.078,
+     14.4075
+    ]
+   ],
+   "from": 1830,
+   "to": 1905,
+   "density": 0.6,
+   "grain_m": 75,
+   "grow_from": [
+    50.076,
+    14.405
+   ]
+  },
+  {
+   "name": "Vinohrady (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     50.0835,
+     14.435
+    ],
+    [
+     50.0815,
+     14.465
+    ],
+    [
+     50.07,
+     14.465
+    ],
+    [
+     50.067,
+     14.433
+    ],
+    [
+     50.0745,
+     14.4325
+    ]
+   ],
+   "from": 1867,
+   "to": 1910,
+   "density": 0.7,
+   "grain_m": 70,
+   "grow_from": [
+    50.077,
+    14.438
+   ],
+   "grid_deg": 0
+  },
+  {
+   "name": "Žižkov (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     50.0895,
+     14.44
+    ],
+    [
+     50.088,
+     14.485
+    ],
+    [
+     50.082,
+     14.485
+    ],
+    [
+     50.0815,
+     14.436
+    ]
+   ],
+   "from": 1875,
+   "to": 1905,
+   "density": 0.7,
+   "grain_m": 70,
+   "grow_from": [
+    50.086,
+    14.442
+   ],
+   "holes": [
+    [
+     [
+      50.0888,
+      14.4605
+     ],
+     [
+      50.08948,
+      14.45928
+     ],
+     [
+      50.08997,
+      14.45595
+     ],
+     [
+      50.09016,
+      14.4514
+     ],
+     [
+      50.08997,
+      14.44685
+     ],
+     [
+      50.08948,
+      14.44352
+     ],
+     [
+      50.0888,
+      14.4423
+     ],
+     [
+      50.08812,
+      14.44352
+     ],
+     [
+      50.08763,
+      14.44685
+     ],
+     [
+      50.08744,
+      14.4514
+     ],
+     [
+      50.08763,
+      14.45595
+     ],
+     [
+      50.08812,
+      14.45928
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Holešovice-Bubny (≈)",
+   "style": "industrial",
+   "poly": [
+    [
+     50.096,
+     14.415
+    ],
+    [
+     50.108,
+     14.42
+    ],
+    [
+     50.109,
+     14.455
+    ],
+    [
+     50.1,
+     14.46
+    ],
+    [
+     50.0955,
+     14.44
+    ]
+   ],
+   "from": 1880,
+   "to": 1920,
+   "density": 0.55,
+   "grain_m": 85,
+   "grow_from": [
+    50.099,
+    14.43
+   ],
+   "holes": [
+    [
+     [
+      50.096,
+      14.412
+     ],
+     [
+      50.0985,
+      14.416
+     ],
+     [
+      50.0975,
+      14.43
+     ],
+     [
+      50.095,
+      14.429
+     ],
+     [
+      50.0945,
+      14.415
+     ]
+    ],
+    [
+     [
+      50.104,
+      14.405
+     ],
+     [
+      50.108,
+      14.41
+     ],
+     [
+      50.107,
+      14.43
+     ],
+     [
+      50.1035,
+      14.428
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Libeň (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     50.106,
+     14.4932
+    ],
+    [
+     50.10914,
+     14.4914
+    ],
+    [
+     50.11166,
+     14.48635
+    ],
+    [
+     50.11305,
+     14.47905
+    ],
+    [
+     50.11305,
+     14.47095
+    ],
+    [
+     50.11166,
+     14.46365
+    ],
+    [
+     50.10914,
+     14.4586
+    ],
+    [
+     50.106,
+     14.4568
+    ],
+    [
+     50.10286,
+     14.4586
+    ],
+    [
+     50.10034,
+     14.46365
+    ],
+    [
+     50.09895,
+     14.47095
+    ],
+    [
+     50.09895,
+     14.47905
+    ],
+    [
+     50.10034,
+     14.48635
+    ],
+    [
+     50.10286,
+     14.4914
+    ]
+   ],
+   "from": 1890,
+   "to": 1925,
+   "density": 0.5,
+   "grain_m": 100,
+   "grow_from": [
+    50.106,
+    14.475
+   ]
+  },
+  {
+   "name": "Nusle and Vršovice (≈)",
+   "style": "victorian",
+   "poly": [
+    [
+     50.067,
+     14.425
+    ],
+    [
+     50.069,
+     14.47
+    ],
+    [
+     50.056,
+     14.47
+    ],
+    [
+     50.056,
+     14.425
+    ]
+   ],
+   "from": 1890,
+   "to": 1925,
+   "density": 0.6,
+   "grain_m": 85,
+   "grow_from": [
+    50.065,
+    14.435
+   ]
+  },
+  {
+   "name": "Dejvice and Bubeneč (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     50.094,
+     14.375
+    ],
+    [
+     50.11,
+     14.375
+    ],
+    [
+     50.113,
+     14.41
+    ],
+    [
+     50.099,
+     14.413
+    ],
+    [
+     50.0935,
+     14.405
+    ]
+   ],
+   "from": 1900,
+   "to": 1935,
+   "density": 0.6,
+   "grain_m": 90,
+   "grow_from": [
+    50.099,
+    14.4
+   ],
+   "holes": [
+    [
+     [
+      50.104,
+      14.405
+     ],
+     [
+      50.108,
+      14.41
+     ],
+     [
+      50.107,
+      14.43
+     ],
+     [
+      50.1035,
+      14.428
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Břevnov and Střešovice (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     50.088,
+     14.34
+    ],
+    [
+     50.0935,
+     14.38
+    ],
+    [
+     50.088,
+     14.388
+    ],
+    [
+     50.08,
+     14.387
+    ],
+    [
+     50.079,
+     14.345
+    ]
+   ],
+   "from": 1900,
+   "to": 1935,
+   "density": 0.5,
+   "grain_m": 100,
+   "grow_from": [
+    50.085,
+    14.38
+   ]
+  },
+  {
+   "name": "Greater Prague (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     50.135,
+     14.33
+    ],
+    [
+     50.14,
+     14.45
+    ],
+    [
+     50.13,
+     14.53
+    ],
+    [
+     50.09,
+     14.56
+    ],
+    [
+     50.035,
+     14.53
+    ],
+    [
+     50.015,
+     14.45
+    ],
+    [
+     50.02,
+     14.35
+    ],
+    [
+     50.06,
+     14.3
+    ],
+    [
+     50.1,
+     14.3
+    ]
+   ],
+   "from": 1922,
+   "to": 1950,
+   "density": 0.5,
+   "grain_m": 110,
+   "grow_from": [
+    50.08,
+    14.43
+   ],
+   "holes": [
+    [
+     [
+      50.0816,
+      14.4142
+     ],
+     [
+      50.082,
+      14.417
+     ],
+     [
+      50.0826,
+      14.42
+     ],
+     [
+      50.0836,
+      14.4228
+     ],
+     [
+      50.0852,
+      14.425
+     ],
+     [
+      50.0866,
+      14.427
+     ],
+     [
+      50.0872,
+      14.4278
+     ],
+     [
+      50.0893,
+      14.4281
+     ],
+     [
+      50.0915,
+      14.4283
+     ],
+     [
+      50.093,
+      14.4278
+     ],
+     [
+      50.0928,
+      14.42
+     ],
+     [
+      50.0915,
+      14.415
+     ],
+     [
+      50.089,
+      14.414
+     ],
+     [
+      50.0864,
+      14.4138
+     ],
+     [
+      50.084,
+      14.414
+     ]
+    ],
+    [
+     [
+      50.092,
+      14.41
+     ],
+     [
+      50.0912,
+      14.406
+     ],
+     [
+      50.0898,
+      14.404
+     ],
+     [
+      50.088,
+      14.401
+     ],
+     [
+      50.086,
+      14.4
+     ],
+     [
+      50.0835,
+      14.401
+     ],
+     [
+      50.0815,
+      14.403
+     ],
+     [
+      50.0803,
+      14.4055
+     ],
+     [
+      50.0815,
+      14.4075
+     ],
+     [
+      50.085,
+      14.4085
+     ],
+     [
+      50.088,
+      14.409
+     ],
+     [
+      50.0905,
+      14.41
+     ]
+    ],
+    [
+     [
+      50.0905,
+      14.397
+     ],
+     [
+      50.0912,
+      14.39
+     ],
+     [
+      50.088,
+      14.388
+     ],
+     [
+      50.0868,
+      14.3905
+     ],
+     [
+      50.0878,
+      14.3965
+     ]
+    ],
+    [
+     [
+      50.0935,
+      14.44
+     ],
+     [
+      50.095,
+      14.466
+     ],
+     [
+      50.0905,
+      14.466
+     ],
+     [
+      50.0895,
+      14.44
+     ]
+    ],
+    [
+     [
+      50.08,
+      14.405
+     ],
+     [
+      50.079,
+      14.398
+     ],
+     [
+      50.07,
+      14.398
+     ],
+     [
+      50.062,
+      14.402
+     ],
+     [
+      50.061,
+      14.411
+     ],
+     [
+      50.07,
+      14.411
+     ],
+     [
+      50.078,
+      14.4075
+     ]
+    ],
+    [
+     [
+      50.0835,
+      14.435
+     ],
+     [
+      50.0815,
+      14.465
+     ],
+     [
+      50.07,
+      14.465
+     ],
+     [
+      50.067,
+      14.433
+     ],
+     [
+      50.0745,
+      14.4325
+     ]
+    ],
+    [
+     [
+      50.0895,
+      14.44
+     ],
+     [
+      50.088,
+      14.485
+     ],
+     [
+      50.082,
+      14.485
+     ],
+     [
+      50.0815,
+      14.436
+     ]
+    ],
+    [
+     [
+      50.096,
+      14.415
+     ],
+     [
+      50.108,
+      14.42
+     ],
+     [
+      50.109,
+      14.455
+     ],
+     [
+      50.1,
+      14.46
+     ],
+     [
+      50.0955,
+      14.44
+     ]
+    ],
+    [
+     [
+      50.067,
+      14.425
+     ],
+     [
+      50.069,
+      14.47
+     ],
+     [
+      50.056,
+      14.47
+     ],
+     [
+      50.056,
+      14.425
+     ]
+    ],
+    [
+     [
+      50.094,
+      14.375
+     ],
+     [
+      50.11,
+      14.375
+     ],
+     [
+      50.113,
+      14.41
+     ],
+     [
+      50.099,
+      14.413
+     ],
+     [
+      50.0935,
+      14.405
+     ]
+    ],
+    [
+     [
+      50.088,
+      14.34
+     ],
+     [
+      50.0935,
+      14.38
+     ],
+     [
+      50.088,
+      14.388
+     ],
+     [
+      50.08,
+      14.387
+     ],
+     [
+      50.079,
+      14.345
+     ]
+    ],
+    [
+     [
+      50.088,
+      14.387
+     ],
+     [
+      50.087,
+      14.399
+     ],
+     [
+      50.083,
+      14.402
+     ],
+     [
+      50.08,
+      14.401
+     ],
+     [
+      50.079,
+      14.396
+     ],
+     [
+      50.082,
+      14.39
+     ]
+    ],
+    [
+     [
+      50.096,
+      14.412
+     ],
+     [
+      50.0985,
+      14.416
+     ],
+     [
+      50.0975,
+      14.43
+     ],
+     [
+      50.095,
+      14.429
+     ],
+     [
+      50.0945,
+      14.415
+     ]
+    ],
+    [
+     [
+      50.104,
+      14.405
+     ],
+     [
+      50.108,
+      14.41
+     ],
+     [
+      50.107,
+      14.43
+     ],
+     [
+      50.1035,
+      14.428
+     ]
+    ],
+    [
+     [
+      50.0888,
+      14.4605
+     ],
+     [
+      50.08948,
+      14.45928
+     ],
+     [
+      50.08997,
+      14.45595
+     ],
+     [
+      50.09016,
+      14.4514
+     ],
+     [
+      50.08997,
+      14.44685
+     ],
+     [
+      50.08948,
+      14.44352
+     ],
+     [
+      50.0888,
+      14.4423
+     ],
+     [
+      50.08812,
+      14.44352
+     ],
+     [
+      50.08763,
+      14.44685
+     ],
+     [
+      50.08744,
+      14.4514
+     ],
+     [
+      50.08763,
+      14.45595
+     ],
+     [
+      50.08812,
+      14.45928
+     ]
+    ],
+    [
+     [
+      50.088,
+      14.3618
+     ],
+     [
+      50.08973,
+      14.36105
+     ],
+     [
+      50.0912,
+      14.35893
+     ],
+     [
+      50.09218,
+      14.35575
+     ],
+     [
+      50.09252,
+      14.352
+     ],
+     [
+      50.09218,
+      14.34825
+     ],
+     [
+      50.0912,
+      14.34507
+     ],
+     [
+      50.08973,
+      14.34295
+     ],
+     [
+      50.088,
+      14.3422
+     ],
+     [
+      50.08627,
+      14.34295
+     ],
+     [
+      50.0848,
+      14.34507
+     ],
+     [
+      50.08382,
+      14.34825
+     ],
+     [
+      50.08348,
+      14.352
+     ],
+     [
+      50.08382,
+      14.35575
+     ],
+     [
+      50.0848,
+      14.35893
+     ],
+     [
+      50.08627,
+      14.36105
+     ]
+    ],
+    [
+     [
+      50.051,
+      14.4488
+     ],
+     [
+      50.05273,
+      14.44805
+     ],
+     [
+      50.0542,
+      14.44593
+     ],
+     [
+      50.05518,
+      14.44275
+     ],
+     [
+      50.05552,
+      14.439
+     ],
+     [
+      50.05518,
+      14.43525
+     ],
+     [
+      50.0542,
+      14.43207
+     ],
+     [
+      50.05273,
+      14.42995
+     ],
+     [
+      50.051,
+      14.4292
+     ],
+     [
+      50.04927,
+      14.42995
+     ],
+     [
+      50.0478,
+      14.43207
+     ],
+     [
+      50.04682,
+      14.43525
+     ],
+     [
+      50.04648,
+      14.439
+     ],
+     [
+      50.04682,
+      14.44275
+     ],
+     [
+      50.0478,
+      14.44593
+     ],
+     [
+      50.04927,
+      14.44805
+     ]
+    ]
+   ]
+  },
+  {
+   "name": "Petřiny estate (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     50.088,
+     14.3618
+    ],
+    [
+     50.08973,
+     14.36105
+    ],
+    [
+     50.0912,
+     14.35893
+    ],
+    [
+     50.09218,
+     14.35575
+    ],
+    [
+     50.09252,
+     14.352
+    ],
+    [
+     50.09218,
+     14.34825
+    ],
+    [
+     50.0912,
+     14.34507
+    ],
+    [
+     50.08973,
+     14.34295
+    ],
+    [
+     50.088,
+     14.3422
+    ],
+    [
+     50.08627,
+     14.34295
+    ],
+    [
+     50.0848,
+     14.34507
+    ],
+    [
+     50.08382,
+     14.34825
+    ],
+    [
+     50.08348,
+     14.352
+    ],
+    [
+     50.08382,
+     14.35575
+    ],
+    [
+     50.0848,
+     14.35893
+    ],
+    [
+     50.08627,
+     14.36105
+    ]
+   ],
+   "from": 1959,
+   "to": 1965,
+   "density": 0.5,
+   "grain_m": 110,
+   "grow_from": [
+    50.088,
+    14.352
+   ]
+  },
+  {
+   "name": "Pankrác estate (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     50.051,
+     14.4488
+    ],
+    [
+     50.05273,
+     14.44805
+    ],
+    [
+     50.0542,
+     14.44593
+    ],
+    [
+     50.05518,
+     14.44275
+    ],
+    [
+     50.05552,
+     14.439
+    ],
+    [
+     50.05518,
+     14.43525
+    ],
+    [
+     50.0542,
+     14.43207
+    ],
+    [
+     50.05273,
+     14.42995
+    ],
+    [
+     50.051,
+     14.4292
+    ],
+    [
+     50.04927,
+     14.42995
+    ],
+    [
+     50.0478,
+     14.43207
+    ],
+    [
+     50.04682,
+     14.43525
+    ],
+    [
+     50.04648,
+     14.439
+    ],
+    [
+     50.04682,
+     14.44275
+    ],
+    [
+     50.0478,
+     14.44593
+    ],
+    [
+     50.04927,
+     14.44805
+    ]
+   ],
+   "from": 1962,
+   "to": 1967,
+   "density": 0.5,
+   "grain_m": 110,
+   "grow_from": [
+    50.051,
+    14.439
+   ]
+  },
+  {
+   "name": "Severní Město (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     50.127,
+     14.5024
+    ],
+    [
+     50.13046,
+     14.50069
+    ],
+    [
+     50.13339,
+     14.49584
+    ],
+    [
+     50.13536,
+     14.48857
+    ],
+    [
+     50.13604,
+     14.48
+    ],
+    [
+     50.13536,
+     14.47143
+    ],
+    [
+     50.13339,
+     14.46416
+    ],
+    [
+     50.13046,
+     14.45931
+    ],
+    [
+     50.127,
+     14.4576
+    ],
+    [
+     50.12354,
+     14.45931
+    ],
+    [
+     50.12061,
+     14.46416
+    ],
+    [
+     50.11864,
+     14.47143
+    ],
+    [
+     50.11796,
+     14.48
+    ],
+    [
+     50.11864,
+     14.48857
+    ],
+    [
+     50.12061,
+     14.49584
+    ],
+    [
+     50.12354,
+     14.50069
+    ]
+   ],
+   "from": 1968,
+   "to": 1985,
+   "density": 0.45,
+   "grain_m": 130,
+   "grow_from": [
+    50.127,
+    14.48
+   ]
+  },
+  {
+   "name": "Jižní Město (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     50.03557,
+     14.53368
+    ],
+    [
+     50.03905,
+     14.52968
+    ],
+    [
+     50.04115,
+     14.52268
+    ],
+    [
+     50.04155,
+     14.51375
+    ],
+    [
+     50.0402,
+     14.50425
+    ],
+    [
+     50.03729,
+     14.49563
+    ],
+    [
+     50.03327,
+     14.48919
+    ],
+    [
+     50.02876,
+     14.48593
+    ],
+    [
+     50.02443,
+     14.48632
+    ],
+    [
+     50.02095,
+     14.49032
+    ],
+    [
+     50.01885,
+     14.49732
+    ],
+    [
+     50.01845,
+     14.50625
+    ],
+    [
+     50.0198,
+     14.51575
+    ],
+    [
+     50.02271,
+     14.52437
+    ],
+    [
+     50.02673,
+     14.53081
+    ],
+    [
+     50.03124,
+     14.53407
+    ]
+   ],
+   "from": 1971,
+   "to": 1990,
+   "density": 0.5,
+   "grain_m": 130,
+   "grow_from": [
+    50.03,
+    14.51
+   ]
+  },
+  {
+   "name": "Jihozápadní Město (≈)",
+   "style": "modern",
+   "poly": [
+    [
+     50.047,
+     14.351
+    ],
+    [
+     50.05011,
+     14.3494
+    ],
+    [
+     50.05276,
+     14.34485
+    ],
+    [
+     50.05452,
+     14.33804
+    ],
+    [
+     50.05514,
+     14.33
+    ],
+    [
+     50.05452,
+     14.32196
+    ],
+    [
+     50.05276,
+     14.31515
+    ],
+    [
+     50.05011,
+     14.3106
+    ],
+    [
+     50.047,
+     14.309
+    ],
+    [
+     50.04389,
+     14.3106
+    ],
+    [
+     50.04124,
+     14.31515
+    ],
+    [
+     50.03948,
+     14.32196
+    ],
+    [
+     50.03886,
+     14.33
+    ],
+    [
+     50.03948,
+     14.33804
+    ],
+    [
+     50.04124,
+     14.34485
+    ],
+    [
+     50.04389,
+     14.3494
+    ]
+   ],
+   "from": 1978,
+   "to": 1995,
+   "density": 0.45,
+   "grain_m": 130,
+   "grow_from": [
+    50.047,
+    14.33
+   ]
+  },
+  {
+   "name": "Outer suburbs (≈)",
+   "style": "suburb",
+   "poly": [
+    [
+     50.17,
+     14.26
+    ],
+    [
+     50.175,
+     14.5
+    ],
+    [
+     50.15,
+     14.65
+    ],
+    [
+     50.08,
+     14.67
+    ],
+    [
+     49.98,
+     14.62
+    ],
+    [
+     49.95,
+     14.45
+    ],
+    [
+     49.98,
+     14.3
+    ],
+    [
+     50.04,
+     14.24
+    ],
+    [
+     50.11,
+     14.23
+    ]
+   ],
+   "from": 1955,
+   "to": 2024,
+   "density": 0.35,
+   "grain_m": 170,
+   "grow_from": [
+    50.08,
+    14.43
+   ],
+   "holes": [
+    [
+     [
+      50.135,
+      14.33
+     ],
+     [
+      50.14,
+      14.45
+     ],
+     [
+      50.13,
+      14.53
+     ],
+     [
+      50.09,
+      14.56
+     ],
+     [
+      50.035,
+      14.53
+     ],
+     [
+      50.015,
+      14.45
+     ],
+     [
+      50.02,
+      14.35
+     ],
+     [
+      50.06,
+      14.3
+     ],
+     [
+      50.1,
+      14.3
+     ]
+    ],
+    [
+     [
+      50.127,
+      14.5024
+     ],
+     [
+      50.13046,
+      14.50069
+     ],
+     [
+      50.13339,
+      14.49584
+     ],
+     [
+      50.13536,
+      14.48857
+     ],
+     [
+      50.13604,
+      14.48
+     ],
+     [
+      50.13536,
+      14.47143
+     ],
+     [
+      50.13339,
+      14.46416
+     ],
+     [
+      50.13046,
+      14.45931
+     ],
+     [
+      50.127,
+      14.4576
+     ],
+     [
+      50.12354,
+      14.45931
+     ],
+     [
+      50.12061,
+      14.46416
+     ],
+     [
+      50.11864,
+      14.47143
+     ],
+     [
+      50.11796,
+      14.48
+     ],
+     [
+      50.11864,
+      14.48857
+     ],
+     [
+      50.12061,
+      14.49584
+     ],
+     [
+      50.12354,
+      14.50069
+     ]
+    ],
+    [
+     [
+      50.03557,
+      14.53368
+     ],
+     [
+      50.03905,
+      14.52968
+     ],
+     [
+      50.04115,
+      14.52268
+     ],
+     [
+      50.04155,
+      14.51375
+     ],
+     [
+      50.0402,
+      14.50425
+     ],
+     [
+      50.03729,
+      14.49563
+     ],
+     [
+      50.03327,
+      14.48919
+     ],
+     [
+      50.02876,
+      14.48593
+     ],
+     [
+      50.02443,
+      14.48632
+     ],
+     [
+      50.02095,
+      14.49032
+     ],
+     [
+      50.01885,
+      14.49732
+     ],
+     [
+      50.01845,
+      14.50625
+     ],
+     [
+      50.0198,
+      14.51575
+     ],
+     [
+      50.02271,
+      14.52437
+     ],
+     [
+      50.02673,
+      14.53081
+     ],
+     [
+      50.03124,
+      14.53407
+     ]
+    ],
+    [
+     [
+      50.047,
+      14.351
+     ],
+     [
+      50.05011,
+      14.3494
+     ],
+     [
+      50.05276,
+      14.34485
+     ],
+     [
+      50.05452,
+      14.33804
+     ],
+     [
+      50.05514,
+      14.33
+     ],
+     [
+      50.05452,
+      14.32196
+     ],
+     [
+      50.05276,
+      14.31515
+     ],
+     [
+      50.05011,
+      14.3106
+     ],
+     [
+      50.047,
+      14.309
+     ],
+     [
+      50.04389,
+      14.3106
+     ],
+     [
+      50.04124,
+      14.31515
+     ],
+     [
+      50.03948,
+      14.32196
+     ],
+     [
+      50.03886,
+      14.33
+     ],
+     [
+      50.03948,
+      14.33804
+     ],
+     [
+      50.04124,
+      14.34485
+     ],
+     [
+      50.04389,
+      14.3494
+     ]
+    ]
+   ]
+  }
+ ],
+ "walls": [
+  {
+   "name": "Castle rampart (≈)",
+   "path": [
+    [
+     50.0905,
+     14.4042
+    ],
+    [
+     50.09079,
+     14.40378
+    ],
+    [
+     50.09103,
+     14.40262
+    ],
+    [
+     50.09116,
+     14.40093
+    ],
+    [
+     50.09116,
+     14.39907
+    ],
+    [
+     50.09103,
+     14.39738
+    ],
+    [
+     50.09079,
+     14.39622
+    ],
+    [
+     50.0905,
+     14.3958
+    ],
+    [
+     50.09021,
+     14.39622
+    ],
+    [
+     50.08997,
+     14.39738
+    ],
+    [
+     50.08984,
+     14.39907
+    ],
+    [
+     50.08984,
+     14.40093
+    ],
+    [
+     50.08997,
+     14.40262
+    ],
+    [
+     50.09021,
+     14.40378
+    ],
+    [
+     50.0905,
+     14.4042
+    ]
+   ],
+   "built": 880,
+   "height": "mid",
+   "towers_m": 70
+  },
+  {
+   "name": "Old Town wall and moat (≈)",
+   "path": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ]
+   ],
+   "built": 1232,
+   "height": "mid",
+   "towers_m": 70,
+   "removed": 1784,
+   "moat": true
+  },
+  {
+   "name": "Lesser Town wall (≈)",
+   "path": [
+    [
+     50.092,
+     14.41
+    ],
+    [
+     50.0912,
+     14.406
+    ],
+    [
+     50.0898,
+     14.404
+    ],
+    [
+     50.088,
+     14.401
+    ],
+    [
+     50.086,
+     14.4
+    ],
+    [
+     50.0835,
+     14.401
+    ],
+    [
+     50.0815,
+     14.403
+    ],
+    [
+     50.0803,
+     14.4055
+    ]
+   ],
+   "built": 1257,
+   "height": "mid",
+   "towers_m": 70,
+   "removed": 1874.6
+  },
+  {
+   "name": "New Town wall (≈)",
+   "path": [
+    [
+     50.066,
+     14.42
+    ],
+    [
+     50.0675,
+     14.4265
+    ],
+    [
+     50.0705,
+     14.43
+    ],
+    [
+     50.0745,
+     14.432
+    ],
+    [
+     50.079,
+     14.4335
+    ],
+    [
+     50.0835,
+     14.4345
+    ],
+    [
+     50.087,
+     14.4365
+    ],
+    [
+     50.09,
+     14.4385
+    ],
+    [
+     50.093,
+     14.4392
+    ]
+   ],
+   "built": 1348.3,
+   "height": "high",
+   "towers_m": 110,
+   "removed": 1874.6
+  },
+  {
+   "name": "Hunger Wall (≈)",
+   "path": [
+    [
+     50.0862,
+     14.3895
+    ],
+    [
+     50.085,
+     14.392
+    ],
+    [
+     50.0838,
+     14.3948
+    ],
+    [
+     50.0825,
+     14.3975
+    ],
+    [
+     50.0813,
+     14.4005
+    ],
+    [
+     50.0805,
+     14.4035
+    ],
+    [
+     50.08,
+     14.4058
+    ]
+   ],
+   "built": 1360,
+   "height": "low",
+   "towers_m": 120
+  },
+  {
+   "name": "Hradčany wall (≈)",
+   "path": [
+    [
+     50.0905,
+     14.397
+    ],
+    [
+     50.0912,
+     14.39
+    ],
+    [
+     50.088,
+     14.388
+    ],
+    [
+     50.0862,
+     14.3895
+    ]
+   ],
+   "built": 1360,
+   "height": "mid",
+   "towers_m": 90,
+   "removed": 1874.6
+  },
+  {
+   "name": "Vyšehrad Baroque ramparts (≈)",
+   "path": [
+    [
+     50.06315,
+     14.42378
+    ],
+    [
+     50.06406,
+     14.42381
+    ],
+    [
+     50.065,
+     14.42297
+    ],
+    [
+     50.06577,
+     14.42143
+    ],
+    [
+     50.06622,
+     14.4195
+    ],
+    [
+     50.06627,
+     14.41756
+    ],
+    [
+     50.0659,
+     14.41599
+    ],
+    [
+     50.06519,
+     14.4151
+    ],
+    [
+     50.06428,
+     14.41507
+    ],
+    [
+     50.06334,
+     14.41591
+    ],
+    [
+     50.06257,
+     14.41745
+    ],
+    [
+     50.06212,
+     14.41938
+    ],
+    [
+     50.06207,
+     14.42132
+    ],
+    [
+     50.06244,
+     14.42289
+    ],
+    [
+     50.06315,
+     14.42378
+    ]
+   ],
+   "built": 1654,
+   "height": "high",
+   "towers_m": 0
+  }
+ ],
+ "bridges": [
+  {
+   "name": "Judith Bridge",
+   "path": [
+    [
+     50.08665,
+     14.4152
+    ],
+    [
+     50.087,
+     14.4086
+    ]
+   ],
+   "built": 1172,
+   "removed": 1342.1,
+   "style": "stone",
+   "width_m": 8
+  },
+  {
+   "name": "Charles Bridge",
+   "path": [
+    [
+     50.0862,
+     14.4153
+    ],
+    [
+     50.08655,
+     14.4085
+    ]
+   ],
+   "built": 1357.5,
+   "style": "stone",
+   "width_m": 10
+  },
+  {
+   "name": "Nusle Bridge",
+   "path": [
+    [
+     50.068,
+     14.43
+    ],
+    [
+     50.0637,
+     14.431
+    ]
+   ],
+   "built": 1973.15,
+   "style": "modern",
+   "width_m": 26
+  }
+ ],
+ "roads": [
+  {
+   "name": "Railway to Olomouc (≈)",
+   "path": [
+    [
+     50.08806,
+     14.43306
+    ],
+    [
+     50.0905,
+     14.44
+    ],
+    [
+     50.0965,
+     14.46
+    ],
+    [
+     50.103,
+     14.485
+    ],
+    [
+     50.11,
+     14.52
+    ],
+    [
+     50.115,
+     14.56
+    ]
+   ],
+   "from": 1845.6,
+   "kind": "rail",
+   "width_m": 12
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "castle",
+   "name": {
+    "en": "Prague Castle",
+    "tr": "Prag Kalesi"
+   },
+   "at": [
+    50.0905,
+    14.4
+   ],
+   "built": 880,
+   "rise_s": 5,
+   "size_m": [
+    420,
+    110,
+    18
+   ],
+   "rot_deg": 0,
+   "colors": {
+    "wall": "#d8cfbf",
+    "roof": "#8a4b37"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Rotunda of St Vitus",
+    "tr": "Aziz Vitus Rotondası"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "built": 925,
+   "removed": 1060,
+   "rise_s": 4,
+   "size_m": [
+    20,
+    20,
+    14
+   ],
+   "scale": 1.5,
+   "colors": {
+    "wall": "#e9e1d2",
+    "roof": "#6b5a4a"
+   }
+  },
+  {
+   "type": "church",
+   "name": {
+    "en": "Basilica of St Vitus",
+    "tr": "Aziz Vitus Bazilikası"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "built": 1060,
+   "removed": 1344,
+   "rise_s": 4,
+   "size_m": [
+    60,
+    22,
+    20
+   ],
+   "scale": 1.4,
+   "colors": {
+    "wall": "#e9e1d2",
+    "roof": "#6b5a4a"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St Vitus Cathedral (unfinished)",
+    "tr": "Aziz Vitus Katedrali (yarım)"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "built": 1344,
+   "removed": 1929,
+   "rise_s": 20,
+   "size_m": [
+    70,
+    40,
+    45
+   ],
+   "scale": 1.4,
+   "colors": {
+    "wall": "#b9b3a8",
+    "roof": "#4e6a63"
+   }
+  },
+  {
+   "type": "cathedral",
+   "name": {
+    "en": "St Vitus Cathedral",
+    "tr": "Aziz Vitus Katedrali"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "built": 1929,
+   "rise_s": 6,
+   "size_m": [
+    124,
+    60,
+    60
+   ],
+   "scale": 1.4,
+   "colors": {
+    "wall": "#b9b3a8",
+    "roof": "#4e6a63"
+   }
+  },
+  {
+   "type": "castle",
+   "name": {
+    "en": "Vyšehrad castle",
+    "tr": "Vyšehrad kalesi"
+   },
+   "at": [
+    50.06417,
+    14.41944
+   ],
+   "built": 950,
+   "removed": 1654,
+   "rise_s": 4,
+   "size_m": [
+    160,
+    90,
+    14
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#cfc6b4",
+    "roof": "#7c4a36"
+   }
+  },
+  {
+   "type": "fort",
+   "name": {
+    "en": "Vyšehrad fortress",
+    "tr": "Vyšehrad kalesi"
+   },
+   "at": [
+    50.06417,
+    14.41944
+   ],
+   "built": 1654,
+   "rise_s": 5,
+   "size_m": [
+    420,
+    260,
+    10
+   ],
+   "rot_deg": -20,
+   "colors": {
+    "wall": "#9a8f7c"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Old-New Synagogue",
+    "tr": "Eski-Yeni Sinagog"
+   },
+   "at": [
+    50.09,
+    14.4186
+   ],
+   "built": 1270,
+   "rise_s": 4,
+   "size_m": [
+    26,
+    16,
+    16
+   ],
+   "scale": 1.5,
+   "colors": {
+    "wall": "#d7cbb3",
+    "roof": "#6a5544"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "Old Town Hall",
+    "tr": "Eski Belediye Binası"
+   },
+   "at": [
+    50.087,
+    14.4207
+   ],
+   "built": 1338.5,
+   "rise_s": 5,
+   "size_m": [
+    30,
+    16,
+    60
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#d9d0bf",
+    "roof": "#4f4a46"
+   }
+  },
+  {
+   "type": "clocktower",
+   "name": {
+    "en": "New Town Hall",
+    "tr": "Yeni Belediye Binası"
+   },
+   "at": [
+    50.0773,
+    14.4197
+   ],
+   "built": 1377,
+   "rise_s": 5,
+   "size_m": [
+    50,
+    18,
+    40
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#ddd5c4",
+    "roof": "#4f4a46"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Powder Tower",
+    "tr": "Barut Kulesi"
+   },
+   "at": [
+    50.0872,
+    14.4278
+   ],
+   "built": 1475,
+   "rise_s": 6,
+   "size_m": [
+    14,
+    14,
+    65
+   ],
+   "scale": 1.3,
+   "colors": {
+    "wall": "#6d6559",
+    "roof": "#3f3d3a"
+   }
+  },
+  {
+   "type": "station",
+   "name": {
+    "en": "Prague station",
+    "tr": "Prag istasyonu"
+   },
+   "at": [
+    50.08806,
+    14.43306
+   ],
+   "built": 1845.6,
+   "rise_s": 5,
+   "size_m": [
+    150,
+    40,
+    15
+   ],
+   "rot_deg": 80,
+   "colors": {
+    "wall": "#e2d6be",
+    "roof": "#7d5a44"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "National Theatre",
+    "tr": "Ulusal Tiyatro"
+   },
+   "at": [
+    50.08111,
+    14.41361
+   ],
+   "built": 1881.44,
+   "removed": 1881.62,
+   "rise_s": 3,
+   "size_m": [
+    90,
+    60,
+    30
+   ],
+   "colors": {
+    "wall": "#e6dcc6",
+    "roof": "#3a5d58"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "National Theatre (rebuilt)",
+    "tr": "Ulusal Tiyatro (yeniden)"
+   },
+   "at": [
+    50.08111,
+    14.41361
+   ],
+   "built": 1883.88,
+   "rise_s": 3,
+   "size_m": [
+    90,
+    60,
+    30
+   ],
+   "colors": {
+    "wall": "#e6dcc6",
+    "roof": "#3a5d58"
+   }
+  },
+  {
+   "type": "palace",
+   "name": {
+    "en": "National Museum",
+    "tr": "Ulusal Müze"
+   },
+   "at": [
+    50.078831,
+    14.430797
+   ],
+   "built": 1891,
+   "rise_s": 5,
+   "size_m": [
+    104,
+    70,
+    36
+   ],
+   "rot_deg": 35,
+   "colors": {
+    "wall": "#d9cdb3",
+    "roof": "#3a5d58"
+   }
+  },
+  {
+   "type": "tower",
+   "name": {
+    "en": "Petřín Lookout Tower",
+    "tr": "Petřín Seyir Kulesi"
+   },
+   "at": [
+    50.08354,
+    14.39505
+   ],
+   "built": 1891.3,
+   "rise_s": 5,
+   "size_m": [
+    12,
+    12,
+    63.5
+   ],
+   "scale": 1.6,
+   "colors": {
+    "wall": "#5b4a42"
+   }
+  },
+  {
+   "type": "spire_tower",
+   "name": {
+    "en": "Žižkov Television Tower",
+    "tr": "Žižkov Televizyon Kulesi"
+   },
+   "at": [
+    50.08083,
+    14.45139
+   ],
+   "built": 1992,
+   "rise_s": 8,
+   "size_m": [
+    24,
+    24,
+    216
+   ],
+   "scale": 1.2,
+   "colors": {
+    "wall": "#c9ccd0"
+   }
+  },
+  {
+   "type": "box",
+   "name": {
+    "en": "Dancing House",
+    "tr": "Dans Eden Ev"
+   },
+   "at": [
+    50.07556,
+    14.41417
+   ],
+   "built": 1996,
+   "rise_s": 5,
+   "size_m": [
+    30,
+    24,
+    26
+   ],
+   "scale": 1.4,
+   "colors": {
+    "wall": "#d9dcdf",
+    "roof": "#9aa3aa"
+   }
+  }
+ ],
+ "fires": [
+  {
+   "year": 1541.5,
+   "poly": [
+    [
+     50.092,
+     14.41
+    ],
+    [
+     50.0912,
+     14.406
+    ],
+    [
+     50.0898,
+     14.404
+    ],
+    [
+     50.088,
+     14.401
+    ],
+    [
+     50.086,
+     14.4
+    ],
+    [
+     50.0835,
+     14.401
+    ],
+    [
+     50.0815,
+     14.403
+    ],
+    [
+     50.0803,
+     14.4055
+    ],
+    [
+     50.0905,
+     14.3975
+    ],
+    [
+     50.0912,
+     14.403
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 7
+  },
+  {
+   "year": 1689.5,
+   "poly": [
+    [
+     50.0816,
+     14.4142
+    ],
+    [
+     50.082,
+     14.417
+    ],
+    [
+     50.0826,
+     14.42
+    ],
+    [
+     50.0836,
+     14.4228
+    ],
+    [
+     50.0852,
+     14.425
+    ],
+    [
+     50.0866,
+     14.427
+    ],
+    [
+     50.0872,
+     14.4278
+    ],
+    [
+     50.0893,
+     14.4281
+    ],
+    [
+     50.0915,
+     14.4283
+    ],
+    [
+     50.093,
+     14.4278
+    ],
+    [
+     50.0928,
+     14.42
+    ],
+    [
+     50.0915,
+     14.415
+    ],
+    [
+     50.089,
+     14.414
+    ],
+    [
+     50.0864,
+     14.4138
+    ],
+    [
+     50.084,
+     14.414
+    ]
+   ],
+   "duration_s": 6,
+   "plumes": 7
+  },
+  {
+   "year": 1881.6,
+   "poly": [
+    [
+     50.08111,
+     14.41445
+    ],
+    [
+     50.0814,
+     14.4142
+    ],
+    [
+     50.08152,
+     14.41361
+    ],
+    [
+     50.0814,
+     14.41302
+    ],
+    [
+     50.08111,
+     14.41277
+    ],
+    [
+     50.08082,
+     14.41302
+    ],
+    [
+     50.0807,
+     14.41361
+    ],
+    [
+     50.08082,
+     14.4142
+    ]
+   ],
+   "duration_s": 3,
+   "plumes": 2
+  },
+  {
+   "year": 1945.12,
+   "poly": [
+    [
+     50.07556,
+     14.4148
+    ],
+    [
+     50.07578,
+     14.41462
+    ],
+    [
+     50.07588,
+     14.41417
+    ],
+    [
+     50.07578,
+     14.41372
+    ],
+    [
+     50.07556,
+     14.41354
+    ],
+    [
+     50.07534,
+     14.41372
+    ],
+    [
+     50.07524,
+     14.41417
+    ],
+    [
+     50.07534,
+     14.41462
+    ]
+   ],
+   "duration_s": 3,
+   "plumes": 2
+  }
+ ],
+ "smoke": [
+  {
+   "at": [
+    50.0888,
+    14.4514
+   ],
+   "from": 1420.3,
+   "to": 1420.9,
+   "scale": 1.1
+  },
+  {
+   "at": [
+    50.08806,
+    14.40389
+   ],
+   "from": 1648.5,
+   "to": 1648.9,
+   "scale": 0.9
+  },
+  {
+   "at": [
+    50.086,
+    14.4135
+   ],
+   "from": 1648.55,
+   "to": 1648.85,
+   "scale": 0.7
+  },
+  {
+   "at": [
+    50.07556,
+    14.44583
+   ],
+   "from": 1945.12,
+   "to": 1945.4,
+   "scale": 1.0
+  },
+  {
+   "at": [
+    50.0757,
+    14.4195
+   ],
+   "from": 1945.12,
+   "to": 1945.4,
+   "scale": 0.8
+  },
+  {
+   "at": [
+    50.087,
+    14.4207
+   ],
+   "from": 1945.35,
+   "to": 1945.5,
+   "scale": 0.8
+  }
+ ],
+ "camps": [
+  {
+   "poly": [
+    [
+     50.095,
+     14.4348
+    ],
+    [
+     50.09633,
+     14.43293
+    ],
+    [
+     50.09715,
+     14.42803
+    ],
+    [
+     50.09715,
+     14.42197
+    ],
+    [
+     50.09633,
+     14.41707
+    ],
+    [
+     50.095,
+     14.4152
+    ],
+    [
+     50.09367,
+     14.41707
+    ],
+    [
+     50.09285,
+     14.42197
+    ],
+    [
+     50.09285,
+     14.42803
+    ],
+    [
+     50.09367,
+     14.43293
+    ]
+   ],
+   "from": 1420.45,
+   "to": 1420.55,
+   "count": 160
+  }
+ ],
+ "open_spaces": [
+  {
+   "name": "Petřín (≈)",
+   "poly": [
+    [
+     50.088,
+     14.387
+    ],
+    [
+     50.087,
+     14.399
+    ],
+    [
+     50.083,
+     14.402
+    ],
+    [
+     50.08,
+     14.401
+    ],
+    [
+     50.079,
+     14.396
+    ],
+    [
+     50.082,
+     14.39
+    ]
+   ]
+  },
+  {
+   "name": "Letná plain (≈)",
+   "poly": [
+    [
+     50.096,
+     14.412
+    ],
+    [
+     50.0985,
+     14.416
+    ],
+    [
+     50.0975,
+     14.43
+    ],
+    [
+     50.095,
+     14.429
+    ],
+    [
+     50.0945,
+     14.415
+    ]
+   ]
+  },
+  {
+   "name": "Stromovka (≈)",
+   "poly": [
+    [
+     50.104,
+     14.405
+    ],
+    [
+     50.108,
+     14.41
+    ],
+    [
+     50.107,
+     14.43
+    ],
+    [
+     50.1035,
+     14.428
+    ]
+   ]
+  },
+  {
+   "name": "Vítkov hill (≈)",
+   "poly": [
+    [
+     50.0888,
+     14.4605
+    ],
+    [
+     50.08948,
+     14.45928
+    ],
+    [
+     50.08997,
+     14.45595
+    ],
+    [
+     50.09016,
+     14.4514
+    ],
+    [
+     50.08997,
+     14.44685
+    ],
+    [
+     50.08948,
+     14.44352
+    ],
+    [
+     50.0888,
+     14.4423
+    ],
+    [
+     50.08812,
+     14.44352
+    ],
+    [
+     50.08763,
+     14.44685
+    ],
+    [
+     50.08744,
+     14.4514
+    ],
+    [
+     50.08763,
+     14.45595
+    ],
+    [
+     50.08812,
+     14.45928
+    ]
+   ]
+  },
+  {
+   "name": "Old Town Square (≈)",
+   "poly": [
+    [
+     50.0875,
+     14.42154
+    ],
+    [
+     50.08779,
+     14.42135
+    ],
+    [
+     50.08797,
+     14.42086
+    ],
+    [
+     50.08797,
+     14.42026
+    ],
+    [
+     50.08779,
+     14.41977
+    ],
+    [
+     50.0875,
+     14.41958
+    ],
+    [
+     50.08721,
+     14.41977
+    ],
+    [
+     50.08703,
+     14.42026
+    ],
+    [
+     50.08703,
+     14.42086
+    ],
+    [
+     50.08721,
+     14.42135
+    ]
+   ]
+  },
+  {
+   "name": "Wenceslas Square (≈)",
+   "poly": [
+    [
+     50.0837,
+     14.42379
+    ],
+    [
+     50.0798,
+     14.43029
+    ],
+    [
+     50.0794,
+     14.42971
+    ],
+    [
+     50.0833,
+     14.42321
+    ]
+   ]
+  },
+  {
+   "name": "Charles Square (≈)",
+   "poly": [
+    [
+     50.0771,
+     14.42084
+    ],
+    [
+     50.0737,
+     14.42004
+    ],
+    [
+     50.0739,
+     14.41796
+    ],
+    [
+     50.0773,
+     14.41876
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "text": {
+    "en": "VLTAVA",
+    "tr": "VLTAVA"
+   },
+   "at": [
+    50.08,
+    14.411
+   ],
+   "kind": "water",
+   "to": 1347
+  },
+  {
+   "text": {
+    "en": "VLTAVA",
+    "tr": "VLTAVA"
+   },
+   "at": [
+    50.07,
+    14.413
+   ],
+   "kind": "water",
+   "from": 1874,
+   "to": 1938
+  },
+  {
+   "text": {
+    "en": "Prague Castle",
+    "tr": "Prag Kalesi"
+   },
+   "at": [
+    50.0905,
+    14.4
+   ],
+   "kind": "place",
+   "from": 870,
+   "to": 899,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "St Vitus",
+    "tr": "Aziz Vitus"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "kind": "place",
+   "from": 900,
+   "to": 934,
+   "lift_m": 25
+  },
+  {
+   "text": {
+    "en": "Market town",
+    "tr": "Pazar kasabası"
+   },
+   "at": [
+    50.0875,
+    14.42056
+   ],
+   "kind": "place",
+   "from": 973,
+   "to": 1059,
+   "now": {
+    "en": "Old Town Square",
+    "tr": "Eski Şehir Meydanı"
+   }
+  },
+  {
+   "text": {
+    "en": "Vyšehrad",
+    "tr": "Vyšehrad"
+   },
+   "at": [
+    50.06417,
+    14.41944
+   ],
+   "kind": "place",
+   "from": 1060,
+   "to": 1139,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Judith Bridge",
+    "tr": "Judith Köprüsü"
+   },
+   "at": [
+    50.08639,
+    14.41194
+   ],
+   "kind": "place",
+   "from": 1158,
+   "to": 1229,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Old Town moat",
+    "tr": "Eski Şehir hendeği"
+   },
+   "at": [
+    50.0836,
+    14.4228
+   ],
+   "kind": "place",
+   "from": 1230,
+   "to": 1256,
+   "now": {
+    "en": "Národní, Na Příkopě, Revoluční",
+    "tr": "Národní, Na Příkopě, Revoluční"
+   }
+  },
+  {
+   "text": {
+    "en": "Lesser Town",
+    "tr": "Küçük Şehir"
+   },
+   "at": [
+    50.08806,
+    14.40389
+   ],
+   "kind": "place",
+   "from": 1257,
+   "to": 1269,
+   "now": {
+    "en": "Malá Strana",
+    "tr": "Malá Strana"
+   }
+  },
+  {
+   "text": {
+    "en": "Jewish Town",
+    "tr": "Yahudi Mahallesi"
+   },
+   "at": [
+    50.08972,
+    14.41861
+   ],
+   "kind": "place",
+   "from": 1270,
+   "to": 1319,
+   "now": {
+    "en": "Josefov",
+    "tr": "Josefov"
+   }
+  },
+  {
+   "text": {
+    "en": "Hradčany",
+    "tr": "Hradčany"
+   },
+   "at": [
+    50.089,
+    14.393
+   ],
+   "kind": "place",
+   "from": 1320,
+   "to": 1337
+  },
+  {
+   "text": {
+    "en": "Old Town Hall",
+    "tr": "Eski Belediye"
+   },
+   "at": [
+    50.087,
+    14.4207
+   ],
+   "kind": "place",
+   "from": 1338,
+   "to": 1343,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "St Vitus Cathedral",
+    "tr": "Aziz Vitus Katedrali"
+   },
+   "at": [
+    50.0909,
+    14.4006
+   ],
+   "kind": "place",
+   "from": 1344,
+   "to": 1347,
+   "lift_m": 60
+  },
+  {
+   "text": {
+    "en": "Horse Market",
+    "tr": "At Pazarı"
+   },
+   "at": [
+    50.08139,
+    14.4275
+   ],
+   "kind": "place",
+   "from": 1348,
+   "to": 1356,
+   "now": {
+    "en": "Wenceslas Square",
+    "tr": "Venceslas Meydanı"
+   }
+  },
+  {
+   "text": {
+    "en": "Cattle Market",
+    "tr": "Sığır Pazarı"
+   },
+   "at": [
+    50.0757,
+    14.4195
+   ],
+   "kind": "place",
+   "from": 1348,
+   "to": 1356,
+   "now": {
+    "en": "Charles Square",
+    "tr": "Karl Meydanı"
+   }
+  },
+  {
+   "text": {
+    "en": "Hay Market",
+    "tr": "Saman Pazarı"
+   },
+   "at": [
+    50.0855,
+    14.4305
+   ],
+   "kind": "place",
+   "from": 1348,
+   "to": 1356,
+   "now": {
+    "en": "Senovážné náměstí",
+    "tr": "Senovážné náměstí"
+   }
+  },
+  {
+   "text": {
+    "en": "Stone Bridge",
+    "tr": "Taş Köprü"
+   },
+   "at": [
+    50.08639,
+    14.41194
+   ],
+   "kind": "place",
+   "from": 1357,
+   "to": 1359,
+   "now": {
+    "en": "Charles Bridge",
+    "tr": "Karl Köprüsü"
+   },
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Royal vineyards",
+    "tr": "Kraliyet bağları"
+   },
+   "at": [
+    50.07556,
+    14.44583
+   ],
+   "kind": "place",
+   "from": 1360,
+   "to": 1409,
+   "now": {
+    "en": "Vinohrady",
+    "tr": "Vinohrady"
+   }
+  },
+  {
+   "text": {
+    "en": "Hunger Wall",
+    "tr": "Açlık Duvarı"
+   },
+   "at": [
+    50.0825,
+    14.3975
+   ],
+   "kind": "place",
+   "from": 1360,
+   "to": 1409
+  },
+  {
+   "text": {
+    "en": "Old Town Hall",
+    "tr": "Eski Belediye"
+   },
+   "at": [
+    50.087,
+    14.4207
+   ],
+   "kind": "place",
+   "from": 1410,
+   "to": 1418,
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "New Town Hall",
+    "tr": "Yeni Belediye"
+   },
+   "at": [
+    50.0773,
+    14.4197
+   ],
+   "kind": "place",
+   "from": 1419,
+   "to": 1419.9,
+   "lift_m": 50
+  },
+  {
+   "text": {
+    "en": "Vítkov Hill",
+    "tr": "Vítkov Tepesi"
+   },
+   "at": [
+    50.0888,
+    14.4514
+   ],
+   "kind": "place",
+   "from": 1420,
+   "to": 1474,
+   "now": {
+    "en": "Žižkov, named after Jan Žižka",
+    "tr": "Žižkov, adını Jan Žižka'dan alır"
+   }
+  },
+  {
+   "text": {
+    "en": "New Tower",
+    "tr": "Yeni Kule"
+   },
+   "at": [
+    50.0872,
+    14.4278
+   ],
+   "kind": "place",
+   "from": 1475,
+   "to": 1540,
+   "now": {
+    "en": "Powder Tower",
+    "tr": "Barut Kulesi"
+   },
+   "lift_m": 70
+  },
+  {
+   "text": {
+    "en": "Lesser Town",
+    "tr": "Küçük Şehir"
+   },
+   "at": [
+    50.08806,
+    14.40389
+   ],
+   "kind": "place",
+   "from": 1541,
+   "to": 1597
+  },
+  {
+   "text": {
+    "en": "Hradčany",
+    "tr": "Hradčany"
+   },
+   "at": [
+    50.089,
+    14.393
+   ],
+   "kind": "place",
+   "from": 1598,
+   "to": 1617
+  },
+  {
+   "text": {
+    "en": "Prague Castle",
+    "tr": "Prag Kalesi"
+   },
+   "at": [
+    50.0905,
+    14.4
+   ],
+   "kind": "place",
+   "from": 1618,
+   "to": 1620.9,
+   "lift_m": 30
+  },
+  {
+   "text": {
+    "en": "Charles Bridge",
+    "tr": "Karl Köprüsü"
+   },
+   "at": [
+    50.08639,
+    14.41194
+   ],
+   "kind": "place",
+   "from": 1648,
+   "to": 1653,
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Vyšehrad",
+    "tr": "Vyšehrad"
+   },
+   "at": [
+    50.06417,
+    14.41944
+   ],
+   "kind": "place",
+   "from": 1654,
+   "to": 1688,
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Jewish Town",
+    "tr": "Yahudi Mahallesi"
+   },
+   "at": [
+    50.08972,
+    14.41861
+   ],
+   "kind": "place",
+   "from": 1689,
+   "to": 1699
+  },
+  {
+   "text": {
+    "en": "Stone Bridge",
+    "tr": "Taş Köprü"
+   },
+   "at": [
+    50.08639,
+    14.41194
+   ],
+   "kind": "place",
+   "from": 1700,
+   "to": 1783,
+   "now": {
+    "en": "Charles Bridge",
+    "tr": "Karl Köprüsü"
+   },
+   "lift_m": 10
+  },
+  {
+   "text": {
+    "en": "Old Town",
+    "tr": "Eski Şehir"
+   },
+   "at": [
+    50.0875,
+    14.42056
+   ],
+   "kind": "place",
+   "from": 1784,
+   "to": 1816,
+   "now": {
+    "en": "Staré Město",
+    "tr": "Staré Město"
+   }
+  },
+  {
+   "text": {
+    "en": "New Town",
+    "tr": "Yeni Şehir"
+   },
+   "at": [
+    50.07667,
+    14.42639
+   ],
+   "kind": "place",
+   "from": 1784,
+   "to": 1816,
+   "now": {
+    "en": "Nové Město",
+    "tr": "Nové Město"
+   }
+  },
+  {
+   "text": {
+    "en": "Karlín",
+    "tr": "Karlín"
+   },
+   "at": [
+    50.0925,
+    14.45
+   ],
+   "kind": "place",
+   "from": 1817
+  },
+  {
+   "text": {
+    "en": "Prague station",
+    "tr": "Prag istasyonu"
+   },
+   "at": [
+    50.08806,
+    14.43306
+   ],
+   "kind": "place",
+   "from": 1845.6,
+   "to": 1873,
+   "now": {
+    "en": "Masaryk station",
+    "tr": "Masaryk istasyonu"
+   },
+   "lift_m": 20
+  },
+  {
+   "text": {
+    "en": "Smíchov",
+    "tr": "Smíchov"
+   },
+   "at": [
+    50.0705,
+    14.404
+   ],
+   "kind": "place",
+   "from": 1845
+  },
+  {
+   "text": {
+    "en": "Vinohrady",
+    "tr": "Vinohrady"
+   },
+   "at": [
+    50.07556,
+    14.44583
+   ],
+   "kind": "place",
+   "from": 1874
+  },
+  {
+   "text": {
+    "en": "Žižkov",
+    "tr": "Žižkov"
+   },
+   "at": [
+    50.08528,
+    14.47139
+   ],
+   "kind": "place",
+   "from": 1881
+  },
+  {
+   "text": {
+    "en": "National Theatre",
+    "tr": "Ulusal Tiyatro"
+   },
+   "at": [
+    50.08111,
+    14.41361
+   ],
+   "kind": "place",
+   "from": 1881.4,
+   "to": 1890,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Petřín Tower",
+    "tr": "Petřín Kulesi"
+   },
+   "at": [
+    50.08354,
+    14.39505
+   ],
+   "kind": "place",
+   "from": 1891,
+   "to": 1892,
+   "lift_m": 90
+  },
+  {
+   "text": {
+    "en": "National Museum",
+    "tr": "Ulusal Müze"
+   },
+   "at": [
+    50.078831,
+    14.430797
+   ],
+   "kind": "place",
+   "from": 1891,
+   "to": 1892,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Holešovice",
+    "tr": "Holešovice"
+   },
+   "at": [
+    50.103,
+    14.438
+   ],
+   "kind": "place",
+   "from": 1884
+  },
+  {
+   "text": {
+    "en": "Josefov",
+    "tr": "Josefov"
+   },
+   "at": [
+    50.08972,
+    14.41861
+   ],
+   "kind": "place",
+   "from": 1893
+  },
+  {
+   "text": {
+    "en": "Wenceslas Square",
+    "tr": "Venceslas Meydanı"
+   },
+   "at": [
+    50.08139,
+    14.4275
+   ],
+   "kind": "place",
+   "from": 1918,
+   "to": 1921
+  },
+  {
+   "text": {
+    "en": "Vyšehrad",
+    "tr": "Vyšehrad"
+   },
+   "at": [
+    50.06417,
+    14.41944
+   ],
+   "kind": "place",
+   "from": 1922
+  },
+  {
+   "text": {
+    "en": "Malá Strana",
+    "tr": "Malá Strana"
+   },
+   "at": [
+    50.08806,
+    14.40389
+   ],
+   "kind": "place",
+   "from": 1922
+  },
+  {
+   "text": {
+    "en": "Hradčany",
+    "tr": "Hradčany"
+   },
+   "at": [
+    50.089,
+    14.393
+   ],
+   "kind": "place",
+   "from": 1922
+  },
+  {
+   "text": {
+    "en": "Bombed house",
+    "tr": "Bombalanan ev"
+   },
+   "at": [
+    50.07556,
+    14.41417
+   ],
+   "kind": "place",
+   "from": 1945,
+   "to": 1947,
+   "now": {
+    "en": "Dancing House",
+    "tr": "Dans Eden Ev"
+   }
+  },
+  {
+   "text": {
+    "en": "Wenceslas Square",
+    "tr": "Venceslas Meydanı"
+   },
+   "at": [
+    50.08139,
+    14.4275
+   ],
+   "kind": "place",
+   "from": 1968,
+   "to": 1972
+  },
+  {
+   "text": {
+    "en": "Gottwald Bridge",
+    "tr": "Gottwald Köprüsü"
+   },
+   "at": [
+    50.065844,
+    14.430483
+   ],
+   "kind": "place",
+   "from": 1973,
+   "to": 1973.9,
+   "now": {
+    "en": "Nusle Bridge",
+    "tr": "Nusle Köprüsü"
+   }
+  },
+  {
+   "text": {
+    "en": "Jižní Město",
+    "tr": "Jižní Město"
+   },
+   "at": [
+    50.03,
+    14.51
+   ],
+   "kind": "place",
+   "from": 1974
+  },
+  {
+   "text": {
+    "en": "Wenceslas Square",
+    "tr": "Venceslas Meydanı"
+   },
+   "at": [
+    50.08139,
+    14.4275
+   ],
+   "kind": "place",
+   "from": 1985,
+   "to": 1991
+  },
+  {
+   "text": {
+    "en": "Dancing House",
+    "tr": "Dans Eden Ev"
+   },
+   "at": [
+    50.07556,
+    14.41417
+   ],
+   "kind": "place",
+   "from": 1992,
+   "to": 2001,
+   "lift_m": 40
+  },
+  {
+   "text": {
+    "en": "Žižkov Tower",
+    "tr": "Žižkov Kulesi"
+   },
+   "at": [
+    50.08083,
+    14.45139
+   ],
+   "kind": "place",
+   "from": 2002,
+   "lift_m": 260
+  }
+ ],
+ "youtube": {
+  "title": {
+   "en": "Prague: 1,150 Years in 9 Minutes (3D Timelapse, No AI)",
+   "tr": "Prag: 9 Dakikada 1.150 Yıl (3D Timelapse, Yapay Zekâ Yok)"
+  },
+  "description": {
+   "en": "Around 880 Prince Bořivoj founded a castle on a hill above the Vltava. Watch Prague grow from that castle and a market town across the river into the Old Town, the Lesser Town and Hradčany, then Charles IV's capital with its New Town, university, cathedral and stone bridge. See the Hussite defenestration of 1419 and the battle of Vítkov Hill, the fires of 1541 and 1689, the Swedes stopped on Charles Bridge in 1648, the four towns united in 1784, the railway, the walls coming down in 1874, Greater Prague in 1922, the war, the panel estates, 1968, 1989 — up to about 1.41 million people today, with the year and the population on screen.",
+   "tr": "880 civarında Prens Bořivoj, Vltava'nın üstündeki bir tepede bir kale kurdu. Prag'ın bu kaleden ve nehrin karşısındaki pazar kasabasından Eski Şehir'e, Küçük Şehir'e ve Hradčany'ye, sonra Yeni Şehir'i, üniversitesi, katedrali ve taş köprüsüyle IV. Karl'ın başkentine dönüşmesini izleyin. 1419 Husçu defenestrasyonunu ve Vítkov Tepesi muharebesini, 1541 ve 1689 yangınlarını, 1648'de Karl Köprüsü'nde durdurulan İsveçlileri, 1784'te birleşen dört kasabayı, demiryolunu, 1874'te yıkılan surları, 1922'de Büyük Prag'ı, savaşı, panel siteleri, 1968'i, 1989'u görün — bugünkü yaklaşık 1,41 milyon kişiye kadar; yıl ve nüfus ekranda."
+  },
+  "tags": [
+   "prague history",
+   "history of prague",
+   "praha",
+   "3d timelapse",
+   "city evolution",
+   "how prague grew",
+   "prague timelapse",
+   "charles bridge",
+   "prague castle",
+   "czech history",
+   "old town prague",
+   "charles iv",
+   "urban history",
+   "no ai"
+  ],
+  "hashtags": [
+   "#Prague",
+   "#History",
+   "#Timelapse"
+  ],
+  "playlist": {
+   "en": "Cities of Europe",
+   "tr": "Avrupa Şehirleri"
+  },
+  "thumb": {
+   "line1": {
+    "en": "Prague",
+    "tr": "Prag"
+   },
+   "line2": {
+    "en": "880 → TODAY",
+    "tr": "880 → BUGÜN"
+   },
+   "line3": {
+    "en": "From hilltop castle to capital",
+    "tr": "Tepedeki kaleden başkente"
+   },
+   "extra": "&pitch=30&az=90&cam=50.0880,14.4060,3.2",
+   "style": "v2"
+  }
+ },
+ "sources": [
+  {
+   "title": "History of Prague — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Prague"
+  },
+  {
+   "title": "Timeline of Prague — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_Prague"
+  },
+  {
+   "title": "Prague: History — Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Prague/History"
+  },
+  {
+   "title": "Prague: Evolution of the modern city — Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Prague/Evolution-of-the-modern-city"
+  },
+  {
+   "title": "History of Prague — Prague City Archives (praha.eu)",
+   "url": "https://praha.eu/w/index_1520554"
+  },
+  {
+   "title": "History of Prague Castle — Prague Castle Administration",
+   "url": "https://hrad.cz/en/prague-castle-for-visitors/other/history-of-prague-castle-10340"
+  },
+  {
+   "title": "St. Vitus Cathedral — Prague Castle Administration",
+   "url": "https://hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/st.-vitus-cathedral-10330"
+  },
+  {
+   "title": "Prague Castle — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Prague_Castle"
+  },
+  {
+   "title": "Vyšehrad — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad"
+  },
+  {
+   "title": "Malá Strana — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Mal%C3%A1_Strana"
+  },
+  {
+   "title": "Old Town (Prague) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Town_(Prague)"
+  },
+  {
+   "title": "Old Town Square — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Old_Town_Square"
+  },
+  {
+   "title": "Charles Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+  },
+  {
+   "title": "New Town, Prague — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/New_Town,_Prague"
+  },
+  {
+   "title": "Charles Square — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charles_Square"
+  },
+  {
+   "title": "Wenceslas Square — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wenceslas_Square"
+  },
+  {
+   "title": "Hunger Wall — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hunger_Wall"
+  },
+  {
+   "title": "Petřín — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pet%C5%99%C3%ADn"
+  },
+  {
+   "title": "Powder Tower, Prague — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Powder_Tower,_Prague"
+  },
+  {
+   "title": "Josefov — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Josefov"
+  },
+  {
+   "title": "Old New Synagogue — Wikiwand",
+   "url": "https://wikiwand.com/en/articles/Old_New_Synagogue"
+  },
+  {
+   "title": "Praha Masarykovo nádraží — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Praha_Masarykovo_n%C3%A1dra%C5%BE%C3%AD"
+  },
+  {
+   "title": "July 20, 1874: demolition of Prague fortification walls begins — Radio Prague International",
+   "url": "https://english.radio.cz/node/8823264"
+  },
+  {
+   "title": "Petřín Lookout Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pet%C5%99%C3%ADn_Lookout_Tower"
+  },
+  {
+   "title": "National Theatre (Prague) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/National_Theatre_(Prague)"
+  },
+  {
+   "title": "National Museum (Prague) — Wikiwand",
+   "url": "https://wikiwand.com/en/National_Museum_(Prague)"
+  },
+  {
+   "title": "Žižkov Television Tower — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C5%BDi%C5%BEkov_Television_Tower"
+  },
+  {
+   "title": "Line C (Prague Metro) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Line_C_(Prague_Metro)"
+  },
+  {
+   "title": "Nusle Bridge — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nusle_Bridge"
+  },
+  {
+   "title": "Bombing of Prague — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Bombing_of_Prague"
+  },
+  {
+   "title": "Dancing House — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dancing_House"
+  },
+  {
+   "title": "Jižní Město — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ji%C5%BEn%C3%AD_M%C4%9Bsto"
+  },
+  {
+   "title": "Žižkov — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/%C5%BDi%C5%BEkov"
+  },
+  {
+   "title": "Vinohrady — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vinohrady"
+  },
+  {
+   "title": "Battle of Vítkov Hill — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_V%C3%ADtkov_Hill"
+  },
+  {
+   "title": "Battle of Prague (1648) — Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1648)"
+  },
+  {
+   "title": "Prague - growing in fits and starts — Radio Prague International",
+   "url": "https://english.radio.cz/node/8301613"
+  },
+  {
+   "title": "Population movement in Prague, 1st half of 2026 — Czech Statistical Office",
+   "url": "https://csu.gov.cz/pha/pohyb-obyvatelstva-v-hl-m-praze-v-1-pololeti-2026"
+  },
+  {
+   "title": "Praha (Prague) population — City Population (data: Czech Statistical Office)",
+   "url": "https://www.citypopulation.de/en/czechrep/praha/CZ0100__praha/"
+  },
+  {
+   "title": "Population of the larger urban areas 500–1500 (after McEvedy) — Fordham Internet Medieval Sourcebook",
+   "url": "https://sourcebooks.web.fordham.edu/source/europe-populationurbanareas500-1500.asp"
+  },
+  {
+   "title": "Prague, 1347–1437 — The Metropolitan Museum of Art",
+   "url": "https://metmuseum.org/toah/hd/prag/hd_prag.htm"
+  }
+ ]
+}
