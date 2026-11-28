@@ -1008,18 +1008,6 @@
   "music": "piano-2026-11-09"
  },
  {
-  "key": "prague:short:whole",
-  "slug": "prague",
-  "kind": "short",
-  "video_id": "8KLARsI353E",
-  "link": "https://youtube.com/shorts/8KLARsI353E",
-  "title": "Prague: 1,150 Years in 50 Seconds #shorts",
-  "publish_at": "2026-12-05T23:30:00Z",
-  "uploaded": "2026-11-28T09:11:14Z",
-  "thumbnail": "none",
-  "playlist": "added"
- },
- {
   "key": "prague:short:charles-iv",
   "slug": "prague",
   "kind": "short",
@@ -1070,6 +1058,35 @@
   "thumbnail": "ok",
   "playlist": "added",
   "replaces": "pUeRT_yR8-4",
+  "music": "piano-2026-11-09"
+ },
+ {
+  "key": "prague:short:whole:replaced",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "8KLARsI353E",
+  "link": "https://youtube.com/shorts/8KLARsI353E",
+  "title": "Prague: 1,150 Years in 50 Seconds #shorts",
+  "publish_at": "2026-12-05T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:14Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaced_by": "TxK92PM3yzU",
+  "unscheduled": true,
+  "reason": "old music (remusic)"
+ },
+ {
+  "key": "prague:short:whole",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "TxK92PM3yzU",
+  "link": "https://youtube.com/shorts/TxK92PM3yzU",
+  "title": "Prague: 1,150 Years in 50 Seconds #shorts",
+  "publish_at": "2026-12-05T23:30:00Z",
+  "uploaded": "2026-11-28T17:01:34Z",
+  "thumbnail": "none",
+  "playlist": "added",
+  "replaces": "8KLARsI353E",
   "music": "piano-2026-11-09"
  }
 ]
