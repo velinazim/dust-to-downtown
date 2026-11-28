@@ -1018,5 +1018,41 @@
   "uploaded": "2026-11-28T08:53:12Z",
   "thumbnail": "ok",
   "playlist": "added"
+ },
+ {
+  "key": "prague:short:whole",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "8KLARsI353E",
+  "link": "https://youtube.com/shorts/8KLARsI353E",
+  "title": "Prague: 1,150 Years in 50 Seconds #shorts",
+  "publish_at": "2026-12-05T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:14Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "prague:short:charles-iv",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "i_CsOJ_wV78",
+  "link": "https://youtube.com/shorts/i_CsOJ_wV78",
+  "title": "How Charles IV Rebuilt Prague: 1344–1410 in 50 Seconds #shorts",
+  "publish_at": "2026-12-06T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:18Z",
+  "thumbnail": "none",
+  "playlist": "added"
+ },
+ {
+  "key": "prague:short:defenestrations",
+  "slug": "prague",
+  "kind": "short",
+  "video_id": "dGplC_hBlMc",
+  "link": "https://youtube.com/shorts/dGplC_hBlMc",
+  "title": "Prague's Defenestrations: From 1419 to the Swedes of 1648 in 50 Seconds #shorts",
+  "publish_at": "2026-12-07T23:30:00Z",
+  "uploaded": "2026-11-28T09:11:22Z",
+  "thumbnail": "none",
+  "playlist": "added"
  }
 ]
